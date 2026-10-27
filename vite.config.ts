@@ -6,7 +6,11 @@ import { defineConfig } from 'vitest/config'
 
 const pkg = JSON.parse(readFileSync(new URL('./package.json', import.meta.url), 'utf8')) as { version: string }
 
+// GitHub Pages serwuje aplikację pod /eng-app/ — ścieżkę podaje workflow (BASE_PATH); lokalnie i na innych hostingach '/'.
+const base = process.env.BASE_PATH ?? '/'
+
 export default defineConfig({
+  base,
   define: {
     __APP_VERSION__: JSON.stringify(pkg.version),
   },
@@ -22,8 +26,8 @@ export default defineConfig({
         short_name: 'Speak',
         description: 'Nauka mówienia po angielsku — gotowe zwroty, powtórki i mówienie na głos.',
         lang: 'pl',
-        start_url: '/',
-        scope: '/',
+        start_url: base,
+        scope: base,
         display: 'standalone',
         orientation: 'portrait',
         theme_color: '#7c3aed',

@@ -1,3 +1,17 @@
+# Publikacja — najprostsza droga: GitHub Pages (bez Cloudflare)
+
+1. Wejdź na https://github.com/smashytrend-crypto/eng-app → **Settings** (Ustawienia).
+2. Na dole strony „General” → **Change visibility** → **Make public** → potwierdź.
+   (Darmowe GitHub Pages działa tylko dla publicznych projektów. Widać będzie kod i treści aplikacji —
+   Twoje postępy i tak są tylko w telefonie, nikt ich nie zobaczy.)
+3. W menu po lewej **Pages** → w „Source” wybierz **GitHub Actions**.
+4. Wejdź w zakładkę **Actions** → „Publikacja (GitHub Pages)” → **Run workflow** (albo poczekaj na mój
+   następny push). Po ok. 2–3 minutach aplikacja jest pod adresem:
+   **https://smashytrend-crypto.github.io/eng-app/**
+5. Każda kolejna zmiana wypchnięta na `main` publikuje się sama.
+
+---
+
 # Jak opublikować aplikację (krok po kroku)
 
 Aplikacja jest hostowana za darmo na **Cloudflare Pages**. Robisz to **raz** — potem każda zmiana
