@@ -1,0 +1,876 @@
+{
+  "module": {
+    "id": "s2.career",
+    "stage": 2,
+    "order": 3,
+    "title": "Plany zawodowe",
+    "titleEn": "Career plans",
+    "description": "Zmiana pracy, kursy, awans, oszczędzanie i marzenia zawodowe: would like, going to i „gdybym miał więcej czasu…”.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s2.career.change-jobs",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 1,
+      "en": "I'd like to change jobs.",
+      "pl": "Chciałbym zmienić pracę.",
+      "alternatives": [
+        "I want to change jobs.",
+        "I'd like to change my job."
+      ],
+      "usage": "Mówisz o planach zawodowych.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd like to change jobs next year. Something with better hours.",
+          "pl": "W przyszłym roku chciałbym zmienić pracę. Coś z lepszymi godzinami."
+        }
+      ],
+      "note": "„Zmienić pracę” = „change jobs” (liczba mnoga!) albo „change my job”.",
+      "tags": [
+        "work",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.thinking-course",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 2,
+      "en": "I'm thinking about doing a course.",
+      "pl": "Myślę o zrobieniu kursu.",
+      "alternatives": [
+        "I'm thinking of doing a course."
+      ],
+      "usage": "Mówisz o planie, który jeszcze nie jest pewny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm thinking about doing a course in logistics.",
+          "pl": "Myślę o zrobieniu kursu z logistyki."
+        }
+      ],
+      "note": "Po „thinking about” czasownik z „-ing”: about doing. Kurs się „robi” — „do a course”, nie „make”.",
+      "tags": [
+        "work",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.saving-for-car",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 3,
+      "en": "I'm saving up for a car.",
+      "pl": "Odkładam na samochód.",
+      "alternatives": [
+        "I'm saving for a car.",
+        "I'm saving money for a car."
+      ],
+      "usage": "Mówisz, na co zbierasz pieniądze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm saving up for a car, so no crazy weekends this month.",
+          "pl": "Odkładam na samochód, więc w tym miesiącu bez szalonych weekendów."
+        }
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.apply-new-job",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 4,
+      "en": "I'm going to apply for a new job.",
+      "pl": "Zamierzam aplikować do nowej pracy.",
+      "alternatives": [
+        "I'm going to look for a new job."
+      ],
+      "usage": "Mówisz o zamiarze szukania pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going to apply for a new job after the summer.",
+          "pl": "Po wakacjach zamierzam aplikować do nowej pracy."
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:going-to"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.work-abroad-year",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 5,
+      "en": "I'd love to work abroad for a year.",
+      "pl": "Chciałbym popracować rok za granicą.",
+      "alternatives": [
+        "I'd like to work abroad for a year."
+      ],
+      "usage": "Marzenie zawodowe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd love to work abroad for a year — maybe in Holland.",
+          "pl": "Chciałbym popracować rok za granicą — może w Holandii."
+        }
+      ],
+      "tags": [
+        "work",
+        "travel",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.what-in-future",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 6,
+      "en": "What do you want to do in the future?",
+      "pl": "Co chcesz robić w przyszłości?",
+      "alternatives": [
+        "What do you want to do in future?"
+      ],
+      "usage": "Pytasz o czyjeś plany zawodowe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What do you want to do in the future? — No idea yet!",
+          "pl": "Co chcesz robić w przyszłości? — Jeszcze nie mam pojęcia!"
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.not-sure-yet",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 7,
+      "en": "I'm not sure yet.",
+      "pl": "Jeszcze nie wiem.",
+      "alternatives": [
+        "I don't know yet.",
+        "I haven't decided yet."
+      ],
+      "usage": "Gdy nie masz jeszcze decyzji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you going to take the job? — I'm not sure yet.",
+          "pl": "Weźmiesz tę pracę? — Jeszcze nie wiem."
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.english-needs-better",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 8,
+      "en": "My English needs to be better for that.",
+      "pl": "Do tego mój angielski musi być lepszy.",
+      "alternatives": [
+        "My English has to be better for that.",
+        "I need better English for that."
+      ],
+      "usage": "Gdy plan wymaga lepszego angielskiego.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd like to work in Norway, but my English needs to be better for that.",
+          "pl": "Chciałbym pracować w Norwegii, ale do tego mój angielski musi być lepszy."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.thats-the-plan",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 9,
+      "en": "That's the plan, anyway.",
+      "pl": "Taki jest plan, przynajmniej na razie.",
+      "alternatives": [
+        "That's the plan.",
+        "Well, that's the plan."
+      ],
+      "usage": "Kończysz opowieść o planach z lekkim dystansem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Save some money, then go travelling. That's the plan, anyway.",
+          "pl": "Odłożyć trochę kasy, potem podróżować. Taki jest plan, przynajmniej na razie."
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.interview-next-week",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 10,
+      "en": "I've got a job interview next week.",
+      "pl": "W przyszłym tygodniu mam rozmowę o pracę.",
+      "alternatives": [
+        "I have a job interview next week.",
+        "I've got an interview next week."
+      ],
+      "usage": "Mówisz o ustalonym terminie rozmowy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got a job interview next week. I'm a bit nervous.",
+          "pl": "W przyszłym tygodniu mam rozmowę o pracę. Trochę się stresuję."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.wish-me-luck",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 11,
+      "en": "Wish me luck!",
+      "pl": "Trzymaj kciuki!",
+      "alternatives": [
+        "Keep your fingers crossed for me!",
+        "Fingers crossed!"
+      ],
+      "usage": "Przed ważną sprawą — egzaminem, rozmową, występem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My interview is tomorrow. Wish me luck! — Good luck!",
+          "pl": "Jutro mam rozmowę. Trzymaj kciuki! — Powodzenia!"
+        }
+      ],
+      "note": "„Trzymać kciuki” = „keep your fingers crossed” — po angielsku krzyżuje się palce, nie trzyma kciuków.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.good-luck-interview",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 12,
+      "en": "Good luck with the interview!",
+      "pl": "Powodzenia na rozmowie!",
+      "alternatives": [
+        "Good luck with your interview!",
+        "Good luck tomorrow!"
+      ],
+      "usage": "Życzysz komuś powodzenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Good luck with the interview! Let me know how it goes.",
+          "pl": "Powodzenia na rozmowie! Daj znać, jak poszło."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.forklift-licence",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 13,
+      "en": "I want to get a forklift licence.",
+      "pl": "Chcę zrobić uprawnienia na wózek widłowy.",
+      "alternatives": [
+        "I want to get my forklift licence."
+      ],
+      "usage": "Konkretny plan zawodowy w magazynie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I want to get a forklift licence — it means more money.",
+          "pl": "Chcę zrobić uprawnienia na wózek widłowy — to więcej kasy."
+        }
+      ],
+      "note": "UK: licence, US: license. „Zrobić prawo jazdy” = „get a driving licence”.",
+      "tags": [
+        "work",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.own-business",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 14,
+      "en": "Maybe I'll start my own business one day.",
+      "pl": "Może kiedyś założę własną firmę.",
+      "alternatives": [
+        "Maybe one day I'll start my own business."
+      ],
+      "usage": "Luźne marzenie o przyszłości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Maybe I'll start my own business one day — a gym, maybe.",
+          "pl": "Może kiedyś założę własną firmę — może siłownię."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.happy-for-now",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 15,
+      "en": "I'm happy where I am for now.",
+      "pl": "Na razie dobrze mi tam, gdzie jestem.",
+      "alternatives": [
+        "I'm happy where I am at the moment."
+      ],
+      "usage": "Gdy nie planujesz zmian.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you looking for something new? — Not really. I'm happy where I am for now.",
+          "pl": "Szukasz czegoś nowego? — Nie bardzo. Na razie dobrze mi tam, gdzie jestem."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.experience",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 16,
+      "en": "experience",
+      "pl": "doświadczenie",
+      "alternatives": [],
+      "usage": "Doświadczenie zawodowe albo przeżycie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got five years' experience in logistics.",
+          "pl": "Mam pięć lat doświadczenia w logistyce."
+        }
+      ],
+      "collocations": [
+        "work experience",
+        "five years' experience",
+        "no experience"
+      ],
+      "note": "Doświadczenie zawodowe jest niepoliczalne: „a lot of experience”, nie „experiences”.",
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.skills",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 17,
+      "en": "skills",
+      "pl": "umiejętności",
+      "alternatives": [],
+      "usage": "O tym, co umiesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I want to improve my English skills.",
+          "pl": "Chcę poprawić swój angielski."
+        }
+      ],
+      "collocations": [
+        "language skills",
+        "practical skills",
+        "improve my skills"
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.interview",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 18,
+      "en": "interview",
+      "pl": "rozmowa kwalifikacyjna; wywiad",
+      "alternatives": [],
+      "usage": "Rozmowa o pracę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How did the interview go?",
+          "pl": "Jak poszła rozmowa?"
+        }
+      ],
+      "collocations": [
+        "a job interview",
+        "have an interview",
+        "prepare for an interview"
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.apply",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 19,
+      "en": "apply",
+      "pl": "aplikować, składać podanie",
+      "alternatives": [],
+      "usage": "Ubieganie się o pracę albo kurs.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I applied for three jobs last week.",
+          "pl": "W zeszłym tygodniu złożyłem podania do trzech prac."
+        }
+      ],
+      "collocations": [
+        "apply for a job",
+        "apply online",
+        "apply to a company"
+      ],
+      "note": "„Apply FOR a job” (o stanowisko), „apply TO a company” (do firmy).",
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.promotion",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 20,
+      "en": "promotion",
+      "pl": "awans",
+      "alternatives": [],
+      "usage": "Wyższe stanowisko w pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm hoping for a promotion this year.",
+          "pl": "Liczę w tym roku na awans."
+        }
+      ],
+      "collocations": [
+        "get a promotion",
+        "a promotion at work",
+        "hope for a promotion"
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.cv",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 21,
+      "en": "CV",
+      "pl": "CV",
+      "alternatives": [],
+      "usage": "Dokument, który wysyłasz pracodawcy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you check my CV? My English is not perfect.",
+          "pl": "Możesz sprawdzić moje CV? Mój angielski nie jest idealny."
+        }
+      ],
+      "collocations": [
+        "send my CV",
+        "update my CV",
+        "a good CV"
+      ],
+      "note": "US: résumé (czyt. „rezjume”).",
+      "pronunciation": "Czytaj „si-wi”.",
+      "tags": [
+        "work",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.course",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 22,
+      "en": "course",
+      "pl": "kurs",
+      "alternatives": [],
+      "usage": "Szkolenie, nauka czegoś nowego.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm doing an online course in the evenings.",
+          "pl": "Wieczorami robię kurs online."
+        }
+      ],
+      "collocations": [
+        "do a course",
+        "an online course",
+        "a driving course"
+      ],
+      "note": "„Robić kurs” = „do a course” albo „take a course”. Nie „make a course”.",
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.goal",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 23,
+      "en": "goal",
+      "pl": "cel",
+      "alternatives": [],
+      "usage": "To, do czego dążysz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My goal is to speak English fluently by summer.",
+          "pl": "Moim celem jest mówić płynnie po angielsku do wakacji."
+        }
+      ],
+      "collocations": [
+        "my goal",
+        "a long-term goal",
+        "reach a goal"
+      ],
+      "pronunciation": "Czytaj „gołl”.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.fluent",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 24,
+      "en": "fluent",
+      "pl": "płynny (w języku)",
+      "alternatives": [],
+      "usage": "O swobodnym mówieniu w obcym języku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I want to be fluent by next summer.",
+          "pl": "Chcę mówić płynnie do przyszłego lata."
+        }
+      ],
+      "collocations": [
+        "fluent English",
+        "speak fluently",
+        "become fluent"
+      ],
+      "pronunciation": "Czytaj „fluent” z akcentem na „flu”.",
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.would-like-to",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 25,
+      "en": "I'd like to ___.",
+      "pl": "Chciałbym ___.",
+      "alternatives": [],
+      "usage": "Grzecznie mówisz, czego chcesz albo o czym marzysz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd like to work with people.",
+          "pl": "Chciałbym pracować z ludźmi."
+        },
+        {
+          "en": "I'd like to learn a new skill.",
+          "pl": "Chciałbym nauczyć się czegoś nowego."
+        }
+      ],
+      "note": "„I'd like to” = „I would like to” — grzeczniejsze niż „I want to”.",
+      "tags": [
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.in-five-years",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 26,
+      "en": "In five years, I want to ___.",
+      "pl": "Za pięć lat chcę ___.",
+      "alternatives": [],
+      "usage": "Mówisz o planach na dłuższą metę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "In five years, I want to have my own flat.",
+          "pl": "Za pięć lat chcę mieć własne mieszkanie."
+        },
+        {
+          "en": "In five years, I want to be a team leader.",
+          "pl": "Za pięć lat chcę być kierownikiem zmiany."
+        }
+      ],
+      "note": "„Za pięć lat” = „in five years”. Nie „after five years”.",
+      "tags": [
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.going-to-next-year",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 27,
+      "en": "I'm going to ___ next year.",
+      "pl": "W przyszłym roku zamierzam ___.",
+      "alternatives": [],
+      "usage": "Mówisz o swoich zamiarach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going to look for a new job next year.",
+          "pl": "W przyszłym roku zamierzam poszukać nowej pracy."
+        },
+        {
+          "en": "I'm going to do an English course next year.",
+          "pl": "W przyszłym roku zrobię kurs angielskiego."
+        }
+      ],
+      "tags": [
+        "gr:going-to"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.always-wanted-to",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 28,
+      "en": "I've always wanted to ___.",
+      "pl": "Zawsze chciałem ___.",
+      "alternatives": [],
+      "usage": "Mówisz o dawnym marzeniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've always wanted to work in music.",
+          "pl": "Zawsze chciałem pracować w muzyce."
+        },
+        {
+          "en": "I've always wanted to live by the sea.",
+          "pl": "Zawsze chciałem mieszkać nad morzem."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.best-thing-about-job",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 29,
+      "en": "The best thing about my job is ___.",
+      "pl": "Najlepsze w mojej pracy jest ___.",
+      "alternatives": [],
+      "usage": "Mówisz, co lubisz w pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The best thing about my job is the people.",
+          "pl": "Najlepsi w mojej pracy są ludzie."
+        },
+        {
+          "en": "The best thing about my job is that I finish early.",
+          "pl": "Najlepsze w mojej pracy jest to, że wcześnie kończę."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.if-i-had-more-time",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 30,
+      "en": "If I had more time, I'd ___.",
+      "pl": "Gdybym miał więcej czasu, ___.",
+      "alternatives": [],
+      "usage": "Marzenie, które teraz jest trudne do spełnienia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If I had more time, I'd learn to DJ.",
+          "pl": "Gdybym miał więcej czasu, nauczyłbym się grać jako DJ."
+        },
+        {
+          "en": "If I had more time, I'd travel more.",
+          "pl": "Gdybym miał więcej czasu, więcej bym podróżował."
+        }
+      ],
+      "note": "Po „if” czas przeszły (had), w drugiej części „would” (I'd). Nie „If I would have…”.",
+      "tags": [
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.career.future-plans-dialog",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 31,
+      "en": "Future plans",
+      "pl": "Plany na przyszłość",
+      "alternatives": [],
+      "usage": "Rozmowa o zmianie pracy i nauce angielskiego.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What do you want to do in the future?",
+          "pl": "Co chcesz robić w przyszłości?",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm not sure yet. I'd like to change jobs.",
+          "pl": "Jeszcze nie wiem. Chciałbym zmienić pracę.",
+          "speaker": "B"
+        },
+        {
+          "en": "What kind of job?",
+          "pl": "Na jaką?",
+          "speaker": "A"
+        },
+        {
+          "en": "Something with more money and fewer night shifts! Maybe abroad.",
+          "pl": "Coś za więcej kasy i z mniejszą liczbą nocek! Może za granicą.",
+          "speaker": "B"
+        },
+        {
+          "en": "Your English is getting better, so why not?",
+          "pl": "Twój angielski jest coraz lepszy, więc czemu nie?",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.career.job-interview-dialog",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.career",
+      "order": 32,
+      "en": "A job interview next week",
+      "pl": "Rozmowa o pracę w przyszłym tygodniu",
+      "alternatives": [],
+      "usage": "Mówisz o rozmowie kwalifikacyjnej i dostajesz życzenia powodzenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got a job interview next week.",
+          "pl": "W przyszłym tygodniu mam rozmowę o pracę.",
+          "speaker": "A"
+        },
+        {
+          "en": "Really? Where?",
+          "pl": "Serio? Gdzie?",
+          "speaker": "B"
+        },
+        {
+          "en": "At a big logistics company. Wish me luck!",
+          "pl": "W dużej firmie logistycznej. Trzymaj kciuki!",
+          "speaker": "A"
+        },
+        {
+          "en": "Good luck! You'll be great.",
+          "pl": "Powodzenia! Dasz radę.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    }
+  ]
+}

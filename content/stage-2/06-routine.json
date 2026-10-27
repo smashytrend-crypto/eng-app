@@ -1,0 +1,937 @@
+{
+  "module": {
+    "id": "s2.routine",
+    "stage": 2,
+    "order": 6,
+    "title": "Mój dzień i nawyki",
+    "titleEn": "My day & habits",
+    "description": "Od budzika do łóżka: Present Simple i słowa częstotliwości (always, usually, sometimes, never, once a week).",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s2.routine.alarm-goes-off",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 1,
+      "en": "My alarm goes off at five.",
+      "pl": "Budzik dzwoni o piątej.",
+      "alternatives": [],
+      "usage": "Początek opowieści o twoim dniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My alarm goes off at five, and I hate it every single time.",
+          "pl": "Budzik dzwoni o piątej i za każdym razem go nienawidzę."
+        }
+      ],
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.not-morning-person",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 2,
+      "en": "I'm not a morning person.",
+      "pl": "Nie jestem rannym ptaszkiem.",
+      "alternatives": [
+        "I'm not really a morning person."
+      ],
+      "usage": "Gdy trudno ci wstać rano.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I'm not a morning person. Talk to me after coffee.",
+          "pl": "Sorry, nie jestem rannym ptaszkiem. Mów do mnie po kawie."
+        }
+      ],
+      "tags": [
+        "routine"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.quick-breakfast",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 3,
+      "en": "I have a quick breakfast.",
+      "pl": "Jem szybkie śniadanie.",
+      "alternatives": [
+        "I eat a quick breakfast.",
+        "I grab a quick breakfast."
+      ],
+      "usage": "Poranna rutyna.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I have a quick breakfast and then I run to the tram.",
+          "pl": "Jem szybkie śniadanie i biegnę na tramwaj."
+        }
+      ],
+      "note": "Posiłki „się ma”: have breakfast / lunch / dinner. Bez „a”, chyba że jest przymiotnik (a quick breakfast).",
+      "tags": [
+        "routine",
+        "gr:present-simple",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.tram-to-work",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 4,
+      "en": "I take the tram to work.",
+      "pl": "Jeżdżę do pracy tramwajem.",
+      "alternatives": [
+        "I go to work by tram.",
+        "I get the tram to work."
+      ],
+      "usage": "Mówisz, jak dojeżdżasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I take the tram to work. It takes about twenty minutes.",
+          "pl": "Jeżdżę do pracy tramwajem. Zajmuje to jakieś dwadzieścia minut."
+        }
+      ],
+      "note": "„Take the tram” albo „go by tram” (bez „the” po „by”).",
+      "tags": [
+        "routine",
+        "gr:present-simple",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.twenty-minutes-to-work",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 5,
+      "en": "It takes me twenty minutes to get to work.",
+      "pl": "Dojazd do pracy zajmuje mi dwadzieścia minut.",
+      "alternatives": [],
+      "usage": "Czas dojazdu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It takes me twenty minutes to get to work by bike.",
+          "pl": "Dojazd do pracy rowerem zajmuje mi dwadzieścia minut."
+        }
+      ],
+      "tags": [
+        "routine",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.cook-at-home",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 6,
+      "en": "I usually cook at home.",
+      "pl": "Zwykle gotuję w domu.",
+      "alternatives": [
+        "I normally cook at home."
+      ],
+      "usage": "Nawyki jedzeniowe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually cook at home — chicken, rice, the classic gym diet.",
+          "pl": "Zwykle gotuję w domu — kurczak, ryż, klasyczna dieta siłowni."
+        }
+      ],
+      "tags": [
+        "routine",
+        "gr:present-simple",
+        "food",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.bed-around-eleven",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 7,
+      "en": "I go to bed around eleven.",
+      "pl": "Kładę się spać około jedenastej.",
+      "alternatives": [
+        "I go to bed at about eleven.",
+        "I go to sleep around eleven."
+      ],
+      "usage": "Koniec dnia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "On weekdays I go to bed around eleven.",
+          "pl": "W tygodniu kładę się spać około jedenastej."
+        }
+      ],
+      "note": "„Iść spać” = „go to bed”. „Go to sleep” = zasnąć.",
+      "tags": [
+        "routine",
+        "gr:present-simple",
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.never-miss-workout",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 8,
+      "en": "I never miss a workout.",
+      "pl": "Nigdy nie opuszczam treningu.",
+      "alternatives": [],
+      "usage": "Gdy jesteś konsekwentny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I never miss a workout — even after night shifts.",
+          "pl": "Nigdy nie opuszczam treningu — nawet po nockach."
+        }
+      ],
+      "tags": [
+        "routine",
+        "gym",
+        "gr:present-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.always-on-phone",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 9,
+      "en": "I'm always on my phone.",
+      "pl": "Ciągle siedzę w telefonie.",
+      "alternatives": [
+        "I'm on my phone all the time."
+      ],
+      "usage": "Szczerze o nawyku.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm always on my phone. I need to stop!",
+          "pl": "Ciągle siedzę w telefonie. Muszę przestać!"
+        }
+      ],
+      "tags": [
+        "routine"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.dont-watch-much-tv",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 10,
+      "en": "I don't watch much TV.",
+      "pl": "Nie oglądam dużo telewizji.",
+      "alternatives": [
+        "I don't really watch TV."
+      ],
+      "usage": "Mówisz, czego nie robisz — przeczenie w Present Simple.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I don't watch much TV. I prefer YouTube and games.",
+          "pl": "Nie oglądam dużo telewizji. Wolę YouTube i gry."
+        }
+      ],
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.daily-routine-like",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 11,
+      "en": "What's your daily routine like?",
+      "pl": "Jak wygląda twój zwykły dzień?",
+      "alternatives": [
+        "What does your normal day look like?",
+        "What's a normal day like for you?"
+      ],
+      "usage": "Pytasz kogoś o jego dzień.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's your daily routine like? — Work, gym, sleep, repeat!",
+          "pl": "Jak wygląda twój zwykły dzień? — Praca, siłka, sen, i od nowa!"
+        }
+      ],
+      "tags": [
+        "routine"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.pretty-much-the-same",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 12,
+      "en": "Every day is pretty much the same.",
+      "pl": "Każdy dzień wygląda prawie tak samo.",
+      "alternatives": [
+        "Every day is more or less the same."
+      ],
+      "usage": "O monotonnej rutynie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "During the week, every day is pretty much the same.",
+          "pl": "W tygodniu każdy dzień wygląda prawie tak samo."
+        }
+      ],
+      "tags": [
+        "routine"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.busy-on-weekdays",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 13,
+      "en": "On weekdays I'm really busy.",
+      "pl": "W tygodniu jestem bardzo zajęty.",
+      "alternatives": [
+        "I'm really busy on weekdays.",
+        "During the week I'm really busy."
+      ],
+      "usage": "Różnica między tygodniem a weekendem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "On weekdays I'm really busy, but at the weekend I relax.",
+          "pl": "W tygodniu jestem bardzo zajęty, ale w weekend odpoczywam."
+        }
+      ],
+      "tags": [
+        "routine"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.try-sleep-eight",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 14,
+      "en": "I try to sleep eight hours.",
+      "pl": "Staram się spać osiem godzin.",
+      "alternatives": [
+        "I try to get eight hours of sleep."
+      ],
+      "usage": "Zdrowe nawyki, regeneracja po treningu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I try to sleep eight hours, but it doesn't always work.",
+          "pl": "Staram się spać osiem godzin, ale nie zawsze wychodzi."
+        }
+      ],
+      "tags": [
+        "routine",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.hardly-ever-eat-out",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 15,
+      "en": "I hardly ever eat out.",
+      "pl": "Prawie nigdy nie jadam na mieście.",
+      "alternatives": [
+        "I almost never eat out."
+      ],
+      "usage": "„Hardly ever” = prawie nigdy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I hardly ever eat out — it's too expensive.",
+          "pl": "Prawie nigdy nie jadam na mieście — za drogo."
+        }
+      ],
+      "note": "„Hardly ever” już jest przeczeniem: I hardly ever eat out (nie „I don't hardly ever”).",
+      "tags": [
+        "routine",
+        "gr:present-simple",
+        "food",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.usually",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 16,
+      "en": "usually",
+      "pl": "zwykle",
+      "alternatives": [],
+      "usage": "Najczęstsze słowo do opisywania nawyków.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually train after work, but on Fridays I go in the morning.",
+          "pl": "Zwykle trenuję po pracy, ale w piątki chodzę rano."
+        }
+      ],
+      "collocations": [
+        "I usually…",
+        "usually at…",
+        "not usually"
+      ],
+      "note": "Przed czasownikiem (I usually go), ale po „be” (I'm usually tired).",
+      "pronunciation": "Czytaj „juʒuəli” — w środku dźwięk jak w „żaba”.",
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.always",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 17,
+      "en": "always",
+      "pl": "zawsze",
+      "alternatives": [],
+      "usage": "Coś dzieje się za każdym razem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm always hungry after the gym.",
+          "pl": "Po siłowni zawsze jestem głodny."
+        }
+      ],
+      "collocations": [
+        "always late",
+        "I always…",
+        "as always"
+      ],
+      "note": "Kolejność: I always go… / I'm always tired.",
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.sometimes",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 18,
+      "en": "sometimes",
+      "pl": "czasami",
+      "alternatives": [],
+      "usage": "Coś dzieje się od czasu do czasu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sometimes I play games until two in the morning.",
+          "pl": "Czasami gram do drugiej w nocy."
+        }
+      ],
+      "collocations": [
+        "sometimes I…",
+        "only sometimes",
+        "sometimes not"
+      ],
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.never",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 19,
+      "en": "never",
+      "pl": "nigdy",
+      "alternatives": [],
+      "usage": "Coś nie zdarza się wcale.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I never drink coffee after six.",
+          "pl": "Nigdy nie piję kawy po szóstej."
+        }
+      ],
+      "collocations": [
+        "I never…",
+        "never again",
+        "almost never"
+      ],
+      "note": "Po angielsku tylko jedno przeczenie: I never drink (nie „I never don't drink”).",
+      "tags": [
+        "routine",
+        "gr:present-simple",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.commute",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 20,
+      "en": "commute",
+      "pl": "dojazd do pracy; dojeżdżać",
+      "alternatives": [],
+      "usage": "Codzienna droga do pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My commute is only fifteen minutes.",
+          "pl": "Mój dojazd do pracy to tylko piętnaście minut."
+        }
+      ],
+      "collocations": [
+        "a long commute",
+        "commute to work",
+        "my daily commute"
+      ],
+      "tags": [
+        "routine",
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.routine",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 21,
+      "en": "routine",
+      "pl": "rutyna, stały plan dnia",
+      "alternatives": [],
+      "usage": "Codzienny schemat.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My morning routine is coffee, shower and go.",
+          "pl": "Moja poranna rutyna to kawa, prysznic i wyjście."
+        }
+      ],
+      "collocations": [
+        "daily routine",
+        "morning routine",
+        "get into a routine"
+      ],
+      "pronunciation": "Czytaj „rutin” z akcentem na końcu.",
+      "tags": [
+        "routine"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.weekday",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 22,
+      "en": "weekday",
+      "pl": "dzień powszedni",
+      "alternatives": [],
+      "usage": "Poniedziałek–piątek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "On weekdays I don't go out.",
+          "pl": "W dni powszednie nie wychodzę."
+        }
+      ],
+      "collocations": [
+        "on weekdays",
+        "a normal weekday",
+        "weekday mornings"
+      ],
+      "tags": [
+        "routine",
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.nap",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 23,
+      "en": "nap",
+      "pl": "drzemka",
+      "alternatives": [],
+      "usage": "Krótki sen w ciągu dnia.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I always take a nap after night shifts.",
+          "pl": "Po nockach zawsze ucinam sobie drzemkę."
+        }
+      ],
+      "collocations": [
+        "take a nap",
+        "a quick nap",
+        "a power nap"
+      ],
+      "tags": [
+        "routine"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.laundry",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 24,
+      "en": "laundry",
+      "pl": "pranie",
+      "alternatives": [],
+      "usage": "Domowe obowiązki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sunday is laundry day. So many gym clothes!",
+          "pl": "Niedziela to dzień prania. Tyle ciuchów z siłowni!"
+        }
+      ],
+      "collocations": [
+        "do the laundry",
+        "a load of laundry",
+        "laundry day"
+      ],
+      "note": "W UK często też „do the washing”.",
+      "tags": [
+        "routine",
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.once",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 25,
+      "en": "once",
+      "pl": "raz",
+      "alternatives": [],
+      "usage": "Częstotliwość: raz w tygodniu, raz w miesiącu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I go to a club once a month.",
+          "pl": "Raz w miesiącu chodzę do klubu."
+        }
+      ],
+      "collocations": [
+        "once a week",
+        "once a month",
+        "only once"
+      ],
+      "note": "Raz = once, dwa razy = twice, trzy razy = three times.",
+      "pronunciation": "Czytaj „łans”.",
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.every-morning",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 26,
+      "en": "I ___ every morning.",
+      "pl": "Codziennie rano ___.",
+      "alternatives": [],
+      "usage": "Poranne nawyki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I drink a coffee every morning.",
+          "pl": "Codziennie rano piję kawę."
+        },
+        {
+          "en": "I check my phone every morning.",
+          "pl": "Codziennie rano sprawdzam telefon."
+        }
+      ],
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.gym-times-a-week",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 27,
+      "en": "I go to the gym ___ a week.",
+      "pl": "Chodzę na siłownię ___ w tygodniu.",
+      "alternatives": [],
+      "usage": "Ile razy w tygodniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I go to the gym four times a week.",
+          "pl": "Chodzę na siłownię cztery razy w tygodniu."
+        },
+        {
+          "en": "I go to the gym twice a week.",
+          "pl": "Chodzę na siłownię dwa razy w tygodniu."
+        }
+      ],
+      "note": "Once, twice, three times, four times… + a week.",
+      "tags": [
+        "routine",
+        "gym",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.i-never",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 28,
+      "en": "I never ___.",
+      "pl": "Nigdy nie ___.",
+      "alternatives": [],
+      "usage": "Czego nigdy nie robisz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I never eat breakfast.",
+          "pl": "Nigdy nie jem śniadania."
+        },
+        {
+          "en": "I never go to bed before midnight at the weekend.",
+          "pl": "W weekend nigdy nie kładę się przed północą."
+        }
+      ],
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.how-often-do-you",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 29,
+      "en": "How often do you ___?",
+      "pl": "Jak często ___?",
+      "alternatives": [],
+      "usage": "Pytasz o czyjeś nawyki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How often do you go to the gym?",
+          "pl": "Jak często chodzisz na siłownię?"
+        },
+        {
+          "en": "How often do you go out?",
+          "pl": "Jak często wychodzisz na miasto?"
+        }
+      ],
+      "tags": [
+        "routine",
+        "gr:questions-do",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.takes-me-to-get-ready",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 30,
+      "en": "It takes me ___ to get ready.",
+      "pl": "Szykowanie się zajmuje mi ___.",
+      "alternatives": [],
+      "usage": "Ile czasu się szykujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It takes me ten minutes to get ready.",
+          "pl": "Szykowanie się zajmuje mi dziesięć minut."
+        },
+        {
+          "en": "It takes me ages to get ready.",
+          "pl": "Szykuję się wieki."
+        }
+      ],
+      "tags": [
+        "routine",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.routine.day-starts-at",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 31,
+      "en": "My day starts at ___.",
+      "pl": "Mój dzień zaczyna się o ___.",
+      "alternatives": [],
+      "usage": "Początek opowieści o dniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My day starts at five.",
+          "pl": "Mój dzień zaczyna się o piątej."
+        },
+        {
+          "en": "My day starts really early.",
+          "pl": "Mój dzień zaczyna się bardzo wcześnie."
+        }
+      ],
+      "tags": [
+        "routine",
+        "time",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.routine-dialog",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 32,
+      "en": "A normal day",
+      "pl": "Zwykły dzień",
+      "alternatives": [],
+      "usage": "Opowiadasz o swoim dniu: praca, siłownia, sen.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's your daily routine like?",
+          "pl": "Jak wygląda twój zwykły dzień?",
+          "speaker": "A"
+        },
+        {
+          "en": "Pretty busy. I get up at five and start work at six.",
+          "pl": "Dość pracowicie. Wstaję o piątej i zaczynam pracę o szóstej.",
+          "speaker": "B"
+        },
+        {
+          "en": "Wow, that's early!",
+          "pl": "Wow, ale wcześnie!",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, I'm not a morning person, but I'm used to it. After work, I go to the gym.",
+          "pl": "No, nie jestem rannym ptaszkiem, ale przywykłem. Po pracy idę na siłownię.",
+          "speaker": "B"
+        },
+        {
+          "en": "Every day?",
+          "pl": "Codziennie?",
+          "speaker": "A"
+        },
+        {
+          "en": "Four times a week.",
+          "pl": "Cztery razy w tygodniu.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.routine.weekdays-weekends",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.routine",
+      "order": 33,
+      "en": "Weekdays and weekends",
+      "pl": "Tydzień i weekend",
+      "alternatives": [],
+      "usage": "Różnice między dniami pracy a weekendem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you cook at home?",
+          "pl": "Gotujesz w domu?",
+          "speaker": "A"
+        },
+        {
+          "en": "On weekdays, yes. I hardly ever eat out.",
+          "pl": "W tygodniu tak. Prawie nigdy nie jem na mieście.",
+          "speaker": "B"
+        },
+        {
+          "en": "And at the weekend?",
+          "pl": "A w weekend?",
+          "speaker": "A"
+        },
+        {
+          "en": "At the weekend I usually go out with friends.",
+          "pl": "W weekend zwykle wychodzę ze znajomymi.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    }
+  ]
+}

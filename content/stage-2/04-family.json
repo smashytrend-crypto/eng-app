@@ -1,0 +1,861 @@
+{
+  "module": {
+    "id": "s2.family",
+    "stage": 2,
+    "order": 4,
+    "title": "Rodzina i bliscy",
+    "titleEn": "Family",
+    "description": "Rodzeństwo, rodzice, dziadkowie, związek. Dużo trzeciej osoby w Present Simple: my dad works, my mum has, what does he do?",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s2.family.brothers-or-sisters",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 1,
+      "en": "Have you got any brothers or sisters?",
+      "pl": "Masz rodzeństwo?",
+      "alternatives": [
+        "Do you have any brothers or sisters?",
+        "Do you have any siblings?",
+        "Have you got any siblings?"
+      ],
+      "usage": "Klasyczne pytanie o rodzinę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you got any brothers or sisters? — Yeah, a younger sister.",
+          "pl": "Masz rodzeństwo? — Tak, młodszą siostrę."
+        }
+      ],
+      "note": "Po angielsku nie ma jednego potocznego słowa na „rodzeństwo” — mówi się „brothers or sisters”. „Siblings” jest bardziej formalne.",
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.older-brother",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 2,
+      "en": "I've got one older brother.",
+      "pl": "Mam jednego starszego brata.",
+      "alternatives": [
+        "I have one older brother.",
+        "I've got an older brother."
+      ],
+      "usage": "Mówisz o swoim rodzeństwie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got one older brother. He's thirty.",
+          "pl": "Mam jednego starszego brata. Ma trzydzieści lat."
+        }
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.only-child",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 3,
+      "en": "I'm an only child.",
+      "pl": "Jestem jedynakiem.",
+      "alternatives": [],
+      "usage": "Gdy nie masz rodzeństwa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you got any brothers or sisters? — No, I'm an only child.",
+          "pl": "Masz rodzeństwo? — Nie, jestem jedynakiem."
+        }
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.parents-small-town",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 4,
+      "en": "My parents live in a small town near Szczecin.",
+      "pl": "Moi rodzice mieszkają w małym miasteczku pod Szczecinem.",
+      "alternatives": [
+        "My parents live in a small town close to Szczecin."
+      ],
+      "usage": "Mówisz, gdzie mieszka twoja rodzina.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My parents live in a small town near Szczecin, so I visit them a lot.",
+          "pl": "Moi rodzice mieszkają w małym miasteczku pod Szczecinem, więc często ich odwiedzam."
+        }
+      ],
+      "tags": [
+        "family",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.really-close",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 5,
+      "en": "We're really close.",
+      "pl": "Jesteśmy ze sobą bardzo blisko.",
+      "alternatives": [
+        "We're very close."
+      ],
+      "usage": "O dobrej relacji z kimś z rodziny albo przyjacielem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Me and my brother? We're really close.",
+          "pl": "Ja i brat? Jesteśmy ze sobą bardzo blisko."
+        }
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.dont-see-them-often",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 6,
+      "en": "I don't see them very often.",
+      "pl": "Nie widuję ich zbyt często.",
+      "alternatives": [
+        "I don't see them much.",
+        "I don't see them that often."
+      ],
+      "usage": "Mówisz, że rzadko się spotykacie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My cousins live in the UK, so I don't see them very often.",
+          "pl": "Moi kuzyni mieszkają w Anglii, więc nie widuję ich zbyt często."
+        }
+      ],
+      "tags": [
+        "family",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.visit-once-a-month",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 7,
+      "en": "I visit them once a month.",
+      "pl": "Odwiedzam ich raz w miesiącu.",
+      "alternatives": [
+        "I see them once a month.",
+        "I go and see them once a month."
+      ],
+      "usage": "Częstotliwość odwiedzin — Present Simple.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I visit them once a month, usually on Sunday.",
+          "pl": "Odwiedzam ich raz w miesiącu, zwykle w niedzielę."
+        }
+      ],
+      "tags": [
+        "family",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.are-you-married",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 8,
+      "en": "Are you married?",
+      "pl": "Jesteś żonaty? / Jesteś mężatką?",
+      "alternatives": [],
+      "usage": "Pytanie o stan cywilny — raczej gdy już dobrze się znacie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you married? — No, but I've got a girlfriend.",
+          "pl": "Jesteś żonaty? — Nie, ale mam dziewczynę."
+        }
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.single-at-moment",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 9,
+      "en": "I'm single at the moment.",
+      "pl": "Na razie jestem singlem.",
+      "alternatives": [
+        "I'm single right now.",
+        "I'm single."
+      ],
+      "usage": "Mówisz, że nie jesteś w związku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you seeing anyone? — No, I'm single at the moment.",
+          "pl": "Spotykasz się z kimś? — Nie, na razie jestem singlem."
+        }
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.got-a-girlfriend",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 10,
+      "en": "I've got a girlfriend.",
+      "pl": "Mam dziewczynę.",
+      "alternatives": [
+        "I have a girlfriend."
+      ],
+      "usage": "Mówisz, że jesteś w związku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got a girlfriend. She's coming to the festival with us.",
+          "pl": "Mam dziewczynę. Jedzie z nami na festiwal."
+        }
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.brother-two-kids",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 11,
+      "en": "My brother has two kids.",
+      "pl": "Mój brat ma dwójkę dzieci.",
+      "alternatives": [
+        "My brother's got two kids.",
+        "My brother has two children."
+      ],
+      "usage": "Trzecia osoba w Present Simple: has, nie have.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My brother has two kids, so I'm an uncle!",
+          "pl": "Mój brat ma dwójkę dzieci, więc jestem wujkiem!"
+        }
+      ],
+      "note": "He / she → „has” (nie „have”): my brother has, my mum has.",
+      "tags": [
+        "family",
+        "gr:present-simple",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.get-on-really-well",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 12,
+      "en": "We get on really well.",
+      "pl": "Świetnie się dogadujemy.",
+      "alternatives": [
+        "We get along really well.",
+        "We get on very well."
+      ],
+      "usage": "O dobrej relacji z kimś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My sister and I get on really well. We go to festivals together.",
+          "pl": "Z siostrą świetnie się dogadujemy. Jeździmy razem na festiwale."
+        }
+      ],
+      "tags": [
+        "family",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.family.bit-older-than-me",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 13,
+      "en": "He's a bit older than me.",
+      "pl": "Jest trochę starszy ode mnie.",
+      "alternatives": [
+        "He's a little older than me."
+      ],
+      "usage": "Porównujesz wiek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is your brother younger? — No, he's a bit older than me.",
+          "pl": "Twój brat jest młodszy? — Nie, jest trochę starszy ode mnie."
+        }
+      ],
+      "note": "„Starszy od” = „older THAN”, nie „older from”.",
+      "tags": [
+        "family",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.what-does-brother-do",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 14,
+      "en": "What does your brother do?",
+      "pl": "Czym zajmuje się twój brat?",
+      "alternatives": [],
+      "usage": "Pytanie o czyjąś pracę — z „does”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What does your brother do? — He's a mechanic.",
+          "pl": "Czym zajmuje się twój brat? — Jest mechanikiem."
+        }
+      ],
+      "note": "He / she → „does” w pytaniu, a czasownik bez „-s”: What does he DO? (nie „does he does”).",
+      "tags": [
+        "family",
+        "gr:questions-do",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.christmas-dinner",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 15,
+      "en": "We always have dinner together at Christmas.",
+      "pl": "Na święta zawsze jemy razem kolację.",
+      "alternatives": [
+        "At Christmas we always have dinner together."
+      ],
+      "usage": "Rodzinne tradycje — Present Simple.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We always have dinner together at Christmas. Twelve dishes!",
+          "pl": "Na święta zawsze jemy razem kolację. Dwanaście potraw!"
+        }
+      ],
+      "tags": [
+        "family",
+        "gr:present-simple",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.parents",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 16,
+      "en": "parents",
+      "pl": "rodzice",
+      "alternatives": [],
+      "usage": "Mama i tata.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I still live with my parents, but I'm looking for a flat.",
+          "pl": "Wciąż mieszkam z rodzicami, ale szukam mieszkania."
+        }
+      ],
+      "collocations": [
+        "my parents",
+        "live with my parents",
+        "visit my parents"
+      ],
+      "note": "„Parents” to tylko rodzice. Dalsza rodzina to „relatives”.",
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.relatives",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 17,
+      "en": "relatives",
+      "pl": "krewni, rodzina (dalsza)",
+      "alternatives": [],
+      "usage": "Wujkowie, ciocie, kuzyni itd.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got some relatives in London.",
+          "pl": "Mam rodzinę w Londynie."
+        }
+      ],
+      "collocations": [
+        "close relatives",
+        "visit relatives",
+        "relatives in the UK"
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.family.cousin",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 18,
+      "en": "cousin",
+      "pl": "kuzyn, kuzynka",
+      "alternatives": [],
+      "usage": "Dziecko wujka albo cioci.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My cousin works in Amsterdam.",
+          "pl": "Mój kuzyn pracuje w Amsterdamie."
+        }
+      ],
+      "collocations": [
+        "my cousin",
+        "a cousin of mine",
+        "my little cousin"
+      ],
+      "pronunciation": "Czytaj „kazn” — „ou” jak krótkie „a”.",
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.nephew",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 19,
+      "en": "nephew",
+      "pl": "bratanek, siostrzeniec",
+      "alternatives": [],
+      "usage": "Syn brata albo siostry.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My nephew is five and he's obsessed with Minecraft.",
+          "pl": "Mój bratanek ma pięć lat i ma obsesję na punkcie Minecrafta."
+        }
+      ],
+      "collocations": [
+        "my little nephew",
+        "nephews and nieces",
+        "my nephew's birthday"
+      ],
+      "note": "Córka brata albo siostry to „niece” (bratanica, siostrzenica).",
+      "tags": [
+        "family"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.family.grandparents",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 20,
+      "en": "grandparents",
+      "pl": "dziadkowie",
+      "alternatives": [],
+      "usage": "Babcia i dziadek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My grandparents live in the countryside.",
+          "pl": "Moi dziadkowie mieszkają na wsi."
+        }
+      ],
+      "collocations": [
+        "my grandparents",
+        "visit my grandparents",
+        "grandma and grandpa"
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.married",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 21,
+      "en": "married",
+      "pl": "żonaty, zamężna",
+      "alternatives": [],
+      "usage": "Stan cywilny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My brother got married last year.",
+          "pl": "Mój brat ożenił się w zeszłym roku."
+        }
+      ],
+      "collocations": [
+        "get married",
+        "be married to…",
+        "married with kids"
+      ],
+      "note": "„Ożenić się / wyjść za mąż” = „get married”. „Żonaty Z nią” = „married TO her”.",
+      "tags": [
+        "family",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.partner",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 22,
+      "en": "partner",
+      "pl": "partner, partnerka",
+      "alternatives": [],
+      "usage": "Osoba, z którą jesteś w związku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My partner is from Germany.",
+          "pl": "Moja partnerka jest z Niemiec."
+        }
+      ],
+      "collocations": [
+        "my partner",
+        "live with my partner",
+        "a long-term partner"
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.kids",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 23,
+      "en": "kids",
+      "pl": "dzieci (potocznie)",
+      "alternatives": [],
+      "usage": "Potocznie zamiast „children”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Do you have kids? — Not yet!",
+          "pl": "Masz dzieci? — Jeszcze nie!"
+        }
+      ],
+      "collocations": [
+        "have kids",
+        "two kids",
+        "no kids yet"
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.similar",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 24,
+      "en": "similar",
+      "pl": "podobny",
+      "alternatives": [],
+      "usage": "Gdy porównujesz ludzi albo rzeczy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My brother and I look really similar.",
+          "pl": "Ja i brat jesteśmy do siebie bardzo podobni."
+        }
+      ],
+      "collocations": [
+        "similar to…",
+        "really similar",
+        "look similar"
+      ],
+      "note": "„Podobny DO” = „similar TO”, nie „similar like”.",
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.brother-than-me",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 25,
+      "en": "My brother is ___ than me.",
+      "pl": "Mój brat jest ___ ode mnie.",
+      "alternatives": [],
+      "usage": "Porównujesz się z rodzeństwem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My brother is three years older than me.",
+          "pl": "Mój brat jest trzy lata starszy ode mnie."
+        },
+        {
+          "en": "My brother is taller than me.",
+          "pl": "Mój brat jest wyższy ode mnie."
+        }
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.usually-together",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 26,
+      "en": "We usually ___ together.",
+      "pl": "Zwykle razem ___.",
+      "alternatives": [],
+      "usage": "Co robicie razem — Present Simple.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We usually watch football together.",
+          "pl": "Zwykle razem oglądamy piłkę."
+        },
+        {
+          "en": "We usually go to the gym together.",
+          "pl": "Zwykle razem chodzimy na siłownię."
+        }
+      ],
+      "tags": [
+        "family",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.dad-always",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 27,
+      "en": "My dad always ___.",
+      "pl": "Mój tata zawsze ___.",
+      "alternatives": [],
+      "usage": "Opisujesz czyjeś nawyki — trzecia osoba z „-s”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My dad always tells bad jokes.",
+          "pl": "Mój tata zawsze opowiada suche żarty."
+        },
+        {
+          "en": "My dad always calls me on Sundays.",
+          "pl": "Tata zawsze dzwoni do mnie w niedziele."
+        }
+      ],
+      "note": "He / she + czasownik z „-s”: my dad tells, calls, works.",
+      "tags": [
+        "family",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.mum-works-as",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 28,
+      "en": "My mum works as ___.",
+      "pl": "Moja mama pracuje jako ___.",
+      "alternatives": [],
+      "usage": "Mówisz o pracy rodziców.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My mum works as a nurse.",
+          "pl": "Moja mama pracuje jako pielęgniarka."
+        },
+        {
+          "en": "My mum works as a teacher.",
+          "pl": "Moja mama pracuje jako nauczycielka."
+        }
+      ],
+      "note": "„Mum” (UK) = „mom” (US). Zawód z „a / an”.",
+      "tags": [
+        "family",
+        "gr:present-simple",
+        "gr:articles",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.get-on-with-your",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 29,
+      "en": "Do you get on well with your ___?",
+      "pl": "Dogadujesz się ze swoim / swoją ___?",
+      "alternatives": [],
+      "usage": "Pytasz o relacje w rodzinie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you get on well with your brother?",
+          "pl": "Dogadujesz się z bratem?"
+        },
+        {
+          "en": "Do you get on well with your parents?",
+          "pl": "Dogadujesz się z rodzicami?"
+        }
+      ],
+      "tags": [
+        "family",
+        "gr:questions-do"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.family.siblings-dialog",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 30,
+      "en": "Brothers and sisters",
+      "pl": "Rodzeństwo",
+      "alternatives": [],
+      "usage": "Rozmowa o rodzeństwie i jego pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you got any brothers or sisters?",
+          "pl": "Masz rodzeństwo?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, one older brother. He lives in Norway.",
+          "pl": "Tak, starszego brata. Mieszka w Norwegii.",
+          "speaker": "B"
+        },
+        {
+          "en": "Oh, cool. What does he do there?",
+          "pl": "O, fajnie. Co tam robi?",
+          "speaker": "A"
+        },
+        {
+          "en": "He works on ships. What about you?",
+          "pl": "Pracuje na statkach. A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "I'm an only child.",
+          "pl": "Jestem jedynakiem.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.family.visiting-parents",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.family",
+      "order": 31,
+      "en": "Visiting my parents",
+      "pl": "Wizyta u rodziców",
+      "alternatives": [],
+      "usage": "Plany na weekend z rodziną.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are you doing at the weekend?",
+          "pl": "Co robisz w weekend?",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm visiting my parents. I don't see them very often.",
+          "pl": "Jadę do rodziców. Nie widuję ich zbyt często.",
+          "speaker": "B"
+        },
+        {
+          "en": "Where do they live?",
+          "pl": "Gdzie mieszkają?",
+          "speaker": "A"
+        },
+        {
+          "en": "In a small town near Szczecin. My mum always cooks way too much food!",
+          "pl": "W małym miasteczku pod Szczecinem. Mama zawsze gotuje o wiele za dużo jedzenia!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "family",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    }
+  ]
+}

@@ -123,6 +123,107 @@
       "tags": [
         "numbers"
       ]
+    },
+    {
+      "id": "task.s2-hometown",
+      "stage": 2,
+      "title": "Szczecin dla obcokrajowca",
+      "instruction": "Ktoś z Anglii nigdy nie słyszał o Szczecinie. Wyjaśnij w 4–5 zdaniach: gdzie leży, jak daleko od Berlina, z czego słynie i co tam jest.",
+      "starters": [
+        "It's in the north-west of Poland…",
+        "It's about … from Berlin.",
+        "It's famous for…",
+        "There are lots of…"
+      ],
+      "example": "Szczecin is in the north-west of Poland, right next to Germany. It's about two hours from Berlin. It's famous for its port and the river. There are lots of parks and some really good clubs.",
+      "tags": [
+        "gr:there-is-are"
+      ]
+    },
+    {
+      "id": "task.s2-your-job",
+      "stage": 2,
+      "title": "Twoja praca",
+      "instruction": "Opowiedz o swojej pracy: gdzie pracujesz, o której zaczynasz, co robisz i co lubisz albo czego nie lubisz.",
+      "starters": [
+        "I work in…",
+        "I start at…",
+        "I'm responsible for…",
+        "The best thing about my job is…"
+      ],
+      "example": "I work in a warehouse. I start at six in the morning. I'm responsible for checking deliveries. It's hard work, but the best thing about my job is the people.",
+      "tags": [
+        "work",
+        "gr:present-simple"
+      ]
+    },
+    {
+      "id": "task.s2-family",
+      "stage": 2,
+      "title": "Twoja rodzina",
+      "instruction": "Opowiedz o 2–3 osobach z rodziny. Pilnuj trzeciej osoby: he works, she lives, my dad has.",
+      "starters": [
+        "I've got…",
+        "My brother works as…",
+        "My parents live in…",
+        "I visit them…"
+      ],
+      "example": "I've got one older brother. He works as a mechanic and he has two kids. My parents live in a small town near Szczecin. I visit them once a month.",
+      "tags": [
+        "family",
+        "gr:present-simple"
+      ]
+    },
+    {
+      "id": "task.s2-your-flat",
+      "stage": 2,
+      "title": "Twoje mieszkanie",
+      "instruction": "Opisz swoje mieszkanie i okolicę. Użyj co najmniej dwa razy „there is” i dwa razy „there are”.",
+      "starters": [
+        "I live in…",
+        "There's a…",
+        "There are…",
+        "There isn't a…"
+      ],
+      "example": "I live in a small flat on the fourth floor. There's a big TV and a small balcony. There are two rooms and a kitchen. There isn't a lift, so it's good exercise!",
+      "tags": [
+        "home",
+        "gr:there-is-are"
+      ]
+    },
+    {
+      "id": "task.s2-daily-routine",
+      "stage": 2,
+      "title": "Twój dzień",
+      "instruction": "Opowiedz, jak wygląda twój dzień od budzika do snu. Użyj: always, usually, sometimes, never.",
+      "starters": [
+        "My alarm goes off at…",
+        "I usually…",
+        "I sometimes…",
+        "I never…"
+      ],
+      "example": "My alarm goes off at five. I always have a quick breakfast and take the tram to work. After work, I usually go to the gym. I sometimes play games, but I never go to bed after midnight on weekdays.",
+      "tags": [
+        "routine",
+        "gr:present-simple"
+      ]
+    },
+    {
+      "id": "task.s2-career-plans",
+      "stage": 2,
+      "title": "Plany zawodowe",
+      "instruction": "Powiedz, co chcesz robić zawodowo za rok i za pięć lat. Użyj „I'd like to” i „I'm going to”.",
+      "starters": [
+        "I'd like to…",
+        "Next year I'm going to…",
+        "In five years, I want to…"
+      ],
+      "example": "I'd like to change jobs. Next year I'm going to do a course and get a forklift licence. In five years, I want to have my own flat and maybe work abroad.",
+      "tags": [
+        "work",
+        "gr:going-to",
+        "gr:would-like"
+      ]
     }
   ]
 }

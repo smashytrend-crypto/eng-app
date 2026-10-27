@@ -181,6 +181,164 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mission.s2-new-colleague",
+      "stage": 2,
+      "title": "Nowy kolega z pracy",
+      "titleEn": "A new colleague",
+      "setting": "Do twojej pracy przychodzi Tom z Irlandii. W przerwie na lunch zaczyna cię wypytywać: skąd jesteś, gdzie mieszkasz, jak wygląda twój dzień.",
+      "claudeScenario": "We're on a lunch break at a warehouse. You're Tom, a new colleague from Dublin, friendly and curious. I'm Domin from Szczecin. Ask me about where I'm from, my family, my flat and my daily routine.",
+      "tags": [
+        "work",
+        "family",
+        "home"
+      ],
+      "steps": [
+        {
+          "them": "Hi, I'm Tom. I'm new here. How long have you worked here?",
+          "themPl": "Cześć, jestem Tom. Jestem tu nowy. Od kiedy tu pracujesz?",
+          "task": "Przedstaw się i powiedz, że pracujesz tu od trzech lat.",
+          "answer": "I'm Domin. I've been working here for three years.",
+          "alt": [
+            "Nice to meet you, I'm Domin. I've worked here for three years."
+          ]
+        },
+        {
+          "them": "Nice! Do you like it?",
+          "themPl": "Fajnie! Podoba ci się?",
+          "task": "Powiedz, że to ciężka praca, ale kasa jest OK.",
+          "answer": "It's hard work, but the money's OK.",
+          "alt": [
+            "Yeah, it's hard work, but the money's OK."
+          ]
+        },
+        {
+          "them": "Are you from Szczecin?",
+          "themPl": "Jesteś ze Szczecina?",
+          "task": "Powiedz, że dorastałeś w małym miasteczku, ale teraz mieszkasz w Szczecinie.",
+          "answer": "I grew up in a small town, but I live in Szczecin now."
+        },
+        {
+          "them": "Do you live on your own?",
+          "themPl": "Mieszkasz sam?",
+          "task": "Powiedz, że wynajmujesz mieszkanie z kumplem, blisko przystanku tramwajowego.",
+          "answer": "No, I share a flat with a friend. It's close to the tram stop.",
+          "alt": [
+            "No, I live with a friend, near the tram stop."
+          ]
+        },
+        {
+          "them": "What do you do after work?",
+          "themPl": "Co robisz po pracy?",
+          "task": "Powiedz, że zwykle chodzisz na siłownię, cztery razy w tygodniu.",
+          "answer": "I usually go to the gym, four times a week.",
+          "alt": [
+            "After work, I usually go to the gym."
+          ]
+        },
+        {
+          "them": "Wow. Have you got any family here?",
+          "themPl": "Wow. Masz tu rodzinę?",
+          "task": "Powiedz, że rodzice mieszkają pod Szczecinem i odwiedzasz ich raz w miesiącu.",
+          "answer": "My parents live near Szczecin. I visit them once a month."
+        },
+        {
+          "them": "I've got three sisters! Have you got any brothers or sisters?",
+          "themPl": "Ja mam trzy siostry! Masz rodzeństwo?",
+          "task": "Powiedz, że masz jednego starszego brata, który pracuje w Norwegii.",
+          "answer": "I've got one older brother. He works in Norway.",
+          "alt": [
+            "I have an older brother. He works in Norway."
+          ]
+        },
+        {
+          "them": "Cool. Any plans for the weekend?",
+          "themPl": "Super. Jakieś plany na weekend?",
+          "task": "Powiedz, że w sobotę pracujesz, a w niedzielę zamierzasz odpocząć.",
+          "answer": "I'm working on Saturday, and on Sunday I'm going to chill.",
+          "alt": [
+            "I'm working on Saturday. On Sunday I'm going to relax."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission.s2-about-poland",
+      "stage": 2,
+      "title": "Opowiedz o Polsce",
+      "titleEn": "Tell me about Poland",
+      "setting": "Jesteś w barze w Berlinie po imprezie. Brytyjka Emma nigdy nie była w Polsce i dopytuje o wszystko.",
+      "claudeScenario": "We're in a bar in Berlin after a techno party. You're Emma from Bristol and you've never been to Poland. Ask me about Poland, Szczecin, Polish food and what life there is like.",
+      "tags": [
+        "travel",
+        "smalltalk"
+      ],
+      "steps": [
+        {
+          "them": "So you're from Poland? Which part?",
+          "themPl": "Jesteś z Polski? Z której części?",
+          "task": "Powiedz, że ze Szczecina, na północnym zachodzie.",
+          "answer": "I'm from Szczecin — it's in the north-west of Poland."
+        },
+        {
+          "them": "Sorry, never heard of it! Is it far from here?",
+          "themPl": "Sorry, nigdy nie słyszałam! Daleko stąd?",
+          "task": "Powiedz, że to jakieś dwie godziny od Berlina, tuż przy Niemczech.",
+          "answer": "It's about two hours from Berlin, right next to Germany."
+        },
+        {
+          "them": "Oh, that's close! What's it like?",
+          "themPl": "O, blisko! Jakie to miasto?",
+          "task": "Powiedz, że fajnie się tam mieszka i jest dużo parków.",
+          "answer": "It's a nice place to live. There are lots of parks.",
+          "alt": [
+            "It's a nice place to live, and there are lots of parks."
+          ]
+        },
+        {
+          "them": "Is there a good party scene?",
+          "themPl": "Jest tam dobra scena imprezowa?",
+          "task": "Powiedz, że jest kilka dobrych klubów, ale Berlin jest lepszy.",
+          "answer": "There are some good clubs, but Berlin is better.",
+          "alt": [
+            "There are a few good clubs, but Berlin is better."
+          ]
+        },
+        {
+          "them": "I've never been to Poland. What's the food like?",
+          "themPl": "Nigdy nie byłam w Polsce. Jakie jest jedzenie?",
+          "task": "Zapytaj, czy jadła kiedyś pierogi.",
+          "answer": "Have you ever tried pierogi?",
+          "alt": [
+            "Have you ever had pierogi?"
+          ]
+        },
+        {
+          "them": "No! What are they?",
+          "themPl": "Nie! Co to jest?",
+          "task": "Wyjaśnij: to taki polski pieróg (rodzaj klusek z nadzieniem).",
+          "answer": "It's a kind of Polish dumpling.",
+          "alt": [
+            "They're a kind of Polish dumpling."
+          ]
+        },
+        {
+          "them": "Sounds amazing. And the weather?",
+          "themPl": "Brzmi super. A pogoda?",
+          "task": "Powiedz, że zimy są długie i szare, ale lata są świetne.",
+          "answer": "The winters are long and grey, but the summers are great."
+        },
+        {
+          "them": "Maybe I should visit!",
+          "themPl": "Może powinnam wpaść!",
+          "task": "Zaproś ją — powiedz, że pokażesz jej najlepsze kluby.",
+          "answer": "You should visit sometime! I'll show you the best clubs.",
+          "alt": [
+            "You should come! I'll show you the best clubs."
+          ]
+        }
+      ]
     }
   ]
 }

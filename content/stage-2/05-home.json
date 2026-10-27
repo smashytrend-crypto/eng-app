@@ -1,0 +1,926 @@
+{
+  "module": {
+    "id": "s2.home",
+    "stage": 2,
+    "order": 5,
+    "title": "Mieszkanie",
+    "titleEn": "Home",
+    "description": "Twoje mieszkanie, współlokatorzy, czynsz, sąsiedzi, goście. Dużo „there is / there are” — także w liczbie mnogiej i przeczeniach.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s2.home.small-flat",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 1,
+      "en": "I live in a small flat.",
+      "pl": "Mieszkam w małym mieszkaniu.",
+      "alternatives": [
+        "I live in a small apartment."
+      ],
+      "usage": "Opisujesz, gdzie mieszkasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I live in a small flat, but it's close to everything.",
+          "pl": "Mieszkam w małym mieszkaniu, ale blisko wszystkiego."
+        }
+      ],
+      "note": "UK: flat, US: apartment.",
+      "tags": [
+        "home",
+        "uk-us",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.live-on-my-own",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 2,
+      "en": "I live on my own.",
+      "pl": "Mieszkam sam.",
+      "alternatives": [
+        "I live alone.",
+        "I live by myself."
+      ],
+      "usage": "Mówisz, że mieszkasz bez współlokatorów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you live with anyone? — No, I live on my own.",
+          "pl": "Mieszkasz z kimś? — Nie, mieszkam sam."
+        }
+      ],
+      "tags": [
+        "home",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.share-flat",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 3,
+      "en": "I share a flat with two friends.",
+      "pl": "Wynajmuję mieszkanie z dwoma kumplami.",
+      "alternatives": [
+        "I share an apartment with two friends.",
+        "I live with two friends."
+      ],
+      "usage": "Mieszkanie ze współlokatorami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I share a flat with two friends from work. It's cheaper.",
+          "pl": "Wynajmuję mieszkanie z dwoma kumplami z pracy. Taniej wychodzi."
+        }
+      ],
+      "tags": [
+        "home",
+        "gr:present-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.home.fourth-floor",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 4,
+      "en": "It's on the fourth floor.",
+      "pl": "Jest na czwartym piętrze.",
+      "alternatives": [],
+      "usage": "Mówisz, na którym piętrze mieszkasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's on the fourth floor, so it's good exercise!",
+          "pl": "Jest na czwartym piętrze, więc niezły trening!"
+        }
+      ],
+      "note": "W UK „ground floor” = parter, „first floor” = pierwsze piętro. W USA „first floor” to parter!",
+      "tags": [
+        "home",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.no-lift",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 5,
+      "en": "There's no lift.",
+      "pl": "Nie ma windy.",
+      "alternatives": [
+        "There isn't a lift.",
+        "There's no elevator."
+      ],
+      "usage": "Brak windy — w bloku albo hotelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's no lift, so carry your bag up the stairs.",
+          "pl": "Nie ma windy, więc wnieś torbę po schodach."
+        }
+      ],
+      "note": "UK: lift, US: elevator.",
+      "tags": [
+        "home",
+        "gr:there-is-are",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.two-bedrooms",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 6,
+      "en": "There are two bedrooms.",
+      "pl": "Są dwie sypialnie.",
+      "alternatives": [],
+      "usage": "Opisujesz mieszkanie — liczba mnoga: there are.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There are two bedrooms and a small kitchen.",
+          "pl": "Są dwie sypialnie i mała kuchnia."
+        }
+      ],
+      "tags": [
+        "home",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.rent-high",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 7,
+      "en": "The rent is pretty high.",
+      "pl": "Czynsz jest dość wysoki.",
+      "alternatives": [
+        "The rent is quite high.",
+        "The rent is really expensive."
+      ],
+      "usage": "Narzekasz na koszty mieszkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The rent is pretty high, but the location is great.",
+          "pl": "Czynsz jest dość wysoki, ale lokalizacja świetna."
+        }
+      ],
+      "tags": [
+        "home",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.neighbours-loud",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 8,
+      "en": "My neighbours are really loud.",
+      "pl": "Moi sąsiedzi są strasznie głośni.",
+      "alternatives": [
+        "My neighbours are really noisy."
+      ],
+      "usage": "Typowy problem w bloku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My neighbours are really loud. They party every Friday!",
+          "pl": "Moi sąsiedzi są strasznie głośni. Imprezują w każdy piątek!"
+        }
+      ],
+      "tags": [
+        "home",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.close-to-tram",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 9,
+      "en": "It's close to the tram stop.",
+      "pl": "Jest blisko przystanku tramwajowego.",
+      "alternatives": [
+        "It's near the tram stop."
+      ],
+      "usage": "Dojazd i lokalizacja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's close to the tram stop, so it takes ten minutes to the centre.",
+          "pl": "Jest blisko przystanku, więc do centrum jest dziesięć minut."
+        }
+      ],
+      "tags": [
+        "home",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.come-round",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 10,
+      "en": "Come round to mine sometime!",
+      "pl": "Wpadnij kiedyś do mnie!",
+      "alternatives": [
+        "Come over to my place sometime!",
+        "Come round to my place sometime!"
+      ],
+      "usage": "Zapraszasz kogoś do siebie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Come round to mine sometime! We can play FIFA.",
+          "pl": "Wpadnij kiedyś do mnie! Pogramy w FIFĘ."
+        }
+      ],
+      "note": "„Mine” = „moje mieszkanie”. UK: come round, US: come over.",
+      "tags": [
+        "home",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.home.make-yourself-at-home",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 11,
+      "en": "Make yourself at home.",
+      "pl": "Czuj się jak u siebie.",
+      "alternatives": [],
+      "usage": "Gdy goście wchodzą do twojego mieszkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Come in! Make yourself at home.",
+          "pl": "Wejdź! Czuj się jak u siebie."
+        }
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.sorry-about-mess",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 12,
+      "en": "Sorry about the mess.",
+      "pl": "Sorry za bałagan.",
+      "alternatives": [
+        "Sorry, it's a bit messy.",
+        "Sorry for the mess."
+      ],
+      "usage": "Gdy ktoś wchodzi, a ty nie posprzątałeś.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Sorry about the mess — I just got back from the festival.",
+          "pl": "Sorry za bałagan — właśnie wróciłem z festiwalu."
+        }
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.washing-machine",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 13,
+      "en": "Is there a washing machine?",
+      "pl": "Jest pralka?",
+      "alternatives": [],
+      "usage": "Pytasz o wyposażenie mieszkania albo apartamentu na wyjeździe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a washing machine? — Yes, in the bathroom.",
+          "pl": "Jest pralka? — Tak, w łazience."
+        }
+      ],
+      "tags": [
+        "home",
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.looking-for-new-place",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 14,
+      "en": "I'm looking for a new place.",
+      "pl": "Szukam nowego mieszkania.",
+      "alternatives": [
+        "I'm looking for a new flat.",
+        "I'm looking for a new apartment."
+      ],
+      "usage": "Gdy chcesz się przeprowadzić.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm looking for a new place — something closer to work.",
+          "pl": "Szukam nowego mieszkania — czegoś bliżej pracy."
+        }
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.home.need-to-tidy-up",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 15,
+      "en": "I need to tidy up.",
+      "pl": "Muszę posprzątać.",
+      "alternatives": [
+        "I need to clean up.",
+        "I have to tidy up."
+      ],
+      "usage": "Mówisz, że trzeba ogarnąć mieszkanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My friends are coming tonight. I need to tidy up!",
+          "pl": "Dziś wieczorem przychodzą znajomi. Muszę posprzątać!"
+        }
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.flatmate",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 16,
+      "en": "flatmate",
+      "pl": "współlokator",
+      "alternatives": [],
+      "usage": "Osoba, z którą dzielisz mieszkanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My flatmate is from Ukraine.",
+          "pl": "Mój współlokator jest z Ukrainy."
+        }
+      ],
+      "collocations": [
+        "my flatmate",
+        "live with flatmates",
+        "looking for a flatmate"
+      ],
+      "note": "UK: flatmate, US: roommate.",
+      "tags": [
+        "home",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.rent",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 17,
+      "en": "rent",
+      "pl": "czynsz; wynajmować",
+      "alternatives": [],
+      "usage": "Płacenie za mieszkanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How much do you pay in rent?",
+          "pl": "Ile płacisz za wynajem?"
+        }
+      ],
+      "collocations": [
+        "pay the rent",
+        "high rent",
+        "rent a flat"
+      ],
+      "tags": [
+        "home",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.balcony",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 18,
+      "en": "balcony",
+      "pl": "balkon",
+      "alternatives": [],
+      "usage": "Część mieszkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got a small balcony with a view of the river.",
+          "pl": "Mam mały balkon z widokiem na rzekę."
+        }
+      ],
+      "collocations": [
+        "on the balcony",
+        "a small balcony",
+        "a balcony with a view"
+      ],
+      "pronunciation": "Akcent na pierwszą sylabę: „BAL-ko-ni”.",
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.kitchen",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 19,
+      "en": "kitchen",
+      "pl": "kuchnia",
+      "alternatives": [],
+      "usage": "Pomieszczenie do gotowania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We usually hang out in the kitchen.",
+          "pl": "Zwykle przesiadujemy w kuchni."
+        }
+      ],
+      "collocations": [
+        "in the kitchen",
+        "a small kitchen",
+        "a shared kitchen"
+      ],
+      "pronunciation": "Czytaj „kiczyn”.",
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.furniture",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 20,
+      "en": "furniture",
+      "pl": "meble",
+      "alternatives": [],
+      "usage": "Wyposażenie mieszkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Most of my furniture is from IKEA.",
+          "pl": "Większość moich mebli jest z IKEI."
+        }
+      ],
+      "collocations": [
+        "new furniture",
+        "a piece of furniture",
+        "IKEA furniture"
+      ],
+      "note": "„Furniture” jest niepoliczalne: „some furniture”, „a piece of furniture”. Nigdy „furnitures”.",
+      "tags": [
+        "home",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.bills",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 21,
+      "en": "bills",
+      "pl": "rachunki (za media)",
+      "alternatives": [],
+      "usage": "Prąd, gaz, internet.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are the bills included in the rent?",
+          "pl": "Czy rachunki są wliczone w czynsz?"
+        }
+      ],
+      "collocations": [
+        "pay the bills",
+        "bills included",
+        "electricity bills"
+      ],
+      "tags": [
+        "home",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.landlord",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 22,
+      "en": "landlord",
+      "pl": "właściciel mieszkania (wynajmujący)",
+      "alternatives": [],
+      "usage": "Osoba, od której wynajmujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need to call the landlord — the shower's broken.",
+          "pl": "Muszę zadzwonić do właściciela — prysznic się zepsuł."
+        }
+      ],
+      "collocations": [
+        "my landlord",
+        "call the landlord",
+        "a good landlord"
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.home.noisy",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 23,
+      "en": "noisy",
+      "pl": "hałaśliwy, głośny",
+      "alternatives": [],
+      "usage": "O miejscach i ludziach, którzy robią hałas.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The street is a bit noisy at night.",
+          "pl": "Ulica jest w nocy trochę głośna."
+        }
+      ],
+      "collocations": [
+        "noisy neighbours",
+        "a noisy street",
+        "really noisy"
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.cosy",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 24,
+      "en": "cosy",
+      "pl": "przytulny",
+      "alternatives": [],
+      "usage": "O miłym, ciepłym miejscu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's small, but it's really cosy.",
+          "pl": "Jest małe, ale bardzo przytulne."
+        }
+      ],
+      "collocations": [
+        "a cosy flat",
+        "nice and cosy",
+        "a cosy bar"
+      ],
+      "note": "UK: cosy, US: cozy.",
+      "pronunciation": "Czytaj „kołzi”.",
+      "tags": [
+        "home",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.upstairs",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 25,
+      "en": "upstairs",
+      "pl": "na górze, na piętrze",
+      "alternatives": [],
+      "usage": "Kierunek albo miejsce wyżej w budynku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The people upstairs have a dog.",
+          "pl": "Ludzie z góry mają psa."
+        }
+      ],
+      "collocations": [
+        "go upstairs",
+        "the people upstairs",
+        "upstairs and downstairs"
+      ],
+      "note": "Przeciwieństwo: „downstairs” — na dole.",
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.theres-a-in-my-flat",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 26,
+      "en": "There's a ___ in my flat.",
+      "pl": "W moim mieszkaniu jest ___.",
+      "alternatives": [],
+      "usage": "Opisujesz wyposażenie — liczba pojedyncza: there is.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a big TV in my flat.",
+          "pl": "W moim mieszkaniu jest duży telewizor."
+        },
+        {
+          "en": "There's a home gym in my flat.",
+          "pl": "W moim mieszkaniu jest domowa siłownia."
+        }
+      ],
+      "tags": [
+        "home",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.there-are-in-building",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 27,
+      "en": "There are ___ in my building.",
+      "pl": "W moim bloku jest ___.",
+      "alternatives": [],
+      "usage": "Opisujesz budynek — liczba mnoga: there are.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There are ten floors in my building.",
+          "pl": "Mój blok ma dziesięć pięter."
+        },
+        {
+          "en": "There are a lot of young people in my building.",
+          "pl": "W moim bloku mieszka dużo młodych ludzi."
+        }
+      ],
+      "note": "Liczba mnoga zawsze z „there ARE”: there are ten floors, there are a lot of people.",
+      "tags": [
+        "home",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.is-there-near-your-place",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 28,
+      "en": "Is there a ___ near your place?",
+      "pl": "Czy koło ciebie jest ___?",
+      "alternatives": [],
+      "usage": "Pytasz o okolicę czyjegoś mieszkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a gym near your place?",
+          "pl": "Czy koło ciebie jest siłownia?"
+        },
+        {
+          "en": "Is there a shop near your place?",
+          "pl": "Czy koło ciebie jest sklep?"
+        }
+      ],
+      "tags": [
+        "home",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.there-isnt-any",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 29,
+      "en": "There isn't any ___.",
+      "pl": "Nie ma ___ (nic).",
+      "alternatives": [],
+      "usage": "Brak czegoś niepoliczalnego.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There isn't any milk.",
+          "pl": "Nie ma mleka."
+        },
+        {
+          "en": "There isn't any hot water.",
+          "pl": "Nie ma ciepłej wody."
+        }
+      ],
+      "note": "Niepoliczalne (milk, water, time) → „there isn't any”. Policzalne w l. mnogiej → „there aren't any”.",
+      "tags": [
+        "home",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.room-next-to",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 30,
+      "en": "My room is next to the ___.",
+      "pl": "Mój pokój jest obok ___.",
+      "alternatives": [],
+      "usage": "Opisujesz układ mieszkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My room is next to the kitchen.",
+          "pl": "Mój pokój jest obok kuchni."
+        },
+        {
+          "en": "My room is next to the bathroom.",
+          "pl": "Mój pokój jest obok łazienki."
+        }
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.usually-on-sunday",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 31,
+      "en": "I usually ___ on Sunday.",
+      "pl": "W niedzielę zwykle ___.",
+      "alternatives": [],
+      "usage": "Domowe obowiązki — Present Simple.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually clean the flat on Sunday.",
+          "pl": "W niedzielę zwykle sprzątam mieszkanie."
+        },
+        {
+          "en": "I usually do the shopping on Sunday.",
+          "pl": "W niedzielę zwykle robię zakupy."
+        }
+      ],
+      "note": "„Robić zakupy / pranie” = „do the shopping / do the washing” — z „do”, nie „make”.",
+      "tags": [
+        "home",
+        "gr:present-simple",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.your-place",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 32,
+      "en": "Where do you live?",
+      "pl": "Gdzie mieszkasz?",
+      "alternatives": [],
+      "usage": "Rozmowa o mieszkaniu i kosztach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where do you live?",
+          "pl": "Gdzie mieszkasz?",
+          "speaker": "A"
+        },
+        {
+          "en": "In a flat near the city centre. It's small, but cosy.",
+          "pl": "W mieszkaniu niedaleko centrum. Małe, ale przytulne.",
+          "speaker": "B"
+        },
+        {
+          "en": "Do you live on your own?",
+          "pl": "Mieszkasz sam?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, I share it with a friend from work.",
+          "pl": "Nie, z kumplem z pracy.",
+          "speaker": "B"
+        },
+        {
+          "en": "Is the rent expensive?",
+          "pl": "Drogi czynsz?",
+          "speaker": "A"
+        },
+        {
+          "en": "Not too bad. The bills are included.",
+          "pl": "Da się żyć. Rachunki są wliczone.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.home.guest-visit",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.home",
+      "order": 33,
+      "en": "A friend comes over",
+      "pl": "Kumpel wpada w odwiedziny",
+      "alternatives": [],
+      "usage": "Witasz gościa w swoim mieszkaniu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Come in! Sorry about the mess.",
+          "pl": "Wchodź! Sorry za bałagan.",
+          "speaker": "A"
+        },
+        {
+          "en": "No worries. Nice place!",
+          "pl": "Spoko. Fajne mieszkanie!",
+          "speaker": "B"
+        },
+        {
+          "en": "Thanks. Make yourself at home. Do you want a drink?",
+          "pl": "Dzięki. Czuj się jak u siebie. Chcesz coś do picia?",
+          "speaker": "A"
+        },
+        {
+          "en": "Just water, please.",
+          "pl": "Tylko wodę, poproszę.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "home"
+      ],
+      "level": "A2"
+    }
+  ]
+}

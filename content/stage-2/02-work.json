@@ -1,0 +1,908 @@
+{
+  "module": {
+    "id": "s2.work",
+    "stage": 2,
+    "order": 2,
+    "title": "Praca",
+    "titleEn": "Work",
+    "description": "Twoja praca: zmiany, godziny, szef, ludzie z pracy, zmęczenie po robocie. Present Simple dla stałych rzeczy, Continuous dla tymczasowych.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s2.work.full-time",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 1,
+      "en": "I work full-time.",
+      "pl": "Pracuję na pełen etat.",
+      "alternatives": [
+        "I've got a full-time job.",
+        "I have a full-time job."
+      ],
+      "usage": "Mówisz, ile pracujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you work full-time? — Yeah, forty hours a week, sometimes more.",
+          "pl": "Pracujesz na pełen etat? — Tak, czterdzieści godzin w tygodniu, czasem więcej."
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.work-shifts",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 2,
+      "en": "I work shifts.",
+      "pl": "Pracuję na zmiany.",
+      "alternatives": [
+        "I do shift work.",
+        "I work in shifts."
+      ],
+      "usage": "Gdy twoje godziny pracy się zmieniają.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I work shifts, so sometimes I'm free in the morning.",
+          "pl": "Pracuję na zmiany, więc czasem mam wolne rano."
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.start-at-six",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 3,
+      "en": "I start at six in the morning.",
+      "pl": "Zaczynam o szóstej rano.",
+      "alternatives": [
+        "I start work at six in the morning.",
+        "I start at 6 a.m."
+      ],
+      "usage": "Mówisz, o której zaczynasz pracę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time do you start? — I start at six in the morning.",
+          "pl": "O której zaczynasz? — O szóstej rano."
+        }
+      ],
+      "tags": [
+        "work",
+        "time",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.hard-work-money-ok",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 4,
+      "en": "It's hard work, but the money's OK.",
+      "pl": "To ciężka robota, ale kasa jest OK.",
+      "alternatives": [
+        "It's hard work, but the money is OK.",
+        "It's hard work, but the pay is OK."
+      ],
+      "usage": "Uczciwa opinia o pracy fizycznej.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Do you like it? — It's hard work, but the money's OK.",
+          "pl": "Lubisz to? — To ciężka robota, ale kasa jest OK."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.on-my-feet",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 5,
+      "en": "I'm on my feet all day.",
+      "pl": "Cały dzień jestem na nogach.",
+      "alternatives": [],
+      "usage": "Opisujesz pracę fizyczną.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm on my feet all day, so I'm tired in the evening.",
+          "pl": "Cały dzień jestem na nogach, więc wieczorem jestem zmęczony."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.on-nights",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 6,
+      "en": "I'm on nights this week.",
+      "pl": "W tym tygodniu mam nocki.",
+      "alternatives": [
+        "I'm on night shifts this week.",
+        "I'm working nights this week."
+      ],
+      "usage": "Mówisz, że pracujesz na nocną zmianę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Can we meet on Wednesday? — Sorry, I'm on nights this week.",
+          "pl": "Spotkamy się w środę? — Sorry, w tym tygodniu mam nocki."
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:present-continuous-future"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.tomorrow-off",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 7,
+      "en": "I've got tomorrow off.",
+      "pl": "Jutro mam wolne.",
+      "alternatives": [
+        "I'm off tomorrow.",
+        "I have tomorrow off.",
+        "I've got the day off tomorrow."
+      ],
+      "usage": "Mówisz, że masz dzień wolny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got tomorrow off, so let's go out tonight!",
+          "pl": "Jutro mam wolne, więc wyjdźmy dziś wieczorem!"
+        }
+      ],
+      "note": "„Mieć wolne” = „have the day off” albo „be off”. Nie „I have free tomorrow”.",
+      "tags": [
+        "work",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.boss-is-cool",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 8,
+      "en": "My boss is pretty cool.",
+      "pl": "Mój szef jest spoko.",
+      "alternatives": [
+        "My boss is quite cool.",
+        "My boss is really cool."
+      ],
+      "usage": "Opinia o szefie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "My boss is pretty cool. He lets us finish early on Fridays.",
+          "pl": "Mój szef jest spoko. Pozwala nam kończyć wcześniej w piątki."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.get-on-with-colleagues",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 9,
+      "en": "I get on well with my colleagues.",
+      "pl": "Dobrze się dogaduję z ludźmi z pracy.",
+      "alternatives": [
+        "I get along well with my colleagues.",
+        "I get on well with the people at work."
+      ],
+      "usage": "Mówisz o atmosferze w pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I get on well with my colleagues. We sometimes go for a beer after work.",
+          "pl": "Dobrze się dogaduję z ludźmi z pracy. Czasem idziemy na piwo po robocie."
+        }
+      ],
+      "note": "UK: get on (well) with, US: get along (well) with.",
+      "tags": [
+        "work",
+        "uk-us",
+        "gr:present-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.doing-overtime",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 10,
+      "en": "I'm doing overtime this week.",
+      "pl": "W tym tygodniu robię nadgodziny.",
+      "alternatives": [
+        "I'm working overtime this week."
+      ],
+      "usage": "Tymczasowa sytuacja w pracy — Present Continuous.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm doing overtime this week, so I can't come to the gym.",
+          "pl": "W tym tygodniu robię nadgodziny, więc nie dam rady na siłownię."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.how-long-worked-there",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 11,
+      "en": "How long have you worked there?",
+      "pl": "Od kiedy tam pracujesz?",
+      "alternatives": [
+        "How long have you been working there?"
+      ],
+      "usage": "Pytasz o staż pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How long have you worked there? — About three years.",
+          "pl": "Od kiedy tam pracujesz? — Od jakichś trzech lat."
+        }
+      ],
+      "note": "Polskie „od kiedy pracujesz” = „How long HAVE you worked…?”, nie „How long do you work…?”.",
+      "tags": [
+        "work",
+        "gr:present-perfect",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.like-your-job",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 12,
+      "en": "Do you like your job?",
+      "pl": "Lubisz swoją pracę?",
+      "alternatives": [
+        "Do you enjoy your job?"
+      ],
+      "usage": "Proste pytanie, które otwiera rozmowę o pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you like your job? — Most of the time, yeah.",
+          "pl": "Lubisz swoją pracę? — Przeważnie tak."
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:questions-do",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.pays-the-bills",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 13,
+      "en": "It pays the bills.",
+      "pl": "Starcza na rachunki.",
+      "alternatives": [],
+      "usage": "Praca nie jest marzeniem, ale daje pieniądze na życie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's not my dream job, but it pays the bills.",
+          "pl": "To nie jest praca marzeń, ale starcza na rachunki."
+        }
+      ],
+      "tags": [
+        "work",
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.knackered-after-work",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 14,
+      "en": "I'm knackered after work.",
+      "pl": "Jestem padnięty po pracy.",
+      "alternatives": [
+        "I'm exhausted after work.",
+        "I'm really tired after work."
+      ],
+      "usage": "Bardzo potoczne brytyjskie „jestem wykończony”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm knackered after work, but the gym wakes me up.",
+          "pl": "Po pracy jestem padnięty, ale siłownia mnie budzi."
+        }
+      ],
+      "note": "„Knackered” to brytyjski slang. W USA powiesz „I'm beat” albo „I'm exhausted”.",
+      "tags": [
+        "work",
+        "slang",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.finish-early-fridays",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 15,
+      "en": "I finish early on Fridays.",
+      "pl": "W piątki kończę wcześniej.",
+      "alternatives": [],
+      "usage": "Mówisz o stałym rytmie pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I finish early on Fridays, so we can meet at three.",
+          "pl": "W piątki kończę wcześniej, więc możemy się spotkać o trzeciej."
+        }
+      ],
+      "tags": [
+        "work",
+        "time",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.shift",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 16,
+      "en": "shift",
+      "pl": "zmiana (w pracy)",
+      "alternatives": [],
+      "usage": "Godziny pracy, gdy pracujesz na zmiany.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My shift starts at six.",
+          "pl": "Moja zmiana zaczyna się o szóstej."
+        }
+      ],
+      "collocations": [
+        "night shift",
+        "morning shift",
+        "a twelve-hour shift"
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.colleague",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 17,
+      "en": "colleague",
+      "pl": "kolega / koleżanka z pracy",
+      "alternatives": [],
+      "usage": "Osoba, z którą pracujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "A colleague of mine is from Liverpool.",
+          "pl": "Jeden z moich kolegów z pracy jest z Liverpoolu."
+        }
+      ],
+      "collocations": [
+        "a colleague of mine",
+        "my colleagues",
+        "a new colleague"
+      ],
+      "pronunciation": "Czytaj „kolig” — akcent na pierwszą sylabę.",
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.boss",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 18,
+      "en": "boss",
+      "pl": "szef",
+      "alternatives": [],
+      "usage": "Twój przełożony.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My boss lets me leave early on Fridays.",
+          "pl": "Mój szef pozwala mi wychodzić wcześniej w piątki."
+        }
+      ],
+      "collocations": [
+        "my boss",
+        "the boss",
+        "a good boss"
+      ],
+      "note": "Trzecia osoba: my boss lets / works / says — z „-s” na końcu.",
+      "tags": [
+        "work",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.salary",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 19,
+      "en": "salary",
+      "pl": "pensja",
+      "alternatives": [],
+      "usage": "Stałe miesięczne wynagrodzenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The salary is OK, but I want to earn more.",
+          "pl": "Pensja jest OK, ale chcę zarabiać więcej."
+        }
+      ],
+      "collocations": [
+        "a good salary",
+        "a monthly salary",
+        "a salary increase"
+      ],
+      "note": "„Salary” — pensja miesięczna. „Wages” — wypłata za godziny lub tygodniowa.",
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.warehouse",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 20,
+      "en": "warehouse",
+      "pl": "magazyn",
+      "alternatives": [],
+      "usage": "Miejsce pracy w logistyce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The warehouse is huge — I walk about twenty kilometres a day.",
+          "pl": "Magazyn jest ogromny — robię jakieś dwadzieścia kilometrów dziennie."
+        }
+      ],
+      "collocations": [
+        "work in a warehouse",
+        "a warehouse worker",
+        "a big warehouse"
+      ],
+      "pronunciation": "Czytaj „łerhałs”.",
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.physical",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 21,
+      "en": "physical",
+      "pl": "fizyczny",
+      "alternatives": [],
+      "usage": "O pracy, która męczy ciało.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's a very physical job.",
+          "pl": "To bardzo fizyczna praca."
+        }
+      ],
+      "collocations": [
+        "physical work",
+        "a physical job",
+        "physically tired"
+      ],
+      "pronunciation": "Czytaj „fizikl” — „ph” jak „f”.",
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.break",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 22,
+      "en": "break",
+      "pl": "przerwa",
+      "alternatives": [],
+      "usage": "Przerwa w pracy albo na odpoczynek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We have a thirty-minute lunch break.",
+          "pl": "Mamy trzydziestominutową przerwę na lunch."
+        }
+      ],
+      "collocations": [
+        "a lunch break",
+        "take a break",
+        "a coffee break"
+      ],
+      "note": "„Zrobić przerwę” = „take a break”, nie „make a break”.",
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.day-off",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 23,
+      "en": "day off",
+      "pl": "dzień wolny",
+      "alternatives": [],
+      "usage": "Dzień bez pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What do you do on your day off?",
+          "pl": "Co robisz w dzień wolny?"
+        }
+      ],
+      "collocations": [
+        "a day off",
+        "take a day off",
+        "my day off"
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.earn",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 24,
+      "en": "earn",
+      "pl": "zarabiać",
+      "alternatives": [],
+      "usage": "Gdy mówisz o pieniądzach z pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I want to earn more next year.",
+          "pl": "W przyszłym roku chcę zarabiać więcej."
+        }
+      ],
+      "collocations": [
+        "earn money",
+        "earn a living",
+        "earn more"
+      ],
+      "note": "„Zarabiać” = „earn” albo „make money”. Nie „win” — „win” to „wygrać”.",
+      "pronunciation": "Czytaj „ern” — jak w „learn”.",
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.hard-working",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 25,
+      "en": "hard-working",
+      "pl": "pracowity",
+      "alternatives": [],
+      "usage": "Opis kogoś, kto dużo i dobrze pracuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My dad is really hard-working. He never takes a day off.",
+          "pl": "Mój tata jest bardzo pracowity. Nigdy nie bierze wolnego."
+        }
+      ],
+      "collocations": [
+        "a hard-working guy",
+        "really hard-working",
+        "hard-working people"
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.hours-a-day",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 26,
+      "en": "I usually work ___ hours a day.",
+      "pl": "Zwykle pracuję ___ godzin dziennie.",
+      "alternatives": [],
+      "usage": "Mówisz, ile pracujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually work eight hours a day.",
+          "pl": "Zwykle pracuję osiem godzin dziennie."
+        },
+        {
+          "en": "I usually work ten hours a day in summer.",
+          "pl": "Latem zwykle pracuję dziesięć godzin dziennie."
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:present-simple",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.job-is-quite",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 27,
+      "en": "My job is quite ___.",
+      "pl": "Moja praca jest dość ___.",
+      "alternatives": [],
+      "usage": "Opisujesz swoją pracę jednym słowem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My job is quite tiring.",
+          "pl": "Moja praca jest dość męcząca."
+        },
+        {
+          "en": "My job is quite stressful.",
+          "pl": "Moja praca jest dość stresująca."
+        },
+        {
+          "en": "My job is quite boring sometimes.",
+          "pl": "Moja praca bywa dość nudna."
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.responsible-for",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 28,
+      "en": "I'm responsible for ___.",
+      "pl": "Odpowiadam za ___.",
+      "alternatives": [],
+      "usage": "Mówisz, co dokładnie robisz w pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm responsible for loading the trucks.",
+          "pl": "Odpowiadam za załadunek ciężarówek."
+        },
+        {
+          "en": "I'm responsible for checking deliveries.",
+          "pl": "Odpowiadam za sprawdzanie dostaw."
+        }
+      ],
+      "note": "Po „responsible for” czasownik z „-ing”: for loading, for checking.",
+      "tags": [
+        "work"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.after-work-i",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 29,
+      "en": "After work, I ___.",
+      "pl": "Po pracy ___.",
+      "alternatives": [],
+      "usage": "Opowiadasz o swoich popołudniach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "After work, I go to the gym.",
+          "pl": "Po pracy chodzę na siłownię."
+        },
+        {
+          "en": "After work, I usually just relax.",
+          "pl": "Po pracy zwykle po prostu odpoczywam."
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:present-simple",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.been-working-there-for",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 30,
+      "en": "I've been working there for ___.",
+      "pl": "Pracuję tam od ___.",
+      "alternatives": [],
+      "usage": "Mówisz, od jak dawna gdzieś pracujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've been working there for three years.",
+          "pl": "Pracuję tam od trzech lat."
+        },
+        {
+          "en": "I've been working there for about six months.",
+          "pl": "Pracuję tam od jakichś sześciu miesięcy."
+        }
+      ],
+      "note": "„Pracuję tam od…” to po angielsku czas Present Perfect Continuous + „for”.",
+      "tags": [
+        "work",
+        "gr:present-perfect",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.work.whats-your-job-like",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 31,
+      "en": "What's your job like?",
+      "pl": "Jaka jest twoja praca?",
+      "alternatives": [],
+      "usage": "Rozmowa o pracy fizycznej i zmianach.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "So, what's your job like?",
+          "pl": "To jaka jest twoja praca?",
+          "speaker": "A"
+        },
+        {
+          "en": "It's hard work. I'm on my feet all day.",
+          "pl": "Ciężka. Cały dzień jestem na nogach.",
+          "speaker": "B"
+        },
+        {
+          "en": "Do you work shifts?",
+          "pl": "Pracujesz na zmiany?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, mornings and nights. This week I'm on nights.",
+          "pl": "Tak, ranne i nocne. W tym tygodniu mam nocki.",
+          "speaker": "B"
+        },
+        {
+          "en": "That sounds tough.",
+          "pl": "Brzmi ciężko.",
+          "speaker": "A"
+        },
+        {
+          "en": "It pays the bills!",
+          "pl": "Starcza na rachunki!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.work.day-off-plans",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.work",
+      "order": 32,
+      "en": "A day off",
+      "pl": "Rozmowa o wolnym dniu",
+      "alternatives": [],
+      "usage": "Mówisz, że masz wolne i co planujesz.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Are you working tomorrow?",
+          "pl": "Pracujesz jutro?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, I've got tomorrow off.",
+          "pl": "Nie, jutro mam wolne.",
+          "speaker": "B"
+        },
+        {
+          "en": "Nice! Any plans?",
+          "pl": "Super! Jakieś plany?",
+          "speaker": "A"
+        },
+        {
+          "en": "Gym in the morning, then I'm meeting some friends.",
+          "pl": "Rano siłownia, potem spotykam się ze znajomymi.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "work",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+{
+  "module": {
+    "id": "s2.hometown",
+    "stage": 2,
+    "order": 1,
+    "title": "Skąd jestem",
+    "titleEn": "Where I come from",
+    "description": "Szczecin, Polska i twoje rodzinne strony: gdzie to jest, z czego słynie, jak się tam mieszka. Plus „Have you ever been to…?”.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s2.hometown.szczecin-north-west",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 1,
+      "en": "I'm from Szczecin — it's in the north-west of Poland.",
+      "pl": "Jestem ze Szczecina — to na północnym zachodzie Polski.",
+      "alternatives": [],
+      "usage": "Gdy ktoś nie zna twojego miasta — od razu dodajesz, gdzie leży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where are you from? — I'm from Szczecin — it's in the north-west of Poland.",
+          "pl": "Skąd jesteś? — Ze Szczecina — to na północnym zachodzie Polski."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.heard-of-it",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 2,
+      "en": "Have you heard of it?",
+      "pl": "Słyszałeś o nim?",
+      "alternatives": [
+        "Have you ever heard of it?",
+        "Do you know it?"
+      ],
+      "usage": "Pytasz, czy rozmówca zna miejsce albo zespół, o którym mówisz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm from Szczecin. Have you heard of it? — No, sorry!",
+          "pl": "Jestem ze Szczecina. Słyszałeś o nim? — Nie, sorry!"
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.not-well-known",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 3,
+      "en": "It's not very well known.",
+      "pl": "Nie jest zbyt znane.",
+      "alternatives": [
+        "It's not really famous.",
+        "It's not that well known."
+      ],
+      "usage": "Mówisz, że miejsce (albo DJ, gra) nie jest popularne.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's a great city, but it's not very well known.",
+          "pl": "To świetne miasto, ale niezbyt znane."
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.nice-place-to-live",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 4,
+      "en": "It's a nice place to live.",
+      "pl": "Fajnie się tam mieszka.",
+      "alternatives": [
+        "It's a good place to live."
+      ],
+      "usage": "Ogólna, pozytywna opinia o miejscu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you like Szczecin? — Yeah, it's a nice place to live.",
+          "pl": "Lubisz Szczecin? — Tak, fajnie się tam mieszka."
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.not-much-to-do",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 5,
+      "en": "There's not much to do there.",
+      "pl": "Nie ma tam za bardzo co robić.",
+      "alternatives": [
+        "There's nothing to do there."
+      ],
+      "usage": "O małym miasteczku albo nudnej okolicy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I grew up in a small town. There's not much to do there.",
+          "pl": "Dorastałem w małym miasteczku. Nie ma tam za bardzo co robić."
+        }
+      ],
+      "tags": [
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.pretty-quiet",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 6,
+      "en": "It's pretty quiet.",
+      "pl": "Jest dość spokojnie.",
+      "alternatives": [
+        "It's quite quiet.",
+        "It's really quiet."
+      ],
+      "usage": "Opisujesz spokojne miejsce — bez tłumów i hałasu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What's your area like? — It's pretty quiet. Lots of old people!",
+          "pl": "Jaka jest twoja okolica? — Dość spokojna. Dużo starszych ludzi!"
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.should-visit",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 7,
+      "en": "You should visit sometime.",
+      "pl": "Musisz kiedyś wpaść.",
+      "alternatives": [
+        "You should come and visit sometime.",
+        "You should come to Poland sometime."
+      ],
+      "usage": "Zapraszasz kogoś do swojego miasta albo kraju.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You should visit sometime. I'll show you the best clubs!",
+          "pl": "Musisz kiedyś wpaść. Pokażę ci najlepsze kluby!"
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.grew-up-small-town",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 8,
+      "en": "I grew up in a small town.",
+      "pl": "Dorastałem w małym miasteczku.",
+      "alternatives": [
+        "I grew up in a little town."
+      ],
+      "usage": "Mówisz, gdzie spędziłeś dzieciństwo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I grew up in a small town, but I moved to the city when I was nineteen.",
+          "pl": "Dorastałem w małym miasteczku, ale przeprowadziłem się do miasta, gdy miałem dziewiętnaście lat."
+        }
+      ],
+      "pronunciation": "„grew” czytaj „gru”.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.moved-for-work",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 9,
+      "en": "I moved to Szczecin for work.",
+      "pl": "Przeprowadziłem się do Szczecina za pracą.",
+      "alternatives": [
+        "I moved to Szczecin because of work."
+      ],
+      "usage": "Mówisz, dlaczego mieszkasz tam, gdzie mieszkasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I moved to Szczecin for work, and I stayed.",
+          "pl": "Przeprowadziłem się do Szczecina za pracą i zostałem."
+        }
+      ],
+      "tags": [
+        "gr:past-simple",
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.tried-pierogi",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 10,
+      "en": "Have you ever tried pierogi?",
+      "pl": "Jadłeś kiedyś pierogi?",
+      "alternatives": [
+        "Have you ever had pierogi?"
+      ],
+      "usage": "Rozmowa o polskim jedzeniu — świetny temat z obcokrajowcami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever tried pierogi? — Yeah, they're amazing!",
+          "pl": "Jadłeś kiedyś pierogi? — Tak, są pyszne!"
+        }
+      ],
+      "tags": [
+        "food",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.long-grey-winters",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 11,
+      "en": "The winters are long and grey.",
+      "pl": "Zimy są długie i szare.",
+      "alternatives": [
+        "Winters are long and grey."
+      ],
+      "usage": "Uczciwie o polskiej pogodzie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the weather like there? — The winters are long and grey, but the summers are great.",
+          "pl": "Jaka tam jest pogoda? — Zimy są długie i szare, ale lata świetne."
+        }
+      ],
+      "tags": [
+        "weather"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.how-far-from-here",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 12,
+      "en": "How far is it from here?",
+      "pl": "Jak daleko to stąd?",
+      "alternatives": [
+        "How far is it?",
+        "Is it far from here?"
+      ],
+      "usage": "Pytasz o odległość — miasta, klubu, festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How far is it from here? — About ten minutes on foot.",
+          "pl": "Jak daleko to stąd? — Jakieś dziesięć minut pieszo."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.do-you-know-where",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 13,
+      "en": "Do you know where that is?",
+      "pl": "Wiesz, gdzie to jest?",
+      "alternatives": [],
+      "usage": "Sprawdzasz, czy rozmówca kojarzy miejsce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm from Szczecin. Do you know where that is?",
+          "pl": "Jestem ze Szczecina. Wiesz, gdzie to jest?"
+        }
+      ],
+      "note": "W pytaniu pośrednim szyk jak w zdaniu: where that IS (nie „where is that”).",
+      "tags": [
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.next-to-germany",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 14,
+      "en": "It's right next to Germany.",
+      "pl": "To tuż przy Niemczech.",
+      "alternatives": [
+        "It's next to Germany.",
+        "It's right on the German border."
+      ],
+      "usage": "Najprostszy sposób, żeby wytłumaczyć, gdzie leży Szczecin.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where's that? — It's right next to Germany, near the sea.",
+          "pl": "Gdzie to jest? — Tuż przy Niemczech, blisko morza."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.changed-a-lot",
+      "type": "phrase",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 15,
+      "en": "It's changed a lot.",
+      "pl": "Bardzo się zmieniło.",
+      "alternatives": [
+        "It has changed a lot.",
+        "It's changed so much."
+      ],
+      "usage": "O miejscu, które wygląda dziś inaczej niż kiedyś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's changed a lot in the last ten years. There are lots of new places now.",
+          "pl": "Bardzo się zmieniło przez ostatnie dziesięć lat. Jest teraz dużo nowych miejsc."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.north",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 16,
+      "en": "north",
+      "pl": "północ",
+      "alternatives": [],
+      "usage": "Kierunki przy opisywaniu, gdzie coś leży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Gdańsk is in the north, on the coast.",
+          "pl": "Gdańsk jest na północy, nad morzem."
+        }
+      ],
+      "collocations": [
+        "in the north",
+        "north of Berlin",
+        "the north-west"
+      ],
+      "note": "Strony świata z „the”: in the north, in the south-east.",
+      "tags": [
+        "travel",
+        "gr:articles"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.coast",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 17,
+      "en": "coast",
+      "pl": "wybrzeże",
+      "alternatives": [],
+      "usage": "Morze, plaże, nadmorskie miasta.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're about an hour from the coast.",
+          "pl": "Jesteśmy jakąś godzinę od wybrzeża."
+        }
+      ],
+      "collocations": [
+        "on the coast",
+        "the Baltic coast",
+        "near the coast"
+      ],
+      "pronunciation": "Czytaj „kołst”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.countryside",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 18,
+      "en": "countryside",
+      "pl": "wieś (krajobraz), tereny wiejskie",
+      "alternatives": [],
+      "usage": "Gdy mówisz o życiu poza miastem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My parents live in the countryside.",
+          "pl": "Moi rodzice mieszkają na wsi."
+        }
+      ],
+      "collocations": [
+        "in the countryside",
+        "beautiful countryside",
+        "live in the countryside"
+      ],
+      "note": "„Na wsi” = „in the countryside”. Konkretna wioska to „a village”.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.capital",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 19,
+      "en": "capital",
+      "pl": "stolica",
+      "alternatives": [],
+      "usage": "O stolicach państw.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Warsaw is the capital, but I prefer Szczecin.",
+          "pl": "Warszawa jest stolicą, ale wolę Szczecin."
+        }
+      ],
+      "collocations": [
+        "the capital of Poland",
+        "capital city",
+        "in the capital"
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.population",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 20,
+      "en": "population",
+      "pl": "liczba mieszkańców, ludność",
+      "alternatives": [],
+      "usage": "Gdy mówisz, jak duże jest miasto.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Szczecin has a population of about 400,000.",
+          "pl": "Szczecin ma około 400 tysięcy mieszkańców."
+        }
+      ],
+      "collocations": [
+        "a population of…",
+        "a big population",
+        "the local population"
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.river",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 21,
+      "en": "river",
+      "pl": "rzeka",
+      "alternatives": [],
+      "usage": "Opis miasta i okolicy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a nice path along the river.",
+          "pl": "Wzdłuż rzeki jest fajna ścieżka."
+        }
+      ],
+      "collocations": [
+        "by the river",
+        "along the river",
+        "the Oder river"
+      ],
+      "tags": [
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.nightlife",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 22,
+      "en": "nightlife",
+      "pl": "życie nocne",
+      "alternatives": [],
+      "usage": "Kluby, bary, imprezy w mieście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Berlin has amazing nightlife.",
+          "pl": "Berlin ma niesamowite życie nocne."
+        }
+      ],
+      "collocations": [
+        "great nightlife",
+        "the nightlife in…",
+        "not much nightlife"
+      ],
+      "note": "Niepoliczalne: „amazing nightlife”, bez „a”.",
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.touristy",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 23,
+      "en": "touristy",
+      "pl": "turystyczny, pełen turystów",
+      "alternatives": [],
+      "usage": "O miejscach, gdzie jest głównie dla turystów (często drożej).",
+      "register": "casual",
+      "example": [
+        {
+          "en": "The old town is a bit touristy.",
+          "pl": "Stare miasto jest trochę turystyczne."
+        }
+      ],
+      "collocations": [
+        "really touristy",
+        "a touristy area",
+        "too touristy"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.local",
+      "type": "word",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 24,
+      "en": "local",
+      "pl": "miejscowy, lokalny; miejscowy człowiek",
+      "alternatives": [],
+      "usage": "O ludziach i rzeczach „stąd”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Ask a local — they know the best bars.",
+          "pl": "Zapytaj miejscowego — oni znają najlepsze bary."
+        }
+      ],
+      "collocations": [
+        "a local",
+        "local food",
+        "the locals"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.famous-for",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 25,
+      "en": "It's famous for ___.",
+      "pl": "Słynie z ___.",
+      "alternatives": [],
+      "usage": "Mówisz, z czego znane jest miasto albo kraj.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's famous for its port.",
+          "pl": "Słynie z portu."
+        },
+        {
+          "en": "Belgium is famous for chocolate and beer.",
+          "pl": "Belgia słynie z czekolady i piwa."
+        },
+        {
+          "en": "Poland is famous for pierogi.",
+          "pl": "Polska słynie z pierogów."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.lots-of-in-my-city",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 26,
+      "en": "There are lots of ___ in my city.",
+      "pl": "W moim mieście jest dużo ___.",
+      "alternatives": [],
+      "usage": "Opisujesz swoje miasto — there are + liczba mnoga.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There are lots of parks in my city.",
+          "pl": "W moim mieście jest dużo parków."
+        },
+        {
+          "en": "There are lots of old buildings in my city.",
+          "pl": "W moim mieście jest dużo starych budynków."
+        }
+      ],
+      "note": "„Lots of” + liczba mnoga → „there ARE”.",
+      "tags": [
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.about-from-berlin",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 27,
+      "en": "It's about ___ from Berlin.",
+      "pl": "To jakieś ___ od Berlina.",
+      "alternatives": [],
+      "usage": "Podajesz odległość od znanego miejsca.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's about two hours from Berlin.",
+          "pl": "To jakieś dwie godziny od Berlina."
+        },
+        {
+          "en": "It's about 150 kilometres from Berlin.",
+          "pl": "To jakieś 150 kilometrów od Berlina."
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.lived-here-for",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 28,
+      "en": "I've lived here for ___.",
+      "pl": "Mieszkam tu od ___.",
+      "alternatives": [],
+      "usage": "Mówisz, jak długo gdzieś mieszkasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've lived here for five years.",
+          "pl": "Mieszkam tu od pięciu lat."
+        },
+        {
+          "en": "I've lived here for most of my life.",
+          "pl": "Mieszkam tu prawie całe życie."
+        }
+      ],
+      "note": "„Mieszkam tu od 5 lat” = „I've lived here for five years”. Nie „I live here since 5 years”.",
+      "tags": [
+        "gr:present-perfect",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.ever-been-to",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 29,
+      "en": "Have you ever been to ___?",
+      "pl": "Byłeś kiedyś w ___?",
+      "alternatives": [],
+      "usage": "Pytasz o czyjeś podróże.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever been to Poland?",
+          "pl": "Byłeś kiedyś w Polsce?"
+        },
+        {
+          "en": "Have you ever been to Berlin?",
+          "pl": "Byłeś kiedyś w Berlinie?"
+        }
+      ],
+      "note": "„Been TO” — byłeś gdzieś i wróciłeś. Nie „been in”.",
+      "tags": [
+        "gr:present-perfect",
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s2.hometown.which-part-of",
+      "type": "pattern",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 30,
+      "en": "Which part of ___ are you from?",
+      "pl": "Z której części ___ jesteś?",
+      "alternatives": [],
+      "usage": "Dopytujesz, skąd dokładnie ktoś pochodzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Which part of England are you from?",
+          "pl": "Z której części Anglii jesteś?"
+        },
+        {
+          "en": "Which part of Germany are you from?",
+          "pl": "Z której części Niemiec jesteś?"
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.where-is-szczecin",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 31,
+      "en": "Where's Szczecin?",
+      "pl": "Gdzie jest Szczecin?",
+      "alternatives": [],
+      "usage": "Tłumaczysz komuś z zagranicy, skąd jesteś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "So where in Poland are you from?",
+          "pl": "To skąd dokładnie z Polski jesteś?",
+          "speaker": "A"
+        },
+        {
+          "en": "Szczecin. Have you heard of it?",
+          "pl": "Ze Szczecina. Słyszałeś o nim?",
+          "speaker": "B"
+        },
+        {
+          "en": "No, sorry. Where is it?",
+          "pl": "Nie, sorry. Gdzie to jest?",
+          "speaker": "A"
+        },
+        {
+          "en": "It's in the north-west, right next to Germany. About two hours from Berlin.",
+          "pl": "Na północnym zachodzie, tuż przy Niemczech. Jakieś dwie godziny od Berlina.",
+          "speaker": "B"
+        },
+        {
+          "en": "Oh, nice! Is it a big city?",
+          "pl": "O, fajnie! Duże miasto?",
+          "speaker": "A"
+        },
+        {
+          "en": "Not really, but there are some really good clubs.",
+          "pl": "Nie bardzo, ale jest kilka naprawdę dobrych klubów.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s2.hometown.been-to-poland",
+      "type": "dialog",
+      "stage": 2,
+      "module": "s2.hometown",
+      "order": 32,
+      "en": "Have you been to Poland?",
+      "pl": "Byłeś w Polsce?",
+      "alternatives": [],
+      "usage": "Rozmowa o podróżach i polskim jedzeniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever been to Poland?",
+          "pl": "Byłeś kiedyś w Polsce?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, once. I went to Kraków for a weekend.",
+          "pl": "Tak, raz. Byłem w Krakowie na weekend.",
+          "speaker": "B"
+        },
+        {
+          "en": "Nice! Did you like it?",
+          "pl": "Super! Podobało ci się?",
+          "speaker": "A"
+        },
+        {
+          "en": "I loved it. The food was amazing.",
+          "pl": "Bardzo. Jedzenie było niesamowite.",
+          "speaker": "B"
+        },
+        {
+          "en": "You should visit Szczecin sometime!",
+          "pl": "Musisz kiedyś wpaść do Szczecina!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    }
+  ]
+}
