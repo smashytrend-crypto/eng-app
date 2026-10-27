@@ -1,0 +1,885 @@
+{
+  "module": {
+    "id": "s4.airport",
+    "stage": 4,
+    "order": 1,
+    "title": "Lotnisko",
+    "titleEn": "At the airport",
+    "description": "Odprawa, bagaż podręczny, kontrola, bramka, opóźnienia i zagubiona walizka — wszystko, żeby spokojnie dolecieć.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.airport.where-check-in",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 1,
+      "en": "Where do I check in for the flight to Brussels?",
+      "pl": "Gdzie jest odprawa na lot do Brukseli?",
+      "alternatives": [
+        "Where is check-in for the flight to Brussels?",
+        "Where do I check in for Brussels?"
+      ],
+      "usage": "Na lotnisku, gdy szukasz stanowiska odprawy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, where do I check in for the flight to Brussels? — Desk twelve.",
+          "pl": "Przepraszam, gdzie jest odprawa na lot do Brukseli? — Stanowisko dwanaście."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.window-seat",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 2,
+      "en": "I'd like a window seat, please.",
+      "pl": "Poproszę miejsce przy oknie.",
+      "alternatives": [
+        "Can I have a window seat, please?",
+        "I'd like an aisle seat, please."
+      ],
+      "usage": "Przy odprawie albo wyborze miejsca.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd like a window seat, please. — Sure, 14A.",
+          "pl": "Poproszę miejsce przy oknie. — Jasne, 14A."
+        }
+      ],
+      "note": "Miejsce przy przejściu to „aisle seat” (czyt. „ajl”).",
+      "tags": [
+        "travel",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.hand-luggage-ok",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 3,
+      "en": "Is this bag OK as hand luggage?",
+      "pl": "Czy ta torba może być bagażem podręcznym?",
+      "alternatives": [
+        "Can I take this bag as hand luggage?",
+        "Is this OK as hand luggage?"
+      ],
+      "usage": "Upewniasz się co do rozmiaru bagażu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is this bag OK as hand luggage? — Yes, it's fine.",
+          "pl": "Czy ta torba może być bagażem podręcznym? — Tak, w porządku."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.airport.print-boarding-pass",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 4,
+      "en": "Do I need to print my boarding pass?",
+      "pl": "Muszę wydrukować kartę pokładową?",
+      "alternatives": [
+        "Do I have to print my boarding pass?"
+      ],
+      "usage": "Pytanie przed lotem tanimi liniami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do I need to print my boarding pass? — No, it's fine on your phone.",
+          "pl": "Muszę wydrukować kartę pokładową? — Nie, wystarczy w telefonie."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.which-gate",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 5,
+      "en": "Which gate is it?",
+      "pl": "Która to bramka?",
+      "alternatives": [
+        "What gate is it?",
+        "Which gate do I need?"
+      ],
+      "usage": "Szukasz wyjścia do samolotu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Which gate is it? — Gate B23. Boarding starts at ten.",
+          "pl": "Która to bramka? — B23. Boarding zaczyna się o dziesiątej."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.flight-delayed",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 6,
+      "en": "The flight is delayed.",
+      "pl": "Lot jest opóźniony.",
+      "alternatives": [
+        "My flight is delayed.",
+        "Our flight is delayed."
+      ],
+      "usage": "Informujesz o opóźnieniu — albo słyszysz to na lotnisku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The flight is delayed by two hours. Let's get some food.",
+          "pl": "Lot jest opóźniony o dwie godziny. Chodźmy coś zjeść."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.boarding-started",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 7,
+      "en": "Has boarding started?",
+      "pl": "Czy boarding już się zaczął?",
+      "alternatives": [
+        "Has boarding started yet?",
+        "Are they boarding yet?"
+      ],
+      "usage": "Gdy biegniesz do bramki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Has boarding started? — Yes, hurry up!",
+          "pl": "Boarding już się zaczął? — Tak, pospiesz się!"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.airport.nothing-to-declare",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 8,
+      "en": "I've got nothing to declare.",
+      "pl": "Nie mam nic do oclenia.",
+      "alternatives": [
+        "I have nothing to declare.",
+        "Nothing to declare."
+      ],
+      "usage": "Na kontroli celnej.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Anything to declare? — No, I've got nothing to declare.",
+          "pl": "Coś do oclenia? — Nie, nie mam nic do oclenia."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.airport.laptop-out",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 9,
+      "en": "Do I need to take my laptop out?",
+      "pl": "Muszę wyjąć laptopa?",
+      "alternatives": [
+        "Should I take my laptop out?",
+        "Does the laptop need to come out?"
+      ],
+      "usage": "Przy kontroli bezpieczeństwa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do I need to take my laptop out? — Yes, and your liquids, please.",
+          "pl": "Muszę wyjąć laptopa? — Tak, i płyny też, proszę."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.bag-didnt-arrive",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 10,
+      "en": "My bag didn't arrive.",
+      "pl": "Mój bagaż nie przyleciał.",
+      "alternatives": [
+        "My luggage didn't arrive.",
+        "My suitcase didn't arrive."
+      ],
+      "usage": "Przy stanowisku zagubionych bagaży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, my bag didn't arrive. I was on the flight from Szczecin.",
+          "pl": "Przepraszam, mój bagaż nie przyleciał. Leciałem z Szczecina."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.get-to-centre",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 11,
+      "en": "How do I get to the city centre from here?",
+      "pl": "Jak dostanę się stąd do centrum?",
+      "alternatives": [
+        "How can I get to the city centre from here?",
+        "What's the best way to the city centre?"
+      ],
+      "usage": "Po przylocie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How do I get to the city centre from here? — Take the train, it's twenty minutes.",
+          "pl": "Jak dostanę się stąd do centrum? — Pociągiem, dwadzieścia minut."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.shuttle-bus",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 12,
+      "en": "Is there a shuttle bus?",
+      "pl": "Jest autobus dowozowy?",
+      "alternatives": [
+        "Is there a shuttle?",
+        "Is there a shuttle bus from here?"
+      ],
+      "usage": "Pytasz o bus z lotniska albo na festiwal.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a shuttle bus to the festival? — Yes, every twenty minutes.",
+          "pl": "Jest autobus dowozowy na festiwal? — Tak, co dwadzieścia minut."
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.fill-water-bottle",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 13,
+      "en": "Where can I fill up my water bottle?",
+      "pl": "Gdzie mogę napełnić butelkę na wodę?",
+      "alternatives": [
+        "Where can I refill my water bottle?"
+      ],
+      "usage": "Po kontroli bezpieczeństwa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where can I fill up my water bottle? — There's a fountain near gate A5.",
+          "pl": "Gdzie mogę napełnić butelkę? — Przy bramce A5 jest poidełko."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.airport.in-my-seat",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 14,
+      "en": "Excuse me, I think you're in my seat.",
+      "pl": "Przepraszam, chyba siedzisz na moim miejscu.",
+      "alternatives": [
+        "Sorry, I think you're in my seat."
+      ],
+      "usage": "Grzecznie w samolocie albo pociągu.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Excuse me, I think you're in my seat. I'm 14A. — Oh, sorry!",
+          "pl": "Przepraszam, chyba siedzisz na moim miejscu. Mam 14A. — Ojej, przepraszam!"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.airport.help-with-bag",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 15,
+      "en": "Could you help me with my bag?",
+      "pl": "Pomógłby mi pan z torbą?",
+      "alternatives": [
+        "Can you help me with my bag?",
+        "Could you give me a hand with my bag?"
+      ],
+      "usage": "Przy wkładaniu bagażu na półkę.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Could you help me with my bag? It's really heavy.",
+          "pl": "Pomógłbyś mi z torbą? Jest bardzo ciężka."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.flight",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 16,
+      "en": "flight",
+      "pl": "lot",
+      "alternatives": [],
+      "usage": "Podróż samolotem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My flight leaves at six in the morning.",
+          "pl": "Mój lot odlatuje o szóstej rano."
+        }
+      ],
+      "collocations": [
+        "a direct flight",
+        "a cheap flight",
+        "book a flight"
+      ],
+      "pronunciation": "Czytaj „flajt”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.gate",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 17,
+      "en": "gate",
+      "pl": "bramka (wyjście do samolotu)",
+      "alternatives": [],
+      "usage": "Miejsce boardingu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Please go to gate twelve.",
+          "pl": "Proszę iść do bramki dwanaście."
+        }
+      ],
+      "collocations": [
+        "go to the gate",
+        "gate closes",
+        "gate change"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.boarding-pass",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 18,
+      "en": "boarding pass",
+      "pl": "karta pokładowa",
+      "alternatives": [],
+      "usage": "Dokument potrzebny przy wejściu do samolotu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have your passport and boarding pass ready.",
+          "pl": "Przygotuj paszport i kartę pokładową."
+        }
+      ],
+      "collocations": [
+        "mobile boarding pass",
+        "print your boarding pass",
+        "show your boarding pass"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.hand-luggage",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 19,
+      "en": "hand luggage",
+      "pl": "bagaż podręczny",
+      "alternatives": [],
+      "usage": "Bagaż, który bierzesz na pokład.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I only travel with hand luggage — it's cheaper.",
+          "pl": "Latam tylko z bagażem podręcznym — taniej."
+        }
+      ],
+      "collocations": [
+        "hand luggage only",
+        "a hand luggage bag",
+        "hand luggage allowance"
+      ],
+      "note": "US: carry-on. „Luggage” jest niepoliczalne: „a piece of luggage”, nie „a luggage”.",
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.delay",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 20,
+      "en": "delay",
+      "pl": "opóźnienie",
+      "alternatives": [],
+      "usage": "Gdy coś odjeżdża lub odlatuje później.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a two-hour delay.",
+          "pl": "Jest dwugodzinne opóźnienie."
+        }
+      ],
+      "collocations": [
+        "a long delay",
+        "a two-hour delay",
+        "sorry for the delay"
+      ],
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.departures",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 21,
+      "en": "departures",
+      "pl": "odloty (hala, tablica)",
+      "alternatives": [],
+      "usage": "Część lotniska / tablica odlotów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Check the departures board for your gate.",
+          "pl": "Sprawdź bramkę na tablicy odlotów."
+        }
+      ],
+      "collocations": [
+        "the departures board",
+        "departures hall",
+        "arrivals and departures"
+      ],
+      "note": "Przyloty to „arrivals”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.passport",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 22,
+      "en": "passport",
+      "pl": "paszport",
+      "alternatives": [],
+      "usage": "Dokument podróży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Don't forget your passport! — I've got my ID card.",
+          "pl": "Nie zapomnij paszportu! — Mam dowód."
+        }
+      ],
+      "collocations": [
+        "passport control",
+        "show your passport",
+        "a valid passport"
+      ],
+      "note": "Dowód osobisty to „ID card”. W strefie Schengen zwykle wystarczy.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.security",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 23,
+      "en": "security",
+      "pl": "kontrola bezpieczeństwa",
+      "alternatives": [],
+      "usage": "Bramki i skanery na lotnisku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The queue for security was huge.",
+          "pl": "Kolejka do kontroli była ogromna."
+        }
+      ],
+      "collocations": [
+        "go through security",
+        "airport security",
+        "the security queue"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.aisle",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 24,
+      "en": "aisle",
+      "pl": "przejście (w samolocie, sklepie)",
+      "alternatives": [],
+      "usage": "Miejsce między rzędami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I prefer the aisle — I can get up more easily.",
+          "pl": "Wolę miejsce przy przejściu — łatwiej wstać."
+        }
+      ],
+      "collocations": [
+        "an aisle seat",
+        "in the aisle",
+        "aisle three"
+      ],
+      "pronunciation": "„s” jest nieme: czytaj „ajl”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.airport.flight-is-at",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 25,
+      "en": "My flight is at ___.",
+      "pl": "Mój lot jest o ___.",
+      "alternatives": [],
+      "usage": "Podajesz godzinę lotu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My flight is at six in the morning.",
+          "pl": "Mój lot jest o szóstej rano."
+        },
+        {
+          "en": "My flight is at half past two.",
+          "pl": "Mój lot jest o wpół do trzeciej."
+        }
+      ],
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.on-time",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 26,
+      "en": "Is the flight to ___ on time?",
+      "pl": "Czy lot do ___ jest o czasie?",
+      "alternatives": [],
+      "usage": "Pytasz o opóźnienia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is the flight to Brussels on time?",
+          "pl": "Czy lot do Brukseli jest o czasie?"
+        },
+        {
+          "en": "Is the flight to Eindhoven on time?",
+          "pl": "Czy lot do Eindhoven jest o czasie?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.take-on-plane",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 27,
+      "en": "Can I take ___ on the plane?",
+      "pl": "Mogę wziąć ___ do samolotu?",
+      "alternatives": [],
+      "usage": "Pytasz o zasady bagażu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I take this bottle on the plane?",
+          "pl": "Mogę wziąć tę butelkę do samolotu?"
+        },
+        {
+          "en": "Can I take a power bank on the plane?",
+          "pl": "Mogę wziąć powerbank do samolotu?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:can"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.flying-to",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 28,
+      "en": "I'm flying to ___.",
+      "pl": "Lecę do ___.",
+      "alternatives": [],
+      "usage": "Mówisz o ustalonej podróży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm flying to Brussels tomorrow.",
+          "pl": "Jutro lecę do Brukseli."
+        },
+        {
+          "en": "I'm flying to London next week.",
+          "pl": "W przyszłym tygodniu lecę do Londynu."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.flight-cancelled",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 29,
+      "en": "The flight to ___ has been cancelled.",
+      "pl": "Lot do ___ został odwołany.",
+      "alternatives": [],
+      "usage": "Rozumiesz komunikat albo informujesz innych.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The flight to Brussels has been cancelled.",
+          "pl": "Lot do Brukseli został odwołany."
+        },
+        {
+          "en": "The flight to Charleroi has been cancelled.",
+          "pl": "Lot do Charleroi został odwołany."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.airport.long-to-get-to",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 30,
+      "en": "How long does it take to get to ___?",
+      "pl": "Ile się jedzie do ___?",
+      "alternatives": [],
+      "usage": "Pytasz o czas dojazdu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How long does it take to get to the festival?",
+          "pl": "Ile się jedzie na festiwal?"
+        },
+        {
+          "en": "How long does it take to get to the airport?",
+          "pl": "Ile się jedzie na lotnisko?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.check-in-desk",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 31,
+      "en": "At the check-in desk",
+      "pl": "Przy odprawie",
+      "alternatives": [],
+      "usage": "Odprawa bagażowa i wybór miejsca.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, where are you flying to today?",
+          "pl": "Dzień dobry, dokąd pan dziś leci?",
+          "speaker": "A"
+        },
+        {
+          "en": "Brussels.",
+          "pl": "Do Brukseli.",
+          "speaker": "B"
+        },
+        {
+          "en": "Can I see your passport, please? Any bags to check in?",
+          "pl": "Mogę prosić paszport? Jakiś bagaż do nadania?",
+          "speaker": "A"
+        },
+        {
+          "en": "Just this one. And I'd like a window seat, please.",
+          "pl": "Tylko ten. I poproszę miejsce przy oknie.",
+          "speaker": "B"
+        },
+        {
+          "en": "No problem. Gate twelve, boarding at nine thirty.",
+          "pl": "Nie ma problemu. Bramka dwanaście, boarding o wpół do dziesiątej.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.airport.lost-luggage",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.airport",
+      "order": 32,
+      "en": "Lost luggage",
+      "pl": "Zagubiony bagaż",
+      "alternatives": [],
+      "usage": "Zgłaszasz, że twoja torba nie przyleciała.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, my bag didn't arrive.",
+          "pl": "Dzień dobry, mój bagaż nie przyleciał.",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm sorry. Which flight were you on?",
+          "pl": "Przykro mi. Którym lotem pan leciał?",
+          "speaker": "B"
+        },
+        {
+          "en": "The flight from Szczecin. It's a big black suitcase.",
+          "pl": "Lotem ze Szczecina. To duża czarna walizka.",
+          "speaker": "A"
+        },
+        {
+          "en": "OK. We'll send it to your hotel. What's the address?",
+          "pl": "Dobrze. Wyślemy ją do hotelu. Jaki jest adres?",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    }
+  ]
+}

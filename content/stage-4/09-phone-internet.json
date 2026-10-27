@@ -1,0 +1,906 @@
+{
+  "module": {
+    "id": "s4.phone-internet",
+    "stage": 4,
+    "order": 9,
+    "title": "Telefon, internet i ładowanie",
+    "titleEn": "Phone & internet",
+    "description": "Ładowarka, powerbank, zasięg, wifi, pakiet danych, karta SIM — żeby nie zostać bez telefonu w podróży i na festiwalu.",
+    "tags": [
+      "travel",
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.phone-internet.charge-here",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 1,
+      "en": "Can I charge my phone here?",
+      "pl": "Mogę tu naładować telefon?",
+      "alternatives": [
+        "Could I charge my phone here?",
+        "Is there anywhere I can charge my phone?"
+      ],
+      "usage": "W barze, kawiarni, recepcji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I charge my phone here? — Sure, there's a socket behind the bar.",
+          "pl": "Mogę tu naładować telefon? — Jasne, za barem jest gniazdko."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.battery-almost-dead",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 2,
+      "en": "My battery is almost dead.",
+      "pl": "Bateria prawie mi padła.",
+      "alternatives": [
+        "My phone is almost dead.",
+        "My battery's nearly dead."
+      ],
+      "usage": "Ostrzegasz znajomych.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My battery is almost dead. If I disappear, meet me at the tree.",
+          "pl": "Bateria mi pada. Jak zniknę, widzimy się przy drzewie."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.charger-borrow",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 3,
+      "en": "Do you have a charger I could borrow?",
+      "pl": "Masz ładowarkę, którą mógłbym pożyczyć?",
+      "alternatives": [
+        "Can I borrow your charger?",
+        "Have you got a charger I can borrow?"
+      ],
+      "usage": "Grzecznie prosisz o ładowarkę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you have a charger I could borrow? Mine is broken.",
+          "pl": "Masz ładowarkę do pożyczenia? Moja jest zepsuta."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.phone-internet.is-there-wifi",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 4,
+      "en": "Is there wifi here?",
+      "pl": "Jest tu wifi?",
+      "alternatives": [
+        "Do you have wifi?",
+        "Is there any wifi?"
+      ],
+      "usage": "W kawiarni, hotelu, pociągu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there wifi here? — Yes, it's free.",
+          "pl": "Jest tu wifi? — Tak, darmowe."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.wifi-not-working",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 5,
+      "en": "The wifi isn't working.",
+      "pl": "Wifi nie działa.",
+      "alternatives": [
+        "The wifi doesn't work.",
+        "The internet isn't working."
+      ],
+      "usage": "Zgłaszasz problem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, the wifi isn't working in my room.",
+          "pl": "Przepraszam, w moim pokoju nie działa wifi."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.no-signal",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 6,
+      "en": "I've got no signal.",
+      "pl": "Nie mam zasięgu.",
+      "alternatives": [
+        "I have no signal.",
+        "There's no signal here."
+      ],
+      "usage": "Na festiwalu zasięg często pada.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got no signal here. Can you hear me?",
+          "pl": "Nie mam tu zasięgu. Słyszysz mnie?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.run-out-of-data",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 7,
+      "en": "I've run out of data.",
+      "pl": "Skończył mi się internet (pakiet danych).",
+      "alternatives": [
+        "I've got no data left.",
+        "I've used all my data."
+      ],
+      "usage": "Gdy pakiet się wyczerpał.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've run out of data. Can you send me the address by text?",
+          "pl": "Skończył mi się internet. Możesz mi wysłać adres SMS-em?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.phone-internet.sim-with-data",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 8,
+      "en": "Can I get a SIM card with data?",
+      "pl": "Mogę dostać kartę SIM z internetem?",
+      "alternatives": [
+        "Do you sell SIM cards with data?"
+      ],
+      "usage": "Poza UE warto mieć lokalną kartę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I get a SIM card with data? — Sure, ten gigs for twenty pounds.",
+          "pl": "Mogę dostać kartę SIM z internetem? — Jasne, dziesięć giga za dwadzieścia funtów."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.send-location",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 9,
+      "en": "Can you send me the location?",
+      "pl": "Możesz mi wysłać lokalizację?",
+      "alternatives": [
+        "Can you send me your location?",
+        "Could you send me the location?"
+      ],
+      "usage": "Gdy umawiasz się w obcym miejscu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I can't find the bar. Can you send me the location?",
+          "pl": "Nie mogę znaleźć baru. Możesz mi wysłać lokalizację?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.take-photo-of-us",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 10,
+      "en": "Could you take a photo of us?",
+      "pl": "Zrobisz nam zdjęcie?",
+      "alternatives": [
+        "Can you take a picture of us?",
+        "Could you take a picture of us, please?"
+      ],
+      "usage": "Prosisz kogoś o zdjęcie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, could you take a photo of us? — Sure! Say cheese!",
+          "pl": "Przepraszam, zrobisz nam zdjęcie? — Jasne! Uśmiech!"
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.use-your-phone",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 11,
+      "en": "Can I use your phone? Mine is dead.",
+      "pl": "Mogę skorzystać z twojego telefonu? Mój padł.",
+      "alternatives": [
+        "Could I use your phone? Mine is dead.",
+        "Can I borrow your phone? Mine's dead."
+      ],
+      "usage": "Awaryjnie, gdy telefon ci padł.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, can I use your phone? Mine is dead. I need to call my friend.",
+          "pl": "Przepraszam, mogę skorzystać z twojego telefonu? Mój padł. Muszę zadzwonić do kumpla."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone",
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.wifi-free",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 12,
+      "en": "Is the wifi free?",
+      "pl": "Czy wifi jest darmowe?",
+      "alternatives": [],
+      "usage": "Pytasz o opłaty.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is the wifi free? — Only for the first hour.",
+          "pl": "Czy wifi jest darmowe? — Tylko przez pierwszą godzinę."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.ill-text-you",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 13,
+      "en": "I'll text you.",
+      "pl": "Napiszę do ciebie.",
+      "alternatives": [
+        "I'll message you.",
+        "I'll send you a message."
+      ],
+      "usage": "Obiecujesz wiadomość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll text you when I get to the station.",
+          "pl": "Napiszę, jak dojadę na dworzec."
+        }
+      ],
+      "note": "„Text” jako czasownik = wysłać SMS / wiadomość.",
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.call-if-need",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 14,
+      "en": "Call me if you need anything.",
+      "pl": "Dzwoń, jakbyś czegoś potrzebował.",
+      "alternatives": [
+        "Call me if you need something.",
+        "Text me if you need anything."
+      ],
+      "usage": "Na pożegnanie, gdy się rozdzielacie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Call me if you need anything. I'll keep my phone on.",
+          "pl": "Dzwoń, jakbyś czegoś potrzebował. Będę miał włączony telefon."
+        }
+      ],
+      "tags": [
+        "travel",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.phone-on-silent",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 15,
+      "en": "Sorry, my phone was on silent.",
+      "pl": "Sorry, miałem wyciszony telefon.",
+      "alternatives": [
+        "Sorry, my phone was on mute.",
+        "Sorry, I didn't hear my phone."
+      ],
+      "usage": "Tłumaczysz, czemu nie odebrałeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Why didn't you answer? — Sorry, my phone was on silent.",
+          "pl": "Czemu nie odbierałeś? — Sorry, miałem wyciszony telefon."
+        }
+      ],
+      "tags": [
+        "phone",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.charger",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 16,
+      "en": "charger",
+      "pl": "ładowarka",
+      "alternatives": [],
+      "usage": "Do ładowania telefonu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I forgot my charger at home!",
+          "pl": "Zapomniałem ładowarki z domu!"
+        }
+      ],
+      "collocations": [
+        "a phone charger",
+        "a USB-C charger",
+        "borrow a charger"
+      ],
+      "tags": [
+        "phone",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.power-bank",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 17,
+      "en": "power bank",
+      "pl": "powerbank",
+      "alternatives": [],
+      "usage": "Przenośna bateria — na festiwalu niezbędna.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I always bring two power banks to festivals.",
+          "pl": "Na festiwale zawsze biorę dwa powerbanki."
+        }
+      ],
+      "collocations": [
+        "a power bank",
+        "a fully charged power bank",
+        "charge the power bank"
+      ],
+      "tags": [
+        "phone",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.battery",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 18,
+      "en": "battery",
+      "pl": "bateria",
+      "alternatives": [],
+      "usage": "Poziom naładowania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My battery is at five percent.",
+          "pl": "Mam pięć procent baterii."
+        }
+      ],
+      "collocations": [
+        "low battery",
+        "battery life",
+        "the battery is dead"
+      ],
+      "tags": [
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.signal",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 19,
+      "en": "signal",
+      "pl": "zasięg, sygnał",
+      "alternatives": [],
+      "usage": "Połączenie z siecią.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's no signal in the basement.",
+          "pl": "W piwnicy nie ma zasięgu."
+        }
+      ],
+      "collocations": [
+        "no signal",
+        "a good signal",
+        "lose signal"
+      ],
+      "tags": [
+        "phone",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.data",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 20,
+      "en": "data",
+      "pl": "internet mobilny, transfer danych",
+      "alternatives": [],
+      "usage": "Pakiet internetu w telefonie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Turn off your data — roaming is expensive outside the EU.",
+          "pl": "Wyłącz dane — roaming poza UE jest drogi."
+        }
+      ],
+      "collocations": [
+        "mobile data",
+        "turn on data",
+        "run out of data"
+      ],
+      "pronunciation": "Czytaj „dejta” (UK) albo „dejda” (US).",
+      "tags": [
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.roaming",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 21,
+      "en": "roaming",
+      "pl": "roaming",
+      "alternatives": [],
+      "usage": "Korzystanie z telefonu za granicą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "In the EU, roaming is free.",
+          "pl": "W UE roaming jest darmowy."
+        }
+      ],
+      "collocations": [
+        "roaming charges",
+        "turn off roaming",
+        "free roaming"
+      ],
+      "tags": [
+        "phone",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.screen",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 22,
+      "en": "screen",
+      "pl": "ekran",
+      "alternatives": [],
+      "usage": "Ekran telefonu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I dropped my phone and cracked the screen.",
+          "pl": "Upuściłem telefon i pękł mi ekran."
+        }
+      ],
+      "collocations": [
+        "a cracked screen",
+        "screen protector",
+        "touch screen"
+      ],
+      "tags": [
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.socket",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 23,
+      "en": "socket",
+      "pl": "gniazdko",
+      "alternatives": [],
+      "usage": "Miejsce, gdzie podłączasz ładowarkę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a socket near my bed?",
+          "pl": "Jest gniazdko przy moim łóżku?"
+        }
+      ],
+      "collocations": [
+        "a plug socket",
+        "a free socket",
+        "next to the socket"
+      ],
+      "note": "UK: socket, US: outlet. W UK potrzebny jest adapter!",
+      "tags": [
+        "phone",
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.adapter",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 24,
+      "en": "adapter",
+      "pl": "przejściówka (do gniazdka)",
+      "alternatives": [],
+      "usage": "W UK są inne gniazdka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You need a UK adapter for your charger.",
+          "pl": "Do ładowarki potrzebujesz brytyjskiej przejściówki."
+        }
+      ],
+      "collocations": [
+        "a travel adapter",
+        "a UK adapter",
+        "forget the adapter"
+      ],
+      "tags": [
+        "phone",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.percent-battery",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 25,
+      "en": "I've got ___ percent battery.",
+      "pl": "Mam ___ procent baterii.",
+      "alternatives": [],
+      "usage": "Informujesz o stanie baterii.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got five percent battery.",
+          "pl": "Mam pięć procent baterii."
+        },
+        {
+          "en": "I've got twenty percent battery.",
+          "pl": "Mam dwadzieścia procent baterii."
+        }
+      ],
+      "tags": [
+        "phone",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.can-you-send-me",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 26,
+      "en": "Can you send me ___?",
+      "pl": "Możesz mi wysłać ___?",
+      "alternatives": [],
+      "usage": "Prosisz o wysłanie czegoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you send me the photos?",
+          "pl": "Możesz mi wysłać zdjęcia?"
+        },
+        {
+          "en": "Can you send me the address?",
+          "pl": "Możesz mi wysłać adres?"
+        }
+      ],
+      "tags": [
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.anywhere-i-can",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 27,
+      "en": "Is there anywhere I can ___?",
+      "pl": "Czy jest gdzieś, gdzie mogę ___?",
+      "alternatives": [],
+      "usage": "Szukasz możliwości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there anywhere I can charge my phone?",
+          "pl": "Czy jest gdzieś, gdzie mogę naładować telefon?"
+        },
+        {
+          "en": "Is there anywhere I can buy a SIM card?",
+          "pl": "Czy jest gdzieś, gdzie kupię kartę SIM?"
+        }
+      ],
+      "tags": [
+        "phone",
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.phone-internet.ill-you-later",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 28,
+      "en": "I'll ___ you later.",
+      "pl": "___ później.",
+      "alternatives": [],
+      "usage": "Obiecujesz kontakt.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll call you later.",
+          "pl": "Zadzwonię później."
+        },
+        {
+          "en": "I'll text you later.",
+          "pl": "Napiszę później."
+        }
+      ],
+      "tags": [
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.connect-to",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 29,
+      "en": "How do I connect to ___?",
+      "pl": "Jak się połączyć z ___?",
+      "alternatives": [],
+      "usage": "Problemy z połączeniem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How do I connect to the wifi?",
+          "pl": "Jak się połączyć z wifi?"
+        },
+        {
+          "en": "How do I connect to your hotspot?",
+          "pl": "Jak się połączyć z twoim hotspotem?"
+        }
+      ],
+      "tags": [
+        "phone",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.my-phone-is",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 30,
+      "en": "My phone is ___.",
+      "pl": "Mój telefon jest ___.",
+      "alternatives": [],
+      "usage": "Stan telefonu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My phone is dead.",
+          "pl": "Mój telefon padł."
+        },
+        {
+          "en": "My phone is charging.",
+          "pl": "Mój telefon się ładuje."
+        }
+      ],
+      "tags": [
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.borrow-charger",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 31,
+      "en": "Borrowing a charger",
+      "pl": "Pożyczanie ładowarki",
+      "alternatives": [],
+      "usage": "W barze prosisz o ładowarkę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hi, sorry — do you have a charger I could borrow?",
+          "pl": "Cześć, sorry — masz może ładowarkę do pożyczenia?",
+          "speaker": "A"
+        },
+        {
+          "en": "iPhone or USB-C?",
+          "pl": "iPhone czy USB-C?",
+          "speaker": "B"
+        },
+        {
+          "en": "USB-C. I've got two percent battery!",
+          "pl": "USB-C. Mam dwa procent baterii!",
+          "speaker": "A"
+        },
+        {
+          "en": "Here you go. There's a socket next to the window.",
+          "pl": "Proszę. Przy oknie jest gniazdko.",
+          "speaker": "B"
+        },
+        {
+          "en": "You're a lifesaver, thanks!",
+          "pl": "Ratujesz mi życie, dzięki!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.phone-internet.buying-sim",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.phone-internet",
+      "order": 32,
+      "en": "Buying a SIM card in London",
+      "pl": "Kupowanie karty SIM w Londynie",
+      "alternatives": [],
+      "usage": "Poza UE roaming jest drogi — kupujesz lokalną kartę.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, can I get a SIM card with data?",
+          "pl": "Dzień dobry, mogę dostać kartę SIM z internetem?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure. How long are you staying?",
+          "pl": "Jasne. Na jak długo pan przyjechał?",
+          "speaker": "B"
+        },
+        {
+          "en": "One week.",
+          "pl": "Na tydzień.",
+          "speaker": "A"
+        },
+        {
+          "en": "This one has twenty gigs for fifteen pounds.",
+          "pl": "Ta ma dwadzieścia giga za piętnaście funtów.",
+          "speaker": "B"
+        },
+        {
+          "en": "Perfect. I'll take it.",
+          "pl": "Idealnie. Biorę.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "phone",
+        "travel"
+      ],
+      "level": "A2"
+    }
+  ]
+}

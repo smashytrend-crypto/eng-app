@@ -1,0 +1,893 @@
+{
+  "module": {
+    "id": "s4.accommodation",
+    "stage": 4,
+    "order": 2,
+    "title": "Hotel i hostel",
+    "titleEn": "Hotels & hostels",
+    "description": "Zameldowanie, rezerwacja, wifi, ręczniki, szafki, problemy w pokoju i hostelowe sytuacje.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.accommodation.reservation-under",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 1,
+      "en": "I've got a reservation under the name Kowalski.",
+      "pl": "Mam rezerwację na nazwisko Kowalski.",
+      "alternatives": [
+        "I have a reservation under the name Kowalski.",
+        "I've got a booking under Kowalski."
+      ],
+      "usage": "Zameldowanie w hotelu albo hostelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, I've got a reservation under the name Kowalski. — Welcome! Three nights, right?",
+          "pl": "Dzień dobry, mam rezerwację na nazwisko Kowalski. — Witamy! Trzy noce, tak?"
+        }
+      ],
+      "note": "Rezerwacja „NA nazwisko” = „UNDER the name”.",
+      "tags": [
+        "travel",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.check-in-early",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 2,
+      "en": "Can I check in early?",
+      "pl": "Mogę się zameldować wcześniej?",
+      "alternatives": [
+        "Is it possible to check in early?",
+        "Could I check in early?"
+      ],
+      "usage": "Gdy przyjeżdżasz rano.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I check in early? — Sorry, the room isn't ready yet.",
+          "pl": "Mogę się zameldować wcześniej? — Przykro mi, pokój nie jest jeszcze gotowy."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.breakfast-included",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 3,
+      "en": "Is breakfast included?",
+      "pl": "Czy śniadanie jest wliczone?",
+      "alternatives": [
+        "Does it include breakfast?",
+        "Is breakfast included in the price?"
+      ],
+      "usage": "Pytanie przy rezerwacji albo zameldowaniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is breakfast included? — Yes, from seven to ten.",
+          "pl": "Czy śniadanie jest wliczone? — Tak, od siódmej do dziesiątej."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.wifi-password",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 4,
+      "en": "What's the wifi password?",
+      "pl": "Jakie jest hasło do wifi?",
+      "alternatives": [
+        "What's the password for the wifi?",
+        "What's the Wi-Fi password?"
+      ],
+      "usage": "Najważniejsze pytanie w każdym hotelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the wifi password? — It's on the back of your key card.",
+          "pl": "Jakie jest hasło do wifi? — Jest na odwrocie karty do pokoju."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.leave-bags",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 5,
+      "en": "Can I leave my bags here?",
+      "pl": "Mogę tu zostawić bagaże?",
+      "alternatives": [
+        "Can I leave my luggage here?",
+        "Could I leave my bags here?"
+      ],
+      "usage": "Przechowalnia bagażu przed zameldowaniem albo po wymeldowaniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I leave my bags here until six? — Sure, in the luggage room.",
+          "pl": "Mogę tu zostawić bagaże do szóstej? — Jasne, w przechowalni."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.no-hot-water",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 6,
+      "en": "There's no hot water.",
+      "pl": "Nie ma ciepłej wody.",
+      "alternatives": [
+        "There isn't any hot water."
+      ],
+      "usage": "Problem w pokoju.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, there's no hot water in my room. — I'll send someone up.",
+          "pl": "Przepraszam, w moim pokoju nie ma ciepłej wody. — Przyślę kogoś."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.extra-towel",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 7,
+      "en": "Could I have an extra towel?",
+      "pl": "Mogę prosić o dodatkowy ręcznik?",
+      "alternatives": [
+        "Can I have an extra towel?",
+        "Could I get another towel?"
+      ],
+      "usage": "Prośba w recepcji.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Could I have an extra towel, please? — Of course.",
+          "pl": "Mogę prosić dodatkowy ręcznik? — Oczywiście."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.which-bed-mine",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 8,
+      "en": "Which bed is mine?",
+      "pl": "Które łóżko jest moje?",
+      "alternatives": [
+        "Which one's my bed?"
+      ],
+      "usage": "W pokoju wieloosobowym w hostelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Which bed is mine? — Number six, the top bunk.",
+          "pl": "Które łóżko jest moje? — Numer sześć, górne."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.do-you-have-lockers",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 9,
+      "en": "Do you have lockers?",
+      "pl": "Macie szafki?",
+      "alternatives": [
+        "Are there any lockers?"
+      ],
+      "usage": "Bezpieczne miejsce na rzeczy w hostelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you have lockers? — Yes, but bring your own padlock.",
+          "pl": "Macie szafki? — Tak, ale potrzebna własna kłódka."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.call-me-taxi",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 10,
+      "en": "Can you call me a taxi?",
+      "pl": "Może mi pan zamówić taksówkę?",
+      "alternatives": [
+        "Could you call me a taxi?",
+        "Could you order me a taxi?"
+      ],
+      "usage": "Prośba w recepcji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you call me a taxi for six a.m.? — No problem.",
+          "pl": "Może pan zamówić mi taksówkę na szóstą rano? — Nie ma problemu."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.anywhere-to-eat",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 11,
+      "en": "Is there anywhere to eat nearby?",
+      "pl": "Jest tu gdzieś w pobliżu coś do jedzenia?",
+      "alternatives": [
+        "Is there anywhere to eat near here?",
+        "Are there any good restaurants nearby?"
+      ],
+      "usage": "Pytasz w recepcji o jedzenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there anywhere to eat nearby? — There's a great burger place across the street.",
+          "pl": "Jest gdzieś w pobliżu coś do jedzenia? — Po drugiej stronie ulicy jest świetna burgerownia."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food",
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.accommodation.one-more-night",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 12,
+      "en": "I'd like to stay one more night.",
+      "pl": "Chciałbym zostać jeszcze jedną noc.",
+      "alternatives": [
+        "I'd like to stay another night.",
+        "Can I stay one more night?"
+      ],
+      "usage": "Przedłużasz pobyt.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd like to stay one more night. Is the room still free?",
+          "pl": "Chciałbym zostać jeszcze jedną noc. Pokój jest wolny?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.keep-it-down",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 13,
+      "en": "Could you keep it down, please?",
+      "pl": "Możecie być trochę ciszej?",
+      "alternatives": [
+        "Could you be a bit quieter, please?",
+        "Can you keep it down, please?"
+      ],
+      "usage": "Grzecznie, gdy ktoś hałasuje w nocy.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Sorry, could you keep it down, please? People are trying to sleep.",
+          "pl": "Sorry, możecie być ciszej? Ludzie próbują spać."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.accommodation.room-not-ready",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 14,
+      "en": "My room isn't ready yet.",
+      "pl": "Mój pokój nie jest jeszcze gotowy.",
+      "alternatives": [
+        "The room isn't ready yet."
+      ],
+      "usage": "Gdy czekasz na pokój.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My room isn't ready yet, so I'm going to explore the city.",
+          "pl": "Mój pokój nie jest jeszcze gotowy, więc idę pozwiedzać miasto."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.check-out-late",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 15,
+      "en": "Is late check-out possible?",
+      "pl": "Czy możliwe jest późniejsze wymeldowanie?",
+      "alternatives": [
+        "Can I check out late?",
+        "Could I have a late check-out?"
+      ],
+      "usage": "Po imprezie przyda się dłuższy sen.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is late check-out possible? — Until one o'clock, for ten euros.",
+          "pl": "Czy można się później wymeldować? — Do pierwszej, za dziesięć euro."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.accommodation.reservation",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 16,
+      "en": "reservation",
+      "pl": "rezerwacja",
+      "alternatives": [],
+      "usage": "Zarezerwowany pokój albo stolik.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd like to change my reservation.",
+          "pl": "Chciałbym zmienić rezerwację."
+        }
+      ],
+      "collocations": [
+        "make a reservation",
+        "a hotel reservation",
+        "cancel a reservation"
+      ],
+      "note": "W UK częściej „booking”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.reception",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 17,
+      "en": "reception",
+      "pl": "recepcja",
+      "alternatives": [],
+      "usage": "Miejsce w hotelu, gdzie się meldujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Ask at reception.",
+          "pl": "Zapytaj w recepcji."
+        }
+      ],
+      "collocations": [
+        "at reception",
+        "the reception desk",
+        "call reception"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.double-room",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 18,
+      "en": "double room",
+      "pl": "pokój dwuosobowy (z łóżkiem małżeńskim)",
+      "alternatives": [],
+      "usage": "Rodzaj pokoju.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I booked a double room, but this is a twin room.",
+          "pl": "Rezerwowałem pokój z podwójnym łóżkiem, a to pokój z dwoma osobnymi."
+        }
+      ],
+      "collocations": [
+        "a double room",
+        "a twin room",
+        "a single room"
+      ],
+      "note": "Double = jedno duże łóżko, twin = dwa osobne łóżka.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.dorm",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 19,
+      "en": "dorm",
+      "pl": "pokój wieloosobowy (w hostelu)",
+      "alternatives": [],
+      "usage": "Najtańsza opcja w hostelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm in a six-bed dorm.",
+          "pl": "Śpię w sześcioosobowym pokoju."
+        }
+      ],
+      "collocations": [
+        "a six-bed dorm",
+        "a mixed dorm",
+        "a female dorm"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.towel",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 20,
+      "en": "towel",
+      "pl": "ręcznik",
+      "alternatives": [],
+      "usage": "Rzecz, której często brakuje w hostelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Towels are three euros extra.",
+          "pl": "Ręczniki kosztują trzy euro extra."
+        }
+      ],
+      "collocations": [
+        "a clean towel",
+        "a beach towel",
+        "rent a towel"
+      ],
+      "pronunciation": "Czytaj „tałel”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.key-card",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 21,
+      "en": "key card",
+      "pl": "karta do pokoju",
+      "alternatives": [],
+      "usage": "Zamiast klucza.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My key card isn't working.",
+          "pl": "Moja karta do pokoju nie działa."
+        }
+      ],
+      "collocations": [
+        "a key card",
+        "my key card",
+        "swipe the key card"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.luggage",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 22,
+      "en": "luggage",
+      "pl": "bagaż",
+      "alternatives": [],
+      "usage": "Walizki i torby.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where can I store my luggage?",
+          "pl": "Gdzie mogę zostawić bagaż?"
+        }
+      ],
+      "collocations": [
+        "luggage room",
+        "a piece of luggage",
+        "lost luggage"
+      ],
+      "note": "Niepoliczalne: „my luggage” (nie „luggages”). Pojedyncza torba to „a bag”.",
+      "tags": [
+        "travel",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.check-out",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 23,
+      "en": "check-out",
+      "pl": "wymeldowanie",
+      "alternatives": [],
+      "usage": "Opuszczenie pokoju.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Check-out is at eleven.",
+          "pl": "Wymeldowanie jest o jedenastej."
+        }
+      ],
+      "collocations": [
+        "check-out time",
+        "late check-out",
+        "check out of the hotel"
+      ],
+      "note": "Rzeczownik: check-out. Czasownik: to check out.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.nearby",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 24,
+      "en": "nearby",
+      "pl": "w pobliżu, niedaleko",
+      "alternatives": [],
+      "usage": "Coś jest blisko.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a supermarket nearby?",
+          "pl": "Jest w pobliżu supermarket?"
+        }
+      ],
+      "collocations": [
+        "nearby",
+        "a nearby bar",
+        "somewhere nearby"
+      ],
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.booked-room-nights",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 25,
+      "en": "I've booked a room for ___ nights.",
+      "pl": "Zarezerwowałem pokój na ___ noce.",
+      "alternatives": [],
+      "usage": "Przy zameldowaniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've booked a room for three nights.",
+          "pl": "Zarezerwowałem pokój na trzy noce."
+        },
+        {
+          "en": "I've booked a room for two nights.",
+          "pl": "Zarezerwowałem pokój na dwie noce."
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers",
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.is-included",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 26,
+      "en": "Is ___ included?",
+      "pl": "Czy ___ jest wliczone?",
+      "alternatives": [],
+      "usage": "Pytasz, co jest w cenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is the city tax included?",
+          "pl": "Czy opłata miejska jest wliczona?"
+        },
+        {
+          "en": "Is parking included?",
+          "pl": "Czy parking jest wliczony?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.do-you-have-a",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 27,
+      "en": "Do you have ___?",
+      "pl": "Czy macie ___?",
+      "alternatives": [],
+      "usage": "Pytasz o dostępność czegoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you have a room for tonight?",
+          "pl": "Macie pokój na dziś?"
+        },
+        {
+          "en": "Do you have an iron?",
+          "pl": "Macie żelazko?"
+        },
+        {
+          "en": "Do you have a hairdryer?",
+          "pl": "Macie suszarkę do włosów?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.what-time-is",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 28,
+      "en": "What time is ___?",
+      "pl": "O której jest ___?",
+      "alternatives": [],
+      "usage": "Pytasz o godziny w hotelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time is breakfast?",
+          "pl": "O której jest śniadanie?"
+        },
+        {
+          "en": "What time is check-out?",
+          "pl": "O której jest wymeldowanie?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.doesnt-work-room",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 29,
+      "en": "The ___ in my room doesn't work.",
+      "pl": "W moim pokoju nie działa ___.",
+      "alternatives": [],
+      "usage": "Zgłaszasz usterkę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The air conditioning in my room doesn't work.",
+          "pl": "W moim pokoju nie działa klimatyzacja."
+        },
+        {
+          "en": "The TV in my room doesn't work.",
+          "pl": "W moim pokoju nie działa telewizor."
+        }
+      ],
+      "note": "Rzecz (it) → doesn't: the TV doesn't work.",
+      "tags": [
+        "travel",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.is-there-in-room",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 30,
+      "en": "Is there a ___ in the room?",
+      "pl": "Czy w pokoju jest ___?",
+      "alternatives": [],
+      "usage": "Pytasz o wyposażenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a kettle in the room?",
+          "pl": "Czy w pokoju jest czajnik?"
+        },
+        {
+          "en": "Is there a safe in the room?",
+          "pl": "Czy w pokoju jest sejf?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.hotel-check-in",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 31,
+      "en": "Checking in",
+      "pl": "Zameldowanie",
+      "alternatives": [],
+      "usage": "Meldujesz się i zostawiasz bagaż.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, I've got a reservation under the name Kowalski.",
+          "pl": "Dzień dobry, mam rezerwację na nazwisko Kowalski.",
+          "speaker": "A"
+        },
+        {
+          "en": "Welcome! Three nights, a double room. Your room isn't ready yet, I'm afraid.",
+          "pl": "Witamy! Trzy noce, pokój dwuosobowy. Obawiam się, że pokój nie jest jeszcze gotowy.",
+          "speaker": "B"
+        },
+        {
+          "en": "No problem. Can I leave my bags here?",
+          "pl": "Nie ma problemu. Mogę tu zostawić bagaże?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure. It'll be ready at two.",
+          "pl": "Jasne. Będzie gotowy o drugiej.",
+          "speaker": "B"
+        },
+        {
+          "en": "Great. And what's the wifi password?",
+          "pl": "Super. A jakie jest hasło do wifi?",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.accommodation.hostel-dorm",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.accommodation",
+      "order": 32,
+      "en": "In the hostel dorm",
+      "pl": "W pokoju w hostelu",
+      "alternatives": [],
+      "usage": "Rozmowa z kimś z pokoju wieloosobowego.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hi! Which bed is yours?",
+          "pl": "Cześć! Które łóżko jest twoje?",
+          "speaker": "A"
+        },
+        {
+          "en": "The top one. Do you know if there are any lockers?",
+          "pl": "Górne. Wiesz, czy są tu jakieś szafki?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yeah, under the beds. You need a padlock.",
+          "pl": "Tak, pod łóżkami. Potrzebna kłódka.",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh no, I haven't got one. I'll ask at reception.",
+          "pl": "O nie, nie mam. Zapytam w recepcji.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    }
+  ]
+}

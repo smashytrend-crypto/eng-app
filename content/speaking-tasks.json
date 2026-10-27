@@ -323,6 +323,140 @@
       "tags": [
         "gr:present-simple"
       ]
+    },
+    {
+      "id": "task.s4-check-in",
+      "stage": 4,
+      "title": "Na lotnisku",
+      "instruction": "Jesteś przy odprawie. Powiedz, dokąd lecisz, poproś o miejsce przy oknie, zapytaj o bagaż podręczny i o bramkę.",
+      "starters": [
+        "I'm flying to…",
+        "I'd like a window seat, please.",
+        "Is this bag OK as…?",
+        "Which gate…?"
+      ],
+      "example": "Hi, I'm flying to Brussels. I'd like a window seat, please. Is this bag OK as hand luggage? And which gate is it?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "task.s4-hotel-problem",
+      "stage": 4,
+      "title": "Problem w hotelu",
+      "instruction": "W twoim pokoju nie ma ciepłej wody, a klimatyzacja nie działa. Grzecznie zgłoś to w recepcji i poproś o zmianę pokoju.",
+      "starters": [
+        "I'm sorry, but…",
+        "There's no…",
+        "The … doesn't work.",
+        "Can I change rooms?"
+      ],
+      "example": "Hi, I'm sorry, but there's a problem with my room. There's no hot water, and the air conditioning doesn't work. Can I change rooms, please?",
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ]
+    },
+    {
+      "id": "task.s4-directions",
+      "stage": 4,
+      "title": "Wytłumacz drogę",
+      "instruction": "Turysta pyta cię o drogę z dworca do twojego ulubionego baru. Wytłumacz trasę w 4–5 krokach.",
+      "starters": [
+        "Go straight on…",
+        "Turn left at…",
+        "Go past…",
+        "It's opposite…"
+      ],
+      "example": "Go straight on for about five minutes. Turn left at the lights. Go past the church and cross the road. The bar is opposite the park. You can't miss it!",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "task.s4-restaurant",
+      "stage": 4,
+      "title": "W restauracji",
+      "instruction": "Zamów jedzenie dla siebie: zapytaj o polecenie, zamów danie bez jednego składnika, powiedz o alergii i poproś o wodę.",
+      "starters": [
+        "What do you recommend?",
+        "I'll have…",
+        "Could I have it without…?",
+        "I'm allergic to…"
+      ],
+      "example": "Hi! What do you recommend? OK, I'll have the burger, please. Could I have it without onions? And I'm allergic to nuts. Can we have some tap water too?",
+      "tags": [
+        "food",
+        "travel"
+      ]
+    },
+    {
+      "id": "task.s4-shopping",
+      "stage": 4,
+      "title": "Zakupy",
+      "instruction": "Kupujesz buty sportowe w Londynie. Zapytaj o rozmiar, przymierz, powiedz, że są za małe, i zapytaj o zniżkę.",
+      "starters": [
+        "Do you have these in…?",
+        "Can I try them on?",
+        "They're too…",
+        "Can I get a discount?"
+      ],
+      "example": "Hi, do you have these trainers in size 44? Can I try them on? Hmm, they're too small. Do you have a bigger size? And are they on sale?",
+      "tags": [
+        "shopping",
+        "travel"
+      ]
+    },
+    {
+      "id": "task.s4-lost-wallet",
+      "stage": 4,
+      "title": "Zgubiony portfel",
+      "instruction": "Zgubiłeś portfel na festiwalu. Opisz, co się stało, jak wygląda portfel i co było w środku.",
+      "starters": [
+        "I've lost my…",
+        "It's black, with…",
+        "I think I lost it near…",
+        "I need to cancel…"
+      ],
+      "example": "Hi, I've lost my wallet. It's black, with a Polish ID card and two bank cards inside. I think I lost it near the main stage. I need to cancel my cards.",
+      "tags": [
+        "travel",
+        "gr:present-perfect"
+      ]
+    },
+    {
+      "id": "task.s4-pharmacy",
+      "stage": 4,
+      "title": "W aptece",
+      "instruction": "Opisz objawy farmaceucie: od kiedy boli, co boli i o co prosisz. Zapytaj, jak często brać lek.",
+      "starters": [
+        "I've had … since…",
+        "My … hurts.",
+        "Do you have something for…?",
+        "How often should I take it?"
+      ],
+      "example": "Hi, I've had a headache since yesterday, and my throat hurts. Do you have something for a sore throat? How often should I take it?",
+      "tags": [
+        "health",
+        "gr:present-perfect"
+      ]
+    },
+    {
+      "id": "task.s4-phone-dying",
+      "stage": 4,
+      "title": "Pada telefon",
+      "instruction": "Na festiwalu masz 5% baterii. Powiedz znajomym, co się dzieje, gdzie się spotkacie, jeśli telefon padnie, i poproś o ładowarkę.",
+      "starters": [
+        "I've got … percent battery.",
+        "If my phone dies…",
+        "Let's meet at…",
+        "Do you have a…?"
+      ],
+      "example": "Guys, I've got five percent battery. If my phone dies, let's meet at the big tree at eleven. Does anyone have a power bank I could borrow?",
+      "tags": [
+        "phone",
+        "festival"
+      ]
     }
   ]
 }

@@ -1,0 +1,915 @@
+{
+  "module": {
+    "id": "s4.restaurant-bar",
+    "stage": 4,
+    "order": 5,
+    "title": "Restauracja i bar",
+    "titleEn": "Restaurants & bars",
+    "description": "Stolik, menu, zamawianie, alergie, woda z kranu, kolejki w pubie i płacenie — jedzenie i picie w podróży.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.restaurant-bar.table-for-two",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 1,
+      "en": "A table for two, please.",
+      "pl": "Stolik dla dwóch osób, poproszę.",
+      "alternatives": [
+        "Table for two, please.",
+        "Can we have a table for two, please?"
+      ],
+      "usage": "Wchodzisz do restauracji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, a table for two, please. — Inside or outside?",
+          "pl": "Dzień dobry, stolik dla dwóch osób. — W środku czy na zewnątrz?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.see-the-menu",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 2,
+      "en": "Could we see the menu, please?",
+      "pl": "Możemy prosić menu?",
+      "alternatives": [
+        "Can we see the menu, please?",
+        "Could we have the menu, please?",
+        "Can I see the menu?"
+      ],
+      "usage": "Prosisz o kartę.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Could we see the menu, please? — Of course, here you go.",
+          "pl": "Możemy prosić menu? — Oczywiście, proszę."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.what-recommend",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 3,
+      "en": "What do you recommend?",
+      "pl": "Co pan poleca?",
+      "alternatives": [
+        "What would you recommend?",
+        "What's good here?"
+      ],
+      "usage": "Gdy nie wiesz, co wybrać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What do you recommend? — The mussels are really good here.",
+          "pl": "Co pan poleca? — Mule są tu bardzo dobre."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.is-it-spicy",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 4,
+      "en": "Is it spicy?",
+      "pl": "Czy to jest ostre?",
+      "alternatives": [
+        "Is it very spicy?",
+        "Is it hot?"
+      ],
+      "usage": "Pytasz o danie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it spicy? — A little bit.",
+          "pl": "Czy to ostre? — Trochę."
+        }
+      ],
+      "note": "„Hot” może znaczyć też „gorący” — „spicy” jest jednoznaczne.",
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.tap-water",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 5,
+      "en": "Can we have some tap water?",
+      "pl": "Możemy prosić wodę z kranu?",
+      "alternatives": [
+        "Could we have some tap water, please?",
+        "Can I have a glass of tap water?"
+      ],
+      "usage": "Darmowa woda — w UK normalne pytanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can we have some tap water, please? — Sure.",
+          "pl": "Możemy prosić wodę z kranu? — Jasne."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.ready-to-order",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 6,
+      "en": "Excuse me, we're ready to order.",
+      "pl": "Przepraszam, chcielibyśmy zamówić.",
+      "alternatives": [
+        "We're ready to order.",
+        "Excuse me, can we order, please?"
+      ],
+      "usage": "Wołasz kelnera.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Excuse me, we're ready to order. — Great, what can I get you?",
+          "pl": "Przepraszam, chcemy zamówić. — Super, co podać?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.my-round",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 7,
+      "en": "It's my round.",
+      "pl": "Teraz ja stawiam (kolejkę).",
+      "alternatives": [
+        "This round's on me.",
+        "My round."
+      ],
+      "usage": "W UK w pubie płaci się kolejkami — każdy stawia po kolei.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Put your money away — it's my round. Same again?",
+          "pl": "Schowaj kasę — teraz ja stawiam. To samo?"
+        }
+      ],
+      "note": "Zwyczaj w pubie: każdy po kolei stawia „round” dla całej grupy.",
+      "tags": [
+        "travel",
+        "food",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.restaurant-bar.same-again",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 8,
+      "en": "Same again, please.",
+      "pl": "To samo jeszcze raz, poproszę.",
+      "alternatives": [
+        "The same again, please.",
+        "Another one, please."
+      ],
+      "usage": "Zamawiasz kolejny raz to samo.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Same again, please. — Two more pints?",
+          "pl": "To samo jeszcze raz, poproszę. — Jeszcze dwa piwa?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.pint-of-lager",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 9,
+      "en": "A pint of lager, please.",
+      "pl": "Duże jasne piwo, poproszę.",
+      "alternatives": [
+        "Can I get a pint of lager, please?",
+        "A pint, please."
+      ],
+      "usage": "Zamawiasz piwo w pubie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "A pint of lager, please. — Any particular one?",
+          "pl": "Duże jasne, poproszę. — Jakieś konkretne?"
+        }
+      ],
+      "note": "Pint (ok. 0,57 l) to standard w UK. Pół = „a half”.",
+      "tags": [
+        "travel",
+        "food",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.service-included",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 10,
+      "en": "Is service included?",
+      "pl": "Czy serwis jest wliczony?",
+      "alternatives": [
+        "Is the service charge included?",
+        "Is the tip included?"
+      ],
+      "usage": "Zanim dasz napiwek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is service included? — Yes, twelve and a half percent.",
+          "pl": "Czy serwis jest wliczony? — Tak, dwanaście i pół procent."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.restaurant-bar.pay-at-bar",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 11,
+      "en": "Can I pay at the bar?",
+      "pl": "Mogę zapłacić przy barze?",
+      "alternatives": [
+        "Do I pay at the bar?"
+      ],
+      "usage": "Szybsze płacenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I pay at the bar? — Yes, no problem.",
+          "pl": "Mogę zapłacić przy barze? — Tak, nie ma problemu."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.how-long-wait",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 12,
+      "en": "How long is the wait?",
+      "pl": "Ile się czeka?",
+      "alternatives": [
+        "How long do we have to wait?"
+      ],
+      "usage": "Gdy nie ma wolnych stolików.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How long is the wait? — About twenty minutes.",
+          "pl": "Ile się czeka? — Jakieś dwadzieścia minut."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.kitchen-still-open",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 13,
+      "en": "Is the kitchen still open?",
+      "pl": "Kuchnia jest jeszcze otwarta?",
+      "alternatives": [
+        "Are you still serving food?"
+      ],
+      "usage": "Późno wieczorem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is the kitchen still open? — For another half an hour.",
+          "pl": "Kuchnia jeszcze otwarta? — Jeszcze przez pół godziny."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.it-was-delicious",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 14,
+      "en": "It was delicious, thanks.",
+      "pl": "Było pyszne, dzięki.",
+      "alternatives": [
+        "It was really good, thanks.",
+        "Delicious, thank you."
+      ],
+      "usage": "Gdy kelner pyta, czy smakowało.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How was everything? — It was delicious, thanks.",
+          "pl": "Jak smakowało? — Było pyszne, dzięki."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.drinks-menu",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 15,
+      "en": "Can I see the drinks menu?",
+      "pl": "Mogę zobaczyć kartę drinków?",
+      "alternatives": [
+        "Could I see the drinks menu?",
+        "Do you have a drinks menu?"
+      ],
+      "usage": "W barze albo restauracji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I see the drinks menu? — Sure, it's on the back.",
+          "pl": "Mogę zobaczyć kartę drinków? — Jasne, jest na odwrocie."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.starter",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 16,
+      "en": "starter",
+      "pl": "przystawka",
+      "alternatives": [],
+      "usage": "Pierwsze danie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Shall we share a starter?",
+          "pl": "Weźmiemy jedną przystawkę na pół?"
+        }
+      ],
+      "collocations": [
+        "a starter",
+        "for starters",
+        "share a starter"
+      ],
+      "note": "US: appetizer. „For starters” znaczy też „na początek”.",
+      "tags": [
+        "food",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.main-course",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 17,
+      "en": "main course",
+      "pl": "danie główne",
+      "alternatives": [],
+      "usage": "Główny posiłek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "For my main course, I'll have the steak.",
+          "pl": "Na danie główne wezmę stek."
+        }
+      ],
+      "collocations": [
+        "the main course",
+        "for my main",
+        "main course and dessert"
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.dessert",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 18,
+      "en": "dessert",
+      "pl": "deser",
+      "alternatives": [],
+      "usage": "Coś słodkiego na koniec.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm too full for dessert.",
+          "pl": "Jestem zbyt najedzony na deser."
+        }
+      ],
+      "collocations": [
+        "have dessert",
+        "the dessert menu",
+        "no room for dessert"
+      ],
+      "note": "Uwaga: dessert (deser) ≠ desert (pustynia).",
+      "pronunciation": "Akcent na drugą sylabę: „di-ZERT”.",
+      "tags": [
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.vegetarian",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 19,
+      "en": "vegetarian",
+      "pl": "wegetariański; wegetarianin",
+      "alternatives": [],
+      "usage": "Bez mięsa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you have any vegetarian options?",
+          "pl": "Macie coś wegetariańskiego?"
+        }
+      ],
+      "collocations": [
+        "vegetarian options",
+        "I'm vegetarian",
+        "a vegetarian burger"
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.portion",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 20,
+      "en": "portion",
+      "pl": "porcja",
+      "alternatives": [],
+      "usage": "Wielkość dania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The portions here are huge!",
+          "pl": "Porcje są tu ogromne!"
+        }
+      ],
+      "collocations": [
+        "a big portion",
+        "a small portion",
+        "a portion of chips"
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.pint",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 21,
+      "en": "pint",
+      "pl": "pinta (duże piwo)",
+      "alternatives": [],
+      "usage": "Standard w brytyjskim pubie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Let's go for a pint after work.",
+          "pl": "Chodźmy na piwo po pracy."
+        }
+      ],
+      "collocations": [
+        "a pint of lager",
+        "go for a pint",
+        "half a pint"
+      ],
+      "pronunciation": "Czytaj „pajnt”.",
+      "tags": [
+        "food",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.round",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 22,
+      "en": "round",
+      "pl": "kolejka (drinków)",
+      "alternatives": [],
+      "usage": "Napoje dla całej grupy.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Who's getting the next round?",
+          "pl": "Kto stawia następną kolejkę?"
+        }
+      ],
+      "collocations": [
+        "buy a round",
+        "my round",
+        "the next round"
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.takeaway",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 23,
+      "en": "takeaway",
+      "pl": "jedzenie na wynos",
+      "alternatives": [],
+      "usage": "Jedzenie, które zabierasz albo zamawiasz do domu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's get a takeaway tonight.",
+          "pl": "Zamówmy dziś coś na wynos."
+        }
+      ],
+      "collocations": [
+        "get a takeaway",
+        "a Chinese takeaway",
+        "takeaway coffee"
+      ],
+      "note": "US: takeout. „Na wynos” w kawiarni: „to go” albo „to take away”.",
+      "tags": [
+        "food",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.delicious",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 24,
+      "en": "delicious",
+      "pl": "pyszny",
+      "alternatives": [],
+      "usage": "Gdy coś bardzo smakuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "This waffle is delicious!",
+          "pl": "Ten gofr jest pyszny!"
+        }
+      ],
+      "collocations": [
+        "really delicious",
+        "absolutely delicious",
+        "smells delicious"
+      ],
+      "pronunciation": "Czytaj „dilyszys”.",
+      "tags": [
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.ill-have",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 25,
+      "en": "I'll have ___, please.",
+      "pl": "Poproszę ___.",
+      "alternatives": [],
+      "usage": "Zamawiasz jedzenie albo picie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll have the burger, please.",
+          "pl": "Poproszę burgera."
+        },
+        {
+          "en": "I'll have the fish and chips, please.",
+          "pl": "Poproszę fish and chips."
+        }
+      ],
+      "note": "„I'll have…” to najnaturalniejszy sposób zamawiania.",
+      "tags": [
+        "food",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.without",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 26,
+      "en": "Could I have it without ___?",
+      "pl": "Mogę prosić bez ___?",
+      "alternatives": [],
+      "usage": "Zmieniasz zamówienie.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Could I have it without onions?",
+          "pl": "Mogę prosić bez cebuli?"
+        },
+        {
+          "en": "Could I have it without cheese?",
+          "pl": "Mogę prosić bez sera?"
+        }
+      ],
+      "tags": [
+        "food",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.is-there-in-this",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 27,
+      "en": "Is there any ___ in this?",
+      "pl": "Czy jest w tym ___?",
+      "alternatives": [],
+      "usage": "Pytasz o składniki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there any meat in this?",
+          "pl": "Czy jest w tym mięso?"
+        },
+        {
+          "en": "Is there any pork in this?",
+          "pl": "Czy jest w tym wieprzowina?"
+        }
+      ],
+      "tags": [
+        "food",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.allergic-to",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 28,
+      "en": "I'm allergic to ___.",
+      "pl": "Mam alergię na ___.",
+      "alternatives": [],
+      "usage": "Ważne przy zamawianiu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm allergic to nuts.",
+          "pl": "Mam alergię na orzechy."
+        },
+        {
+          "en": "I'm allergic to seafood.",
+          "pl": "Mam alergię na owoce morza."
+        }
+      ],
+      "note": "Alergia NA = allergic TO.",
+      "tags": [
+        "food",
+        "health",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.to-go",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 29,
+      "en": "Can I get ___ to go?",
+      "pl": "Mogę prosić ___ na wynos?",
+      "alternatives": [],
+      "usage": "W kawiarni albo budce z jedzeniem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I get a coffee to go?",
+          "pl": "Mogę prosić kawę na wynos?"
+        },
+        {
+          "en": "Can I get a burger to go?",
+          "pl": "Mogę prosić burgera na wynos?"
+        }
+      ],
+      "tags": [
+        "food",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.two-please",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 30,
+      "en": "Two ___, please.",
+      "pl": "Dwa ___, poproszę.",
+      "alternatives": [],
+      "usage": "Szybkie zamówienie w barze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Two pints, please.",
+          "pl": "Dwa piwa, poproszę."
+        },
+        {
+          "en": "Two Cokes, please.",
+          "pl": "Dwie cole, poproszę."
+        }
+      ],
+      "tags": [
+        "food",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.ordering-food",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 31,
+      "en": "Ordering food",
+      "pl": "Zamawianie jedzenia",
+      "alternatives": [],
+      "usage": "W restauracji w Brukseli.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, are you ready to order?",
+          "pl": "Dzień dobry, mogę przyjąć zamówienie?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yes. What do you recommend?",
+          "pl": "Tak. Co pan poleca?",
+          "speaker": "B"
+        },
+        {
+          "en": "The mussels with fries are our speciality.",
+          "pl": "Mule z frytkami to nasza specjalność.",
+          "speaker": "A"
+        },
+        {
+          "en": "OK, I'll have the mussels, please. And could I have some tap water?",
+          "pl": "OK, poproszę mule. I mogę prosić wodę z kranu?",
+          "speaker": "B"
+        },
+        {
+          "en": "Of course. Anything else?",
+          "pl": "Oczywiście. Coś jeszcze?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, that's all, thanks.",
+          "pl": "Nie, to wszystko, dzięki.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "food",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.restaurant-bar.pub-round",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.restaurant-bar",
+      "order": 32,
+      "en": "At the pub",
+      "pl": "W pubie",
+      "alternatives": [],
+      "usage": "Zwyczaj stawiania kolejek.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What are you having?",
+          "pl": "Co pijesz?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, no, it's my round! Same again?",
+          "pl": "Nie, nie, teraz ja stawiam! To samo?",
+          "speaker": "B"
+        },
+        {
+          "en": "Go on then. A pint of lager.",
+          "pl": "No dobra. Duże jasne.",
+          "speaker": "A"
+        },
+        {
+          "en": "Two pints of lager, please. Can I pay by card?",
+          "pl": "Dwa duże jasne, poproszę. Mogę kartą?",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "food",
+        "uk-us"
+      ],
+      "level": "A2"
+    }
+  ]
+}

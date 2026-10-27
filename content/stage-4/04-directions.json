@@ -1,0 +1,873 @@
+{
+  "module": {
+    "id": "s4.directions",
+    "stage": 4,
+    "order": 4,
+    "title": "Pytanie o drogę",
+    "titleEn": "Asking for directions",
+    "description": "Jak dojść, gdzie skręcić, naprzeciwko, obok, za rogiem — pytasz o drogę i sam ją tłumaczysz.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.directions.get-to-station",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 1,
+      "en": "Excuse me, how do I get to the station?",
+      "pl": "Przepraszam, jak dojść do dworca?",
+      "alternatives": [
+        "Excuse me, where's the station?",
+        "Excuse me, which way is the station?"
+      ],
+      "usage": "Klasyczne pytanie o drogę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, how do I get to the station? — Go straight on and turn left.",
+          "pl": "Przepraszam, jak dojść do dworca? — Prosto i w lewo."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.walking-distance",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 2,
+      "en": "Is it within walking distance?",
+      "pl": "Da się tam dojść pieszo?",
+      "alternatives": [
+        "Can I walk there?",
+        "Is it walkable?"
+      ],
+      "usage": "Pytasz, czy nie potrzebujesz transportu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it within walking distance? — Yes, about ten minutes.",
+          "pl": "Da się tam dojść pieszo? — Tak, jakieś dziesięć minut."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.directions.go-straight-on",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 3,
+      "en": "Go straight on.",
+      "pl": "Idź prosto.",
+      "alternatives": [
+        "Go straight ahead.",
+        "Keep going straight."
+      ],
+      "usage": "Podstawowa wskazówka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Go straight on for about two hundred metres.",
+          "pl": "Idź prosto jakieś dwieście metrów."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.turn-left-lights",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 4,
+      "en": "Turn left at the lights.",
+      "pl": "Skręć w lewo na światłach.",
+      "alternatives": [
+        "Turn left at the traffic lights."
+      ],
+      "usage": "Wskazówka ze skrętem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Turn left at the lights, and it's on your right.",
+          "pl": "Skręć w lewo na światłach i będzie po prawej."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.on-your-right",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 5,
+      "en": "It's on your right.",
+      "pl": "Jest po prawej stronie.",
+      "alternatives": [
+        "It's on the right.",
+        "It's on your left."
+      ],
+      "usage": "Wskazujesz, gdzie dokładnie coś jest.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Walk past the church — the hotel is on your right.",
+          "pl": "Miń kościół — hotel jest po prawej."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.second-street-left",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 6,
+      "en": "Take the second street on the left.",
+      "pl": "Skręć w drugą ulicę w lewo.",
+      "alternatives": [
+        "Take the second left.",
+        "Take the second road on the left."
+      ],
+      "usage": "Dokładna wskazówka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Take the second street on the left, then go straight on.",
+          "pl": "Skręć w drugą ulicę w lewo, potem prosto."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.around-the-corner",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 7,
+      "en": "It's just around the corner.",
+      "pl": "To zaraz za rogiem.",
+      "alternatives": [
+        "It's just round the corner.",
+        "It's right around the corner."
+      ],
+      "usage": "Coś jest bardzo blisko.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a pharmacy near here? — Yes, it's just around the corner.",
+          "pl": "Jest tu gdzieś apteka? — Tak, zaraz za rogiem."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.cant-miss-it",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 8,
+      "en": "You can't miss it.",
+      "pl": "Na pewno trafisz.",
+      "alternatives": [],
+      "usage": "Gdy miejsce jest łatwe do znalezienia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's a big red building. You can't miss it.",
+          "pl": "To duży czerwony budynek. Na pewno trafisz."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.directions.show-on-map",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 9,
+      "en": "Can you show me on the map?",
+      "pl": "Możesz mi pokazać na mapie?",
+      "alternatives": [
+        "Could you show me on the map?",
+        "Can you show me on my phone?"
+      ],
+      "usage": "Gdy wskazówki są zbyt skomplikowane.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, can you show me on the map? — Sure. We're here, and it's there.",
+          "pl": "Sorry, możesz mi pokazać na mapie? — Jasne. Jesteśmy tu, a to jest tam."
+        }
+      ],
+      "tags": [
+        "travel",
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.think-im-lost",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 10,
+      "en": "I think I'm lost.",
+      "pl": "Chyba się zgubiłem.",
+      "alternatives": [
+        "I'm lost.",
+        "I think I'm a bit lost."
+      ],
+      "usage": "Prosisz o pomoc w obcym mieście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, I think I'm lost. Where's the main square?",
+          "pl": "Przepraszam, chyba się zgubiłem. Gdzie jest rynek?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.not-from-around-here",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 11,
+      "en": "Sorry, I'm not from around here.",
+      "pl": "Sorry, nie jestem stąd.",
+      "alternatives": [
+        "Sorry, I'm not from here.",
+        "Sorry, I don't know this area."
+      ],
+      "usage": "Gdy ktoś pyta cię o drogę, a ty nie wiesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you know where the museum is? — Sorry, I'm not from around here.",
+          "pl": "Wiesz, gdzie jest muzeum? — Sorry, nie jestem stąd."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.right-way",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 12,
+      "en": "Am I going the right way?",
+      "pl": "Dobrze idę?",
+      "alternatives": [
+        "Is this the right way?",
+        "Is this the way to the beach?"
+      ],
+      "usage": "Upewniasz się po drodze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, am I going the right way for the beach?",
+          "pl": "Przepraszam, dobrze idę na plażę?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.directions.ten-minute-walk",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 13,
+      "en": "It's about a ten-minute walk.",
+      "pl": "To jakieś dziesięć minut pieszo.",
+      "alternatives": [
+        "It's about ten minutes on foot.",
+        "It's about ten minutes' walk."
+      ],
+      "usage": "Podajesz odległość w minutach marszu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How far is the hotel? — It's about a ten-minute walk.",
+          "pl": "Daleko do hotelu? — Jakieś dziesięć minut pieszo."
+        }
+      ],
+      "note": "„A ten-minute walk” — bez „-s” w „minute”, bo to przymiotnik.",
+      "tags": [
+        "travel",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.cross-the-road",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 14,
+      "en": "Cross the road.",
+      "pl": "Przejdź przez ulicę.",
+      "alternatives": [
+        "Cross the street."
+      ],
+      "usage": "Wskazówka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Cross the road at the lights, then turn right.",
+          "pl": "Przejdź przez ulicę na światłach, potem w prawo."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.go-past-church",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 15,
+      "en": "Go past the church.",
+      "pl": "Miń kościół.",
+      "alternatives": [
+        "Walk past the church."
+      ],
+      "usage": "Wskazówka z punktem orientacyjnym.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Go past the church and it's the next building.",
+          "pl": "Miń kościół — to następny budynek."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.corner",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 16,
+      "en": "corner",
+      "pl": "róg (ulicy)",
+      "alternatives": [],
+      "usage": "Skrzyżowanie dwóch ulic.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's meet on the corner, next to the café.",
+          "pl": "Spotkajmy się na rogu, obok kawiarni."
+        }
+      ],
+      "collocations": [
+        "on the corner",
+        "around the corner",
+        "the next corner"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.traffic-lights",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 17,
+      "en": "traffic lights",
+      "pl": "światła (sygnalizacja)",
+      "alternatives": [],
+      "usage": "Punkt orientacyjny w mieście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Turn right at the second traffic lights.",
+          "pl": "Skręć w prawo na drugich światłach."
+        }
+      ],
+      "collocations": [
+        "at the traffic lights",
+        "the next lights",
+        "wait at the lights"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.crossroads",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 18,
+      "en": "crossroads",
+      "pl": "skrzyżowanie",
+      "alternatives": [],
+      "usage": "Miejsce, gdzie przecinają się ulice.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Go straight on at the crossroads.",
+          "pl": "Na skrzyżowaniu jedź prosto."
+        }
+      ],
+      "collocations": [
+        "at the crossroads",
+        "a busy crossroads",
+        "the next crossroads"
+      ],
+      "note": "US: intersection.",
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.opposite",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 19,
+      "en": "opposite",
+      "pl": "naprzeciwko",
+      "alternatives": [],
+      "usage": "Po drugiej stronie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The bar is opposite the station.",
+          "pl": "Bar jest naprzeciwko dworca."
+        }
+      ],
+      "collocations": [
+        "opposite the station",
+        "right opposite",
+        "on the opposite side"
+      ],
+      "note": "„Naprzeciwko czegoś” = „opposite something” — bez „to”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.next-to",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 20,
+      "en": "next to",
+      "pl": "obok",
+      "alternatives": [],
+      "usage": "Tuż przy czymś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The pharmacy is next to the bank.",
+          "pl": "Apteka jest obok banku."
+        }
+      ],
+      "collocations": [
+        "next to the station",
+        "right next to",
+        "sit next to me"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.between",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 21,
+      "en": "between",
+      "pl": "pomiędzy",
+      "alternatives": [],
+      "usage": "Coś jest w środku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's between the bakery and the bank.",
+          "pl": "To pomiędzy piekarnią a bankiem."
+        }
+      ],
+      "collocations": [
+        "between A and B",
+        "in between",
+        "between the two"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.map",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 22,
+      "en": "map",
+      "pl": "mapa",
+      "alternatives": [],
+      "usage": "Do orientacji w terenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let me check the map on my phone.",
+          "pl": "Sprawdzę mapę w telefonie."
+        }
+      ],
+      "collocations": [
+        "check the map",
+        "on the map",
+        "a festival map"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.square",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 23,
+      "en": "square",
+      "pl": "plac, rynek",
+      "alternatives": [],
+      "usage": "Centrum starego miasta.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's meet in the main square.",
+          "pl": "Spotkajmy się na rynku."
+        }
+      ],
+      "collocations": [
+        "the main square",
+        "the market square",
+        "in the square"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.on-foot",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 24,
+      "en": "on foot",
+      "pl": "pieszo",
+      "alternatives": [],
+      "usage": "Sposób przemieszczania się.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's only five minutes on foot.",
+          "pl": "To tylko pięć minut pieszo."
+        }
+      ],
+      "collocations": [
+        "go on foot",
+        "ten minutes on foot",
+        "explore on foot"
+      ],
+      "note": "Pieszo = „on foot”, nie „by foot”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.nearest",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 25,
+      "en": "Where's the nearest ___?",
+      "pl": "Gdzie jest najbliższy / najbliższa ___?",
+      "alternatives": [],
+      "usage": "Szukasz najbliższego miejsca.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where's the nearest pharmacy?",
+          "pl": "Gdzie jest najbliższa apteka?"
+        },
+        {
+          "en": "Where's the nearest metro station?",
+          "pl": "Gdzie jest najbliższa stacja metra?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.its-opposite",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 26,
+      "en": "It's opposite the ___.",
+      "pl": "To naprzeciwko ___.",
+      "alternatives": [],
+      "usage": "Opisujesz położenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's opposite the station.",
+          "pl": "To naprzeciwko dworca."
+        },
+        {
+          "en": "It's opposite the big supermarket.",
+          "pl": "To naprzeciwko dużego supermarketu."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.go-along-until",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 27,
+      "en": "Go along this street until you get to ___.",
+      "pl": "Idź tą ulicą, aż dojdziesz do ___.",
+      "alternatives": [],
+      "usage": "Dłuższa wskazówka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Go along this street until you get to the river.",
+          "pl": "Idź tą ulicą, aż dojdziesz do rzeki."
+        },
+        {
+          "en": "Go along this street until you get to a big roundabout.",
+          "pl": "Idź tą ulicą, aż dojdziesz do dużego ronda."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.directions.turn-at-end",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 28,
+      "en": "Turn ___ at the end of the street.",
+      "pl": "Na końcu ulicy skręć ___.",
+      "alternatives": [],
+      "usage": "Wskazówka ze skrętem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Turn left at the end of the street.",
+          "pl": "Na końcu ulicy skręć w lewo."
+        },
+        {
+          "en": "Turn right at the end of the street.",
+          "pl": "Na końcu ulicy skręć w prawo."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.how-do-i-get-to",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 29,
+      "en": "How do I get to ___?",
+      "pl": "Jak dojść / dojechać do ___?",
+      "alternatives": [],
+      "usage": "Ogólne pytanie o drogę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How do I get to the main square?",
+          "pl": "Jak dojść na rynek?"
+        },
+        {
+          "en": "How do I get to the beach?",
+          "pl": "Jak dojść na plażę?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.its-a-walk-from",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 30,
+      "en": "It's a ___ walk from here.",
+      "pl": "To ___ pieszo stąd.",
+      "alternatives": [],
+      "usage": "Odległość w czasie marszu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's a five-minute walk from here.",
+          "pl": "To pięć minut pieszo stąd."
+        },
+        {
+          "en": "It's a long walk from here.",
+          "pl": "To daleko stąd na piechotę."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.asking-the-way",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 31,
+      "en": "Asking the way",
+      "pl": "Pytanie o drogę",
+      "alternatives": [],
+      "usage": "Szukasz dworca w obcym mieście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, I think I'm lost. How do I get to the station?",
+          "pl": "Przepraszam, chyba się zgubiłem. Jak dojść do dworca?",
+          "speaker": "A"
+        },
+        {
+          "en": "Go straight on and turn left at the lights.",
+          "pl": "Prosto, a na światłach w lewo.",
+          "speaker": "B"
+        },
+        {
+          "en": "Is it within walking distance?",
+          "pl": "Da się dojść pieszo?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure, it's about a ten-minute walk. It's opposite a big church. You can't miss it.",
+          "pl": "Jasne, jakieś dziesięć minut. Jest naprzeciwko dużego kościoła. Na pewno trafisz.",
+          "speaker": "B"
+        },
+        {
+          "en": "Thanks so much!",
+          "pl": "Dzięki wielkie!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.directions.helping-tourist",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.directions",
+      "order": 32,
+      "en": "Helping a tourist in Szczecin",
+      "pl": "Pomagasz turyście w Szczecinie",
+      "alternatives": [],
+      "usage": "Teraz to ty tłumaczysz drogę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, do you speak English? Where is the castle?",
+          "pl": "Przepraszam, mówisz po angielsku? Gdzie jest zamek?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yes, a bit! Go along this street until you get to the river.",
+          "pl": "Tak, trochę! Idź tą ulicą aż do rzeki.",
+          "speaker": "B"
+        },
+        {
+          "en": "OK, and then?",
+          "pl": "OK, a potem?",
+          "speaker": "A"
+        },
+        {
+          "en": "Turn left. The castle is on your right. It's about a fifteen-minute walk.",
+          "pl": "W lewo. Zamek jest po prawej. Jakieś piętnaście minut pieszo.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    }
+  ]
+}

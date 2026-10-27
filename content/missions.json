@@ -514,6 +514,186 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mission.s4-trip-to-boom",
+      "stage": 4,
+      "title": "Podróż na Tomorrowland",
+      "titleEn": "Getting to Tomorrowland",
+      "setting": "Przylatujesz do Brukseli i jedziesz na festiwal: lotnisko, kasa biletowa na dworcu, pociąg do Boom, autobus na festiwal.",
+      "claudeScenario": "I've just landed in Brussels and I'm travelling to Tomorrowland in Boom. Play different people I meet: an airport info desk worker, a ticket office worker, a passenger on the train and a festival steward. Start at the airport info desk.",
+      "tags": [
+        "travel",
+        "festival"
+      ],
+      "steps": [
+        {
+          "them": "Hello, how can I help you?",
+          "themPl": "Dzień dobry, w czym mogę pomóc?",
+          "task": "Zapytaj, jak dostać się z lotniska do centrum.",
+          "answer": "How do I get to the city centre from here?",
+          "alt": [
+            "What's the best way to the city centre?"
+          ]
+        },
+        {
+          "them": "Take the train from downstairs. It takes about twenty minutes.",
+          "themPl": "Pociągiem z dolnego poziomu. Jakieś dwadzieścia minut.",
+          "task": "Zapytaj, gdzie kupić bilet.",
+          "answer": "Where do I buy a ticket?",
+          "alt": [
+            "Where can I buy a ticket?"
+          ]
+        },
+        {
+          "them": "(Kasa) Hi! Where to?",
+          "themPl": "Dzień dobry! Dokąd?",
+          "task": "Poproś o bilet w obie strony do Boom.",
+          "answer": "A return ticket to Boom, please.",
+          "alt": [
+            "A return to Boom, please."
+          ]
+        },
+        {
+          "them": "That's fifteen euros. You need to change in Antwerp.",
+          "themPl": "Piętnaście euro. Przesiadka w Antwerpii.",
+          "task": "Zapytaj, z którego peronu odjeżdża pociąg.",
+          "answer": "Which platform does it leave from?",
+          "alt": [
+            "Which platform is it?"
+          ]
+        },
+        {
+          "them": "(W pociągu) Sorry, is this seat taken?",
+          "themPl": "Przepraszam, to miejsce jest zajęte?",
+          "task": "Powiedz, że nie, i zapytaj, czy pociąg zatrzymuje się w Boom.",
+          "answer": "No, go ahead. Does this train stop at Boom?",
+          "alt": [
+            "No. Does this train stop at Boom?"
+          ]
+        },
+        {
+          "them": "Yes! It's the fourth stop. Going to the festival?",
+          "themPl": "Tak! To czwarty przystanek. Na festiwal?",
+          "task": "Powiedz, że tak — to twój czwarty raz i nie możesz się doczekać.",
+          "answer": "Yes! It's my fourth time. I can't wait!",
+          "alt": [
+            "Yeah, it's my fourth time here. I can't wait!"
+          ]
+        },
+        {
+          "them": "(Steward) Hi! Can I help?",
+          "themPl": "Cześć! Pomóc?",
+          "task": "Zapytaj, gdzie jest przystanek autobusu na festiwal.",
+          "answer": "Where's the bus stop for the festival shuttle?",
+          "alt": [
+            "Where does the festival shuttle leave from?"
+          ]
+        },
+        {
+          "them": "Right outside the station, on the left. There's a big queue!",
+          "themPl": "Zaraz przed dworcem, po lewej. Jest duża kolejka!",
+          "task": "Zapytaj, ile się jedzie na festiwal.",
+          "answer": "How long does it take to get to the festival?",
+          "alt": [
+            "How long does it take?"
+          ]
+        },
+        {
+          "them": "About fifteen minutes. Have fun!",
+          "themPl": "Jakieś piętnaście minut. Baw się dobrze!",
+          "task": "Podziękuj.",
+          "answer": "Thanks a lot!",
+          "alt": [
+            "Thank you so much!",
+            "Cheers!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission.s4-bad-day",
+      "stage": 4,
+      "title": "Pechowy dzień w Brukseli",
+      "titleEn": "A bad day in Brussels",
+      "setting": "Wszystko idzie nie tak: zgubiłeś portfel, telefon prawie padł, a do tego boli cię gardło. Ogarniasz to po angielsku.",
+      "claudeScenario": "It's a bad day for me in Brussels: I've lost my wallet, my phone is dying and I feel ill. Play the people I talk to: a hostel receptionist, a bartender and a pharmacist. Be helpful but realistic. Start as the hostel receptionist.",
+      "tags": [
+        "travel",
+        "health",
+        "phone"
+      ],
+      "steps": [
+        {
+          "them": "Good morning! Everything OK?",
+          "themPl": "Dzień dobry! Wszystko OK?",
+          "task": "Powiedz, że zgubiłeś portfel, i zapytaj, czy ktoś go oddał.",
+          "answer": "Not really. I've lost my wallet. Has anyone handed one in?",
+          "alt": [
+            "I've lost my wallet. Has anyone handed in a wallet?"
+          ]
+        },
+        {
+          "them": "Hmm, no, sorry. What does it look like?",
+          "themPl": "Hmm, nie, przykro mi. Jak wygląda?",
+          "task": "Opisz: czarny, z polskim dowodem w środku.",
+          "answer": "It's black, with a Polish ID card inside.",
+          "alt": [
+            "It's black. My Polish ID is inside."
+          ]
+        },
+        {
+          "them": "I'll call you if it turns up. You should cancel your cards.",
+          "themPl": "Zadzwonię, jeśli się znajdzie. Zastrzeż karty.",
+          "task": "Powiedz, że musisz zastrzec kartę, i zapytaj o hasło do wifi.",
+          "answer": "I need to cancel my card. What's the wifi password?",
+          "alt": [
+            "I need to cancel my card. Can I use the wifi?"
+          ]
+        },
+        {
+          "them": "(W barze) Hi, what can I get you?",
+          "themPl": "Cześć, co podać?",
+          "task": "Zapytaj, czy możesz tu naładować telefon — masz 3% baterii.",
+          "answer": "Can I charge my phone here? I've got three percent battery.",
+          "alt": [
+            "Can I charge my phone here? My battery is almost dead."
+          ]
+        },
+        {
+          "them": "Sure, there's a socket behind the bar. Anything to drink?",
+          "themPl": "Jasne, za barem jest gniazdko. Coś do picia?",
+          "task": "Zamów herbatę — boli cię gardło.",
+          "answer": "Just a tea, please. I've got a sore throat.",
+          "alt": [
+            "A tea, please. My throat hurts."
+          ]
+        },
+        {
+          "them": "(W aptece) Hello! How can I help?",
+          "themPl": "Dzień dobry! W czym pomóc?",
+          "task": "Powiedz, że od wczoraj boli cię gardło, i poproś o coś na to.",
+          "answer": "I've had a sore throat since yesterday. Do you have something for it?",
+          "alt": [
+            "I need something for a sore throat. I have had it since yesterday."
+          ]
+        },
+        {
+          "them": "Try these lozenges. One every three hours.",
+          "themPl": "Proszę te pastylki. Jedna co trzy godziny.",
+          "task": "Zapytaj, czy potrzebujesz recepty.",
+          "answer": "Do I need a prescription?"
+        },
+        {
+          "them": "No, you don't. That's six euros.",
+          "themPl": "Nie. Sześć euro.",
+          "task": "Zapytaj, czy możesz zapłacić telefonem.",
+          "answer": "Can I pay with my phone?",
+          "alt": [
+            "Can I pay by phone?"
+          ]
+        }
+      ]
     }
   ]
 }

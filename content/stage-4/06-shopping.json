@@ -1,0 +1,926 @@
+{
+  "module": {
+    "id": "s4.shopping",
+    "stage": 4,
+    "order": 6,
+    "title": "Zakupy",
+    "titleEn": "Shopping",
+    "description": "Rozmiary, przymierzanie, wyprzedaże, zniżki, kasa i pamiątki — zakupy w podróży bez stresu.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.shopping.just-looking",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 1,
+      "en": "I'm just looking, thanks.",
+      "pl": "Tylko się rozglądam, dzięki.",
+      "alternatives": [
+        "Just looking, thanks.",
+        "I'm just browsing, thanks."
+      ],
+      "usage": "Gdy sprzedawca pyta, czy pomóc.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I help you? — I'm just looking, thanks.",
+          "pl": "W czym mogę pomóc? — Tylko się rozglądam, dzięki."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.in-a-medium",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 2,
+      "en": "Do you have this in a medium?",
+      "pl": "Macie to w rozmiarze M?",
+      "alternatives": [
+        "Have you got this in a medium?",
+        "Do you have this in medium?"
+      ],
+      "usage": "Pytasz o rozmiar.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you have this in a medium? — Let me check.",
+          "pl": "Macie to w M? — Sprawdzę."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.try-it-on",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 3,
+      "en": "Can I try it on?",
+      "pl": "Mogę to przymierzyć?",
+      "alternatives": [
+        "Can I try this on?",
+        "Could I try it on?"
+      ],
+      "usage": "Przymierzanie ubrań.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I try it on? — Sure, the fitting rooms are over there.",
+          "pl": "Mogę przymierzyć? — Jasne, przymierzalnie są tam."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.fitting-rooms",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 4,
+      "en": "Where are the fitting rooms?",
+      "pl": "Gdzie są przymierzalnie?",
+      "alternatives": [
+        "Where's the fitting room?",
+        "Where are the changing rooms?"
+      ],
+      "usage": "W sklepie z ubraniami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where are the fitting rooms? — At the back, on the left.",
+          "pl": "Gdzie są przymierzalnie? — Z tyłu, po lewej."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.bigger-size",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 5,
+      "en": "It's too small. Do you have a bigger size?",
+      "pl": "Za małe. Macie większy rozmiar?",
+      "alternatives": [
+        "It's too small. Have you got a bigger size?",
+        "Do you have this in a bigger size?"
+      ],
+      "usage": "Gdy coś nie pasuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's too small. Do you have a bigger size? — Here's a large.",
+          "pl": "Za małe. Macie większy rozmiar? — Proszę, L."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.on-sale",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 6,
+      "en": "Is this on sale?",
+      "pl": "Czy to jest przecenione?",
+      "alternatives": [
+        "Is this in the sale?",
+        "Is this discounted?"
+      ],
+      "usage": "Szukasz promocji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is this on sale? — Yes, it's thirty percent off.",
+          "pl": "Czy to jest przecenione? — Tak, minus trzydzieści procent."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.ill-take-it",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 7,
+      "en": "I'll take it.",
+      "pl": "Biorę to.",
+      "alternatives": [
+        "I'll take this one.",
+        "I'll buy it."
+      ],
+      "usage": "Decydujesz się na zakup.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It fits perfectly. I'll take it!",
+          "pl": "Pasuje idealnie. Biorę!"
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.get-a-bag",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 8,
+      "en": "Can I get a bag, please?",
+      "pl": "Mogę prosić o torbę?",
+      "alternatives": [
+        "Could I have a bag, please?",
+        "Can I have a bag?"
+      ],
+      "usage": "Przy kasie (torby często są płatne).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I get a bag, please? — That's ten cents.",
+          "pl": "Mogę prosić o torbę? — Dziesięć centów."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.return-if-doesnt-fit",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 9,
+      "en": "Can I return it if it doesn't fit?",
+      "pl": "Mogę to zwrócić, jeśli nie będzie pasować?",
+      "alternatives": [
+        "Can I bring it back if it doesn't fit?"
+      ],
+      "usage": "Przy zakupie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I return it if it doesn't fit? — Yes, within thirty days.",
+          "pl": "Mogę zwrócić, jeśli nie będzie pasować? — Tak, w ciągu trzydziestu dni."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.shopping.other-colours",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 10,
+      "en": "Do you have any other colours?",
+      "pl": "Macie inne kolory?",
+      "alternatives": [
+        "Does it come in any other colours?",
+        "Do you have it in other colors?"
+      ],
+      "usage": "Pytasz o warianty.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you have any other colours? — Black and white.",
+          "pl": "Macie inne kolory? — Czarny i biały."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.out-of-budget",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 11,
+      "en": "That's a bit out of my budget.",
+      "pl": "To trochę ponad mój budżet.",
+      "alternatives": [
+        "That's a bit over my budget.",
+        "That's more than I want to spend."
+      ],
+      "usage": "Grzecznie odmawiasz, bo za drogo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Two hundred euros? That's a bit out of my budget.",
+          "pl": "Dwieście euro? To trochę ponad mój budżet."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.shopping.get-a-discount",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 12,
+      "en": "Can I get a discount?",
+      "pl": "Mogę dostać zniżkę?",
+      "alternatives": [
+        "Is there a discount?",
+        "Can you do a better price?"
+      ],
+      "usage": "Na straganie albo przy większym zakupie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If I buy two, can I get a discount?",
+          "pl": "Jeśli wezmę dwa, mogę dostać zniżkę?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.shopping.gift-for-mum",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 13,
+      "en": "I'm looking for a gift for my mum.",
+      "pl": "Szukam prezentu dla mamy.",
+      "alternatives": [
+        "I'm looking for a present for my mum."
+      ],
+      "usage": "Prosisz o pomoc w wyborze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm looking for a gift for my mum. Any ideas?",
+          "pl": "Szukam prezentu dla mamy. Jakieś pomysły?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping",
+        "family"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.where-pay",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 14,
+      "en": "Where do I pay?",
+      "pl": "Gdzie się płaci?",
+      "alternatives": [
+        "Where can I pay?",
+        "Where's the till?"
+      ],
+      "usage": "Szukasz kasy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where do I pay? — At the till by the door.",
+          "pl": "Gdzie się płaci? — Przy kasie koło drzwi."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.open-sunday",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 15,
+      "en": "Are you open on Sunday?",
+      "pl": "Czy jesteście otwarci w niedzielę?",
+      "alternatives": [
+        "Are you open on Sundays?",
+        "What time do you open on Sunday?"
+      ],
+      "usage": "Godziny otwarcia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you open on Sunday? — Yes, from ten to six.",
+          "pl": "Jesteście otwarci w niedzielę? — Tak, od dziesiątej do szóstej."
+        }
+      ],
+      "tags": [
+        "travel",
+        "shopping",
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.size",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 16,
+      "en": "size",
+      "pl": "rozmiar",
+      "alternatives": [],
+      "usage": "Ubrania i buty.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What size are you? — Medium, usually.",
+          "pl": "Jaki masz rozmiar? — Zwykle M."
+        }
+      ],
+      "collocations": [
+        "my size",
+        "the wrong size",
+        "shoe size"
+      ],
+      "tags": [
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.fitting-room",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 17,
+      "en": "fitting room",
+      "pl": "przymierzalnia",
+      "alternatives": [],
+      "usage": "Miejsce do przymierzania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a queue for the fitting room.",
+          "pl": "Jest kolejka do przymierzalni."
+        }
+      ],
+      "collocations": [
+        "the fitting room",
+        "go to the fitting room",
+        "fitting room queue"
+      ],
+      "note": "US: dressing room.",
+      "tags": [
+        "shopping",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.sale",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 18,
+      "en": "sale",
+      "pl": "wyprzedaż",
+      "alternatives": [],
+      "usage": "Obniżki cen.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Everything is in the sale this week.",
+          "pl": "W tym tygodniu wszystko jest na wyprzedaży."
+        }
+      ],
+      "collocations": [
+        "in the sale",
+        "on sale",
+        "the summer sale"
+      ],
+      "note": "„For sale” = na sprzedaż, „on sale / in the sale” = przecenione.",
+      "tags": [
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.discount",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 19,
+      "en": "discount",
+      "pl": "zniżka, rabat",
+      "alternatives": [],
+      "usage": "Niższa cena.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a student discount?",
+          "pl": "Jest zniżka studencka?"
+        }
+      ],
+      "collocations": [
+        "a ten percent discount",
+        "student discount",
+        "get a discount"
+      ],
+      "tags": [
+        "shopping",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.till",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 20,
+      "en": "till",
+      "pl": "kasa (w sklepie)",
+      "alternatives": [],
+      "usage": "Miejsce płacenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Please pay at the till.",
+          "pl": "Proszę płacić przy kasie."
+        }
+      ],
+      "collocations": [
+        "at the till",
+        "the queue for the till",
+        "self-service tills"
+      ],
+      "note": "US: checkout / register.",
+      "tags": [
+        "shopping",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.trainers",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 21,
+      "en": "trainers",
+      "pl": "buty sportowe",
+      "alternatives": [],
+      "usage": "Adidasy, sneakersy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need new trainers for the gym.",
+          "pl": "Potrzebuję nowych butów na siłownię."
+        }
+      ],
+      "collocations": [
+        "a pair of trainers",
+        "running trainers",
+        "white trainers"
+      ],
+      "note": "UK: trainers, US: sneakers. Uwaga: „trainer” to też trener!",
+      "tags": [
+        "shopping",
+        "uk-us",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.souvenir",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 22,
+      "en": "souvenir",
+      "pl": "pamiątka",
+      "alternatives": [],
+      "usage": "Coś na pamiątkę z podróży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I always buy a souvenir for my mum.",
+          "pl": "Zawsze kupuję pamiątkę dla mamy."
+        }
+      ],
+      "collocations": [
+        "a souvenir shop",
+        "buy souvenirs",
+        "a festival souvenir"
+      ],
+      "pronunciation": "Czytaj „su-wy-NIR” — akcent na końcu.",
+      "tags": [
+        "shopping",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.cashier",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 23,
+      "en": "cashier",
+      "pl": "kasjer, kasjerka",
+      "alternatives": [],
+      "usage": "Osoba przy kasie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Ask the cashier if they take cards.",
+          "pl": "Zapytaj kasjera, czy przyjmują karty."
+        }
+      ],
+      "collocations": [
+        "the cashier",
+        "a friendly cashier",
+        "pay the cashier"
+      ],
+      "pronunciation": "Czytaj „kaszir”.",
+      "tags": [
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.bargain",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 24,
+      "en": "bargain",
+      "pl": "okazja (dobra cena)",
+      "alternatives": [],
+      "usage": "Coś kupione wyjątkowo tanio.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Five euros for this jacket? What a bargain!",
+          "pl": "Pięć euro za tę kurtkę? Ale okazja!"
+        }
+      ],
+      "collocations": [
+        "a real bargain",
+        "what a bargain!",
+        "bargain prices"
+      ],
+      "tags": [
+        "shopping",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.shopping.this-in",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 25,
+      "en": "Do you have this in ___?",
+      "pl": "Macie to w ___?",
+      "alternatives": [],
+      "usage": "Pytasz o rozmiar albo kolor.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you have this in black?",
+          "pl": "Macie to w czarnym?"
+        },
+        {
+          "en": "Do you have this in a large?",
+          "pl": "Macie to w rozmiarze L?"
+        }
+      ],
+      "tags": [
+        "shopping",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.its-too",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 26,
+      "en": "It's too ___.",
+      "pl": "Jest za ___.",
+      "alternatives": [],
+      "usage": "Gdy coś nie pasuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's too small.",
+          "pl": "Jest za małe."
+        },
+        {
+          "en": "It's too tight.",
+          "pl": "Jest za ciasne."
+        },
+        {
+          "en": "It's too long.",
+          "pl": "Jest za długie."
+        }
+      ],
+      "tags": [
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.where-can-i-buy",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 27,
+      "en": "Where can I buy ___?",
+      "pl": "Gdzie mogę kupić ___?",
+      "alternatives": [],
+      "usage": "Szukasz konkretnej rzeczy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where can I buy sunscreen?",
+          "pl": "Gdzie mogę kupić krem z filtrem?"
+        },
+        {
+          "en": "Where can I buy a phone charger?",
+          "pl": "Gdzie mogę kupić ładowarkę do telefonu?"
+        }
+      ],
+      "tags": [
+        "shopping",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.how-much-are-these",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 28,
+      "en": "How much are these ___?",
+      "pl": "Ile kosztują te ___?",
+      "alternatives": [],
+      "usage": "Liczba mnoga: are.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How much are these trainers?",
+          "pl": "Ile kosztują te buty?"
+        },
+        {
+          "en": "How much are these sunglasses?",
+          "pl": "Ile kosztują te okulary przeciwsłoneczne?"
+        }
+      ],
+      "note": "„These” + liczba mnoga + „are”.",
+      "tags": [
+        "shopping",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.can-i-pay",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 29,
+      "en": "Can I pay ___?",
+      "pl": "Mogę zapłacić ___?",
+      "alternatives": [],
+      "usage": "Sposób płatności.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I pay in cash?",
+          "pl": "Mogę zapłacić gotówką?"
+        },
+        {
+          "en": "Can I pay with my phone?",
+          "pl": "Mogę zapłacić telefonem?"
+        },
+        {
+          "en": "Can I pay in euros?",
+          "pl": "Mogę zapłacić w euro?"
+        }
+      ],
+      "tags": [
+        "shopping",
+        "numbers",
+        "gr:can"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.looking-for-something",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 30,
+      "en": "I'm looking for something ___.",
+      "pl": "Szukam czegoś ___.",
+      "alternatives": [],
+      "usage": "Opisujesz, czego szukasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm looking for something cheap.",
+          "pl": "Szukam czegoś taniego."
+        },
+        {
+          "en": "I'm looking for something for the festival.",
+          "pl": "Szukam czegoś na festiwal."
+        }
+      ],
+      "tags": [
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.clothes-shop",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 31,
+      "en": "In a clothes shop",
+      "pl": "W sklepie z ubraniami",
+      "alternatives": [],
+      "usage": "Przymierzanie i zakup.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, can I help you?",
+          "pl": "Dzień dobry, w czym mogę pomóc?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yes. Do you have this in a medium?",
+          "pl": "Tak. Macie to w M?",
+          "speaker": "B"
+        },
+        {
+          "en": "Here you go. The fitting rooms are at the back.",
+          "pl": "Proszę. Przymierzalnie są z tyłu.",
+          "speaker": "A"
+        },
+        {
+          "en": "Thanks. … It fits! I'll take it. Can I pay by card?",
+          "pl": "Dzięki. … Pasuje! Biorę. Mogę kartą?",
+          "speaker": "B"
+        },
+        {
+          "en": "Of course. Do you need a bag?",
+          "pl": "Oczywiście. Torebkę?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, thanks. I'm fine.",
+          "pl": "Nie, dzięki. Nie trzeba.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "shopping"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.shopping.market-stall",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.shopping",
+      "order": 32,
+      "en": "At a market stall",
+      "pl": "Na straganie",
+      "alternatives": [],
+      "usage": "Targowanie się o pamiątkę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "How much are these T-shirts?",
+          "pl": "Ile kosztują te koszulki?",
+          "speaker": "A"
+        },
+        {
+          "en": "Twenty euros each.",
+          "pl": "Po dwadzieścia euro.",
+          "speaker": "B"
+        },
+        {
+          "en": "That's a bit out of my budget. If I buy two, can I get a discount?",
+          "pl": "To trochę ponad mój budżet. Jeśli wezmę dwie, dostanę zniżkę?",
+          "speaker": "A"
+        },
+        {
+          "en": "OK, two for thirty-five.",
+          "pl": "OK, dwie za trzydzieści pięć.",
+          "speaker": "B"
+        },
+        {
+          "en": "Deal!",
+          "pl": "Umowa stoi!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "shopping",
+        "numbers"
+      ],
+      "level": "A2"
+    }
+  ]
+}

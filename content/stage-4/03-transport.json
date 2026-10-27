@@ -1,0 +1,897 @@
+{
+  "module": {
+    "id": "s4.transport",
+    "stage": 4,
+    "order": 3,
+    "title": "Transport",
+    "titleEn": "Getting around",
+    "description": "Bilety, perony, przesiadki, autobus na festiwal, taksówka i Uber. Plus „Does this train stop at Boom?”.",
+    "tags": [
+      "travel",
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.transport.return-ticket",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 1,
+      "en": "A return ticket to Antwerp, please.",
+      "pl": "Bilet w obie strony do Antwerpii, poproszę.",
+      "alternatives": [
+        "A return to Antwerp, please.",
+        "Can I have a return ticket to Antwerp, please?"
+      ],
+      "usage": "Kupujesz bilet na pociąg albo autobus.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "A return ticket to Antwerp, please. — Coming back today?",
+          "pl": "Bilet w obie strony do Antwerpii, poproszę. — Wraca pan dzisiaj?"
+        }
+      ],
+      "note": "UK: return = w obie strony, single = w jedną. US: round trip / one-way.",
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.single-to-brussels",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 2,
+      "en": "A single to Brussels, please.",
+      "pl": "Bilet w jedną stronę do Brukseli, poproszę.",
+      "alternatives": [
+        "A one-way ticket to Brussels, please.",
+        "One single to Brussels, please."
+      ],
+      "usage": "Bilet w jedną stronę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "A single to Brussels, please. — That's fifteen euros.",
+          "pl": "Bilet w jedną stronę do Brukseli, poproszę. — Piętnaście euro."
+        }
+      ],
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.which-platform",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 3,
+      "en": "Which platform does it leave from?",
+      "pl": "Z którego peronu odjeżdża?",
+      "alternatives": [
+        "Which platform is it?",
+        "What platform does it leave from?"
+      ],
+      "usage": "Na dworcu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Which platform does it leave from? — Platform four.",
+          "pl": "Z którego peronu odjeżdża? — Z czwartego."
+        }
+      ],
+      "note": "Przyimek na końcu: Which platform does it leave FROM?",
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.stop-at-boom",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 4,
+      "en": "Does this train stop at Boom?",
+      "pl": "Czy ten pociąg zatrzymuje się w Boom?",
+      "alternatives": [
+        "Does this train go to Boom?"
+      ],
+      "usage": "Tomorrowland odbywa się w Boom — to pytanie się przyda!",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Does this train stop at Boom? — Yes, it's the third stop.",
+          "pl": "Czy ten pociąg staje w Boom? — Tak, to trzeci przystanek."
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival",
+        "gr:questions-do",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.seat-taken",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 5,
+      "en": "Is this seat taken?",
+      "pl": "Czy to miejsce jest zajęte?",
+      "alternatives": [
+        "Is anyone sitting here?",
+        "Is this seat free?"
+      ],
+      "usage": "W pociągu, autobusie, barze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, is this seat taken? — No, go ahead.",
+          "pl": "Przepraszam, to miejsce jest zajęte? — Nie, proszę."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.do-i-need-to-change",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 6,
+      "en": "Do I need to change?",
+      "pl": "Czy muszę się przesiadać?",
+      "alternatives": [
+        "Do I have to change trains?",
+        "Is it a direct train?"
+      ],
+      "usage": "Pytasz o przesiadki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do I need to change? — Yes, in Antwerp.",
+          "pl": "Muszę się przesiadać? — Tak, w Antwerpii."
+        }
+      ],
+      "note": "Przesiadać się = „change” (trains / buses). Nie „transfer myself”.",
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.taxi-to-airport",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 7,
+      "en": "How much is a taxi to the airport?",
+      "pl": "Ile kosztuje taksówka na lotnisko?",
+      "alternatives": [
+        "How much does a taxi to the airport cost?"
+      ],
+      "usage": "Pytasz o cenę przed jazdą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How much is a taxi to the airport? — About forty euros.",
+          "pl": "Ile kosztuje taksówka na lotnisko? — Około czterdziestu euro."
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.stop-here",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 8,
+      "en": "Could you stop here, please?",
+      "pl": "Może się pan tu zatrzymać?",
+      "alternatives": [
+        "Can you stop here, please?",
+        "You can stop here, thanks."
+      ],
+      "usage": "W taksówce.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Could you stop here, please? This is fine.",
+          "pl": "Może się pan tu zatrzymać? Tu jest dobrze."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.festival-shuttle-stop",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 9,
+      "en": "Where's the bus stop for the festival shuttle?",
+      "pl": "Gdzie jest przystanek autobusu na festiwal?",
+      "alternatives": [
+        "Where does the festival shuttle leave from?"
+      ],
+      "usage": "Dojazd na festiwal.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where's the bus stop for the festival shuttle? — Outside the station, on the left.",
+          "pl": "Gdzie jest przystanek autobusu na festiwal? — Przed dworcem, po lewej."
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.missed-my-train",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 10,
+      "en": "I missed my train.",
+      "pl": "Uciekł mi pociąg.",
+      "alternatives": [
+        "I've missed my train."
+      ],
+      "usage": "Spóźniłeś się na pociąg.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I missed my train. When's the next one?",
+          "pl": "Uciekł mi pociąg. Kiedy jest następny?"
+        }
+      ],
+      "note": "„Spóźnić się na pociąg” = „miss the train”.",
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.pay-on-bus",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 11,
+      "en": "Can I pay on the bus?",
+      "pl": "Mogę zapłacić w autobusie?",
+      "alternatives": [
+        "Can I buy a ticket on the bus?"
+      ],
+      "usage": "Pytasz, czy trzeba mieć bilet wcześniej.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I pay on the bus? — Only by card.",
+          "pl": "Mogę zapłacić w autobusie? — Tylko kartą."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:can"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.where-buy-ticket",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 12,
+      "en": "Where do I buy a ticket?",
+      "pl": "Gdzie kupię bilet?",
+      "alternatives": [
+        "Where can I buy a ticket?"
+      ],
+      "usage": "Na dworcu albo przystanku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where do I buy a ticket? — From the machine or in the app.",
+          "pl": "Gdzie kupię bilet? — W automacie albo w aplikacji."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.get-off-here",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 13,
+      "en": "Where do I get off?",
+      "pl": "Gdzie mam wysiąść?",
+      "alternatives": [
+        "Which stop do I get off at?"
+      ],
+      "usage": "Pytasz kierowcę albo współpasażera.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where do I get off for the festival? — The next stop.",
+          "pl": "Gdzie mam wysiąść na festiwal? — Na następnym przystanku."
+        }
+      ],
+      "note": "Wsiadać = get on, wysiadać = get off.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.ride-share",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 14,
+      "en": "Let's just get an Uber.",
+      "pl": "Weźmy po prostu Ubera.",
+      "alternatives": [
+        "Let's get an Uber.",
+        "Let's just get a taxi."
+      ],
+      "usage": "Gdy komunikacja zawodzi.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "The last bus has gone. Let's just get an Uber.",
+          "pl": "Ostatni autobus już odjechał. Weźmy po prostu Ubera."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.this-bus-full",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 15,
+      "en": "The bus is full. Let's wait for the next one.",
+      "pl": "Autobus jest pełny. Poczekajmy na następny.",
+      "alternatives": [],
+      "usage": "Po festiwalu wszyscy wracają naraz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The bus is full. Let's wait for the next one — it's in ten minutes.",
+          "pl": "Autobus jest pełny. Poczekajmy na następny — będzie za dziesięć minut."
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.platform",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 16,
+      "en": "platform",
+      "pl": "peron",
+      "alternatives": [],
+      "usage": "Miejsce odjazdu pociągu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The train to Boom leaves from platform six.",
+          "pl": "Pociąg do Boom odjeżdża z peronu szóstego."
+        }
+      ],
+      "collocations": [
+        "platform six",
+        "on the platform",
+        "change platforms"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.return",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 17,
+      "en": "return",
+      "pl": "bilet powrotny (w obie strony, UK)",
+      "alternatives": [],
+      "usage": "Rodzaj biletu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "A return is cheaper than two singles.",
+          "pl": "Bilet w obie strony jest tańszy niż dwa w jedną."
+        }
+      ],
+      "collocations": [
+        "a day return",
+        "a return ticket",
+        "single or return?"
+      ],
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.connection",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 18,
+      "en": "connection",
+      "pl": "połączenie, przesiadka",
+      "alternatives": [],
+      "usage": "Kolejny pociąg albo lot.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've only got twenty minutes for my connection.",
+          "pl": "Mam tylko dwadzieścia minut na przesiadkę."
+        }
+      ],
+      "collocations": [
+        "miss my connection",
+        "a good connection",
+        "a train connection"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.transport.fare",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 19,
+      "en": "fare",
+      "pl": "opłata za przejazd",
+      "alternatives": [],
+      "usage": "Cena biletu albo kursu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the fare to the city centre?",
+          "pl": "Ile kosztuje przejazd do centrum?"
+        }
+      ],
+      "collocations": [
+        "the bus fare",
+        "a taxi fare",
+        "pay the fare"
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.transport.stop",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 20,
+      "en": "stop",
+      "pl": "przystanek",
+      "alternatives": [],
+      "usage": "Miejsce, gdzie staje autobus albo tramwaj.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's three stops from here.",
+          "pl": "To trzy przystanki stąd."
+        }
+      ],
+      "collocations": [
+        "a bus stop",
+        "the next stop",
+        "my stop"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.taxi-rank",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 21,
+      "en": "taxi rank",
+      "pl": "postój taksówek",
+      "alternatives": [],
+      "usage": "Miejsce, gdzie czekają taksówki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a taxi rank outside the station.",
+          "pl": "Przed dworcem jest postój taksówek."
+        }
+      ],
+      "collocations": [
+        "the taxi rank",
+        "a taxi rank outside",
+        "queue at the taxi rank"
+      ],
+      "note": "US: taxi stand.",
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.driver",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 22,
+      "en": "driver",
+      "pl": "kierowca",
+      "alternatives": [],
+      "usage": "Kierowca autobusu, taksówki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Ask the driver where to get off.",
+          "pl": "Zapytaj kierowcę, gdzie wysiąść."
+        }
+      ],
+      "collocations": [
+        "the bus driver",
+        "a taxi driver",
+        "a good driver"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.public-transport",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 23,
+      "en": "public transport",
+      "pl": "komunikacja miejska",
+      "alternatives": [],
+      "usage": "Autobusy, tramwaje, metro, pociągi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Public transport here is really good.",
+          "pl": "Komunikacja miejska jest tu bardzo dobra."
+        }
+      ],
+      "collocations": [
+        "use public transport",
+        "by public transport",
+        "public transport ticket"
+      ],
+      "note": "US: public transportation.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.ticket-machine",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 24,
+      "en": "ticket machine",
+      "pl": "automat biletowy",
+      "alternatives": [],
+      "usage": "Kupowanie biletu bez kasy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The ticket machine only takes cards.",
+          "pl": "Automat biletowy przyjmuje tylko karty."
+        }
+      ],
+      "collocations": [
+        "use the ticket machine",
+        "a ticket machine",
+        "the machine is broken"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.does-this-bus-go",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 25,
+      "en": "Does this bus go to ___?",
+      "pl": "Czy ten autobus jedzie do ___?",
+      "alternatives": [],
+      "usage": "Upewniasz się przed wejściem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Does this bus go to the city centre?",
+          "pl": "Czy ten autobus jedzie do centrum?"
+        },
+        {
+          "en": "Does this bus go to the station?",
+          "pl": "Czy ten autobus jedzie na dworzec?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:questions-do",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.next-train-to",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 26,
+      "en": "When's the next train to ___?",
+      "pl": "Kiedy jest następny pociąg do ___?",
+      "alternatives": [],
+      "usage": "Pytasz o odjazd.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "When's the next train to Brussels?",
+          "pl": "Kiedy jest następny pociąg do Brukseli?"
+        },
+        {
+          "en": "When's the next train to Antwerp?",
+          "pl": "Kiedy jest następny pociąg do Antwerpii?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.need-to-get-to",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 27,
+      "en": "I need to get to ___.",
+      "pl": "Muszę dostać się do ___.",
+      "alternatives": [],
+      "usage": "Mówisz, dokąd jedziesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need to get to the airport by six.",
+          "pl": "Muszę być na lotnisku do szóstej."
+        },
+        {
+          "en": "I need to get to the festival.",
+          "pl": "Muszę dostać się na festiwal."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.take-me-to",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 28,
+      "en": "Can you take me to ___?",
+      "pl": "Zawiezie mnie pan do ___?",
+      "alternatives": [],
+      "usage": "W taksówce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you take me to this address?",
+          "pl": "Zawiezie mnie pan pod ten adres?"
+        },
+        {
+          "en": "Can you take me to the main station?",
+          "pl": "Zawiezie mnie pan na dworzec główny?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.its-the-stop",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 29,
+      "en": "It's the ___ stop.",
+      "pl": "To ___ przystanek.",
+      "alternatives": [],
+      "usage": "Liczebniki porządkowe przy przystankach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's the third stop.",
+          "pl": "To trzeci przystanek."
+        },
+        {
+          "en": "It's the last stop.",
+          "pl": "To ostatni przystanek."
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.by-transport",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 30,
+      "en": "I usually go by ___.",
+      "pl": "Zwykle jeżdżę ___.",
+      "alternatives": [],
+      "usage": "Środki transportu: by + pojazd (bez „the”).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually go by bike.",
+          "pl": "Zwykle jeżdżę rowerem."
+        },
+        {
+          "en": "I usually go by train.",
+          "pl": "Zwykle jeżdżę pociągiem."
+        }
+      ],
+      "note": "„By bus, by train, by car” — bez „the”. Ale pieszo: „on foot”.",
+      "tags": [
+        "travel",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.ticket-office",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 31,
+      "en": "At the ticket office",
+      "pl": "W kasie biletowej",
+      "alternatives": [],
+      "usage": "Kupujesz bilet do Boom na festiwal.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, a return ticket to Boom, please.",
+          "pl": "Dzień dobry, bilet w obie strony do Boom.",
+          "speaker": "A"
+        },
+        {
+          "en": "That's twelve euros. Are you going to the festival?",
+          "pl": "Dwanaście euro. Jedzie pan na festiwal?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yes! Do I need to change?",
+          "pl": "Tak! Muszę się przesiadać?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yes, in Antwerp. The train leaves from platform four.",
+          "pl": "Tak, w Antwerpii. Pociąg odjeżdża z peronu czwartego.",
+          "speaker": "B"
+        },
+        {
+          "en": "Thanks a lot!",
+          "pl": "Dzięki wielkie!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.transport.taxi-ride",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.transport",
+      "order": 32,
+      "en": "In a taxi",
+      "pl": "W taksówce",
+      "alternatives": [],
+      "usage": "Podajesz adres i pytasz o cenę.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, can you take me to this address?",
+          "pl": "Dzień dobry, zawiezie mnie pan pod ten adres?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure. It takes about twenty minutes.",
+          "pl": "Jasne. To jakieś dwadzieścia minut.",
+          "speaker": "B"
+        },
+        {
+          "en": "How much will it be, roughly?",
+          "pl": "Ile to mniej więcej wyjdzie?",
+          "speaker": "A"
+        },
+        {
+          "en": "Around thirty euros.",
+          "pl": "Około trzydziestu euro.",
+          "speaker": "B"
+        },
+        {
+          "en": "OK. Could you stop here, please? … Keep the change!",
+          "pl": "OK. Może się pan tu zatrzymać? … Reszty nie trzeba!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "A2"
+    }
+  ]
+}

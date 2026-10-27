@@ -1,0 +1,906 @@
+{
+  "module": {
+    "id": "s4.health",
+    "stage": 4,
+    "order": 8,
+    "title": "Apteka i lekarz",
+    "titleEn": "Pharmacy & doctor",
+    "description": "Ból głowy, gardło, pęcherze, oparzenia słoneczne, kac, kontuzje, namiot medyczny — zdrowie w podróży i na festiwalu.",
+    "tags": [
+      "travel",
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.health.dont-feel-well",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 1,
+      "en": "I don't feel well.",
+      "pl": "Źle się czuję.",
+      "alternatives": [
+        "I don't feel very well.",
+        "I'm not feeling well."
+      ],
+      "usage": "Mówisz, że coś ci dolega.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I don't feel well. I think I need to sit down.",
+          "pl": "Źle się czuję. Chyba muszę usiąść."
+        }
+      ],
+      "tags": [
+        "health",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.got-headache",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 2,
+      "en": "I've got a headache.",
+      "pl": "Boli mnie głowa.",
+      "alternatives": [
+        "I have a headache.",
+        "My head hurts."
+      ],
+      "usage": "Najczęstsza dolegliwość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got a headache. Have you got any painkillers?",
+          "pl": "Boli mnie głowa. Masz jakieś tabletki przeciwbólowe?"
+        }
+      ],
+      "note": "Po angielsku „mam ból głowy”: I've got a headache.",
+      "tags": [
+        "health",
+        "travel",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.sore-throat",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 3,
+      "en": "I need something for a sore throat.",
+      "pl": "Potrzebuję czegoś na ból gardła.",
+      "alternatives": [
+        "Do you have anything for a sore throat?"
+      ],
+      "usage": "W aptece.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need something for a sore throat. — Try these lozenges.",
+          "pl": "Potrzebuję czegoś na gardło. — Proszę spróbować tych pastylek."
+        }
+      ],
+      "tags": [
+        "health",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.blister",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 4,
+      "en": "I've got a blister on my foot.",
+      "pl": "Mam pęcherz na stopie.",
+      "alternatives": [
+        "I have a blister on my foot."
+      ],
+      "usage": "Po całym dniu tańczenia w nowych butach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got a blister on my foot. Do you have any plasters?",
+          "pl": "Mam pęcherz na stopie. Macie plastry?"
+        }
+      ],
+      "tags": [
+        "health",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.sunburn",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 5,
+      "en": "I think I've got sunburn.",
+      "pl": "Chyba się spaliłem na słońcu.",
+      "alternatives": [
+        "I think I'm sunburnt.",
+        "I've got sunburn."
+      ],
+      "usage": "Po dniu na festiwalu bez kremu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I think I've got sunburn. My shoulders are red.",
+          "pl": "Chyba się spaliłem. Mam czerwone ramiona."
+        }
+      ],
+      "tags": [
+        "health",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.allergic-penicillin",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 6,
+      "en": "I'm allergic to penicillin.",
+      "pl": "Mam uczulenie na penicylinę.",
+      "alternatives": [],
+      "usage": "Ważna informacja u lekarza.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Before you give me anything — I'm allergic to penicillin.",
+          "pl": "Zanim coś mi pan da — mam uczulenie na penicylinę."
+        }
+      ],
+      "tags": [
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.how-often-take",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 7,
+      "en": "How often should I take it?",
+      "pl": "Jak często mam to brać?",
+      "alternatives": [
+        "How often do I take it?",
+        "How many times a day should I take it?"
+      ],
+      "usage": "Pytasz o dawkowanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How often should I take it? — Twice a day, after food.",
+          "pl": "Jak często mam to brać? — Dwa razy dziennie, po jedzeniu."
+        }
+      ],
+      "tags": [
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.need-prescription",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 8,
+      "en": "Do I need a prescription?",
+      "pl": "Czy potrzebuję recepty?",
+      "alternatives": [
+        "Do I need a prescription for this?"
+      ],
+      "usage": "W aptece.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do I need a prescription for this? — No, you can buy it over the counter.",
+          "pl": "Potrzebuję na to recepty? — Nie, jest bez recepty."
+        }
+      ],
+      "tags": [
+        "health",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.medical-tent",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 9,
+      "en": "Where's the medical tent?",
+      "pl": "Gdzie jest namiot medyczny?",
+      "alternatives": [
+        "Where's first aid?",
+        "Where can I find first aid?"
+      ],
+      "usage": "Na festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where's the medical tent? My friend fainted.",
+          "pl": "Gdzie jest namiot medyczny? Moja koleżanka zemdlała."
+        }
+      ],
+      "tags": [
+        "health",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.call-ambulance",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 10,
+      "en": "Call an ambulance!",
+      "pl": "Wezwijcie karetkę!",
+      "alternatives": [
+        "Call an ambulance, please!"
+      ],
+      "usage": "Nagły wypadek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Call an ambulance! He's not breathing properly!",
+          "pl": "Wezwijcie karetkę! On źle oddycha!"
+        }
+      ],
+      "note": "Numer alarmowy w całej UE: 112.",
+      "tags": [
+        "health",
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.twisted-ankle",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 11,
+      "en": "I twisted my ankle.",
+      "pl": "Skręciłem kostkę.",
+      "alternatives": [
+        "I've twisted my ankle.",
+        "I sprained my ankle."
+      ],
+      "usage": "Kontuzja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I twisted my ankle on the stairs. It really hurts.",
+          "pl": "Skręciłem kostkę na schodach. Bardzo boli."
+        }
+      ],
+      "tags": [
+        "health",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.feel-dizzy",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 12,
+      "en": "I feel dizzy.",
+      "pl": "Kręci mi się w głowie.",
+      "alternatives": [
+        "I'm feeling dizzy."
+      ],
+      "usage": "Zawroty głowy — upał, odwodnienie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I feel dizzy. I think I need some water.",
+          "pl": "Kręci mi się w głowie. Chyba potrzebuję wody."
+        }
+      ],
+      "tags": [
+        "health",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.see-a-doctor",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 13,
+      "en": "Can I see a doctor?",
+      "pl": "Mogę zobaczyć się z lekarzem?",
+      "alternatives": [
+        "I need to see a doctor.",
+        "Can I see a doctor, please?"
+      ],
+      "usage": "W przychodni albo hotelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I see a doctor today? — There's a free appointment at three.",
+          "pl": "Mogę dziś zobaczyć się z lekarzem? — Jest wolny termin o trzeciej."
+        }
+      ],
+      "tags": [
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.been-sick",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 14,
+      "en": "I've been sick all night.",
+      "pl": "Wymiotowałem całą noc.",
+      "alternatives": [
+        "I've been throwing up all night.",
+        "I was sick all night."
+      ],
+      "usage": "Uwaga: w UK „be sick” = wymiotować!",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've been sick all night. I think it was the kebab.",
+          "pl": "Wymiotowałem całą noc. Chyba to przez kebaba."
+        }
+      ],
+      "note": "W UK „I've been sick” znaczy zwykle „wymiotowałem”. „Jestem chory” to „I'm ill” albo „I'm not well”.",
+      "tags": [
+        "health",
+        "polish-trap",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.health.pharmacy-open",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 15,
+      "en": "Is there a pharmacy open now?",
+      "pl": "Jest teraz otwarta jakaś apteka?",
+      "alternatives": [
+        "Is there a pharmacy open near here?"
+      ],
+      "usage": "Wieczorem albo w niedzielę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a pharmacy open now? — There's a 24-hour one near the station.",
+          "pl": "Jest teraz otwarta jakaś apteka? — Przy dworcu jest całodobowa."
+        }
+      ],
+      "tags": [
+        "health",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.painkillers",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 16,
+      "en": "painkillers",
+      "pl": "środki przeciwbólowe",
+      "alternatives": [],
+      "usage": "Tabletki na ból.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you got any painkillers? My head is killing me.",
+          "pl": "Masz jakieś przeciwbólowe? Głowa mi pęka."
+        }
+      ],
+      "collocations": [
+        "take painkillers",
+        "strong painkillers",
+        "a pack of painkillers"
+      ],
+      "tags": [
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.pharmacy",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 17,
+      "en": "pharmacy",
+      "pl": "apteka",
+      "alternatives": [],
+      "usage": "Leki bez recepty i na receptę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need to go to the pharmacy.",
+          "pl": "Muszę iść do apteki."
+        }
+      ],
+      "collocations": [
+        "the nearest pharmacy",
+        "a 24-hour pharmacy",
+        "at the pharmacy"
+      ],
+      "note": "UK też „chemist's”, US też „drugstore”.",
+      "tags": [
+        "health",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.prescription",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 18,
+      "en": "prescription",
+      "pl": "recepta",
+      "alternatives": [],
+      "usage": "Dokument od lekarza na leki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You need a prescription for antibiotics.",
+          "pl": "Na antybiotyki potrzebna jest recepta."
+        }
+      ],
+      "collocations": [
+        "a prescription for…",
+        "without a prescription",
+        "get a prescription"
+      ],
+      "tags": [
+        "health"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.health.plasters",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 19,
+      "en": "plasters",
+      "pl": "plastry",
+      "alternatives": [],
+      "usage": "Na pęcherze i skaleczenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Always take plasters to a festival!",
+          "pl": "Na festiwal zawsze bierz plastry!"
+        }
+      ],
+      "collocations": [
+        "a box of plasters",
+        "blister plasters",
+        "put on a plaster"
+      ],
+      "note": "US: Band-Aids.",
+      "tags": [
+        "health",
+        "festival",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.symptoms",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 20,
+      "en": "symptoms",
+      "pl": "objawy",
+      "alternatives": [],
+      "usage": "U lekarza.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are your symptoms? — A fever and a bad cough.",
+          "pl": "Jakie ma pan objawy? — Gorączkę i mocny kaszel."
+        }
+      ],
+      "collocations": [
+        "have symptoms",
+        "flu symptoms",
+        "describe your symptoms"
+      ],
+      "tags": [
+        "health"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.health.temperature",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 21,
+      "en": "temperature",
+      "pl": "gorączka; temperatura",
+      "alternatives": [],
+      "usage": "Podwyższona temperatura ciała.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got a temperature and I feel terrible.",
+          "pl": "Mam gorączkę i czuję się okropnie."
+        }
+      ],
+      "collocations": [
+        "have a temperature",
+        "a high temperature",
+        "take your temperature"
+      ],
+      "note": "„Mieć gorączkę” = „have a temperature” albo „have a fever”.",
+      "tags": [
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.ankle",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 22,
+      "en": "ankle",
+      "pl": "kostka (u nogi)",
+      "alternatives": [],
+      "usage": "Częsta kontuzja przy tańcu i sporcie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My ankle is swollen.",
+          "pl": "Mam spuchniętą kostkę."
+        }
+      ],
+      "collocations": [
+        "twist my ankle",
+        "a sprained ankle",
+        "a swollen ankle"
+      ],
+      "tags": [
+        "health",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.dehydrated",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 23,
+      "en": "dehydrated",
+      "pl": "odwodniony",
+      "alternatives": [],
+      "usage": "Za mało wody w upale.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Drink some water — you look dehydrated.",
+          "pl": "Napij się wody — wyglądasz na odwodnionego."
+        }
+      ],
+      "collocations": [
+        "get dehydrated",
+        "feel dehydrated",
+        "severely dehydrated"
+      ],
+      "tags": [
+        "health",
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.health.hangover",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 24,
+      "en": "hangover",
+      "pl": "kac",
+      "alternatives": [],
+      "usage": "Pamiętasz „How do you say „kac” in English?” — oto odpowiedź!",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I've got a terrible hangover.",
+          "pl": "Mam strasznego kaca."
+        }
+      ],
+      "collocations": [
+        "a terrible hangover",
+        "a hangover cure",
+        "be hungover"
+      ],
+      "tags": [
+        "health",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.pain-in-my",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 25,
+      "en": "I've got a pain in my ___.",
+      "pl": "Mam ból w ___.",
+      "alternatives": [],
+      "usage": "Opisujesz, gdzie boli.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got a pain in my back.",
+          "pl": "Mam ból w plecach."
+        },
+        {
+          "en": "I've got a pain in my stomach.",
+          "pl": "Boli mnie brzuch."
+        }
+      ],
+      "tags": [
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.my-hurts",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 26,
+      "en": "My ___ hurts.",
+      "pl": "Boli mnie ___.",
+      "alternatives": [],
+      "usage": "Prosty sposób, by powiedzieć, co boli.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My knee hurts.",
+          "pl": "Boli mnie kolano."
+        },
+        {
+          "en": "My tooth hurts.",
+          "pl": "Boli mnie ząb."
+        }
+      ],
+      "note": "Liczba mnoga: my feet hurt (bez „-s” w „hurt”).",
+      "tags": [
+        "health",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.had-since",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 27,
+      "en": "I've had ___ since yesterday.",
+      "pl": "Mam ___ od wczoraj.",
+      "alternatives": [],
+      "usage": "Jak długo trwają objawy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've had a fever since yesterday.",
+          "pl": "Mam gorączkę od wczoraj."
+        },
+        {
+          "en": "I've had a headache since yesterday.",
+          "pl": "Głowa boli mnie od wczoraj."
+        }
+      ],
+      "note": "„Od wczoraj” = since yesterday + Present Perfect (I've had), nie „I have since”.",
+      "tags": [
+        "health",
+        "gr:present-perfect",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.health.something-for",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 28,
+      "en": "Do you have something for ___?",
+      "pl": "Macie coś na ___?",
+      "alternatives": [],
+      "usage": "W aptece.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you have something for a hangover?",
+          "pl": "Macie coś na kaca?"
+        },
+        {
+          "en": "Do you have something for mosquito bites?",
+          "pl": "Macie coś na ukąszenia komarów?"
+        },
+        {
+          "en": "Do you have something for blisters?",
+          "pl": "Macie coś na pęcherze?"
+        }
+      ],
+      "tags": [
+        "health",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.take-times-a-day",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 29,
+      "en": "Take it ___ a day.",
+      "pl": "Bierz to ___ dziennie.",
+      "alternatives": [],
+      "usage": "Rozumiesz zalecenia farmaceuty.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Take it twice a day.",
+          "pl": "Bierz to dwa razy dziennie."
+        },
+        {
+          "en": "Take it three times a day after meals.",
+          "pl": "Bierz to trzy razy dziennie po posiłkach."
+        }
+      ],
+      "tags": [
+        "health",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.i-think-i-have",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 30,
+      "en": "I think I have ___.",
+      "pl": "Chyba mam ___.",
+      "alternatives": [],
+      "usage": "Opisujesz podejrzenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I think I have a cold.",
+          "pl": "Chyba mam przeziębienie."
+        },
+        {
+          "en": "I think I have food poisoning.",
+          "pl": "Chyba mam zatrucie pokarmowe."
+        }
+      ],
+      "tags": [
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.at-pharmacy",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 31,
+      "en": "At the pharmacy",
+      "pl": "W aptece",
+      "alternatives": [],
+      "usage": "Kupujesz coś na ból gardła.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, I need something for a sore throat.",
+          "pl": "Dzień dobry, potrzebuję czegoś na ból gardła.",
+          "speaker": "A"
+        },
+        {
+          "en": "How long have you had it?",
+          "pl": "Od kiedy pana boli?",
+          "speaker": "B"
+        },
+        {
+          "en": "Since yesterday. I was singing all night at the festival.",
+          "pl": "Od wczoraj. Śpiewałem całą noc na festiwalu.",
+          "speaker": "A"
+        },
+        {
+          "en": "Try these lozenges. Take one every three hours.",
+          "pl": "Proszę spróbować tych pastylek. Jedna co trzy godziny.",
+          "speaker": "B"
+        },
+        {
+          "en": "Do I need a prescription?",
+          "pl": "Potrzebuję recepty?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, you don't. That's seven fifty.",
+          "pl": "Nie. Siedem pięćdziesiąt.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "health",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.health.medical-tent-dialog",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.health",
+      "order": 32,
+      "en": "At the medical tent",
+      "pl": "W namiocie medycznym",
+      "alternatives": [],
+      "usage": "Pomagasz koledze, który źle się czuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, my friend feels dizzy and sick.",
+          "pl": "Dzień dobry, mojemu kumplowi kręci się w głowie i jest mu niedobrze.",
+          "speaker": "A"
+        },
+        {
+          "en": "Has he had any water today?",
+          "pl": "Pił dziś wodę?",
+          "speaker": "B"
+        },
+        {
+          "en": "Not much. It's really hot.",
+          "pl": "Niewiele. Jest strasznie gorąco.",
+          "speaker": "A"
+        },
+        {
+          "en": "He's probably dehydrated. Let him sit here and drink this slowly.",
+          "pl": "Pewnie jest odwodniony. Niech tu usiądzie i pije powoli.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "health",
+        "festival"
+      ],
+      "level": "A2"
+    }
+  ]
+}

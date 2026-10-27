@@ -1,0 +1,899 @@
+{
+  "module": {
+    "id": "s4.problems",
+    "stage": 4,
+    "order": 7,
+    "title": "Problemy i reklamacje",
+    "titleEn": "Problems & complaints",
+    "description": "Zgubiony portfel, kradzież, pomyłka w rachunku, hałas w pokoju, zwrot pieniędzy — grzecznie, ale skutecznie.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s4.problems.handed-in-wallet",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 1,
+      "en": "Has anyone handed in a wallet?",
+      "pl": "Czy ktoś oddał portfel?",
+      "alternatives": [
+        "Has anyone found a wallet?",
+        "Did anyone hand in a wallet?"
+      ],
+      "usage": "W recepcji, barze albo biurze rzeczy znalezionych.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, has anyone handed in a wallet? It's black, with a Polish ID inside.",
+          "pl": "Dzień dobry, czy ktoś oddał portfel? Czarny, z polskim dowodem w środku."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.phone-stolen",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 2,
+      "en": "My phone has been stolen.",
+      "pl": "Ukradli mi telefon.",
+      "alternatives": [
+        "Someone stole my phone.",
+        "My phone was stolen."
+      ],
+      "usage": "Zgłaszasz kradzież.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, my phone has been stolen. Where can I report it?",
+          "pl": "Przepraszam, ukradli mi telefon. Gdzie mogę to zgłosić?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.police-station",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 3,
+      "en": "Where's the nearest police station?",
+      "pl": "Gdzie jest najbliższy komisariat?",
+      "alternatives": [
+        "Is there a police station near here?"
+      ],
+      "usage": "Gdy trzeba zgłosić kradzież.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where's the nearest police station? — Two streets from here.",
+          "pl": "Gdzie jest najbliższy komisariat? — Dwie ulice stąd."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.make-complaint",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 4,
+      "en": "I'd like to make a complaint.",
+      "pl": "Chciałbym złożyć reklamację.",
+      "alternatives": [
+        "I'd like to complain.",
+        "I want to make a complaint."
+      ],
+      "usage": "Formalnie zgłaszasz problem.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "I'd like to make a complaint. The room was dirty when we arrived.",
+          "pl": "Chciałbym złożyć reklamację. Pokój był brudny, gdy przyjechaliśmy."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:would-like"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.not-what-ordered",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 5,
+      "en": "This isn't what I ordered.",
+      "pl": "To nie jest to, co zamawiałem.",
+      "alternatives": [
+        "This isn't my order.",
+        "I think this is the wrong order."
+      ],
+      "usage": "Pomyłka w zamówieniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, this isn't what I ordered. I asked for the chicken.",
+          "pl": "Przepraszam, to nie to, co zamawiałem. Prosiłem o kurczaka."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.mistake-on-bill",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 6,
+      "en": "I think there's a mistake on the bill.",
+      "pl": "Chyba jest błąd w rachunku.",
+      "alternatives": [
+        "I think the bill is wrong.",
+        "There's a mistake on the bill."
+      ],
+      "usage": "Gdy coś się nie zgadza.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I think there's a mistake on the bill. We only had two beers.",
+          "pl": "Chyba jest błąd w rachunku. Mieliśmy tylko dwa piwa."
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers",
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.change-rooms",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 7,
+      "en": "The room is really noisy. Can I change rooms?",
+      "pl": "Pokój jest bardzo głośny. Mogę zmienić pokój?",
+      "alternatives": [
+        "The room is too noisy. Can I change rooms?",
+        "Can I have a different room? This one is really noisy."
+      ],
+      "usage": "Prośba w hotelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The room is really noisy. Can I change rooms? — Let me see what we have.",
+          "pl": "Pokój jest bardzo głośny. Mogę zmienić? — Sprawdzę, co mamy."
+        }
+      ],
+      "note": "Zmienić pokój = „change rooms” (liczba mnoga!).",
+      "tags": [
+        "travel",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.get-a-refund",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 8,
+      "en": "Can I get a refund?",
+      "pl": "Mogę dostać zwrot pieniędzy?",
+      "alternatives": [
+        "Can I have a refund?",
+        "Can I get my money back?"
+      ],
+      "usage": "Gdy coś jest wadliwe albo odwołane.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The concert was cancelled. Can I get a refund?",
+          "pl": "Koncert odwołano. Mogę dostać zwrot pieniędzy?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.it-doesnt-work",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 9,
+      "en": "It doesn't work.",
+      "pl": "To nie działa.",
+      "alternatives": [
+        "It's not working.",
+        "It doesn't work properly."
+      ],
+      "usage": "Najprostsze zgłoszenie usterki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I bought this charger yesterday, and it doesn't work.",
+          "pl": "Kupiłem tę ładowarkę wczoraj i nie działa."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.missed-flight",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 10,
+      "en": "I missed my flight. What can I do?",
+      "pl": "Uciekł mi samolot. Co mogę zrobić?",
+      "alternatives": [
+        "I've missed my flight. What can I do?"
+      ],
+      "usage": "Kryzys na lotnisku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I missed my flight. What can I do? — There's another one tomorrow morning.",
+          "pl": "Uciekł mi samolot. Co mogę zrobić? — Jest następny jutro rano."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.someone-took-bag",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 11,
+      "en": "Someone took my bag.",
+      "pl": "Ktoś zabrał moją torbę.",
+      "alternatives": [
+        "Somebody took my bag.",
+        "Someone has taken my bag."
+      ],
+      "usage": "Zgłaszasz kradzież albo pomyłkę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Someone took my bag while I was dancing.",
+          "pl": "Ktoś zabrał moją torbę, kiedy tańczyłem."
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.cancel-card",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 12,
+      "en": "I need to cancel my card.",
+      "pl": "Muszę zastrzec kartę.",
+      "alternatives": [
+        "I need to block my card.",
+        "I have to cancel my bank card."
+      ],
+      "usage": "Po zgubieniu portfela.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need to cancel my card. Can I use your wifi to call the bank?",
+          "pl": "Muszę zastrzec kartę. Mogę skorzystać z wifi, żeby zadzwonić do banku?"
+        }
+      ],
+      "note": "„Zastrzec kartę” = „cancel / block your card”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.speak-manager",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 13,
+      "en": "Can I speak to the manager?",
+      "pl": "Mogę porozmawiać z kierownikiem?",
+      "alternatives": [
+        "Could I speak to the manager?",
+        "Can I talk to the manager?"
+      ],
+      "usage": "Gdy obsługa nie pomaga.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "I'm sorry, but this isn't OK. Can I speak to the manager?",
+          "pl": "Przykro mi, ale to nie jest w porządku. Mogę porozmawiać z kierownikiem?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.locked-out",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 14,
+      "en": "I've locked myself out.",
+      "pl": "Zatrzasnąłem drzwi i nie mogę wejść.",
+      "alternatives": [
+        "I've locked myself out of my room.",
+        "I'm locked out."
+      ],
+      "usage": "Klucz został w środku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I've locked myself out of my room. My key is inside.",
+          "pl": "Przepraszam, zatrzasnąłem się — klucz jest w pokoju."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.charged-twice",
+      "type": "phrase",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 15,
+      "en": "I was charged twice.",
+      "pl": "Pobrano ode mnie dwa razy.",
+      "alternatives": [
+        "You charged me twice.",
+        "I've been charged twice."
+      ],
+      "usage": "Podwójna płatność kartą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I was charged twice for the same drink. Can you check?",
+          "pl": "Za tego samego drinka pobrano mi dwa razy. Może pan sprawdzić?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.complaint",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 16,
+      "en": "complaint",
+      "pl": "skarga, reklamacja",
+      "alternatives": [],
+      "usage": "Oficjalne zgłoszenie problemu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I want to make a complaint about the noise.",
+          "pl": "Chcę złożyć skargę na hałas."
+        }
+      ],
+      "collocations": [
+        "make a complaint",
+        "a formal complaint",
+        "a complaint about…"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.refund",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 17,
+      "en": "refund",
+      "pl": "zwrot pieniędzy",
+      "alternatives": [],
+      "usage": "Oddanie pieniędzy za towar albo usługę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "They gave me a full refund.",
+          "pl": "Oddali mi całe pieniądze."
+        }
+      ],
+      "collocations": [
+        "a full refund",
+        "ask for a refund",
+        "get a refund"
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.broken",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 18,
+      "en": "broken",
+      "pl": "zepsuty, połamany",
+      "alternatives": [],
+      "usage": "Coś nie działa albo się złamało.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The lock on my locker is broken.",
+          "pl": "Zamek w mojej szafce jest zepsuty."
+        }
+      ],
+      "collocations": [
+        "broken glass",
+        "a broken phone",
+        "it's broken"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.lost-property",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 19,
+      "en": "lost property",
+      "pl": "biuro rzeczy znalezionych",
+      "alternatives": [],
+      "usage": "Gdzie szukać zgubionych rzeczy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Try lost property — it's next to the main entrance.",
+          "pl": "Spróbuj w biurze rzeczy znalezionych — obok głównego wejścia."
+        }
+      ],
+      "collocations": [
+        "lost property office",
+        "check lost property",
+        "hand in to lost property"
+      ],
+      "note": "US: lost and found.",
+      "tags": [
+        "travel",
+        "festival",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.police",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 20,
+      "en": "police",
+      "pl": "policja",
+      "alternatives": [],
+      "usage": "Zgłaszanie przestępstw.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We should call the police.",
+          "pl": "Powinniśmy zadzwonić na policję."
+        }
+      ],
+      "collocations": [
+        "call the police",
+        "the police station",
+        "a police report"
+      ],
+      "note": "„The police” zawsze w liczbie mnogiej: the police ARE coming.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.stolen",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 21,
+      "en": "stolen",
+      "pl": "skradziony",
+      "alternatives": [],
+      "usage": "Coś zostało ukradzione.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My bike was stolen last night.",
+          "pl": "Wczoraj w nocy ukradli mi rower."
+        }
+      ],
+      "collocations": [
+        "stolen phone",
+        "get stolen",
+        "report something stolen"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.wallet",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 22,
+      "en": "wallet",
+      "pl": "portfel",
+      "alternatives": [],
+      "usage": "Pieniądze i karty.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I left my wallet in the taxi.",
+          "pl": "Zostawiłem portfel w taksówce."
+        }
+      ],
+      "collocations": [
+        "lose my wallet",
+        "a leather wallet",
+        "my wallet is empty"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.insurance",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 23,
+      "en": "insurance",
+      "pl": "ubezpieczenie",
+      "alternatives": [],
+      "usage": "Ochrona na wypadek problemów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you got travel insurance?",
+          "pl": "Masz ubezpieczenie podróżne?"
+        }
+      ],
+      "collocations": [
+        "travel insurance",
+        "health insurance",
+        "an insurance claim"
+      ],
+      "pronunciation": "Czytaj „inszurens” — akcent na „SZU”.",
+      "tags": [
+        "travel",
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.embassy",
+      "type": "word",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 24,
+      "en": "embassy",
+      "pl": "ambasada",
+      "alternatives": [],
+      "usage": "Gdy zgubisz paszport za granicą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I lost my passport, so I need to go to the Polish embassy.",
+          "pl": "Zgubiłem paszport, więc muszę iść do polskiej ambasady."
+        }
+      ],
+      "collocations": [
+        "the Polish embassy",
+        "contact the embassy",
+        "an embassy appointment"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s4.problems.ive-lost-my",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 25,
+      "en": "I've lost my ___.",
+      "pl": "Zgubiłem ___.",
+      "alternatives": [],
+      "usage": "Zgłaszasz zgubę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've lost my wallet.",
+          "pl": "Zgubiłem portfel."
+        },
+        {
+          "en": "I've lost my passport.",
+          "pl": "Zgubiłem paszport."
+        },
+        {
+          "en": "I've lost my wristband.",
+          "pl": "Zgubiłem opaskę."
+        }
+      ],
+      "note": "Present Perfect, bo skutek jest teraz: nie masz portfela.",
+      "tags": [
+        "travel",
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.my-is-broken",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 26,
+      "en": "My ___ is broken.",
+      "pl": "Mój / moja ___ jest zepsuty / zepsuta.",
+      "alternatives": [],
+      "usage": "Zgłaszasz usterkę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My phone screen is broken.",
+          "pl": "Mam rozbity ekran telefonu."
+        },
+        {
+          "en": "My suitcase is broken.",
+          "pl": "Moja walizka jest zepsuta."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.problem-with",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 27,
+      "en": "There's a problem with ___.",
+      "pl": "Jest problem z ___.",
+      "alternatives": [],
+      "usage": "Zaczynasz zgłoszenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a problem with my room.",
+          "pl": "Jest problem z moim pokojem."
+        },
+        {
+          "en": "There's a problem with my booking.",
+          "pl": "Jest problem z moją rezerwacją."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.sorry-but",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 28,
+      "en": "I'm sorry, but ___.",
+      "pl": "Przepraszam, ale ___.",
+      "alternatives": [],
+      "usage": "Grzeczny początek reklamacji.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "I'm sorry, but this soup is cold.",
+          "pl": "Przepraszam, ale ta zupa jest zimna."
+        },
+        {
+          "en": "I'm sorry, but we've been waiting for an hour.",
+          "pl": "Przepraszam, ale czekamy już godzinę."
+        }
+      ],
+      "note": "Brytyjczycy narzekają bardzo grzecznie — zawsze zacznij od „I'm sorry, but…”.",
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.i-left-in",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 29,
+      "en": "I left my ___ in the taxi.",
+      "pl": "Zostawiłem ___ w taksówce.",
+      "alternatives": [],
+      "usage": "Zguba w transporcie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I left my phone in the taxi.",
+          "pl": "Zostawiłem telefon w taksówce."
+        },
+        {
+          "en": "I left my jacket in the taxi.",
+          "pl": "Zostawiłem kurtkę w taksówce."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.could-you-check",
+      "type": "pattern",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 30,
+      "en": "Could you check ___, please?",
+      "pl": "Mógłby pan sprawdzić ___?",
+      "alternatives": [],
+      "usage": "Prosisz o sprawdzenie.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Could you check the bill, please?",
+          "pl": "Mógłby pan sprawdzić rachunek?"
+        },
+        {
+          "en": "Could you check my booking, please?",
+          "pl": "Mógłby pan sprawdzić moją rezerwację?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.lost-wallet",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 31,
+      "en": "Lost wallet",
+      "pl": "Zgubiony portfel",
+      "alternatives": [],
+      "usage": "Szukasz portfela w recepcji.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, I've lost my wallet. Has anyone handed one in?",
+          "pl": "Dzień dobry, zgubiłem portfel. Czy ktoś go oddał?",
+          "speaker": "A"
+        },
+        {
+          "en": "Hmm, what does it look like?",
+          "pl": "Hmm, jak wygląda?",
+          "speaker": "B"
+        },
+        {
+          "en": "It's black, with a Polish ID card inside.",
+          "pl": "Czarny, z polskim dowodem w środku.",
+          "speaker": "A"
+        },
+        {
+          "en": "Is this it?",
+          "pl": "Czy to ten?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yes! Thank you so much!",
+          "pl": "Tak! Bardzo dziękuję!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s4.problems.wrong-order",
+      "type": "dialog",
+      "stage": 4,
+      "module": "s4.problems",
+      "order": 32,
+      "en": "Wrong order",
+      "pl": "Pomyłka w zamówieniu",
+      "alternatives": [],
+      "usage": "Grzecznie reklamujesz danie.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "I'm sorry, but this isn't what I ordered.",
+          "pl": "Przepraszam, ale to nie jest to, co zamawiałem.",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh, what did you order?",
+          "pl": "Ojej, a co pan zamawiał?",
+          "speaker": "B"
+        },
+        {
+          "en": "The chicken burger, not the beef.",
+          "pl": "Burgera z kurczakiem, nie z wołowiną.",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm so sorry. I'll change it right away.",
+          "pl": "Bardzo przepraszam. Zaraz wymienię.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "A2"
+    }
+  ]
+}
