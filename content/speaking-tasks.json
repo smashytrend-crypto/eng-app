@@ -542,6 +542,85 @@
       "tags": [
         "dreams"
       ]
+    },
+    {
+      "id": "task.s6-debate",
+      "stage": 6,
+      "title": "Mała debata",
+      "instruction": "Wybierz temat: „Festiwale są za drogie”. Powiedz, z czym się zgadzasz, z czym nie, i podsumuj własnym zdaniem.",
+      "starters": [
+        "I see what you mean, but…",
+        "That's true, but…",
+        "In my opinion…",
+        "Let's agree to disagree."
+      ],
+      "example": "I see what you mean — the tickets are really expensive. That's true, but you get three days of amazing music. In my opinion, it's worth it. But OK, let's agree to disagree!",
+      "tags": [
+        "opinions"
+      ]
+    },
+    {
+      "id": "task.s6-reactions",
+      "stage": 6,
+      "title": "Reaguj!",
+      "instruction": "Wyobraź sobie trzy newsy od kumpla: wygrał bilety, zgubił telefon, rzucił pracę. Zareaguj na każdy 1–2 zdaniami.",
+      "starters": [
+        "No way!",
+        "Oh no! What a shame.",
+        "Good for you!"
+      ],
+      "example": "No way! You won tickets? That's brilliant! … Oh no, you lost your phone? That's so annoying. … You quit your job? Good for you! I'm really proud of you.",
+      "tags": [
+        "reactions"
+      ]
+    },
+    {
+      "id": "task.s6-feelings",
+      "stage": 6,
+      "title": "Jak się dziś czujesz?",
+      "instruction": "Opowiedz o swoich emocjach: jak się dziś czujesz, co cię stresuje, na co czekasz i czego masz dość.",
+      "starters": [
+        "Today I feel…",
+        "I get nervous when…",
+        "I'm really looking forward to…",
+        "I'm tired of…"
+      ],
+      "example": "Today I feel a bit tired, but happy. I get nervous when I speak English with strangers. I'm really looking forward to the summer. And I'm tired of this cold weather!",
+      "tags": [
+        "feelings"
+      ]
+    },
+    {
+      "id": "task.s6-compare",
+      "stage": 6,
+      "title": "Porównaj",
+      "instruction": "Porównaj Szczecin z innym miastem, które znasz (np. Berlin): ceny, kluby, ludzie, pogoda.",
+      "starters": [
+        "Compared to Berlin…",
+        "It's cheaper than…",
+        "The clubs are not as … as…",
+        "The best thing about … is…"
+      ],
+      "example": "Compared to Berlin, Szczecin is much smaller and cheaper. The clubs are not as big as in Berlin, but the people are friendly. The best thing about Szczecin is that everything is close.",
+      "tags": [
+        "comparisons"
+      ]
+    },
+    {
+      "id": "task.s6-recommend",
+      "stage": 6,
+      "title": "Poleć coś",
+      "instruction": "Poleć znajomemu z zagranicy 3 rzeczy w Polsce: miejsce, jedzenie i imprezę. Powiedz, dlaczego warto.",
+      "starters": [
+        "You should definitely…",
+        "It's worth…",
+        "I'd recommend…",
+        "It's a must."
+      ],
+      "example": "You should definitely visit Kraków — it's beautiful. I'd recommend pierogi with meat. And if you like techno, Unsound Festival is a must. Trust me, it's worth it!",
+      "tags": [
+        "opinions"
+      ]
     }
   ]
 }

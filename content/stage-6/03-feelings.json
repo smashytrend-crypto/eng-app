@@ -1,0 +1,891 @@
+{
+  "module": {
+    "id": "s6.feelings",
+    "stage": 6,
+    "order": 3,
+    "title": "Uczucia",
+    "titleEn": "Feelings",
+    "description": "Podekscytowany, zestresowany, wykończony, mam doła, tęsknię, jestem dumny — jak mówić o emocjach (i nie pomylić bored z boring).",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s6.feelings.so-excited",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 1,
+      "en": "I'm so excited!",
+      "pl": "Jestem taki podekscytowany!",
+      "alternatives": [
+        "I'm really excited!",
+        "I'm so excited about it!"
+      ],
+      "usage": "Przed czymś fajnym.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're flying to Brussels tomorrow. I'm so excited!",
+          "pl": "Jutro lecimy do Brukseli. Nie mogę się doczekać!"
+        }
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.bit-nervous",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 2,
+      "en": "I'm a bit nervous.",
+      "pl": "Trochę się stresuję.",
+      "alternatives": [
+        "I'm a little nervous.",
+        "I'm quite nervous."
+      ],
+      "usage": "Przed rozmową, występem, lotem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm a bit nervous about speaking English with strangers.",
+          "pl": "Trochę się stresuję mówieniem po angielsku z obcymi."
+        }
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.exhausted",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 3,
+      "en": "I'm exhausted.",
+      "pl": "Jestem wykończony.",
+      "alternatives": [
+        "I'm completely exhausted.",
+        "I'm shattered."
+      ],
+      "usage": "Bardzo zmęczony.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Three days of dancing — I'm exhausted.",
+          "pl": "Trzy dni tańczenia — jestem wykończony."
+        }
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.good-mood",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 4,
+      "en": "I'm in a really good mood today.",
+      "pl": "Mam dziś świetny humor.",
+      "alternatives": [
+        "I'm in a great mood today."
+      ],
+      "usage": "Dobre samopoczucie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm in a really good mood today. The sun is shining!",
+          "pl": "Mam dziś świetny humor. Świeci słońce!"
+        }
+      ],
+      "note": "„Mieć humor” = „be in a good mood”.",
+      "tags": [
+        "feelings",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.bit-down",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 5,
+      "en": "I'm a bit down today.",
+      "pl": "Mam dziś doła.",
+      "alternatives": [
+        "I'm feeling a bit down today.",
+        "I'm a bit low today."
+      ],
+      "usage": "Smutniejszy dzień.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You OK? — I'm a bit down today. The festival is over.",
+          "pl": "Wszystko OK? — Mam dziś doła. Festiwal się skończył."
+        }
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.feelings.feel-much-better",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 6,
+      "en": "I feel much better now.",
+      "pl": "Czuję się teraz dużo lepiej.",
+      "alternatives": [
+        "I'm feeling much better now.",
+        "I feel a lot better now."
+      ],
+      "usage": "Po chorobie albo odpoczynku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I slept twelve hours and I feel much better now.",
+          "pl": "Spałem dwanaście godzin i czuję się dużo lepiej."
+        }
+      ],
+      "tags": [
+        "feelings",
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.starving",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 7,
+      "en": "I'm starving!",
+      "pl": "Umieram z głodu!",
+      "alternatives": [
+        "I'm so hungry!",
+        "I'm really hungry!"
+      ],
+      "usage": "Bardzo głodny.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm starving! Let's get some food before the next set.",
+          "pl": "Umieram z głodu! Weźmy coś do jedzenia przed następnym setem."
+        }
+      ],
+      "tags": [
+        "feelings",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.im-bored",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 8,
+      "en": "I'm bored.",
+      "pl": "Nudzę się.",
+      "alternatives": [
+        "I'm so bored."
+      ],
+      "usage": "Gdy nic się nie dzieje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm bored. Let's go to another stage.",
+          "pl": "Nudzę się. Chodźmy pod inną scenę."
+        }
+      ],
+      "note": "I'm bored = nudzę się. I'm boring = jestem nudny! Uważaj na różnicę.",
+      "tags": [
+        "feelings",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.driving-me-crazy",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 9,
+      "en": "It's driving me crazy.",
+      "pl": "Doprowadza mnie to do szału.",
+      "alternatives": [
+        "It's driving me mad.",
+        "It's driving me nuts."
+      ],
+      "usage": "Coś cię bardzo irytuje.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "My neighbour's dog barks all night. It's driving me crazy.",
+          "pl": "Pies sąsiada szczeka całą noc. Doprowadza mnie to do szału."
+        }
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.feelings.proud-of-you",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 10,
+      "en": "I'm really proud of you.",
+      "pl": "Jestem z ciebie bardzo dumny.",
+      "alternatives": [
+        "I'm so proud of you."
+      ],
+      "usage": "Gratulujesz bliskiej osobie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You passed the exam? I'm really proud of you!",
+          "pl": "Zdałeś egzamin? Jestem z ciebie bardzo dumny!"
+        }
+      ],
+      "note": "Dumny Z = proud OF.",
+      "tags": [
+        "feelings",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.miss-home",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 11,
+      "en": "I miss home sometimes.",
+      "pl": "Czasem tęsknię za domem.",
+      "alternatives": [
+        "Sometimes I miss home."
+      ],
+      "usage": "Tęsknota w podróży albo za granicą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Working abroad is great, but I miss home sometimes.",
+          "pl": "Praca za granicą jest super, ale czasem tęsknię za domem."
+        }
+      ],
+      "note": "„Tęsknię ZA tobą” = „I miss you” (bez „for”).",
+      "tags": [
+        "feelings",
+        "polish-trap",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.look-worried",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 12,
+      "en": "Are you OK? You look worried.",
+      "pl": "Wszystko OK? Wyglądasz na zmartwionego.",
+      "alternatives": [
+        "Are you alright? You look worried."
+      ],
+      "usage": "Zauważasz czyjś niepokój.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you OK? You look worried. — I can't find my passport.",
+          "pl": "Wszystko OK? Wyglądasz na zmartwionego. — Nie mogę znaleźć paszportu."
+        }
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.scared-of-heights",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 13,
+      "en": "I'm scared of heights.",
+      "pl": "Mam lęk wysokości.",
+      "alternatives": [
+        "I'm afraid of heights."
+      ],
+      "usage": "Mówisz o swoim strachu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The Ferris wheel? No way, I'm scared of heights.",
+          "pl": "Diabelski młyn? W życiu, mam lęk wysokości."
+        }
+      ],
+      "note": "Bać się CZEGOŚ = be scared / afraid OF something.",
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.fed-up-rain",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 14,
+      "en": "I'm fed up with this rain.",
+      "pl": "Mam dość tego deszczu.",
+      "alternatives": [
+        "I'm sick of this rain.",
+        "I'm tired of this rain."
+      ],
+      "usage": "Frustracja trwająca dłużej.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm fed up with this rain. Our tent is a swimming pool!",
+          "pl": "Mam dość tego deszczu. Nasz namiot to basen!"
+        }
+      ],
+      "tags": [
+        "feelings",
+        "weather"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.feelings.itll-be-fine",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 15,
+      "en": "Don't worry, it'll be fine.",
+      "pl": "Spokojnie, będzie dobrze.",
+      "alternatives": [
+        "Don't worry, everything will be fine.",
+        "Relax, it'll be OK."
+      ],
+      "usage": "Uspokajasz kogoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What if they don't let me in? — Don't worry, it'll be fine.",
+          "pl": "A co, jak mnie nie wpuszczą? — Spokojnie, będzie dobrze."
+        }
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.excited",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 16,
+      "en": "excited",
+      "pl": "podekscytowany",
+      "alternatives": [],
+      "usage": "Pozytywne oczekiwanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm really excited about the summer.",
+          "pl": "Bardzo się cieszę na lato."
+        }
+      ],
+      "collocations": [
+        "excited about…",
+        "so excited",
+        "get excited"
+      ],
+      "note": "„Excited ABOUT something” — o osobie. O rzeczy: „exciting” (ekscytujący).",
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.nervous",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 17,
+      "en": "nervous",
+      "pl": "zdenerwowany (stres przed czymś)",
+      "alternatives": [],
+      "usage": "Stres, trema.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I always get nervous before a flight.",
+          "pl": "Zawsze się stresuję przed lotem."
+        }
+      ],
+      "collocations": [
+        "feel nervous",
+        "nervous about…",
+        "a bit nervous"
+      ],
+      "note": "„Nervous” = zestresowany, nie „nerwowy/zły”. Zły to „angry” albo „annoyed”.",
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.annoyed",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 18,
+      "en": "annoyed",
+      "pl": "zirytowany, wkurzony",
+      "alternatives": [],
+      "usage": "Lekka złość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I was really annoyed when they cancelled the show.",
+          "pl": "Byłem bardzo wkurzony, kiedy odwołali show."
+        }
+      ],
+      "collocations": [
+        "annoyed with someone",
+        "a bit annoyed",
+        "get annoyed"
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.upset",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 19,
+      "en": "upset",
+      "pl": "zdenerwowany, przykro (smutek + złość)",
+      "alternatives": [],
+      "usage": "Ktoś jest przybity albo urażony.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "She was upset because she lost her phone.",
+          "pl": "Była przybita, bo zgubiła telefon."
+        }
+      ],
+      "collocations": [
+        "upset about…",
+        "really upset",
+        "don't be upset"
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.feelings.proud",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 20,
+      "en": "proud",
+      "pl": "dumny",
+      "alternatives": [],
+      "usage": "Zadowolenie z osiągnięcia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm proud of my progress in English.",
+          "pl": "Jestem dumny z postępów w angielskim."
+        }
+      ],
+      "collocations": [
+        "proud of…",
+        "so proud",
+        "feel proud"
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.worried",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 21,
+      "en": "worried",
+      "pl": "zmartwiony",
+      "alternatives": [],
+      "usage": "Niepokój o coś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm a bit worried about the weather.",
+          "pl": "Trochę martwię się pogodą."
+        }
+      ],
+      "collocations": [
+        "worried about…",
+        "a bit worried",
+        "don't be worried"
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.stressed",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 22,
+      "en": "stressed",
+      "pl": "zestresowany",
+      "alternatives": [],
+      "usage": "Pod presją.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm so stressed at work this week.",
+          "pl": "W tym tygodniu jestem strasznie zestresowany w pracy."
+        }
+      ],
+      "collocations": [
+        "stressed out",
+        "feel stressed",
+        "stressed about…"
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.jealous",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 23,
+      "en": "jealous",
+      "pl": "zazdrosny",
+      "alternatives": [],
+      "usage": "Zazdrość — często żartobliwie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You're going to Ibiza? I'm so jealous!",
+          "pl": "Jedziesz na Ibizę? Ale ci zazdroszczę!"
+        }
+      ],
+      "collocations": [
+        "so jealous",
+        "jealous of…",
+        "make someone jealous"
+      ],
+      "pronunciation": "Czytaj „dżelas”.",
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.grateful",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 24,
+      "en": "grateful",
+      "pl": "wdzięczny",
+      "alternatives": [],
+      "usage": "Wdzięczność.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm really grateful for your help.",
+          "pl": "Jestem bardzo wdzięczny za pomoc."
+        }
+      ],
+      "collocations": [
+        "grateful for…",
+        "really grateful",
+        "so grateful"
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.feelings.feel-today",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 25,
+      "en": "I feel ___ today.",
+      "pl": "Dziś czuję się ___.",
+      "alternatives": [],
+      "usage": "Opisujesz samopoczucie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I feel great today.",
+          "pl": "Dziś czuję się świetnie."
+        },
+        {
+          "en": "I feel a bit tired today.",
+          "pl": "Dziś czuję się trochę zmęczony."
+        }
+      ],
+      "note": "Po „feel” przymiotnik: I feel great, I feel tired (nie „greatly”).",
+      "tags": [
+        "feelings",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.nervous-when",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 26,
+      "en": "I get nervous when ___.",
+      "pl": "Stresuję się, kiedy ___.",
+      "alternatives": [],
+      "usage": "Co cię stresuje — nawyk, Present Simple.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I get nervous when I speak English.",
+          "pl": "Stresuję się, kiedy mówię po angielsku."
+        },
+        {
+          "en": "I get nervous when I fly.",
+          "pl": "Stresuję się, kiedy latam."
+        }
+      ],
+      "tags": [
+        "feelings",
+        "gr:present-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.feelings.makes-me",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 27,
+      "en": "Music makes me ___.",
+      "pl": "Muzyka sprawia, że ___.",
+      "alternatives": [],
+      "usage": "Jak coś na ciebie działa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Music makes me happy.",
+          "pl": "Muzyka sprawia, że jestem szczęśliwy."
+        },
+        {
+          "en": "Music makes me feel free.",
+          "pl": "Przy muzyce czuję się wolny."
+        }
+      ],
+      "note": "Make + osoba + przymiotnik / czasownik bez „to”: makes me happy, makes me feel.",
+      "tags": [
+        "feelings",
+        "music",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.looking-forward-to",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 28,
+      "en": "I'm really looking forward to ___.",
+      "pl": "Bardzo czekam na ___.",
+      "alternatives": [],
+      "usage": "Radosne oczekiwanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm really looking forward to the summer.",
+          "pl": "Bardzo czekam na lato."
+        },
+        {
+          "en": "I'm really looking forward to seeing you.",
+          "pl": "Bardzo się cieszę, że cię zobaczę."
+        }
+      ],
+      "note": "Po „look forward to” czasownik z „-ing”: looking forward to SEEING you.",
+      "tags": [
+        "feelings",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.feelings.worried-about",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 29,
+      "en": "I'm worried about ___.",
+      "pl": "Martwię się o ___.",
+      "alternatives": [],
+      "usage": "Źródło niepokoju.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm worried about my job.",
+          "pl": "Martwię się o pracę."
+        },
+        {
+          "en": "I'm worried about the weather.",
+          "pl": "Martwię się pogodą."
+        }
+      ],
+      "note": "Martwić się O = worried ABOUT.",
+      "tags": [
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.tired-of",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 30,
+      "en": "I'm tired of ___.",
+      "pl": "Mam dość ___.",
+      "alternatives": [],
+      "usage": "Zmęczenie czymś (psychicznie).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm tired of waiting.",
+          "pl": "Mam dość czekania."
+        },
+        {
+          "en": "I'm tired of night shifts.",
+          "pl": "Mam dość nocek."
+        }
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.feelings.nervous-before-trip",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 31,
+      "en": "Nervous before the trip",
+      "pl": "Stres przed wyjazdem",
+      "alternatives": [],
+      "usage": "Przyjaciel cię uspokaja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you OK? You look worried.",
+          "pl": "Wszystko OK? Wyglądasz na zmartwionego.",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm a bit nervous. It's my first time flying alone.",
+          "pl": "Trochę się stresuję. Pierwszy raz lecę sam.",
+          "speaker": "B"
+        },
+        {
+          "en": "Don't worry, it'll be fine. You've got everything?",
+          "pl": "Spokojnie, będzie dobrze. Masz wszystko?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah. And I'm really looking forward to the festival.",
+          "pl": "Tak. I bardzo czekam na festiwal.",
+          "speaker": "B"
+        },
+        {
+          "en": "See? I'm so jealous!",
+          "pl": "No widzisz? Ale ci zazdroszczę!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "feelings",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.feelings.post-festival-blues",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.feelings",
+      "order": 32,
+      "en": "Post-festival blues",
+      "pl": "Dół po festiwalu",
+      "alternatives": [],
+      "usage": "Smutek po powrocie i pocieszenie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm a bit down today. The festival is over.",
+          "pl": "Mam dziś doła. Festiwal się skończył.",
+          "speaker": "A"
+        },
+        {
+          "en": "I know the feeling! Are you exhausted?",
+          "pl": "Znam to uczucie! Jesteś wykończony?",
+          "speaker": "B"
+        },
+        {
+          "en": "Completely. But I feel happy too. It was amazing.",
+          "pl": "Kompletnie. Ale też jestem szczęśliwy. Było niesamowicie.",
+          "speaker": "A"
+        },
+        {
+          "en": "Only 360 days until the next one!",
+          "pl": "Tylko 360 dni do następnego!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "feelings",
+        "festival"
+      ],
+      "level": "A2"
+    }
+  ]
+}

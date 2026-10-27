@@ -845,6 +845,162 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mission.s6-afterparty-chat",
+      "stage": 6,
+      "title": "Rozmowa na afterparty",
+      "titleEn": "Afterparty chat",
+      "setting": "Po festiwalu siedzisz w barze z ludźmi z różnych krajów. Rozmowa o setach, porównania i lekka dyskusja.",
+      "claudeScenario": "We're at an afterparty after a festival day. You're Tom from London, a bit of a music snob. Share strong opinions about the sets and the festival, ask for mine, and react to what I say. Disagree with me sometimes.",
+      "tags": [
+        "opinions",
+        "reactions",
+        "music"
+      ],
+      "steps": [
+        {
+          "them": "So, what did you think of the main stage tonight?",
+          "themPl": "No i jak ci się podobała główna scena dziś?",
+          "task": "Powiedz, że bardzo ci się podobało — fajerwerki były niesamowite.",
+          "answer": "I loved it! The fireworks were amazing.",
+          "alt": [
+            "I loved it. The fireworks were incredible!"
+          ]
+        },
+        {
+          "them": "Really? I think the main stage is a bit overrated.",
+          "themPl": "Serio? Moim zdaniem główna scena jest trochę przereklamowana.",
+          "task": "Powiedz grzecznie, że rozumiesz, ale się nie zgadzasz.",
+          "answer": "I see what you mean, but I don't agree.",
+          "alt": [
+            "I see your point, but I disagree."
+          ]
+        },
+        {
+          "them": "The smaller stages are much better. The sound is better too.",
+          "themPl": "Mniejsze sceny są dużo lepsze. Dźwięk też lepszy.",
+          "task": "Przyznaj mu rację co do dźwięku.",
+          "answer": "That's a good point. The sound is better there.",
+          "alt": [
+            "That's true, the sound is better."
+          ]
+        },
+        {
+          "them": "Have you been to the techno stage?",
+          "themPl": "Byłeś pod sceną techno?",
+          "task": "Powiedz, że tak — to był najlepszy set, jaki kiedykolwiek widziałeś.",
+          "answer": "Yes! It was the best set I've ever seen.",
+          "alt": [
+            "Yeah, it was the best set I've ever seen!"
+          ]
+        },
+        {
+          "them": "No way! Better than Berlin?",
+          "themPl": "Nie gadaj! Lepszy niż w Berlinie?",
+          "task": "Powiedz, że nie tak dobry jak w Berlinie, ale prawie.",
+          "answer": "Not as good as Berlin, but almost.",
+          "alt": [
+            "It's not as good as Berlin, but close."
+          ]
+        },
+        {
+          "them": "Ha! Fair enough. I'm so jealous you live near Berlin.",
+          "themPl": "Ha! No dobra. Zazdroszczę ci, że mieszkasz koło Berlina.",
+          "task": "Powiedz, że powinien kiedyś przyjechać — polecasz.",
+          "answer": "You should definitely come sometime. I'd recommend it!",
+          "alt": [
+            "You should come! I recommend it."
+          ]
+        },
+        {
+          "them": "I might! I'm exhausted now, though.",
+          "themPl": "Może! Choć teraz jestem wykończony.",
+          "task": "Powiedz, że ty też — i że nie możesz uwierzyć, że jutro ostatni dzień.",
+          "answer": "Me too. I can't believe tomorrow is the last day!",
+          "alt": [
+            "Same here. I can't believe tomorrow is the last day."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission.s6-bad-hostel",
+      "stage": 6,
+      "title": "Kiepski hostel",
+      "titleEn": "A bad hostel",
+      "setting": "Twój hostel okazał się słaby. Rozmawiasz z kolegą o tym, co było nie tak, porównujesz z poprzednim i decydujecie, czy zostać.",
+      "claudeScenario": "We're on a trip and our hostel is bad. You're my friend Sam. We complain, compare it to the last hostel, react to each other and decide together whether to move. Keep it fun.",
+      "tags": [
+        "opinions",
+        "feelings",
+        "comparisons"
+      ],
+      "steps": [
+        {
+          "them": "Honestly, what do you think of this hostel?",
+          "themPl": "Szczerze, co sądzisz o tym hostelu?",
+          "task": "Powiedz, że moim zdaniem nie jest wart tych pieniędzy.",
+          "answer": "In my opinion, it's not worth the money.",
+          "alt": [
+            "Honestly, it's not worth the money."
+          ]
+        },
+        {
+          "them": "I know, right? The room is tiny.",
+          "themPl": "No nie? Pokój jest malutki.",
+          "task": "Powiedz, że jest dużo mniejszy niż ostatni hostel.",
+          "answer": "It's much smaller than the last hostel.",
+          "alt": [
+            "It is a lot smaller than the last one."
+          ]
+        },
+        {
+          "them": "And the guys in our room were so loud last night.",
+          "themPl": "A goście z naszego pokoju byli wczoraj strasznie głośni.",
+          "task": "Zareaguj: mnie mówisz! I powiedz, że nie spałeś prawie wcale.",
+          "answer": "Tell me about it! I hardly slept.",
+          "alt": [
+            "Tell me about it! I didn't sleep much."
+          ]
+        },
+        {
+          "them": "Should we move to another place?",
+          "themPl": "Przenosimy się gdzieś indziej?",
+          "task": "Powiedz, że na jego miejscu byś się przeniósł.",
+          "answer": "If I were you, I'd move.",
+          "alt": [
+            "I think we should move."
+          ]
+        },
+        {
+          "them": "There's a place near the station with great reviews.",
+          "themPl": "Jest miejsce przy dworcu ze świetnymi opiniami.",
+          "task": "Zapytaj, czy jest drogie.",
+          "answer": "Is it expensive?",
+          "alt": [
+            "Is it more expensive?"
+          ]
+        },
+        {
+          "them": "A bit more expensive, but it's got a bar and a pool.",
+          "themPl": "Trochę droższe, ale ma bar i basen.",
+          "task": "Zareaguj entuzjastycznie: to brzmi niesamowicie, warto.",
+          "answer": "That sounds amazing. It's worth it!",
+          "alt": [
+            "Sounds amazing! It's worth it."
+          ]
+        },
+        {
+          "them": "OK, let's do it. I'm so relieved!",
+          "themPl": "Dobra, robimy to. Ale ulga!",
+          "task": "Powiedz, że ty też — i że masz już świetny humor.",
+          "answer": "Me too. I'm in a really good mood now!",
+          "alt": [
+            "Same! I'm in a great mood now."
+          ]
+        }
+      ]
     }
   ]
 }

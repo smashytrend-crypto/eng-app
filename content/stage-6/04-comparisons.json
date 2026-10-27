@@ -1,0 +1,874 @@
+{
+  "module": {
+    "id": "s6.comparisons",
+    "stage": 6,
+    "order": 4,
+    "title": "Porównania",
+    "titleEn": "Comparisons",
+    "description": "Lepszy, gorszy, najlepszy, taki sam, nie tak dobry jak, dwa razy droższy — porównywanie miejsc, cen, muzyki i festiwali.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s6.comparisons.better-than-last-year",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 1,
+      "en": "It's much better than last year.",
+      "pl": "Jest dużo lepiej niż w zeszłym roku.",
+      "alternatives": [
+        "It's way better than last year.",
+        "It's a lot better than last year."
+      ],
+      "usage": "Porównanie z przeszłością.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The new main stage? It's much better than last year.",
+          "pl": "Nowa główna scena? Dużo lepsza niż w zeszłym roku."
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.not-as-good-original",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 2,
+      "en": "It's not as good as the original.",
+      "pl": "Nie jest tak dobre jak oryginał.",
+      "alternatives": [],
+      "usage": "O remiksie, filmie, sequelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you heard the remix? — Yeah, but it's not as good as the original.",
+          "pl": "Słyszałeś remix? — Tak, ale nie jest tak dobry jak oryginał."
+        }
+      ],
+      "tags": [
+        "comparisons",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.biggest-festival",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 3,
+      "en": "This is the biggest festival in the world.",
+      "pl": "To największy festiwal na świecie.",
+      "alternatives": [
+        "It's the biggest festival in the world."
+      ],
+      "usage": "Stopień najwyższy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is Tomorrowland really the biggest festival in the world? — One of them!",
+          "pl": "Tomorrowland to naprawdę największy festiwal na świecie? — Jeden z nich!"
+        }
+      ],
+      "note": "Najwyższy stopień z „the”: the biggest, the best, the most expensive.",
+      "tags": [
+        "comparisons",
+        "festival",
+        "gr:articles"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.beer-more-expensive",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 4,
+      "en": "Beer is more expensive here than in Poland.",
+      "pl": "Piwo jest tu droższe niż w Polsce.",
+      "alternatives": [
+        "Beer here is more expensive than in Poland."
+      ],
+      "usage": "Porównanie cen.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Beer is more expensive here than in Poland — almost three times!",
+          "pl": "Piwo jest tu droższe niż w Polsce — prawie trzy razy!"
+        }
+      ],
+      "note": "Długie przymiotniki: more + przymiotnik + than (more expensive than).",
+      "tags": [
+        "comparisons",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.pretty-similar",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 5,
+      "en": "They're pretty similar.",
+      "pl": "Są dość podobne.",
+      "alternatives": [
+        "They're quite similar."
+      ],
+      "usage": "Mała różnica.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Tech house or techno? They're pretty similar, but tech house is more groovy.",
+          "pl": "Tech house czy techno? Są dość podobne, ale tech house bardziej buja."
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.same-as-last-time",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 6,
+      "en": "It's the same as last time.",
+      "pl": "Jest tak samo jak ostatnio.",
+      "alternatives": [
+        "It's the same as last year."
+      ],
+      "usage": "Brak różnicy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is the campsite different this year? — No, it's the same as last time.",
+          "pl": "Pole namiotowe jest w tym roku inne? — Nie, tak samo jak ostatnio."
+        }
+      ],
+      "note": "„Taki sam JAK” = „the same AS” (nie „the same like”).",
+      "tags": [
+        "comparisons",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.bigger-than-thought",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 7,
+      "en": "It's a lot bigger than I thought.",
+      "pl": "Jest dużo większe, niż myślałem.",
+      "alternatives": [
+        "It's much bigger than I thought."
+      ],
+      "usage": "Zaskoczenie rozmiarem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Wow, the festival area is a lot bigger than I thought.",
+          "pl": "Wow, teren festiwalu jest dużo większy, niż myślałem."
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.which-prefer",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 8,
+      "en": "Which one do you prefer?",
+      "pl": "Który wolisz?",
+      "alternatives": [
+        "Which do you prefer?",
+        "Which one do you like more?"
+      ],
+      "usage": "Pytasz o preferencje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "House or techno — which one do you prefer?",
+          "pl": "House czy techno — co wolisz?"
+        }
+      ],
+      "tags": [
+        "comparisons",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.neither-of-them",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 9,
+      "en": "Neither of them.",
+      "pl": "Żaden z nich.",
+      "alternatives": [],
+      "usage": "Odrzucasz obie opcje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you like Coldplay or U2? — Neither of them, to be honest.",
+          "pl": "Lubisz Coldplay czy U2? — Szczerze, żadnego."
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.both-are-good",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 10,
+      "en": "Both are good.",
+      "pl": "Oba są dobre.",
+      "alternatives": [
+        "They're both good."
+      ],
+      "usage": "Nie chcesz wybierać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Pizza or burger? — Both are good. You choose.",
+          "pl": "Pizza czy burger? — Oba dobre. Ty wybierz."
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.better-and-better",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 11,
+      "en": "It's getting better and better.",
+      "pl": "Jest coraz lepiej.",
+      "alternatives": [
+        "It's getting better."
+      ],
+      "usage": "Postęp w czasie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How's your English? — It's getting better and better!",
+          "pl": "Jak twój angielski? — Coraz lepiej!"
+        }
+      ],
+      "note": "„Coraz lepiej” = „better and better”. „Coraz drożej” = „more and more expensive”.",
+      "tags": [
+        "comparisons"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.the-more-the-better",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 12,
+      "en": "The more, the better.",
+      "pl": "Im więcej, tym lepiej.",
+      "alternatives": [
+        "The more the merrier."
+      ],
+      "usage": "Zapraszasz więcej osób.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I bring two friends? — Sure, the more, the better!",
+          "pl": "Mogę wziąć dwóch kumpli? — Jasne, im więcej, tym lepiej!"
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.nothing-compares",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 13,
+      "en": "Nothing compares to Tomorrowland.",
+      "pl": "Nic nie dorówna Tomorrowland.",
+      "alternatives": [
+        "Nothing beats Tomorrowland."
+      ],
+      "usage": "Najwyższa pochwała.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've been to many festivals, but nothing compares to Tomorrowland.",
+          "pl": "Byłem na wielu festiwalach, ale nic nie dorówna Tomorrowland."
+        }
+      ],
+      "tags": [
+        "comparisons",
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.twice-as-expensive",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 14,
+      "en": "It's twice as expensive.",
+      "pl": "Jest dwa razy droższe.",
+      "alternatives": [
+        "It's twice the price."
+      ],
+      "usage": "Porównanie liczbowe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Taxis here? It's twice as expensive as in Poland.",
+          "pl": "Taksówki tutaj? Dwa razy drożej niż w Polsce."
+        }
+      ],
+      "note": "X razy droższe = „twice / three times AS expensive AS”.",
+      "tags": [
+        "comparisons",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.less-crowded",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 15,
+      "en": "It's less crowded in the morning.",
+      "pl": "Rano jest mniej tłoczno.",
+      "alternatives": [
+        "It's not as crowded in the morning."
+      ],
+      "usage": "Mniejsza ilość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Go to the gym early — it's less crowded in the morning.",
+          "pl": "Idź na siłownię wcześnie — rano jest mniej tłoczno."
+        }
+      ],
+      "tags": [
+        "comparisons",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.better",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 16,
+      "en": "better",
+      "pl": "lepszy, lepiej",
+      "alternatives": [],
+      "usage": "Stopień wyższy od „good / well”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I feel better today.",
+          "pl": "Dziś czuję się lepiej."
+        }
+      ],
+      "collocations": [
+        "much better",
+        "better than…",
+        "getting better"
+      ],
+      "note": "good → better → the best. Nie „more good”!",
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.worse",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 17,
+      "en": "worse",
+      "pl": "gorszy, gorzej",
+      "alternatives": [],
+      "usage": "Stopień wyższy od „bad”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The weather is worse than yesterday.",
+          "pl": "Pogoda jest gorsza niż wczoraj."
+        }
+      ],
+      "collocations": [
+        "even worse",
+        "worse than…",
+        "getting worse"
+      ],
+      "note": "bad → worse → the worst.",
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.the-best",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 18,
+      "en": "the best",
+      "pl": "najlepszy",
+      "alternatives": [],
+      "usage": "Stopień najwyższy od „good”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "This is the best day of my life!",
+          "pl": "To najlepszy dzień mojego życia!"
+        }
+      ],
+      "collocations": [
+        "the best ever",
+        "the best in the world",
+        "all the best"
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.the-worst",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 19,
+      "en": "the worst",
+      "pl": "najgorszy",
+      "alternatives": [],
+      "usage": "Stopień najwyższy od „bad”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Losing my phone was the worst part.",
+          "pl": "Zgubienie telefonu było najgorsze."
+        }
+      ],
+      "collocations": [
+        "the worst day",
+        "the worst thing",
+        "at worst"
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.prefer",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 20,
+      "en": "prefer",
+      "pl": "woleć",
+      "alternatives": [],
+      "usage": "Wybór między opcjami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I prefer trains to planes.",
+          "pl": "Wolę pociągi od samolotów."
+        }
+      ],
+      "collocations": [
+        "prefer A to B",
+        "I prefer…",
+        "which do you prefer?"
+      ],
+      "note": "Woleć X od Y = prefer X TO Y (nie „than”).",
+      "pronunciation": "Akcent na drugą sylabę: „pri-FER”.",
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.than",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 21,
+      "en": "than",
+      "pl": "niż",
+      "alternatives": [],
+      "usage": "Słowo do porównań.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's bigger than I expected.",
+          "pl": "Jest większe, niż się spodziewałem."
+        }
+      ],
+      "collocations": [
+        "better than",
+        "more than",
+        "less than"
+      ],
+      "note": "„Than” (niż) ≠ „then” (potem).",
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.difference",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 22,
+      "en": "difference",
+      "pl": "różnica",
+      "alternatives": [],
+      "usage": "To, czym coś się różni.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the difference between house and techno?",
+          "pl": "Jaka jest różnica między house a techno?"
+        }
+      ],
+      "collocations": [
+        "the difference between…",
+        "a big difference",
+        "no difference"
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.the-same",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 23,
+      "en": "the same",
+      "pl": "taki sam, to samo",
+      "alternatives": [],
+      "usage": "Brak różnicy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We have the same taste in music.",
+          "pl": "Mamy taki sam gust muzyczny."
+        }
+      ],
+      "collocations": [
+        "the same as…",
+        "exactly the same",
+        "not the same"
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.compared-to",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 24,
+      "en": "compared to",
+      "pl": "w porównaniu z",
+      "alternatives": [],
+      "usage": "Punkt odniesienia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Compared to Poland, Belgium is quite expensive.",
+          "pl": "W porównaniu z Polską Belgia jest dość droga."
+        }
+      ],
+      "collocations": [
+        "compared to…",
+        "compared with…",
+        "not much compared to…"
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.much-than-last-year",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 25,
+      "en": "It's much ___ than last year.",
+      "pl": "Jest dużo ___ niż w zeszłym roku.",
+      "alternatives": [],
+      "usage": "Porównanie z „much”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's much bigger than last year.",
+          "pl": "Jest dużo większe niż w zeszłym roku."
+        },
+        {
+          "en": "It's much more expensive than last year.",
+          "pl": "Jest dużo droższe niż w zeszłym roku."
+        }
+      ],
+      "note": "Krótkie przymiotniki: -er (bigger). Długie: more … (more expensive).",
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.best-in-world",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 26,
+      "en": "It's the best ___ in the world.",
+      "pl": "To najlepszy ___ na świecie.",
+      "alternatives": [],
+      "usage": "Najwyższy stopień.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's the best club in the world.",
+          "pl": "To najlepszy klub na świecie."
+        },
+        {
+          "en": "It's the best city in the world.",
+          "pl": "To najlepsze miasto na świecie."
+        }
+      ],
+      "note": "„Na świecie” = „IN the world” (nie „on the world”).",
+      "tags": [
+        "comparisons",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.not-as-as-thought",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 27,
+      "en": "It's not as ___ as I thought.",
+      "pl": "Nie jest tak ___, jak myślałem.",
+      "alternatives": [],
+      "usage": "Mniej, niż się spodziewałeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's not as expensive as I thought.",
+          "pl": "Nie jest tak drogie, jak myślałem."
+        },
+        {
+          "en": "It's not as hard as I thought.",
+          "pl": "Nie jest tak trudne, jak myślałem."
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.compared-to-poland",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 28,
+      "en": "Compared to Poland, ___.",
+      "pl": "W porównaniu z Polską ___.",
+      "alternatives": [],
+      "usage": "Porównujesz kraje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Compared to Poland, everything is expensive here.",
+          "pl": "W porównaniu z Polską wszystko jest tu drogie."
+        },
+        {
+          "en": "Compared to Poland, the weather is worse.",
+          "pl": "W porównaniu z Polską pogoda jest gorsza."
+        }
+      ],
+      "tags": [
+        "comparisons",
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.which-is-better",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 29,
+      "en": "Which is better, ___?",
+      "pl": "Co jest lepsze, ___?",
+      "alternatives": [],
+      "usage": "Prosisz o opinię.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Which is better, house or techno?",
+          "pl": "Co jest lepsze, house czy techno?"
+        },
+        {
+          "en": "Which is better, the train or the bus?",
+          "pl": "Co jest lepsze, pociąg czy autobus?"
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.the-er-the-better",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 30,
+      "en": "The ___, the better.",
+      "pl": "Im ___, tym lepiej.",
+      "alternatives": [],
+      "usage": "Konstrukcja „im…, tym…”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "The louder, the better.",
+          "pl": "Im głośniej, tym lepiej."
+        },
+        {
+          "en": "The bigger, the better.",
+          "pl": "Im większe, tym lepsze."
+        }
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.comparisons.comparing-festivals",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 31,
+      "en": "Comparing festivals",
+      "pl": "Porównywanie festiwali",
+      "alternatives": [],
+      "usage": "Który festiwal lepszy?",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You've been to Tomorrowland and Ultra. Which one do you prefer?",
+          "pl": "Byłeś na Tomorrowland i na Ultrze. Który wolisz?",
+          "speaker": "A"
+        },
+        {
+          "en": "Tomorrowland, definitely. The stages are much bigger.",
+          "pl": "Tomorrowland, zdecydowanie. Sceny są dużo większe.",
+          "speaker": "B"
+        },
+        {
+          "en": "Is it more expensive?",
+          "pl": "Jest droższy?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, but it's worth it. Nothing compares to Tomorrowland.",
+          "pl": "Tak, ale warto. Nic mu nie dorówna.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "comparisons",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.comparisons.prices-belgium",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.comparisons",
+      "order": 32,
+      "en": "Prices in Belgium",
+      "pl": "Ceny w Belgii",
+      "alternatives": [],
+      "usage": "Narzekanie na ceny za granicą.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Eight euros for a beer?!",
+          "pl": "Osiem euro za piwo?!",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, beer is more expensive here than in Poland.",
+          "pl": "No, piwo jest tu droższe niż w Polsce.",
+          "speaker": "B"
+        },
+        {
+          "en": "It's almost three times as expensive!",
+          "pl": "Prawie trzy razy droższe!",
+          "speaker": "A"
+        },
+        {
+          "en": "True. But the food is better than I thought.",
+          "pl": "Prawda. Ale jedzenie jest lepsze, niż myślałem.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "comparisons",
+        "numbers",
+        "travel"
+      ],
+      "level": "A2"
+    }
+  ]
+}

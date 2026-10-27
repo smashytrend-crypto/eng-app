@@ -1,0 +1,871 @@
+{
+  "module": {
+    "id": "s6.agree-disagree",
+    "stage": 6,
+    "order": 1,
+    "title": "Zgadzam się, nie zgadzam się",
+    "titleEn": "Agreeing & disagreeing",
+    "description": "Jak się zgadzać, grzecznie nie zgadzać i kończyć spór: You're right, Fair enough, I see what you mean, but…",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s6.agree-disagree.totally-agree",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 1,
+      "en": "I totally agree.",
+      "pl": "Całkowicie się zgadzam.",
+      "alternatives": [
+        "I completely agree.",
+        "I couldn't agree more.",
+        "I totally agree with you."
+      ],
+      "usage": "Mocne „zgadzam się”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Berlin has the best clubs in Europe. — I totally agree.",
+          "pl": "Berlin ma najlepsze kluby w Europie. — Całkowicie się zgadzam."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.not-sure-about-that",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 2,
+      "en": "I'm not sure about that.",
+      "pl": "Nie jestem tego pewien.",
+      "alternatives": [
+        "I'm not so sure about that."
+      ],
+      "usage": "Delikatna niezgoda.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Techno is just noise. — Hmm, I'm not sure about that.",
+          "pl": "Techno to tylko hałas. — Hmm, nie byłbym tego taki pewien."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.see-what-you-mean",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 3,
+      "en": "I see what you mean, but…",
+      "pl": "Rozumiem, o co ci chodzi, ale…",
+      "alternatives": [
+        "I know what you mean, but…",
+        "I see your point, but…"
+      ],
+      "usage": "Grzeczna niezgoda — najpierw doceniasz zdanie rozmówcy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I see what you mean, but the tickets are really expensive.",
+          "pl": "Rozumiem, o co ci chodzi, ale bilety są naprawdę drogie."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.thats-true",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 4,
+      "en": "That's true.",
+      "pl": "To prawda.",
+      "alternatives": [
+        "True.",
+        "That's so true."
+      ],
+      "usage": "Zgadzasz się z faktem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's always busy on Fridays. — That's true.",
+          "pl": "W piątki zawsze jest tłok. — To prawda."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.dont-think-so",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 5,
+      "en": "I don't think so.",
+      "pl": "Nie sądzę.",
+      "alternatives": [],
+      "usage": "Niezgoda albo zaprzeczenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it going to rain? — I don't think so.",
+          "pl": "Będzie padać? — Nie sądzę."
+        }
+      ],
+      "note": "Po angielsku przeczenie idzie do „think”: I don't think it's true (a nie „I think it isn't true”).",
+      "tags": [
+        "opinions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.youre-right",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 6,
+      "en": "You're right.",
+      "pl": "Masz rację.",
+      "alternatives": [
+        "You're totally right.",
+        "You're absolutely right."
+      ],
+      "usage": "Przyznajesz komuś rację.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We should leave now or we'll miss the train. — You're right.",
+          "pl": "Powinniśmy już iść, bo ucieknie nam pociąg. — Masz rację."
+        }
+      ],
+      "note": "Polska pułapka: NIE „You have right”. Racja to „be right”: you're right, I was wrong.",
+      "tags": [
+        "opinions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.fair-enough",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 7,
+      "en": "Fair enough.",
+      "pl": "No dobra, rozumiem.",
+      "alternatives": [],
+      "usage": "Akceptujesz argument — bardzo brytyjskie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I can't come, I'm working early tomorrow. — Fair enough.",
+          "pl": "Nie dam rady, jutro wcześnie pracuję. — No dobra, rozumiem."
+        }
+      ],
+      "tags": [
+        "opinions",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.exactly",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 8,
+      "en": "Exactly!",
+      "pl": "Dokładnie!",
+      "alternatives": [
+        "Absolutely!"
+      ],
+      "usage": "Pełna zgoda.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "So we need to leave at seven. — Exactly!",
+          "pl": "Czyli musimy wyjść o siódmej. — Dokładnie!"
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.disagree-actually",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 9,
+      "en": "I disagree, actually.",
+      "pl": "Właściwie się nie zgadzam.",
+      "alternatives": [
+        "Actually, I disagree.",
+        "I don't agree, actually."
+      ],
+      "usage": "Uprzejma, ale jasna niezgoda.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Commercial EDM is the best. — I disagree, actually.",
+          "pl": "Komercyjny EDM jest najlepszy. — Właściwie się nie zgadzam."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.me-neither",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 10,
+      "en": "Me neither.",
+      "pl": "Ja też nie.",
+      "alternatives": [
+        "Neither do I.",
+        "Me either."
+      ],
+      "usage": "Zgadzasz się z przeczeniem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I don't like long queues. — Me neither.",
+          "pl": "Nie lubię długich kolejek. — Ja też nie."
+        }
+      ],
+      "note": "Na przeczenie odpowiadasz „Me neither”, nie „Me too”.",
+      "tags": [
+        "opinions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.so-do-i",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 11,
+      "en": "So do I.",
+      "pl": "Ja też.",
+      "alternatives": [
+        "Me too.",
+        "Same here."
+      ],
+      "usage": "Bardziej eleganckie „me too”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I love melodic techno. — So do I!",
+          "pl": "Uwielbiam melodic techno. — Ja też!"
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.agree-to-disagree",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 12,
+      "en": "Let's agree to disagree.",
+      "pl": "Zostańmy przy swoich zdaniach.",
+      "alternatives": [],
+      "usage": "Kończysz spór pokojowo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You'll never convince me. — OK, let's agree to disagree.",
+          "pl": "Nigdy mnie nie przekonasz. — OK, zostańmy przy swoich zdaniach."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.maybe-youre-right",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 13,
+      "en": "Maybe you're right.",
+      "pl": "Może masz rację.",
+      "alternatives": [
+        "You might be right."
+      ],
+      "usage": "Zmieniasz zdanie albo ustępujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We should go earlier to avoid the queue. — Maybe you're right.",
+          "pl": "Powinniśmy wyjść wcześniej, żeby uniknąć kolejki. — Może masz rację."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.good-point",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 14,
+      "en": "That's a good point.",
+      "pl": "Dobra uwaga.",
+      "alternatives": [
+        "Good point.",
+        "Fair point."
+      ],
+      "usage": "Doceniasz argument.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If we take the train, we can drink. — That's a good point.",
+          "pl": "Jak pojedziemy pociągiem, to możemy pić. — Dobra uwaga."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.not-true",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 15,
+      "en": "No way, that's not true!",
+      "pl": "Coś ty, to nieprawda!",
+      "alternatives": [
+        "That's not true!",
+        "No, that's not true!"
+      ],
+      "usage": "Mocne zaprzeczenie wśród znajomych.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You never pay for drinks! — No way, that's not true!",
+          "pl": "Ty nigdy nie płacisz za drinki! — Coś ty, to nieprawda!"
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.agree",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 16,
+      "en": "agree",
+      "pl": "zgadzać się",
+      "alternatives": [],
+      "usage": "Masz to samo zdanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I agree with you about the lineup.",
+          "pl": "Zgadzam się z tobą co do line-upu."
+        }
+      ],
+      "collocations": [
+        "agree with someone",
+        "agree about something",
+        "totally agree"
+      ],
+      "note": "„Zgadzam się” = „I agree”. NIE „I am agree”!",
+      "tags": [
+        "opinions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.disagree",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 17,
+      "en": "disagree",
+      "pl": "nie zgadzać się",
+      "alternatives": [],
+      "usage": "Masz inne zdanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We often disagree about music.",
+          "pl": "Często się nie zgadzamy co do muzyki."
+        }
+      ],
+      "collocations": [
+        "disagree with someone",
+        "strongly disagree",
+        "disagree about…"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.opinion",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 18,
+      "en": "opinion",
+      "pl": "opinia, zdanie",
+      "alternatives": [],
+      "usage": "Twoje zdanie o czymś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's your opinion on the new stage?",
+          "pl": "Co sądzisz o nowej scenie?"
+        }
+      ],
+      "collocations": [
+        "in my opinion",
+        "my honest opinion",
+        "change my opinion"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.point",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 19,
+      "en": "point",
+      "pl": "argument; sens",
+      "alternatives": [],
+      "usage": "Racja, argument w dyskusji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You have a point.",
+          "pl": "Coś w tym jest."
+        }
+      ],
+      "collocations": [
+        "a good point",
+        "have a point",
+        "what's the point?"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.true",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 20,
+      "en": "true",
+      "pl": "prawdziwy, prawda",
+      "alternatives": [],
+      "usage": "Zgodne z faktami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it true that the tickets are sold out?",
+          "pl": "To prawda, że bilety są wyprzedane?"
+        }
+      ],
+      "collocations": [
+        "that's true",
+        "true story",
+        "is it true…?"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.wrong",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 21,
+      "en": "wrong",
+      "pl": "błędny; nie mieć racji",
+      "alternatives": [],
+      "usage": "Gdy ktoś się myli.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I was wrong.",
+          "pl": "Sorry, myliłem się."
+        }
+      ],
+      "collocations": [
+        "you're wrong",
+        "the wrong way",
+        "what's wrong?"
+      ],
+      "note": "„Mylić się” = „be wrong”: I was wrong. „What's wrong?” = co się stało?",
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.argue",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 22,
+      "en": "argue",
+      "pl": "kłócić się; argumentować",
+      "alternatives": [],
+      "usage": "Sprzeczka albo dyskusja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We always argue about which stage to go to.",
+          "pl": "Zawsze się kłócimy, pod którą scenę iść."
+        }
+      ],
+      "collocations": [
+        "argue about…",
+        "argue with someone",
+        "let's not argue"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.obviously",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 23,
+      "en": "obviously",
+      "pl": "oczywiście, ewidentnie",
+      "alternatives": [],
+      "usage": "Coś jest jasne.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Obviously, we'll stay until the end!",
+          "pl": "Oczywiście, że zostaniemy do końca!"
+        }
+      ],
+      "collocations": [
+        "obviously not",
+        "obviously, …",
+        "it's obvious"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.compromise",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 24,
+      "en": "compromise",
+      "pl": "kompromis",
+      "alternatives": [],
+      "usage": "Rozwiązanie pomiędzy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "OK, let's make a compromise: house first, then techno.",
+          "pl": "Dobra, kompromis: najpierw house, potem techno."
+        }
+      ],
+      "collocations": [
+        "make a compromise",
+        "find a compromise",
+        "a good compromise"
+      ],
+      "pronunciation": "Czytaj „KOM-pro-majz”.",
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.agree-with",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 25,
+      "en": "I agree with ___.",
+      "pl": "Zgadzam się z ___.",
+      "alternatives": [],
+      "usage": "Z kim się zgadzasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I agree with you.",
+          "pl": "Zgadzam się z tobą."
+        },
+        {
+          "en": "I agree with Kuba.",
+          "pl": "Zgadzam się z Kubą."
+        }
+      ],
+      "note": "Agree WITH (osoba), agree ABOUT / ON (temat). Nigdy „I am agree”.",
+      "tags": [
+        "opinions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.dont-agree-that",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 26,
+      "en": "I don't agree that ___.",
+      "pl": "Nie zgadzam się, że ___.",
+      "alternatives": [],
+      "usage": "Niezgoda z konkretną tezą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I don't agree that techno is boring.",
+          "pl": "Nie zgadzam się, że techno jest nudne."
+        },
+        {
+          "en": "I don't agree that festivals are too expensive.",
+          "pl": "Nie zgadzam się, że festiwale są za drogie."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.think-is-better",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 27,
+      "en": "I think ___ is better.",
+      "pl": "Myślę, że ___ jest lepszy.",
+      "alternatives": [],
+      "usage": "Wyrażasz preferencję.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I think house is better.",
+          "pl": "Myślę, że house jest lepszy."
+        },
+        {
+          "en": "I think the first day was better.",
+          "pl": "Myślę, że pierwszy dzień był lepszy."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.in-my-opinion",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 28,
+      "en": "In my opinion, ___.",
+      "pl": "Moim zdaniem ___.",
+      "alternatives": [],
+      "usage": "Wyraźnie zaznaczasz własne zdanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "In my opinion, Berlin has the best clubs.",
+          "pl": "Moim zdaniem Berlin ma najlepsze kluby."
+        },
+        {
+          "en": "In my opinion, it's too expensive.",
+          "pl": "Moim zdaniem to za drogie."
+        }
+      ],
+      "note": "„Moim zdaniem” = „in my opinion”, nie „in my mind”.",
+      "tags": [
+        "opinions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.im-with-on-this",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 29,
+      "en": "I'm with ___ on this.",
+      "pl": "W tej sprawie jestem po stronie ___.",
+      "alternatives": [],
+      "usage": "Stajesz po czyjejś stronie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm with you on this.",
+          "pl": "Tu się z tobą zgadzam."
+        },
+        {
+          "en": "I'm with Kuba on this.",
+          "pl": "W tej sprawie jestem po stronie Kuby."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.dont-you-think",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 30,
+      "en": "Don't you think ___?",
+      "pl": "Nie sądzisz, że ___?",
+      "alternatives": [],
+      "usage": "Szukasz zgody rozmówcy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Don't you think it's too loud?",
+          "pl": "Nie sądzisz, że jest za głośno?"
+        },
+        {
+          "en": "Don't you think he's a bit overrated?",
+          "pl": "Nie sądzisz, że jest trochę przereklamowany?"
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.agree-disagree.techno-vs-house",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 31,
+      "en": "Techno or house?",
+      "pl": "Techno czy house?",
+      "alternatives": [],
+      "usage": "Przyjacielska dyskusja o muzyce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "In my opinion, techno is way better than house.",
+          "pl": "Moim zdaniem techno jest o wiele lepsze niż house.",
+          "speaker": "A"
+        },
+        {
+          "en": "I see what you mean, but house has more groove.",
+          "pl": "Rozumiem, o co ci chodzi, ale house ma więcej groovu.",
+          "speaker": "B"
+        },
+        {
+          "en": "Hmm, that's a good point. But nothing beats a techno drop!",
+          "pl": "Hmm, dobra uwaga. Ale nic nie pobije techno dropu!",
+          "speaker": "A"
+        },
+        {
+          "en": "Let's agree to disagree.",
+          "pl": "Zostańmy przy swoich zdaniach.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "opinions",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.agree-disagree.leave-early",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.agree-disagree",
+      "order": 32,
+      "en": "Leaving early",
+      "pl": "Wcześniejsze wyjście",
+      "alternatives": [],
+      "usage": "Zgadzacie się co do planu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Don't you think we should leave before the last set? The trains will be full.",
+          "pl": "Nie sądzisz, że powinniśmy wyjść przed ostatnim setem? Pociągi będą pełne.",
+          "speaker": "A"
+        },
+        {
+          "en": "You're right, but it's my favourite DJ!",
+          "pl": "Masz rację, ale to mój ulubiony DJ!",
+          "speaker": "B"
+        },
+        {
+          "en": "Fair enough. We can take an Uber.",
+          "pl": "No dobra. Możemy wziąć Ubera.",
+          "speaker": "A"
+        },
+        {
+          "en": "Exactly!",
+          "pl": "Dokładnie!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "opinions",
+        "festival"
+      ],
+      "level": "A2"
+    }
+  ]
+}

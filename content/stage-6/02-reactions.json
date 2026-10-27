@@ -1,0 +1,869 @@
+{
+  "module": {
+    "id": "s6.reactions",
+    "stage": 6,
+    "order": 2,
+    "title": "Reakcje",
+    "titleEn": "Reactions",
+    "description": "No way!, That makes sense, Lucky you!, Tell me about it! — szybkie reakcje, dzięki którym rozmowa brzmi naturalnie.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s6.reactions.no-way",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 1,
+      "en": "No way!",
+      "pl": "Nie gadaj! / Niemożliwe!",
+      "alternatives": [
+        "No way, really?",
+        "Seriously?"
+      ],
+      "usage": "Zaskoczenie — pozytywne albo negatywne.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I got backstage passes! — No way!",
+          "pl": "Mam wejściówki za kulisy! — Nie gadaj!"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.makes-sense",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 2,
+      "en": "That makes sense.",
+      "pl": "To ma sens.",
+      "alternatives": [
+        "Makes sense.",
+        "OK, that makes sense."
+      ],
+      "usage": "Rozumiesz i akceptujesz wyjaśnienie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We go early because the queue is shorter. — Ah, that makes sense.",
+          "pl": "Idziemy wcześniej, bo kolejka jest krótsza. — A, to ma sens."
+        }
+      ],
+      "note": "„Ma sens” = „makes sense” (nie „has sense”).",
+      "tags": [
+        "reactions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.oh-no",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 3,
+      "en": "Oh no!",
+      "pl": "O nie!",
+      "alternatives": [
+        "Oh no, really?"
+      ],
+      "usage": "Reakcja na złą wiadomość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I lost my wristband. — Oh no! What are you going to do?",
+          "pl": "Zgubiłem opaskę. — O nie! Co zrobisz?"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.thats-brilliant",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 4,
+      "en": "That's brilliant!",
+      "pl": "Świetnie! / Genialnie!",
+      "alternatives": [
+        "That's great!",
+        "That's fantastic!"
+      ],
+      "usage": "Brytyjska reakcja na dobrą wiadomość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I got the job! — That's brilliant! Congratulations!",
+          "pl": "Dostałem pracę! — Świetnie! Gratulacje!"
+        }
+      ],
+      "tags": [
+        "reactions",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.had-no-idea",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 5,
+      "en": "Really? I had no idea.",
+      "pl": "Serio? Nie miałem pojęcia.",
+      "alternatives": [
+        "Really? I didn't know that."
+      ],
+      "usage": "Nowa informacja cię zaskoczyła.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The festival started in 2005. — Really? I had no idea.",
+          "pl": "Festiwal zaczął się w 2005. — Serio? Nie miałem pojęcia."
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.youre-kidding",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 6,
+      "en": "You're kidding!",
+      "pl": "Żartujesz!",
+      "alternatives": [
+        "You're joking!",
+        "Are you kidding me?"
+      ],
+      "usage": "Niedowierzanie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "The tickets sold out in ten minutes. — You're kidding!",
+          "pl": "Bilety wyprzedały się w dziesięć minut. — Żartujesz!"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.lucky-you",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 7,
+      "en": "Lucky you!",
+      "pl": "Szczęściarz!",
+      "alternatives": [
+        "You're so lucky!"
+      ],
+      "usage": "Ktoś ma coś fajnego.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm going to Ibiza next week. — Lucky you!",
+          "pl": "W przyszłym tygodniu lecę na Ibizę. — Szczęściarz!"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.good-for-you",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 8,
+      "en": "Good for you!",
+      "pl": "Super, gratuluję!",
+      "alternatives": [
+        "Well done!",
+        "Nice one!"
+      ],
+      "usage": "Cieszysz się z czyjegoś sukcesu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've stopped smoking. — Good for you!",
+          "pl": "Rzuciłem palenie. — Brawo!"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.what-a-shame",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 9,
+      "en": "What a shame.",
+      "pl": "Szkoda.",
+      "alternatives": [
+        "What a pity.",
+        "That's a shame."
+      ],
+      "usage": "Współczucie, gdy coś nie wyszło.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The show was cancelled because of the wind. — What a shame.",
+          "pl": "Show odwołano przez wiatr. — Szkoda."
+        }
+      ],
+      "note": "„Shame” tu nie znaczy „wstyd” — znaczy „szkoda”.",
+      "tags": [
+        "reactions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.so-annoying",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 10,
+      "en": "That's so annoying!",
+      "pl": "Ale to wkurzające!",
+      "alternatives": [
+        "That's really annoying!"
+      ],
+      "usage": "Frustracja.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "They changed the timetable again. — That's so annoying!",
+          "pl": "Znowu zmienili rozpiskę. — Ale to wkurzające!"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.i-know-right",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 11,
+      "en": "I know, right?",
+      "pl": "No nie?",
+      "alternatives": [],
+      "usage": "Entuzjastyczne potwierdzenie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "This set is incredible! — I know, right?",
+          "pl": "Ten set jest niesamowity! — No nie?"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.tell-me-about-it",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 12,
+      "en": "Tell me about it!",
+      "pl": "Mnie mówisz!",
+      "alternatives": [],
+      "usage": "Gdy dobrze rozumiesz czyjś problem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Mondays are the worst. — Tell me about it!",
+          "pl": "Poniedziałki są najgorsze. — Mnie mówisz!"
+        }
+      ],
+      "note": "Nie chodzi o prośbę „opowiedz mi” — to ironiczne „wiem coś o tym!”.",
+      "tags": [
+        "reactions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.reactions.oh-i-see",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 13,
+      "en": "Oh, I see.",
+      "pl": "Aha, rozumiem.",
+      "alternatives": [
+        "Ah, I see.",
+        "Oh, OK."
+      ],
+      "usage": "Zrozumiałeś wyjaśnienie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You need to top up your wristband first. — Oh, I see.",
+          "pl": "Najpierw musisz doładować opaskę. — Aha, rozumiem."
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.sounds-good-to-me",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 14,
+      "en": "Sounds good to me.",
+      "pl": "Mi pasuje.",
+      "alternatives": [
+        "Works for me.",
+        "Fine by me."
+      ],
+      "usage": "Akceptujesz propozycję.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Pizza and then the club? — Sounds good to me.",
+          "pl": "Pizza, a potem klub? — Mi pasuje."
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.bless-you",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 15,
+      "en": "Bless you!",
+      "pl": "Na zdrowie! (po kichnięciu)",
+      "alternatives": [],
+      "usage": "Gdy ktoś kichnie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Achoo! — Bless you! — Thanks.",
+          "pl": "Apsik! — Na zdrowie! — Dzięki."
+        }
+      ],
+      "note": "Po kichnięciu: „Bless you!”. Przy toaście: „Cheers!”.",
+      "tags": [
+        "reactions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.amazing",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 16,
+      "en": "amazing",
+      "pl": "niesamowity",
+      "alternatives": [],
+      "usage": "Bardzo pozytywna reakcja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The fireworks were amazing!",
+          "pl": "Fajerwerki były niesamowite!"
+        }
+      ],
+      "collocations": [
+        "absolutely amazing",
+        "an amazing night",
+        "that's amazing"
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.awful",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 17,
+      "en": "awful",
+      "pl": "okropny",
+      "alternatives": [],
+      "usage": "Bardzo negatywna reakcja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The weather was awful on Sunday.",
+          "pl": "Pogoda w niedzielę była okropna."
+        }
+      ],
+      "collocations": [
+        "that's awful",
+        "an awful day",
+        "awful weather"
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.weird",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 18,
+      "en": "weird",
+      "pl": "dziwny",
+      "alternatives": [],
+      "usage": "Coś nietypowego.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "That's weird — the stage is empty.",
+          "pl": "Dziwne — scena jest pusta."
+        }
+      ],
+      "collocations": [
+        "that's weird",
+        "a weird feeling",
+        "so weird"
+      ],
+      "pronunciation": "Czytaj „łird”.",
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.unbelievable",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 19,
+      "en": "unbelievable",
+      "pl": "niewiarygodny",
+      "alternatives": [],
+      "usage": "Coś trudnego do uwierzenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The atmosphere was unbelievable.",
+          "pl": "Atmosfera była niewiarygodna."
+        }
+      ],
+      "collocations": [
+        "absolutely unbelievable",
+        "it's unbelievable",
+        "an unbelievable night"
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.relieved",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 20,
+      "en": "relieved",
+      "pl": "odczuwający ulgę",
+      "alternatives": [],
+      "usage": "Po stresie wszystko jest OK.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm so relieved — they found my phone!",
+          "pl": "Ale ulga — znaleźli mój telefon!"
+        }
+      ],
+      "collocations": [
+        "so relieved",
+        "relieved to hear",
+        "feel relieved"
+      ],
+      "tags": [
+        "reactions",
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.reactions.shocked",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 21,
+      "en": "shocked",
+      "pl": "zszokowany",
+      "alternatives": [],
+      "usage": "Mocne zaskoczenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I was shocked by the prices.",
+          "pl": "Byłem zszokowany cenami."
+        }
+      ],
+      "collocations": [
+        "I was shocked",
+        "shocked to hear",
+        "totally shocked"
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.impressive",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 22,
+      "en": "impressive",
+      "pl": "imponujący",
+      "alternatives": [],
+      "usage": "Coś robi wrażenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The stage design is really impressive.",
+          "pl": "Scenografia robi ogromne wrażenie."
+        }
+      ],
+      "collocations": [
+        "really impressive",
+        "an impressive set",
+        "very impressive"
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.reactions.disappointing",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 23,
+      "en": "disappointing",
+      "pl": "rozczarowujący",
+      "alternatives": [],
+      "usage": "Gorzej niż oczekiwania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "His set was a bit disappointing.",
+          "pl": "Jego set był trochę rozczarowujący."
+        }
+      ],
+      "collocations": [
+        "a bit disappointing",
+        "really disappointing",
+        "a disappointing end"
+      ],
+      "note": "„Disappointing” — o rzeczy. „Disappointed” — o osobie: I was disappointed.",
+      "tags": [
+        "reactions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.reactions.hilarious",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 24,
+      "en": "hilarious",
+      "pl": "przezabawny",
+      "alternatives": [],
+      "usage": "Coś bardzo śmiesznego.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "His dance moves were hilarious.",
+          "pl": "Jego ruchy taneczne były przezabawne."
+        }
+      ],
+      "collocations": [
+        "absolutely hilarious",
+        "a hilarious story",
+        "it was hilarious"
+      ],
+      "pronunciation": "Czytaj „hy-LE-rjus”.",
+      "tags": [
+        "reactions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.reactions.thats-so",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 25,
+      "en": "That's so ___!",
+      "pl": "Ale ___!",
+      "alternatives": [],
+      "usage": "Szybka reakcja z przymiotnikiem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "That's so cool!",
+          "pl": "Ale super!"
+        },
+        {
+          "en": "That's so weird!",
+          "pl": "Ale dziwne!"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.what-a",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 26,
+      "en": "What a ___!",
+      "pl": "Co za ___!",
+      "alternatives": [],
+      "usage": "Okrzyk z rzeczownikiem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What a great idea!",
+          "pl": "Świetny pomysł!"
+        },
+        {
+          "en": "What a crazy night!",
+          "pl": "Ale szalona noc!"
+        }
+      ],
+      "note": "What a + przymiotnik + rzeczownik: What a great night!",
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.so-happy-that",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 27,
+      "en": "I'm so happy that ___.",
+      "pl": "Bardzo się cieszę, że ___.",
+      "alternatives": [],
+      "usage": "Radość z powodu czegoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm so happy that you came.",
+          "pl": "Bardzo się cieszę, że przyszedłeś."
+        },
+        {
+          "en": "I'm so happy that we got tickets.",
+          "pl": "Bardzo się cieszę, że mamy bilety."
+        }
+      ],
+      "tags": [
+        "reactions",
+        "feelings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.cant-believe",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 28,
+      "en": "I can't believe ___!",
+      "pl": "Nie mogę uwierzyć, że ___!",
+      "alternatives": [],
+      "usage": "Niedowierzanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I can't believe it's over!",
+          "pl": "Nie mogę uwierzyć, że to już koniec!"
+        },
+        {
+          "en": "I can't believe you've never been to a festival!",
+          "pl": "Nie mogę uwierzyć, że nigdy nie byłeś na festiwalu!"
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.it-sounds",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 29,
+      "en": "It sounds ___.",
+      "pl": "Brzmi ___.",
+      "alternatives": [],
+      "usage": "Reakcja na czyjś opis.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It sounds amazing.",
+          "pl": "Brzmi niesamowicie."
+        },
+        {
+          "en": "It sounds a bit scary.",
+          "pl": "Brzmi trochę strasznie."
+        }
+      ],
+      "note": "Po „sounds” przymiotnik: it sounds great (nie „greatly”).",
+      "tags": [
+        "reactions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.thats-why",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 30,
+      "en": "Oh, that's why ___.",
+      "pl": "Aha, to dlatego ___.",
+      "alternatives": [],
+      "usage": "Nagle rozumiesz przyczynę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Oh, that's why you're so tired.",
+          "pl": "Aha, to dlatego jesteś taki zmęczony."
+        },
+        {
+          "en": "Oh, that's why it's so busy.",
+          "pl": "Aha, to dlatego jest taki tłok."
+        }
+      ],
+      "tags": [
+        "reactions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.reactions.good-news",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 31,
+      "en": "Good news!",
+      "pl": "Dobra wiadomość!",
+      "alternatives": [],
+      "usage": "Reakcje na newsa.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Guess what! I got two tickets for Tomorrowland!",
+          "pl": "Zgadnij co! Mam dwa bilety na Tomorrowland!",
+          "speaker": "A"
+        },
+        {
+          "en": "No way! You're kidding!",
+          "pl": "Nie gadaj! Żartujesz!",
+          "speaker": "B"
+        },
+        {
+          "en": "No! And one of them is for you.",
+          "pl": "Nie! I jeden jest dla ciebie.",
+          "speaker": "A"
+        },
+        {
+          "en": "That's brilliant! I can't believe it!",
+          "pl": "Genialnie! Nie mogę w to uwierzyć!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "reactions",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.reactions.bad-news",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.reactions",
+      "order": 32,
+      "en": "Bad news",
+      "pl": "Zła wiadomość",
+      "alternatives": [],
+      "usage": "Współczucie i wsparcie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The flight's cancelled. We're stuck here until tomorrow.",
+          "pl": "Lot odwołany. Utknęliśmy tu do jutra.",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh no! That's so annoying.",
+          "pl": "O nie! Ale to wkurzające.",
+          "speaker": "B"
+        },
+        {
+          "en": "Tell me about it. But they gave us a free hotel.",
+          "pl": "Mnie mówisz. Ale dali nam darmowy hotel.",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh, OK. That makes it a bit better.",
+          "pl": "A, OK. To trochę poprawia sytuację.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "reactions",
+        "travel"
+      ],
+      "level": "A2"
+    }
+  ]
+}

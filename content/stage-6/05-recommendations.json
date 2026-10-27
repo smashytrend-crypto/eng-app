@@ -1,0 +1,870 @@
+{
+  "module": {
+    "id": "s6.recommendations",
+    "stage": 6,
+    "order": 5,
+    "title": "Opinie i polecanie",
+    "titleEn": "Opinions & recommendations",
+    "description": "Warto czy nie warto, polecam, przereklamowane, na twoim miejscu… Jak dawać i pytać o rekomendacje.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s6.recommendations.should-definitely-go",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 1,
+      "en": "You should definitely go.",
+      "pl": "Musisz tam koniecznie iść.",
+      "alternatives": [
+        "You should definitely go there.",
+        "You have to go."
+      ],
+      "usage": "Mocna rekomendacja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you been to Berghain? — No. — You should definitely go.",
+          "pl": "Byłeś w Berghain? — Nie. — Musisz koniecznie iść."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.worth-it",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 2,
+      "en": "It's worth it.",
+      "pl": "Warto.",
+      "alternatives": [
+        "It's totally worth it.",
+        "It's so worth it."
+      ],
+      "usage": "Coś jest warte ceny albo wysiłku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The tickets are expensive, but it's worth it.",
+          "pl": "Bilety są drogie, ale warto."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.not-worth-money",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 3,
+      "en": "It's not worth the money.",
+      "pl": "Nie jest warte tych pieniędzy.",
+      "alternatives": [],
+      "usage": "Coś jest przepłacone.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "VIP tickets? Honestly, it's not worth the money.",
+          "pl": "Bilety VIP? Szczerze, nie są warte tych pieniędzy."
+        }
+      ],
+      "tags": [
+        "opinions",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.recommend-it",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 4,
+      "en": "I'd recommend it.",
+      "pl": "Polecam.",
+      "alternatives": [
+        "I really recommend it.",
+        "I highly recommend it."
+      ],
+      "usage": "Krótka rekomendacja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How was the hostel? — Clean and cheap. I'd recommend it.",
+          "pl": "Jak hostel? — Czysty i tani. Polecam."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.bit-overrated",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 5,
+      "en": "It's a bit overrated.",
+      "pl": "Jest trochę przereklamowane.",
+      "alternatives": [
+        "It's overrated."
+      ],
+      "usage": "Coś jest mniej dobre, niż mówią.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Everyone loves that club, but I think it's a bit overrated.",
+          "pl": "Wszyscy kochają ten klub, ale dla mnie jest trochę przereklamowany."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.underrated",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 6,
+      "en": "It's really underrated.",
+      "pl": "Jest bardzo niedoceniane.",
+      "alternatives": [
+        "It's so underrated."
+      ],
+      "usage": "Coś jest lepsze, niż ludzie myślą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The smaller stages are really underrated. The best DJs are there.",
+          "pl": "Mniejsze sceny są bardzo niedoceniane. Tam są najlepsi DJ-e."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.what-did-you-think",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 7,
+      "en": "What did you think of it?",
+      "pl": "Jak ci się podobało?",
+      "alternatives": [
+        "What did you think?",
+        "How did you like it?"
+      ],
+      "usage": "Pytasz o opinię po fakcie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You saw the new show? What did you think of it?",
+          "pl": "Widziałeś nowe show? Jak ci się podobało?"
+        }
+      ],
+      "note": "Pytanie o opinię: What did you think OF it? (nie „How did you think”).",
+      "tags": [
+        "opinions",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.loved-it",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 8,
+      "en": "I loved it!",
+      "pl": "Bardzo mi się podobało!",
+      "alternatives": [
+        "I really loved it!",
+        "I absolutely loved it!"
+      ],
+      "usage": "Entuzjastyczna opinia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How was the concert? — I loved it!",
+          "pl": "Jak koncert? — Bardzo mi się podobał!"
+        }
+      ],
+      "tags": [
+        "opinions",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.ok-nothing-special",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 9,
+      "en": "It was OK, nothing special.",
+      "pl": "Było OK, nic specjalnego.",
+      "alternatives": [
+        "It was alright, nothing special."
+      ],
+      "usage": "Neutralna opinia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How was the restaurant? — It was OK, nothing special.",
+          "pl": "Jak restauracja? — Była OK, nic specjalnego."
+        }
+      ],
+      "tags": [
+        "opinions",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.whats-it-like",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 10,
+      "en": "What's it like?",
+      "pl": "Jak tam jest? / Jakie to jest?",
+      "alternatives": [],
+      "usage": "Prosisz o opis.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've never been to Amsterdam. What's it like?",
+          "pl": "Nigdy nie byłem w Amsterdamie. Jak tam jest?"
+        }
+      ],
+      "note": "„What's it like?” = jakie to jest? (opis). „Do you like it?” = czy ci się podoba?",
+      "tags": [
+        "opinions",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.any-good",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 11,
+      "en": "Is it any good?",
+      "pl": "Dobre to jest?",
+      "alternatives": [
+        "Is it good?"
+      ],
+      "usage": "Pytasz, czy warto.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm thinking of seeing that film. Is it any good?",
+          "pl": "Myślę o tym filmie. Dobry jest?"
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.dont-bother",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 12,
+      "en": "Don't bother.",
+      "pl": "Nie warto się fatygować.",
+      "alternatives": [],
+      "usage": "Odradzasz.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Should I go to the afterparty? — Don't bother. It's tiny and expensive.",
+          "pl": "Iść na afterparty? — Nie warto. Malutkie i drogie."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.its-a-must",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 13,
+      "en": "It's a must.",
+      "pl": "To obowiązkowy punkt.",
+      "alternatives": [
+        "It's a must-see.",
+        "It's a must-do."
+      ],
+      "usage": "Coś trzeba zobaczyć albo zrobić.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If you're in Brussels, the waffles are a must.",
+          "pl": "Jak jesteś w Brukseli, gofry to obowiązkowy punkt."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.trust-me",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 14,
+      "en": "Trust me.",
+      "pl": "Zaufaj mi.",
+      "alternatives": [],
+      "usage": "Przekonujesz kogoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Go to the sunrise set. Trust me, you won't regret it.",
+          "pl": "Idź na set o wschodzie słońca. Zaufaj mi, nie pożałujesz."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.give-it-a-try",
+      "type": "phrase",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 15,
+      "en": "Give it a try!",
+      "pl": "Spróbuj!",
+      "alternatives": [
+        "Give it a go!",
+        "Try it!"
+      ],
+      "usage": "Zachęcasz do czegoś nowego.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I've never had mussels. — Give it a try! They're delicious.",
+          "pl": "Nigdy nie jadłem muli. — Spróbuj! Są pyszne."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.recommend",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 16,
+      "en": "recommend",
+      "pl": "polecać",
+      "alternatives": [],
+      "usage": "Rekomendacja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you recommend a good bar near here?",
+          "pl": "Możesz polecić dobry bar w pobliżu?"
+        }
+      ],
+      "collocations": [
+        "recommend something",
+        "highly recommend",
+        "can you recommend…?"
+      ],
+      "note": "Polecić KOMUŚ = recommend something TO someone (nie „recommend me”).",
+      "pronunciation": "Akcent na końcu: „re-ko-MEND”.",
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.worth",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 17,
+      "en": "worth",
+      "pl": "wart",
+      "alternatives": [],
+      "usage": "Wartość czegoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it worth the money?",
+          "pl": "Czy to jest warte tych pieniędzy?"
+        }
+      ],
+      "collocations": [
+        "worth it",
+        "worth the money",
+        "worth visiting"
+      ],
+      "note": "Po „worth” czasownik z „-ing”: worth visiting, worth seeing.",
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.overrated",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 18,
+      "en": "overrated",
+      "pl": "przereklamowany",
+      "alternatives": [],
+      "usage": "Gorszy, niż mówią.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "In my opinion, that DJ is overrated.",
+          "pl": "Moim zdaniem ten DJ jest przereklamowany."
+        }
+      ],
+      "collocations": [
+        "totally overrated",
+        "a bit overrated",
+        "so overrated"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.review",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 19,
+      "en": "review",
+      "pl": "recenzja, opinia (w internecie)",
+      "alternatives": [],
+      "usage": "Oceny miejsc i rzeczy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The hostel has great reviews.",
+          "pl": "Hostel ma świetne opinie."
+        }
+      ],
+      "collocations": [
+        "a good review",
+        "read the reviews",
+        "a five-star review"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.highly",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 20,
+      "en": "highly",
+      "pl": "bardzo (polecać, oceniać)",
+      "alternatives": [],
+      "usage": "Wzmacniacz w opiniach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I highly recommend this place.",
+          "pl": "Gorąco polecam to miejsce."
+        }
+      ],
+      "collocations": [
+        "highly recommend",
+        "highly rated",
+        "highly likely"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.advice",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 21,
+      "en": "advice",
+      "pl": "rada",
+      "alternatives": [],
+      "usage": "Wskazówka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I give you some advice? Bring earplugs.",
+          "pl": "Mogę ci coś doradzić? Weź zatyczki do uszu."
+        }
+      ],
+      "collocations": [
+        "some advice",
+        "a piece of advice",
+        "give advice"
+      ],
+      "note": "Niepoliczalne: „some advice”, „a piece of advice”. Nigdy „an advice” ani „advices”.",
+      "tags": [
+        "opinions",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.suggest",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 22,
+      "en": "suggest",
+      "pl": "sugerować, proponować",
+      "alternatives": [],
+      "usage": "Propozycja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I suggest going early to avoid the queue.",
+          "pl": "Proponuję iść wcześnie, żeby uniknąć kolejki."
+        }
+      ],
+      "collocations": [
+        "suggest something",
+        "I suggest going",
+        "can you suggest…?"
+      ],
+      "note": "Po „suggest” czasownik z „-ing”: I suggest going (nie „suggest to go”).",
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.honest",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 23,
+      "en": "honest",
+      "pl": "szczery, uczciwy",
+      "alternatives": [],
+      "usage": "Prawdziwa opinia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Give me your honest opinion.",
+          "pl": "Powiedz mi szczerze, co myślisz."
+        }
+      ],
+      "collocations": [
+        "an honest opinion",
+        "be honest",
+        "an honest review"
+      ],
+      "pronunciation": "„h” jest nieme: czytaj „onest”.",
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.fantastic",
+      "type": "word",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 24,
+      "en": "fantastic",
+      "pl": "fantastyczny",
+      "alternatives": [],
+      "usage": "Bardzo dobry.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The food was fantastic.",
+          "pl": "Jedzenie było fantastyczne."
+        }
+      ],
+      "collocations": [
+        "absolutely fantastic",
+        "a fantastic set",
+        "fantastic food"
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.you-should",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 25,
+      "en": "You should ___.",
+      "pl": "Powinieneś ___.",
+      "alternatives": [],
+      "usage": "Radzisz coś komuś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You should try the waffles.",
+          "pl": "Musisz spróbować gofrów."
+        },
+        {
+          "en": "You should see him live.",
+          "pl": "Musisz go zobaczyć na żywo."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.if-i-were-you",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 26,
+      "en": "If I were you, I'd ___.",
+      "pl": "Na twoim miejscu ___.",
+      "alternatives": [],
+      "usage": "Rada z dystansem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If I were you, I'd buy the tickets now.",
+          "pl": "Na twoim miejscu kupiłbym bilety teraz."
+        },
+        {
+          "en": "If I were you, I'd take the train.",
+          "pl": "Na twoim miejscu pojechałbym pociągiem."
+        }
+      ],
+      "note": "„If I were you” — „were”, a nie „was” (choć w mowie słychać obie).",
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.worth-ing",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 27,
+      "en": "It's worth ___.",
+      "pl": "Warto ___.",
+      "alternatives": [],
+      "usage": "Rekomendacja z czasownikiem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's worth visiting.",
+          "pl": "Warto to zobaczyć."
+        },
+        {
+          "en": "It's worth the wait.",
+          "pl": "Warto poczekać."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s6.recommendations.id-recommend",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 28,
+      "en": "I'd recommend ___.",
+      "pl": "Polecam ___.",
+      "alternatives": [],
+      "usage": "Konkretna rekomendacja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd recommend the mussels.",
+          "pl": "Polecam mule."
+        },
+        {
+          "en": "I'd recommend going early.",
+          "pl": "Polecam iść wcześnie."
+        }
+      ],
+      "tags": [
+        "opinions"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.think-of",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 29,
+      "en": "What do you think of ___?",
+      "pl": "Co sądzisz o ___?",
+      "alternatives": [],
+      "usage": "Pytasz o opinię.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What do you think of the new album?",
+          "pl": "Co sądzisz o nowym albumie?"
+        },
+        {
+          "en": "What do you think of Berlin?",
+          "pl": "Co sądzisz o Berlinie?"
+        }
+      ],
+      "note": "„Co sądzisz o…” = „What do you think OF / ABOUT…” (nie „What do you think ON”).",
+      "tags": [
+        "opinions",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.best-thing-about-berlin",
+      "type": "pattern",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 30,
+      "en": "The best thing about Berlin is ___.",
+      "pl": "Najlepsze w Berlinie jest ___.",
+      "alternatives": [],
+      "usage": "Wskazujesz największy plus.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The best thing about Berlin is the clubs.",
+          "pl": "Najlepsze w Berlinie są kluby."
+        },
+        {
+          "en": "The best thing about Berlin is that everything is open late.",
+          "pl": "Najlepsze w Berlinie jest to, że wszystko jest otwarte do późna."
+        }
+      ],
+      "tags": [
+        "opinions",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.recommend-club",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 31,
+      "en": "Any recommendations?",
+      "pl": "Jakieś polecenia?",
+      "alternatives": [],
+      "usage": "Pytasz miejscowego o kluby.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm in Berlin for the weekend. Can you recommend a good club?",
+          "pl": "Jestem w Berlinie na weekend. Możesz polecić dobry klub?",
+          "speaker": "A"
+        },
+        {
+          "en": "You should definitely go to Tresor. It's a must.",
+          "pl": "Koniecznie idź do Tresora. Obowiązkowo.",
+          "speaker": "B"
+        },
+        {
+          "en": "Is it worth the queue?",
+          "pl": "Warto stać w kolejce?",
+          "speaker": "A"
+        },
+        {
+          "en": "Totally. If I were you, I'd go on Sunday morning. Trust me.",
+          "pl": "Totalnie. Na twoim miejscu poszedłbym w niedzielę rano. Zaufaj mi.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "opinions",
+        "music",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s6.recommendations.album-opinion",
+      "type": "dialog",
+      "stage": 6,
+      "module": "s6.recommendations",
+      "order": 32,
+      "en": "What did you think?",
+      "pl": "Opinia o albumie",
+      "alternatives": [],
+      "usage": "Wymiana opinii o albumie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Have you heard the new Fisher album? What did you think of it?",
+          "pl": "Słyszałeś nowy album Fishera? Jak ci się podobał?",
+          "speaker": "A"
+        },
+        {
+          "en": "Honestly? It was OK, nothing special. A bit overrated.",
+          "pl": "Szczerze? Był OK, nic specjalnego. Trochę przereklamowany.",
+          "speaker": "B"
+        },
+        {
+          "en": "Really? I loved it! Give it another try.",
+          "pl": "Serio? Mi się bardzo podobał! Daj mu jeszcze szansę.",
+          "speaker": "A"
+        },
+        {
+          "en": "Fair enough. I'll listen again.",
+          "pl": "No dobra. Posłucham jeszcze raz.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "opinions",
+        "music"
+      ],
+      "level": "A2"
+    }
+  ]
+}
