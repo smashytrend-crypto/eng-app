@@ -4,7 +4,7 @@
   "order": 3,
   "level": "A1",
   "title": "Słówka A1 · 3",
-  "description": "Absolutne podstawy — słowa, bez których nie da się rozmawiać. Część 3 z 3."
+  "description": "Absolutne podstawy — słowa, bez których nie da się rozmawiać. Część 3 z 4."
  },
  "items": [
   {
@@ -1760,51 +1760,220 @@
    ]
   },
   {
-   "id": "v.colour",
-   "en": "colour",
-   "pl": "kolor",
+   "id": "v.trip",
+   "en": "trip",
+   "pl": "wycieczka, wyjazd",
    "pos": "n",
    "level": "A1",
-   "rank": 1458,
-   "alternatives": [
-    "color"
-   ],
+   "rank": 801,
    "example": [
     {
-     "en": "What colour is your bag?",
-     "pl": "Jakiego koloru jest twoja torba?"
+     "en": "How was your trip?",
+     "pl": "Jak minął wyjazd?"
     }
    ],
    "collocations": [
-    "favourite colour",
-    "bright colours",
-    "what colour"
+    "day trip",
+    "business trip",
+    "road trip"
+   ]
+  },
+  {
+   "id": "v.dress",
+   "en": "dress",
+   "pl": "sukienka; ubierać się",
+   "pos": "n",
+   "level": "A1",
+   "rank": 802,
+   "example": [
+    {
+     "en": "She's wearing a red dress.",
+     "pl": "Ma na sobie czerwoną sukienkę."
+    }
    ],
-   "note": "UK „colour”, US „color”.",
+   "collocations": [
+    "get dressed",
+    "dress code",
+    "dress up"
+   ]
+  },
+  {
+   "id": "v.sing",
+   "en": "sing",
+   "pl": "śpiewać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 805,
+   "example": [
+    {
+     "en": "Everyone was singing along.",
+     "pl": "Wszyscy śpiewali razem."
+    }
+   ],
+   "collocations": [
+    "sing along",
+    "sing a song",
+    "sing karaoke"
+   ],
+   "note": "sing – sang – sung."
+  },
+  {
+   "id": "v.floor",
+   "en": "floor",
+   "pl": "podłoga; piętro",
+   "pos": "n",
+   "level": "A1",
+   "rank": 824,
+   "example": [
+    {
+     "en": "Our room is on the fifth floor.",
+     "pl": "Nasz pokój jest na piątym piętrze."
+    }
+   ],
+   "collocations": [
+    "ground floor",
+    "dance floor",
+    "on the floor"
+   ],
+   "note": "UK „ground floor” = parter, „first floor” = pierwsze piętro.",
    "tags": [
     "uk-us"
    ]
   },
   {
-   "id": "v.a-lot",
-   "en": "a lot",
-   "pl": "dużo, wiele",
-   "pos": "phr",
+   "id": "v.quickly",
+   "en": "quickly",
+   "pl": "szybko",
+   "pos": "adv",
    "level": "A1",
-   "rank": 50001,
-   "alternatives": [
-    "lots"
-   ],
+   "rank": 831,
    "example": [
     {
-     "en": "Thanks a lot!",
-     "pl": "Wielkie dzięki!"
+     "en": "Come quickly!",
+     "pl": "Chodź szybko!"
     }
    ],
    "collocations": [
-    "a lot of people",
-    "a lot of time",
-    "thanks a lot"
+    "very quickly",
+    "quickly as possible",
+    "move quickly"
+   ]
+  },
+  {
+   "id": "v.dollar",
+   "en": "dollar",
+   "pl": "dolar",
+   "pos": "n",
+   "level": "A1",
+   "rank": 836,
+   "example": [
+    {
+     "en": "It costs ten dollars.",
+     "pl": "To kosztuje dziesięć dolarów."
+    }
+   ],
+   "collocations": [
+    "dollars",
+    "US dollar",
+    "a few dollars"
+   ]
+  },
+  {
+   "id": "v.sun",
+   "en": "sun",
+   "pl": "słońce",
+   "pos": "n",
+   "level": "A1",
+   "rank": 850,
+   "example": [
+    {
+     "en": "Let's sit in the sun.",
+     "pl": "Usiądźmy na słońcu."
+    }
+   ],
+   "collocations": [
+    "in the sun",
+    "sunrise",
+    "sunset"
+   ]
+  },
+  {
+   "id": "v.camera",
+   "en": "camera",
+   "pl": "aparat, kamera",
+   "pos": "n",
+   "level": "A1",
+   "rank": 859,
+   "example": [
+    {
+     "en": "Don't forget your camera.",
+     "pl": "Nie zapomnij aparatu."
+    }
+   ],
+   "collocations": [
+    "digital camera",
+    "camera phone",
+    "on camera"
+   ]
+  },
+  {
+   "id": "v.slow",
+   "en": "slow",
+   "pl": "wolny, powolny",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 878,
+   "example": [
+    {
+     "en": "The Wi-Fi is so slow.",
+     "pl": "Wi-Fi jest strasznie wolne."
+    }
+   ],
+   "collocations": [
+    "slow down",
+    "slow internet",
+    "too slow"
+   ]
+  },
+  {
+   "id": "v.dad",
+   "en": "dad",
+   "pl": "tata",
+   "pos": "n",
+   "level": "A1",
+   "rank": 881,
+   "example": [
+    {
+     "en": "My dad taught me to drive.",
+     "pl": "Tata nauczył mnie prowadzić."
+    }
+   ],
+   "collocations": [
+    "my dad",
+    "mum and dad",
+    "dad joke"
+   ],
+   "tags": [
+    "family"
+   ]
+  },
+  {
+   "id": "v.leg",
+   "en": "leg",
+   "pl": "noga",
+   "pos": "n",
+   "level": "A1",
+   "rank": 886,
+   "example": [
+    {
+     "en": "Today is leg day at the gym.",
+     "pl": "Dziś na siłowni nogi."
+    }
+   ],
+   "collocations": [
+    "leg day",
+    "broken leg",
+    "stretch your legs"
    ]
   }
  ]
