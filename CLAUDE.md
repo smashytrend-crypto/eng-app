@@ -42,9 +42,11 @@ Przed każdym commitem: `npm run validate && npm test && npm run build` — wszy
 ```
 content/                    TREŚCI (JSON) — tu dodajesz moduły
   stages.json               lista 8 etapów (id, tytuł, opis, szacowane tygodnie)
-  stage-1/01-greetings.json jeden plik = jeden moduł
+  stage-1/01-first-words.json  jeden plik = jeden moduł (stan: 8 etapów, 48 modułów, 1516 elementów)
   stage-1/02-....json
-scripts/validate.ts         npm run validate
+  speaking-tasks.json       zadania mówione dnia (`task.*`, min. 5 na etap)
+  missions.json             misje weekendowe = scenki z rozmówcą (`mission.*`, 2 na etap)
+scripts/validate.ts         npm run validate (moduły + zadania + misje)
 docs/SPEC.md                specyfikacja właściciela
 docs/DEPLOY.md              instrukcja wdrożenia krok po kroku
 public/                     ikony PWA, favicon
@@ -59,10 +61,13 @@ src/
     lessonQueue.ts            budowanie dzisiejszej lekcji (limity, zaległości, nowe elementy)
     answerCheck.ts            tolerancyjne sprawdzanie wpisanej odpowiedzi + diff
     dates.ts                  „dzień nauki” (zaczyna się o 4:00), seria, daty
-    plan.ts                   (faza 3) przeliczanie planu do daty docelowej
-  speech/                   TTS (wybór najlepszego głosu EN/PL), rozpoznawanie mowy (faza 2)
-  screens/                  ekrany: Today, Lesson, Onboarding, Settings, (później Path, Phrasebook,
-                            Audio, Progress)
+    plan.ts                   przeliczanie planu do daty docelowej, wyjazdy, harmonogram etapów
+    exercises.ts              dane do ćwiczeń: przypominanie, luka, rozsypanka, zdanie do dyktanda
+    stats.ts, search.ts, tasks.ts, audioPlaylist.ts, claudePrompt.ts
+  state/                    router (#hash), motyw, hooki (ustawienia, karty, mowa), start lekcji, PWA
+  speech/                   TTS (wybór najlepszego głosu EN/PL), rozpoznawanie mowy
+  screens/                  Today, lesson/* (8 rodzajów ćwiczeń), Onboarding, Settings, path/* (Ścieżka,
+                            misje), phrases/* (rozmówki, moduł, element, własne zwroty), audio/, Progress
   components/               wspólne komponenty UI (Button, Card, BottomNav, ...)
 ```
 
@@ -72,7 +77,7 @@ src/
 - `settings` — jeden rekord: data docelowa, nowe/dzień, max powtórek/dzień, głos, tempo, motyw.
 - `days` — aktywność per dzień nauki (czas, liczba kart) → seria i kalendarz.
 - `session` — bieżąca lekcja (kolejka + pozycja), żeby po przerwaniu wrócić w to samo miejsce.
-- (faza 3) `customItems`, `favorites`, `trips`.
+- `customItems` (własne zwroty, id `u.*`), `favorites`, `trips` (wyjazdy), `missions` (zaliczone misje).
 - Zapis po **każdej** karcie (transakcja: karta + log + dzień + sesja).
 - Eksport/import: jeden plik JSON ze wszystkimi tabelami + `schemaVersion`.
 
@@ -131,9 +136,11 @@ src/
 ### Konwencja tagów
 - Gramatyka: `gr:present-simple`, `gr:there-is-are`, `gr:going-to`, `gr:present-continuous-future`,
   `gr:past-simple`, `gr:present-perfect`, `gr:questions-do`, `gr:articles`, `gr:can`, `gr:would-like`.
-- Tematy: `gym`, `music`, `festival`, `games`, `travel`, `food`, `work`, `smalltalk`, `numbers`, `time`.
+- Tematy: `gym`, `music`, `festival`, `games`, `travel`, `food`, `work`, `smalltalk`, `numbers`, `time`,
+  `greetings`, `weather`, `family`, `home`, `routine`, `shopping`, `health`, `phone`, `story`, `future`,
+  `dreams`, `opinions`, `reactions`, `feelings`, `comparisons`, `crowd`.
 - Specjalne: `rescue` (zwroty ratunkowe), `polish-trap` (pułapka dla Polaków), `uk-us` (różnica UK/US),
-  `slang`, `idiom`.
+  `slang`, `idiom`, `phrasal-verbs`, `fillers`, `starter` (elementy testu „to już znam” w onboardingu).
 
 ## Zasady jakości treści
 1. **Naturalny, współczesny angielski mówiony** — tak mówią native speakerzy (np. „How's it going?”,
@@ -167,6 +174,7 @@ src/
    - Duplikaty z innymi modułami?
 5. Uruchom `npm run validate` → popraw błędy/ostrzeżenia. Potem `npm test` i `npm run build`.
 6. Commit (`content: add stage Y module NN slug`) i push na `main` → Cloudflare Pages wdroży sam w ~2 min.
+   Przy nowym etapie dopisz też zadania mówione (`speaking-tasks.json`) i 2 misje (`missions.json`).
 7. Napisz Dominowi 2–3 zdania: jaki moduł, ile elementów, kiedy pojawi się w lekcjach (nowe elementy
    wchodzą w kolejności etap → moduł → order; w fazie 3 wyjazd może dać priorytet modułom
    `travel`/`festival`).
@@ -176,10 +184,11 @@ Nowy moduł nie wymaga zmian w kodzie — `src/content/index.ts` wykrywa pliki a
 Poprawianie tekstu (`en`, `pl`, przykładów) jest OK.
 
 ## Fazy
-- [ ] Faza 1 — MVP: lekcja (FSRS, karty PL → EN, wpisywanie, odsłuch), onboarding, ustawienia,
+- [x] Faza 1 — MVP: lekcja (FSRS, karty PL → EN, wpisywanie, odsłuch), onboarding, ustawienia,
       eksport/import, treści Etapu 1, PWA, wdrożenie.
-- [ ] Faza 2 — mówienie i ćwiczenia: luki, rozsypanki, dyktando, rozpoznawanie mowy, shadowing,
+- [x] Faza 2 — mówienie i ćwiczenia: luki, rozsypanki, dyktando, rozpoznawanie mowy, shadowing,
       zadanie mówione, „Ćwicz rozmowę z Claude”.
-- [ ] Faza 3 — prowadzenie: Ścieżka do wakacji (plan, wyjazdy), rozmówki, własne zwroty, trudne,
+- [x] Faza 3 — prowadzenie: Ścieżka do wakacji (plan, wyjazdy), rozmówki, własne zwroty, trudne,
       tryb audio, postępy.
-- [ ] Faza 4 — treści: kolejne etapy, po jednym module, zawsze z walidacją.
+- [x] Faza 4 — treści: Etapy 1–8 (48 modułów, 1516 elementów, 48 zadań mówionych, 16 misji).
+      Dalsze moduły dodawaj wg „Jak dodać moduł” — zawsze z walidacją.
