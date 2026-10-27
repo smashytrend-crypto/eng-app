@@ -1001,6 +1001,171 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mission.s7-new-friends",
+      "stage": 7,
+      "title": "Nowi znajomi pod sceną",
+      "titleEn": "New friends at the stage",
+      "setting": "Druga noc festiwalu. Pod sceną poznajesz Sofię z Hiszpanii i jej ekipę. Gadacie, wymieniacie kontakty i ustalacie, jak się nie zgubić.",
+      "claudeScenario": "We're at a festival, second night. You're Sofia from Madrid, with a group of friends. Chat to me naturally — use casual English, fillers and some slang. We get to know each other, swap contacts and plan how not to lose each other.",
+      "tags": [
+        "festival",
+        "crowd",
+        "fillers"
+      ],
+      "steps": [
+        {
+          "them": "Hey! I love your flag! Is that Poland?",
+          "themPl": "Hej! Super flaga! To Polska?",
+          "task": "Potwierdź i zapytaj, skąd jest jej ekipa.",
+          "answer": "Yeah! Where are you guys from?",
+          "alt": [
+            "Yes! Where are you guys from?"
+          ]
+        },
+        {
+          "them": "Madrid! Mind if we stand here with you?",
+          "themPl": "Z Madrytu! Możemy tu z wami stanąć?",
+          "task": "Powiedz, że jasne — im więcej, tym lepiej.",
+          "answer": "Sure! The more, the better.",
+          "alt": [
+            "Of course! The more, the better."
+          ]
+        },
+        {
+          "them": "So, what brings you here? Is this your first time?",
+          "themPl": "Co cię tu sprowadza? Pierwszy raz?",
+          "task": "Powiedz, że to twój czwarty raz — klimat jest niesamowity.",
+          "answer": "No, it's my fourth time. The vibe here is amazing.",
+          "alt": [
+            "It's my fourth time! The vibe is amazing."
+          ]
+        },
+        {
+          "them": "Nice! Honestly, our group got lost twice today. It was kind of a mess.",
+          "themPl": "Fajnie! Szczerze, nasza ekipa zgubiła się dziś dwa razy. Totalny chaos.",
+          "task": "Powiedz, że powinni mieć punkt spotkań — wy macie totem.",
+          "answer": "You should have a meeting point. We use a totem.",
+          "alt": [
+            "You need a meeting point. We have a totem."
+          ]
+        },
+        {
+          "them": "Smart! What does it look like?",
+          "themPl": "Sprytne! Jak wygląda?",
+          "task": "Powiedz, że to wielki pieróg — nie da się go przegapić.",
+          "answer": "It's a giant pierogi. You can't miss it!",
+          "alt": [
+            "It's a big pierogi. You can't miss it."
+          ]
+        },
+        {
+          "them": "Haha, legend! Can I get your Insta?",
+          "themPl": "Haha, kozak! Dasz mi swoje Insta?",
+          "task": "Podaj nick i poproś, żeby oznaczyła cię na zdjęciach.",
+          "answer": "Sure, it's domin_techno. Tag me in the photos!",
+          "alt": [
+            "It's domin_techno. Tag me in the photos!"
+          ]
+        },
+        {
+          "them": "Done! Are you guys going to the closing set tomorrow?",
+          "themPl": "Gotowe! Idziecie jutro na set zamknięcia?",
+          "task": "Powiedz, że tak, i zaproponuj, żebyście poszli razem.",
+          "answer": "Yeah! Let's go together!",
+          "alt": [
+            "Definitely. Let's go together!"
+          ]
+        },
+        {
+          "them": "Deal! If we lose each other, where do we meet?",
+          "themPl": "Umowa! Jak się zgubimy, gdzie się spotykamy?",
+          "task": "Powiedz: przy totemie, obok lewego głośnika.",
+          "answer": "Let's meet at the totem, next to the left speaker.",
+          "alt": [
+            "At the totem, by the left speaker."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission.s7-plans-change",
+      "stage": 7,
+      "title": "Zmiana planów",
+      "titleEn": "Change of plans",
+      "setting": "Umówiłeś się z kumplem z Anglii na wieczór, ale wszystko się sypie: odwołany koncert, spóźnienie, padający telefon. Ogarniacie to phrasal verbami.",
+      "claudeScenario": "You're Jack, my English mate. We planned a concert tonight, but it gets called off. Talk to me casually with lots of phrasal verbs (call off, put off, sort out, meet up, pick up, run out of) and help me make a new plan.",
+      "tags": [
+        "phrasal-verbs",
+        "idiom"
+      ],
+      "steps": [
+        {
+          "them": "Mate, bad news. They've called off the concert.",
+          "themPl": "Stary, zła wiadomość. Odwołali koncert.",
+          "task": "Zareaguj: jesteś załamany — i zapytaj dlaczego.",
+          "answer": "No way, I'm gutted! Why?",
+          "alt": [
+            "Oh no, I'm gutted. Why?"
+          ]
+        },
+        {
+          "them": "The singer's ill. They've put it off until next month.",
+          "themPl": "Wokalista jest chory. Przełożyli na przyszły miesiąc.",
+          "task": "Zaproponuj, żebyście i tak się spotkali.",
+          "answer": "Let's meet up anyway!",
+          "alt": [
+            "We should still meet up!"
+          ]
+        },
+        {
+          "them": "Good idea. Can you pick me up at eight?",
+          "themPl": "Dobry pomysł. Odbierzesz mnie o ósmej?",
+          "task": "Powiedz, że tak, ale musisz najpierw zatankować — skończyła ci się benzyna.",
+          "answer": "Sure, but I've run out of petrol. I need to get some first.",
+          "alt": [
+            "Yes, but I've run out of petrol."
+          ]
+        },
+        {
+          "them": "No worries. What do you fancy doing?",
+          "themPl": "Spoko. Na co masz ochotę?",
+          "task": "Powiedz, że nie chce ci się iść do klubu — wolisz coś spokojnego.",
+          "answer": "I can't be bothered to go to a club. Something chilled?",
+          "alt": [
+            "I can't be bothered to go clubbing. Something chill?"
+          ]
+        },
+        {
+          "them": "Fair enough. There's a new burger place. Is it any good, do you know?",
+          "themPl": "No dobra. Jest nowa burgerownia. Wiesz, czy dobra?",
+          "task": "Powiedz, że nie wiesz, ale się dowiesz i dasz znać.",
+          "answer": "No idea, but I'll find out and let you know.",
+          "alt": [
+            "Not sure. I'll find out and let you know."
+          ]
+        },
+        {
+          "them": "Cheers. My phone's about to die, by the way.",
+          "themPl": "Dzięki. Tak w ogóle, telefon mi zaraz padnie.",
+          "task": "Powiedz, żeby się nie martwił — ogarniesz to, i że będziesz pod jego domem o ósmej.",
+          "answer": "Don't worry, I'll sort it out. I'll be outside your place at eight.",
+          "alt": [
+            "No worries, I'll sort it out. See you at eight."
+          ]
+        },
+        {
+          "them": "You're a legend. See you later!",
+          "themPl": "Jesteś wielki. Do zobaczenia!",
+          "task": "Pożegnaj się luźno.",
+          "answer": "See you later, mate!",
+          "alt": [
+            "Catch you later!",
+            "See you!"
+          ]
+        }
+      ]
     }
   ]
 }

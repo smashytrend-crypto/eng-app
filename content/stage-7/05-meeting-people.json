@@ -1,0 +1,872 @@
+{
+  "module": {
+    "id": "s7.meeting-people",
+    "stage": 7,
+    "order": 5,
+    "title": "Imprezy: poznawanie ludzi",
+    "titleEn": "Parties: meeting people",
+    "description": "Zagadywanie ludzi z innych krajów na festiwalu i w klubie: skąd jesteście, komplementy, drinki, selfie i „spotkajmy się jutro”.",
+    "tags": [
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s7.meeting-people.where-you-guys-from",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 1,
+      "en": "Where are you guys from?",
+      "pl": "Skąd jesteście?",
+      "alternatives": [
+        "Where are you all from?",
+        "Hey, where are you guys from?"
+      ],
+      "usage": "Zagadujesz grupę na festiwalu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hey! Where are you guys from? — Brazil! And you?",
+          "pl": "Hej! Skąd jesteście? — Z Brazylii! A ty?"
+        }
+      ],
+      "tags": [
+        "festival",
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.who-did-you-come-with",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 2,
+      "en": "Who did you come with?",
+      "pl": "Z kim przyjechałeś?",
+      "alternatives": [
+        "Who are you here with?"
+      ],
+      "usage": "Dopytujesz o czyjąś ekipę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Who did you come with? — My cousins. They're at the bar.",
+          "pl": "Z kim przyjechałeś? — Z kuzynami. Są przy barze."
+        }
+      ],
+      "tags": [
+        "festival",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.meeting-people.cheers-to-that",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 3,
+      "en": "Cheers to that!",
+      "pl": "Za to!",
+      "alternatives": [
+        "I'll drink to that!"
+      ],
+      "usage": "Toast albo entuzjastyczna zgoda.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "To the best festival in the world! — Cheers to that!",
+          "pl": "Za najlepszy festiwal na świecie! — Za to!"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.get-you-a-drink",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 4,
+      "en": "Can I get you a drink?",
+      "pl": "Postawić ci drinka?",
+      "alternatives": [
+        "Can I buy you a drink?",
+        "Do you want a drink?"
+      ],
+      "usage": "Miły gest przy poznawaniu ludzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I get you a drink? — Oh, that's nice. A beer, please!",
+          "pl": "Postawić ci drinka? — O, miło. Piwo poproszę!"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.love-your-outfit",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 5,
+      "en": "Love your outfit!",
+      "pl": "Super strój!",
+      "alternatives": [
+        "I love your outfit!",
+        "Nice outfit!"
+      ],
+      "usage": "Komplement — na festiwalach ludzie się przebierają.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Love your outfit! Where did you get it? — I made it myself!",
+          "pl": "Super strój! Skąd masz? — Sama zrobiłam!"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.what-brings-you-here",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 6,
+      "en": "What brings you here?",
+      "pl": "Co cię tu sprowadza?",
+      "alternatives": [],
+      "usage": "Ciekawe pytanie na start rozmowy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What brings you here? — My friend got free tickets!",
+          "pl": "Co cię tu sprowadza? — Kumpel dostał darmowe bilety!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.meeting-people.didnt-catch-your-name",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 7,
+      "en": "Sorry, I didn't catch your name.",
+      "pl": "Sorry, nie dosłyszałem twojego imienia.",
+      "alternatives": [
+        "Sorry, what's your name again?"
+      ],
+      "usage": "W głośnym miejscu to normalne.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I didn't catch your name. — It's Mia!",
+          "pl": "Sorry, nie dosłyszałem imienia. — Mia!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.how-know-each-other",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 8,
+      "en": "How do you know each other?",
+      "pl": "Skąd się znacie?",
+      "alternatives": [],
+      "usage": "Pytasz grupę o ich znajomość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How do you know each other? — We met at this festival five years ago!",
+          "pl": "Skąd się znacie? — Poznaliśmy się na tym festiwalu pięć lat temu!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.meeting-people.having-good-time",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 9,
+      "en": "Are you having a good time?",
+      "pl": "Dobrze się bawisz?",
+      "alternatives": [
+        "Are you having fun?"
+      ],
+      "usage": "Sprawdzasz nastrój.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you having a good time? — The best!",
+          "pl": "Dobrze się bawisz? — Najlepiej!"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.vibe-amazing",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 10,
+      "en": "The vibe here is amazing.",
+      "pl": "Klimat tu jest niesamowity.",
+      "alternatives": [
+        "The atmosphere here is amazing.",
+        "Amazing vibe here!"
+      ],
+      "usage": "Komentarz do atmosfery.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Everyone's so friendly. The vibe here is amazing.",
+          "pl": "Wszyscy są tacy mili. Klimat tu jest niesamowity."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.come-here-often",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 11,
+      "en": "Do you come here often?",
+      "pl": "Często tu bywasz?",
+      "alternatives": [],
+      "usage": "Klasyczny żart — „tekst na podryw”. Mówi się z uśmiechem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "So… do you come here often? — Haha, every year!",
+          "pl": "No to… często tu bywasz? — Haha, co roku!"
+        }
+      ],
+      "note": "To tak oklepany tekst, że mówi się go żartem — i ludzie to łapią.",
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.take-a-selfie",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 12,
+      "en": "Let's take a selfie!",
+      "pl": "Zróbmy selfie!",
+      "alternatives": [
+        "Let's take a picture!",
+        "Let's get a selfie!"
+      ],
+      "usage": "Pamiątka z nowymi znajomymi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's take a selfie! Everyone get closer!",
+          "pl": "Zróbmy selfie! Wszyscy bliżej!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.hang-out-tomorrow",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 13,
+      "en": "We should hang out tomorrow.",
+      "pl": "Powinniśmy jutro razem pobalować.",
+      "alternatives": [
+        "Let's hang out tomorrow.",
+        "We should meet up tomorrow."
+      ],
+      "usage": "Proponujesz dalszą znajomość.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You guys are great. We should hang out tomorrow.",
+          "pl": "Jesteście super. Powinniśmy jutro razem pobalować."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.nice-meeting-you",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 14,
+      "en": "It was really nice meeting you.",
+      "pl": "Bardzo miło było cię poznać.",
+      "alternatives": [
+        "It was great meeting you.",
+        "Nice meeting you!"
+      ],
+      "usage": "Pożegnanie z kimś nowym.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It was really nice meeting you. Enjoy the rest of the festival!",
+          "pl": "Bardzo miło było cię poznać. Baw się dobrze do końca!"
+        }
+      ],
+      "note": "Na początku: Nice to meet you. Na pożegnanie: Nice meeting you.",
+      "tags": [
+        "festival",
+        "greetings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.still-learning",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 15,
+      "en": "Thanks, I'm still learning!",
+      "pl": "Dzięki, wciąż się uczę!",
+      "alternatives": [],
+      "usage": "Gdy ktoś chwali twój angielski.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Your English is really good! — Thanks, I'm still learning!",
+          "pl": "Dobrze mówisz po angielsku! — Dzięki, wciąż się uczę!"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.stranger",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 16,
+      "en": "stranger",
+      "pl": "nieznajomy",
+      "alternatives": [],
+      "usage": "Osoba, której nie znasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "At festivals, strangers become friends.",
+          "pl": "Na festiwalach nieznajomi stają się przyjaciółmi."
+        }
+      ],
+      "collocations": [
+        "a complete stranger",
+        "talk to strangers",
+        "strangers become friends"
+      ],
+      "note": "„Stranger” = nieznajomy. „Obcokrajowiec” to „foreigner”.",
+      "tags": [
+        "festival",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.outfit",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 17,
+      "en": "outfit",
+      "pl": "strój, stylizacja",
+      "alternatives": [],
+      "usage": "Ubranie na konkretną okazję.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've planned a different outfit for every day.",
+          "pl": "Mam zaplanowany inny strój na każdy dzień."
+        }
+      ],
+      "collocations": [
+        "festival outfit",
+        "a crazy outfit",
+        "love your outfit"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.flag",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 18,
+      "en": "flag",
+      "pl": "flaga",
+      "alternatives": [],
+      "usage": "Na festiwalach ludzie noszą flagi swoich krajów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Follow the Polish flag — that's our group!",
+          "pl": "Idź za polską flagą — to nasza ekipa!"
+        }
+      ],
+      "collocations": [
+        "the Polish flag",
+        "wave a flag",
+        "follow the flag"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.group",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 19,
+      "en": "group",
+      "pl": "grupa, ekipa",
+      "alternatives": [],
+      "usage": "Ludzie, z którymi jesteś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Our group is huge this year — twelve people!",
+          "pl": "Nasza ekipa jest w tym roku ogromna — dwanaście osób!"
+        }
+      ],
+      "collocations": [
+        "our group",
+        "a big group",
+        "join our group"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.friendly",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 20,
+      "en": "friendly",
+      "pl": "przyjazny, miły",
+      "alternatives": [],
+      "usage": "O ludziach i atmosferze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Everyone here is so friendly.",
+          "pl": "Wszyscy tu są tacy mili."
+        }
+      ],
+      "collocations": [
+        "really friendly",
+        "friendly people",
+        "a friendly vibe"
+      ],
+      "note": "„Friendly” to przymiotnik — nie ma formy „friendlyly”.",
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.nationality",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 21,
+      "en": "nationality",
+      "pl": "narodowość",
+      "alternatives": [],
+      "usage": "Skąd ktoś pochodzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There are people of every nationality here.",
+          "pl": "Są tu ludzie każdej narodowości."
+        }
+      ],
+      "collocations": [
+        "different nationalities",
+        "what nationality",
+        "nationality on the passport"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.meeting-people.chat",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 22,
+      "en": "chat",
+      "pl": "pogawędka; gadać",
+      "alternatives": [],
+      "usage": "Luźna rozmowa.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It was nice chatting with you!",
+          "pl": "Miło się z tobą gadało!"
+        }
+      ],
+      "collocations": [
+        "have a chat",
+        "nice chatting",
+        "chat with someone"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.dance",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 23,
+      "en": "dance",
+      "pl": "tańczyć; taniec",
+      "alternatives": [],
+      "usage": "Podstawa festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We danced all night.",
+          "pl": "Tańczyliśmy całą noc."
+        }
+      ],
+      "collocations": [
+        "dance all night",
+        "the dance floor",
+        "a dance move"
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.introduce",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 24,
+      "en": "introduce",
+      "pl": "przedstawić (kogoś)",
+      "alternatives": [],
+      "usage": "Zapoznawanie ludzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let me introduce you to my friends.",
+          "pl": "Pozwól, że przedstawię cię moim znajomym."
+        }
+      ],
+      "collocations": [
+        "introduce yourself",
+        "let me introduce…",
+        "introduce someone to…"
+      ],
+      "note": "Przedstawić KOMUŚ = introduce TO someone.",
+      "tags": [
+        "festival",
+        "greetings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.mind-if-i",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 25,
+      "en": "Mind if I ___?",
+      "pl": "Mogę ___? (nie przeszkadza ci?)",
+      "alternatives": [],
+      "usage": "Grzeczna prośba o pozwolenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Mind if I sit here?",
+          "pl": "Mogę tu usiąść?"
+        },
+        {
+          "en": "Mind if I join you?",
+          "pl": "Mogę się dołączyć?"
+        }
+      ],
+      "note": "Odpowiedź „No, go ahead” znaczy „TAK, proszę” (nie przeszkadza mi).",
+      "tags": [
+        "festival",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.meeting-people.first-festival",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 26,
+      "en": "Is this your first ___?",
+      "pl": "To twój pierwszy ___?",
+      "alternatives": [],
+      "usage": "Pytasz o doświadczenie rozmówcy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is this your first Tomorrowland?",
+          "pl": "To twoje pierwsze Tomorrowland?"
+        },
+        {
+          "en": "Is this your first time in Belgium?",
+          "pl": "Jesteś pierwszy raz w Belgii?"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.i-love-your",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 27,
+      "en": "I love your ___!",
+      "pl": "Super ___!",
+      "alternatives": [],
+      "usage": "Komplement.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I love your hat!",
+          "pl": "Super kapelusz!"
+        },
+        {
+          "en": "I love your flag!",
+          "pl": "Super flaga!"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.were-here-with",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 28,
+      "en": "We're here with ___.",
+      "pl": "Jesteśmy tu z ___.",
+      "alternatives": [],
+      "usage": "Z kim przyjechałeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're here with some friends from work.",
+          "pl": "Jesteśmy tu ze znajomymi z pracy."
+        },
+        {
+          "en": "We're here with a big group from Poland.",
+          "pl": "Jesteśmy tu z dużą ekipą z Polski."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.been-before",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 29,
+      "en": "Have you been to ___ before?",
+      "pl": "Byłeś już kiedyś ___?",
+      "alternatives": [],
+      "usage": "Pytasz o wcześniejsze doświadczenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you been to this stage before?",
+          "pl": "Byłeś już kiedyś pod tą sceną?"
+        },
+        {
+          "en": "Have you been to Belgium before?",
+          "pl": "Byłeś już kiedyś w Belgii?"
+        }
+      ],
+      "tags": [
+        "festival",
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.lets-together",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 30,
+      "en": "Let's ___ together!",
+      "pl": "___ razem!",
+      "alternatives": [],
+      "usage": "Propozycja wspólnej zabawy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's dance together!",
+          "pl": "Zatańczmy razem!"
+        },
+        {
+          "en": "Let's go to the next set together!",
+          "pl": "Chodźmy razem na następny set!"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.meeting-group",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 31,
+      "en": "Meeting a group",
+      "pl": "Poznawanie ekipy",
+      "alternatives": [],
+      "usage": "Zagadujesz grupę pod sceną.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hey! Love your flag. Where are you guys from?",
+          "pl": "Hej! Super flaga. Skąd jesteście?",
+          "speaker": "A"
+        },
+        {
+          "en": "Argentina! And you?",
+          "pl": "Z Argentyny! A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "Poland. Mind if I join you for this set?",
+          "pl": "Z Polski. Mogę się dołączyć na ten set?",
+          "speaker": "A"
+        },
+        {
+          "en": "Of course! The more, the better. Is this your first Tomorrowland?",
+          "pl": "Jasne! Im więcej, tym lepiej. To twoje pierwsze Tomorrowland?",
+          "speaker": "B"
+        },
+        {
+          "en": "No, my fourth! The vibe here is amazing every year.",
+          "pl": "Nie, czwarte! Klimat jest niesamowity co roku.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.meeting-people.at-the-bar-chat",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.meeting-people",
+      "order": 32,
+      "en": "At the bar",
+      "pl": "Przy barze",
+      "alternatives": [],
+      "usage": "Rozmowa, komplement i propozycja spotkania.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Sorry, I didn't catch your name.",
+          "pl": "Sorry, nie dosłyszałem imienia.",
+          "speaker": "A"
+        },
+        {
+          "en": "It's Lea. Your English is really good!",
+          "pl": "Lea. Dobrze mówisz po angielsku!",
+          "speaker": "B"
+        },
+        {
+          "en": "Thanks, I'm still learning! Can I get you a drink?",
+          "pl": "Dzięki, wciąż się uczę! Postawić ci drinka?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure! And we should hang out tomorrow, our camp is near yours.",
+          "pl": "Jasne! I powinniśmy jutro razem pobalować, nasz obóz jest koło waszego.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    }
+  ]
+}

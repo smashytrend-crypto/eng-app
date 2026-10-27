@@ -1,0 +1,900 @@
+{
+  "module": {
+    "id": "s7.phrasal-everyday",
+    "stage": 7,
+    "order": 1,
+    "title": "Phrasal verbs: codzienne",
+    "titleEn": "Everyday phrasal verbs",
+    "description": "Najczęstsze czasowniki złożone: pick up, find out, give up, put on, take off, run out of, look after, work out…",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s7.phrasal-everyday.pick-me-up",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 1,
+      "en": "Can you pick me up at the station?",
+      "pl": "Możesz mnie odebrać z dworca?",
+      "alternatives": [
+        "Could you pick me up at the station?",
+        "Can you pick me up from the station?"
+      ],
+      "usage": "Prosisz, żeby ktoś po ciebie przyjechał.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you pick me up at the station? My train arrives at eight.",
+          "pl": "Możesz mnie odebrać z dworca? Pociąg przyjeżdża o ósmej."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.find-out-let-know",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 2,
+      "en": "I'll find out and let you know.",
+      "pl": "Dowiem się i dam ci znać.",
+      "alternatives": [
+        "I'll check and let you know."
+      ],
+      "usage": "„Find out” = dowiedzieć się.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time does it start? — Not sure. I'll find out and let you know.",
+          "pl": "O której się zaczyna? — Nie wiem. Dowiem się i dam ci znać."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.dont-give-up",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 3,
+      "en": "Don't give up!",
+      "pl": "Nie poddawaj się!",
+      "alternatives": [
+        "Never give up!"
+      ],
+      "usage": "Motywacja — w nauce, na siłowni.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My English is still bad. — Don't give up! You're getting better.",
+          "pl": "Mój angielski wciąż jest słaby. — Nie poddawaj się! Robisz postępy."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.turn-it-down",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 4,
+      "en": "Turn it down, please — it's too loud.",
+      "pl": "Ścisz, proszę — za głośno.",
+      "alternatives": [
+        "Can you turn it down, please?",
+        "Turn it down a bit, please."
+      ],
+      "usage": "Prosisz o ściszenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Turn it down, please — it's too loud. The neighbours!",
+          "pl": "Ścisz, proszę — za głośno. Sąsiedzi!"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.put-jacket-on",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 5,
+      "en": "Put your jacket on — it's cold.",
+      "pl": "Załóż kurtkę — zimno.",
+      "alternatives": [
+        "Put on your jacket — it's cold."
+      ],
+      "usage": "„Put on” = założyć (ubranie).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Put your jacket on — it's cold at night.",
+          "pl": "Załóż kurtkę — w nocy jest zimno."
+        }
+      ],
+      "note": "Put on = założyć, take off = zdjąć.",
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.take-shoes-off",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 6,
+      "en": "Take your shoes off, please.",
+      "pl": "Zdejmij buty, proszę.",
+      "alternatives": [
+        "Please take your shoes off.",
+        "Can you take your shoes off?"
+      ],
+      "usage": "U kogoś w domu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Come in! Take your shoes off, please.",
+          "pl": "Wejdź! Zdejmij buty, proszę."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "home"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.run-out-of-water",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 7,
+      "en": "We've run out of water.",
+      "pl": "Skończyła nam się woda.",
+      "alternatives": [
+        "We've got no water left.",
+        "We ran out of water."
+      ],
+      "usage": "„Run out of” = wyczerpać zapas.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We've run out of water. Can you get some?",
+          "pl": "Skończyła nam się woda. Skoczysz po wodę?"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.look-after-bag",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 8,
+      "en": "Can you look after my bag for a minute?",
+      "pl": "Możesz przypilnować mojej torby przez chwilę?",
+      "alternatives": [
+        "Can you watch my bag for a minute?",
+        "Could you look after my bag for a minute?"
+      ],
+      "usage": "„Look after” = opiekować się, pilnować.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you look after my bag for a minute? I need the toilet.",
+          "pl": "Przypilnujesz mojej torby przez chwilę? Muszę do toalety."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.how-turn-out",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 9,
+      "en": "How did it turn out?",
+      "pl": "Jak to wyszło?",
+      "alternatives": [
+        "How did it go?"
+      ],
+      "usage": "Pytasz o wynik.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You had a job interview yesterday! How did it turn out?",
+          "pl": "Miałeś wczoraj rozmowę o pracę! Jak wyszło?"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-everyday.work-out-later",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 10,
+      "en": "I'm going to work out later.",
+      "pl": "Później idę poćwiczyć.",
+      "alternatives": [
+        "I'm going to the gym later.",
+        "I'm working out later."
+      ],
+      "usage": "„Work out” = trenować (i też: rozwiązać problem).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going to work out later. Want to come?",
+          "pl": "Później idę poćwiczyć. Idziesz?"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gym",
+        "gr:going-to"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.hurry-up",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 11,
+      "en": "Hurry up! We're late.",
+      "pl": "Pospiesz się! Jesteśmy spóźnieni.",
+      "alternatives": [
+        "Come on, hurry up! We're late."
+      ],
+      "usage": "Poganiasz kogoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hurry up! We're late for the first set.",
+          "pl": "Pospiesz się! Spóźnimy się na pierwszy set."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.calm-down",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 12,
+      "en": "Calm down, it's fine.",
+      "pl": "Uspokój się, wszystko gra.",
+      "alternatives": [
+        "Relax, it's fine.",
+        "Calm down, it's OK."
+      ],
+      "usage": "Uspokajasz kogoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I can't find my ticket! — Calm down, it's fine. It's in your phone.",
+          "pl": "Nie mogę znaleźć biletu! — Spokojnie, wszystko gra. Masz go w telefonie."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.come-on-lets-go",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 13,
+      "en": "Come on, let's go!",
+      "pl": "No chodź, idziemy!",
+      "alternatives": [],
+      "usage": "Zachęcasz do ruszenia się.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Come on, let's go! The show is starting!",
+          "pl": "No chodź, idziemy! Show się zaczyna!"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.hold-on-phone",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 14,
+      "en": "Hold on, where's my phone?",
+      "pl": "Czekaj, gdzie mój telefon?",
+      "alternatives": [
+        "Wait, where's my phone?",
+        "Hang on, where's my phone?"
+      ],
+      "usage": "„Hold on” = czekaj chwilę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hold on, where's my phone? — In your hand!",
+          "pl": "Czekaj, gdzie mój telefon? — W ręce!"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.pay-you-back",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 15,
+      "en": "I'll pay you back.",
+      "pl": "Oddam ci (pieniądze).",
+      "alternatives": [
+        "I'll give you the money back."
+      ],
+      "usage": "„Pay back” = oddać pieniądze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you lend me twenty euros? I'll pay you back tomorrow.",
+          "pl": "Pożyczysz mi dwadzieścia euro? Oddam jutro."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.wake-up",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 16,
+      "en": "wake up",
+      "pl": "obudzić się",
+      "alternatives": [],
+      "usage": "Koniec snu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I woke up at noon after the party.",
+          "pl": "Po imprezie obudziłem się w południe."
+        }
+      ],
+      "collocations": [
+        "wake up early",
+        "wake someone up",
+        "wake-up call"
+      ],
+      "note": "Wake up = obudzić się. Get up = wstać z łóżka.",
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.pick-up",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 17,
+      "en": "pick up",
+      "pl": "odebrać; podnieść; kupić po drodze",
+      "alternatives": [],
+      "usage": "Bardzo częsty phrasal verb.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll pick up some snacks on the way.",
+          "pl": "Kupię po drodze jakieś przekąski."
+        }
+      ],
+      "collocations": [
+        "pick someone up",
+        "pick up the phone",
+        "pick up some food"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.find-out",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 18,
+      "en": "find out",
+      "pl": "dowiedzieć się",
+      "alternatives": [],
+      "usage": "Zdobyć informację.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I found out that the show was cancelled.",
+          "pl": "Dowiedziałem się, że show odwołano."
+        }
+      ],
+      "collocations": [
+        "find out about…",
+        "find out what…",
+        "find out the truth"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.give-up",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 19,
+      "en": "give up",
+      "pl": "poddać się; rzucić (nałóg)",
+      "alternatives": [],
+      "usage": "Przestać próbować albo zrezygnować.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I gave up smoking two years ago.",
+          "pl": "Rzuciłem palenie dwa lata temu."
+        }
+      ],
+      "collocations": [
+        "give up smoking",
+        "don't give up",
+        "give up on…"
+      ],
+      "note": "Rzucić coś = give up + rzeczownik albo -ing: give up smoking.",
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.turn-up",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 20,
+      "en": "turn up",
+      "pl": "pogłośnić; pojawić się",
+      "alternatives": [],
+      "usage": "Dwa znaczenia: głośność i przyjście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Only five people turned up.",
+          "pl": "Pojawiło się tylko pięć osób."
+        }
+      ],
+      "collocations": [
+        "turn up the music",
+        "turn up late",
+        "didn't turn up"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-everyday.put-on",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 21,
+      "en": "put on",
+      "pl": "założyć; nałożyć; włączyć",
+      "alternatives": [],
+      "usage": "Ubranie, krem, muzyka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Put on some sunscreen!",
+          "pl": "Nałóż krem z filtrem!"
+        }
+      ],
+      "collocations": [
+        "put on a jacket",
+        "put on sunscreen",
+        "put on some music"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.take-off",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 22,
+      "en": "take off",
+      "pl": "zdjąć; wystartować (samolot)",
+      "alternatives": [],
+      "usage": "Ubranie albo samolot.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The plane took off two hours late.",
+          "pl": "Samolot wystartował z dwugodzinnym opóźnieniem."
+        }
+      ],
+      "collocations": [
+        "take off your shoes",
+        "the plane takes off",
+        "take off a jacket"
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.run-out-of",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 23,
+      "en": "run out of",
+      "pl": "skończyć się (komuś coś)",
+      "alternatives": [],
+      "usage": "Brak zapasu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We ran out of money on the last day.",
+          "pl": "Ostatniego dnia skończyły nam się pieniądze."
+        }
+      ],
+      "collocations": [
+        "run out of money",
+        "run out of time",
+        "run out of battery"
+      ],
+      "note": "Polskie „skończyło mi się…” → „I've run out of…” (to ja jestem podmiotem).",
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.look-after",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 24,
+      "en": "look after",
+      "pl": "opiekować się, pilnować",
+      "alternatives": [],
+      "usage": "Troska o kogoś lub coś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My mum looks after my cat when I'm away.",
+          "pl": "Mama opiekuje się moim kotem, kiedy mnie nie ma."
+        }
+      ],
+      "collocations": [
+        "look after yourself",
+        "look after kids",
+        "look after my bag"
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.work-out",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 25,
+      "en": "work out",
+      "pl": "trenować; rozwiązać, ogarnąć",
+      "alternatives": [],
+      "usage": "Siłownia albo rozwiązanie problemu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Don't worry, we'll work it out.",
+          "pl": "Spokojnie, jakoś to rozwiążemy."
+        }
+      ],
+      "collocations": [
+        "work out at the gym",
+        "work it out",
+        "things work out"
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.can-you-pick-up",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 26,
+      "en": "Can you pick up ___?",
+      "pl": "Możesz kupić / odebrać ___?",
+      "alternatives": [],
+      "usage": "Prośba po drodze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you pick up some beers on the way?",
+          "pl": "Możesz po drodze kupić piwo?"
+        },
+        {
+          "en": "Can you pick up my package?",
+          "pl": "Możesz odebrać moją paczkę?"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.need-to-find-out",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 27,
+      "en": "I need to find out ___.",
+      "pl": "Muszę się dowiedzieć, ___.",
+      "alternatives": [],
+      "usage": "Pytanie pośrednie po „find out”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need to find out what time it starts.",
+          "pl": "Muszę się dowiedzieć, o której się zaczyna."
+        },
+        {
+          "en": "I need to find out where the hotel is.",
+          "pl": "Muszę się dowiedzieć, gdzie jest hotel."
+        }
+      ],
+      "note": "Po „find out” szyk zdania oznajmującego: where the hotel IS (nie „where is the hotel”).",
+      "tags": [
+        "phrasal-verbs",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-everyday.i-gave-up",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 28,
+      "en": "I gave up ___.",
+      "pl": "Rzuciłem ___.",
+      "alternatives": [],
+      "usage": "Z czego zrezygnowałeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I gave up smoking.",
+          "pl": "Rzuciłem palenie."
+        },
+        {
+          "en": "I gave up sugar for a month.",
+          "pl": "Na miesiąc rzuciłem cukier."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.ran-out-of",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 29,
+      "en": "We ran out of ___.",
+      "pl": "Skończył / skończyła nam się ___.",
+      "alternatives": [],
+      "usage": "Czego zabrakło.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We ran out of money.",
+          "pl": "Skończyły nam się pieniądze."
+        },
+        {
+          "en": "We ran out of time.",
+          "pl": "Skończył nam się czas."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.dont-forget-put-on",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 30,
+      "en": "Don't forget to put on ___.",
+      "pl": "Nie zapomnij założyć / nałożyć ___.",
+      "alternatives": [],
+      "usage": "Przypomnienie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Don't forget to put on sunscreen.",
+          "pl": "Nie zapomnij nałożyć kremu z filtrem."
+        },
+        {
+          "en": "Don't forget to put on your jacket.",
+          "pl": "Nie zapomnij założyć kurtki."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.usually-work-out",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 31,
+      "en": "I usually work out ___.",
+      "pl": "Zwykle ćwiczę ___.",
+      "alternatives": [],
+      "usage": "Kiedy trenujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually work out after work.",
+          "pl": "Zwykle ćwiczę po pracy."
+        },
+        {
+          "en": "I usually work out in the morning.",
+          "pl": "Zwykle ćwiczę rano."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gym",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.pick-up-station",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 32,
+      "en": "Picking up a friend",
+      "pl": "Odbieranie kumpla",
+      "alternatives": [],
+      "usage": "Phrasal verbs w praktyce.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Can you pick me up at the station? My train gets in at eight.",
+          "pl": "Możesz mnie odebrać z dworca? Pociąg przyjeżdża o ósmej.",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure. Hold on, which station?",
+          "pl": "Jasne. Czekaj, który dworzec?",
+          "speaker": "B"
+        },
+        {
+          "en": "The main one. And can you pick up some food? I've run out of money.",
+          "pl": "Główny. I możesz kupić coś do jedzenia? Skończyła mi się kasa.",
+          "speaker": "A"
+        },
+        {
+          "en": "Ha, OK. But you'll pay me back!",
+          "pl": "Ha, dobra. Ale oddasz mi!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-everyday.calm-down-dialog",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.phrasal-everyday",
+      "order": 33,
+      "en": "Where's my ticket?!",
+      "pl": "Gdzie mój bilet?!",
+      "alternatives": [],
+      "usage": "Panika przed wyjściem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hurry up! We're late!",
+          "pl": "Pospiesz się! Jesteśmy spóźnieni!",
+          "speaker": "A"
+        },
+        {
+          "en": "Hold on, I can't find my ticket!",
+          "pl": "Czekaj, nie mogę znaleźć biletu!",
+          "speaker": "B"
+        },
+        {
+          "en": "Calm down. It's on your phone.",
+          "pl": "Spokojnie. Masz go w telefonie.",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh yeah. OK, come on, let's go!",
+          "pl": "A, no tak. Dobra, chodź, idziemy!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    }
+  ]
+}

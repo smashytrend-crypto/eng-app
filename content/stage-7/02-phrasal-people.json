@@ -1,0 +1,892 @@
+{
+  "module": {
+    "id": "s7.phrasal-people",
+    "stage": 7,
+    "order": 2,
+    "title": "Phrasal verbs: ludzie i plany",
+    "titleEn": "Phrasal verbs for people & plans",
+    "description": "Meet up, catch up, show up, sort out, call off, put off, drop off, bump into, let down, count on — umawianie się i życie towarzyskie.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s7.phrasal-people.meet-up-sometime",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 1,
+      "en": "Let's meet up sometime!",
+      "pl": "Spotkajmy się kiedyś!",
+      "alternatives": [
+        "We should meet up sometime!",
+        "Let's meet up soon!"
+      ],
+      "usage": "„Meet up” = umówić się na spotkanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It was great to see you. Let's meet up sometime!",
+          "pl": "Super było cię zobaczyć. Spotkajmy się kiedyś!"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.good-to-catch-up",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 2,
+      "en": "It's good to catch up.",
+      "pl": "Fajnie było nadrobić zaległości.",
+      "alternatives": [
+        "It was good to catch up.",
+        "Great to catch up!"
+      ],
+      "usage": "„Catch up” = pogadać po długiej przerwie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We haven't talked for months! It's good to catch up.",
+          "pl": "Nie gadaliśmy od miesięcy! Fajnie nadrobić zaległości."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.didnt-show-up",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 3,
+      "en": "He didn't show up.",
+      "pl": "Nie pojawił się.",
+      "alternatives": [
+        "He didn't turn up.",
+        "He never showed up."
+      ],
+      "usage": "„Show up” = przyjść, pojawić się.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We waited for an hour, but he didn't show up.",
+          "pl": "Czekaliśmy godzinę, ale się nie pojawił."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.sort-it-out",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 4,
+      "en": "Don't worry, I'll sort it out.",
+      "pl": "Spokojnie, ogarnę to.",
+      "alternatives": [
+        "Don't worry, I'll sort it.",
+        "No worries, I'll sort it out."
+      ],
+      "usage": "„Sort out” = załatwić, ogarnąć.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a problem with our booking. — Don't worry, I'll sort it out.",
+          "pl": "Jest problem z rezerwacją. — Spokojnie, ogarnę to."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.called-off",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 5,
+      "en": "The party's been called off.",
+      "pl": "Imprezę odwołano.",
+      "alternatives": [
+        "The party has been cancelled.",
+        "They called off the party."
+      ],
+      "usage": "„Call off” = odwołać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Bad news — the party's been called off because of the storm.",
+          "pl": "Zła wiadomość — imprezę odwołano przez burzę."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.put-it-off",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 6,
+      "en": "Can we put it off until next week?",
+      "pl": "Możemy to przełożyć na przyszły tydzień?",
+      "alternatives": [
+        "Can we postpone it until next week?",
+        "Can we move it to next week?"
+      ],
+      "usage": "„Put off” = przełożyć na później.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm really busy. Can we put it off until next week?",
+          "pl": "Mam urwanie głowy. Możemy to przełożyć na przyszły tydzień?"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.drop-you-off",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 7,
+      "en": "I'll drop you off at the hotel.",
+      "pl": "Podrzucę cię pod hotel.",
+      "alternatives": [
+        "I can drop you off at the hotel."
+      ],
+      "usage": "„Drop off” = podwieźć i zostawić.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got the car. I'll drop you off at the hotel.",
+          "pl": "Mam auto. Podrzucę cię pod hotel."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.bumped-into",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 8,
+      "en": "I bumped into Kuba at the gym.",
+      "pl": "Wpadłem na Kubę na siłowni.",
+      "alternatives": [
+        "I ran into Kuba at the gym."
+      ],
+      "usage": "„Bump into” = przypadkiem spotkać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Guess who I bumped into at the gym? Kuba!",
+          "pl": "Zgadnij, na kogo wpadłem na siłowni? Na Kubę!"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:past-simple",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.dont-let-me-down",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 9,
+      "en": "Don't let me down!",
+      "pl": "Nie zawiedź mnie!",
+      "alternatives": [],
+      "usage": "„Let down” = zawieść.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You promised to come. Don't let me down!",
+          "pl": "Obiecałeś przyjść. Nie zawiedź mnie!"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.count-on-me",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 10,
+      "en": "You can count on me.",
+      "pl": "Możesz na mnie liczyć.",
+      "alternatives": [
+        "You can rely on me."
+      ],
+      "usage": "„Count on” = liczyć na kogoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you help me move on Saturday? — Sure, you can count on me.",
+          "pl": "Pomożesz mi w sobotę z przeprowadzką? — Jasne, możesz na mnie liczyć."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.go-ahead",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 11,
+      "en": "Go ahead!",
+      "pl": "Śmiało!",
+      "alternatives": [
+        "Sure, go ahead.",
+        "Go for it!"
+      ],
+      "usage": "Pozwolenie albo zachęta.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I use your charger? — Go ahead!",
+          "pl": "Mogę skorzystać z twojej ładowarki? — Śmiało!"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.call-you-back",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 12,
+      "en": "I'll call you back in five minutes.",
+      "pl": "Oddzwonię za pięć minut.",
+      "alternatives": [
+        "I'll ring you back in five minutes."
+      ],
+      "usage": "„Call back” = oddzwonić.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I'm on the tram. I'll call you back in five minutes.",
+          "pl": "Sorry, jestem w tramwaju. Oddzwonię za pięć minut."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.fell-out-made-up",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 13,
+      "en": "We fell out last year, but we've made up.",
+      "pl": "Pokłóciliśmy się w zeszłym roku, ale się pogodziliśmy.",
+      "alternatives": [],
+      "usage": "„Fall out” = pokłócić się. „Make up” = pogodzić się.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You and Kuba are friends again? — Yeah, we fell out last year, but we've made up.",
+          "pl": "Ty i Kuba znowu się kumplujecie? — Tak, pokłóciliśmy się w zeszłym roku, ale się pogodziliśmy."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.come-over-later",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 14,
+      "en": "Do you want to come over later?",
+      "pl": "Chcesz później wpaść?",
+      "alternatives": [
+        "Fancy coming over later?"
+      ],
+      "usage": "„Come over” = wpaść do kogoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm making pizza. Do you want to come over later?",
+          "pl": "Robię pizzę. Chcesz później wpaść?"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.join-in",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 15,
+      "en": "Feel free to join in!",
+      "pl": "Śmiało, dołącz!",
+      "alternatives": [
+        "Come and join in!",
+        "You can join in!"
+      ],
+      "usage": "„Join in” = przyłączyć się do zabawy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're playing cards. Feel free to join in!",
+          "pl": "Gramy w karty. Śmiało, dołącz!"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.meet-up",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 16,
+      "en": "meet up",
+      "pl": "spotkać się (umówić się)",
+      "alternatives": [],
+      "usage": "Planowane spotkanie ze znajomymi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We usually meet up on Fridays.",
+          "pl": "Zwykle spotykamy się w piątki."
+        }
+      ],
+      "collocations": [
+        "meet up with friends",
+        "meet up for a drink",
+        "let's meet up"
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.catch-up",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 17,
+      "en": "catch up",
+      "pl": "nadrobić zaległości (w rozmowie)",
+      "alternatives": [],
+      "usage": "Pogadać o tym, co u kogo słychać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's grab a coffee and catch up.",
+          "pl": "Skoczmy na kawę i pogadajmy, co słychać."
+        }
+      ],
+      "collocations": [
+        "catch up with someone",
+        "have a catch-up",
+        "catch up on sleep"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.show-up",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 18,
+      "en": "show up",
+      "pl": "pojawić się, przyjść",
+      "alternatives": [],
+      "usage": "Przybyć (często niespodziewanie albo nie).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "He always shows up late.",
+          "pl": "On zawsze przychodzi spóźniony."
+        }
+      ],
+      "collocations": [
+        "show up late",
+        "didn't show up",
+        "show up at the party"
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.sort-out",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 19,
+      "en": "sort out",
+      "pl": "załatwić, ogarnąć",
+      "alternatives": [],
+      "usage": "Rozwiązać sprawę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need to sort out my visa.",
+          "pl": "Muszę załatwić wizę."
+        }
+      ],
+      "collocations": [
+        "sort out a problem",
+        "get it sorted out",
+        "sort out the tickets"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.call-off",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 20,
+      "en": "call off",
+      "pl": "odwołać",
+      "alternatives": [],
+      "usage": "Odwołanie wydarzenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "They called off the match because of the rain.",
+          "pl": "Odwołali mecz przez deszcz."
+        }
+      ],
+      "collocations": [
+        "call off the party",
+        "call off the match",
+        "called off at the last minute"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.put-off",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 21,
+      "en": "put off",
+      "pl": "przełożyć; zniechęcić",
+      "alternatives": [],
+      "usage": "Przesunąć w czasie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Stop putting it off and book the tickets!",
+          "pl": "Przestań to odkładać i zarezerwuj bilety!"
+        }
+      ],
+      "collocations": [
+        "put off a meeting",
+        "put it off",
+        "put someone off"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.drop-off",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 22,
+      "en": "drop off",
+      "pl": "podrzucić (kogoś / coś)",
+      "alternatives": [],
+      "usage": "Podwieźć i zostawić.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you drop me off at the entrance?",
+          "pl": "Podrzucisz mnie pod wejście?"
+        }
+      ],
+      "collocations": [
+        "drop someone off",
+        "drop off the keys",
+        "drop-off point"
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.bump-into",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 23,
+      "en": "bump into",
+      "pl": "wpaść na kogoś (przypadkiem)",
+      "alternatives": [],
+      "usage": "Nieplanowane spotkanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You'll never guess who I bumped into!",
+          "pl": "Nie zgadniesz, na kogo wpadłem!"
+        }
+      ],
+      "collocations": [
+        "bump into someone",
+        "bump into an old friend",
+        "bumped into my ex"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.let-down",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 24,
+      "en": "let down",
+      "pl": "zawieść (kogoś)",
+      "alternatives": [],
+      "usage": "Nie spełnić oczekiwań.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm sorry I let you down.",
+          "pl": "Przepraszam, że cię zawiodłem."
+        }
+      ],
+      "collocations": [
+        "let someone down",
+        "feel let down",
+        "don't let me down"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.count-on",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 25,
+      "en": "count on",
+      "pl": "liczyć na",
+      "alternatives": [],
+      "usage": "Zaufanie, że ktoś pomoże.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm counting on you to bring the speaker.",
+          "pl": "Liczę, że weźmiesz głośnik."
+        }
+      ],
+      "collocations": [
+        "count on someone",
+        "you can count on me",
+        "count on good weather"
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.meet-up-when",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 26,
+      "en": "Let's meet up ___.",
+      "pl": "Spotkajmy się ___.",
+      "alternatives": [],
+      "usage": "Proponujesz spotkanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's meet up after work.",
+          "pl": "Spotkajmy się po pracy."
+        },
+        {
+          "en": "Let's meet up at the weekend.",
+          "pl": "Spotkajmy się w weekend."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.need-to-sort-out",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 27,
+      "en": "We need to sort out ___.",
+      "pl": "Musimy ogarnąć ___.",
+      "alternatives": [],
+      "usage": "Sprawy do załatwienia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We need to sort out the tickets.",
+          "pl": "Musimy ogarnąć bilety."
+        },
+        {
+          "en": "We need to sort out the hotel.",
+          "pl": "Musimy ogarnąć hotel."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.bumped-into-who",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 28,
+      "en": "I bumped into ___.",
+      "pl": "Wpadłem na ___.",
+      "alternatives": [],
+      "usage": "Kogo przypadkiem spotkałeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I bumped into an old friend.",
+          "pl": "Wpadłem na starego znajomego."
+        },
+        {
+          "en": "I bumped into my boss at the club.",
+          "pl": "Wpadłem na szefa w klubie."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.they-called-off",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 29,
+      "en": "They called off ___.",
+      "pl": "Odwołali ___.",
+      "alternatives": [],
+      "usage": "Co odwołano.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "They called off the concert.",
+          "pl": "Odwołali koncert."
+        },
+        {
+          "en": "They called off the match.",
+          "pl": "Odwołali mecz."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.drop-me-off-at",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 30,
+      "en": "Can you drop me off at ___?",
+      "pl": "Podrzucisz mnie pod ___?",
+      "alternatives": [],
+      "usage": "Prosisz o podwózkę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you drop me off at the station?",
+          "pl": "Podrzucisz mnie na dworzec?"
+        },
+        {
+          "en": "Can you drop me off at the entrance?",
+          "pl": "Podrzucisz mnie pod wejście?"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.counting-on",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 31,
+      "en": "I'm counting on ___.",
+      "pl": "Liczę na ___.",
+      "alternatives": [],
+      "usage": "Na kogo / co liczysz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm counting on you.",
+          "pl": "Liczę na ciebie."
+        },
+        {
+          "en": "I'm counting on good weather.",
+          "pl": "Liczę na dobrą pogodę."
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.phrasal-people.catching-up",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 32,
+      "en": "Catching up",
+      "pl": "Nadrabianie zaległości",
+      "alternatives": [],
+      "usage": "Przypadkowe spotkanie znajomego.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Kuba! I bumped into you at last! How are you?",
+          "pl": "Kuba! W końcu na ciebie wpadłem! Co tam?",
+          "speaker": "A"
+        },
+        {
+          "en": "Good! We should meet up and catch up properly.",
+          "pl": "Dobrze! Powinniśmy się spotkać i normalnie pogadać.",
+          "speaker": "B"
+        },
+        {
+          "en": "Definitely. Do you want to come over on Friday?",
+          "pl": "Jasne. Chcesz wpaść w piątek?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure, you can count on me. I'll bring the beers!",
+          "pl": "Jasne, możesz na mnie liczyć. Przyniosę piwo!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.phrasal-people.plans-called-off",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.phrasal-people",
+      "order": 33,
+      "en": "Plans called off",
+      "pl": "Odwołane plany",
+      "alternatives": [],
+      "usage": "Zmiana planów na ostatnią chwilę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Bad news. The beach party's been called off.",
+          "pl": "Zła wiadomość. Imprezę na plaży odwołano.",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh no! Why?",
+          "pl": "O nie! Czemu?",
+          "speaker": "B"
+        },
+        {
+          "en": "There's a storm coming. They've put it off until next week.",
+          "pl": "Idzie burza. Przełożyli na przyszły tydzień.",
+          "speaker": "A"
+        },
+        {
+          "en": "OK, don't worry. We'll sort something out.",
+          "pl": "OK, spoko. Coś wymyślimy.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "A2"
+    }
+  ]
+}

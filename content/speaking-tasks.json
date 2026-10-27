@@ -621,6 +621,87 @@
       "tags": [
         "opinions"
       ]
+    },
+    {
+      "id": "task.s7-phrasal-day",
+      "stage": 7,
+      "title": "Dzień w phrasal verbs",
+      "instruction": "Opowiedz o swoim dniu, używając co najmniej 5 phrasal verbs: wake up, get up, pick up, work out, hang out…",
+      "starters": [
+        "I woke up at…",
+        "I picked up…",
+        "After work I worked out…",
+        "In the evening I hung out with…"
+      ],
+      "example": "I woke up at five and got up ten minutes later. On the way to work I picked up a coffee. After work I worked out at the gym. In the evening I hung out with Kuba and we found out that our favourite DJ is playing in Berlin!",
+      "tags": [
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "id": "task.s7-natural-story",
+      "stage": 7,
+      "title": "Opowieść jak native",
+      "instruction": "Opowiedz krótką historię z weekendu, wplatając wypełniacze: you know, I mean, kind of, anyway, so yeah.",
+      "starters": [
+        "So, basically…",
+        "It was kind of…",
+        "I mean…",
+        "Anyway…",
+        "So yeah, that's it."
+      ],
+      "example": "So, basically, we went to this new club on Saturday. It was kind of weird at first, you know? I mean, the music was great, but it was empty. Anyway, after midnight it got really busy. So yeah, that's it — great night!",
+      "tags": [
+        "fillers"
+      ]
+    },
+    {
+      "id": "task.s7-idioms",
+      "stage": 7,
+      "title": "Idiomy w akcji",
+      "instruction": "Użyj w 4 zdaniach idiomów: a piece of cake, costs an arm and a leg, I can't be bothered, play it by ear.",
+      "starters": [
+        "… was a piece of cake.",
+        "… costs an arm and a leg.",
+        "I can't be bothered to…",
+        "Let's play it by ear."
+      ],
+      "example": "Getting to the festival was a piece of cake. But the hotel costs an arm and a leg! Tonight I can't be bothered to cook. Let's grab some food and play it by ear.",
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "id": "task.s7-meet-someone",
+      "stage": 7,
+      "title": "Zagadaj nieznajomego",
+      "instruction": "Wyobraź sobie, że stoisz obok grupy z innego kraju pod sceną. Zagadaj, zadaj 3 pytania i zaproponuj wspólny set.",
+      "starters": [
+        "Hey! Where are you guys from?",
+        "Is this your first…?",
+        "Who are you most excited to see?",
+        "Let's go to … together!"
+      ],
+      "example": "Hey! I love your flag. Where are you guys from? Is this your first Tomorrowland? Who are you most excited to see? Charlotte de Witte is on at ten — let's go together!",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "task.s7-meeting-plan",
+      "stage": 7,
+      "title": "Plan na tłum",
+      "instruction": "Ustal z ekipą plan na wieczór w tłumie: punkt spotkań, co robicie, gdy padnie telefon, jak się znaleźć.",
+      "starters": [
+        "If we get lost, let's meet at…",
+        "My phone is about to…",
+        "Let's stick together.",
+        "Text me when…"
+      ],
+      "example": "OK guys, if we get lost, let's meet at the big totem next to the bar. My phone is about to die, so let's stick together. If anyone leaves, text me when you get to the campsite.",
+      "tags": [
+        "crowd"
+      ]
     }
   ]
 }

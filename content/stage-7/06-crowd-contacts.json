@@ -1,0 +1,888 @@
+{
+  "module": {
+    "id": "s7.crowd-contacts",
+    "stage": 7,
+    "order": 6,
+    "title": "Umawianie się w tłumie i kontakty",
+    "titleEn": "Crowds & keeping in touch",
+    "description": "Punkty spotkań, totem, pinezka, „widzę cię, macham!”, Insta i WhatsApp — jak się nie zgubić i nie stracić kontaktu z nowymi znajomymi.",
+    "tags": [
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s7.crowd-contacts.lose-each-other-totem",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 1,
+      "en": "If we lose each other, let's meet at the totem.",
+      "pl": "Jak się zgubimy, spotykamy się przy totemie.",
+      "alternatives": [
+        "If we get lost, let's meet at the totem."
+      ],
+      "usage": "Ustalacie punkt spotkań przed wejściem w tłum.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Phones won't work in the crowd. If we lose each other, let's meet at the totem.",
+          "pl": "W tłumie telefony nie będą działać. Jak się zgubimy, widzimy się przy totemie."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.drop-me-a-pin",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 2,
+      "en": "Drop me a pin.",
+      "pl": "Wyślij mi pinezkę.",
+      "alternatives": [
+        "Send me a pin.",
+        "Send me your location."
+      ],
+      "usage": "Prosisz o lokalizację na mapie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I can't find you. Drop me a pin!",
+          "pl": "Nie mogę cię znaleźć. Wyślij mi pinezkę!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd",
+        "phone"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.crowd-contacts.add-me-insta",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 3,
+      "en": "Add me on Instagram.",
+      "pl": "Dodaj mnie na Instagramie.",
+      "alternatives": [
+        "Follow me on Instagram.",
+        "Add me on Insta."
+      ],
+      "usage": "Wymiana kontaktów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Add me on Instagram — I'll send you the photos.",
+          "pl": "Dodaj mnie na Instagramie — wyślę ci zdjęcia."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.follow-me-back",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 4,
+      "en": "Follow me back!",
+      "pl": "Zaobserwuj mnie też!",
+      "alternatives": [],
+      "usage": "Po tym, jak kogoś zaobserwowałeś.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I've just followed you. Follow me back!",
+          "pl": "Właśnie cię zaobserwowałem. Zaobserwuj mnie też!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.get-your-whatsapp",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 5,
+      "en": "Can I get your WhatsApp?",
+      "pl": "Dasz mi swojego WhatsAppa?",
+      "alternatives": [
+        "What's your WhatsApp?",
+        "Can I have your WhatsApp?"
+      ],
+      "usage": "Prosisz o kontakt.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I get your WhatsApp? We can meet up tomorrow.",
+          "pl": "Dasz mi swojego WhatsAppa? Jutro możemy się spotkać."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.by-left-speaker",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 6,
+      "en": "I'm by the left speaker.",
+      "pl": "Jestem przy lewym głośniku.",
+      "alternatives": [
+        "I'm next to the left speaker."
+      ],
+      "usage": "Opisujesz, gdzie stoisz w tłumie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where are you? — I'm by the left speaker, near the front.",
+          "pl": "Gdzie jesteś? — Przy lewym głośniku, blisko sceny."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.i-can-see-you",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 7,
+      "en": "I can see you! I'm waving.",
+      "pl": "Widzę cię! Macham.",
+      "alternatives": [],
+      "usage": "Lokalizowanie się w tłumie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I can see you! I'm waving — the guy with the Polish flag!",
+          "pl": "Widzę cię! Macham — gość z polską flagą!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.stay-where-you-are",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 8,
+      "en": "Stay where you are, I'm coming.",
+      "pl": "Zostań, gdzie jesteś, idę.",
+      "alternatives": [
+        "Stay there, I'm coming.",
+        "Don't move, I'm coming."
+      ],
+      "usage": "Żeby się nie minąć.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Stay where you are, I'm coming. Two minutes!",
+          "pl": "Zostań, gdzie jesteś, już idę. Dwie minuty!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.stick-together",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 9,
+      "en": "Let's stick together.",
+      "pl": "Trzymajmy się razem.",
+      "alternatives": [
+        "Let's stay together."
+      ],
+      "usage": "W tłumie albo nocą w obcym mieście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's really busy. Let's stick together.",
+          "pl": "Jest strasznie tłoczno. Trzymajmy się razem."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.crowd-contacts.phone-about-to-die",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 10,
+      "en": "My phone's about to die.",
+      "pl": "Mój telefon zaraz padnie.",
+      "alternatives": [
+        "My phone is about to die.",
+        "My phone's dying."
+      ],
+      "usage": "Ostrzegasz, że możesz zniknąć z zasięgu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My phone's about to die. Meet me at the bar at midnight.",
+          "pl": "Telefon zaraz mi padnie. Widzimy się przy barze o północy."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd",
+        "phone"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.crowd-contacts.where-exactly",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 11,
+      "en": "Where exactly are you?",
+      "pl": "Gdzie dokładnie jesteś?",
+      "alternatives": [],
+      "usage": "Dopytujesz o miejsce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm at the main stage. — Where exactly are you? It's huge!",
+          "pl": "Jestem przy głównej scenie. — Gdzie dokładnie? Jest ogromna!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.keep-in-touch",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 12,
+      "en": "Let's keep in touch!",
+      "pl": "Bądźmy w kontakcie!",
+      "alternatives": [
+        "Let's stay in touch!",
+        "Keep in touch!"
+      ],
+      "usage": "Pożegnanie z nowymi znajomymi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It was amazing meeting you. Let's keep in touch!",
+          "pl": "Super było was poznać. Bądźmy w kontakcie!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.tag-me",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 13,
+      "en": "Tag me in the photos!",
+      "pl": "Oznacz mnie na zdjęciach!",
+      "alternatives": [
+        "Tag me!"
+      ],
+      "usage": "Po wspólnych zdjęciach.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Great pics! Tag me in the photos!",
+          "pl": "Super fotki! Oznacz mnie na zdjęciach!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.middle-near-front",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 14,
+      "en": "I'm in the middle, near the front.",
+      "pl": "Jestem w środku, blisko sceny.",
+      "alternatives": [],
+      "usage": "Opis pozycji w tłumie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where are you? — I'm in the middle, near the front. Under the big screen.",
+          "pl": "Gdzie jesteś? — W środku, blisko sceny. Pod dużym ekranem."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.wait-at-entrance",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 15,
+      "en": "Wait for me at the entrance.",
+      "pl": "Poczekaj na mnie przy wejściu.",
+      "alternatives": [
+        "Meet me at the entrance."
+      ],
+      "usage": "Umawiasz się przy konkretnym miejscu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Wait for me at the entrance. I'll be there in ten minutes.",
+          "pl": "Poczekaj na mnie przy wejściu. Będę za dziesięć minut."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.meeting-point",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 16,
+      "en": "meeting point",
+      "pl": "punkt spotkań",
+      "alternatives": [],
+      "usage": "Ustalone miejsce, gdy się zgubicie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's choose a meeting point before we go in.",
+          "pl": "Wybierzmy punkt spotkań, zanim wejdziemy."
+        }
+      ],
+      "collocations": [
+        "our meeting point",
+        "choose a meeting point",
+        "at the meeting point"
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.totem",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 17,
+      "en": "totem",
+      "pl": "totem (flaga / znak na kiju w tłumie)",
+      "alternatives": [],
+      "usage": "Wysoki znak, który pomaga ekipie się znaleźć.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Look for our totem — it's a giant pierogi!",
+          "pl": "Szukaj naszego totemu — to wielki pieróg!"
+        }
+      ],
+      "collocations": [
+        "festival totem",
+        "follow the totem",
+        "a funny totem"
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.pin",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 18,
+      "en": "pin",
+      "pl": "pinezka (lokalizacja)",
+      "alternatives": [],
+      "usage": "Punkt na mapie wysłany w wiadomości.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I've sent you a pin.",
+          "pl": "Wysłałem ci pinezkę."
+        }
+      ],
+      "collocations": [
+        "drop a pin",
+        "send a pin",
+        "live location pin"
+      ],
+      "tags": [
+        "crowd",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.dm",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 19,
+      "en": "DM",
+      "pl": "prywatna wiadomość (DM)",
+      "alternatives": [],
+      "usage": "Wiadomość na Instagramie / Twitterze.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Send me a DM when you're back home.",
+          "pl": "Napisz do mnie na priv, jak wrócisz do domu."
+        }
+      ],
+      "collocations": [
+        "send me a DM",
+        "check your DMs",
+        "slide into DMs"
+      ],
+      "pronunciation": "Czytaj „di-em”.",
+      "tags": [
+        "crowd",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.handle",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 20,
+      "en": "handle",
+      "pl": "nazwa użytkownika (na Instagramie itp.)",
+      "alternatives": [],
+      "usage": "Twój nick w social mediach.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What's your Insta handle?",
+          "pl": "Jaki masz nick na Insta?"
+        }
+      ],
+      "collocations": [
+        "my handle",
+        "what's your handle?",
+        "Insta handle"
+      ],
+      "tags": [
+        "crowd",
+        "phone"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.crowd-contacts.speaker",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 21,
+      "en": "speaker",
+      "pl": "głośnik",
+      "alternatives": [],
+      "usage": "Punkt orientacyjny pod sceną.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Don't stand right next to the speaker — your ears!",
+          "pl": "Nie stój tuż przy głośniku — uszy!"
+        }
+      ],
+      "collocations": [
+        "next to the speaker",
+        "the left speaker",
+        "a Bluetooth speaker"
+      ],
+      "tags": [
+        "festival",
+        "crowd",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.front",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 22,
+      "en": "front",
+      "pl": "przód",
+      "alternatives": [],
+      "usage": "Blisko sceny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's try to get to the front.",
+          "pl": "Spróbujmy dostać się na przód."
+        }
+      ],
+      "collocations": [
+        "at the front",
+        "near the front",
+        "the front row"
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.wave",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 23,
+      "en": "wave",
+      "pl": "machać; fala",
+      "alternatives": [],
+      "usage": "Pokazujesz, gdzie jesteś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Wave your hands so I can see you!",
+          "pl": "Pomachaj, żebym cię zobaczył!"
+        }
+      ],
+      "collocations": [
+        "wave at someone",
+        "wave your hands",
+        "a wave of people"
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.contact",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 24,
+      "en": "contact",
+      "pl": "kontakt",
+      "alternatives": [],
+      "usage": "Utrzymywanie relacji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've added you as a contact.",
+          "pl": "Dodałem cię do kontaktów."
+        }
+      ],
+      "collocations": [
+        "keep in contact",
+        "contact details",
+        "lose contact"
+      ],
+      "tags": [
+        "crowd",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.im-next-to-the",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 25,
+      "en": "I'm next to the ___.",
+      "pl": "Jestem obok ___.",
+      "alternatives": [],
+      "usage": "Gdzie stoisz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm next to the bar.",
+          "pl": "Jestem obok baru."
+        },
+        {
+          "en": "I'm next to the big screen.",
+          "pl": "Jestem obok dużego ekranu."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.if-we-get-lost",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 26,
+      "en": "If we get lost, let's meet at ___.",
+      "pl": "Jak się zgubimy, spotykamy się ___.",
+      "alternatives": [],
+      "usage": "Punkt awaryjny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If we get lost, let's meet at the big tree.",
+          "pl": "Jak się zgubimy, spotykamy się przy dużym drzewie."
+        },
+        {
+          "en": "If we get lost, let's meet at the entrance.",
+          "pl": "Jak się zgubimy, spotykamy się przy wejściu."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.crowd-contacts.whats-your-contact",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 27,
+      "en": "What's your ___?",
+      "pl": "Jaki masz ___?",
+      "alternatives": [],
+      "usage": "Wymiana kontaktów.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What's your Insta?",
+          "pl": "Jaki masz Insta?"
+        },
+        {
+          "en": "What's your Snapchat?",
+          "pl": "Jaki masz Snapchat?"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.text-me-when",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 28,
+      "en": "Text me when ___.",
+      "pl": "Napisz, jak ___.",
+      "alternatives": [],
+      "usage": "Prosisz o wiadomość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Text me when you get there.",
+          "pl": "Napisz, jak dotrzesz."
+        },
+        {
+          "en": "Text me when you're at the entrance.",
+          "pl": "Napisz, jak będziesz przy wejściu."
+        }
+      ],
+      "note": "Po „when” czas teraźniejszy, choć chodzi o przyszłość: when you GET there.",
+      "tags": [
+        "festival",
+        "crowd",
+        "phone",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.can-you-see-the",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 29,
+      "en": "Can you see the ___?",
+      "pl": "Widzisz ___?",
+      "alternatives": [],
+      "usage": "Orientacja w tłumie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you see the big screen?",
+          "pl": "Widzisz duży ekran?"
+        },
+        {
+          "en": "Can you see the flag?",
+          "pl": "Widzisz flagę?"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.at-bar-in",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 30,
+      "en": "I'll be at the bar in ___.",
+      "pl": "Będę przy barze za ___.",
+      "alternatives": [],
+      "usage": "Kiedy dotrzesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll be at the bar in five minutes.",
+          "pl": "Będę przy barze za pięć minut."
+        },
+        {
+          "en": "I'll be at the bar in half an hour.",
+          "pl": "Będę przy barze za pół godziny."
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd",
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.finding-friend",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 31,
+      "en": "Finding each other",
+      "pl": "Szukanie się w tłumie",
+      "alternatives": [],
+      "usage": "Rozmowa telefoniczna w tłumie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Where exactly are you?",
+          "pl": "Gdzie dokładnie jesteś?",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm in the middle, by the left speaker. Can you see the Polish flag?",
+          "pl": "W środku, przy lewym głośniku. Widzisz polską flagę?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yes! I can see you! I'm waving.",
+          "pl": "Tak! Widzę cię! Macham.",
+          "speaker": "A"
+        },
+        {
+          "en": "Stay where you are, I'm coming!",
+          "pl": "Zostań, gdzie jesteś, idę!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.crowd-contacts.swapping-contacts",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.crowd-contacts",
+      "order": 32,
+      "en": "Swapping contacts",
+      "pl": "Wymiana kontaktów",
+      "alternatives": [],
+      "usage": "Ostatni wieczór festiwalu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It was amazing meeting you guys. Let's keep in touch!",
+          "pl": "Super było was poznać. Bądźmy w kontakcie!",
+          "speaker": "A"
+        },
+        {
+          "en": "Definitely! What's your Insta?",
+          "pl": "Jasne! Jaki masz Insta?",
+          "speaker": "B"
+        },
+        {
+          "en": "domin_techno. I'll follow you back.",
+          "pl": "domin_techno. Zaobserwuję cię też.",
+          "speaker": "A"
+        },
+        {
+          "en": "Great. Tag me in the photos!",
+          "pl": "Super. Oznacz mnie na zdjęciach!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "festival",
+        "crowd"
+      ],
+      "level": "A2"
+    }
+  ]
+}

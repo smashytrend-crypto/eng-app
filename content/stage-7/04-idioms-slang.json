@@ -1,0 +1,866 @@
+{
+  "module": {
+    "id": "s7.idioms-slang",
+    "stage": 7,
+    "order": 4,
+    "title": "Codzienne idiomy i slang",
+    "titleEn": "Everyday idioms & slang",
+    "description": "Piece of cake, call it a day, play it by ear, I can't be bothered, skint, gutted, legend, vibe — mowa codzienna, zwłaszcza brytyjska.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s7.idioms-slang.piece-of-cake",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 1,
+      "en": "It's a piece of cake.",
+      "pl": "To bułka z masłem.",
+      "alternatives": [
+        "It's easy.",
+        "It's really easy."
+      ],
+      "usage": "Coś jest bardzo łatwe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it hard to get there? — No, it's a piece of cake.",
+          "pl": "Trudno tam dojechać? — Nie, bułka z masłem."
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.call-it-a-day",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 2,
+      "en": "Let's call it a day.",
+      "pl": "Kończymy na dziś.",
+      "alternatives": [
+        "Let's call it a night."
+      ],
+      "usage": "Koniec pracy albo imprezy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's three a.m. Let's call it a day.",
+          "pl": "Jest trzecia w nocy. Kończymy na dziś."
+        }
+      ],
+      "note": "Wieczorem często: „Let's call it a night”.",
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.cloud-nine",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 3,
+      "en": "I'm on cloud nine.",
+      "pl": "Jestem w siódmym niebie.",
+      "alternatives": [],
+      "usage": "Wielka radość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I got the tickets AND the job. I'm on cloud nine!",
+          "pl": "Mam bilety I pracę. Jestem w siódmym niebie!"
+        }
+      ],
+      "note": "Po angielsku niebo jest „dziewiąte”, nie siódme!",
+      "tags": [
+        "idiom",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.arm-and-leg",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 4,
+      "en": "It costs an arm and a leg.",
+      "pl": "Kosztuje majątek.",
+      "alternatives": [
+        "It costs a fortune."
+      ],
+      "usage": "Coś jest bardzo drogie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "A hotel during the festival? It costs an arm and a leg.",
+          "pl": "Hotel w czasie festiwalu? Kosztuje majątek."
+        }
+      ],
+      "tags": [
+        "idiom",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.break-a-leg",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 5,
+      "en": "Break a leg!",
+      "pl": "Połamania nóg!",
+      "alternatives": [],
+      "usage": "Życzenie powodzenia przed występem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My first DJ set is tonight! — Break a leg!",
+          "pl": "Dziś gram swój pierwszy set! — Połamania nóg!"
+        }
+      ],
+      "note": "Tak jak po polsku — życzysz „połamania nóg”, żeby nie zapeszyć.",
+      "tags": [
+        "idiom"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.all-ears",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 6,
+      "en": "I'm all ears.",
+      "pl": "Zamieniam się w słuch.",
+      "alternatives": [],
+      "usage": "Chętnie wysłuchasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got some gossip. — Go on, I'm all ears!",
+          "pl": "Mam plotkę. — Dawaj, zamieniam się w słuch!"
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.not-rocket-science",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 7,
+      "en": "It's not rocket science.",
+      "pl": "To nie fizyka kwantowa.",
+      "alternatives": [],
+      "usage": "Coś jest proste do zrozumienia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Just plug it in and press play. It's not rocket science!",
+          "pl": "Podłącz i naciśnij play. To nie fizyka kwantowa!"
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.better-late",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 8,
+      "en": "Better late than never.",
+      "pl": "Lepiej późno niż wcale.",
+      "alternatives": [],
+      "usage": "Gdy ktoś w końcu się pojawia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I'm an hour late! — Better late than never.",
+          "pl": "Sorry, spóźniłem się godzinę! — Lepiej późno niż wcale."
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.play-it-by-ear",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 9,
+      "en": "Let's play it by ear.",
+      "pl": "Zobaczymy, jak wyjdzie.",
+      "alternatives": [
+        "Let's just see how it goes."
+      ],
+      "usage": "Bez sztywnego planu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the plan for tonight? — Let's play it by ear.",
+          "pl": "Jaki plan na wieczór? — Zobaczymy, jak wyjdzie."
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.under-the-weather",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 10,
+      "en": "I'm feeling a bit under the weather.",
+      "pl": "Czuję się nie najlepiej.",
+      "alternatives": [
+        "I'm a bit under the weather."
+      ],
+      "usage": "Lekko chory.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm feeling a bit under the weather, so I'll stay in tonight.",
+          "pl": "Czuję się nie najlepiej, więc dziś zostanę w domu."
+        }
+      ],
+      "tags": [
+        "idiom",
+        "health"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.rings-a-bell",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 11,
+      "en": "That rings a bell.",
+      "pl": "Coś mi to mówi.",
+      "alternatives": [
+        "It rings a bell."
+      ],
+      "usage": "Coś wydaje się znajome.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you know a DJ called Anyma? — That rings a bell.",
+          "pl": "Znasz DJ-a, który nazywa się Anyma? — Coś mi to mówi."
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.up-to-you",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 12,
+      "en": "It's up to you.",
+      "pl": "Ty decydujesz.",
+      "alternatives": [
+        "It's your call.",
+        "Up to you."
+      ],
+      "usage": "Zostawiasz decyzję drugiej osobie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Pizza or burgers? — It's up to you.",
+          "pl": "Pizza czy burgery? — Ty decydujesz."
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.keep-me-posted",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 13,
+      "en": "Keep me posted.",
+      "pl": "Daj znać na bieżąco.",
+      "alternatives": [
+        "Keep me updated.",
+        "Let me know."
+      ],
+      "usage": "Prosisz o informacje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll find out about the tickets. — Great, keep me posted.",
+          "pl": "Dowiem się o bilety. — Super, daj znać na bieżąco."
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.hit-the-sack",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 14,
+      "en": "I'm going to hit the sack.",
+      "pl": "Idę w kimę.",
+      "alternatives": [
+        "I'm going to hit the hay.",
+        "I'm off to bed."
+      ],
+      "usage": "Bardzo potoczne „idę spać”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm knackered. I'm going to hit the sack.",
+          "pl": "Jestem padnięty. Idę w kimę."
+        }
+      ],
+      "tags": [
+        "idiom",
+        "slang"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.speak-of-devil",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 15,
+      "en": "Speak of the devil!",
+      "pl": "O wilku mowa!",
+      "alternatives": [],
+      "usage": "Gdy pojawia się osoba, o której mówiliście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where's Kuba? He's always late… Oh, speak of the devil!",
+          "pl": "Gdzie Kuba? Zawsze się spóźnia… O, o wilku mowa!"
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.awkward",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 16,
+      "en": "awkward",
+      "pl": "niezręczny",
+      "alternatives": [],
+      "usage": "Krępująca sytuacja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There was an awkward silence.",
+          "pl": "Zapadła niezręczna cisza."
+        }
+      ],
+      "collocations": [
+        "an awkward moment",
+        "feel awkward",
+        "so awkward"
+      ],
+      "pronunciation": "Czytaj „o:kłed”.",
+      "tags": [
+        "slang"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.cheesy",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 17,
+      "en": "cheesy",
+      "pl": "kiczowaty, obciachowy",
+      "alternatives": [],
+      "usage": "Tandetne, przesłodzone (muzyka, teksty).",
+      "register": "casual",
+      "example": [
+        {
+          "en": "That song is so cheesy, but I love it.",
+          "pl": "Ta piosenka jest strasznie kiczowata, ale ją kocham."
+        }
+      ],
+      "collocations": [
+        "a cheesy song",
+        "so cheesy",
+        "cheesy pickup lines"
+      ],
+      "tags": [
+        "slang",
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.vibe",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 18,
+      "en": "vibe",
+      "pl": "klimat, atmosfera",
+      "alternatives": [],
+      "usage": "Jak się czujesz w danym miejscu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I love the vibe here.",
+          "pl": "Uwielbiam tutejszy klimat."
+        }
+      ],
+      "collocations": [
+        "good vibes",
+        "the vibe here",
+        "a chill vibe"
+      ],
+      "pronunciation": "Czytaj „wajb”.",
+      "tags": [
+        "slang",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.legend",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 19,
+      "en": "legend",
+      "pl": "legenda, kozak (o osobie)",
+      "alternatives": [],
+      "usage": "Pochwała dla kogoś, kto pomógł albo zrobił coś super.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You brought snacks for everyone? You're a legend!",
+          "pl": "Przyniosłeś przekąski dla wszystkich? Jesteś kozak!"
+        }
+      ],
+      "collocations": [
+        "you're a legend",
+        "an absolute legend",
+        "a local legend"
+      ],
+      "tags": [
+        "slang",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.banter",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 20,
+      "en": "banter",
+      "pl": "przekomarzanie się, docinki (UK)",
+      "alternatives": [],
+      "usage": "Żartobliwe, przyjacielskie docinki.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Don't worry, it's just banter.",
+          "pl": "Spokojnie, to tylko żarty."
+        }
+      ],
+      "collocations": [
+        "good banter",
+        "a bit of banter",
+        "friendly banter"
+      ],
+      "tags": [
+        "slang",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.dodgy",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 21,
+      "en": "dodgy",
+      "pl": "podejrzany, lipny (UK)",
+      "alternatives": [],
+      "usage": "Coś niepewnego.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "That kebab looks a bit dodgy.",
+          "pl": "Ten kebab wygląda trochę podejrzanie."
+        }
+      ],
+      "collocations": [
+        "a dodgy area",
+        "looks dodgy",
+        "a dodgy kebab"
+      ],
+      "tags": [
+        "slang",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.gutted",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 22,
+      "en": "gutted",
+      "pl": "załamany, zawiedziony (UK)",
+      "alternatives": [],
+      "usage": "Wielkie rozczarowanie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "They cancelled the show. I'm gutted.",
+          "pl": "Odwołali show. Jestem załamany."
+        }
+      ],
+      "collocations": [
+        "I'm gutted",
+        "absolutely gutted",
+        "gutted about…"
+      ],
+      "tags": [
+        "slang",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.skint",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 23,
+      "en": "skint",
+      "pl": "spłukany (UK)",
+      "alternatives": [],
+      "usage": "Bez pieniędzy.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I can't come out tonight — I'm skint.",
+          "pl": "Nie mogę dziś wyjść — jestem spłukany."
+        }
+      ],
+      "collocations": [
+        "I'm skint",
+        "totally skint",
+        "skint until payday"
+      ],
+      "tags": [
+        "slang",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.sorted",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 24,
+      "en": "sorted",
+      "pl": "załatwione, ogarnięte",
+      "alternatives": [],
+      "usage": "Wszystko jest gotowe.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Tickets? Sorted. Hotel? Sorted. Let's go!",
+          "pl": "Bilety? Załatwione. Hotel? Załatwiony. Jedziemy!"
+        }
+      ],
+      "collocations": [
+        "all sorted",
+        "sorted!",
+        "get it sorted"
+      ],
+      "tags": [
+        "slang",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.absolutely-adj",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 25,
+      "en": "I'm absolutely ___.",
+      "pl": "Jestem totalnie ___.",
+      "alternatives": [],
+      "usage": "Wzmocnienie mocnych przymiotników.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm absolutely gutted.",
+          "pl": "Jestem totalnie załamany."
+        },
+        {
+          "en": "I'm absolutely starving.",
+          "pl": "Umieram z głodu."
+        }
+      ],
+      "note": "„Absolutely” pasuje do mocnych przymiotników (starving, exhausted, amazing), nie do słabych (nie „absolutely hungry”).",
+      "tags": [
+        "slang"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.once-in-a-while",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 26,
+      "en": "Once in a while, I ___.",
+      "pl": "Od czasu do czasu ___.",
+      "alternatives": [],
+      "usage": "Rzadkie nawyki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Once in a while, I eat junk food.",
+          "pl": "Od czasu do czasu jem śmieciowe jedzenie."
+        },
+        {
+          "en": "Once in a while, I go to a rock concert.",
+          "pl": "Od czasu do czasu chodzę na koncert rockowy."
+        }
+      ],
+      "tags": [
+        "idiom",
+        "gr:present-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.not-in-mood-for",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 27,
+      "en": "I'm not in the mood for ___.",
+      "pl": "Nie mam ochoty na ___.",
+      "alternatives": [],
+      "usage": "Czego dziś nie chcesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm not in the mood for dancing.",
+          "pl": "Nie mam dziś ochoty na tańce."
+        },
+        {
+          "en": "I'm not in the mood for a big night out.",
+          "pl": "Nie mam ochoty na wielkie wyjście."
+        }
+      ],
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.lets-grab",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 28,
+      "en": "Let's grab ___.",
+      "pl": "Skoczmy na ___.",
+      "alternatives": [],
+      "usage": "„Grab” = szybko coś wziąć.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Let's grab a coffee.",
+          "pl": "Skoczmy na kawę."
+        },
+        {
+          "en": "Let's grab a bite to eat.",
+          "pl": "Skoczmy coś zjeść."
+        }
+      ],
+      "tags": [
+        "slang"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.cant-be-bothered",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 29,
+      "en": "I can't be bothered to ___.",
+      "pl": "Nie chce mi się ___.",
+      "alternatives": [],
+      "usage": "Brak motywacji — bardzo brytyjskie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I can't be bothered to cook tonight.",
+          "pl": "Nie chce mi się dziś gotować."
+        },
+        {
+          "en": "I can't be bothered to go out.",
+          "pl": "Nie chce mi się wychodzić."
+        }
+      ],
+      "note": "Idealne tłumaczenie „nie chce mi się”!",
+      "tags": [
+        "slang",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.whats-the-point",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 30,
+      "en": "What's the point of ___?",
+      "pl": "Jaki jest sens ___?",
+      "alternatives": [],
+      "usage": "Kwestionujesz coś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the point of going so early?",
+          "pl": "Jaki jest sens iść tak wcześnie?"
+        },
+        {
+          "en": "What's the point of buying VIP?",
+          "pl": "Jaki jest sens kupować VIP?"
+        }
+      ],
+      "note": "Po „point of” czasownik z „-ing”.",
+      "tags": [
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.idioms-slang.skint-and-gutted",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 31,
+      "en": "Skint and gutted",
+      "pl": "Spłukany i załamany",
+      "alternatives": [],
+      "usage": "Brytyjski slang w akcji.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Are you coming to Ibiza with us? It's all sorted!",
+          "pl": "Jedziesz z nami na Ibizę? Wszystko załatwione!",
+          "speaker": "A"
+        },
+        {
+          "en": "I'd love to, but I'm skint. Flights cost an arm and a leg.",
+          "pl": "Chciałbym, ale jestem spłukany. Loty kosztują majątek.",
+          "speaker": "B"
+        },
+        {
+          "en": "Oh no, I'm gutted! Maybe next year?",
+          "pl": "O nie, ale szkoda! Może w przyszłym roku?",
+          "speaker": "A"
+        },
+        {
+          "en": "Definitely. Keep me posted.",
+          "pl": "Na pewno. Dawaj znać.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "slang",
+        "idiom"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.idioms-slang.lazy-evening",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.idioms-slang",
+      "order": 32,
+      "en": "A lazy evening",
+      "pl": "Leniwy wieczór",
+      "alternatives": [],
+      "usage": "Idiomy przy planowaniu wieczoru.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Shall we go out tonight?",
+          "pl": "Wychodzimy dziś?",
+          "speaker": "A"
+        },
+        {
+          "en": "I can't be bothered, to be honest. I'm feeling a bit under the weather.",
+          "pl": "Szczerze? Nie chce mi się. Czuję się nie najlepiej.",
+          "speaker": "B"
+        },
+        {
+          "en": "Fair enough. Let's grab a pizza and play it by ear.",
+          "pl": "No dobra. Weźmy pizzę i zobaczymy, jak wyjdzie.",
+          "speaker": "A"
+        },
+        {
+          "en": "You're a legend.",
+          "pl": "Jesteś wielki.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "slang",
+        "idiom"
+      ],
+      "level": "A2"
+    }
+  ]
+}

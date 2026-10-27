@@ -1,0 +1,882 @@
+{
+  "module": {
+    "id": "s7.fillers",
+    "stage": 7,
+    "order": 3,
+    "title": "Wypełniacze i naturalne zwroty",
+    "titleEn": "Fillers & natural phrases",
+    "description": "You know, I mean, kind of, like, anyway, by the way, the thing is… — małe słowa, dzięki którym brzmisz jak native, a nie jak podręcznik.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s7.fillers.honestly-fine",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 1,
+      "en": "Honestly, it's fine.",
+      "pl": "Szczerze, jest OK.",
+      "alternatives": [
+        "Honestly, it's OK.",
+        "It's fine, honestly."
+      ],
+      "usage": "Uspokajasz kogoś szczerze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you sure you don't mind? — Honestly, it's fine.",
+          "pl": "Na pewno ci nie przeszkadza? — Szczerze, jest OK."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.before-i-forget",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 2,
+      "en": "Oh, before I forget…",
+      "pl": "A, zanim zapomnę…",
+      "alternatives": [
+        "Before I forget…"
+      ],
+      "usage": "Wtrącasz ważną rzecz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Oh, before I forget — here's the money for the tickets.",
+          "pl": "A, zanim zapomnę — tu kasa za bilety."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.anyway-have-to-go",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 3,
+      "en": "Anyway, I have to go.",
+      "pl": "W każdym razie, muszę lecieć.",
+      "alternatives": [
+        "Anyway, I've got to go.",
+        "Anyway, I need to go."
+      ],
+      "usage": "„Anyway” zamyka temat.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Anyway, I have to go. See you tomorrow!",
+          "pl": "W każdym razie, muszę lecieć. Do jutra!"
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.well-it-depends",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 4,
+      "en": "Well, it depends.",
+      "pl": "No, to zależy.",
+      "alternatives": [],
+      "usage": "„Well” daje ci sekundę na myślenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it expensive? — Well, it depends. Food yes, drinks no.",
+          "pl": "Drogo jest? — No, to zależy. Jedzenie tak, picie nie."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.know-what-i-mean",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 5,
+      "en": "You know what I mean?",
+      "pl": "Wiesz, o co mi chodzi?",
+      "alternatives": [
+        "Know what I mean?",
+        "Do you know what I mean?"
+      ],
+      "usage": "Sprawdzasz, czy rozmówca rozumie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's not about the music, it's about the people. You know what I mean?",
+          "pl": "Nie chodzi o muzykę, chodzi o ludzi. Wiesz, o co mi chodzi?"
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.i-mean-not-bad",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 6,
+      "en": "I mean, it's not bad, but…",
+      "pl": "No w sensie, nie jest źle, ale…",
+      "alternatives": [],
+      "usage": "„I mean” — doprecyzowujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Did you like it? — I mean, it's not bad, but I expected more.",
+          "pl": "Podobało ci się? — No w sensie, nie było źle, ale spodziewałem się więcej."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.kind-of-weird",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 7,
+      "en": "It was kind of weird.",
+      "pl": "To było trochę dziwne.",
+      "alternatives": [
+        "It was a bit weird.",
+        "It was sort of weird."
+      ],
+      "usage": "„Kind of” łagodzi wypowiedź.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "He just stood there looking at me. It was kind of weird.",
+          "pl": "Po prostu stał i się na mnie patrzył. To było trochę dziwne."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.put-it-this-way",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 8,
+      "en": "Let me put it this way…",
+      "pl": "Ujmę to tak…",
+      "alternatives": [],
+      "usage": "Gdy tłumaczysz coś inaczej.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Was the food good? — Let me put it this way: I didn't finish it.",
+          "pl": "Jedzenie było dobre? — Ujmę to tak: nie dojadłem."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.how-can-i-put-it",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 9,
+      "en": "How can I put it…",
+      "pl": "Jak by to ująć…",
+      "alternatives": [
+        "How shall I put it…"
+      ],
+      "usage": "Szukasz słów — ratunek w rozmowie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "He's… how can I put it… a very special guy.",
+          "pl": "On jest… jak by to ująć… bardzo specyficzny."
+        }
+      ],
+      "tags": [
+        "fillers",
+        "rescue"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.something-like-that",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 10,
+      "en": "Something like that.",
+      "pl": "Coś w tym stylu.",
+      "alternatives": [
+        "Something like that, yeah."
+      ],
+      "usage": "Gdy nie jesteś precyzyjny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "He's from Ghent or Bruges, something like that.",
+          "pl": "Jest z Gandawy albo Brugii, coś w tym stylu."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.stuff-like-that",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 11,
+      "en": "And stuff like that.",
+      "pl": "I takie tam.",
+      "alternatives": [
+        "And things like that.",
+        "And stuff."
+      ],
+      "usage": "Kończysz wyliczankę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I like gaming, techno, the gym, and stuff like that.",
+          "pl": "Lubię gry, techno, siłownię i takie tam."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.so-yeah-thats-it",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 12,
+      "en": "So yeah, that's it.",
+      "pl": "No i tyle.",
+      "alternatives": [
+        "So yeah.",
+        "That's it, really."
+      ],
+      "usage": "Kończysz opowieść.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "…and then we went home. So yeah, that's it.",
+          "pl": "…a potem wróciliśmy do domu. No i tyle."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.long-night",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 13,
+      "en": "Let's just say it was a long night.",
+      "pl": "Powiedzmy, że to była długa noc.",
+      "alternatives": [],
+      "usage": "Gdy nie chcesz opowiadać szczegółów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Why are you so tired? — Let's just say it was a long night.",
+          "pl": "Czemu jesteś taki zmęczony? — Powiedzmy, że to była długa noc."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.amazing-right",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 14,
+      "en": "It's amazing, right?",
+      "pl": "Niesamowite, nie?",
+      "alternatives": [
+        "It's amazing, isn't it?"
+      ],
+      "usage": "„Right?” na końcu szuka zgody.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "This view is amazing, right? — Totally!",
+          "pl": "Ten widok jest niesamowity, nie? — Totalnie!"
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.or-whatever",
+      "type": "phrase",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 15,
+      "en": "Or whatever.",
+      "pl": "Czy coś tam.",
+      "alternatives": [],
+      "usage": "Luźne zakończenie wyliczanki.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "We can get pizza, or kebab, or whatever.",
+          "pl": "Możemy wziąć pizzę albo kebaba, czy coś tam."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.you-know",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 16,
+      "en": "you know",
+      "pl": "wiesz (wypełniacz)",
+      "alternatives": [],
+      "usage": "Utrzymujesz kontakt z rozmówcą.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's just, you know, really expensive.",
+          "pl": "To jest po prostu, wiesz, bardzo drogie."
+        }
+      ],
+      "collocations": [
+        "…, you know?",
+        "you know what?",
+        "you know, …"
+      ],
+      "note": "Używaj z umiarem — co kilka zdań, nie w każdym.",
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.i-mean",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 17,
+      "en": "I mean",
+      "pl": "w sensie, to znaczy",
+      "alternatives": [],
+      "usage": "Poprawiasz albo doprecyzowujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It was great. I mean, the music was great, the weather wasn't.",
+          "pl": "Było super. W sensie — muzyka super, pogoda nie."
+        }
+      ],
+      "collocations": [
+        "I mean, …",
+        "what I mean is…",
+        "I mean it"
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.kind-of",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 18,
+      "en": "kind of",
+      "pl": "trochę, jakby",
+      "alternatives": [],
+      "usage": "Łagodzisz stwierdzenie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm kind of tired.",
+          "pl": "Jestem trochę zmęczony."
+        }
+      ],
+      "collocations": [
+        "kind of tired",
+        "kind of weird",
+        "kind of like…"
+      ],
+      "note": "W mowie często „kinda”: I'm kinda tired.",
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.sort-of",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 19,
+      "en": "sort of",
+      "pl": "w pewnym sensie, jakby",
+      "alternatives": [],
+      "usage": "Bardziej brytyjska wersja „kind of”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's sort of a mix of techno and trance.",
+          "pl": "To taki jakby miks techno i trance."
+        }
+      ],
+      "collocations": [
+        "sort of like…",
+        "sort of",
+        "it sort of works"
+      ],
+      "tags": [
+        "fillers",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.like",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 20,
+      "en": "like",
+      "pl": "jakby, no (wypełniacz)",
+      "alternatives": [],
+      "usage": "Bardzo częste w luźnej mowie młodych ludzi.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "And he was, like, 'Where are you from?'",
+          "pl": "A on tak jakby: „Skąd jesteś?”"
+        }
+      ],
+      "collocations": [
+        "…, like, …",
+        "he was like…",
+        "it's like…"
+      ],
+      "note": "„He was like…” = „a on na to…” — tak się relacjonuje czyjeś słowa.",
+      "tags": [
+        "fillers",
+        "slang"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.anyway",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 21,
+      "en": "anyway",
+      "pl": "w każdym razie; tak czy siak",
+      "alternatives": [],
+      "usage": "Zmiana tematu albo powrót do wątku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Anyway, what was I saying?",
+          "pl": "W każdym razie, co mówiłem?"
+        }
+      ],
+      "collocations": [
+        "anyway, …",
+        "thanks anyway",
+        "anyway, where was I?"
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.apparently",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 22,
+      "en": "apparently",
+      "pl": "podobno, ponoć",
+      "alternatives": [],
+      "usage": "Przekazujesz informację z drugiej ręki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Apparently, the tickets are already sold out.",
+          "pl": "Podobno bilety są już wyprzedane."
+        }
+      ],
+      "collocations": [
+        "apparently, …",
+        "apparently not",
+        "apparently so"
+      ],
+      "pronunciation": "Akcent na „PA”: „a-PA-rent-li”.",
+      "tags": [
+        "fillers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.literally",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 23,
+      "en": "literally",
+      "pl": "dosłownie; serio (wzmocnienie)",
+      "alternatives": [],
+      "usage": "Mocne podkreślenie — w mowie często przesadzone.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I literally didn't sleep at all.",
+          "pl": "Dosłownie w ogóle nie spałem."
+        }
+      ],
+      "collocations": [
+        "literally everyone",
+        "literally nothing",
+        "I literally can't"
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.totally",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 24,
+      "en": "totally",
+      "pl": "totalnie, całkowicie",
+      "alternatives": [],
+      "usage": "Mocne potwierdzenie w luźnej rozmowie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Was it worth it? — Totally!",
+          "pl": "Było warto? — Totalnie!"
+        }
+      ],
+      "collocations": [
+        "totally agree",
+        "totally fine",
+        "totally worth it"
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.or-something",
+      "type": "word",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 25,
+      "en": "or something",
+      "pl": "czy coś",
+      "alternatives": [],
+      "usage": "Niedokładność.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Let's get a coffee or something.",
+          "pl": "Skoczmy na kawę czy coś."
+        }
+      ],
+      "collocations": [
+        "…or something",
+        "a coffee or something",
+        "at eight or something"
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.to-be-honest",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 26,
+      "en": "To be honest, ___.",
+      "pl": "Szczerze mówiąc, ___.",
+      "alternatives": [],
+      "usage": "Szczera opinia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "To be honest, I didn't like it.",
+          "pl": "Szczerze mówiąc, nie podobało mi się."
+        },
+        {
+          "en": "To be honest, I'm a bit tired.",
+          "pl": "Szczerze mówiąc, jestem trochę zmęczony."
+        }
+      ],
+      "note": "Pisane często jako TBH.",
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.the-thing-is",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 27,
+      "en": "The thing is, ___.",
+      "pl": "Chodzi o to, że ___.",
+      "alternatives": [],
+      "usage": "Wyjaśniasz problem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The thing is, I'm working tomorrow.",
+          "pl": "Chodzi o to, że jutro pracuję."
+        },
+        {
+          "en": "The thing is, I don't have a ticket.",
+          "pl": "Chodzi o to, że nie mam biletu."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.its-kind-of",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 28,
+      "en": "It's kind of ___.",
+      "pl": "To jest takie trochę ___.",
+      "alternatives": [],
+      "usage": "Łagodne „to jest…”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's kind of expensive.",
+          "pl": "To jest trochę drogie."
+        },
+        {
+          "en": "It's kind of hard to explain.",
+          "pl": "To trochę trudno wyjaśnić."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.i-guess-pattern",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 29,
+      "en": "I guess ___.",
+      "pl": "Chyba ___.",
+      "alternatives": [],
+      "usage": "Niepewna opinia.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I guess you're right.",
+          "pl": "Chyba masz rację."
+        },
+        {
+          "en": "I guess it's OK.",
+          "pl": "Chyba jest OK."
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.what-i-mean-is",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 30,
+      "en": "What I mean is, ___.",
+      "pl": "Chodzi mi o to, że ___.",
+      "alternatives": [],
+      "usage": "Doprecyzowujesz, gdy ktoś źle zrozumiał.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What I mean is, we should leave earlier.",
+          "pl": "Chodzi mi o to, że powinniśmy wyjść wcześniej."
+        },
+        {
+          "en": "What I mean is, I'm not angry.",
+          "pl": "Chodzi mi o to, że nie jestem zły."
+        }
+      ],
+      "tags": [
+        "fillers",
+        "rescue"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s7.fillers.by-the-way-pattern",
+      "type": "pattern",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 31,
+      "en": "By the way, ___.",
+      "pl": "A tak w ogóle, ___.",
+      "alternatives": [],
+      "usage": "Nowy wątek w rozmowie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "By the way, what's your name?",
+          "pl": "A tak w ogóle, jak masz na imię?"
+        },
+        {
+          "en": "By the way, are you coming tomorrow?",
+          "pl": "A przy okazji, przychodzisz jutro?"
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.chat-with-fillers",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 32,
+      "en": "A natural chat",
+      "pl": "Naturalna rozmowa",
+      "alternatives": [],
+      "usage": "Wypełniacze sprawiają, że brzmisz naturalnie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "So, how was the club last night?",
+          "pl": "No i jak było wczoraj w klubie?",
+          "speaker": "A"
+        },
+        {
+          "en": "Well, it was kind of weird, you know? The music was good, I mean, really good…",
+          "pl": "No, było trochę dziwnie, wiesz? Muzyka była dobra, w sensie, naprawdę dobra…",
+          "speaker": "B"
+        },
+        {
+          "en": "But?",
+          "pl": "Ale?",
+          "speaker": "A"
+        },
+        {
+          "en": "But it was literally empty. Like, ten people. So yeah, that's it.",
+          "pl": "Ale było dosłownie pusto. Jakieś dziesięć osób. No i tyle.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s7.fillers.explaining",
+      "type": "dialog",
+      "stage": 7,
+      "module": "s7.fillers",
+      "order": 33,
+      "en": "Explaining a problem",
+      "pl": "Tłumaczenie problemu",
+      "alternatives": [],
+      "usage": "Kupujesz sobie czas wypełniaczami.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Are you coming to the party?",
+          "pl": "Przychodzisz na imprezę?",
+          "speaker": "A"
+        },
+        {
+          "en": "The thing is… how can I put it… I'm a bit skint this week.",
+          "pl": "Chodzi o to, że… jak by to ująć… jestem w tym tygodniu trochę spłukany.",
+          "speaker": "B"
+        },
+        {
+          "en": "Don't worry, it's free entry!",
+          "pl": "Spokojnie, wejście jest darmowe!",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh! Well, in that case, I'm in. By the way, what time?",
+          "pl": "O! No to w takim razie wchodzę. A tak w ogóle, o której?",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "fillers"
+      ],
+      "level": "A2"
+    }
+  ]
+}
