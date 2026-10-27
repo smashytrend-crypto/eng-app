@@ -184,30 +184,6 @@
    ]
   },
   {
-   "id": "v.practise",
-   "en": "practise",
-   "pl": "ćwiczyć",
-   "pos": "v",
-   "level": "A2",
-   "rank": 5156,
-   "alternatives": [
-    "practice"
-   ],
-   "example": [
-    {
-     "en": "I practise English every day.",
-     "pl": "Ćwiczę angielski codziennie."
-    }
-   ],
-   "collocations": [
-    "practise English"
-   ],
-   "note": "UK: „practise” (czasownik), „practice” (rzeczownik). US: zawsze „practice”.",
-   "tags": [
-    "uk-us"
-   ]
-  },
-  {
    "id": "v.fog",
    "en": "fog",
    "pl": "mgła",
