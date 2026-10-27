@@ -4,7 +4,7 @@
   "order": 2,
   "level": "A1",
   "title": "Słówka A1 · 2",
-  "description": "Absolutne podstawy — słowa, bez których nie da się rozmawiać. Część 2 z 4."
+  "description": "Absolutne podstawy — słowa, bez których nie da się rozmawiać. Część 2 z 5."
  },
  "items": [
   {
@@ -64,6 +64,25 @@
     "let's meet"
    ],
    "note": "meet – met – met."
+  },
+  {
+   "id": "v.small",
+   "en": "small",
+   "pl": "mały",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 146,
+   "example": [
+    {
+     "en": "Can I have a small coffee?",
+     "pl": "Mogę prosić małą kawę?"
+    }
+   ],
+   "collocations": [
+    "small size",
+    "small town",
+    "small talk"
+   ]
   },
   {
    "id": "v.hear",
@@ -1720,6 +1739,62 @@
    ]
   },
   {
+   "id": "v.baby",
+   "en": "baby",
+   "pl": "niemowlę, dzidziuś; kochanie",
+   "pos": "n",
+   "level": "A1",
+   "rank": 354,
+   "example": [
+    {
+     "en": "They've just had a baby.",
+     "pl": "Właśnie urodziło im się dziecko."
+    }
+   ],
+   "collocations": [
+    "have a baby",
+    "baby boy",
+    "baby girl"
+   ]
+  },
+  {
+   "id": "v.road",
+   "en": "road",
+   "pl": "droga",
+   "pos": "n",
+   "level": "A1",
+   "rank": 355,
+   "example": [
+    {
+     "en": "Be careful on the road.",
+     "pl": "Uważaj na drodze."
+    }
+   ],
+   "collocations": [
+    "main road",
+    "road trip"
+   ]
+  },
+  {
+   "id": "v.left",
+   "en": "left",
+   "pl": "lewo; lewy",
+   "pos": "n",
+   "level": "A1",
+   "rank": 360,
+   "example": [
+    {
+     "en": "Turn left at the lights.",
+     "pl": "Na światłach skręć w lewo."
+    }
+   ],
+   "collocations": [
+    "on the left",
+    "turn left",
+    "left hand"
+   ]
+  },
+  {
    "id": "v.park",
    "en": "park",
    "pl": "park; parkować",
@@ -1878,83 +1953,6 @@
     "I'm fine",
     "that's fine",
     "pay a fine"
-   ]
-  },
-  {
-   "id": "v.minute",
-   "en": "minute",
-   "pl": "minuta",
-   "pos": "n",
-   "level": "A1",
-   "rank": 383,
-   "example": [
-    {
-     "en": "Wait a minute!",
-     "pl": "Poczekaj chwilę!"
-    }
-   ],
-   "collocations": [
-    "five minutes",
-    "last minute",
-    "just a minute"
-   ]
-  },
-  {
-   "id": "v.enjoy",
-   "en": "enjoy",
-   "pl": "cieszyć się, lubić",
-   "pos": "v",
-   "level": "A1",
-   "rank": 385,
-   "example": [
-    {
-     "en": "Enjoy your meal!",
-     "pl": "Smacznego!"
-    }
-   ],
-   "collocations": [
-    "enjoy it",
-    "enjoy yourself",
-    "enjoy doing"
-   ],
-   "note": "„enjoy + -ing”: I enjoy dancing."
-  },
-  {
-   "id": "v.finish",
-   "en": "finish",
-   "pl": "skończyć",
-   "pos": "v",
-   "level": "A1",
-   "rank": 386,
-   "example": [
-    {
-     "en": "What time do you finish work?",
-     "pl": "O której kończysz pracę?"
-    }
-   ],
-   "collocations": [
-    "finish work",
-    "finish early",
-    "finish line"
-   ]
-  },
-  {
-   "id": "v.behind",
-   "en": "behind",
-   "pl": "za, z tyłu",
-   "pos": "prep",
-   "level": "A1",
-   "rank": 387,
-   "example": [
-    {
-     "en": "The toilets are behind the stage.",
-     "pl": "Toalety są za sceną."
-    }
-   ],
-   "collocations": [
-    "behind me",
-    "behind the bar",
-    "fall behind"
    ]
   }
  ]

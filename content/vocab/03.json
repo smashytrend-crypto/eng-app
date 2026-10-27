@@ -4,9 +4,86 @@
   "order": 3,
   "level": "A1",
   "title": "Słówka A1 · 3",
-  "description": "Absolutne podstawy — słowa, bez których nie da się rozmawiać. Część 3 z 4."
+  "description": "Absolutne podstawy — słowa, bez których nie da się rozmawiać. Część 3 z 5."
  },
  "items": [
+  {
+   "id": "v.minute",
+   "en": "minute",
+   "pl": "minuta",
+   "pos": "n",
+   "level": "A1",
+   "rank": 383,
+   "example": [
+    {
+     "en": "Wait a minute!",
+     "pl": "Poczekaj chwilę!"
+    }
+   ],
+   "collocations": [
+    "five minutes",
+    "last minute",
+    "just a minute"
+   ]
+  },
+  {
+   "id": "v.enjoy",
+   "en": "enjoy",
+   "pl": "cieszyć się, lubić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 385,
+   "example": [
+    {
+     "en": "Enjoy your meal!",
+     "pl": "Smacznego!"
+    }
+   ],
+   "collocations": [
+    "enjoy it",
+    "enjoy yourself",
+    "enjoy doing"
+   ],
+   "note": "„enjoy + -ing”: I enjoy dancing."
+  },
+  {
+   "id": "v.finish",
+   "en": "finish",
+   "pl": "skończyć",
+   "pos": "v",
+   "level": "A1",
+   "rank": 386,
+   "example": [
+    {
+     "en": "What time do you finish work?",
+     "pl": "O której kończysz pracę?"
+    }
+   ],
+   "collocations": [
+    "finish work",
+    "finish early",
+    "finish line"
+   ]
+  },
+  {
+   "id": "v.behind",
+   "en": "behind",
+   "pl": "za, z tyłu",
+   "pos": "prep",
+   "level": "A1",
+   "rank": 387,
+   "example": [
+    {
+     "en": "The toilets are behind the stage.",
+     "pl": "Toalety są za sceną."
+    }
+   ],
+   "collocations": [
+    "behind me",
+    "behind the bar",
+    "fall behind"
+   ]
+  },
   {
    "id": "v.mother",
    "en": "mother",
@@ -543,6 +620,25 @@
    "tags": [
     "polish-trap"
    ]
+  },
+  {
+   "id": "v.throw",
+   "en": "throw",
+   "pl": "rzucać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 487,
+   "example": [
+    {
+     "en": "Throw me the ball!",
+     "pl": "Rzuć mi piłkę!"
+    }
+   ],
+   "collocations": [
+    "throw away",
+    "throw up"
+   ],
+   "note": "throw – threw – thrown. „throw up” = wymiotować."
   },
   {
    "id": "v.paper",
@@ -1873,105 +1969,6 @@
     "sunrise",
     "sunset"
    ]
-  },
-  {
-   "id": "v.camera",
-   "en": "camera",
-   "pl": "aparat, kamera",
-   "pos": "n",
-   "level": "A1",
-   "rank": 859,
-   "example": [
-    {
-     "en": "Don't forget your camera.",
-     "pl": "Nie zapomnij aparatu."
-    }
-   ],
-   "collocations": [
-    "digital camera",
-    "camera phone",
-    "on camera"
-   ]
-  },
-  {
-   "id": "v.slow",
-   "en": "slow",
-   "pl": "wolny, powolny",
-   "pos": "adj",
-   "level": "A1",
-   "rank": 878,
-   "example": [
-    {
-     "en": "The Wi-Fi is so slow.",
-     "pl": "Wi-Fi jest strasznie wolne."
-    }
-   ],
-   "collocations": [
-    "slow down",
-    "slow internet",
-    "too slow"
-   ]
-  },
-  {
-   "id": "v.dad",
-   "en": "dad",
-   "pl": "tata",
-   "pos": "n",
-   "level": "A1",
-   "rank": 881,
-   "example": [
-    {
-     "en": "My dad taught me to drive.",
-     "pl": "Tata nauczył mnie prowadzić."
-    }
-   ],
-   "collocations": [
-    "my dad",
-    "mum and dad",
-    "dad joke"
-   ],
-   "tags": [
-    "family"
-   ]
-  },
-  {
-   "id": "v.leg",
-   "en": "leg",
-   "pl": "noga",
-   "pos": "n",
-   "level": "A1",
-   "rank": 886,
-   "example": [
-    {
-     "en": "Today is leg day at the gym.",
-     "pl": "Dziś na siłowni nogi."
-    }
-   ],
-   "collocations": [
-    "leg day",
-    "broken leg",
-    "stretch your legs"
-   ]
-  },
-  {
-   "id": "v.beach",
-   "en": "beach",
-   "pl": "plaża",
-   "pos": "n",
-   "level": "A1",
-   "rank": 887,
-   "example": [
-    {
-     "en": "Let's go to the beach!",
-     "pl": "Chodźmy na plażę!"
-    }
-   ],
-   "collocations": [
-    "on the beach",
-    "beach bar",
-    "go to the beach"
-   ],
-   "pronunciation": "beach ≈ „bi:cz” — długie „i”, inaczej brzmi jak przekleństwo!"
   }
  ]
 }

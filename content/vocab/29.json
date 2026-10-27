@@ -1,0 +1,1434 @@
+{
+ "set": {
+  "id": "v.29",
+  "order": 29,
+  "level": "B2",
+  "title": "Słówka B2 · 7",
+  "description": "Bogatszy język: precyzyjne słowa, którymi brzmisz naturalnie i pewnie. Część 7 z 7."
+ },
+ "items": [
+  {
+   "id": "v.fabulous",
+   "en": "fabulous",
+   "pl": "bajeczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4106,
+   "example": [
+    {
+     "en": "You look fabulous!",
+     "pl": "Wyglądasz bajecznie!"
+    }
+   ],
+   "collocations": [
+    "fabulous"
+   ]
+  },
+  {
+   "id": "v.gently",
+   "en": "gently",
+   "pl": "delikatnie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4107,
+   "example": [
+    {
+     "en": "Close the door gently.",
+     "pl": "Zamknij drzwi delikatnie."
+    }
+   ],
+   "collocations": [
+    "gently"
+   ]
+  },
+  {
+   "id": "v.glorious",
+   "en": "glorious",
+   "pl": "wspaniały",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4108,
+   "example": [
+    {
+     "en": "What a glorious day!",
+     "pl": "Co za wspaniały dzień!"
+    }
+   ],
+   "collocations": [
+    "glorious"
+   ]
+  },
+  {
+   "id": "v.permanently",
+   "en": "permanently",
+   "pl": "na stałe",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4113,
+   "example": [
+    {
+     "en": "He moved to Spain permanently.",
+     "pl": "Przeprowadził się na stałe do Hiszpanii."
+    }
+   ],
+   "collocations": [
+    "permanently"
+   ]
+  },
+  {
+   "id": "v.tragic",
+   "en": "tragic",
+   "pl": "tragiczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4117,
+   "example": [
+    {
+     "en": "It was tragic.",
+     "pl": "To było tragiczne."
+    }
+   ],
+   "collocations": [
+    "tragic"
+   ]
+  },
+  {
+   "id": "v.underneath",
+   "en": "underneath",
+   "pl": "pod spodem",
+   "pos": "prep",
+   "level": "B2",
+   "rank": 4118,
+   "example": [
+    {
+     "en": "Look underneath the bed.",
+     "pl": "Zajrzyj pod łóżko."
+    }
+   ],
+   "collocations": [
+    "underneath"
+   ]
+  },
+  {
+   "id": "v.overcome",
+   "en": "overcome",
+   "pl": "pokonać",
+   "pos": "v",
+   "level": "B2",
+   "rank": 4123,
+   "example": [
+    {
+     "en": "I overcame my fear of flying.",
+     "pl": "Pokonałem strach przed lataniem."
+    }
+   ],
+   "collocations": [
+    "overcome"
+   ]
+  },
+  {
+   "id": "v.cloth",
+   "en": "cloth",
+   "pl": "szmatka; materiał",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4131,
+   "example": [
+    {
+     "en": "Wipe it with a cloth.",
+     "pl": "Wytrzyj to szmatką."
+    }
+   ],
+   "collocations": [
+    "cloth"
+   ]
+  },
+  {
+   "id": "v.champ",
+   "en": "champ",
+   "pl": "mistrz",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4133,
+   "example": [
+    {
+     "en": "You're a champ!",
+     "pl": "Jesteś mistrzem!"
+    }
+   ],
+   "collocations": [
+    "champ"
+   ],
+   "tags": [
+    "slang"
+   ]
+  },
+  {
+   "id": "v.sympathy",
+   "en": "sympathy",
+   "pl": "współczucie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4137,
+   "example": [
+    {
+     "en": "You have my sympathy.",
+     "pl": "Współczuję ci."
+    }
+   ],
+   "collocations": [
+    "sympathy"
+   ],
+   "note": "„sympathy” = współczucie, a nie sympatia (= liking).",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.gesture",
+   "en": "gesture",
+   "pl": "gest",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4144,
+   "example": [
+    {
+     "en": "It was a nice gesture.",
+     "pl": "To był miły gest."
+    }
+   ],
+   "collocations": [
+    "gesture"
+   ]
+  },
+  {
+   "id": "v.altogether",
+   "en": "altogether",
+   "pl": "w sumie; całkowicie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4164,
+   "example": [
+    {
+     "en": "That's forty euros altogether.",
+     "pl": "W sumie czterdzieści euro."
+    }
+   ],
+   "collocations": [
+    "altogether"
+   ]
+  },
+  {
+   "id": "v.miserable",
+   "en": "miserable",
+   "pl": "nieszczęśliwy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4171,
+   "example": [
+    {
+     "en": "I feel miserable.",
+     "pl": "Czuję się okropnie."
+    }
+   ],
+   "collocations": [
+    "miserable"
+   ]
+  },
+  {
+   "id": "v.tremendous",
+   "en": "tremendous",
+   "pl": "ogromny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4183,
+   "example": [
+    {
+     "en": "It was a tremendous success.",
+     "pl": "To był ogromny sukces."
+    }
+   ],
+   "collocations": [
+    "tremendous"
+   ]
+  },
+  {
+   "id": "v.crawl",
+   "en": "crawl",
+   "pl": "czołgać się",
+   "pos": "v",
+   "level": "B2",
+   "rank": 4188,
+   "example": [
+    {
+     "en": "The baby is crawling.",
+     "pl": "Dziecko raczkuje."
+    }
+   ],
+   "collocations": [
+    "crawl"
+   ]
+  },
+  {
+   "id": "v.nod",
+   "en": "nod",
+   "pl": "skinąć głową",
+   "pos": "v",
+   "level": "B2",
+   "rank": 4197,
+   "example": [
+    {
+     "en": "He nodded and smiled.",
+     "pl": "Skinął głową i się uśmiechnął."
+    }
+   ],
+   "collocations": [
+    "nod"
+   ]
+  },
+  {
+   "id": "v.coupon",
+   "en": "coupon",
+   "pl": "kupon",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4199,
+   "example": [
+    {
+     "en": "I've got a discount coupon.",
+     "pl": "Mam kupon rabatowy."
+    }
+   ],
+   "collocations": [
+    "coupon"
+   ]
+  },
+  {
+   "id": "v.sequel",
+   "en": "sequel",
+   "pl": "kontynuacja",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4201,
+   "example": [
+    {
+     "en": "The sequel was better.",
+     "pl": "Druga część była lepsza."
+    }
+   ],
+   "collocations": [
+    "sequel"
+   ]
+  },
+  {
+   "id": "v.strap",
+   "en": "strap",
+   "pl": "pasek",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4207,
+   "example": [
+    {
+     "en": "The strap on my bag broke.",
+     "pl": "Urwał mi się pasek od torby."
+    }
+   ],
+   "collocations": [
+    "strap"
+   ]
+  },
+  {
+   "id": "v.disappointment",
+   "en": "disappointment",
+   "pl": "rozczarowanie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4208,
+   "example": [
+    {
+     "en": "What a disappointment.",
+     "pl": "Co za rozczarowanie."
+    }
+   ],
+   "collocations": [
+    "disappointment"
+   ]
+  },
+  {
+   "id": "v.instinct",
+   "en": "instinct",
+   "pl": "instynkt",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4209,
+   "example": [
+    {
+     "en": "Follow your instinct.",
+     "pl": "Idź za instynktem."
+    }
+   ],
+   "collocations": [
+    "instinct"
+   ]
+  },
+  {
+   "id": "v.adorable",
+   "en": "adorable",
+   "pl": "uroczy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4210,
+   "example": [
+    {
+     "en": "Your baby is adorable!",
+     "pl": "Twoje dziecko jest urocze!"
+    }
+   ],
+   "collocations": [
+    "adorable"
+   ]
+  },
+  {
+   "id": "v.ashamed",
+   "en": "ashamed",
+   "pl": "zawstydzony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4212,
+   "example": [
+    {
+     "en": "I'm ashamed of myself.",
+     "pl": "Wstydzę się siebie."
+    }
+   ],
+   "collocations": [
+    "ashamed of"
+   ]
+  },
+  {
+   "id": "v.halfway",
+   "en": "halfway",
+   "pl": "w połowie drogi",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4217,
+   "example": [
+    {
+     "en": "We're halfway there.",
+     "pl": "Jesteśmy w połowie drogi."
+    }
+   ],
+   "collocations": [
+    "halfway"
+   ]
+  },
+  {
+   "id": "v.spectacular",
+   "en": "spectacular",
+   "pl": "spektakularny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4229,
+   "example": [
+    {
+     "en": "The fireworks were spectacular.",
+     "pl": "Fajerwerki były spektakularne."
+    }
+   ],
+   "collocations": [
+    "spectacular"
+   ]
+  },
+  {
+   "id": "v.disadvantage",
+   "en": "disadvantage",
+   "pl": "wada",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4262,
+   "example": [
+    {
+     "en": "What are the disadvantages?",
+     "pl": "Jakie są wady?"
+    }
+   ],
+   "collocations": [
+    "disadvantage"
+   ]
+  },
+  {
+   "id": "v.sprint",
+   "en": "sprint",
+   "pl": "sprint",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4265,
+   "example": [
+    {
+     "en": "I did sprints at the gym.",
+     "pl": "Robiłem sprinty na siłowni."
+    }
+   ],
+   "collocations": [
+    "sprint"
+   ]
+  },
+  {
+   "id": "v.shortage",
+   "en": "shortage",
+   "pl": "niedobór",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4267,
+   "example": [
+    {
+     "en": "There's a water shortage.",
+     "pl": "Jest niedobór wody."
+    }
+   ],
+   "collocations": [
+    "shortage"
+   ]
+  },
+  {
+   "id": "v.preview",
+   "en": "preview",
+   "pl": "podgląd; zapowiedź",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4270,
+   "example": [
+    {
+     "en": "Watch the preview.",
+     "pl": "Obejrzyj zapowiedź."
+    }
+   ],
+   "collocations": [
+    "preview"
+   ]
+  },
+  {
+   "id": "v.adequate",
+   "en": "adequate",
+   "pl": "odpowiedni, wystarczający",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4281,
+   "example": [
+    {
+     "en": "The room was adequate.",
+     "pl": "Pokój był w porządku."
+    }
+   ],
+   "collocations": [
+    "adequate"
+   ]
+  },
+  {
+   "id": "v.comeback",
+   "en": "comeback",
+   "pl": "powrót",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4283,
+   "example": [
+    {
+     "en": "What a comeback!",
+     "pl": "Co za powrót!"
+    }
+   ],
+   "collocations": [
+    "make a comeback"
+   ]
+  },
+  {
+   "id": "v.exceptional",
+   "en": "exceptional",
+   "pl": "wyjątkowy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4286,
+   "example": [
+    {
+     "en": "The service was exceptional.",
+     "pl": "Obsługa była wyjątkowa."
+    }
+   ],
+   "collocations": [
+    "exceptional"
+   ]
+  },
+  {
+   "id": "v.frankly",
+   "en": "frankly",
+   "pl": "szczerze mówiąc",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4287,
+   "example": [
+    {
+     "en": "Frankly, I don't care.",
+     "pl": "Szczerze mówiąc, nie obchodzi mnie to."
+    }
+   ],
+   "collocations": [
+    "frankly"
+   ]
+  },
+  {
+   "id": "v.ignorant",
+   "en": "ignorant",
+   "pl": "niedouczony; ignorant",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4289,
+   "example": [
+    {
+     "en": "Don't be ignorant.",
+     "pl": "Nie bądź ignorantem."
+    }
+   ],
+   "collocations": [
+    "ignorant"
+   ]
+  },
+  {
+   "id": "v.medieval",
+   "en": "medieval",
+   "pl": "średniowieczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4292,
+   "example": [
+    {
+     "en": "It's a medieval town.",
+     "pl": "To średniowieczne miasto."
+    }
+   ],
+   "collocations": [
+    "medieval"
+   ]
+  },
+  {
+   "id": "v.supportive",
+   "en": "supportive",
+   "pl": "wspierający",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4298,
+   "example": [
+    {
+     "en": "My family is very supportive.",
+     "pl": "Moja rodzina bardzo mnie wspiera."
+    }
+   ],
+   "collocations": [
+    "supportive"
+   ]
+  },
+  {
+   "id": "v.lawn",
+   "en": "lawn",
+   "pl": "trawnik",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4304,
+   "example": [
+    {
+     "en": "Keep off the lawn.",
+     "pl": "Nie wchodzić na trawnik."
+    }
+   ],
+   "collocations": [
+    "lawn"
+   ]
+  },
+  {
+   "id": "v.frustration",
+   "en": "frustration",
+   "pl": "frustracja",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4306,
+   "example": [
+    {
+     "en": "I understand your frustration.",
+     "pl": "Rozumiem twoją frustrację."
+    }
+   ],
+   "collocations": [
+    "frustration"
+   ]
+  },
+  {
+   "id": "v.frost",
+   "en": "frost",
+   "pl": "szron, mróz",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4310,
+   "example": [
+    {
+     "en": "There's frost on the car.",
+     "pl": "Na aucie jest szron."
+    }
+   ],
+   "collocations": [
+    "frost"
+   ]
+  },
+  {
+   "id": "v.authentic",
+   "en": "authentic",
+   "pl": "autentyczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4318,
+   "example": [
+    {
+     "en": "The food is really authentic.",
+     "pl": "Jedzenie jest naprawdę autentyczne."
+    }
+   ],
+   "collocations": [
+    "authentic"
+   ]
+  },
+  {
+   "id": "v.finale",
+   "en": "finale",
+   "pl": "finał",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4322,
+   "example": [
+    {
+     "en": "The fireworks were the grand finale.",
+     "pl": "Fajerwerki były wielkim finałem."
+    }
+   ],
+   "collocations": [
+    "grand finale"
+   ]
+  },
+  {
+   "id": "v.likewise",
+   "en": "likewise",
+   "pl": "nawzajem; podobnie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4326,
+   "example": [
+    {
+     "en": "Nice to meet you. — Likewise!",
+     "pl": "Miło cię poznać. — Nawzajem!"
+    }
+   ],
+   "collocations": [
+    "likewise"
+   ]
+  },
+  {
+   "id": "v.magnificent",
+   "en": "magnificent",
+   "pl": "wspaniały",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4327,
+   "example": [
+    {
+     "en": "The view is magnificent.",
+     "pl": "Widok jest wspaniały."
+    }
+   ],
+   "collocations": [
+    "magnificent"
+   ]
+  },
+  {
+   "id": "v.meantime",
+   "en": "meantime",
+   "pl": "w międzyczasie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4329,
+   "example": [
+    {
+     "en": "In the meantime, let's eat.",
+     "pl": "W międzyczasie coś zjedzmy."
+    }
+   ],
+   "collocations": [
+    "in the meantime"
+   ]
+  },
+  {
+   "id": "v.shallow",
+   "en": "shallow",
+   "pl": "płytki",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4332,
+   "example": [
+    {
+     "en": "The water is shallow here.",
+     "pl": "Woda jest tu płytka."
+    }
+   ],
+   "collocations": [
+    "shallow"
+   ]
+  },
+  {
+   "id": "v.spite",
+   "en": "spite",
+   "pl": "złośliwość",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4335,
+   "example": [
+    {
+     "en": "In spite of the rain, we had fun.",
+     "pl": "Mimo deszczu dobrze się bawiliśmy."
+    }
+   ],
+   "collocations": [
+    "in spite of"
+   ]
+  },
+  {
+   "id": "v.steep",
+   "en": "steep",
+   "pl": "stromy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4343,
+   "example": [
+    {
+     "en": "The hill is steep.",
+     "pl": "Wzgórze jest strome."
+    }
+   ],
+   "collocations": [
+    "steep"
+   ]
+  },
+  {
+   "id": "v.blues",
+   "en": "blues",
+   "pl": "blues; chandra",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4347,
+   "example": [
+    {
+     "en": "I've got the Monday blues.",
+     "pl": "Mam poniedziałkową chandrę."
+    }
+   ],
+   "collocations": [
+    "the blues"
+   ]
+  },
+  {
+   "id": "v.robbery",
+   "en": "robbery",
+   "pl": "rabunek",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4350,
+   "example": [
+    {
+     "en": "There was a robbery.",
+     "pl": "Był napad."
+    }
+   ],
+   "collocations": [
+    "robbery"
+   ]
+  },
+  {
+   "id": "v.bachelor",
+   "en": "bachelor",
+   "pl": "kawaler",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4359,
+   "example": [
+    {
+     "en": "It's his bachelor party.",
+     "pl": "To jego wieczór kawalerski."
+    }
+   ],
+   "collocations": [
+    "bachelor party"
+   ],
+   "note": "UK „stag do/party”."
+  },
+  {
+   "id": "v.eager",
+   "en": "eager",
+   "pl": "chętny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4391,
+   "example": [
+    {
+     "en": "I'm eager to learn.",
+     "pl": "Bardzo chcę się uczyć."
+    }
+   ],
+   "collocations": [
+    "eager to"
+   ]
+  },
+  {
+   "id": "v.modest",
+   "en": "modest",
+   "pl": "skromny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4394,
+   "example": [
+    {
+     "en": "Don't be so modest.",
+     "pl": "Nie bądź taki skromny."
+    }
+   ],
+   "collocations": [
+    "modest"
+   ]
+  },
+  {
+   "id": "v.sting",
+   "en": "sting",
+   "pl": "użądlić",
+   "pos": "v",
+   "level": "B2",
+   "rank": 4407,
+   "example": [
+    {
+     "en": "A bee stung me.",
+     "pl": "Użądliła mnie pszczoła."
+    }
+   ],
+   "collocations": [
+    "bee sting"
+   ],
+   "note": "sting – stung – stung."
+  },
+  {
+   "id": "v.marble",
+   "en": "marble",
+   "pl": "marmur",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4409,
+   "example": [
+    {
+     "en": "The floor is marble.",
+     "pl": "Podłoga jest marmurowa."
+    }
+   ],
+   "collocations": [
+    "marble"
+   ]
+  },
+  {
+   "id": "v.lick",
+   "en": "lick",
+   "pl": "lizać",
+   "pos": "v",
+   "level": "B2",
+   "rank": 4420,
+   "example": [
+    {
+     "en": "The dog licked my face.",
+     "pl": "Pies polizał mnie po twarzy."
+    }
+   ],
+   "collocations": [
+    "lick"
+   ]
+  },
+  {
+   "id": "v.stumble",
+   "en": "stumble",
+   "pl": "potknąć się",
+   "pos": "v",
+   "level": "B2",
+   "rank": 4431,
+   "example": [
+    {
+     "en": "I stumbled on the stairs.",
+     "pl": "Potknąłem się na schodach."
+    }
+   ],
+   "collocations": [
+    "stumble"
+   ]
+  },
+  {
+   "id": "v.bizarre",
+   "en": "bizarre",
+   "pl": "dziwaczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4437,
+   "example": [
+    {
+     "en": "That's bizarre.",
+     "pl": "To dziwaczne."
+    }
+   ],
+   "collocations": [
+    "bizarre"
+   ]
+  },
+  {
+   "id": "v.convenience",
+   "en": "convenience",
+   "pl": "wygoda",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4440,
+   "example": [
+    {
+     "en": "There's a convenience store nearby.",
+     "pl": "Niedaleko jest sklep osiedlowy."
+    }
+   ],
+   "collocations": [
+    "convenience store"
+   ]
+  },
+  {
+   "id": "v.deliberately",
+   "en": "deliberately",
+   "pl": "celowo",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4441,
+   "example": [
+    {
+     "en": "He did it deliberately.",
+     "pl": "Zrobił to celowo."
+    }
+   ],
+   "collocations": [
+    "deliberately"
+   ]
+  },
+  {
+   "id": "v.enthusiasm",
+   "en": "enthusiasm",
+   "pl": "entuzjazm",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4443,
+   "example": [
+    {
+     "en": "I love your enthusiasm!",
+     "pl": "Uwielbiam twój entuzjazm!"
+    }
+   ],
+   "collocations": [
+    "enthusiasm"
+   ]
+  },
+  {
+   "id": "v.heck",
+   "en": "heck",
+   "pl": "kurczę",
+   "pos": "int",
+   "level": "B2",
+   "rank": 4446,
+   "example": [
+    {
+     "en": "What the heck!",
+     "pl": "Co do licha!"
+    }
+   ],
+   "collocations": [
+    "what the heck"
+   ],
+   "tags": [
+    "slang"
+   ]
+  },
+  {
+   "id": "v.utterly",
+   "en": "utterly",
+   "pl": "całkowicie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4456,
+   "example": [
+    {
+     "en": "I'm utterly exhausted.",
+     "pl": "Jestem kompletnie wykończony."
+    }
+   ],
+   "collocations": [
+    "utterly"
+   ]
+  },
+  {
+   "id": "v.fist",
+   "en": "fist",
+   "pl": "pięść",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4472,
+   "example": [
+    {
+     "en": "He made a fist.",
+     "pl": "Zacisnął pięść."
+    }
+   ],
+   "collocations": [
+    "fist bump"
+   ]
+  },
+  {
+   "id": "v.necessity",
+   "en": "necessity",
+   "pl": "konieczność",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4474,
+   "example": [
+    {
+     "en": "A power bank is a necessity at festivals.",
+     "pl": "Powerbank to konieczność na festiwalach."
+    }
+   ],
+   "collocations": [
+    "necessity"
+   ]
+  },
+  {
+   "id": "v.herb",
+   "en": "herb",
+   "pl": "zioło",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4482,
+   "example": [
+    {
+     "en": "Fresh herbs make it better.",
+     "pl": "Świeże zioła wszystko poprawiają."
+    }
+   ],
+   "collocations": [
+    "herbs"
+   ]
+  },
+  {
+   "id": "v.spine",
+   "en": "spine",
+   "pl": "kręgosłup",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4493,
+   "example": [
+    {
+     "en": "Keep your spine straight.",
+     "pl": "Trzymaj prosto kręgosłup."
+    }
+   ],
+   "collocations": [
+    "spine"
+   ]
+  },
+  {
+   "id": "v.canyon",
+   "en": "canyon",
+   "pl": "kanion",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4500,
+   "example": [
+    {
+     "en": "We visited the Grand Canyon.",
+     "pl": "Zwiedziliśmy Wielki Kanion."
+    }
+   ],
+   "collocations": [
+    "canyon"
+   ]
+  },
+  {
+   "id": "v.creativity",
+   "en": "creativity",
+   "pl": "kreatywność",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4505,
+   "example": [
+    {
+     "en": "DJing needs creativity.",
+     "pl": "DJ-ing wymaga kreatywności."
+    }
+   ],
+   "collocations": [
+    "creativity"
+   ]
+  },
+  {
+   "id": "v.delicate",
+   "en": "delicate",
+   "pl": "delikatny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4506,
+   "example": [
+    {
+     "en": "It's a delicate situation.",
+     "pl": "To delikatna sytuacja."
+    }
+   ],
+   "collocations": [
+    "delicate"
+   ]
+  },
+  {
+   "id": "v.secretly",
+   "en": "secretly",
+   "pl": "potajemnie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4517,
+   "example": [
+    {
+     "en": "I secretly love this song.",
+     "pl": "Po cichu kocham tę piosenkę."
+    }
+   ],
+   "collocations": [
+    "secretly"
+   ]
+  },
+  {
+   "id": "v.transparent",
+   "en": "transparent",
+   "pl": "przezroczysty",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4522,
+   "example": [
+    {
+     "en": "Only transparent bags allowed.",
+     "pl": "Dozwolone tylko przezroczyste torby."
+    }
+   ],
+   "collocations": [
+    "transparent bag"
+   ]
+  },
+  {
+   "id": "v.upside",
+   "en": "upside",
+   "pl": "górna strona",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4523,
+   "example": [
+    {
+     "en": "It's upside down.",
+     "pl": "Jest do góry nogami."
+    }
+   ],
+   "collocations": [
+    "upside down"
+   ]
+  },
+  {
+   "id": "v.thigh",
+   "en": "thigh",
+   "pl": "udo",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4544,
+   "example": [
+    {
+     "en": "My thighs hurt after squats.",
+     "pl": "Po przysiadach bolą mnie uda."
+    }
+   ],
+   "collocations": [
+    "thighs"
+   ]
+  },
+  {
+   "id": "v.kindly",
+   "en": "kindly",
+   "pl": "uprzejmie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 4564,
+   "example": [
+    {
+     "en": "Kindly wait here.",
+     "pl": "Uprzejmie prosimy czekać tutaj."
+    }
+   ],
+   "collocations": [
+    "kindly"
+   ]
+  },
+  {
+   "id": "v.kindness",
+   "en": "kindness",
+   "pl": "życzliwość",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4565,
+   "example": [
+    {
+     "en": "Thanks for your kindness.",
+     "pl": "Dzięki za życzliwość."
+    }
+   ],
+   "collocations": [
+    "kindness"
+   ]
+  },
+  {
+   "id": "v.vinyl",
+   "en": "vinyl",
+   "pl": "winyl",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4572,
+   "example": [
+    {
+     "en": "He only plays vinyl.",
+     "pl": "Gra tylko z winyli."
+    }
+   ],
+   "collocations": [
+    "vinyl"
+   ]
+  },
+  {
+   "id": "v.composer",
+   "en": "composer",
+   "pl": "kompozytor",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4592,
+   "example": [
+    {
+     "en": "He's a film composer.",
+     "pl": "Jest kompozytorem muzyki filmowej."
+    }
+   ],
+   "collocations": [
+    "composer"
+   ]
+  },
+  {
+   "id": "v.sensation",
+   "en": "sensation",
+   "pl": "sensacja; uczucie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4594,
+   "example": [
+    {
+     "en": "The new DJ is a sensation.",
+     "pl": "Nowy DJ to sensacja."
+    }
+   ],
+   "collocations": [
+    "sensation"
+   ]
+  },
+  {
+   "id": "v.meditation",
+   "en": "meditation",
+   "pl": "medytacja",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4596,
+   "example": [
+    {
+     "en": "I try meditation to relax.",
+     "pl": "Próbuję medytacji, żeby się zrelaksować."
+    }
+   ],
+   "collocations": [
+    "meditation"
+   ]
+  },
+  {
+   "id": "v.feast",
+   "en": "feast",
+   "pl": "uczta",
+   "pos": "n",
+   "level": "B2",
+   "rank": 4598,
+   "example": [
+    {
+     "en": "What a feast!",
+     "pl": "Co za uczta!"
+    }
+   ],
+   "collocations": [
+    "feast"
+   ]
+  },
+  {
+   "id": "v.dull",
+   "en": "dull",
+   "pl": "nudny; matowy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 4934,
+   "example": [
+    {
+     "en": "It was a dull party.",
+     "pl": "To była nudna impreza."
+    }
+   ],
+   "collocations": [
+    "dull"
+   ]
+  },
+  {
+   "id": "v.wink",
+   "en": "wink",
+   "pl": "mrugnąć",
+   "pos": "v",
+   "level": "B2",
+   "rank": 8258,
+   "example": [
+    {
+     "en": "She winked at me!",
+     "pl": "Mrugnęła do mnie!"
+    }
+   ],
+   "collocations": [
+    "wink"
+   ]
+  },
+  {
+   "id": "v.haunted",
+   "en": "haunted",
+   "pl": "nawiedzony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 50006,
+   "example": [
+    {
+     "en": "They say the castle is haunted.",
+     "pl": "Mówią, że zamek jest nawiedzony."
+    }
+   ],
+   "collocations": [
+    "haunted house"
+   ]
+  }
+ ]
+}

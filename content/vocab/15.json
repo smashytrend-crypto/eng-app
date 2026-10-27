@@ -3,1794 +3,1904 @@
   "id": "v.15",
   "order": 15,
   "level": "B1",
-  "title": "Słówka B1 · 6",
-  "description": "Swobodna rozmowa: opinie, opowiadanie, plany, praca i podróże. Część 6 z 9."
+  "title": "Słówka B1 · 4",
+  "description": "Swobodna rozmowa: opinie, opowiadanie, plany, praca i podróże. Część 4 z 11."
  },
  "items": [
   {
-   "id": "v.volunteer",
-   "en": "volunteer",
-   "pl": "wolontariusz",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1566,
-   "example": [
-    {
-     "en": "I worked as a volunteer at the festival.",
-     "pl": "Pracowałem jako wolontariusz na festiwalu."
-    }
-   ],
-   "collocations": [
-    "volunteer at",
-    "festival volunteer"
-   ]
-  },
-  {
-   "id": "v.contest",
-   "en": "contest",
-   "pl": "konkurs",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1569,
-   "example": [
-    {
-     "en": "I won a contest on Instagram.",
-     "pl": "Wygrałem konkurs na Instagramie."
-    }
-   ],
-   "collocations": [
-    "win a contest",
-    "dance contest"
-   ]
-  },
-  {
-   "id": "v.recover",
-   "en": "recover",
-   "pl": "wyzdrowieć, dojść do siebie",
+   "id": "v.suffer",
+   "en": "suffer",
+   "pl": "cierpieć",
    "pos": "v",
    "level": "B1",
-   "rank": 1570,
+   "rank": 970,
    "example": [
     {
-     "en": "I need a day to recover after the festival.",
-     "pl": "Potrzebuję dnia, żeby dojść do siebie po festiwalu."
+     "en": "He suffers from back pain.",
+     "pl": "Cierpi na ból pleców."
     }
    ],
    "collocations": [
-    "recover from",
-    "fully recover"
+    "suffer from",
+    "suffer a lot"
    ]
   },
   {
-   "id": "v.relative",
-   "en": "relative",
-   "pl": "krewny",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1571,
-   "example": [
-    {
-     "en": "I'm visiting relatives in the UK.",
-     "pl": "Odwiedzam krewnych w Wielkiej Brytanii."
-    }
-   ],
-   "collocations": [
-    "close relative",
-    "relatives"
-   ]
-  },
-  {
-   "id": "v.compete",
-   "en": "compete",
-   "pl": "rywalizować",
+   "id": "v.spread",
+   "en": "spread",
+   "pl": "rozprzestrzeniać się; rozsmarować",
    "pos": "v",
    "level": "B1",
-   "rank": 1572,
+   "rank": 972,
    "example": [
     {
-     "en": "Twenty DJs compete for the prize.",
-     "pl": "Dwudziestu DJ-ów walczy o nagrodę."
+     "en": "The news spread fast.",
+     "pl": "Wiadomość szybko się rozeszła."
     }
    ],
    "collocations": [
-    "compete with",
-    "compete in"
-   ]
-  },
-  {
-   "id": "v.emotional",
-   "en": "emotional",
-   "pl": "emocjonalny; wzruszony",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 1581,
-   "example": [
-    {
-     "en": "I got emotional at the end.",
-     "pl": "Na koniec się wzruszyłem."
-    }
+    "spread the word",
+    "spread out",
+    "spread butter"
    ],
-   "collocations": [
-    "get emotional",
-    "emotional moment"
-   ]
+   "note": "spread – spread – spread."
   },
   {
-   "id": "v.monster",
-   "en": "monster",
-   "pl": "potwór",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1585,
-   "example": [
-    {
-     "en": "That bass is a monster!",
-     "pl": "Ten bas to potwór!"
-    }
-   ],
-   "collocations": [
-    "monster truck"
-   ]
-  },
-  {
-   "id": "v.photograph",
-   "en": "photograph",
-   "pl": "fotografia",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1587,
-   "example": [
-    {
-     "en": "Can I take a photograph?",
-     "pl": "Mogę zrobić zdjęcie?"
-    }
-   ],
-   "collocations": [
-    "take a photograph"
-   ]
-  },
-  {
-   "id": "v.chart",
-   "en": "chart",
-   "pl": "wykres; lista przebojów",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1590,
-   "example": [
-    {
-     "en": "This track is number one in the charts.",
-     "pl": "Ten kawałek jest numerem jeden na listach."
-    }
-   ],
-   "collocations": [
-    "top of the charts",
-    "chart"
-   ]
-  },
-  {
-   "id": "v.championship",
-   "en": "championship",
-   "pl": "mistrzostwa",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1592,
-   "example": [
-    {
-     "en": "Who won the championship?",
-     "pl": "Kto wygrał mistrzostwa?"
-    }
-   ],
-   "collocations": [
-    "world championship"
-   ]
-  },
-  {
-   "id": "v.experiment",
-   "en": "experiment",
-   "pl": "eksperyment",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1600,
-   "example": [
-    {
-     "en": "Let's try an experiment.",
-     "pl": "Zróbmy eksperyment."
-    }
-   ],
-   "collocations": [
-    "do an experiment"
-   ]
-  },
-  {
-   "id": "v.confidence",
-   "en": "confidence",
-   "pl": "pewność siebie",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1605,
-   "example": [
-    {
-     "en": "I need more confidence when I speak English.",
-     "pl": "Potrzebuję więcej pewności siebie, kiedy mówię po angielsku."
-    }
-   ],
-   "collocations": [
-    "self-confidence",
-    "lack of confidence"
-   ]
-  },
-  {
-   "id": "v.sight",
-   "en": "sight",
-   "pl": "widok; wzrok; zabytek",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1617,
-   "example": [
-    {
-     "en": "Let's see the sights.",
-     "pl": "Pozwiedzajmy zabytki."
-    }
-   ],
-   "collocations": [
-    "sightseeing",
-    "out of sight"
-   ]
-  },
-  {
-   "id": "v.explore",
-   "en": "explore",
-   "pl": "zwiedzać, odkrywać",
+   "id": "v.select",
+   "en": "select",
+   "pl": "wybrać",
    "pos": "v",
    "level": "B1",
-   "rank": 1622,
+   "rank": 974,
    "example": [
     {
-     "en": "Let's explore the city.",
-     "pl": "Pozwiedzajmy miasto."
+     "en": "Select your language.",
+     "pl": "Wybierz język."
     }
    ],
    "collocations": [
-    "explore the city"
+    "select from",
+    "select a seat",
+    "selected items"
    ]
   },
   {
-   "id": "v.tradition",
-   "en": "tradition",
-   "pl": "tradycja",
+   "id": "v.environment",
+   "en": "environment",
+   "pl": "środowisko",
    "pos": "n",
    "level": "B1",
-   "rank": 1624,
+   "rank": 975,
    "example": [
     {
-     "en": "It's a Polish tradition.",
-     "pl": "To polska tradycja."
+     "en": "We should protect the environment.",
+     "pl": "Powinniśmy chronić środowisko."
     }
    ],
    "collocations": [
-    "old tradition",
-    "family tradition"
+    "the environment",
+    "work environment",
+    "friendly environment"
    ]
   },
   {
-   "id": "v.trap",
-   "en": "trap",
-   "pl": "pułapka",
-   "pos": "n",
+   "id": "v.confirm",
+   "en": "confirm",
+   "pl": "potwierdzić",
+   "pos": "v",
    "level": "B1",
-   "rank": 1630,
+   "rank": 983,
    "example": [
     {
-     "en": "It's a tourist trap.",
-     "pl": "To pułapka na turystów."
+     "en": "Can you confirm my booking?",
+     "pl": "Może pan potwierdzić moją rezerwację?"
     }
    ],
    "collocations": [
-    "tourist trap",
-    "fall into a trap"
+    "confirm a booking",
+    "confirmed",
+    "please confirm"
    ]
   },
   {
-   "id": "v.expression",
-   "en": "expression",
-   "pl": "wyrażenie; wyraz (twarzy)",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1631,
-   "example": [
-    {
-     "en": "What does this expression mean?",
-     "pl": "Co znaczy to wyrażenie?"
-    }
-   ],
-   "collocations": [
-    "facial expression"
-   ]
-  },
-  {
-   "id": "v.properly",
-   "en": "properly",
-   "pl": "porządnie, właściwie",
+   "id": "v.clearly",
+   "en": "clearly",
+   "pl": "wyraźnie, jasno",
    "pos": "adv",
    "level": "B1",
-   "rank": 1640,
+   "rank": 985,
    "example": [
     {
-     "en": "I haven't slept properly for days.",
-     "pl": "Od kilku dni porządnie się nie wyspałem."
+     "en": "Can you speak more clearly?",
+     "pl": "Możesz mówić wyraźniej?"
     }
    ],
    "collocations": [
-    "work properly",
-    "properly"
+    "speak clearly",
+    "clearly not",
+    "see clearly"
    ]
   },
   {
-   "id": "v.journalist",
-   "en": "journalist",
-   "pl": "dziennikarz",
+   "id": "v.session",
+   "en": "session",
+   "pl": "sesja; trening",
    "pos": "n",
    "level": "B1",
-   "rank": 1643,
+   "rank": 989,
    "example": [
     {
-     "en": "She's a music journalist.",
-     "pl": "Jest dziennikarką muzyczną."
+     "en": "I had a great session at the gym.",
+     "pl": "Miałem świetny trening na siłowni."
     }
    ],
    "collocations": [
-    "music journalist"
+    "training session",
+    "gym session",
+    "photo session"
    ]
   },
   {
-   "id": "v.delivery",
-   "en": "delivery",
-   "pl": "dostawa",
+   "id": "v.injury",
+   "en": "injury",
+   "pl": "uraz, kontuzja",
    "pos": "n",
    "level": "B1",
-   "rank": 1644,
+   "rank": 991,
    "example": [
     {
-     "en": "Is delivery free?",
-     "pl": "Dostawa jest darmowa?"
+     "en": "I've got a knee injury.",
+     "pl": "Mam kontuzję kolana."
     }
    ],
    "collocations": [
-    "free delivery",
-    "food delivery"
+    "knee injury",
+    "serious injury",
+    "sports injury"
    ]
   },
   {
-   "id": "v.personality",
-   "en": "personality",
-   "pl": "osobowość",
+   "id": "v.loan",
+   "en": "loan",
+   "pl": "pożyczka, kredyt",
    "pos": "n",
    "level": "B1",
-   "rank": 1645,
+   "rank": 993,
    "example": [
     {
-     "en": "He has a great personality.",
-     "pl": "Ma świetną osobowość."
+     "en": "I'm paying off a car loan.",
+     "pl": "Spłacam kredyt na samochód."
     }
    ],
    "collocations": [
-    "strong personality"
+    "bank loan",
+    "take out a loan",
+    "student loan"
    ]
   },
   {
-   "id": "v.heaven",
-   "en": "heaven",
-   "pl": "niebo (raj)",
+   "id": "v.reality",
+   "en": "reality",
+   "pl": "rzeczywistość",
    "pos": "n",
    "level": "B1",
-   "rank": 1648,
+   "rank": 994,
    "example": [
     {
-     "en": "This is heaven!",
-     "pl": "To raj!"
+     "en": "Back to reality!",
+     "pl": "Powrót do rzeczywistości!"
     }
    ],
    "collocations": [
-    "in heaven",
-    "heaven on earth"
+    "in reality",
+    "reality TV",
+    "face reality"
    ]
   },
   {
-   "id": "v.tournament",
-   "en": "tournament",
-   "pl": "turniej",
+   "id": "v.economy",
+   "en": "economy",
+   "pl": "gospodarka; klasa ekonomiczna",
    "pos": "n",
    "level": "B1",
-   "rank": 1651,
+   "rank": 1001,
    "example": [
     {
-     "en": "We're playing in a gaming tournament.",
-     "pl": "Gramy w turnieju gier."
+     "en": "We're flying economy.",
+     "pl": "Lecimy klasą ekonomiczną."
     }
    ],
    "collocations": [
-    "football tournament",
-    "win a tournament"
+    "economy class",
+    "the economy",
+    "global economy"
    ]
   },
   {
-   "id": "v.reward",
-   "en": "reward",
-   "pl": "nagroda",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1653,
-   "example": [
-    {
-     "en": "A cold beer is my reward after work.",
-     "pl": "Zimne piwo to moja nagroda po pracy."
-    }
-   ],
-   "collocations": [
-    "reward for",
-    "reward yourself"
-   ]
-  },
-  {
-   "id": "v.tag",
-   "en": "tag",
-   "pl": "oznaczyć (na zdjęciu); metka",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1655,
-   "example": [
-    {
-     "en": "Tag me in the photos!",
-     "pl": "Oznacz mnie na zdjęciach!"
-    }
-   ],
-   "collocations": [
-    "tag somebody",
-    "price tag",
-    "name tag"
-   ]
-  },
-  {
-   "id": "v.counter",
-   "en": "counter",
-   "pl": "lada",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1656,
-   "example": [
-    {
-     "en": "Pay at the counter.",
-     "pl": "Zapłać przy ladzie."
-    }
-   ],
-   "collocations": [
-    "at the counter",
-    "check-in counter"
-   ]
-  },
-  {
-   "id": "v.rescue",
-   "en": "rescue",
-   "pl": "ratować; akcja ratunkowa",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1659,
-   "example": [
-    {
-     "en": "You rescued me!",
-     "pl": "Uratowałeś mnie!"
-    }
-   ],
-   "collocations": [
-    "rescue team",
-    "to the rescue"
-   ]
-  },
-  {
-   "id": "v.complain",
-   "en": "complain",
-   "pl": "narzekać, składać skargę",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1660,
-   "example": [
-    {
-     "en": "Stop complaining!",
-     "pl": "Przestań narzekać!"
-    }
-   ],
-   "collocations": [
-    "complain about",
-    "complain to"
-   ]
-  },
-  {
-   "id": "v.solo",
-   "en": "solo",
-   "pl": "solo, samemu",
+   "id": "v.easily",
+   "en": "easily",
+   "pl": "łatwo",
    "pos": "adv",
    "level": "B1",
-   "rank": 1664,
+   "rank": 1006,
    "example": [
     {
-     "en": "I'm travelling solo this time.",
-     "pl": "Tym razem podróżuję sam."
+     "en": "You can easily walk there.",
+     "pl": "Spokojnie dojdziesz tam pieszo."
     }
    ],
    "collocations": [
-    "travel solo",
-    "solo trip"
+    "easily get",
+    "quite easily",
+    "easily the best"
    ]
   },
   {
-   "id": "v.extreme",
-   "en": "extreme",
-   "pl": "ekstremalny",
+   "id": "v.grand",
+   "en": "grand",
+   "pl": "wielki, okazały; tysiąc (slang)",
    "pos": "adj",
    "level": "B1",
-   "rank": 1667,
+   "rank": 1007,
    "example": [
     {
-     "en": "The heat was extreme.",
-     "pl": "Upał był ekstremalny."
+     "en": "It cost me two grand.",
+     "pl": "Kosztowało mnie to dwa tysiące."
     }
    ],
    "collocations": [
-    "extreme sports",
-    "extreme heat"
-   ]
+    "grand final",
+    "grand opening",
+    "a grand"
+   ],
+   "note": "Potocznie „a grand” = tysiąc (funtów/dolarów)."
   },
   {
-   "id": "v.incredible",
-   "en": "incredible",
-   "pl": "niewiarygodny",
+   "id": "v.necessary",
+   "en": "necessary",
+   "pl": "konieczny",
    "pos": "adj",
    "level": "B1",
-   "rank": 1673,
+   "rank": 1009,
    "example": [
     {
-     "en": "The view is incredible.",
-     "pl": "Widok jest niewiarygodny."
+     "en": "Is it necessary to book?",
+     "pl": "Trzeba rezerwować?"
     }
    ],
    "collocations": [
-    "absolutely incredible"
+    "if necessary",
+    "not necessary",
+    "absolutely necessary"
    ]
   },
   {
-   "id": "v.obvious",
-   "en": "obvious",
-   "pl": "oczywisty",
+   "id": "v.soul",
+   "en": "soul",
+   "pl": "dusza",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1016,
+   "example": [
+    {
+     "en": "This track has so much soul.",
+     "pl": "Ten kawałek ma tyle duszy."
+    }
+   ],
+   "collocations": [
+    "soul music",
+    "heart and soul",
+    "body and soul"
+   ]
+  },
+  {
+   "id": "v.hang",
+   "en": "hang",
+   "pl": "wieszać; zwisać",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1019,
+   "example": [
+    {
+     "en": "Let's hang out tonight.",
+     "pl": "Spotkajmy się dziś wieczorem."
+    }
+   ],
+   "collocations": [
+    "hang out",
+    "hang on",
+    "hang up"
+   ],
+   "note": "„hang out” = spędzać czas razem, „hang on” = chwileczkę, „hang up” = rozłączyć się."
+  },
+  {
+   "id": "v.guard",
+   "en": "guard",
+   "pl": "strażnik, ochroniarz",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1021,
+   "example": [
+    {
+     "en": "Ask the security guard.",
+     "pl": "Zapytaj ochroniarza."
+    }
+   ],
+   "collocations": [
+    "security guard",
+    "on guard",
+    "bodyguard"
+   ]
+  },
+  {
+   "id": "v.lower",
+   "en": "lower",
+   "pl": "niższy; obniżyć",
    "pos": "adj",
    "level": "B1",
-   "rank": 1674,
+   "rank": 1022,
    "example": [
     {
-     "en": "It's obvious!",
-     "pl": "To oczywiste!"
+     "en": "Can you lower the price?",
+     "pl": "Może pan obniżyć cenę?"
     }
    ],
    "collocations": [
-    "pretty obvious",
-    "obviously"
+    "lower price",
+    "lower back",
+    "lower the volume"
    ]
   },
   {
-   "id": "v.whenever",
-   "en": "whenever",
-   "pl": "kiedykolwiek, zawsze gdy",
-   "pos": "conj",
-   "level": "B1",
-   "rank": 1676,
-   "example": [
-    {
-     "en": "Call me whenever you want.",
-     "pl": "Dzwoń, kiedy tylko chcesz."
-    }
-   ],
-   "collocations": [
-    "whenever you want",
-    "whenever possible"
-   ]
-  },
-  {
-   "id": "v.occasion",
-   "en": "occasion",
-   "pl": "okazja (wydarzenie)",
+   "id": "v.distance",
+   "en": "distance",
+   "pl": "odległość",
    "pos": "n",
    "level": "B1",
-   "rank": 1686,
+   "rank": 1026,
    "example": [
     {
-     "en": "It's a special occasion.",
-     "pl": "To wyjątkowa okazja."
+     "en": "It's within walking distance.",
+     "pl": "Można tam dojść pieszo."
     }
    ],
    "collocations": [
-    "special occasion",
-    "on occasion"
+    "walking distance",
+    "long distance",
+    "in the distance"
    ]
   },
   {
-   "id": "v.quit",
-   "en": "quit",
-   "pl": "rzucić (pracę, nałóg)",
+   "id": "v.refuse",
+   "en": "refuse",
+   "pl": "odmówić",
    "pos": "v",
    "level": "B1",
-   "rank": 1687,
+   "rank": 1027,
    "example": [
     {
-     "en": "I quit smoking.",
-     "pl": "Rzuciłem palenie."
+     "en": "He refused to pay.",
+     "pl": "Odmówił zapłaty."
     }
    ],
    "collocations": [
-    "quit a job",
-    "quit smoking"
-   ],
-   "note": "quit – quit – quit."
-  },
-  {
-   "id": "v.cable",
-   "en": "cable",
-   "pl": "kabel",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1689,
-   "example": [
-    {
-     "en": "Have you got a phone cable?",
-     "pl": "Masz kabel do telefonu?"
-    }
-   ],
-   "collocations": [
-    "charging cable",
-    "USB cable"
+    "refuse to",
+    "refuse an offer",
+    "flatly refuse"
    ]
   },
   {
-   "id": "v.meaning",
-   "en": "meaning",
-   "pl": "znaczenie",
-   "pos": "n",
+   "id": "v.directly",
+   "en": "directly",
+   "pl": "bezpośrednio",
+   "pos": "adv",
    "level": "B1",
-   "rank": 1702,
+   "rank": 1028,
    "example": [
     {
-     "en": "What's the meaning of this word?",
-     "pl": "Jakie jest znaczenie tego słowa?"
+     "en": "Can I pay directly to you?",
+     "pl": "Mogę zapłacić bezpośrednio panu?"
     }
    ],
    "collocations": [
-    "meaning of",
-    "the meaning of life"
+    "directly to",
+    "directly from",
+    "go directly"
    ]
   },
   {
-   "id": "v.spin",
-   "en": "spin",
-   "pl": "kręcić; zakręcić",
+   "id": "v.speech",
+   "en": "speech",
+   "pl": "przemowa; mowa",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1031,
+   "example": [
+    {
+     "en": "He gave a speech at the wedding.",
+     "pl": "Wygłosił przemowę na weselu."
+    }
+   ],
+   "collocations": [
+    "give a speech",
+    "speech recognition",
+    "freedom of speech"
+   ]
+  },
+  {
+   "id": "v.soldier",
+   "en": "soldier",
+   "pl": "żołnierz",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1035,
+   "example": [
+    {
+     "en": "My grandad was a soldier.",
+     "pl": "Mój dziadek był żołnierzem."
+    }
+   ],
+   "collocations": [
+    "young soldier",
+    "soldiers"
+   ]
+  },
+  {
+   "id": "v.bet",
+   "en": "bet",
+   "pl": "zakładać się; zakład",
    "pos": "v",
    "level": "B1",
-   "rank": 1705,
+   "rank": 1036,
    "example": [
     {
-     "en": "The DJ spins records every Friday.",
-     "pl": "DJ gra płyty w każdy piątek."
+     "en": "I bet he's late again.",
+     "pl": "Założę się, że znowu się spóźni."
     }
    ],
    "collocations": [
-    "spin around",
-    "spin class"
-   ]
-  },
-  {
-   "id": "v.bother",
-   "en": "bother",
-   "pl": "przeszkadzać; chcieć się",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1706,
-   "example": [
-    {
-     "en": "Sorry to bother you.",
-     "pl": "Przepraszam, że przeszkadzam."
-    }
+    "I bet",
+    "you bet",
+    "place a bet"
    ],
-   "collocations": [
-    "sorry to bother you",
-    "can't be bothered",
-    "don't bother"
-   ]
+   "note": "„You bet!” = No pewnie!"
   },
   {
-   "id": "v.afford",
-   "en": "afford",
-   "pl": "pozwolić sobie (finansowo)",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1712,
-   "example": [
-    {
-     "en": "I can't afford it.",
-     "pl": "Nie stać mnie na to."
-    }
-   ],
-   "collocations": [
-    "can't afford",
-    "afford to"
-   ]
-  },
-  {
-   "id": "v.visitor",
-   "en": "visitor",
-   "pl": "odwiedzający, gość",
+   "id": "v.load",
+   "en": "load",
+   "pl": "ładunek; ładować",
    "pos": "n",
    "level": "B1",
-   "rank": 1716,
+   "rank": 1038,
    "example": [
     {
-     "en": "The festival has 400,000 visitors.",
-     "pl": "Festiwal ma 400 000 odwiedzających."
+     "en": "I've got loads of work.",
+     "pl": "Mam mnóstwo roboty."
     }
    ],
    "collocations": [
-    "visitors",
-    "visitor centre"
-   ]
+    "loads of",
+    "load the car",
+    "workload"
+   ],
+   "note": "„loads of” = mnóstwo (potocznie)."
   },
   {
-   "id": "v.comic",
-   "en": "comic",
-   "pl": "komiks",
+   "id": "v.suit",
+   "en": "suit",
+   "pl": "garnitur; pasować (komuś)",
    "pos": "n",
    "level": "B1",
-   "rank": 1717,
+   "rank": 1040,
    "example": [
     {
-     "en": "I used to read comics.",
-     "pl": "Kiedyś czytałem komiksy."
+     "en": "Does Friday suit you?",
+     "pl": "Pasuje ci piątek?"
     }
    ],
    "collocations": [
-    "comic book"
+    "wear a suit",
+    "suit you",
+    "suits me"
    ]
   },
   {
-   "id": "v.tight",
-   "en": "tight",
-   "pl": "ciasny; obcisły",
+   "id": "v.spirit",
+   "en": "spirit",
+   "pl": "duch; nastrój",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1043,
+   "example": [
+    {
+     "en": "I love the spirit of this festival.",
+     "pl": "Uwielbiam ducha tego festiwalu."
+    }
+   ],
+   "collocations": [
+    "team spirit",
+    "in good spirits",
+    "spirit of"
+   ]
+  },
+  {
+   "id": "v.suppose",
+   "en": "suppose",
+   "pl": "przypuszczać",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1044,
+   "example": [
+    {
+     "en": "I suppose you're right.",
+     "pl": "Pewnie masz rację."
+    }
+   ],
+   "collocations": [
+    "I suppose",
+    "be supposed to",
+    "suppose so"
+   ],
+   "note": "„be supposed to” = mieć coś zrobić (według planu)."
+  },
+  {
+   "id": "v.recognize",
+   "en": "recognize",
+   "pl": "rozpoznać",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1049,
+   "alternatives": [
+    "recognise"
+   ],
+   "example": [
+    {
+     "en": "I didn't recognize you!",
+     "pl": "Nie poznałem cię!"
+    }
+   ],
+   "collocations": [
+    "recognize somebody",
+    "recognize the voice"
+   ]
+  },
+  {
+   "id": "v.profile",
+   "en": "profile",
+   "pl": "profil",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1052,
+   "example": [
+    {
+     "en": "Check out my profile.",
+     "pl": "Zajrzyj na mój profil."
+    }
+   ],
+   "collocations": [
+    "profile picture",
+    "public profile",
+    "high profile"
+   ]
+  },
+  {
+   "id": "v.citizen",
+   "en": "citizen",
+   "pl": "obywatel",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1054,
+   "example": [
+    {
+     "en": "I'm a Polish citizen.",
+     "pl": "Jestem obywatelem Polski."
+    }
+   ],
+   "collocations": [
+    "EU citizen",
+    "senior citizen",
+    "citizen of"
+   ]
+  },
+  {
+   "id": "v.royal",
+   "en": "royal",
+   "pl": "królewski",
    "pos": "adj",
    "level": "B1",
-   "rank": 1718,
+   "rank": 1059,
    "example": [
     {
-     "en": "These jeans are too tight.",
-     "pl": "Te dżinsy są za ciasne."
+     "en": "We visited the royal palace.",
+     "pl": "Zwiedziliśmy pałac królewski."
     }
    ],
    "collocations": [
-    "tight jeans",
-    "tight budget"
+    "royal family",
+    "royal palace"
    ]
   },
   {
-   "id": "v.pray",
-   "en": "pray",
-   "pl": "modlić się",
-   "pos": "v",
+   "id": "v.stress",
+   "en": "stress",
+   "pl": "stres",
+   "pos": "n",
    "level": "B1",
-   "rank": 1723,
+   "rank": 1060,
    "example": [
     {
-     "en": "I'm praying for good weather.",
-     "pl": "Modlę się o dobrą pogodę."
+     "en": "Exercise helps me with stress.",
+     "pl": "Ćwiczenia pomagają mi na stres."
     }
    ],
    "collocations": [
-    "pray for"
+    "under stress",
+    "stress out",
+    "stressed"
    ]
   },
   {
-   "id": "v.familiar",
-   "en": "familiar",
-   "pl": "znajomy",
-   "pos": "adj",
+   "id": "v.equipment",
+   "en": "equipment",
+   "pl": "sprzęt",
+   "pos": "n",
    "level": "B1",
-   "rank": 1728,
+   "rank": 1061,
    "example": [
     {
-     "en": "Your face looks familiar.",
-     "pl": "Twoja twarz wydaje się znajoma."
+     "en": "The gym has new equipment.",
+     "pl": "Siłownia ma nowy sprzęt."
     }
    ],
    "collocations": [
-    "look familiar",
-    "familiar with"
+    "gym equipment",
+    "DJ equipment",
+    "sports equipment"
    ],
-   "note": "„familiar” = znajomy (znany), NIE „familiarny”.",
+   "note": "Niepoliczalne: „equipment” bez -s.",
    "tags": [
     "polish-trap"
    ]
   },
   {
-   "id": "v.guilty",
-   "en": "guilty",
-   "pl": "winny",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 1729,
-   "example": [
-    {
-     "en": "I feel guilty.",
-     "pl": "Czuję się winny."
-    }
-   ],
-   "collocations": [
-    "feel guilty",
-    "guilty pleasure"
-   ]
-  },
-  {
-   "id": "v.perfectly",
-   "en": "perfectly",
-   "pl": "doskonale",
+   "id": "v.eventually",
+   "en": "eventually",
+   "pl": "w końcu, ostatecznie",
    "pos": "adv",
    "level": "B1",
-   "rank": 1731,
+   "rank": 1062,
    "example": [
     {
-     "en": "It fits perfectly.",
-     "pl": "Pasuje idealnie."
+     "en": "We eventually found the hotel.",
+     "pl": "W końcu znaleźliśmy hotel."
     }
    ],
    "collocations": [
-    "perfectly fine",
-    "perfectly clear"
-   ]
-  },
-  {
-   "id": "v.pleasure",
-   "en": "pleasure",
-   "pl": "przyjemność",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1734,
-   "example": [
-    {
-     "en": "My pleasure!",
-     "pl": "Cała przyjemność po mojej stronie!"
-    }
+    "eventually found",
+    "eventually got"
    ],
-   "collocations": [
-    "it's a pleasure",
-    "with pleasure"
+   "note": "„eventually” = w końcu, NIE „ewentualnie” (= possibly, maybe).",
+   "tags": [
+    "polish-trap"
    ]
   },
   {
-   "id": "v.supporter",
-   "en": "supporter",
-   "pl": "kibic, zwolennik",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1739,
-   "example": [
-    {
-     "en": "I'm a Pogoń supporter.",
-     "pl": "Kibicuję Pogoni."
-    }
-   ],
-   "collocations": [
-    "football supporter"
-   ]
-  },
-  {
-   "id": "v.penalty",
-   "en": "penalty",
-   "pl": "kara; rzut karny",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1742,
-   "example": [
-    {
-     "en": "He missed the penalty.",
-     "pl": "Nie strzelił karnego."
-    }
-   ],
-   "collocations": [
-    "penalty kick",
-    "penalty fee"
-   ]
-  },
-  {
-   "id": "v.universe",
-   "en": "universe",
-   "pl": "wszechświat",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1744,
-   "example": [
-    {
-     "en": "The best festival in the universe!",
-     "pl": "Najlepszy festiwal we wszechświecie!"
-    }
-   ],
-   "collocations": [
-    "in the universe"
-   ]
-  },
-  {
-   "id": "v.log",
-   "en": "log",
-   "pl": "zalogować się",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1746,
-   "example": [
-    {
-     "en": "Log in to your account.",
-     "pl": "Zaloguj się na swoje konto."
-    }
-   ],
-   "collocations": [
-    "log in",
-    "log out"
-   ]
-  },
-  {
-   "id": "v.appointment",
-   "en": "appointment",
-   "pl": "wizyta (umówiona)",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1750,
-   "example": [
-    {
-     "en": "I've got a doctor's appointment.",
-     "pl": "Mam wizytę u lekarza."
-    }
-   ],
-   "collocations": [
-    "make an appointment",
-    "doctor's appointment"
-   ]
-  },
-  {
-   "id": "v.creative",
-   "en": "creative",
-   "pl": "kreatywny",
+   "id": "v.responsible",
+   "en": "responsible",
+   "pl": "odpowiedzialny",
    "pos": "adj",
    "level": "B1",
-   "rank": 1751,
+   "rank": 1065,
    "example": [
     {
-     "en": "He's really creative.",
-     "pl": "On jest naprawdę kreatywny."
+     "en": "Who's responsible for this?",
+     "pl": "Kto jest za to odpowiedzialny?"
     }
    ],
    "collocations": [
-    "creative ideas"
+    "responsible for",
+    "feel responsible",
+    "responsible person"
    ]
   },
   {
-   "id": "v.entertainment",
-   "en": "entertainment",
-   "pl": "rozrywka",
+   "id": "v.payment",
+   "en": "payment",
+   "pl": "płatność",
    "pos": "n",
    "level": "B1",
-   "rank": 1753,
+   "rank": 1067,
    "example": [
     {
-     "en": "What entertainment is there in the evening?",
-     "pl": "Jakie są wieczorem rozrywki?"
+     "en": "Payment by card only.",
+     "pl": "Płatność tylko kartą."
     }
    ],
    "collocations": [
-    "live entertainment"
+    "card payment",
+    "make a payment",
+    "payment method"
    ]
   },
   {
-   "id": "v.mainly",
-   "en": "mainly",
-   "pl": "głównie",
-   "pos": "adv",
-   "level": "B1",
-   "rank": 1754,
-   "example": [
-    {
-     "en": "I mainly train in the evenings.",
-     "pl": "Trenuję głównie wieczorami."
-    }
-   ],
-   "collocations": [
-    "mainly because"
-   ]
-  },
-  {
-   "id": "v.maximum",
-   "en": "maximum",
-   "pl": "maksimum",
+   "id": "v.balance",
+   "en": "balance",
+   "pl": "równowaga; saldo",
    "pos": "n",
    "level": "B1",
-   "rank": 1755,
+   "rank": 1071,
    "example": [
     {
-     "en": "Maximum two people per room.",
-     "pl": "Maksymalnie dwie osoby w pokoju."
+     "en": "Check your balance.",
+     "pl": "Sprawdź saldo."
     }
    ],
    "collocations": [
-    "maximum of",
-    "at the maximum"
+    "work-life balance",
+    "lose balance",
+    "account balance"
    ]
   },
   {
-   "id": "v.planning",
-   "en": "planning",
-   "pl": "planowanie",
+   "id": "v.tear",
+   "en": "tear",
+   "pl": "łza; rozedrzeć",
    "pos": "n",
    "level": "B1",
-   "rank": 1759,
+   "rank": 1073,
    "example": [
     {
-     "en": "The trip needs some planning.",
-     "pl": "Wyjazd wymaga planowania."
+     "en": "I was in tears.",
+     "pl": "Popłakałem się."
     }
    ],
    "collocations": [
-    "planning",
-    "forward planning"
-   ]
+    "in tears",
+    "tear up",
+    "tear apart"
+   ],
+   "note": "łza [tir], rozedrzeć [ter]: tear – tore – torn."
   },
   {
-   "id": "v.gear",
-   "en": "gear",
-   "pl": "sprzęt; bieg (w aucie)",
+   "id": "v.enemy",
+   "en": "enemy",
+   "pl": "wróg",
    "pos": "n",
    "level": "B1",
-   "rank": 1762,
+   "rank": 1074,
    "example": [
     {
-     "en": "Have you got all your gym gear?",
-     "pl": "Masz cały sprzęt na siłownię?"
+     "en": "He's not my enemy.",
+     "pl": "On nie jest moim wrogiem."
     }
    ],
    "collocations": [
-    "camping gear",
-    "change gear"
+    "worst enemy",
+    "enemies"
    ]
   },
   {
-   "id": "v.sheet",
-   "en": "sheet",
-   "pl": "prześcieradło; kartka",
+   "id": "v.tool",
+   "en": "tool",
+   "pl": "narzędzie",
    "pos": "n",
    "level": "B1",
-   "rank": 1763,
+   "rank": 1075,
    "example": [
     {
-     "en": "Can we have clean sheets?",
-     "pl": "Możemy prosić o czystą pościel?"
+     "en": "You need the right tools.",
+     "pl": "Potrzebujesz odpowiednich narzędzi."
     }
    ],
    "collocations": [
-    "bed sheets",
-    "sheet of paper"
+    "tools",
+    "power tool",
+    "useful tool"
    ]
   },
   {
-   "id": "v.shame",
-   "en": "shame",
-   "pl": "wstyd; szkoda",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1768,
-   "example": [
-    {
-     "en": "What a shame!",
-     "pl": "Jaka szkoda!"
-    }
-   ],
-   "collocations": [
-    "what a shame",
-    "it's a shame"
-   ]
-  },
-  {
-   "id": "v.disappear",
-   "en": "disappear",
-   "pl": "zniknąć",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1777,
-   "example": [
-    {
-     "en": "My friends disappeared into the crowd.",
-     "pl": "Moi znajomi zniknęli w tłumie."
-    }
-   ],
-   "collocations": [
-    "disappear into",
-    "suddenly disappear"
-   ]
-  },
-  {
-   "id": "v.instrument",
-   "en": "instrument",
-   "pl": "instrument",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1779,
-   "example": [
-    {
-     "en": "Do you play an instrument?",
-     "pl": "Grasz na jakimś instrumencie?"
-    }
-   ],
-   "collocations": [
-    "musical instrument"
-   ]
-  },
-  {
-   "id": "v.tape",
-   "en": "tape",
-   "pl": "taśma",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1784,
-   "example": [
-    {
-     "en": "Have you got any tape?",
-     "pl": "Masz taśmę?"
-    }
-   ],
-   "collocations": [
-    "duct tape",
-    "tape measure"
-   ]
-  },
-  {
-   "id": "v.annoy",
-   "en": "annoy",
-   "pl": "denerwować",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1787,
-   "example": [
-    {
-     "en": "It really annoys me.",
-     "pl": "To mnie bardzo denerwuje."
-    }
-   ],
-   "collocations": [
-    "annoying",
-    "annoyed"
-   ]
-  },
-  {
-   "id": "v.reasonable",
-   "en": "reasonable",
-   "pl": "rozsądny",
+   "id": "v.correct",
+   "en": "correct",
+   "pl": "poprawny; poprawić",
    "pos": "adj",
    "level": "B1",
-   "rank": 1794,
+   "rank": 1081,
    "example": [
     {
-     "en": "The prices are reasonable.",
-     "pl": "Ceny są rozsądne."
+     "en": "Is that correct?",
+     "pl": "Czy to poprawne?"
     }
    ],
    "collocations": [
-    "reasonable price"
+    "correct answer",
+    "correct me",
+    "politically correct"
    ]
   },
   {
-   "id": "v.typical",
-   "en": "typical",
-   "pl": "typowy",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 1796,
-   "example": [
-    {
-     "en": "It's a typical Polish dish.",
-     "pl": "To typowe polskie danie."
-    }
-   ],
-   "collocations": [
-    "typical day",
-    "typical of"
-   ]
-  },
-  {
-   "id": "v.emotion",
-   "en": "emotion",
-   "pl": "emocja",
+   "id": "v.champion",
+   "en": "champion",
+   "pl": "mistrz",
    "pos": "n",
    "level": "B1",
-   "rank": 1797,
+   "rank": 1084,
    "example": [
     {
-     "en": "So many emotions!",
-     "pl": "Tyle emocji!"
+     "en": "We are the champions!",
+     "pl": "Jesteśmy mistrzami!"
     }
    ],
    "collocations": [
-    "show emotion"
+    "world champion",
+    "champion of",
+    "champions"
    ]
   },
   {
-   "id": "v.flash",
-   "en": "flash",
-   "pl": "lampa błyskowa; błysk",
+   "id": "v.budget",
+   "en": "budget",
+   "pl": "budżet",
    "pos": "n",
    "level": "B1",
-   "rank": 1798,
+   "rank": 1087,
    "example": [
     {
-     "en": "Turn off the flash.",
-     "pl": "Wyłącz flesz."
+     "en": "We're on a tight budget.",
+     "pl": "Mamy ograniczony budżet."
     }
    ],
    "collocations": [
-    "in a flash",
-    "flash photography"
+    "on a budget",
+    "low budget",
+    "budget airline"
    ]
   },
   {
-   "id": "v.flood",
-   "en": "flood",
-   "pl": "powódź",
+   "id": "v.politics",
+   "en": "politics",
+   "pl": "polityka",
    "pos": "n",
    "level": "B1",
-   "rank": 1801,
+   "rank": 1091,
    "example": [
     {
-     "en": "There was a flood last year.",
-     "pl": "W zeszłym roku była powódź."
+     "en": "I'm not interested in politics.",
+     "pl": "Nie interesuję się polityką."
     }
    ],
    "collocations": [
-    "flood of"
+    "talk politics",
+    "local politics"
    ]
   },
   {
-   "id": "v.pretend",
-   "en": "pretend",
-   "pl": "udawać",
+   "id": "v.appreciate",
+   "en": "appreciate",
+   "pl": "doceniać",
    "pos": "v",
    "level": "B1",
-   "rank": 1803,
+   "rank": 1101,
    "example": [
     {
-     "en": "Pretend you don't know me.",
-     "pl": "Udawaj, że mnie nie znasz."
+     "en": "I really appreciate your help.",
+     "pl": "Naprawdę doceniam twoją pomoc."
     }
    ],
    "collocations": [
-    "pretend to"
+    "appreciate it",
+    "really appreciate"
+   ],
+   "note": "„I appreciate it” = Dzięki, doceniam."
+  },
+  {
+   "id": "v.volume",
+   "en": "volume",
+   "pl": "głośność; objętość",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1104,
+   "example": [
+    {
+     "en": "Turn the volume down.",
+     "pl": "Ścisz."
+    }
+   ],
+   "collocations": [
+    "turn up the volume",
+    "volume of",
+    "high volume"
    ]
   },
   {
-   "id": "v.highway",
-   "en": "highway",
-   "pl": "autostrada (US)",
+   "id": "v.advantage",
+   "en": "advantage",
+   "pl": "zaleta, przewaga",
    "pos": "n",
    "level": "B1",
-   "rank": 1812,
+   "rank": 1110,
    "example": [
     {
-     "en": "Take the highway north.",
-     "pl": "Jedź autostradą na północ."
+     "en": "It's a big advantage.",
+     "pl": "To duży plus."
     }
    ],
    "collocations": [
-    "on the highway"
+    "take advantage of",
+    "big advantage",
+    "advantages and disadvantages"
+   ]
+  },
+  {
+   "id": "v.edge",
+   "en": "edge",
+   "pl": "krawędź",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1116,
+   "example": [
+    {
+     "en": "Don't stand on the edge.",
+     "pl": "Nie stój na krawędzi."
+    }
    ],
-   "note": "UK częściej „motorway”.",
+   "collocations": [
+    "on the edge",
+    "edge of",
+    "cutting edge"
+   ]
+  },
+  {
+   "id": "v.object",
+   "en": "object",
+   "pl": "przedmiot, obiekt",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1122,
+   "example": [
+    {
+     "en": "There's a strange object on the stage.",
+     "pl": "Na scenie jest dziwny przedmiot."
+    }
+   ],
+   "collocations": [
+    "object of",
+    "sharp objects"
+   ]
+  },
+  {
+   "id": "v.lawyer",
+   "en": "lawyer",
+   "pl": "prawnik",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1127,
+   "example": [
+    {
+     "en": "I need a lawyer.",
+     "pl": "Potrzebuję prawnika."
+    }
+   ],
+   "collocations": [
+    "good lawyer",
+    "talk to a lawyer"
+   ]
+  },
+  {
+   "id": "v.reaction",
+   "en": "reaction",
+   "pl": "reakcja",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1129,
+   "example": [
+    {
+     "en": "What was his reaction?",
+     "pl": "Jaka była jego reakcja?"
+    }
+   ],
+   "collocations": [
+    "reaction to",
+    "allergic reaction",
+    "first reaction"
+   ]
+  },
+  {
+   "id": "v.hire",
+   "en": "hire",
+   "pl": "wynająć; zatrudnić",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1132,
+   "example": [
+    {
+     "en": "Let's hire a car.",
+     "pl": "Wynajmijmy samochód."
+    }
+   ],
+   "collocations": [
+    "hire a car",
+    "car hire",
+    "get hired"
+   ],
+   "note": "UK „hire a car”, US „rent a car”.",
    "tags": [
     "uk-us"
    ]
   },
   {
-   "id": "v.dumb",
-   "en": "dumb",
-   "pl": "głupi",
+   "id": "v.actual",
+   "en": "actual",
+   "pl": "rzeczywisty, faktyczny",
    "pos": "adj",
    "level": "B1",
-   "rank": 1813,
+   "rank": 1133,
    "example": [
     {
-     "en": "That was dumb.",
-     "pl": "To było głupie."
+     "en": "The actual price was much higher.",
+     "pl": "Faktyczna cena była dużo wyższa."
     }
    ],
    "collocations": [
-    "dumb idea"
+    "actual price",
+    "the actual"
    ],
+   "note": "„actual” = rzeczywisty, NIE „aktualny” (= current).",
    "tags": [
-    "slang"
+    "polish-trap"
    ]
   },
   {
-   "id": "v.dragon",
-   "en": "dragon",
-   "pl": "smok",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1819,
-   "example": [
-    {
-     "en": "I love games with dragons.",
-     "pl": "Uwielbiam gry ze smokami."
-    }
-   ],
-   "collocations": [
-    "dragon"
-   ]
-  },
-  {
-   "id": "v.blind",
-   "en": "blind",
-   "pl": "niewidomy; roleta",
+   "id": "v.powerful",
+   "en": "powerful",
+   "pl": "potężny, mocny",
    "pos": "adj",
    "level": "B1",
-   "rank": 1824,
+   "rank": 1134,
    "example": [
     {
-     "en": "He's blind in one eye.",
-     "pl": "Jest ślepy na jedno oko."
+     "en": "The sound system is so powerful.",
+     "pl": "Nagłośnienie jest tak potężne."
     }
    ],
    "collocations": [
-    "blind date",
-    "go blind"
+    "powerful sound",
+    "very powerful"
    ]
   },
   {
-   "id": "v.cheat",
-   "en": "cheat",
-   "pl": "oszukiwać",
+   "id": "v.religious",
+   "en": "religious",
+   "pl": "religijny",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 1136,
+   "example": [
+    {
+     "en": "My grandma is very religious.",
+     "pl": "Moja babcia jest bardzo religijna."
+    }
+   ],
+   "collocations": [
+    "religious holiday",
+    "very religious"
+   ]
+  },
+  {
+   "id": "v.zone",
+   "en": "zone",
+   "pl": "strefa",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1143,
+   "example": [
+    {
+     "en": "This is a no-smoking zone.",
+     "pl": "To strefa dla niepalących."
+    }
+   ],
+   "collocations": [
+    "time zone",
+    "no-smoking zone",
+    "comfort zone"
+   ]
+  },
+  {
+   "id": "v.progress",
+   "en": "progress",
+   "pl": "postęp",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1144,
+   "example": [
+    {
+     "en": "I'm making progress with my English.",
+     "pl": "Robię postępy w angielskim."
+    }
+   ],
+   "collocations": [
+    "make progress",
+    "in progress"
+   ],
+   "note": "Niepoliczalne: „progress” bez „a” i bez -s.",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.discussion",
+   "en": "discussion",
+   "pl": "dyskusja",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1146,
+   "example": [
+    {
+     "en": "We had a long discussion about it.",
+     "pl": "Długo o tym dyskutowaliśmy."
+    }
+   ],
+   "collocations": [
+    "have a discussion",
+    "under discussion"
+   ]
+  },
+  {
+   "id": "v.prison",
+   "en": "prison",
+   "pl": "więzienie",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1153,
+   "example": [
+    {
+     "en": "He spent two years in prison.",
+     "pl": "Spędził dwa lata w więzieniu."
+    }
+   ],
+   "collocations": [
+    "in prison",
+    "go to prison"
+   ]
+  },
+  {
+   "id": "v.strength",
+   "en": "strength",
+   "pl": "siła",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1154,
+   "example": [
+    {
+     "en": "I'm working on my strength.",
+     "pl": "Pracuję nad siłą."
+    }
+   ],
+   "collocations": [
+    "strength training",
+    "inner strength"
+   ]
+  },
+  {
+   "id": "v.encourage",
+   "en": "encourage",
+   "pl": "zachęcać",
    "pos": "v",
    "level": "B1",
-   "rank": 1832,
+   "rank": 1155,
    "example": [
     {
-     "en": "He cheated in the game.",
-     "pl": "Oszukiwał w grze."
+     "en": "My friends encouraged me to learn English.",
+     "pl": "Znajomi zachęcili mnie do nauki angielskiego."
     }
    ],
    "collocations": [
-    "cheat on",
-    "cheat code"
+    "encourage somebody to"
    ]
   },
   {
-   "id": "v.joy",
-   "en": "joy",
-   "pl": "radość",
+   "id": "v.yard",
+   "en": "yard",
+   "pl": "podwórko; jard",
    "pos": "n",
    "level": "B1",
-   "rank": 1833,
+   "rank": 1160,
    "example": [
     {
-     "en": "Pure joy!",
-     "pl": "Czysta radość!"
+     "en": "The kids are playing in the yard.",
+     "pl": "Dzieci bawią się na podwórku."
     }
    ],
    "collocations": [
-    "jump for joy"
+    "back yard",
+    "front yard"
+   ],
+   "note": "US „yard” = ogród przy domu; 1 jard ≈ 0,9 m.",
+   "tags": [
+    "uk-us"
    ]
   },
   {
-   "id": "v.slip",
-   "en": "slip",
-   "pl": "poślizgnąć się",
+   "id": "v.wing",
+   "en": "wing",
+   "pl": "skrzydło",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1161,
+   "example": [
+    {
+     "en": "Chicken wings, please.",
+     "pl": "Skrzydełka z kurczaka, poproszę."
+    }
+   ],
+   "collocations": [
+    "chicken wings",
+    "left wing"
+   ]
+  },
+  {
+   "id": "v.deserve",
+   "en": "deserve",
+   "pl": "zasługiwać",
    "pos": "v",
    "level": "B1",
-   "rank": 1837,
+   "rank": 1162,
    "example": [
     {
-     "en": "I slipped on the wet floor.",
-     "pl": "Poślizgnąłem się na mokrej podłodze."
+     "en": "You deserve a break.",
+     "pl": "Zasługujesz na przerwę."
     }
    ],
    "collocations": [
-    "slip on",
-    "slippery"
+    "deserve it",
+    "well deserved",
+    "you deserve"
    ]
   },
   {
-   "id": "v.difficulty",
-   "en": "difficulty",
-   "pl": "trudność",
+   "id": "v.expert",
+   "en": "expert",
+   "pl": "ekspert",
    "pos": "n",
    "level": "B1",
-   "rank": 1842,
+   "rank": 1163,
    "example": [
     {
-     "en": "I have difficulty understanding fast speech.",
-     "pl": "Mam trudność ze zrozumieniem szybkiej mowy."
+     "en": "He's an expert on techno.",
+     "pl": "To ekspert od techno."
     }
    ],
    "collocations": [
-    "have difficulty",
-    "difficulty level"
+    "expert on",
+    "expert in"
    ]
   },
   {
-   "id": "v.designer",
-   "en": "designer",
-   "pl": "projektant",
-   "pos": "n",
+   "id": "v.connect",
+   "en": "connect",
+   "pl": "łączyć (się)",
+   "pos": "v",
    "level": "B1",
-   "rank": 1843,
+   "rank": 1164,
    "example": [
     {
-     "en": "He's a graphic designer.",
-     "pl": "Jest grafikiem."
+     "en": "I can't connect to the Wi-Fi.",
+     "pl": "Nie mogę połączyć się z Wi-Fi."
     }
    ],
    "collocations": [
-    "fashion designer",
-    "graphic designer"
+    "connect to",
+    "connect with",
+    "stay connected"
    ]
   },
   {
-   "id": "v.tune",
-   "en": "tune",
-   "pl": "melodia, kawałek",
-   "pos": "n",
+   "id": "v.southern",
+   "en": "southern",
+   "pl": "południowy",
+   "pos": "adj",
    "level": "B1",
-   "rank": 1847,
+   "rank": 1167,
    "example": [
     {
-     "en": "What a tune!",
-     "pl": "Co za kawałek!"
+     "en": "We're driving through southern France.",
+     "pl": "Jedziemy przez południową Francję."
     }
    ],
    "collocations": [
-    "great tune",
-    "in tune"
+    "southern Europe",
+    "southern part"
    ]
   },
   {
-   "id": "v.bunch",
-   "en": "bunch",
-   "pl": "pęk; grupa",
-   "pos": "n",
+   "id": "v.admit",
+   "en": "admit",
+   "pl": "przyznać (się)",
+   "pos": "v",
    "level": "B1",
-   "rank": 1850,
+   "rank": 1173,
    "example": [
     {
-     "en": "A bunch of us are going.",
-     "pl": "Jedzie nas kilka osób."
+     "en": "I admit it — I was wrong.",
+     "pl": "Przyznaję — myliłem się."
     }
    ],
    "collocations": [
-    "a bunch of",
-    "bunch of flowers"
+    "admit it",
+    "admit that"
    ]
   },
   {
-   "id": "v.personally",
-   "en": "personally",
-   "pl": "osobiście",
+   "id": "v.survive",
+   "en": "survive",
+   "pl": "przetrwać, przeżyć",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1175,
+   "example": [
+    {
+     "en": "We survived the festival!",
+     "pl": "Przetrwaliśmy festiwal!"
+    }
+   ],
+   "collocations": [
+    "survive the night",
+    "survive on"
+   ]
+  },
+  {
+   "id": "v.escape",
+   "en": "escape",
+   "pl": "uciec; ucieczka",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1178,
+   "example": [
+    {
+     "en": "We escaped the rain just in time.",
+     "pl": "W ostatniej chwili uciekliśmy przed deszczem."
+    }
+   ],
+   "collocations": [
+    "escape from",
+    "escape room"
+   ]
+  },
+  {
+   "id": "v.digital",
+   "en": "digital",
+   "pl": "cyfrowy",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 1182,
+   "example": [
+    {
+     "en": "I bought a digital ticket.",
+     "pl": "Kupiłem bilet elektroniczny."
+    }
+   ],
+   "collocations": [
+    "digital ticket",
+    "digital camera",
+    "digital music"
+   ]
+  },
+  {
+   "id": "v.mostly",
+   "en": "mostly",
+   "pl": "głównie",
    "pos": "adv",
    "level": "B1",
-   "rank": 1856,
+   "rank": 1184,
    "example": [
     {
-     "en": "Personally, I prefer house.",
-     "pl": "Osobiście wolę house."
+     "en": "I mostly listen to techno.",
+     "pl": "Głównie słucham techno."
     }
    ],
    "collocations": [
-    "personally",
-    "take it personally"
+    "mostly at night",
+    "mostly true"
    ]
   },
   {
-   "id": "v.weekly",
-   "en": "weekly",
-   "pl": "tygodniowy",
+   "id": "v.tough",
+   "en": "tough",
+   "pl": "twardy, ciężki",
    "pos": "adj",
    "level": "B1",
-   "rank": 1861,
+   "rank": 1188,
    "example": [
     {
-     "en": "I do a weekly shop on Saturdays.",
-     "pl": "W soboty robię zakupy na cały tydzień."
+     "en": "It was a tough week.",
+     "pl": "To był ciężki tydzień."
     }
    ],
    "collocations": [
-    "weekly shop",
-    "weekly"
+    "tough day",
+    "tough guy",
+    "tough luck"
    ]
   },
   {
-   "id": "v.instruction",
-   "en": "instruction",
-   "pl": "instrukcja",
+   "id": "v.wild",
+   "en": "wild",
+   "pl": "dziki",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 1190,
+   "example": [
+    {
+     "en": "The party got really wild.",
+     "pl": "Impreza zrobiła się naprawdę dzika."
+    }
+   ],
+   "collocations": [
+    "wild animals",
+    "go wild",
+    "wild party"
+   ]
+  },
+  {
+   "id": "v.length",
+   "en": "length",
+   "pl": "długość",
    "pos": "n",
    "level": "B1",
-   "rank": 1863,
+   "rank": 1193,
    "example": [
     {
-     "en": "Read the instructions.",
-     "pl": "Przeczytaj instrukcję."
+     "en": "What's the length of the set?",
+     "pl": "Ile trwa set?"
     }
    ],
    "collocations": [
-    "follow instructions"
+    "length of",
+    "full length"
    ]
   },
   {
-   "id": "v.slide",
-   "en": "slide",
-   "pl": "zjeżdżalnia; przesunąć",
+   "id": "v.port",
+   "en": "port",
+   "pl": "port",
    "pos": "n",
    "level": "B1",
-   "rank": 1866,
+   "rank": 1199,
    "example": [
     {
-     "en": "The water park has huge slides.",
-     "pl": "Aquapark ma ogromne zjeżdżalnie."
+     "en": "Szczecin is a port city.",
+     "pl": "Szczecin to miasto portowe."
     }
    ],
    "collocations": [
-    "water slide",
-    "slide"
+    "port city",
+    "in port",
+    "USB port"
    ]
   },
   {
-   "id": "v.gang",
-   "en": "gang",
-   "pl": "banda, ekipa",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1867,
-   "example": [
-    {
-     "en": "The whole gang is here.",
-     "pl": "Cała paka jest tu."
-    }
-   ],
-   "collocations": [
-    "gang",
-    "the gang"
-   ]
-  },
-  {
-   "id": "v.punch",
-   "en": "punch",
-   "pl": "uderzyć pięścią",
+   "id": "v.switch",
+   "en": "switch",
+   "pl": "przełącznik; zmienić, przełączyć",
    "pos": "v",
    "level": "B1",
-   "rank": 1870,
+   "rank": 1200,
    "example": [
     {
-     "en": "He punched the wall.",
-     "pl": "Uderzył pięścią w ścianę."
+     "en": "Switch off your phone.",
+     "pl": "Wyłącz telefon."
     }
    ],
    "collocations": [
-    "punch somebody",
-    "punch bag"
+    "switch off",
+    "switch on",
+    "switch places"
    ]
   },
   {
-   "id": "v.diamond",
-   "en": "diamond",
-   "pl": "diament",
+   "id": "v.stream",
+   "en": "stream",
+   "pl": "transmisja na żywo; strumień",
    "pos": "n",
    "level": "B1",
-   "rank": 1872,
+   "rank": 1205,
    "example": [
     {
-     "en": "She has a diamond ring.",
-     "pl": "Ma pierścionek z diamentem."
+     "en": "I watched the stream of the festival.",
+     "pl": "Oglądałem transmisję z festiwalu."
     }
    ],
    "collocations": [
-    "diamond ring"
+    "live stream",
+    "stream a set",
+    "stream of"
    ]
   },
   {
-   "id": "v.gap",
-   "en": "gap",
-   "pl": "luka, przerwa",
+   "id": "v.ex",
+   "en": "ex",
+   "pl": "ex, były partner",
    "pos": "n",
    "level": "B1",
-   "rank": 1874,
+   "rank": 1208,
    "example": [
     {
-     "en": "Mind the gap.",
-     "pl": "Uwaga na odstęp."
+     "en": "I saw my ex at the club.",
+     "pl": "Widziałem w klubie swoją byłą."
     }
    ],
    "collocations": [
-    "gap year",
-    "mind the gap"
+    "my ex",
+    "ex-girlfriend",
+    "ex-boyfriend"
    ]
   },
   {
-   "id": "v.sink",
-   "en": "sink",
-   "pl": "zlew; tonąć",
+   "id": "v.fuel",
+   "en": "fuel",
+   "pl": "paliwo",
    "pos": "n",
    "level": "B1",
-   "rank": 1882,
+   "rank": 1211,
    "example": [
     {
-     "en": "Put the dishes in the sink.",
-     "pl": "Wrzuć naczynia do zlewu."
+     "en": "We need to stop for fuel.",
+     "pl": "Musimy zatankować."
     }
    ],
    "collocations": [
-    "kitchen sink",
-    "sink"
+    "fuel tank",
+    "run out of fuel",
+    "fuel price"
    ]
   },
   {
-   "id": "v.convince",
-   "en": "convince",
-   "pl": "przekonać",
-   "pos": "v",
-   "level": "B1",
-   "rank": 1884,
-   "example": [
-    {
-     "en": "You convinced me!",
-     "pl": "Przekonałeś mnie!"
-    }
-   ],
-   "collocations": [
-    "convince somebody",
-    "convinced"
-   ]
-  },
-  {
-   "id": "v.pregnant",
-   "en": "pregnant",
-   "pl": "w ciąży",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 1894,
-   "example": [
-    {
-     "en": "My sister is pregnant!",
-     "pl": "Moja siostra jest w ciąży!"
-    }
-   ],
-   "collocations": [
-    "get pregnant"
-   ]
-  },
-  {
-   "id": "v.painting",
-   "en": "painting",
-   "pl": "obraz; malowanie",
+   "id": "v.argument",
+   "en": "argument",
+   "pl": "kłótnia; argument",
    "pos": "n",
    "level": "B1",
-   "rank": 1919,
+   "rank": 1214,
    "example": [
     {
-     "en": "I love this painting.",
-     "pl": "Uwielbiam ten obraz."
+     "en": "They had an argument about money.",
+     "pl": "Pokłócili się o pieniądze."
     }
    ],
    "collocations": [
-    "oil painting"
-   ]
-  },
-  {
-   "id": "v.electronic",
-   "en": "electronic",
-   "pl": "elektroniczny",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 1927,
-   "example": [
-    {
-     "en": "I love electronic music.",
-     "pl": "Uwielbiam muzykę elektroniczną."
-    }
+    "have an argument",
+    "good argument"
    ],
-   "collocations": [
-    "electronic music",
-    "electronic devices"
-   ]
-  },
-  {
-   "id": "v.relief",
-   "en": "relief",
-   "pl": "ulga",
-   "pos": "n",
-   "level": "B1",
-   "rank": 1932,
-   "example": [
-    {
-     "en": "What a relief!",
-     "pl": "Co za ulga!"
-    }
-   ],
-   "collocations": [
-    "pain relief",
-    "what a relief"
-   ]
-  },
-  {
-   "id": "v.wise",
-   "en": "wise",
-   "pl": "mądry",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 1938,
-   "example": [
-    {
-     "en": "That's a wise decision.",
-     "pl": "To mądra decyzja."
-    }
-   ],
-   "collocations": [
-    "wise choice"
-   ]
-  },
-  {
-   "id": "v.broke",
-   "en": "broke",
-   "pl": "spłukany",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 1940,
-   "example": [
-    {
-     "en": "I'm broke until payday.",
-     "pl": "Do wypłaty jestem spłukany."
-    }
-   ],
-   "collocations": [
-    "go broke",
-    "completely broke"
-   ],
+   "note": "„argument” to często po prostu kłótnia.",
    "tags": [
-    "slang"
+    "polish-trap"
    ]
   },
   {
-   "id": "v.introduction",
-   "en": "introduction",
-   "pl": "wprowadzenie; przedstawienie",
+   "id": "v.route",
+   "en": "route",
+   "pl": "trasa",
    "pos": "n",
    "level": "B1",
-   "rank": 1952,
+   "rank": 1215,
    "example": [
     {
-     "en": "Let me make the introductions.",
-     "pl": "Pozwólcie, że was sobie przedstawię."
+     "en": "What's the best route to the festival?",
+     "pl": "Jaka jest najlepsza trasa na festiwal?"
     }
    ],
    "collocations": [
-    "introduction to"
+    "bus route",
+    "the best route",
+    "route to"
    ]
   },
   {
-   "id": "v.breath",
-   "en": "breath",
-   "pl": "oddech",
+   "id": "v.task",
+   "en": "task",
+   "pl": "zadanie",
    "pos": "n",
    "level": "B1",
-   "rank": 1957,
+   "rank": 1216,
    "example": [
     {
-     "en": "Take a deep breath.",
-     "pl": "Weź głęboki oddech."
+     "en": "I've got a few tasks to do today.",
+     "pl": "Mam dziś kilka zadań do zrobienia."
     }
    ],
    "collocations": [
-    "out of breath",
-    "deep breath"
+    "simple task",
+    "daily task"
+   ]
+  },
+  {
+   "id": "v.background",
+   "en": "background",
+   "pl": "tło; pochodzenie",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1217,
+   "example": [
+    {
+     "en": "What's that music in the background?",
+     "pl": "Co to za muzyka w tle?"
+    }
+   ],
+   "collocations": [
+    "in the background",
+    "family background"
+   ]
+  },
+  {
+   "id": "v.extend",
+   "en": "extend",
+   "pl": "przedłużyć",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1221,
+   "example": [
+    {
+     "en": "Can we extend our stay?",
+     "pl": "Możemy przedłużyć pobyt?"
+    }
+   ],
+   "collocations": [
+    "extend a stay",
+    "extend the deadline"
+   ]
+  },
+  {
+   "id": "v.audience",
+   "en": "audience",
+   "pl": "publiczność",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1226,
+   "example": [
+    {
+     "en": "The audience went crazy.",
+     "pl": "Publiczność oszalała."
+    }
+   ],
+   "collocations": [
+    "live audience",
+    "in the audience"
+   ]
+  },
+  {
+   "id": "v.negative",
+   "en": "negative",
+   "pl": "negatywny",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 1228,
+   "example": [
+    {
+     "en": "Don't be so negative!",
+     "pl": "Nie bądź taki negatywny!"
+    }
+   ],
+   "collocations": [
+    "negative energy",
+    "test negative"
+   ]
+  },
+  {
+   "id": "v.reserve",
+   "en": "reserve",
+   "pl": "zarezerwować",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1232,
+   "example": [
+    {
+     "en": "I'd like to reserve a table.",
+     "pl": "Chciałbym zarezerwować stolik."
+    }
+   ],
+   "collocations": [
+    "reserve a table",
+    "reserve a seat"
+   ]
+  },
+  {
+   "id": "v.ignore",
+   "en": "ignore",
+   "pl": "ignorować",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1236,
+   "example": [
+    {
+     "en": "Just ignore him.",
+     "pl": "Po prostu go zignoruj."
+    }
+   ],
+   "collocations": [
+    "ignore a message",
+    "ignore it"
+   ]
+  },
+  {
+   "id": "v.collect",
+   "en": "collect",
+   "pl": "zbierać; odebrać",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1237,
+   "example": [
+    {
+     "en": "Where can I collect my wristband?",
+     "pl": "Gdzie mogę odebrać opaskę?"
+    }
+   ],
+   "collocations": [
+    "collect tickets",
+    "collect money",
+    "collect from"
+   ]
+  },
+  {
+   "id": "v.shock",
+   "en": "shock",
+   "pl": "szok",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1240,
+   "example": [
+    {
+     "en": "It was a big shock.",
+     "pl": "To był wielki szok."
+    }
+   ],
+   "collocations": [
+    "in shock",
+    "culture shock",
+    "electric shock"
+   ]
+  },
+  {
+   "id": "v.birth",
+   "en": "birth",
+   "pl": "narodziny",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1241,
+   "example": [
+    {
+     "en": "What's your date of birth?",
+     "pl": "Jaka jest pana data urodzenia?"
+    }
+   ],
+   "collocations": [
+    "date of birth",
+    "place of birth",
+    "give birth"
+   ]
+  },
+  {
+   "id": "v.reply",
+   "en": "reply",
+   "pl": "odpowiedź; odpowiedzieć",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1242,
+   "example": [
+    {
+     "en": "Reply when you can.",
+     "pl": "Odpisz, jak będziesz mógł."
+    }
+   ],
+   "collocations": [
+    "reply to",
+    "quick reply"
+   ]
+  },
+  {
+   "id": "v.client",
+   "en": "client",
+   "pl": "klient",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1249,
+   "example": [
+    {
+     "en": "I'm meeting a client at ten.",
+     "pl": "O dziesiątej spotykam się z klientem."
+    }
+   ],
+   "collocations": [
+    "new client",
+    "client meeting"
+   ]
+  },
+  {
+   "id": "v.belong",
+   "en": "belong",
+   "pl": "należeć",
+   "pos": "v",
+   "level": "B1",
+   "rank": 1252,
+   "example": [
+    {
+     "en": "Who does this bag belong to?",
+     "pl": "Do kogo należy ta torba?"
+    }
+   ],
+   "collocations": [
+    "belong to",
+    "feel like I belong"
+   ]
+  },
+  {
+   "id": "v.giant",
+   "en": "giant",
+   "pl": "gigant; gigantyczny",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 1258,
+   "example": [
+    {
+     "en": "There's a giant screen behind the DJ.",
+     "pl": "Za DJ-em jest gigantyczny ekran."
+    }
+   ],
+   "collocations": [
+    "giant screen",
+    "giant wheel"
+   ]
+  },
+  {
+   "id": "v.description",
+   "en": "description",
+   "pl": "opis",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1261,
+   "example": [
+    {
+     "en": "Can you give me a description of your bag?",
+     "pl": "Może pan opisać swoją torbę?"
+    }
+   ],
+   "collocations": [
+    "description of",
+    "job description"
+   ]
+  },
+  {
+   "id": "v.technique",
+   "en": "technique",
+   "pl": "technika",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1263,
+   "example": [
+    {
+     "en": "Your technique on the bench is good.",
+     "pl": "Masz dobrą technikę na ławce."
+    }
+   ],
+   "collocations": [
+    "good technique",
+    "technique of"
+   ]
+  },
+  {
+   "id": "v.path",
+   "en": "path",
+   "pl": "ścieżka",
+   "pos": "n",
+   "level": "B1",
+   "rank": 1265,
+   "example": [
+    {
+     "en": "Follow the path to the lake.",
+     "pl": "Idź ścieżką nad jezioro."
+    }
+   ],
+   "collocations": [
+    "follow the path",
+    "cycle path"
    ]
   }
  ]
