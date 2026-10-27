@@ -10,7 +10,11 @@ const TABS = [
 ]
 
 export function BottomNav({ route }: { route: string }) {
-  const active = (p: string) => (p === '/' ? route === '/' : route.startsWith(p))
+  const active = (p: string) => {
+    if (p === '/') return route === '/'
+    if (p === '/phrases') return ['/phrases', '/item', '/custom'].some((x) => route.startsWith(x))
+    return route.startsWith(p)
+  }
   return (
     <nav className="pb-safe fixed inset-x-0 bottom-0 z-20 border-t border-zinc-200 bg-white/95 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/95">
       <div className="mx-auto grid max-w-md grid-cols-5">

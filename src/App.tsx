@@ -1,16 +1,23 @@
 import { useEffect } from 'react'
 import { BottomNav } from './components/BottomNav'
 import { Spinner } from './components/ui'
+import { AudioScreen } from './screens/audio/AudioScreen'
 import { LessonScreen } from './screens/lesson/LessonScreen'
 import { OnboardingScreen } from './screens/OnboardingScreen'
-import { PlaceholderScreen } from './screens/PlaceholderScreen'
+import { MissionScreen } from './screens/path/MissionScreen'
+import { PathScreen } from './screens/path/PathScreen'
+import { CustomItemForm } from './screens/phrases/CustomItemForm'
+import { ItemScreen } from './screens/phrases/ItemScreen'
+import { ModuleScreen } from './screens/phrases/ModuleScreen'
+import { PhrasesScreen } from './screens/phrases/PhrasesScreen'
+import { ProgressScreen } from './screens/ProgressScreen'
 import { SettingsScreen } from './screens/SettingsScreen'
 import { TodayScreen } from './screens/TodayScreen'
 import { useSettings } from './state/hooks'
-import { useRoute } from './state/router'
+import { matchRoute, useRoute } from './state/router'
 import { applyTheme } from './state/theme'
 
-const FULLSCREEN = ['/lesson', '/audio', '/mission', '/claude']
+const FULLSCREEN = ['/lesson', '/audio', '/mission']
 
 export function App() {
   const settings = useSettings()
@@ -35,10 +42,17 @@ export function App() {
 }
 
 function Routes({ path }: { path: string }) {
+  let m: Record<string, string> | null
   if (path === '/lesson') return <LessonScreen />
+  if (path === '/audio') return <AudioScreen />
+  if (path === '/mission') return <MissionScreen />
   if (path === '/settings') return <SettingsScreen />
-  if (path.startsWith('/path')) return <PlaceholderScreen title="Ścieżka do wakacji" />
-  if (path.startsWith('/phrases')) return <PlaceholderScreen title="Rozmówki" />
-  if (path.startsWith('/progress')) return <PlaceholderScreen title="Postępy" />
+  if (path === '/path') return <PathScreen />
+  if (path === '/progress') return <ProgressScreen />
+  if (path === '/phrases') return <PhrasesScreen />
+  if ((m = matchRoute('/phrases/module/:id', path))) return <ModuleScreen moduleId={m.id} />
+  if ((m = matchRoute('/item/:id', path))) return <ItemScreen key={m.id} itemId={m.id} />
+  if (path === '/custom/new') return <CustomItemForm />
+  if ((m = matchRoute('/custom/:id', path))) return <CustomItemForm key={m.id} itemId={m.id} />
   return <TodayScreen />
 }

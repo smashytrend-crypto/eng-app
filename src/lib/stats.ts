@@ -80,3 +80,19 @@ export function hashString(s: string): number {
   }
   return h >>> 0
 }
+
+export type CardStatus = 'new' | 'learning' | 'review' | 'mastered'
+
+export function cardStatus(card: StoredCard | undefined): CardStatus {
+  if (!card || card.state === State.New) return 'new'
+  if (isMastered(card)) return 'mastered'
+  if (card.state === State.Review) return 'review'
+  return 'learning'
+}
+
+export const STATUS_LABELS: Record<CardStatus, string> = {
+  new: 'nowy',
+  learning: 'uczę się',
+  review: 'w powtórkach',
+  mastered: 'opanowany',
+}
