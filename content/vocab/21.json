@@ -4,7 +4,7 @@
   "order": 21,
   "level": "B1",
   "title": "Słówka B1 · 10",
-  "description": "Swobodna rozmowa: opinie, opowiadanie, plany, praca i podróże. Część 10 z 12."
+  "description": "Swobodna rozmowa: opinie, opowiadanie, plany, praca i podróże. Część 10 z 13."
  },
  "items": [
   {
@@ -19,9 +19,6 @@
      "en": "There's a drone filming the crowd.",
      "pl": "Dron filmuje tłum."
     }
-   ],
-   "collocations": [
-    "drone"
    ]
   },
   {
@@ -36,9 +33,6 @@
      "en": "We rented a cabin in the woods.",
      "pl": "Wynajęliśmy domek w lesie."
     }
-   ],
-   "collocations": [
-    "cabin"
    ]
   },
   {
@@ -53,9 +47,6 @@
      "en": "I love puzzle games.",
      "pl": "Uwielbiam gry logiczne."
     }
-   ],
-   "collocations": [
-    "puzzle"
    ]
   },
   {
@@ -70,9 +61,6 @@
      "en": "That's very generous of you.",
      "pl": "To bardzo hojne z twojej strony."
     }
-   ],
-   "collocations": [
-    "generous"
    ]
   },
   {
@@ -138,9 +126,6 @@
      "en": "I spilled my drink!",
      "pl": "Rozlałem drinka!"
     }
-   ],
-   "collocations": [
-    "spill"
    ]
   },
   {
@@ -155,9 +140,6 @@
      "en": "He's the GOAT!",
      "pl": "On jest najlepszy w historii!"
     }
-   ],
-   "collocations": [
-    "goat"
    ],
    "tags": [
     "slang"
@@ -192,9 +174,6 @@
      "en": "He kissed her on the cheek.",
      "pl": "Pocałował ją w policzek."
     }
-   ],
-   "collocations": [
-    "cheek"
    ]
   },
   {
@@ -226,9 +205,6 @@
      "en": "Unlock your phone.",
      "pl": "Odblokuj telefon."
     }
-   ],
-   "collocations": [
-    "unlock"
    ]
   },
   {
@@ -244,9 +220,6 @@
      "pl": "Dzwoń kiedy chcesz."
     }
    ],
-   "collocations": [
-    "anytime"
-   ],
    "note": "„Anytime!” = Nie ma sprawy (w odpowiedzi na dzięki)."
   },
   {
@@ -261,9 +234,6 @@
      "en": "Turn off all electronics.",
      "pl": "Wyłącz całą elektronikę."
     }
-   ],
-   "collocations": [
-    "electronics"
    ]
   },
   {
@@ -278,9 +248,6 @@
      "en": "I can't sleep from excitement.",
      "pl": "Nie mogę spać z ekscytacji."
     }
-   ],
-   "collocations": [
-    "excitement"
    ]
   },
   {
@@ -295,9 +262,6 @@
      "en": "Can we stay overnight?",
      "pl": "Możemy zostać na noc?"
     }
-   ],
-   "collocations": [
-    "overnight"
    ]
   },
   {
@@ -312,9 +276,6 @@
      "en": "This bed is uncomfortable.",
      "pl": "To łóżko jest niewygodne."
     }
-   ],
-   "collocations": [
-    "uncomfortable"
    ]
   },
   {
@@ -329,9 +290,6 @@
      "en": "Set a reminder.",
      "pl": "Ustaw przypomnienie."
     }
-   ],
-   "collocations": [
-    "reminder"
    ]
   },
   {
@@ -346,9 +304,6 @@
      "en": "We saw whales from the boat.",
      "pl": "Z łodzi widzieliśmy wieloryby."
     }
-   ],
-   "collocations": [
-    "whale"
    ]
   },
   {
@@ -380,9 +335,6 @@
      "en": "I've been to three continents.",
      "pl": "Byłem na trzech kontynentach."
     }
-   ],
-   "collocations": [
-    "continent"
    ]
   },
   {
@@ -452,9 +404,6 @@
      "en": "Pause the video.",
      "pl": "Zatrzymaj filmik."
     }
-   ],
-   "collocations": [
-    "pause"
    ]
   },
   {
@@ -486,9 +435,6 @@
      "en": "The club is in a basement.",
      "pl": "Klub jest w piwnicy."
     }
-   ],
-   "collocations": [
-    "basement"
    ]
   },
   {
@@ -503,9 +449,6 @@
      "en": "Take out the garbage.",
      "pl": "Wynieś śmieci."
     }
-   ],
-   "collocations": [
-    "garbage"
    ],
    "tags": [
     "uk-us"
@@ -523,9 +466,6 @@
      "en": "Sadly, it's sold out.",
      "pl": "Niestety jest wyprzedane."
     }
-   ],
-   "collocations": [
-    "sadly"
    ]
   },
   {
@@ -540,9 +480,6 @@
      "en": "It's like a tropical island.",
      "pl": "To jak tropikalna wyspa."
     }
-   ],
-   "collocations": [
-    "tropical"
    ]
   },
   {
@@ -557,9 +494,6 @@
      "en": "Subscribe to the channel.",
      "pl": "Zasubskrybuj kanał."
     }
-   ],
-   "collocations": [
-    "subscribe"
    ]
   },
   {
@@ -574,9 +508,6 @@
      "en": "We had roast chicken.",
      "pl": "Jedliśmy pieczonego kurczaka."
     }
-   ],
-   "collocations": [
-    "roast"
    ]
   },
   {
@@ -608,9 +539,6 @@
      "en": "The landing was smooth.",
      "pl": "Lądowanie było łagodne."
     }
-   ],
-   "collocations": [
-    "landing"
    ]
   },
   {
@@ -642,9 +570,6 @@
      "en": "It's unfair!",
      "pl": "To niesprawiedliwe!"
     }
-   ],
-   "collocations": [
-    "unfair"
    ]
   },
   {
@@ -659,9 +584,6 @@
      "en": "Bring warm clothing.",
      "pl": "Weź ciepłe ubrania."
     }
-   ],
-   "collocations": [
-    "clothing"
    ]
   },
   {
@@ -676,9 +598,6 @@
      "en": "It's complicated.",
      "pl": "To skomplikowane."
     }
-   ],
-   "collocations": [
-    "complicated"
    ]
   },
   {
@@ -693,9 +612,6 @@
      "en": "I'm confused.",
      "pl": "Nie rozumiem / Pogubiłem się."
     }
-   ],
-   "collocations": [
-    "confused"
    ]
   },
   {
@@ -710,9 +626,6 @@
      "en": "Hang it in the closet.",
      "pl": "Powieś to w szafie."
     }
-   ],
-   "collocations": [
-    "closet"
    ],
    "note": "UK częściej „wardrobe”.",
    "tags": [
@@ -731,9 +644,6 @@
      "en": "I feel like a zombie.",
      "pl": "Czuję się jak zombie."
     }
-   ],
-   "collocations": [
-    "zombie"
    ]
   },
   {
@@ -748,9 +658,6 @@
      "en": "Cancel the subscription.",
      "pl": "Anuluj subskrypcję."
     }
-   ],
-   "collocations": [
-    "subscription"
    ]
   },
   {
@@ -765,9 +672,6 @@
      "en": "Do you want to swap seats?",
      "pl": "Chcesz się zamienić miejscami?"
     }
-   ],
-   "collocations": [
-    "swap"
    ]
   },
   {
@@ -782,9 +686,6 @@
      "en": "Why are you whispering?",
      "pl": "Czemu szepczesz?"
     }
-   ],
-   "collocations": [
-    "whisper"
    ]
   },
   {
@@ -799,9 +700,6 @@
      "en": "Let's go to the casino.",
      "pl": "Chodźmy do kasyna."
     }
-   ],
-   "collocations": [
-    "casino"
    ]
   },
   {
@@ -816,9 +714,6 @@
      "en": "This beach is paradise.",
      "pl": "Ta plaża to raj."
     }
-   ],
-   "collocations": [
-    "paradise"
    ]
   },
   {
@@ -833,9 +728,6 @@
      "en": "Let's enjoy the sunshine.",
      "pl": "Cieszmy się słońcem."
     }
-   ],
-   "collocations": [
-    "sunshine"
    ]
   },
   {
@@ -850,9 +742,6 @@
      "en": "Wear a helmet.",
      "pl": "Noś kask."
     }
-   ],
-   "collocations": [
-    "helmet"
    ]
   },
   {
@@ -919,9 +808,6 @@
      "en": "Sorry to interrupt.",
      "pl": "Przepraszam, że przerywam."
     }
-   ],
-   "collocations": [
-    "interrupt"
    ]
   },
   {
@@ -936,9 +822,6 @@
      "en": "My driving instructor was great.",
      "pl": "Mój instruktor jazdy był świetny."
     }
-   ],
-   "collocations": [
-    "instructor"
    ]
   },
   {
@@ -953,9 +836,6 @@
      "en": "It's a concrete jungle.",
      "pl": "To betonowa dżungla."
     }
-   ],
-   "collocations": [
-    "jungle"
    ]
   },
   {
@@ -970,9 +850,6 @@
      "en": "Is ten o'clock convenient?",
      "pl": "Czy dziesiąta pasuje?"
     }
-   ],
-   "collocations": [
-    "convenient"
    ]
   },
   {
@@ -987,9 +864,6 @@
      "en": "Speak quietly.",
      "pl": "Mów cicho."
     }
-   ],
-   "collocations": [
-    "quietly"
    ]
   },
   {
@@ -1004,9 +878,6 @@
      "en": "I take vitamin D in winter.",
      "pl": "Zimą biorę witaminę D."
     }
-   ],
-   "collocations": [
-    "vitamin"
    ]
   },
   {
@@ -1038,9 +909,6 @@
      "en": "Is it mild or spicy?",
      "pl": "Łagodne czy ostre?"
     }
-   ],
-   "collocations": [
-    "mild"
    ]
   },
   {
@@ -1055,9 +923,6 @@
      "en": "Your nose is bleeding!",
      "pl": "Leci ci krew z nosa!"
     }
-   ],
-   "collocations": [
-    "bleed"
    ]
   },
   {
@@ -1072,9 +937,6 @@
      "en": "I love the rhythm of this track.",
      "pl": "Uwielbiam rytm tego kawałka."
     }
-   ],
-   "collocations": [
-    "rhythm"
    ]
   },
   {
@@ -1089,9 +951,6 @@
      "en": "My teenage years were wild.",
      "pl": "Moje nastoletnie lata były szalone."
     }
-   ],
-   "collocations": [
-    "teenage"
    ]
   },
   {
@@ -1106,9 +965,6 @@
      "en": "Did you hear the thunder?",
      "pl": "Słyszałeś grzmot?"
     }
-   ],
-   "collocations": [
-    "thunder"
    ]
   },
   {
@@ -1140,9 +996,6 @@
      "en": "My dad is retired.",
      "pl": "Tata jest na emeryturze."
     }
-   ],
-   "collocations": [
-    "retired"
    ]
   },
   {
@@ -1157,9 +1010,6 @@
      "en": "Send me that meme.",
      "pl": "Wyślij mi tego mema."
     }
-   ],
-   "collocations": [
-    "meme"
    ]
   },
   {
@@ -1174,9 +1024,6 @@
      "en": "I'm taking the dog to the vet.",
      "pl": "Zabieram psa do weterynarza."
     }
-   ],
-   "collocations": [
-    "vet"
    ]
   },
   {
@@ -1209,9 +1056,6 @@
      "pl": "Idziemy dziś na koncert."
     }
    ],
-   "collocations": [
-    "gig"
-   ],
    "tags": [
     "slang"
    ]
@@ -1228,9 +1072,6 @@
      "en": "The festival was all mud.",
      "pl": "Na festiwalu było samo błoto."
     }
-   ],
-   "collocations": [
-    "mud"
    ]
   },
   {
@@ -1245,9 +1086,6 @@
      "en": "I need to shave.",
      "pl": "Muszę się ogolić."
     }
-   ],
-   "collocations": [
-    "shave"
    ]
   },
   {
@@ -1262,9 +1100,6 @@
      "en": "We swam with turtles!",
      "pl": "Pływaliśmy z żółwiami!"
     }
-   ],
-   "collocations": [
-    "turtle"
    ]
   },
   {
@@ -1279,9 +1114,6 @@
      "en": "You're a liar!",
      "pl": "Jesteś kłamcą!"
     }
-   ],
-   "collocations": [
-    "liar"
    ]
   },
   {
@@ -1296,9 +1128,6 @@
      "en": "It's on the top shelf.",
      "pl": "To jest na górnej półce."
     }
-   ],
-   "collocations": [
-    "shelf"
    ]
   },
   {
@@ -1331,9 +1160,6 @@
      "en": "We decorated the room for the party.",
      "pl": "Udekorowaliśmy pokój na imprezę."
     }
-   ],
-   "collocations": [
-    "decorate"
    ]
   },
   {
@@ -1348,9 +1174,6 @@
      "en": "Don't be cruel.",
      "pl": "Nie bądź okrutny."
     }
-   ],
-   "collocations": [
-    "cruel"
    ]
   },
   {
@@ -1365,9 +1188,6 @@
      "en": "We saw a deer in the forest.",
      "pl": "W lesie widzieliśmy jelenia."
     }
-   ],
-   "collocations": [
-    "deer"
    ]
   },
   {
@@ -1382,9 +1202,6 @@
      "en": "My grandad is buried in this cemetery.",
      "pl": "Mój dziadek jest pochowany na tym cmentarzu."
     }
-   ],
-   "collocations": [
-    "cemetery"
    ]
   },
   {
@@ -1433,9 +1250,6 @@
      "en": "Take the car to a mechanic.",
      "pl": "Zawieź auto do mechanika."
     }
-   ],
-   "collocations": [
-    "mechanic"
    ]
   },
   {
@@ -1450,9 +1264,6 @@
      "en": "They lived happily ever after.",
      "pl": "Żyli długo i szczęśliwie."
     }
-   ],
-   "collocations": [
-    "happily"
    ]
   },
   {
@@ -1484,9 +1295,6 @@
      "en": "Nowadays everyone has a phone.",
      "pl": "Dziś każdy ma telefon."
     }
-   ],
-   "collocations": [
-    "nowadays"
    ]
   },
   {
@@ -1501,9 +1309,6 @@
      "en": "Don't be selfish.",
      "pl": "Nie bądź samolubny."
     }
-   ],
-   "collocations": [
-    "selfish"
    ]
   },
   {
@@ -1518,9 +1323,6 @@
      "en": "It went to spam.",
      "pl": "Wpadło do spamu."
     }
-   ],
-   "collocations": [
-    "spam"
    ]
   },
   {
@@ -1535,9 +1337,6 @@
      "en": "Turn off notifications.",
      "pl": "Wyłącz powiadomienia."
     }
-   ],
-   "collocations": [
-    "notification"
    ]
   },
   {
@@ -1552,9 +1351,6 @@
      "en": "It's a famous monument.",
      "pl": "To słynny zabytek."
     }
-   ],
-   "collocations": [
-    "monument"
    ]
   },
   {
@@ -1569,9 +1365,6 @@
      "en": "I scroll on my phone for hours.",
      "pl": "Godzinami przewijam telefon."
     }
-   ],
-   "collocations": [
-    "scroll"
    ]
   },
   {
@@ -1586,9 +1379,6 @@
      "en": "I hurt my wrist.",
      "pl": "Uszkodziłem sobie nadgarstek."
     }
-   ],
-   "collocations": [
-    "wrist"
    ]
   },
   {
@@ -1603,9 +1393,6 @@
      "en": "The printer isn't working.",
      "pl": "Drukarka nie działa."
     }
-   ],
-   "collocations": [
-    "printer"
    ]
   },
   {
@@ -1620,9 +1407,6 @@
      "en": "I'll ask my supervisor.",
      "pl": "Zapytam przełożonego."
     }
-   ],
-   "collocations": [
-    "supervisor"
    ]
   },
   {
@@ -1637,9 +1421,6 @@
      "en": "My belly is full.",
      "pl": "Mam pełny brzuch."
     }
-   ],
-   "collocations": [
-    "belly"
    ]
   },
   {
@@ -1654,9 +1435,6 @@
      "en": "Is the Wi-Fi unlimited?",
      "pl": "Wi-Fi jest bez limitu?"
     }
-   ],
-   "collocations": [
-    "unlimited"
    ]
   },
   {
@@ -1671,9 +1449,6 @@
      "en": "We rented a cottage by the lake.",
      "pl": "Wynajęliśmy domek nad jeziorem."
     }
-   ],
-   "collocations": [
-    "cottage"
    ]
   },
   {
@@ -1688,9 +1463,6 @@
      "en": "He's a successful businessman.",
      "pl": "To biznesmen, któremu się powiodło."
     }
-   ],
-   "collocations": [
-    "businessman"
    ]
   },
   {
@@ -1722,9 +1494,6 @@
      "en": "Hold the ladder.",
      "pl": "Trzymaj drabinę."
     }
-   ],
-   "collocations": [
-    "ladder"
    ]
   }
  ]

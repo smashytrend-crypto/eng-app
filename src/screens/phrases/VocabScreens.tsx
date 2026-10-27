@@ -136,7 +136,7 @@ export function VocabSetScreen({ setId }: { setId: string }) {
               )
             })}
           </div>
-          <div className="sticky bottom-24 flex gap-2 pt-2">
+          <div className="sticky bottom-24 z-10 flex gap-2 rounded-2xl bg-white/95 p-2 shadow-lg ring-1 ring-zinc-200 backdrop-blur dark:bg-zinc-900/95 dark:ring-zinc-700">
             <Button variant="ghost" className="flex-1" onClick={() => { setPicking(false); setPicked(new Set()) }}>
               Anuluj
             </Button>

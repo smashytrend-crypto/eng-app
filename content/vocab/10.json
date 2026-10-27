@@ -19,9 +19,6 @@
      "en": "Tea with honey, please.",
      "pl": "Herbata z miodem, proszę."
     }
-   ],
-   "collocations": [
-    "honey"
    ]
   },
   {
@@ -89,9 +86,6 @@
      "en": "Daddy, look!",
      "pl": "Tato, patrz!"
     }
-   ],
-   "collocations": [
-    "daddy"
    ]
   },
   {
@@ -106,9 +100,6 @@
      "en": "He's a musician.",
      "pl": "Jest muzykiem."
     }
-   ],
-   "collocations": [
-    "musician"
    ]
   },
   {
@@ -123,9 +114,6 @@
      "en": "When I was a teenager, I loved rock.",
      "pl": "Jako nastolatek kochałem rocka."
     }
-   ],
-   "collocations": [
-    "teenager"
    ]
   },
   {
@@ -177,9 +165,6 @@
      "en": "Check your calendar.",
      "pl": "Sprawdź kalendarz."
     }
-   ],
-   "collocations": [
-    "calendar"
    ]
   },
   {
@@ -213,8 +198,7 @@
     }
    ],
    "collocations": [
-    "traffic jam",
-    "jam"
+    "traffic jam"
    ]
   },
   {
@@ -229,9 +213,6 @@
      "en": "Can I have some sauce?",
      "pl": "Mogę prosić o sos?"
     }
-   ],
-   "collocations": [
-    "sauce"
    ]
   },
   {
@@ -246,9 +227,6 @@
      "en": "There's a bee on your arm!",
      "pl": "Masz pszczołę na ręce!"
     }
-   ],
-   "collocations": [
-    "bee"
    ]
   },
   {
@@ -280,9 +258,6 @@
      "en": "My compliments to the chef!",
      "pl": "Moje wyrazy uznania dla kucharza!"
     }
-   ],
-   "collocations": [
-    "chef"
    ]
   },
   {
@@ -315,9 +290,6 @@
      "pl": "Mogę pożyczyć twoją ładowarkę?"
     }
    ],
-   "collocations": [
-    "borrow"
-   ],
    "note": "borrow = pożyczyć od kogoś, lend = pożyczyć komuś.",
    "tags": [
     "polish-trap"
@@ -336,9 +308,6 @@
      "pl": "Chcesz cukierka?"
     }
    ],
-   "collocations": [
-    "candy"
-   ],
    "note": "US „candy”, UK „sweets”.",
    "tags": [
     "uk-us"
@@ -356,9 +325,6 @@
      "en": "I stubbed my toe.",
      "pl": "Uderzyłem się w palec u nogi."
     }
-   ],
-   "collocations": [
-    "toe"
    ]
   },
   {
@@ -396,9 +362,6 @@
      "en": "My dad listens to jazz.",
      "pl": "Tata słucha jazzu."
     }
-   ],
-   "collocations": [
-    "jazz"
    ]
   },
   {
@@ -413,9 +376,6 @@
      "en": "I'll have the beef.",
      "pl": "Poproszę wołowinę."
     }
-   ],
-   "collocations": [
-    "beef"
    ]
   },
   {
@@ -464,9 +424,6 @@
      "en": "Put it in the bin.",
      "pl": "Wrzuć to do kosza."
     }
-   ],
-   "collocations": [
-    "bin"
    ]
   },
   {
@@ -481,9 +438,6 @@
      "en": "The car is in the garage.",
      "pl": "Auto jest w garażu."
     }
-   ],
-   "collocations": [
-    "garage"
    ]
   },
   {
@@ -498,9 +452,6 @@
      "en": "Learning English outside the classroom is more fun.",
      "pl": "Nauka angielskiego poza klasą jest fajniejsza."
     }
-   ],
-   "collocations": [
-    "classroom"
    ]
   },
   {
@@ -515,9 +466,6 @@
      "en": "We saw elephants at the zoo.",
      "pl": "W zoo widzieliśmy słonie."
     }
-   ],
-   "collocations": [
-    "elephant"
    ]
   },
   {
@@ -549,9 +497,6 @@
      "en": "Have a cookie.",
      "pl": "Weź ciastko."
     }
-   ],
-   "collocations": [
-    "cookie"
    ]
   },
   {
@@ -584,9 +529,6 @@
      "en": "Don't be rude.",
      "pl": "Nie bądź niegrzeczny."
     }
-   ],
-   "collocations": [
-    "rude"
    ]
   },
   {
@@ -601,9 +543,6 @@
      "en": "You're a great dancer!",
      "pl": "Świetnie tańczysz!"
     }
-   ],
-   "collocations": [
-    "dancer"
    ]
   },
   {
@@ -618,9 +557,6 @@
      "en": "I used to watch cartoons.",
      "pl": "Kiedyś oglądałem kreskówki."
     }
-   ],
-   "collocations": [
-    "cartoon"
    ]
   },
   {
@@ -635,9 +571,6 @@
      "en": "I'm feeling lazy today.",
      "pl": "Mam dziś lenia."
     }
-   ],
-   "collocations": [
-    "lazy"
    ]
   },
   {
@@ -652,9 +585,6 @@
      "en": "It's so exciting!",
      "pl": "To takie ekscytujące!"
     }
-   ],
-   "collocations": [
-    "exciting"
    ]
   },
   {
@@ -708,9 +638,6 @@
      "en": "There's no soap in the bathroom.",
      "pl": "W łazience nie ma mydła."
     }
-   ],
-   "collocations": [
-    "soap"
    ]
   },
   {
@@ -725,9 +652,6 @@
      "en": "He's very handsome.",
      "pl": "Jest bardzo przystojny."
     }
-   ],
-   "collocations": [
-    "handsome"
    ]
   },
   {
@@ -742,9 +666,6 @@
      "en": "Turn on the lamp.",
      "pl": "Włącz lampę."
     }
-   ],
-   "collocations": [
-    "lamp"
    ]
   },
   {
@@ -776,9 +697,6 @@
      "en": "Can I have an extra blanket?",
      "pl": "Mogę prosić o dodatkowy koc?"
     }
-   ],
-   "collocations": [
-    "blanket"
    ]
   },
   {
@@ -810,9 +728,6 @@
      "en": "That's clever!",
      "pl": "Sprytne!"
     }
-   ],
-   "collocations": [
-    "clever"
    ]
   },
   {
@@ -827,9 +742,6 @@
      "en": "My sister has a rabbit.",
      "pl": "Siostra ma królika."
     }
-   ],
-   "collocations": [
-    "rabbit"
    ]
   },
   {
@@ -861,9 +773,6 @@
      "en": "Popcorn is made from corn.",
      "pl": "Popcorn robi się z kukurydzy."
     }
-   ],
-   "collocations": [
-    "corn"
    ]
   },
   {
@@ -879,9 +788,6 @@
      "pl": "W Irlandii wszędzie są owce."
     }
    ],
-   "collocations": [
-    "sheep"
-   ],
    "note": "l. mnoga też „sheep”."
   },
   {
@@ -896,9 +802,6 @@
      "en": "I need a gaming keyboard.",
      "pl": "Potrzebuję klawiatury do gier."
     }
-   ],
-   "collocations": [
-    "keyboard"
    ]
   },
   {
@@ -936,9 +839,6 @@
      "en": "What's the Wi-Fi password?",
      "pl": "Jakie jest hasło do Wi-Fi?"
     }
-   ],
-   "collocations": [
-    "password"
    ]
   },
   {
@@ -971,9 +871,6 @@
      "en": "Let's grab a snack.",
      "pl": "Weźmy jakąś przekąskę."
     }
-   ],
-   "collocations": [
-    "snack"
    ]
   },
   {
@@ -1008,9 +905,6 @@
      "en": "I fell asleep on the couch.",
      "pl": "Zasnąłem na kanapie."
     }
-   ],
-   "collocations": [
-    "couch"
    ]
   },
   {
@@ -1025,9 +919,6 @@
      "en": "My grammar isn't perfect.",
      "pl": "Moja gramatyka nie jest idealna."
     }
-   ],
-   "collocations": [
-    "grammar"
    ]
   },
   {
@@ -1045,9 +936,6 @@
      "en": "My brother has a motorcycle.",
      "pl": "Mój brat ma motocykl."
     }
-   ],
-   "collocations": [
-    "motorcycle"
    ]
   },
   {
@@ -1079,9 +967,6 @@
      "en": "What a cute puppy!",
      "pl": "Jaki słodki szczeniak!"
     }
-   ],
-   "collocations": [
-    "puppy"
    ]
   },
   {
@@ -1096,9 +981,6 @@
      "en": "Water with lemon, please.",
      "pl": "Woda z cytryną, poproszę."
     }
-   ],
-   "collocations": [
-    "lemon"
    ]
   },
   {
@@ -1131,9 +1013,6 @@
      "en": "Grab a basket.",
      "pl": "Weź koszyk."
     }
-   ],
-   "collocations": [
-    "basket"
    ]
   },
   {
@@ -1148,9 +1027,6 @@
      "en": "I'm shy when I speak English.",
      "pl": "Jestem nieśmiały, kiedy mówię po angielsku."
     }
-   ],
-   "collocations": [
-    "shy"
    ]
   },
   {
@@ -1165,9 +1041,6 @@
      "en": "Blow out the candles!",
      "pl": "Zdmuchnij świeczki!"
     }
-   ],
-   "collocations": [
-    "candle"
    ]
   },
   {
@@ -1182,9 +1055,6 @@
      "en": "I've got a headache.",
      "pl": "Boli mnie głowa."
     }
-   ],
-   "collocations": [
-    "headache"
    ]
   },
   {
@@ -1199,9 +1069,6 @@
      "en": "Eggs and bacon, please.",
      "pl": "Jajka z bekonem, poproszę."
     }
-   ],
-   "collocations": [
-    "bacon"
    ]
   },
   {
@@ -1216,9 +1083,6 @@
      "en": "No onions, please.",
      "pl": "Bez cebuli, proszę."
     }
-   ],
-   "collocations": [
-    "onion"
    ]
   },
   {
@@ -1233,9 +1097,6 @@
      "en": "Great workout today!",
      "pl": "Świetny trening dzisiaj!"
     }
-   ],
-   "collocations": [
-    "workout"
    ]
   },
   {
@@ -1285,9 +1146,6 @@
      "en": "Let's put the meat on the grill.",
      "pl": "Połóżmy mięso na grill."
     }
-   ],
-   "collocations": [
-    "grill"
    ]
   },
   {
@@ -1319,9 +1177,6 @@
      "en": "My dad is a builder.",
      "pl": "Tata pracuje na budowie."
     }
-   ],
-   "collocations": [
-    "builder"
    ]
   },
   {
@@ -1336,9 +1191,6 @@
      "en": "Look — a rainbow!",
      "pl": "Patrz — tęcza!"
     }
-   ],
-   "collocations": [
-    "rainbow"
    ]
   },
   {
@@ -1354,9 +1206,6 @@
      "pl": "Mogę prosić o paragon?"
     }
    ],
-   "collocations": [
-    "receipt"
-   ],
    "pronunciation": "receipt ≈ „risi:t” („p” nieme)"
   },
   {
@@ -1371,9 +1220,6 @@
      "en": "Put it in the oven.",
      "pl": "Wsadź to do piekarnika."
     }
-   ],
-   "collocations": [
-    "oven"
    ]
   },
   {
@@ -1388,9 +1234,6 @@
      "en": "I've got a bad cough.",
      "pl": "Mam paskudny kaszel."
     }
-   ],
-   "collocations": [
-    "cough"
    ],
    "pronunciation": "cough ≈ „kof”"
   },
@@ -1440,9 +1283,6 @@
      "en": "Let's buy balloons for the party.",
      "pl": "Kupmy balony na imprezę."
     }
-   ],
-   "collocations": [
-    "balloon"
    ]
   },
   {
@@ -1457,9 +1297,6 @@
      "en": "There are ants in the tent!",
      "pl": "W namiocie są mrówki!"
     }
-   ],
-   "collocations": [
-    "ant"
    ]
   },
   {
@@ -1474,9 +1311,6 @@
      "en": "Can I have another pillow?",
      "pl": "Mogę prosić o drugą poduszkę?"
     }
-   ],
-   "collocations": [
-    "pillow"
    ]
   },
   {
@@ -1491,9 +1325,6 @@
      "en": "We saw dolphins!",
      "pl": "Widzieliśmy delfiny!"
     }
-   ],
-   "collocations": [
-    "dolphin"
    ]
   },
   {
@@ -1508,9 +1339,6 @@
      "en": "Let's watch the sunset.",
      "pl": "Popatrzmy na zachód słońca."
     }
-   ],
-   "collocations": [
-    "sunset"
    ]
   },
   {
@@ -1525,9 +1353,6 @@
      "en": "Look it up in the dictionary.",
      "pl": "Sprawdź w słowniku."
     }
-   ],
-   "collocations": [
-    "dictionary"
    ]
   },
   {
@@ -1559,9 +1384,6 @@
      "en": "Let's have a cocktail.",
      "pl": "Wypijmy koktajl."
     }
-   ],
-   "collocations": [
-    "cocktail"
    ]
   },
   {
@@ -1576,9 +1398,6 @@
      "en": "There's a frog in the pool!",
      "pl": "W basenie jest żaba!"
     }
-   ],
-   "collocations": [
-    "frog"
    ]
   },
   {
@@ -1593,9 +1412,6 @@
      "en": "How would you like your steak?",
      "pl": "Jak ma być wysmażony stek?"
     }
-   ],
-   "collocations": [
-    "steak"
    ]
   },
   {
@@ -1610,9 +1426,6 @@
      "en": "Take the elevator.",
      "pl": "Jedź windą."
     }
-   ],
-   "collocations": [
-    "elevator"
    ],
    "tags": [
     "uk-us"
@@ -1647,9 +1460,6 @@
      "en": "My nephew loves dinosaurs.",
      "pl": "Mój siostrzeniec uwielbia dinozaury."
     }
-   ],
-   "collocations": [
-    "dinosaur"
    ]
   },
   {
@@ -1666,8 +1476,7 @@
     }
    ],
    "collocations": [
-    "make a toast",
-    "toast"
+    "make a toast"
    ]
   },
   {
@@ -1682,9 +1491,6 @@
      "en": "I don't eat pork.",
      "pl": "Nie jem wieprzowiny."
     }
-   ],
-   "collocations": [
-    "pork"
    ]
   },
   {
@@ -1734,9 +1540,6 @@
      "pl": "Poproszę łososia."
     }
    ],
-   "collocations": [
-    "salmon"
-   ],
    "pronunciation": "salmon ≈ „samen” („l” nieme)"
   },
   {
@@ -1751,9 +1554,6 @@
      "en": "I've got festival stickers on my laptop.",
      "pl": "Mam festiwalowe naklejki na laptopie."
     }
-   ],
-   "collocations": [
-    "sticker"
    ]
   }
  ]

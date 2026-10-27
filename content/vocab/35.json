@@ -1,0 +1,1858 @@
+{
+ "set": {
+  "id": "v.35",
+  "order": 35,
+  "level": "B2",
+  "title": "Słówka B2 · 11",
+  "description": "Bogatszy język: precyzyjne słowa, którymi brzmisz naturalnie i pewnie. Część 11 z 11."
+ },
+ "items": [
+  {
+   "id": "v.vibrant",
+   "en": "vibrant",
+   "pl": "tętniący życiem",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6842,
+   "example": [
+    {
+     "en": "It's a vibrant city.",
+     "pl": "To miasto tętniące życiem."
+    }
+   ]
+  },
+  {
+   "id": "v.convincing",
+   "en": "convincing",
+   "pl": "przekonujący",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6849,
+   "example": [
+    {
+     "en": "That's not very convincing.",
+     "pl": "To niezbyt przekonujące."
+    }
+   ]
+  },
+  {
+   "id": "v.magician",
+   "en": "magician",
+   "pl": "magik",
+   "pos": "n",
+   "level": "B2",
+   "rank": 6856,
+   "example": [
+    {
+     "en": "He's like a magician on the decks.",
+     "pl": "Za konsoletą jest jak magik."
+    }
+   ]
+  },
+  {
+   "id": "v.cardboard",
+   "en": "cardboard",
+   "pl": "tektura",
+   "pos": "n",
+   "level": "B2",
+   "rank": 6876,
+   "example": [
+    {
+     "en": "It's made of cardboard.",
+     "pl": "To z tektury."
+    }
+   ]
+  },
+  {
+   "id": "v.casually",
+   "en": "casually",
+   "pl": "swobodnie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 6877,
+   "example": [
+    {
+     "en": "Dress casually.",
+     "pl": "Ubierz się swobodnie."
+    }
+   ]
+  },
+  {
+   "id": "v.daytime",
+   "en": "daytime",
+   "pl": "dzień (pora)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 6881,
+   "example": [
+    {
+     "en": "The daytime sets are more chilled.",
+     "pl": "Dzienne sety są spokojniejsze."
+    }
+   ]
+  },
+  {
+   "id": "v.dreadful",
+   "en": "dreadful",
+   "pl": "okropny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6887,
+   "example": [
+    {
+     "en": "The food was dreadful.",
+     "pl": "Jedzenie było okropne."
+    }
+   ]
+  },
+  {
+   "id": "v.drunken",
+   "en": "drunken",
+   "pl": "pijacki",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6888,
+   "example": [
+    {
+     "en": "Drunken people were singing outside.",
+     "pl": "Pijani ludzie śpiewali na zewnątrz."
+    }
+   ]
+  },
+  {
+   "id": "v.extinct",
+   "en": "extinct",
+   "pl": "wymarły",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6890,
+   "example": [
+    {
+     "en": "Dinosaurs are extinct.",
+     "pl": "Dinozaury wymarły."
+    }
+   ]
+  },
+  {
+   "id": "v.immature",
+   "en": "immature",
+   "pl": "niedojrzały",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6896,
+   "example": [
+    {
+     "en": "He's so immature.",
+     "pl": "Jest taki niedojrzały."
+    }
+   ]
+  },
+  {
+   "id": "v.optimism",
+   "en": "optimism",
+   "pl": "optymizm",
+   "pos": "n",
+   "level": "B2",
+   "rank": 6905,
+   "example": [
+    {
+     "en": "I love your optimism.",
+     "pl": "Uwielbiam twój optymizm."
+    }
+   ]
+  },
+  {
+   "id": "v.outdated",
+   "en": "outdated",
+   "pl": "przestarzały",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6907,
+   "example": [
+    {
+     "en": "My phone is outdated.",
+     "pl": "Mój telefon jest przestarzały."
+    }
+   ]
+  },
+  {
+   "id": "v.trivial",
+   "en": "trivial",
+   "pl": "błahy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6918,
+   "example": [
+    {
+     "en": "It's a trivial problem.",
+     "pl": "To błahy problem."
+    }
+   ]
+  },
+  {
+   "id": "v.chimney",
+   "en": "chimney",
+   "pl": "komin",
+   "pos": "n",
+   "level": "B2",
+   "rank": 6921,
+   "example": [
+    {
+     "en": "Smoke is coming out of the chimney.",
+     "pl": "Z komina leci dym."
+    }
+   ]
+  },
+  {
+   "id": "v.forbidden",
+   "en": "forbidden",
+   "pl": "zakazany",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 6926,
+   "example": [
+    {
+     "en": "Smoking is forbidden.",
+     "pl": "Palenie jest zakazane."
+    }
+   ]
+  },
+  {
+   "id": "v.trainee",
+   "en": "trainee",
+   "pl": "praktykant",
+   "pos": "n",
+   "level": "B2",
+   "rank": 6929,
+   "example": [
+    {
+     "en": "I'm a trainee.",
+     "pl": "Jestem na szkoleniu."
+    }
+   ]
+  },
+  {
+   "id": "v.reassure",
+   "en": "reassure",
+   "pl": "uspokoić",
+   "pos": "v",
+   "level": "B2",
+   "rank": 6930,
+   "example": [
+    {
+     "en": "He reassured me.",
+     "pl": "Uspokoił mnie."
+    }
+   ]
+  },
+  {
+   "id": "v.disconnect",
+   "en": "disconnect",
+   "pl": "rozłączyć",
+   "pos": "v",
+   "level": "B2",
+   "rank": 6933,
+   "example": [
+    {
+     "en": "The call disconnected.",
+     "pl": "Połączenie zostało przerwane."
+    }
+   ]
+  },
+  {
+   "id": "v.pastry",
+   "en": "pastry",
+   "pl": "ciastko (z ciasta francuskiego)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 6935,
+   "example": [
+    {
+     "en": "I'll have a pastry with my coffee.",
+     "pl": "Do kawy wezmę ciastko."
+    }
+   ]
+  },
+  {
+   "id": "v.stool",
+   "en": "stool",
+   "pl": "stołek",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7012,
+   "example": [
+    {
+     "en": "Sit on the stool by the bar.",
+     "pl": "Usiądź na stołku przy barze."
+    }
+   ],
+   "collocations": [
+    "bar stool"
+   ]
+  },
+  {
+   "id": "v.connector",
+   "en": "connector",
+   "pl": "złącze",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7013,
+   "example": [
+    {
+     "en": "What connector does your phone use?",
+     "pl": "Jakie złącze ma twój telefon?"
+    }
+   ]
+  },
+  {
+   "id": "v.glitter",
+   "en": "glitter",
+   "pl": "brokat",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7022,
+   "example": [
+    {
+     "en": "She has glitter on her face.",
+     "pl": "Ma brokat na twarzy."
+    }
+   ]
+  },
+  {
+   "id": "v.outing",
+   "en": "outing",
+   "pl": "wyjście, wycieczka",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7025,
+   "example": [
+    {
+     "en": "It's a team outing.",
+     "pl": "To firmowy wyjazd."
+    }
+   ]
+  },
+  {
+   "id": "v.amazingly",
+   "en": "amazingly",
+   "pl": "niesamowicie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7034,
+   "example": [
+    {
+     "en": "It went amazingly well.",
+     "pl": "Poszło niesamowicie dobrze."
+    }
+   ]
+  },
+  {
+   "id": "v.breakup",
+   "en": "breakup",
+   "pl": "rozstanie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7038,
+   "example": [
+    {
+     "en": "He's going through a breakup.",
+     "pl": "Przechodzi rozstanie."
+    }
+   ]
+  },
+  {
+   "id": "v.disrespectful",
+   "en": "disrespectful",
+   "pl": "lekceważący",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7045,
+   "example": [
+    {
+     "en": "That's disrespectful.",
+     "pl": "To brak szacunku."
+    }
+   ]
+  },
+  {
+   "id": "v.handmade",
+   "en": "handmade",
+   "pl": "ręcznie robiony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7049,
+   "example": [
+    {
+     "en": "It's handmade.",
+     "pl": "To ręcznie robione."
+    }
+   ]
+  },
+  {
+   "id": "v.intimacy",
+   "en": "intimacy",
+   "pl": "bliskość",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7051,
+   "example": [
+    {
+     "en": "There's no intimacy at a festival.",
+     "pl": "Na festiwalu nie ma prywatności."
+    }
+   ]
+  },
+  {
+   "id": "v.neon",
+   "en": "neon",
+   "pl": "neon",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7055,
+   "example": [
+    {
+     "en": "I love the neon lights.",
+     "pl": "Uwielbiam neony."
+    }
+   ]
+  },
+  {
+   "id": "v.quarantine",
+   "en": "quarantine",
+   "pl": "kwarantanna",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7058,
+   "example": [
+    {
+     "en": "We were in quarantine.",
+     "pl": "Byliśmy na kwarantannie."
+    }
+   ]
+  },
+  {
+   "id": "v.salesman",
+   "en": "salesman",
+   "pl": "sprzedawca",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7060,
+   "example": [
+    {
+     "en": "The salesman was pushy.",
+     "pl": "Sprzedawca był nachalny."
+    }
+   ]
+  },
+  {
+   "id": "v.thirst",
+   "en": "thirst",
+   "pl": "pragnienie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7068,
+   "example": [
+    {
+     "en": "I'm dying of thirst.",
+     "pl": "Umieram z pragnienia."
+    }
+   ]
+  },
+  {
+   "id": "v.unused",
+   "en": "unused",
+   "pl": "nieużywany",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7071,
+   "example": [
+    {
+     "en": "It's unused.",
+     "pl": "To nieużywane."
+    }
+   ]
+  },
+  {
+   "id": "v.diner",
+   "en": "diner",
+   "pl": "bar przydrożny (US)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7074,
+   "example": [
+    {
+     "en": "Let's eat at the diner.",
+     "pl": "Zjedzmy w barze."
+    }
+   ],
+   "tags": [
+    "uk-us"
+   ]
+  },
+  {
+   "id": "v.commuter",
+   "en": "commuter",
+   "pl": "dojeżdżający do pracy",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7075,
+   "example": [
+    {
+     "en": "The train is full of commuters.",
+     "pl": "Pociąg jest pełen dojeżdżających."
+    }
+   ]
+  },
+  {
+   "id": "v.cheque",
+   "en": "cheque",
+   "pl": "czek",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7082,
+   "alternatives": [
+    "check"
+   ],
+   "example": [
+    {
+     "en": "Can I pay by cheque?",
+     "pl": "Mogę zapłacić czekiem?"
+    }
+   ]
+  },
+  {
+   "id": "v.accessory",
+   "en": "accessory",
+   "pl": "dodatek, akcesorium",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7097,
+   "example": [
+    {
+     "en": "Phone accessories are on the second floor.",
+     "pl": "Akcesoria telefoniczne są na drugim piętrze."
+    }
+   ],
+   "collocations": [
+    "accessories"
+   ]
+  },
+  {
+   "id": "v.attic",
+   "en": "attic",
+   "pl": "strych",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7101,
+   "example": [
+    {
+     "en": "The old photos are in the attic.",
+     "pl": "Stare zdjęcia są na strychu."
+    }
+   ]
+  },
+  {
+   "id": "v.gigantic",
+   "en": "gigantic",
+   "pl": "gigantyczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7115,
+   "example": [
+    {
+     "en": "The stage was gigantic.",
+     "pl": "Scena była gigantyczna."
+    }
+   ]
+  },
+  {
+   "id": "v.halftime",
+   "en": "halftime",
+   "pl": "przerwa (w meczu)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7117,
+   "example": [
+    {
+     "en": "Let's get drinks at halftime.",
+     "pl": "Weźmy picie w przerwie."
+    }
+   ]
+  },
+  {
+   "id": "v.peacefully",
+   "en": "peacefully",
+   "pl": "spokojnie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7124,
+   "example": [
+    {
+     "en": "The baby slept peacefully.",
+     "pl": "Dziecko spało spokojnie."
+    }
+   ]
+  },
+  {
+   "id": "v.reconsider",
+   "en": "reconsider",
+   "pl": "przemyśleć ponownie",
+   "pos": "v",
+   "level": "B2",
+   "rank": 7128,
+   "example": [
+    {
+     "en": "Please reconsider.",
+     "pl": "Przemyśl to jeszcze raz."
+    }
+   ]
+  },
+  {
+   "id": "v.seldom",
+   "en": "seldom",
+   "pl": "rzadko",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7132,
+   "example": [
+    {
+     "en": "I seldom drink.",
+     "pl": "Rzadko piję."
+    }
+   ]
+  },
+  {
+   "id": "v.astonish",
+   "en": "astonish",
+   "pl": "zdumieć",
+   "pos": "v",
+   "level": "B2",
+   "rank": 7169,
+   "example": [
+    {
+     "en": "I was astonished.",
+     "pl": "Byłem zdumiony."
+    }
+   ],
+   "collocations": [
+    "astonished"
+   ]
+  },
+  {
+   "id": "v.sprinkle",
+   "en": "sprinkle",
+   "pl": "posypać",
+   "pos": "v",
+   "level": "B2",
+   "rank": 7172,
+   "example": [
+    {
+     "en": "Sprinkle some salt on it.",
+     "pl": "Posyp to solą."
+    }
+   ]
+  },
+  {
+   "id": "v.beforehand",
+   "en": "beforehand",
+   "pl": "wcześniej, zawczasu",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7182,
+   "example": [
+    {
+     "en": "Let me know beforehand.",
+     "pl": "Daj znać wcześniej."
+    }
+   ]
+  },
+  {
+   "id": "v.damp",
+   "en": "damp",
+   "pl": "wilgotny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7187,
+   "example": [
+    {
+     "en": "The tent is damp.",
+     "pl": "Namiot jest wilgotny."
+    }
+   ]
+  },
+  {
+   "id": "v.dim",
+   "en": "dim",
+   "pl": "przyciemniony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7190,
+   "example": [
+    {
+     "en": "The lights are dim.",
+     "pl": "Światła są przyciemnione."
+    }
+   ]
+  },
+  {
+   "id": "v.faulty",
+   "en": "faulty",
+   "pl": "wadliwy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7193,
+   "example": [
+    {
+     "en": "The charger is faulty.",
+     "pl": "Ładowarka jest wadliwa."
+    }
+   ]
+  },
+  {
+   "id": "v.fuss",
+   "en": "fuss",
+   "pl": "zamieszanie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7196,
+   "example": [
+    {
+     "en": "Don't make a fuss.",
+     "pl": "Nie rób zamieszania."
+    }
+   ],
+   "collocations": [
+    "make a fuss"
+   ]
+  },
+  {
+   "id": "v.generosity",
+   "en": "generosity",
+   "pl": "hojność",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7198,
+   "example": [
+    {
+     "en": "Thanks for your generosity.",
+     "pl": "Dzięki za hojność."
+    }
+   ]
+  },
+  {
+   "id": "v.heavyweight",
+   "en": "heavyweight",
+   "pl": "wagi ciężkiej",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7200,
+   "example": [
+    {
+     "en": "He's a heavyweight boxer.",
+     "pl": "Jest bokserem wagi ciężkiej."
+    }
+   ]
+  },
+  {
+   "id": "v.nostalgia",
+   "en": "nostalgia",
+   "pl": "nostalgia",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7208,
+   "example": [
+    {
+     "en": "This track gives me nostalgia.",
+     "pl": "Ten kawałek budzi we mnie nostalgię."
+    }
+   ]
+  },
+  {
+   "id": "v.sarcasm",
+   "en": "sarcasm",
+   "pl": "sarkazm",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7214,
+   "example": [
+    {
+     "en": "Is that sarcasm?",
+     "pl": "To sarkazm?"
+    }
+   ]
+  },
+  {
+   "id": "v.unfamiliar",
+   "en": "unfamiliar",
+   "pl": "nieznany",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7222,
+   "example": [
+    {
+     "en": "The city is unfamiliar to me.",
+     "pl": "Nie znam tego miasta."
+    }
+   ]
+  },
+  {
+   "id": "v.violently",
+   "en": "violently",
+   "pl": "gwałtownie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7226,
+   "example": [
+    {
+     "en": "It shook violently.",
+     "pl": "Mocno się trzęsło."
+    }
+   ]
+  },
+  {
+   "id": "v.router",
+   "en": "router",
+   "pl": "router",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7234,
+   "example": [
+    {
+     "en": "Restart the router.",
+     "pl": "Zrestartuj router."
+    }
+   ]
+  },
+  {
+   "id": "v.cramp",
+   "en": "cramp",
+   "pl": "skurcz",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7238,
+   "example": [
+    {
+     "en": "I've got cramp in my leg.",
+     "pl": "Złapał mnie skurcz w nodze."
+    }
+   ]
+  },
+  {
+   "id": "v.knockout",
+   "en": "knockout",
+   "pl": "nokaut; rewelacja",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7283,
+   "example": [
+    {
+     "en": "The set was a knockout.",
+     "pl": "Set był rewelacyjny."
+    }
+   ]
+  },
+  {
+   "id": "v.moonlight",
+   "en": "moonlight",
+   "pl": "światło księżyca",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7286,
+   "example": [
+    {
+     "en": "We swam in the moonlight.",
+     "pl": "Pływaliśmy w świetle księżyca."
+    }
+   ]
+  },
+  {
+   "id": "v.pavement",
+   "en": "pavement",
+   "pl": "chodnik (UK)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7291,
+   "alternatives": [
+    "sidewalk"
+   ],
+   "example": [
+    {
+     "en": "Walk on the pavement.",
+     "pl": "Idź chodnikiem."
+    }
+   ],
+   "tags": [
+    "uk-us"
+   ]
+  },
+  {
+   "id": "v.rusty",
+   "en": "rusty",
+   "pl": "zardzewiały",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7306,
+   "example": [
+    {
+     "en": "My English is a bit rusty.",
+     "pl": "Mój angielski trochę zardzewiał."
+    }
+   ]
+  },
+  {
+   "id": "v.scarce",
+   "en": "scarce",
+   "pl": "rzadki, deficytowy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7307,
+   "example": [
+    {
+     "en": "Water is scarce at the campsite.",
+     "pl": "Na kempingu brakuje wody."
+    }
+   ]
+  },
+  {
+   "id": "v.weary",
+   "en": "weary",
+   "pl": "zmęczony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7320,
+   "example": [
+    {
+     "en": "I'm weary after the trip.",
+     "pl": "Jestem zmęczony po podróży."
+    }
+   ]
+  },
+  {
+   "id": "v.backstage",
+   "en": "backstage",
+   "pl": "za kulisami",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7353,
+   "example": [
+    {
+     "en": "We went backstage!",
+     "pl": "Weszliśmy za kulisy!"
+    }
+   ],
+   "collocations": [
+    "backstage pass"
+   ]
+  },
+  {
+   "id": "v.binge",
+   "en": "binge",
+   "pl": "maraton (np. serialu), objadanie się",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7354,
+   "example": [
+    {
+     "en": "I binge-watched the whole series.",
+     "pl": "Obejrzałem cały serial za jednym razem."
+    }
+   ],
+   "collocations": [
+    "binge-watch"
+   ]
+  },
+  {
+   "id": "v.breathtaking",
+   "en": "breathtaking",
+   "pl": "zapierający dech",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7357,
+   "example": [
+    {
+     "en": "The view is breathtaking.",
+     "pl": "Widok zapiera dech."
+    }
+   ]
+  },
+  {
+   "id": "v.flawless",
+   "en": "flawless",
+   "pl": "bezbłędny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7376,
+   "example": [
+    {
+     "en": "The set was flawless.",
+     "pl": "Set był bezbłędny."
+    }
+   ]
+  },
+  {
+   "id": "v.humorous",
+   "en": "humorous",
+   "pl": "zabawny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7382,
+   "example": [
+    {
+     "en": "It's a humorous story.",
+     "pl": "To zabawna historia."
+    }
+   ]
+  },
+  {
+   "id": "v.restless",
+   "en": "restless",
+   "pl": "niespokojny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7394,
+   "example": [
+    {
+     "en": "I feel restless.",
+     "pl": "Nie mogę usiedzieć na miejscu."
+    }
+   ]
+  },
+  {
+   "id": "v.sarcastic",
+   "en": "sarcastic",
+   "pl": "sarkastyczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7397,
+   "example": [
+    {
+     "en": "Are you being sarcastic?",
+     "pl": "Mówisz sarkastycznie?"
+    }
+   ]
+  },
+  {
+   "id": "v.excursion",
+   "en": "excursion",
+   "pl": "wycieczka",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7435,
+   "example": [
+    {
+     "en": "We went on an excursion.",
+     "pl": "Pojechaliśmy na wycieczkę."
+    }
+   ],
+   "note": "Częściej mówi się „trip”."
+  },
+  {
+   "id": "v.sloppy",
+   "en": "sloppy",
+   "pl": "niedbały",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7484,
+   "example": [
+    {
+     "en": "That was sloppy.",
+     "pl": "To było niedbałe."
+    }
+   ]
+  },
+  {
+   "id": "v.surreal",
+   "en": "surreal",
+   "pl": "surrealistyczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7487,
+   "example": [
+    {
+     "en": "The whole night felt surreal.",
+     "pl": "Cała noc była surrealistyczna."
+    }
+   ]
+  },
+  {
+   "id": "v.gifted",
+   "en": "gifted",
+   "pl": "uzdolniony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7499,
+   "example": [
+    {
+     "en": "He's a gifted DJ.",
+     "pl": "To uzdolniony DJ."
+    }
+   ]
+  },
+  {
+   "id": "v.wrinkle",
+   "en": "wrinkle",
+   "pl": "zmarszczka",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7505,
+   "example": [
+    {
+     "en": "I've got new wrinkles.",
+     "pl": "Mam nowe zmarszczki."
+    }
+   ],
+   "collocations": [
+    "wrinkles"
+   ]
+  },
+  {
+   "id": "v.kneel",
+   "en": "kneel",
+   "pl": "klęczeć",
+   "pos": "v",
+   "level": "B2",
+   "rank": 7508,
+   "example": [
+    {
+     "en": "Kneel down.",
+     "pl": "Uklęknij."
+    }
+   ]
+  },
+  {
+   "id": "v.syllable",
+   "en": "syllable",
+   "pl": "sylaba",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7509,
+   "example": [
+    {
+     "en": "Stress the first syllable.",
+     "pl": "Akcentuj pierwszą sylabę."
+    }
+   ]
+  },
+  {
+   "id": "v.backdrop",
+   "en": "backdrop",
+   "pl": "tło",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7515,
+   "example": [
+    {
+     "en": "The sea is a great backdrop.",
+     "pl": "Morze to świetne tło."
+    }
+   ]
+  },
+  {
+   "id": "v.blackout",
+   "en": "blackout",
+   "pl": "zaciemnienie; utrata świadomości",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7517,
+   "example": [
+    {
+     "en": "There was a blackout in the city.",
+     "pl": "W mieście był brak prądu."
+    }
+   ]
+  },
+  {
+   "id": "v.contagious",
+   "en": "contagious",
+   "pl": "zaraźliwy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7526,
+   "example": [
+    {
+     "en": "Is it contagious?",
+     "pl": "Czy to zaraźliwe?"
+    }
+   ]
+  },
+  {
+   "id": "v.fearful",
+   "en": "fearful",
+   "pl": "lękliwy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7532,
+   "example": [
+    {
+     "en": "I was fearful.",
+     "pl": "Bałem się."
+    }
+   ]
+  },
+  {
+   "id": "v.festive",
+   "en": "festive",
+   "pl": "świąteczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7533,
+   "example": [
+    {
+     "en": "It's very festive.",
+     "pl": "Jest bardzo świątecznie."
+    }
+   ]
+  },
+  {
+   "id": "v.needy",
+   "en": "needy",
+   "pl": "potrzebujący",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7539,
+   "example": [
+    {
+     "en": "Help the needy.",
+     "pl": "Pomagaj potrzebującym."
+    }
+   ]
+  },
+  {
+   "id": "v.priceless",
+   "en": "priceless",
+   "pl": "bezcenny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7543,
+   "example": [
+    {
+     "en": "His face was priceless.",
+     "pl": "Jego mina była bezcenna."
+    }
+   ]
+  },
+  {
+   "id": "v.silently",
+   "en": "silently",
+   "pl": "cicho",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7548,
+   "example": [
+    {
+     "en": "They left silently.",
+     "pl": "Wyszli po cichu."
+    }
+   ]
+  },
+  {
+   "id": "v.staircase",
+   "en": "staircase",
+   "pl": "klatka schodowa",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7549,
+   "example": [
+    {
+     "en": "Take the staircase.",
+     "pl": "Idź schodami."
+    }
+   ]
+  },
+  {
+   "id": "v.tolerant",
+   "en": "tolerant",
+   "pl": "tolerancyjny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7553,
+   "example": [
+    {
+     "en": "Be tolerant.",
+     "pl": "Bądź tolerancyjny."
+    }
+   ]
+  },
+  {
+   "id": "v.youthful",
+   "en": "youthful",
+   "pl": "młodzieńczy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7557,
+   "example": [
+    {
+     "en": "He looks youthful.",
+     "pl": "Wygląda młodo."
+    }
+   ]
+  },
+  {
+   "id": "v.cuddle",
+   "en": "cuddle",
+   "pl": "przytulać się",
+   "pos": "v",
+   "level": "B2",
+   "rank": 7558,
+   "example": [
+    {
+     "en": "Let's cuddle.",
+     "pl": "Poprzytulajmy się."
+    }
+   ]
+  },
+  {
+   "id": "v.checkpoint",
+   "en": "checkpoint",
+   "pl": "punkt kontrolny",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7560,
+   "example": [
+    {
+     "en": "There's a security checkpoint at the entrance.",
+     "pl": "Przy wejściu jest punkt kontroli."
+    }
+   ],
+   "collocations": [
+    "security checkpoint"
+   ]
+  },
+  {
+   "id": "v.distracted",
+   "en": "distracted",
+   "pl": "rozproszony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7564,
+   "example": [
+    {
+     "en": "I got distracted.",
+     "pl": "Rozproszyłem się."
+    }
+   ]
+  },
+  {
+   "id": "v.misunderstanding",
+   "en": "misunderstanding",
+   "pl": "nieporozumienie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7568,
+   "example": [
+    {
+     "en": "It was a misunderstanding.",
+     "pl": "To było nieporozumienie."
+    }
+   ]
+  },
+  {
+   "id": "v.bodyguard",
+   "en": "bodyguard",
+   "pl": "ochroniarz",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7571,
+   "example": [
+    {
+     "en": "The DJ has a bodyguard.",
+     "pl": "DJ ma ochroniarza."
+    }
+   ]
+  },
+  {
+   "id": "v.wildfire",
+   "en": "wildfire",
+   "pl": "pożar lasu",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7577,
+   "example": [
+    {
+     "en": "There are wildfires in the south.",
+     "pl": "Na południu są pożary."
+    }
+   ]
+  },
+  {
+   "id": "v.knuckle",
+   "en": "knuckle",
+   "pl": "kłykieć",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7585,
+   "example": [
+    {
+     "en": "I hurt my knuckles.",
+     "pl": "Uszkodziłem sobie kłykcie."
+    }
+   ]
+  },
+  {
+   "id": "v.brightness",
+   "en": "brightness",
+   "pl": "jasność",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7597,
+   "example": [
+    {
+     "en": "Turn up the brightness.",
+     "pl": "Zwiększ jasność."
+    }
+   ]
+  },
+  {
+   "id": "v.disposable",
+   "en": "disposable",
+   "pl": "jednorazowy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7606,
+   "example": [
+    {
+     "en": "Bring a disposable raincoat.",
+     "pl": "Weź jednorazową pelerynę."
+    }
+   ]
+  },
+  {
+   "id": "v.handwriting",
+   "en": "handwriting",
+   "pl": "charakter pisma",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7609,
+   "example": [
+    {
+     "en": "I can't read your handwriting.",
+     "pl": "Nie mogę odczytać twojego pisma."
+    }
+   ]
+  },
+  {
+   "id": "v.hassle",
+   "en": "hassle",
+   "pl": "kłopot, zawracanie głowy",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7610,
+   "example": [
+    {
+     "en": "It's too much hassle.",
+     "pl": "To za dużo zachodu."
+    }
+   ]
+  },
+  {
+   "id": "v.heartbreaking",
+   "en": "heartbreaking",
+   "pl": "łamiący serce",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7611,
+   "example": [
+    {
+     "en": "It's heartbreaking.",
+     "pl": "To łamie serce."
+    }
+   ]
+  },
+  {
+   "id": "v.inexpensive",
+   "en": "inexpensive",
+   "pl": "niedrogi",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7618,
+   "example": [
+    {
+     "en": "It's inexpensive.",
+     "pl": "To niedrogie."
+    }
+   ]
+  },
+  {
+   "id": "v.jolly",
+   "en": "jolly",
+   "pl": "wesoły",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7621,
+   "example": [
+    {
+     "en": "He's a jolly guy.",
+     "pl": "To wesoły gość."
+    }
+   ]
+  },
+  {
+   "id": "v.majestic",
+   "en": "majestic",
+   "pl": "majestatyczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7624,
+   "example": [
+    {
+     "en": "The mountains are majestic.",
+     "pl": "Góry są majestatyczne."
+    }
+   ]
+  },
+  {
+   "id": "v.overdose",
+   "en": "overdose",
+   "pl": "przedawkowanie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7628,
+   "example": [
+    {
+     "en": "Watch out for overdose.",
+     "pl": "Uważaj na przedawkowanie."
+    }
+   ]
+  },
+  {
+   "id": "v.poisonous",
+   "en": "poisonous",
+   "pl": "trujący",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7630,
+   "example": [
+    {
+     "en": "Is this mushroom poisonous?",
+     "pl": "Czy ten grzyb jest trujący?"
+    }
+   ]
+  },
+  {
+   "id": "v.satisfactory",
+   "en": "satisfactory",
+   "pl": "zadowalający",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7637,
+   "example": [
+    {
+     "en": "The result was satisfactory.",
+     "pl": "Wynik był zadowalający."
+    }
+   ]
+  },
+  {
+   "id": "v.shameful",
+   "en": "shameful",
+   "pl": "haniebny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7639,
+   "example": [
+    {
+     "en": "It's shameful.",
+     "pl": "To haniebne."
+    }
+   ]
+  },
+  {
+   "id": "v.snapshot",
+   "en": "snapshot",
+   "pl": "fotka",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7649,
+   "example": [
+    {
+     "en": "Take a quick snapshot.",
+     "pl": "Zrób szybką fotkę."
+    }
+   ]
+  },
+  {
+   "id": "v.craving",
+   "en": "craving",
+   "pl": "ochota, głód (na coś)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7667,
+   "example": [
+    {
+     "en": "I've got a craving for chocolate.",
+     "pl": "Mam ochotę na czekoladę."
+    }
+   ]
+  },
+  {
+   "id": "v.pebble",
+   "en": "pebble",
+   "pl": "kamyk",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7668,
+   "example": [
+    {
+     "en": "The beach is all pebbles.",
+     "pl": "Plaża jest kamienista."
+    }
+   ],
+   "collocations": [
+    "pebble beach"
+   ]
+  },
+  {
+   "id": "v.belongings",
+   "en": "belongings",
+   "pl": "rzeczy osobiste",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7692,
+   "example": [
+    {
+     "en": "Keep an eye on your belongings.",
+     "pl": "Pilnuj swoich rzeczy."
+    }
+   ]
+  },
+  {
+   "id": "v.calmly",
+   "en": "calmly",
+   "pl": "spokojnie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7693,
+   "example": [
+    {
+     "en": "Speak calmly.",
+     "pl": "Mów spokojnie."
+    }
+   ]
+  },
+  {
+   "id": "v.catastrophe",
+   "en": "catastrophe",
+   "pl": "katastrofa",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7695,
+   "example": [
+    {
+     "en": "It was a catastrophe.",
+     "pl": "To była katastrofa."
+    }
+   ]
+  },
+  {
+   "id": "v.consulate",
+   "en": "consulate",
+   "pl": "konsulat",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7700,
+   "example": [
+    {
+     "en": "Where's the Polish consulate?",
+     "pl": "Gdzie jest polski konsulat?"
+    }
+   ]
+  },
+  {
+   "id": "v.furry",
+   "en": "furry",
+   "pl": "futrzasty",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7708,
+   "example": [
+    {
+     "en": "A furry little dog.",
+     "pl": "Mały puchaty pies."
+    }
+   ]
+  },
+  {
+   "id": "v.oddly",
+   "en": "oddly",
+   "pl": "dziwnie",
+   "pos": "adv",
+   "level": "B2",
+   "rank": 7722,
+   "example": [
+    {
+     "en": "Oddly enough, I liked it.",
+     "pl": "Co dziwne, podobało mi się."
+    }
+   ],
+   "collocations": [
+    "oddly enough"
+   ]
+  },
+  {
+   "id": "v.outskirts",
+   "en": "outskirts",
+   "pl": "obrzeża",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7725,
+   "example": [
+    {
+     "en": "The festival is on the outskirts of the city.",
+     "pl": "Festiwal jest na obrzeżach miasta."
+    }
+   ]
+  },
+  {
+   "id": "v.witty",
+   "en": "witty",
+   "pl": "dowcipny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7744,
+   "example": [
+    {
+     "en": "He's really witty.",
+     "pl": "Jest bardzo dowcipny."
+    }
+   ]
+  },
+  {
+   "id": "v.inviting",
+   "en": "inviting",
+   "pl": "zachęcający",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7749,
+   "example": [
+    {
+     "en": "The pool looks so inviting.",
+     "pl": "Basen wygląda tak zachęcająco."
+    }
+   ]
+  },
+  {
+   "id": "v.stove",
+   "en": "stove",
+   "pl": "kuchenka",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7757,
+   "example": [
+    {
+     "en": "Put the pan on the stove.",
+     "pl": "Postaw patelnię na kuchence."
+    }
+   ]
+  },
+  {
+   "id": "v.camper",
+   "en": "camper",
+   "pl": "kamper; biwakowicz",
+   "pos": "n",
+   "level": "B2",
+   "rank": 7766,
+   "example": [
+    {
+     "en": "We rented a camper.",
+     "pl": "Wynajęliśmy kampera."
+    }
+   ],
+   "collocations": [
+    "camper van"
+   ]
+  },
+  {
+   "id": "v.compassionate",
+   "en": "compassionate",
+   "pl": "współczujący",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7781,
+   "example": [
+    {
+     "en": "She's very compassionate.",
+     "pl": "Jest bardzo współczująca."
+    }
+   ]
+  },
+  {
+   "id": "v.fearless",
+   "en": "fearless",
+   "pl": "nieustraszony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7789,
+   "example": [
+    {
+     "en": "Be fearless!",
+     "pl": "Bądź nieustraszony!"
+    }
+   ]
+  },
+  {
+   "id": "v.lush",
+   "en": "lush",
+   "pl": "bujny; super (UK slang)",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 7800,
+   "example": [
+    {
+     "en": "That's lush!",
+     "pl": "To super!"
+    }
+   ],
+   "tags": [
+    "slang"
+   ]
+  },
+  {
+   "id": "v.wink",
+   "en": "wink",
+   "pl": "mrugnąć",
+   "pos": "v",
+   "level": "B2",
+   "rank": 8258,
+   "example": [
+    {
+     "en": "She winked at me!",
+     "pl": "Mrugnęła do mnie!"
+    }
+   ]
+  },
+  {
+   "id": "v.haunted",
+   "en": "haunted",
+   "pl": "nawiedzony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 50006,
+   "example": [
+    {
+     "en": "They say the castle is haunted.",
+     "pl": "Mówią, że zamek jest nawiedzony."
+    }
+   ],
+   "collocations": [
+    "haunted house"
+   ]
+  },
+  {
+   "id": "v.accustomed",
+   "en": "accustomed",
+   "pl": "przyzwyczajony",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 50037,
+   "example": [
+    {
+     "en": "I'm accustomed to early mornings.",
+     "pl": "Jestem przyzwyczajony do wczesnych poranków."
+    }
+   ],
+   "collocations": [
+    "accustomed to"
+   ]
+  }
+ ]
+}

@@ -46,6 +46,7 @@ content/                    TREŚCI (JSON) — tu dodajesz moduły
   stage-1/02-....json
   speaking-tasks.json       zadania mówione dnia (`task.*`, min. 5 na etap)
   missions.json             misje weekendowe = scenki z rozmówcą (`mission.*`, 2 na etap)
+  vocab/NN.json             SŁOWNIK: najczęstsze słowa (zestawy po ~100, A1 → B2), generowane — patrz niżej
 scripts/validate.ts         npm run validate (moduły + zadania + misje)
 docs/SPEC.md                specyfikacja właściciela
 docs/DEPLOY.md              instrukcja wdrożenia krok po kroku
@@ -74,7 +75,7 @@ src/
 ## Dane użytkownika (Dexie)
 - `cards` — stan FSRS dla każdego elementu (klucz = `itemId`). **Postęp jest przypięty do `id` elementu.**
 - `reviewLogs` — historia ocen (do statystyk i listy „trudnych”).
-- `settings` — jeden rekord: data docelowa, nowe/dzień, max powtórek/dzień, głos, tempo, motyw.
+- `settings` — jeden rekord: data docelowa, nowe/dzień, słówka/dzień (`vocabPerDay`), max powtórek/dzień, głos, tempo, motyw.
 - `days` — aktywność per dzień nauki (czas, liczba kart) → seria i kalendarz.
 - `session` — bieżąca lekcja (kolejka + pozycja), żeby po przerwaniu wrócić w to samo miejsce.
 - `customItems` (własne zwroty, id `u.*`), `favorites`, `trips` (wyjazdy), `missions` (zaliczone misje).
@@ -142,6 +143,22 @@ src/
 - Specjalne: `rescue` (zwroty ratunkowe), `polish-trap` (pułapka dla Polaków), `uk-us` (różnica UK/US),
   `slang`, `idiom`, `phrasal-verbs`, `fillers`, `starter` (elementy testu „to już znam” w onboardingu).
 
+### Słownik (`content/vocab/NN.json`)
+Osobna ścieżka obok etapów: ~3500 najczęstszych słów (lista częstotliwości wordfreq + lematy, bez słów
+funkcyjnych i bez tego, co już jest w programie), ułożonych **poziom (A1→B2) → częstotliwość**.
+- Plik: `{ "set": { id: "v.NN", order, level, title, description }, "items": [...] }`; nazwa = `NN.json` = `set.order`.
+- Słówko (zwięzły format, `vocabItemSchema`): `id` (`v.{słowo}`, **niezmienne**), `en`, `pl`, `pos`
+  (`n v adj adv prep conj pron det int phr`), `level` (A1–B2, = poziom zestawu), `rank`, `example` (min. 1),
+  opcjonalnie `alternatives`, `collocations`, `note` (np. formy nieregularne, pułapki), `pronunciation`, `tags`.
+- W aplikacji słówko staje się zwykłym elementem `word` (stage 0, module = zestaw) — `vocabToItem` w
+  `src/content/index.ts`. Ten sam `en` nie może być w słowniku i w programie (walidator).
+- Lekcja: osobny limit `vocabPerDay` (domyślnie 5) obok `newPerDay`; licznik dnia `vocabNew`.
+  Plan wakacyjny liczy tylko program (etapy) — słownik jest „na dłużej”.
+- Rozmówki → Słownik → zestaw → „Odhacz słowa, które już znasz” = karta w powtórkach z odstępem 21–90 dni
+  (`knownWordCard`), żeby setki znanych słów nie wróciły jednego dnia.
+- Zestawy są przeliczane przy każdym generowaniu (słowo może przejść do innego zestawu) — postęp jest
+  przypięty do `id`, więc to bezpieczne. Dodając słowa, trzymaj format i odpal `npm run validate`.
+
 ## Zasady jakości treści
 1. **Naturalny, współczesny angielski mówiony** — tak mówią native speakerzy (np. „How's it going?”,
    „No worries”, „I'm off”), nie podręcznik („How do you do?”). Jeśli coś brzmi sztywno — zmień.
@@ -190,5 +207,6 @@ Poprawianie tekstu (`en`, `pl`, przykładów) jest OK.
       zadanie mówione, „Ćwicz rozmowę z Claude”.
 - [x] Faza 3 — prowadzenie: Ścieżka do wakacji (plan, wyjazdy), rozmówki, własne zwroty, trudne,
       tryb audio, postępy.
-- [x] Faza 4 — treści: Etapy 1–8 (48 modułów, 1516 elementów, 48 zadań mówionych, 16 misji).
+- [x] Faza 4 — treści: Etapy 1–8 (48 modułów, 1516 elementów, 48 zadań mówionych, 16 misji)
+      + Słownik 3478 najczęstszych słów (35 zestawów, A1–B2).
       Dalsze moduły dodawaj wg „Jak dodać moduł” — zawsze z walidacją.

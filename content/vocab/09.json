@@ -881,7 +881,6 @@
     }
    ],
    "collocations": [
-    "normally",
     "as normal"
    ]
   },
@@ -958,8 +957,7 @@
     }
    ],
    "collocations": [
-    "plastic bag",
-    "plastic"
+    "plastic bag"
    ]
   },
   {
@@ -1172,8 +1170,7 @@
     }
    ],
    "collocations": [
-    "seat belt",
-    "belt"
+    "seat belt"
    ]
   },
   {
@@ -1206,9 +1203,6 @@
      "en": "She's a famous actress.",
      "pl": "To znana aktorka."
     }
-   ],
-   "collocations": [
-    "actress"
    ]
   },
   {
@@ -1243,8 +1237,7 @@
     }
    ],
    "collocations": [
-    "emergency exit",
-    "exit"
+    "emergency exit"
    ]
   },
   {
@@ -1294,9 +1287,6 @@
      "en": "Americans call football soccer.",
      "pl": "Amerykanie nazywają piłkę nożną „soccer”."
     }
-   ],
-   "collocations": [
-    "soccer"
    ],
    "tags": [
     "uk-us"
@@ -1386,8 +1376,7 @@
     }
    ],
    "collocations": [
-    "fried",
-    "fry"
+    "fried"
    ]
   },
   {
@@ -1441,9 +1430,6 @@
      "en": "The weather is horrible.",
      "pl": "Pogoda jest okropna."
     }
-   ],
-   "collocations": [
-    "horrible"
    ]
   },
   {
@@ -1458,9 +1444,6 @@
      "en": "That shirt is ugly.",
      "pl": "Ta koszula jest brzydka."
     }
-   ],
-   "collocations": [
-    "ugly"
    ]
   },
   {
@@ -1475,9 +1458,6 @@
      "en": "It's like talking to a robot.",
      "pl": "To jak rozmowa z robotem."
     }
-   ],
-   "collocations": [
-    "robot"
    ]
   },
   {
@@ -1492,9 +1472,6 @@
      "en": "You've been really helpful.",
      "pl": "Bardzo mi pomogłeś."
     }
-   ],
-   "collocations": [
-    "helpful"
    ]
   },
   {
@@ -1560,9 +1537,6 @@
      "en": "I need a stamp for this postcard.",
      "pl": "Potrzebuję znaczka na tę pocztówkę."
     }
-   ],
-   "collocations": [
-    "stamp"
    ]
   },
   {
@@ -1577,9 +1551,6 @@
      "en": "Alright, mate?",
      "pl": "Siema, stary? Wszystko OK?"
     }
-   ],
-   "collocations": [
-    "alright"
    ],
    "note": "W UK „Alright?” to też powitanie = Cześć, co tam?"
   },
@@ -1612,9 +1583,6 @@
      "en": "There are ducks on the lake.",
      "pl": "Na jeziorze są kaczki."
     }
-   ],
-   "collocations": [
-    "duck"
    ]
   },
   {
@@ -1647,9 +1615,6 @@
      "en": "That film was scary.",
      "pl": "Ten film był straszny."
     }
-   ],
-   "collocations": [
-    "scary"
    ]
   },
   {
@@ -1681,9 +1646,6 @@
      "en": "I've got a poster on my wall.",
      "pl": "Mam plakat na ścianie."
     }
-   ],
-   "collocations": [
-    "poster"
    ]
   },
   {
@@ -1732,9 +1694,6 @@
      "en": "Don't be silly!",
      "pl": "Nie wygłupiaj się!"
     }
-   ],
-   "collocations": [
-    "silly"
    ]
   },
   {
@@ -1749,9 +1708,6 @@
      "en": "Is that a snake?",
      "pl": "To wąż?"
     }
-   ],
-   "collocations": [
-    "snake"
    ]
   },
   {
@@ -1766,9 +1722,6 @@
      "en": "Can I have a cigarette?",
      "pl": "Mogę papierosa?"
     }
-   ],
-   "collocations": [
-    "cigarette"
    ]
   },
   {
@@ -1783,9 +1736,6 @@
      "en": "Don't eat like a pig!",
      "pl": "Nie jedz jak świnia!"
     }
-   ],
-   "collocations": [
-    "pig"
    ]
   },
   {
@@ -1800,9 +1750,6 @@
      "en": "There's a spider in the tent!",
      "pl": "W namiocie jest pająk!"
     }
-   ],
-   "collocations": [
-    "spider"
    ]
   }
  ]

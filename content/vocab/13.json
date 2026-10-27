@@ -4,7 +4,7 @@
   "order": 13,
   "level": "B1",
   "title": "Słówka B1 · 2",
-  "description": "Swobodna rozmowa: opinie, opowiadanie, plany, praca i podróże. Część 2 z 12."
+  "description": "Swobodna rozmowa: opinie, opowiadanie, plany, praca i podróże. Część 2 z 13."
  },
  "items": [
   {
@@ -366,8 +366,7 @@
    ],
    "collocations": [
     "the following day",
-    "following week",
-    "following"
+    "following week"
    ]
   },
   {
@@ -687,9 +686,6 @@
      "en": "Please remove your shoes.",
      "pl": "Proszę zdjąć buty."
     }
-   ],
-   "collocations": [
-    "remove"
    ]
   },
   {

@@ -4,7 +4,7 @@
   "order": 23,
   "level": "B1",
   "title": "Słówka B1 · 12",
-  "description": "Swobodna rozmowa: opinie, opowiadanie, plany, praca i podróże. Część 12 z 12."
+  "description": "Swobodna rozmowa: opinie, opowiadanie, plany, praca i podróże. Część 12 z 13."
  },
  "items": [
   {
@@ -19,9 +19,6 @@
      "en": "I was unemployed for a month.",
      "pl": "Przez miesiąc byłem bezrobotny."
     }
-   ],
-   "collocations": [
-    "unemployed"
    ]
   },
   {
@@ -36,9 +33,6 @@
      "en": "We hiked up a volcano.",
      "pl": "Weszliśmy na wulkan."
     }
-   ],
-   "collocations": [
-    "volcano"
    ]
   },
   {
@@ -56,9 +50,6 @@
      "en": "I'm a solo traveller.",
      "pl": "Podróżuję sam."
     }
-   ],
-   "collocations": [
-    "traveller"
    ],
    "tags": [
     "uk-us"
@@ -80,9 +71,6 @@
      "pl": "Jakie macie smaki?"
     }
    ],
-   "collocations": [
-    "flavour"
-   ],
    "tags": [
     "uk-us"
    ]
@@ -99,9 +87,6 @@
      "en": "I'll be a millionaire one day!",
      "pl": "Kiedyś będę milionerem!"
     }
-   ],
-   "collocations": [
-    "millionaire"
    ]
   },
   {
@@ -133,9 +118,6 @@
      "en": "I love your shiny shoes.",
      "pl": "Podobają mi się twoje błyszczące buty."
     }
-   ],
-   "collocations": [
-    "shiny"
    ]
   },
   {
@@ -150,9 +132,6 @@
      "en": "My job is stressful.",
      "pl": "Moja praca jest stresująca."
     }
-   ],
-   "collocations": [
-    "stressful"
    ]
   },
   {
@@ -184,9 +163,6 @@
      "en": "This table is reserved.",
      "pl": "Ten stolik jest zarezerwowany."
     }
-   ],
-   "collocations": [
-    "reserved"
    ]
   },
   {
@@ -249,9 +225,6 @@
      "en": "My zip is broken.",
      "pl": "Zepsuł mi się zamek."
     }
-   ],
-   "collocations": [
-    "zip"
    ]
   },
   {
@@ -266,9 +239,6 @@
      "en": "I've got my festival bracelet.",
      "pl": "Mam festiwalową bransoletkę."
     }
-   ],
-   "collocations": [
-    "bracelet"
    ]
   },
   {
@@ -283,9 +253,6 @@
      "en": "Look, a squirrel!",
      "pl": "Patrz, wiewiórka!"
     }
-   ],
-   "collocations": [
-    "squirrel"
    ]
   },
   {
@@ -300,9 +267,6 @@
      "en": "The bar is really lively.",
      "pl": "Bar tętni życiem."
     }
-   ],
-   "collocations": [
-    "lively"
    ]
   },
   {
@@ -317,9 +281,6 @@
      "en": "Put it in the folder.",
      "pl": "Włóż to do folderu."
     }
-   ],
-   "collocations": [
-    "folder"
    ]
   },
   {
@@ -351,9 +312,6 @@
      "en": "I'm waiting for a parcel.",
      "pl": "Czekam na paczkę."
     }
-   ],
-   "collocations": [
-    "parcel"
    ]
   },
   {
@@ -372,9 +330,6 @@
      "pl": "Weź latarkę na kemping."
     }
    ],
-   "collocations": [
-    "torch"
-   ],
    "note": "UK „torch”, US „flashlight”.",
    "tags": [
     "uk-us"
@@ -392,9 +347,6 @@
      "en": "I'm a gaming nerd.",
      "pl": "Jestem maniakiem gier."
     }
-   ],
-   "collocations": [
-    "nerd"
    ],
    "tags": [
     "slang"
@@ -452,9 +404,6 @@
      "en": "The kids are naughty today.",
      "pl": "Dzieci są dziś niegrzeczne."
     }
-   ],
-   "collocations": [
-    "naughty"
    ]
   },
   {
@@ -504,9 +453,6 @@
      "en": "I bought perfume at the airport.",
      "pl": "Kupiłem perfumy na lotnisku."
     }
-   ],
-   "collocations": [
-    "perfume"
    ]
   },
   {
@@ -555,9 +501,6 @@
      "en": "I'm learning new vocabulary every day.",
      "pl": "Codziennie uczę się nowego słownictwa."
     }
-   ],
-   "collocations": [
-    "vocabulary"
    ]
   },
   {
@@ -572,9 +515,6 @@
      "en": "My cousin is a firefighter.",
      "pl": "Mój kuzyn jest strażakiem."
     }
-   ],
-   "collocations": [
-    "firefighter"
    ]
   },
   {
@@ -632,9 +572,6 @@
      "en": "You're as slow as a snail!",
      "pl": "Jesteś wolny jak ślimak!"
     }
-   ],
-   "collocations": [
-    "snail"
    ]
   },
   {
@@ -666,9 +603,6 @@
      "en": "Is the bread homemade?",
      "pl": "Chleb jest domowej roboty?"
     }
-   ],
-   "collocations": [
-    "homemade"
    ]
   },
   {
@@ -683,9 +617,6 @@
      "en": "My brother is a programmer.",
      "pl": "Mój brat jest programistą."
     }
-   ],
-   "collocations": [
-    "programmer"
    ]
   },
   {
@@ -717,9 +648,6 @@
      "en": "There are so many pigeons.",
      "pl": "Jest tyle gołębi."
     }
-   ],
-   "collocations": [
-    "pigeon"
    ]
   },
   {
@@ -734,9 +662,6 @@
      "en": "My hands are sticky.",
      "pl": "Mam lepkie ręce."
     }
-   ],
-   "collocations": [
-    "sticky"
    ]
   },
   {
@@ -751,9 +676,6 @@
      "en": "He's a goalkeeper.",
      "pl": "Jest bramkarzem."
     }
-   ],
-   "collocations": [
-    "goalkeeper"
    ]
   },
   {
@@ -768,9 +690,6 @@
      "en": "My niece goes to kindergarten.",
      "pl": "Siostrzenica chodzi do przedszkola."
     }
-   ],
-   "collocations": [
-    "kindergarten"
    ]
   },
   {
@@ -785,9 +704,6 @@
      "en": "Don't talk so loudly.",
      "pl": "Nie mów tak głośno."
     }
-   ],
-   "collocations": [
-    "loudly"
    ]
   },
   {
@@ -805,9 +721,6 @@
      "en": "I'll have the shrimp.",
      "pl": "Poproszę krewetki."
     }
-   ],
-   "collocations": [
-    "shrimp"
    ]
   },
   {
@@ -839,9 +752,6 @@
      "en": "There's a lizard on the wall!",
      "pl": "Na ścianie jest jaszczurka!"
     }
-   ],
-   "collocations": [
-    "lizard"
    ]
   },
   {
@@ -856,9 +766,6 @@
      "en": "I'm frustrated.",
      "pl": "Jestem sfrustrowany."
     }
-   ],
-   "collocations": [
-    "frustrated"
    ]
   },
   {
@@ -924,9 +831,6 @@
      "en": "Jelly sweets are my weakness.",
      "pl": "Żelki to moja słabość."
     }
-   ],
-   "collocations": [
-    "jelly"
    ]
   },
   {
@@ -941,9 +845,6 @@
      "en": "Is it a noun or a verb?",
      "pl": "To rzeczownik czy czasownik?"
     }
-   ],
-   "collocations": [
-    "noun"
    ]
   },
   {
@@ -958,9 +859,6 @@
      "en": "Have you got a comb?",
      "pl": "Masz grzebień?"
     }
-   ],
-   "collocations": [
-    "comb"
    ]
   },
   {
@@ -975,9 +873,6 @@
      "en": "I haven't started packing.",
      "pl": "Jeszcze nie zacząłem się pakować."
     }
-   ],
-   "collocations": [
-    "packing"
    ]
   },
   {
@@ -1009,9 +904,40 @@
      "en": "Don't be greedy!",
      "pl": "Nie bądź chciwy!"
     }
+   ]
+  },
+  {
+   "id": "v.unsure",
+   "en": "unsure",
+   "pl": "niepewny",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 6208,
+   "example": [
+    {
+     "en": "I'm unsure.",
+     "pl": "Nie jestem pewien."
+    }
    ],
    "collocations": [
-    "greedy"
+    "unsure about"
+   ]
+  },
+  {
+   "id": "v.divorced",
+   "en": "divorced",
+   "pl": "rozwiedziony",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 6246,
+   "example": [
+    {
+     "en": "My parents are divorced.",
+     "pl": "Moi rodzice są rozwiedzeni."
+    }
+   ],
+   "collocations": [
+    "get divorced"
    ]
   },
   {
@@ -1030,11 +956,205 @@
      "pl": "Uwielbia biżuterię."
     }
    ],
-   "collocations": [
-    "jewellery"
-   ],
    "tags": [
     "uk-us"
+   ]
+  },
+  {
+   "id": "v.overweight",
+   "en": "overweight",
+   "pl": "z nadwagą",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 6280,
+   "example": [
+    {
+     "en": "My bag is overweight.",
+     "pl": "Mój bagaż ma nadwagę."
+    }
+   ]
+  },
+  {
+   "id": "v.supper",
+   "en": "supper",
+   "pl": "kolacja (lekka)",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6292,
+   "example": [
+    {
+     "en": "We had a late supper.",
+     "pl": "Zjedliśmy późną kolację."
+    }
+   ]
+  },
+  {
+   "id": "v.sweetheart",
+   "en": "sweetheart",
+   "pl": "kochanie",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6293,
+   "example": [
+    {
+     "en": "Thanks, sweetheart.",
+     "pl": "Dzięki, kochanie."
+    }
+   ]
+  },
+  {
+   "id": "v.violin",
+   "en": "violin",
+   "pl": "skrzypce",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6304,
+   "example": [
+    {
+     "en": "She plays the violin.",
+     "pl": "Gra na skrzypcach."
+    }
+   ]
+  },
+  {
+   "id": "v.lobster",
+   "en": "lobster",
+   "pl": "homar",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6323,
+   "example": [
+    {
+     "en": "I've never tried lobster.",
+     "pl": "Nigdy nie próbowałem homara."
+    }
+   ]
+  },
+  {
+   "id": "v.almond",
+   "en": "almond",
+   "pl": "migdał",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6386,
+   "example": [
+    {
+     "en": "Almond milk, please.",
+     "pl": "Mleko migdałowe, poproszę."
+    }
+   ]
+  },
+  {
+   "id": "v.learner",
+   "en": "learner",
+   "pl": "uczący się",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6396,
+   "example": [
+    {
+     "en": "I'm an English learner.",
+     "pl": "Uczę się angielskiego."
+    }
+   ]
+  },
+  {
+   "id": "v.razor",
+   "en": "razor",
+   "pl": "maszynka do golenia",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6439,
+   "example": [
+    {
+     "en": "I forgot my razor.",
+     "pl": "Zapomniałem maszynki do golenia."
+    }
+   ]
+  },
+  {
+   "id": "v.unhealthy",
+   "en": "unhealthy",
+   "pl": "niezdrowy",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 6445,
+   "example": [
+    {
+     "en": "Fast food is unhealthy.",
+     "pl": "Fast food jest niezdrowy."
+    }
+   ]
+  },
+  {
+   "id": "v.squash",
+   "en": "squash",
+   "pl": "squash",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6451,
+   "example": [
+    {
+     "en": "Do you play squash?",
+     "pl": "Grasz w squasha?"
+    }
+   ]
+  },
+  {
+   "id": "v.trumpet",
+   "en": "trumpet",
+   "pl": "trąbka",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6462,
+   "example": [
+    {
+     "en": "He plays the trumpet.",
+     "pl": "Gra na trąbce."
+    }
+   ]
+  },
+  {
+   "id": "v.caravan",
+   "en": "caravan",
+   "pl": "przyczepa kempingowa",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6479,
+   "example": [
+    {
+     "en": "We stayed in a caravan.",
+     "pl": "Mieszkaliśmy w przyczepie kempingowej."
+    }
+   ],
+   "note": "US „trailer/RV”."
+  },
+  {
+   "id": "v.bingo",
+   "en": "bingo",
+   "pl": "bingo",
+   "pos": "int",
+   "level": "B1",
+   "rank": 6491,
+   "example": [
+    {
+     "en": "Bingo! That's it!",
+     "pl": "Bingo! O to chodzi!"
+    }
+   ]
+  },
+  {
+   "id": "v.energetic",
+   "en": "energetic",
+   "pl": "energiczny",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 6498,
+   "example": [
+    {
+     "en": "The crowd was so energetic.",
+     "pl": "Tłum był taki energiczny."
+    }
    ]
   },
   {
@@ -1055,277 +1175,391 @@
    ]
   },
   {
-   "id": "v.careless",
-   "en": "careless",
-   "pl": "nieostrożny",
-   "pos": "adj",
+   "id": "v.outdoors",
+   "en": "outdoors",
+   "pl": "na dworze",
+   "pos": "adv",
    "level": "B1",
-   "rank": 7360,
+   "rank": 6515,
    "example": [
     {
-     "en": "That was careless.",
-     "pl": "To było nieostrożne."
+     "en": "Let's eat outdoors.",
+     "pl": "Zjedzmy na dworze."
     }
-   ],
-   "collocations": [
-    "careless"
    ]
   },
   {
-   "id": "v.cheerful",
-   "en": "cheerful",
-   "pl": "radosny",
-   "pos": "adj",
+   "id": "v.heater",
+   "en": "heater",
+   "pl": "grzejnik",
+   "pos": "n",
    "level": "B1",
-   "rank": 7362,
+   "rank": 6553,
    "example": [
     {
-     "en": "She's always cheerful.",
-     "pl": "Zawsze jest radosna."
+     "en": "Turn on the heater.",
+     "pl": "Włącz grzejnik."
     }
-   ],
-   "collocations": [
-    "cheerful"
    ]
   },
   {
-   "id": "v.colourful",
-   "en": "colourful",
-   "pl": "kolorowy",
+   "id": "v.bikini",
+   "en": "bikini",
+   "pl": "bikini",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6567,
+   "example": [
+    {
+     "en": "She's wearing a bikini.",
+     "pl": "Ma na sobie bikini."
+    }
+   ]
+  },
+  {
+   "id": "v.cinnamon",
+   "en": "cinnamon",
+   "pl": "cynamon",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6570,
+   "example": [
+    {
+     "en": "Coffee with cinnamon, please.",
+     "pl": "Kawę z cynamonem, poproszę."
+    }
+   ]
+  },
+  {
+   "id": "v.juicy",
+   "en": "juicy",
+   "pl": "soczysty",
    "pos": "adj",
    "level": "B1",
-   "rank": 7780,
+   "rank": 6588,
+   "example": [
+    {
+     "en": "This peach is so juicy.",
+     "pl": "Ta brzoskwinia jest taka soczysta."
+    }
+   ]
+  },
+  {
+   "id": "v.stylish",
+   "en": "stylish",
+   "pl": "stylowy",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 6603,
+   "example": [
+    {
+     "en": "You look stylish.",
+     "pl": "Wyglądasz stylowo."
+    }
+   ]
+  },
+  {
+   "id": "v.spelling",
+   "en": "spelling",
+   "pl": "pisownia",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6616,
+   "example": [
+    {
+     "en": "My spelling is terrible.",
+     "pl": "Mam fatalną ortografię."
+    }
+   ]
+  },
+  {
+   "id": "v.lipstick",
+   "en": "lipstick",
+   "pl": "szminka",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6659,
+   "example": [
+    {
+     "en": "She's wearing red lipstick.",
+     "pl": "Ma czerwoną szminkę."
+    }
+   ]
+  },
+  {
+   "id": "v.chore",
+   "en": "chore",
+   "pl": "obowiązek (domowy)",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6683,
+   "example": [
+    {
+     "en": "I hate household chores.",
+     "pl": "Nienawidzę obowiązków domowych."
+    }
+   ],
+   "collocations": [
+    "chores"
+   ]
+  },
+  {
+   "id": "v.drummer",
+   "en": "drummer",
+   "pl": "perkusista",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6721,
+   "example": [
+    {
+     "en": "He's a drummer in a band.",
+     "pl": "Jest perkusistą w zespole."
+    }
+   ]
+  },
+  {
+   "id": "v.gin",
+   "en": "gin",
+   "pl": "gin",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6726,
+   "example": [
+    {
+     "en": "A gin and tonic, please.",
+     "pl": "Gin z tonikiem, poproszę."
+    }
+   ],
+   "collocations": [
+    "gin and tonic"
+   ]
+  },
+  {
+   "id": "v.honeymoon",
+   "en": "honeymoon",
+   "pl": "miesiąc miodowy",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6727,
+   "example": [
+    {
+     "en": "They're on their honeymoon.",
+     "pl": "Są w podróży poślubnej."
+    }
+   ]
+  },
+  {
+   "id": "v.vase",
+   "en": "vase",
+   "pl": "wazon",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6772,
+   "example": [
+    {
+     "en": "Put the flowers in a vase.",
+     "pl": "Wstaw kwiaty do wazonu."
+    }
+   ]
+  },
+  {
+   "id": "v.subtitle",
+   "en": "subtitle",
+   "pl": "napisy",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6786,
+   "example": [
+    {
+     "en": "Turn on English subtitles.",
+     "pl": "Włącz angielskie napisy."
+    }
+   ],
+   "collocations": [
+    "subtitles"
+   ]
+  },
+  {
+   "id": "v.walnut",
+   "en": "walnut",
+   "pl": "orzech włoski",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6790,
+   "example": [
+    {
+     "en": "Cake with walnuts.",
+     "pl": "Ciasto z orzechami włoskimi."
+    }
+   ]
+  },
+  {
+   "id": "v.rooftop",
+   "en": "rooftop",
+   "pl": "dach",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6791,
+   "example": [
+    {
+     "en": "There's a party on the rooftop.",
+     "pl": "Na dachu jest impreza."
+    }
+   ],
+   "collocations": [
+    "rooftop bar"
+   ]
+  },
+  {
+   "id": "v.unicorn",
+   "en": "unicorn",
+   "pl": "jednorożec",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6794,
+   "example": [
+    {
+     "en": "My niece loves unicorns.",
+     "pl": "Siostrzenica uwielbia jednorożce."
+    }
+   ]
+  },
+  {
+   "id": "v.coworker",
+   "en": "coworker",
+   "pl": "współpracownik",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6796,
    "alternatives": [
-    "colorful"
+    "colleague"
    ],
    "example": [
     {
-     "en": "The festival is so colourful.",
-     "pl": "Festiwal jest taki kolorowy."
+     "en": "My coworkers are great.",
+     "pl": "Moi współpracownicy są świetni."
     }
+   ]
+  },
+  {
+   "id": "v.dusty",
+   "en": "dusty",
+   "pl": "zakurzony",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 6806,
+   "example": [
+    {
+     "en": "The festival is so dusty.",
+     "pl": "Na festiwalu jest strasznie dużo kurzu."
+    }
+   ]
+  },
+  {
+   "id": "v.calculator",
+   "en": "calculator",
+   "pl": "kalkulator",
+   "pos": "n",
+   "level": "B1",
+   "rank": 6871,
+   "example": [
+    {
+     "en": "Use the calculator on your phone.",
+     "pl": "Użyj kalkulatora w telefonie."
+    }
+   ]
+  },
+  {
+   "id": "v.autograph",
+   "en": "autograph",
+   "pl": "autograf",
+   "pos": "n",
+   "level": "B1",
+   "rank": 7020,
+   "example": [
+    {
+     "en": "Can I have your autograph?",
+     "pl": "Mogę prosić o autograf?"
+    }
+   ]
+  },
+  {
+   "id": "v.cozy",
+   "en": "cozy",
+   "pl": "przytulny",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 7042,
+   "alternatives": [
+    "cosy"
    ],
-   "collocations": [
-    "colourful"
+   "example": [
+    {
+     "en": "The bar is really cozy.",
+     "pl": "Bar jest naprawdę przytulny."
+    }
    ],
    "tags": [
     "uk-us"
    ]
   },
   {
-   "id": "v.impatient",
-   "en": "impatient",
-   "pl": "niecierpliwy",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 7793,
-   "example": [
-    {
-     "en": "Don't be so impatient.",
-     "pl": "Nie bądź taki niecierpliwy."
-    }
-   ],
-   "collocations": [
-    "impatient"
-   ]
-  },
-  {
-   "id": "v.dizzy",
-   "en": "dizzy",
-   "pl": "mający zawroty głowy",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 8861,
-   "example": [
-    {
-     "en": "I feel dizzy.",
-     "pl": "Kręci mi się w głowie."
-    }
-   ],
-   "collocations": [
-    "feel dizzy"
-   ]
-  },
-  {
-   "id": "v.sneeze",
-   "en": "sneeze",
-   "pl": "kichać",
-   "pos": "v",
-   "level": "B1",
-   "rank": 9006,
-   "example": [
-    {
-     "en": "Sorry, I need to sneeze.",
-     "pl": "Przepraszam, muszę kichnąć."
-    }
-   ],
-   "collocations": [
-    "sneeze"
-   ],
-   "note": "Po kichnięciu mówimy „Bless you!”."
-  },
-  {
-   "id": "v.yawn",
-   "en": "yawn",
-   "pl": "ziewać",
-   "pos": "v",
-   "level": "B1",
-   "rank": 9565,
-   "example": [
-    {
-     "en": "Stop yawning!",
-     "pl": "Przestań ziewać!"
-    }
-   ],
-   "collocations": [
-    "yawn"
-   ]
-  },
-  {
-   "id": "v.smelly",
-   "en": "smelly",
-   "pl": "śmierdzący",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 10167,
-   "example": [
-    {
-     "en": "My gym bag is smelly.",
-     "pl": "Moja torba na siłownię śmierdzi."
-    }
-   ],
-   "collocations": [
-    "smelly"
-   ]
-  },
-  {
-   "id": "v.snore",
-   "en": "snore",
-   "pl": "chrapać",
-   "pos": "v",
-   "level": "B1",
-   "rank": 10460,
-   "example": [
-    {
-     "en": "My roommate snores.",
-     "pl": "Mój współlokator chrapie."
-    }
-   ],
-   "collocations": [
-    "snore"
-   ]
-  },
-  {
-   "id": "v.embarrassed",
-   "en": "embarrassed",
-   "pl": "zawstydzony",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 50005,
-   "example": [
-    {
-     "en": "I was so embarrassed.",
-     "pl": "Tak się wstydziłem."
-    }
-   ],
-   "collocations": [
-    "embarrassed",
-    "embarrassing"
-   ],
-   "note": "„embarrassed” = zawstydzony, NIE „w ciąży” (= pregnant).",
-   "tags": [
-    "polish-trap"
-   ]
-  },
-  {
-   "id": "v.old-fashioned",
-   "en": "old-fashioned",
-   "pl": "staromodny",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 50027,
-   "example": [
-    {
-     "en": "That's so old-fashioned.",
-     "pl": "To takie staromodne."
-    }
-   ],
-   "collocations": [
-    "old-fashioned"
-   ]
-  },
-  {
-   "id": "v.sensible",
-   "en": "sensible",
-   "pl": "rozsądny",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 50029,
-   "example": [
-    {
-     "en": "That's a sensible idea.",
-     "pl": "To rozsądny pomysł."
-    }
-   ],
-   "collocations": [
-    "sensible"
-   ],
-   "note": "„sensible” = rozsądny, „sensitive” = wrażliwy.",
-   "tags": [
-    "polish-trap"
-   ]
-  },
-  {
-   "id": "v.sunburnt",
-   "en": "sunburnt",
-   "pl": "spieczony słońcem",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 50030,
-   "alternatives": [
-    "sunburned"
-   ],
-   "example": [
-    {
-     "en": "I'm sunburnt!",
-     "pl": "Spaliłem się na słońcu!"
-    }
-   ],
-   "collocations": [
-    "get sunburnt"
-   ]
-  },
-  {
-   "id": "v.unfriendly",
-   "en": "unfriendly",
-   "pl": "nieprzyjazny",
-   "pos": "adj",
-   "level": "B1",
-   "rank": 50032,
-   "example": [
-    {
-     "en": "The staff were unfriendly.",
-     "pl": "Obsługa była nieprzyjazna."
-    }
-   ],
-   "collocations": [
-    "unfriendly"
-   ]
-  },
-  {
-   "id": "v.cosmetics",
-   "en": "cosmetics",
-   "pl": "kosmetyki",
+   "id": "v.multiplayer",
+   "en": "multiplayer",
+   "pl": "tryb wieloosobowy",
    "pos": "n",
    "level": "B1",
-   "rank": 50034,
+   "rank": 7053,
    "example": [
     {
-     "en": "Cosmetics are cheaper at the duty-free.",
-     "pl": "W strefie bezcłowej kosmetyki są tańsze."
+     "en": "Let's play multiplayer.",
+     "pl": "Zagrajmy w trybie wieloosobowym."
+    }
+   ]
+  },
+  {
+   "id": "v.vinegar",
+   "en": "vinegar",
+   "pl": "ocet",
+   "pos": "n",
+   "level": "B1",
+   "rank": 7072,
+   "example": [
+    {
+     "en": "Chips with salt and vinegar.",
+     "pl": "Frytki z solą i octem."
+    }
+   ]
+  },
+  {
+   "id": "v.comfy",
+   "en": "comfy",
+   "pl": "wygodny",
+   "pos": "adj",
+   "level": "B1",
+   "rank": 7105,
+   "example": [
+    {
+     "en": "This sofa is so comfy.",
+     "pl": "Ta kanapa jest taka wygodna."
     }
    ],
-   "collocations": [
-    "cosmetics"
+   "tags": [
+    "slang"
+   ]
+  },
+  {
+   "id": "v.guitarist",
+   "en": "guitarist",
+   "pl": "gitarzysta",
+   "pos": "n",
+   "level": "B1",
+   "rank": 7116,
+   "example": [
+    {
+     "en": "He's a guitarist.",
+     "pl": "Jest gitarzystą."
+    }
    ]
   }
  ]
