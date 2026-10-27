@@ -1076,6 +1076,23 @@
    ]
   },
   {
+   "id": "v.umbrella",
+   "en": "umbrella",
+   "pl": "parasol",
+   "pos": "n",
+   "level": "A1",
+   "rank": 4838,
+   "example": [
+    {
+     "en": "Take an umbrella.",
+     "pl": "Weź parasol."
+    }
+   ],
+   "collocations": [
+    "umbrella"
+   ]
+  },
+  {
    "id": "v.strawberry",
    "en": "strawberry",
    "pl": "truskawka",
@@ -1195,6 +1212,26 @@
    ],
    "collocations": [
     "sofa bed"
+   ]
+  },
+  {
+   "id": "v.grandpa",
+   "en": "grandpa",
+   "pl": "dziadek",
+   "pos": "n",
+   "level": "A1",
+   "rank": 5854,
+   "example": [
+    {
+     "en": "My grandpa taught me to fish.",
+     "pl": "Dziadek nauczył mnie łowić ryby."
+    }
+   ],
+   "collocations": [
+    "grandpa"
+   ],
+   "tags": [
+    "family"
    ]
   },
   {

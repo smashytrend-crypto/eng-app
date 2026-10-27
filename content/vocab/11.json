@@ -76,6 +76,57 @@
    ]
   },
   {
+   "id": "v.dentist",
+   "en": "dentist",
+   "pl": "dentysta",
+   "pos": "n",
+   "level": "A2",
+   "rank": 4763,
+   "example": [
+    {
+     "en": "I'm scared of the dentist.",
+     "pl": "Boję się dentysty."
+    }
+   ],
+   "collocations": [
+    "go to the dentist"
+   ]
+  },
+  {
+   "id": "v.curry",
+   "en": "curry",
+   "pl": "curry",
+   "pos": "n",
+   "level": "A2",
+   "rank": 4804,
+   "example": [
+    {
+     "en": "Let's get a curry.",
+     "pl": "Zjedzmy curry."
+    }
+   ],
+   "collocations": [
+    "curry"
+   ]
+  },
+  {
+   "id": "v.flu",
+   "en": "flu",
+   "pl": "grypa",
+   "pos": "n",
+   "level": "A2",
+   "rank": 4810,
+   "example": [
+    {
+     "en": "I've got the flu.",
+     "pl": "Mam grypę."
+    }
+   ],
+   "collocations": [
+    "have the flu"
+   ]
+  },
+  {
    "id": "v.underwear",
    "en": "underwear",
    "pl": "bielizna",
@@ -133,6 +184,23 @@
    ]
   },
   {
+   "id": "v.chess",
+   "en": "chess",
+   "pl": "szachy",
+   "pos": "n",
+   "level": "A2",
+   "rank": 4932,
+   "example": [
+    {
+     "en": "Do you play chess?",
+     "pl": "Grasz w szachy?"
+    }
+   ],
+   "collocations": [
+    "play chess"
+   ]
+  },
+  {
    "id": "v.necklace",
    "en": "necklace",
    "pl": "naszyjnik",
@@ -147,6 +215,23 @@
    ],
    "collocations": [
     "necklace"
+   ]
+  },
+  {
+   "id": "v.pony",
+   "en": "pony",
+   "pl": "kucyk",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5033,
+   "example": [
+    {
+     "en": "My niece wants a pony.",
+     "pl": "Moja siostrzenica chce kucyka."
+    }
+   ],
+   "collocations": [
+    "ponytail"
    ]
   },
   {
@@ -201,6 +286,24 @@
    ]
   },
   {
+   "id": "v.pardon",
+   "en": "pardon",
+   "pl": "słucham? przepraszam?",
+   "pos": "int",
+   "level": "A2",
+   "rank": 5202,
+   "example": [
+    {
+     "en": "Pardon? Could you repeat that?",
+     "pl": "Słucham? Może pan powtórzyć?"
+    }
+   ],
+   "collocations": [
+    "pardon"
+   ],
+   "note": "„Pardon?” = grzeczne „Co proszę?”."
+  },
+  {
    "id": "v.niece",
    "en": "niece",
    "pl": "siostrzenica, bratanica",
@@ -221,6 +324,40 @@
    ]
   },
   {
+   "id": "v.quiz",
+   "en": "quiz",
+   "pl": "quiz",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5262,
+   "example": [
+    {
+     "en": "There's a pub quiz on Tuesdays.",
+     "pl": "We wtorki jest quiz w pubie."
+    }
+   ],
+   "collocations": [
+    "pub quiz"
+   ]
+  },
+  {
+   "id": "v.coconut",
+   "en": "coconut",
+   "pl": "kokos",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5285,
+   "example": [
+    {
+     "en": "Coconut water is great after the gym.",
+     "pl": "Woda kokosowa jest świetna po siłowni."
+    }
+   ],
+   "collocations": [
+    "coconut"
+   ]
+  },
+  {
    "id": "v.sour",
    "en": "sour",
    "pl": "kwaśny",
@@ -238,6 +375,46 @@
    ]
   },
   {
+   "id": "v.taco",
+   "en": "taco",
+   "pl": "taco",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5307,
+   "example": [
+    {
+     "en": "Let's get tacos.",
+     "pl": "Weźmy tacos."
+    }
+   ],
+   "collocations": [
+    "tacos"
+   ]
+  },
+  {
+   "id": "v.kilometre",
+   "en": "kilometre",
+   "pl": "kilometr",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5335,
+   "alternatives": [
+    "kilometer"
+   ],
+   "example": [
+    {
+     "en": "It's five kilometres from here.",
+     "pl": "To pięć kilometrów stąd."
+    }
+   ],
+   "collocations": [
+    "kilometres"
+   ],
+   "tags": [
+    "uk-us"
+   ]
+  },
+  {
    "id": "v.messy",
    "en": "messy",
    "pl": "nieporządny, zabałaganiony",
@@ -252,6 +429,57 @@
    ],
    "collocations": [
     "messy"
+   ]
+  },
+  {
+   "id": "v.playground",
+   "en": "playground",
+   "pl": "plac zabaw",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5386,
+   "example": [
+    {
+     "en": "The kids are at the playground.",
+     "pl": "Dzieci są na placu zabaw."
+    }
+   ],
+   "collocations": [
+    "playground"
+   ]
+  },
+  {
+   "id": "v.kitten",
+   "en": "kitten",
+   "pl": "kotek",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5413,
+   "example": [
+    {
+     "en": "My sister has a new kitten.",
+     "pl": "Siostra ma nowego kotka."
+    }
+   ],
+   "collocations": [
+    "kitten"
+   ]
+  },
+  {
+   "id": "v.notebook",
+   "en": "notebook",
+   "pl": "notes, zeszyt",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5464,
+   "example": [
+    {
+     "en": "I write new words in my notebook.",
+     "pl": "Zapisuję nowe słowa w zeszycie."
+    }
+   ],
+   "collocations": [
+    "notebook"
    ]
   },
   {
@@ -313,6 +541,23 @@
    ]
   },
   {
+   "id": "v.vanilla",
+   "en": "vanilla",
+   "pl": "wanilia",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5573,
+   "example": [
+    {
+     "en": "Vanilla ice cream, please.",
+     "pl": "Lody waniliowe, poproszę."
+    }
+   ],
+   "collocations": [
+    "vanilla"
+   ]
+  },
+  {
    "id": "v.mug",
    "en": "mug",
    "pl": "kubek",
@@ -368,6 +613,23 @@
    ]
   },
   {
+   "id": "v.vodka",
+   "en": "vodka",
+   "pl": "wódka",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5651,
+   "example": [
+    {
+     "en": "Polish vodka is famous.",
+     "pl": "Polska wódka jest słynna."
+    }
+   ],
+   "collocations": [
+    "vodka"
+   ]
+  },
+  {
    "id": "v.mosquito",
    "en": "mosquito",
    "pl": "komar",
@@ -386,6 +648,57 @@
    "pronunciation": "mosquito ≈ „moskiitou”"
   },
   {
+   "id": "v.beginner",
+   "en": "beginner",
+   "pl": "początkujący",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5695,
+   "example": [
+    {
+     "en": "I'm a beginner.",
+     "pl": "Jestem początkujący."
+    }
+   ],
+   "collocations": [
+    "beginner"
+   ]
+  },
+  {
+   "id": "v.sunrise",
+   "en": "sunrise",
+   "pl": "wschód słońca",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5719,
+   "example": [
+    {
+     "en": "We watched the sunrise from the main stage.",
+     "pl": "Oglądaliśmy wschód słońca spod głównej sceny."
+    }
+   ],
+   "collocations": [
+    "sunrise"
+   ]
+  },
+  {
+   "id": "v.classmate",
+   "en": "classmate",
+   "pl": "kolega z klasy",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5746,
+   "example": [
+    {
+     "en": "He was my classmate.",
+     "pl": "Był moim kolegą z klasy."
+    }
+   ],
+   "collocations": [
+    "classmate"
+   ]
+  },
+  {
    "id": "v.microwave",
    "en": "microwave",
    "pl": "mikrofalówka",
@@ -400,6 +713,23 @@
    ],
    "collocations": [
     "microwave"
+   ]
+  },
+  {
+   "id": "v.picnic",
+   "en": "picnic",
+   "pl": "piknik",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5860,
+   "example": [
+    {
+     "en": "Let's have a picnic in the park.",
+     "pl": "Zróbmy piknik w parku."
+    }
+   ],
+   "collocations": [
+    "have a picnic"
    ]
   },
   {
@@ -452,6 +782,111 @@
    ],
    "collocations": [
     "scarf"
+   ]
+  },
+  {
+   "id": "v.haircut",
+   "en": "haircut",
+   "pl": "strzyżenie, fryzura",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5910,
+   "example": [
+    {
+     "en": "I need a haircut.",
+     "pl": "Muszę się ostrzyc."
+    }
+   ],
+   "collocations": [
+    "get a haircut"
+   ]
+  },
+  {
+   "id": "v.pancake",
+   "en": "pancake",
+   "pl": "naleśnik",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5943,
+   "example": [
+    {
+     "en": "Pancakes for breakfast!",
+     "pl": "Naleśniki na śniadanie!"
+    }
+   ],
+   "collocations": [
+    "pancakes"
+   ]
+  },
+  {
+   "id": "v.disco",
+   "en": "disco",
+   "pl": "dyskoteka",
+   "pos": "n",
+   "level": "A2",
+   "rank": 5980,
+   "example": [
+    {
+     "en": "It's like an old disco.",
+     "pl": "To jak stara dyskoteka."
+    }
+   ],
+   "collocations": [
+    "disco"
+   ]
+  },
+  {
+   "id": "v.whiskey",
+   "en": "whiskey",
+   "pl": "whisky",
+   "pos": "n",
+   "level": "A2",
+   "rank": 6008,
+   "alternatives": [
+    "whisky"
+   ],
+   "example": [
+    {
+     "en": "A whiskey on the rocks.",
+     "pl": "Whisky z lodem."
+    }
+   ],
+   "collocations": [
+    "whiskey"
+   ]
+  },
+  {
+   "id": "v.nightclub",
+   "en": "nightclub",
+   "pl": "klub nocny",
+   "pos": "n",
+   "level": "A2",
+   "rank": 6111,
+   "example": [
+    {
+     "en": "Let's go to a nightclub.",
+     "pl": "Chodźmy do klubu nocnego."
+    }
+   ],
+   "collocations": [
+    "nightclub"
+   ]
+  },
+  {
+   "id": "v.booking",
+   "en": "booking",
+   "pl": "rezerwacja",
+   "pos": "n",
+   "level": "A2",
+   "rank": 6112,
+   "example": [
+    {
+     "en": "I have a booking for two nights.",
+     "pl": "Mam rezerwację na dwie noce."
+    }
+   ],
+   "collocations": [
+    "make a booking"
    ]
   },
   {
@@ -954,6 +1389,23 @@
    ],
    "collocations": [
     "the worst"
+   ]
+  },
+  {
+   "id": "v.noodles",
+   "en": "noodles",
+   "pl": "makaron (azjatycki)",
+   "pos": "n",
+   "level": "A2",
+   "rank": 50035,
+   "example": [
+    {
+     "en": "Let's get noodles.",
+     "pl": "Zjedzmy makaron."
+    }
+   ],
+   "collocations": [
+    "noodles"
    ]
   }
  ]
