@@ -1,0 +1,128 @@
+{
+  "tasks": [
+    {
+      "id": "task.s1-introduce-yourself",
+      "stage": 1,
+      "title": "Przedstaw się",
+      "instruction": "Powiedz na głos 4 zdania o sobie: imię, skąd jesteś, gdzie mieszkasz i co robisz w wolnym czasie.",
+      "starters": [
+        "Hi, I'm…",
+        "I'm from…",
+        "I live in…",
+        "In my free time, I…"
+      ],
+      "example": "Hi, I'm Domin. I'm from Poland. I live in Szczecin, near the German border. In my free time, I go to the gym and listen to techno.",
+      "tags": [
+        "gr:present-simple"
+      ]
+    },
+    {
+      "id": "task.s1-weekend-plans",
+      "stage": 1,
+      "title": "Plany na weekend",
+      "instruction": "Powiedz 3 zdania o swoich planach na najbliższy weekend. Użyj „going to” i „I'm …-ing”.",
+      "starters": [
+        "This weekend I'm going to…",
+        "On Saturday I'm…",
+        "On Sunday I want to…"
+      ],
+      "example": "This weekend I'm going to sleep a lot. On Saturday I'm meeting some friends in the city centre. On Sunday I want to go to the gym and chill at home.",
+      "tags": [
+        "gr:going-to",
+        "gr:present-continuous-future"
+      ]
+    },
+    {
+      "id": "task.s1-your-day",
+      "stage": 1,
+      "title": "Twój zwykły dzień",
+      "instruction": "Opowiedz w 4 zdaniach, jak wygląda twój zwykły dzień roboczy. Same nawyki — Present Simple.",
+      "starters": [
+        "I usually get up at…",
+        "I start work at…",
+        "After work, I…",
+        "In the evening, I…"
+      ],
+      "example": "I usually get up at half past five. I start work at seven. After work, I go to the gym. In the evening, I play games or listen to music.",
+      "tags": [
+        "gr:present-simple"
+      ]
+    },
+    {
+      "id": "task.s1-small-talk",
+      "stage": 1,
+      "title": "Zagadaj o pogodzie",
+      "instruction": "Czekasz na tramwaj obok kogoś z Anglii. Zagadaj o pogodzie, zapytaj o weekend i odpowiedz na to samo pytanie.",
+      "starters": [
+        "Nice weather today, isn't it?",
+        "How was your weekend?",
+        "Mine was…"
+      ],
+      "example": "Nice weather today, isn't it? Finally some sun! How was your weekend? Mine was pretty good, thanks. I went to a party with some friends.",
+      "tags": [
+        "smalltalk"
+      ]
+    },
+    {
+      "id": "task.s1-your-city",
+      "stage": 1,
+      "title": "Twoje miasto",
+      "instruction": "Opowiedz o Szczecinie w 4 zdaniach. Użyj „there is” i „there are”.",
+      "starters": [
+        "Szczecin is a…",
+        "There are a lot of…",
+        "There's a…",
+        "There aren't many…"
+      ],
+      "example": "Szczecin is a port city in the north-west of Poland. There are a lot of parks and old buildings. There's a big river and a cool club scene. There aren't many tourists, so it's pretty quiet.",
+      "tags": [
+        "gr:there-is-are"
+      ]
+    },
+    {
+      "id": "task.s1-describe-it",
+      "stage": 1,
+      "title": "Zabrakło słowa",
+      "instruction": "Opisz po angielsku 3 rzeczy, jakbyś nie znał ich nazw: otwieracz do butelek, ładowarkę do telefonu i zakwasy.",
+      "starters": [
+        "It's a thing for…",
+        "It's a kind of…",
+        "It's like…, but…"
+      ],
+      "example": "It's a thing for opening bottles. It's a kind of cable for your phone. It's like pain in your muscles, but it's good — you get it after the gym.",
+      "tags": [
+        "rescue"
+      ]
+    },
+    {
+      "id": "task.s1-make-plans",
+      "stage": 1,
+      "title": "Umów się na trening",
+      "instruction": "Zaproś kumpla na wspólny trening: zapytaj, czy ma czas, zaproponuj dzień, godzinę i miejsce.",
+      "starters": [
+        "Are you free on…?",
+        "Let's meet at…",
+        "Does … work for you?"
+      ],
+      "example": "Hey, are you free on Thursday? Let's go to the gym together. Let's meet at six in front of the gym. Does six work for you?",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "task.s1-at-the-bar",
+      "stage": 1,
+      "title": "W barze",
+      "instruction": "Zamów dwa napoje, zapytaj o cenę, czy możesz zapłacić kartą, i podziękuj.",
+      "starters": [
+        "Can I have…, please?",
+        "How much is it?",
+        "Can I pay by card?"
+      ],
+      "example": "Hi, can I have two beers, please? How much is it? Can I pay by card? Great, thanks a lot!",
+      "tags": [
+        "numbers"
+      ]
+    }
+  ]
+}

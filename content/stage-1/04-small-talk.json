@@ -1,0 +1,881 @@
+{
+  "module": {
+    "id": "s1.small-talk",
+    "stage": 1,
+    "order": 4,
+    "title": "Small talk",
+    "titleEn": "Small talk",
+    "description": "Pogoda, weekend, „jak ci mija dzień” — krótkie rozmowy, które otwierają drzwi do dłuższych. Plus „there is / there are” w praktyce.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s1.small-talk.how-was-your-weekend",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 1,
+      "en": "How was your weekend?",
+      "pl": "Jak minął weekend?",
+      "alternatives": [
+        "How was the weekend?",
+        "Did you have a good weekend?"
+      ],
+      "usage": "Klasyczny początek rozmowy w poniedziałek — w pracy, na siłowni.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Morning! How was your weekend? — Pretty good, thanks.",
+          "pl": "Cześć! Jak minął weekend? — Całkiem nieźle, dzięki."
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.it-was-great",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 2,
+      "en": "It was great, thanks.",
+      "pl": "Był super, dzięki.",
+      "alternatives": [
+        "It was good, thanks.",
+        "Great, thanks.",
+        "It was really good, thanks."
+      ],
+      "usage": "Krótka, pozytywna odpowiedź. Potem dodaj jedno zdanie, co robiłeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How was the party? — It was great, thanks. I danced all night.",
+          "pl": "Jak impreza? — Super, dzięki. Tańczyłem całą noc."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.any-plans",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 3,
+      "en": "Any plans for the weekend?",
+      "pl": "Masz jakieś plany na weekend?",
+      "alternatives": [
+        "Do you have any plans for the weekend?",
+        "Got any plans for the weekend?",
+        "Any plans this weekend?"
+      ],
+      "usage": "Luźne pytanie w piątek — w pracy, w szatni, na czacie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Any plans for the weekend? — Yeah, I'm going to a festival in Berlin.",
+          "pl": "Masz jakieś plany na weekend? — Tak, jadę na festiwal do Berlina."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.just-going-to-chill",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 4,
+      "en": "Not really. I'm just going to chill.",
+      "pl": "Raczej nie. Po prostu odpocznę.",
+      "alternatives": [
+        "Not really, I'm just going to relax.",
+        "Not really. I'm going to chill."
+      ],
+      "usage": "Gdy nie masz konkretnych planów.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Any plans for Sunday? — Not really. I'm just going to chill.",
+          "pl": "Jakieś plany na niedzielę? — Raczej nie. Po prostu poleżę."
+        }
+      ],
+      "tags": [
+        "gr:going-to"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.nice-weather",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 5,
+      "en": "Nice weather today, isn't it?",
+      "pl": "Ładna dziś pogoda, co?",
+      "alternatives": [
+        "Lovely weather today, isn't it?",
+        "Nice day today, isn't it?",
+        "Nice weather, isn't it?"
+      ],
+      "usage": "Brytyjski klasyk small talku. „Isn’t it?” na końcu zaprasza do odpowiedzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Nice weather today, isn't it? — Yeah, finally!",
+          "pl": "Ładna dziś pogoda, co? — No, wreszcie!"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "weather"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.its-freezing",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 6,
+      "en": "It's freezing!",
+      "pl": "Ale zimno!",
+      "alternatives": [
+        "It's so cold!",
+        "It's really cold!",
+        "It's freezing out here!"
+      ],
+      "usage": "Gdy jest naprawdę zimno. Bardzo potoczne.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's freezing! Let's go inside.",
+          "pl": "Ale zimno! Chodźmy do środka."
+        }
+      ],
+      "tags": [
+        "weather"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.its-boiling",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 7,
+      "en": "It's boiling today.",
+      "pl": "Ale dziś upał.",
+      "alternatives": [
+        "It's so hot today.",
+        "It's really hot today."
+      ],
+      "usage": "Gdy jest bardzo gorąco — np. na festiwalu w lipcu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's boiling today. Drink a lot of water!",
+          "pl": "Ale dziś upał. Pij dużo wody!"
+        }
+      ],
+      "tags": [
+        "weather",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.always-this-busy",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 8,
+      "en": "Is it always this busy?",
+      "pl": "Zawsze jest tu tak tłoczno?",
+      "alternatives": [
+        "Is it always this busy here?",
+        "Is it always so busy?"
+      ],
+      "usage": "Dobre pytanie na start rozmowy w barze, klubie, na siłowni.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it always this busy? — Only on Fridays.",
+          "pl": "Zawsze jest tu tak tłoczno? — Tylko w piątki."
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.been-here-before",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 9,
+      "en": "Have you been here before?",
+      "pl": "Byłeś tu już kiedyś?",
+      "alternatives": [
+        "Have you been here before, then?"
+      ],
+      "usage": "Pytasz kogoś, czy zna to miejsce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you been here before? — Yeah, it's my third time.",
+          "pl": "Byłeś tu już kiedyś? — Tak, to mój trzeci raz."
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.small-talk.first-time-here",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 10,
+      "en": "First time here?",
+      "pl": "Pierwszy raz tutaj?",
+      "alternatives": [
+        "Is it your first time here?",
+        "Is this your first time here?"
+      ],
+      "usage": "Luźne, krótkie pytanie — świetne do zagadania.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "First time here? — Yeah, it's amazing!",
+          "pl": "Pierwszy raz tutaj? — Tak, jest niesamowicie!"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.hows-your-day",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 11,
+      "en": "How's your day going?",
+      "pl": "Jak ci mija dzień?",
+      "alternatives": [
+        "How's your day been?",
+        "How's your day?"
+      ],
+      "usage": "Miłe pytanie do kogoś, kogo znasz — albo do kasjera, barmana.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How's your day going? — Busy, but good.",
+          "pl": "Jak ci mija dzień? — Pracowicie, ale dobrze."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.long-day",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 12,
+      "en": "Long day?",
+      "pl": "Ciężki dzień?",
+      "alternatives": [
+        "Long day today?",
+        "Busy day?"
+      ],
+      "usage": "Gdy ktoś wygląda na zmęczonego.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Long day? — Yeah, I was at work at six.",
+          "pl": "Ciężki dzień? — No, byłem w pracy o szóstej."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.same-here",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 13,
+      "en": "Same here.",
+      "pl": "U mnie tak samo. / Ja też.",
+      "alternatives": [
+        "Me too.",
+        "Same.",
+        "Same for me."
+      ],
+      "usage": "Gdy masz to samo co rozmówca.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm so tired today. — Same here.",
+          "pl": "Jestem dziś strasznie zmęczony. — Ja też."
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.sounds-great",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 14,
+      "en": "That sounds great!",
+      "pl": "Brzmi super!",
+      "alternatives": [
+        "Sounds great!",
+        "That sounds awesome!",
+        "Sounds good!",
+        "That sounds amazing!"
+      ],
+      "usage": "Reagujesz na czyjeś plany albo propozycję.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're going to Ibiza in June. — That sounds great!",
+          "pl": "W czerwcu jedziemy na Ibizę. — Brzmi super!"
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.really-thats-cool",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 15,
+      "en": "Really? That's cool.",
+      "pl": "Serio? Fajnie.",
+      "alternatives": [
+        "Really? Cool.",
+        "Oh, really? That's cool.",
+        "Really? That's awesome."
+      ],
+      "usage": "Pokazujesz zainteresowanie — rozmówca chętnie opowie więcej.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I DJ at weekends. — Really? That's cool.",
+          "pl": "W weekendy gram jako DJ. — Serio? Fajnie."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.weather",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 16,
+      "en": "weather",
+      "pl": "pogoda",
+      "alternatives": [],
+      "usage": "Najbezpieczniejszy temat small talku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the weather like in Szczecin? — Windy and grey, usually.",
+          "pl": "Jaka jest pogoda w Szczecinie? — Zwykle wietrznie i szaro."
+        }
+      ],
+      "collocations": [
+        "nice weather",
+        "bad weather",
+        "the weather forecast"
+      ],
+      "note": "„Weather” jest niepoliczalne: „nice weather”, nigdy „a nice weather”.",
+      "pronunciation": "„th” z językiem między zębami: „łeder”, nie „łeter”.",
+      "tags": [
+        "weather",
+        "gr:articles",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.busy",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 17,
+      "en": "busy",
+      "pl": "zajęty; zatłoczony",
+      "alternatives": [],
+      "usage": "O ludziach (dużo pracy) i o miejscach (dużo ludzi).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm really busy this week.",
+          "pl": "Mam bardzo dużo roboty w tym tygodniu."
+        }
+      ],
+      "collocations": [
+        "a busy day",
+        "busy at work",
+        "a busy bar"
+      ],
+      "pronunciation": "Czytaj „bizi”.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.tired",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 18,
+      "en": "tired",
+      "pl": "zmęczony",
+      "alternatives": [],
+      "usage": "Po pracy, po treningu, po imprezie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm a bit tired after work.",
+          "pl": "Jestem trochę zmęczony po pracy."
+        }
+      ],
+      "collocations": [
+        "really tired",
+        "tired after work",
+        "sick and tired"
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.crowded",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 19,
+      "en": "crowded",
+      "pl": "zatłoczony",
+      "alternatives": [],
+      "usage": "Gdy jest za dużo ludzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The gym is always crowded on Mondays.",
+          "pl": "Na siłowni w poniedziałki zawsze jest tłoczno."
+        }
+      ],
+      "collocations": [
+        "really crowded",
+        "a crowded train",
+        "crowded at the weekend"
+      ],
+      "tags": [
+        "gym",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.pretty",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 20,
+      "en": "pretty",
+      "pl": "całkiem, dość",
+      "alternatives": [],
+      "usage": "W mowie potocznej przed przymiotnikiem: pretty good, pretty busy.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "How was it? — Pretty good, actually.",
+          "pl": "Jak było? — Właściwie całkiem nieźle."
+        }
+      ],
+      "collocations": [
+        "pretty good",
+        "pretty busy",
+        "pretty cool"
+      ],
+      "note": "„Pretty” to nie tylko „ładny”. W rozmowie najczęściej znaczy „całkiem”.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.chill",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 21,
+      "en": "chill",
+      "pl": "odpoczywać, wyluzować",
+      "alternatives": [],
+      "usage": "Luźno: nic nie robić, odpoczywać.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm just chilling at home tonight.",
+          "pl": "Dziś wieczorem po prostu odpoczywam w domu."
+        }
+      ],
+      "collocations": [
+        "chill at home",
+        "chill out",
+        "just chilling"
+      ],
+      "tags": [
+        "slang"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.weekend",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 22,
+      "en": "weekend",
+      "pl": "weekend",
+      "alternatives": [],
+      "usage": "Najczęstszy temat rozmów w pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are you doing at the weekend?",
+          "pl": "Co robisz w weekend?"
+        }
+      ],
+      "collocations": [
+        "at the weekend",
+        "this weekend",
+        "a long weekend"
+      ],
+      "note": "UK: „at the weekend”, US: „on the weekend”.",
+      "tags": [
+        "uk-us",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.rain",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 23,
+      "en": "rain",
+      "pl": "deszcz; padać",
+      "alternatives": [],
+      "usage": "Pogoda w Belgii i w UK — przyda się na pewno.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's raining again — typical!",
+          "pl": "Znowu pada — typowe!"
+        }
+      ],
+      "collocations": [
+        "it's raining",
+        "heavy rain",
+        "in the rain"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.is-there-near-here",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 24,
+      "en": "Is there a ___ near here?",
+      "pl": "Czy jest tu gdzieś ___?",
+      "alternatives": [],
+      "usage": "Pytasz, czy w okolicy jest jakieś miejsce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a gym near here?",
+          "pl": "Jest tu gdzieś w pobliżu siłownia?"
+        },
+        {
+          "en": "Is there a supermarket near here?",
+          "pl": "Jest tu gdzieś supermarket?"
+        },
+        {
+          "en": "Is there a good club near here?",
+          "pl": "Jest tu gdzieś dobry klub?"
+        }
+      ],
+      "tags": [
+        "gr:there-is-are",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.there-are-a-lot-of",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 25,
+      "en": "There are a lot of ___ here.",
+      "pl": "Jest tu dużo ___.",
+      "alternatives": [],
+      "usage": "Opisujesz miejsce: ludzi, barów, turystów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There are a lot of people here.",
+          "pl": "Jest tu mnóstwo ludzi."
+        },
+        {
+          "en": "There are a lot of good bars here.",
+          "pl": "Jest tu dużo dobrych barów."
+        },
+        {
+          "en": "There are a lot of tourists here in summer.",
+          "pl": "Latem jest tu dużo turystów."
+        }
+      ],
+      "note": "Liczba mnoga → „there are”: There ARE a lot of people. Nie „There is a lot of people”.",
+      "tags": [
+        "gr:there-is-are",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.there-arent-any-left",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 26,
+      "en": "There aren't any ___ left.",
+      "pl": "Nie ma już ___.",
+      "alternatives": [],
+      "usage": "Gdy czegoś zabrakło: biletów, miejsc, jedzenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There aren't any tickets left.",
+          "pl": "Nie ma już biletów."
+        },
+        {
+          "en": "There aren't any free tables left.",
+          "pl": "Nie ma już wolnych stolików."
+        }
+      ],
+      "note": "Przeczenie z liczbą mnogą: there aren't any + rzeczownik w l. mnogiej.",
+      "tags": [
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.small-talk.really-today",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 27,
+      "en": "It's really ___ today.",
+      "pl": "Dziś jest naprawdę ___.",
+      "alternatives": [],
+      "usage": "Komentujesz pogodę albo dzień.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's really windy today.",
+          "pl": "Dziś naprawdę wieje."
+        },
+        {
+          "en": "It's really sunny today.",
+          "pl": "Dziś jest naprawdę słonecznie."
+        }
+      ],
+      "tags": [
+        "weather"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.usually-at-weekend",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 28,
+      "en": "I usually ___ at the weekend.",
+      "pl": "W weekendy zwykle ___.",
+      "alternatives": [],
+      "usage": "Mówisz o swoich weekendowych nawykach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually go out with friends at the weekend.",
+          "pl": "W weekendy zwykle wychodzę ze znajomymi."
+        },
+        {
+          "en": "I usually sleep in at the weekend.",
+          "pl": "W weekendy zwykle odsypiam."
+        },
+        {
+          "en": "I usually go to the gym at the weekend.",
+          "pl": "W weekendy zwykle chodzę na siłownię."
+        }
+      ],
+      "note": "Nawyki = Present Simple. „Usually” stoi przed czasownikiem: I usually go.",
+      "tags": [
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.what-are-you-up-to",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 29,
+      "en": "What are you up to ___?",
+      "pl": "Co porabiasz ___?",
+      "alternatives": [],
+      "usage": "Luźne pytanie o plany.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What are you up to this weekend?",
+          "pl": "Co porabiasz w ten weekend?"
+        },
+        {
+          "en": "What are you up to tonight?",
+          "pl": "Co robisz dziś wieczorem?"
+        }
+      ],
+      "tags": [
+        "gr:present-continuous-future",
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.small-talk.monday-at-work",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 30,
+      "en": "Monday morning at work",
+      "pl": "Poniedziałek rano w pracy",
+      "alternatives": [],
+      "usage": "Klasyczny small talk o weekendzie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Morning! How was your weekend?",
+          "pl": "Cześć! Jak weekend?",
+          "speaker": "A"
+        },
+        {
+          "en": "Pretty good, thanks. I went to a techno party in Berlin.",
+          "pl": "Całkiem nieźle, dzięki. Byłem na imprezie techno w Berlinie.",
+          "speaker": "B"
+        },
+        {
+          "en": "No way! How was it?",
+          "pl": "Serio? I jak było?",
+          "speaker": "A"
+        },
+        {
+          "en": "Awesome, but I'm so tired today.",
+          "pl": "Rewelacja, ale jestem dziś strasznie zmęczony.",
+          "speaker": "B"
+        },
+        {
+          "en": "I bet!",
+          "pl": "No pewnie!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "music",
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.small-talk.busy-gym",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.small-talk",
+      "order": 31,
+      "en": "Busy gym",
+      "pl": "Tłok na siłowni",
+      "alternatives": [],
+      "usage": "Zagadujesz kogoś na siłowni — there is / there are w praktyce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it always this busy on Mondays?",
+          "pl": "W poniedziałki zawsze jest taki tłok?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, there are always a lot of people after work.",
+          "pl": "Tak, po pracy zawsze jest mnóstwo ludzi.",
+          "speaker": "B"
+        },
+        {
+          "en": "Is there a better time?",
+          "pl": "Jest jakaś lepsza pora?",
+          "speaker": "A"
+        },
+        {
+          "en": "Come in the morning. It's pretty quiet then.",
+          "pl": "Przyjdź rano. Wtedy jest dość spokojnie.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "gym",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+/** Ikona aplikacji: dymek z falą dźwięku na zachodzie słońca (wakacje!). */
+export function iconSvg({ rounded = true, scale = 1 }: { rounded?: boolean; scale?: number } = {}): string {
+  const t = (256 * (1 - scale)).toFixed(1)
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.55" stop-color="#c026d3"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" ${rounded ? 'rx="112"' : ''} fill="url(#g)"/>
+  <g transform="translate(${t} ${t}) scale(${scale})">
+    <circle cx="380" cy="130" r="46" fill="#fde68a"/>
+    <path d="M124 168h212a52 52 0 0 1 52 52v92a52 52 0 0 1-52 52H214l-66 54v-54h-24a52 52 0 0 1-52-52v-92a52 52 0 0 1 52-52z" fill="#fff"/>
+    <g fill="#7c3aed">
+      <rect x="139" y="246" width="24" height="40" rx="12"/>
+      <rect x="179" y="221" width="24" height="90" rx="12"/>
+      <rect x="219" y="201" width="24" height="130" rx="12"/>
+      <rect x="259" y="221" width="24" height="90" rx="12"/>
+      <rect x="299" y="246" width="24" height="40" rx="12"/>
+    </g>
+  </g>
+</svg>`
+}

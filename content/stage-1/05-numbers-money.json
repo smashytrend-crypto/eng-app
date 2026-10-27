@@ -1,0 +1,906 @@
+{
+  "module": {
+    "id": "s1.numbers-money",
+    "stage": 1,
+    "order": 5,
+    "title": "Liczby, ceny i pieniądze",
+    "titleEn": "Numbers & money",
+    "description": "Ceny, płacenie kartą i gotówką, rachunek, numer telefonu, „jest nas czterech” — liczby w prawdziwych sytuacjach.",
+    "tags": [
+      "general",
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s1.numbers-money.how-much-is-it",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 1,
+      "en": "How much is it?",
+      "pl": "Ile to kosztuje?",
+      "alternatives": [
+        "How much is this?",
+        "How much does it cost?",
+        "How much is that?"
+      ],
+      "usage": "Podstawowe pytanie o cenę — w sklepie, na straganie, w barze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How much is it? — Eight euros.",
+          "pl": "Ile to kosztuje? — Osiem euro."
+        }
+      ],
+      "tags": [
+        "numbers",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.how-much-are-the-tickets",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 2,
+      "en": "How much are the tickets?",
+      "pl": "Ile kosztują bilety?",
+      "alternatives": [
+        "How much do the tickets cost?",
+        "How much are tickets?"
+      ],
+      "usage": "Pytanie o cenę kilku rzeczy — liczba mnoga.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How much are the tickets? — Thirty euros each.",
+          "pl": "Ile kosztują bilety? — Po trzydzieści euro."
+        }
+      ],
+      "note": "Liczba mnoga → „are”: How much ARE the tickets? Ale: How much IS the ticket?",
+      "tags": [
+        "numbers",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.pay-by-card",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 3,
+      "en": "Can I pay by card?",
+      "pl": "Mogę zapłacić kartą?",
+      "alternatives": [
+        "Can I pay with a card?",
+        "Do you take cards?",
+        "Can I pay by card, please?",
+        "Is card OK?"
+      ],
+      "usage": "Zanim zamówisz albo przy kasie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I pay by card? — Sure, just tap it here.",
+          "pl": "Mogę zapłacić kartą? — Jasne, proszę przyłożyć tutaj."
+        }
+      ],
+      "tags": [
+        "numbers",
+        "travel",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.cash-only",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 4,
+      "en": "Cash only?",
+      "pl": "Tylko gotówka?",
+      "alternatives": [
+        "Is it cash only?",
+        "Only cash?"
+      ],
+      "usage": "Gdy widzisz, że w budce nie ma terminala.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Cash only? — Yeah, sorry. There's a cash machine over there.",
+          "pl": "Tylko gotówka? — Niestety tak. Bankomat jest tam."
+        }
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.keep-the-change",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 5,
+      "en": "Keep the change.",
+      "pl": "Reszty nie trzeba.",
+      "alternatives": [
+        "Keep the change, mate."
+      ],
+      "usage": "Gdy zostawiasz resztę jako napiwek — w taksówce, w barze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "That's eighteen fifty. — Here's twenty. Keep the change.",
+          "pl": "Osiemnaście pięćdziesiąt. — Proszę dwadzieścia. Reszty nie trzeba."
+        }
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.too-expensive",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 6,
+      "en": "That's too expensive.",
+      "pl": "To za drogie.",
+      "alternatives": [
+        "That's a bit too expensive.",
+        "That's too much.",
+        "It's too expensive."
+      ],
+      "usage": "Gdy cena cię odstrasza.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Forty euros for a T-shirt? That's too expensive.",
+          "pl": "Czterdzieści euro za koszulkę? To za drogo."
+        }
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.good-price",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 7,
+      "en": "That's a good price.",
+      "pl": "To dobra cena.",
+      "alternatives": [
+        "That's a really good price.",
+        "That's cheap!",
+        "That's not bad."
+      ],
+      "usage": "Gdy coś jest tanie albo opłacalne.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Ten euros for two beers? That's a good price.",
+          "pl": "Dziesięć euro za dwa piwa? To dobra cena."
+        }
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.receipt",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 8,
+      "en": "Can I get a receipt, please?",
+      "pl": "Mogę prosić o paragon?",
+      "alternatives": [
+        "Could I have a receipt, please?",
+        "Can I have a receipt, please?",
+        "Can I get the receipt?"
+      ],
+      "usage": "Gdy potrzebujesz paragonu albo rachunku.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Can I get a receipt, please? — Sure, here you go.",
+          "pl": "Mogę prosić o paragon? — Jasne, proszę."
+        }
+      ],
+      "pronunciation": "W „receipt” „p” jest nieme: czytaj „risit”.",
+      "tags": [
+        "numbers",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.whats-your-number",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 9,
+      "en": "What's your number?",
+      "pl": "Jaki masz numer?",
+      "alternatives": [
+        "What's your phone number?",
+        "Can I get your number?",
+        "Can I have your number?"
+      ],
+      "usage": "Gdy chcesz wymienić się numerami z kimś poznanym.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's your number? I'll send you the photos.",
+          "pl": "Jaki masz numer? Wyślę ci zdjęcia."
+        }
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.sorry-how-much",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 10,
+      "en": "Sorry, how much?",
+      "pl": "Przepraszam, ile?",
+      "alternatives": [
+        "Sorry, how much was that?",
+        "Sorry, how much is it?"
+      ],
+      "usage": "Gdy nie dosłyszałeś ceny — w głośnym barze to standard.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "That's twelve euros. — Sorry, how much? — Twelve.",
+          "pl": "Dwanaście euro. — Przepraszam, ile? — Dwanaście."
+        }
+      ],
+      "tags": [
+        "numbers",
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.split-the-bill",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 11,
+      "en": "Can we split the bill?",
+      "pl": "Możemy podzielić rachunek?",
+      "alternatives": [
+        "Can we pay separately?",
+        "Could we split the bill?"
+      ],
+      "usage": "Gdy każdy płaci za siebie albo dzielicie po równo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can we split the bill? — Sure, how do you want to split it?",
+          "pl": "Możemy podzielić rachunek? — Jasne, jak chcecie podzielić?"
+        }
+      ],
+      "tags": [
+        "numbers",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.its-on-me",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 12,
+      "en": "It's on me.",
+      "pl": "Ja stawiam.",
+      "alternatives": [
+        "This one's on me.",
+        "My treat.",
+        "It's my treat."
+      ],
+      "usage": "Gdy płacisz za kogoś — za piwo, za kawę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Put your money away, it's on me.",
+          "pl": "Schowaj kasę, ja stawiam."
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s1.numbers-money.here-you-go",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 13,
+      "en": "Here you go.",
+      "pl": "Proszę. (podając coś)",
+      "alternatives": [
+        "Here you are.",
+        "There you go."
+      ],
+      "usage": "Gdy coś komuś podajesz: pieniądze, bilet, napój.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I see your ticket? — Here you go.",
+          "pl": "Mogę zobaczyć bilet? — Proszę."
+        }
+      ],
+      "note": "Podając coś, nie mówisz „Please”. Mówisz „Here you go” albo „Here you are”.",
+      "tags": [
+        "polish-trap",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.nearest-cash-machine",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 14,
+      "en": "Where's the nearest cash machine?",
+      "pl": "Gdzie jest najbliższy bankomat?",
+      "alternatives": [
+        "Where's the nearest ATM?",
+        "Is there an ATM near here?",
+        "Is there a cash machine near here?"
+      ],
+      "usage": "Gdy potrzebujesz gotówki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, where's the nearest cash machine? — There's one by the station.",
+          "pl": "Przepraszam, gdzie jest najbliższy bankomat? — Jest jeden przy dworcu."
+        }
+      ],
+      "note": "UK: cash machine, US: ATM — zrozumieją oba.",
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.cash",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 15,
+      "en": "cash",
+      "pl": "gotówka",
+      "alternatives": [],
+      "usage": "Płacenie gotówką, wypłata z bankomatu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I don't have any cash on me.",
+          "pl": "Nie mam przy sobie gotówki."
+        }
+      ],
+      "collocations": [
+        "pay in cash",
+        "cash only",
+        "a cash machine"
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.change",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 16,
+      "en": "change",
+      "pl": "reszta; drobne",
+      "alternatives": [],
+      "usage": "Pieniądze, które dostajesz z powrotem, albo bilon.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I don't have any change.",
+          "pl": "Przepraszam, nie mam drobnych."
+        }
+      ],
+      "collocations": [
+        "keep the change",
+        "small change",
+        "have you got change?"
+      ],
+      "pronunciation": "Czytaj „czejndż”.",
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.cheap",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 17,
+      "en": "cheap",
+      "pl": "tani",
+      "alternatives": [],
+      "usage": "Gdy coś niewiele kosztuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Beer is pretty cheap here.",
+          "pl": "Piwo jest tu dość tanie."
+        }
+      ],
+      "collocations": [
+        "really cheap",
+        "cheap flights",
+        "dirt cheap"
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.price",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 18,
+      "en": "price",
+      "pl": "cena",
+      "alternatives": [],
+      "usage": "Pytasz albo rozmawiasz o cenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the price for two nights?",
+          "pl": "Jaka jest cena za dwie noce?"
+        }
+      ],
+      "collocations": [
+        "a good price",
+        "the price of…",
+        "half price"
+      ],
+      "tags": [
+        "numbers",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.half",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 19,
+      "en": "half",
+      "pl": "pół, połowa",
+      "alternatives": [],
+      "usage": "Ceny, czas, ilości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Tickets are half price today.",
+          "pl": "Bilety są dziś za pół ceny."
+        }
+      ],
+      "collocations": [
+        "half price",
+        "half an hour",
+        "half of the money"
+      ],
+      "note": "„Pół godziny” to „half an hour” — z „an” w środku.",
+      "pronunciation": "„l” jest nieme: czytaj „haf” (UK) albo „hef” (US).",
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.hundred",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 20,
+      "en": "hundred",
+      "pl": "sto",
+      "alternatives": [],
+      "usage": "Większe liczby: ceny biletów, ludzi na koncercie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's about a hundred euros.",
+          "pl": "To około stu euro."
+        }
+      ],
+      "collocations": [
+        "a hundred euros",
+        "hundreds of people",
+        "a hundred percent"
+      ],
+      "note": "Mówimy „a hundred” albo „one hundred”, nie samo „hundred”. Bez -s: two hundred.",
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.thousand",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 21,
+      "en": "thousand",
+      "pl": "tysiąc",
+      "alternatives": [],
+      "usage": "Duże liczby: ludzie na festiwalu, ceny, kilometry.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There are thousands of people at Tomorrowland every day.",
+          "pl": "Na Tomorrowland codziennie są tysiące ludzi."
+        }
+      ],
+      "collocations": [
+        "a thousand",
+        "thousands of people",
+        "two thousand"
+      ],
+      "note": "Z liczbą bez -s: two thousand. „Thousands of…” tylko gdy nie podajesz liczby.",
+      "pronunciation": "„th” wymawiaj z językiem między zębami — nie „tałzynd” ani „fałzynd”.",
+      "tags": [
+        "numbers",
+        "gr:there-is-are",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.tip",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 22,
+      "en": "tip",
+      "pl": "napiwek",
+      "alternatives": [],
+      "usage": "W restauracji, barze, taksówce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do people tip in Belgium?",
+          "pl": "Czy w Belgii daje się napiwki?"
+        }
+      ],
+      "collocations": [
+        "leave a tip",
+        "a big tip",
+        "tip the waiter"
+      ],
+      "tags": [
+        "numbers",
+        "travel",
+        "gr:present-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.bill",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 23,
+      "en": "bill",
+      "pl": "rachunek",
+      "alternatives": [],
+      "usage": "W restauracji albo barze na koniec.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can we have the bill, please?",
+          "pl": "Możemy prosić o rachunek?"
+        }
+      ],
+      "collocations": [
+        "the bill, please",
+        "split the bill",
+        "pay the bill"
+      ],
+      "note": "UK: the bill, US: the check.",
+      "tags": [
+        "numbers",
+        "food",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.free",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 24,
+      "en": "free",
+      "pl": "darmowy; wolny",
+      "alternatives": [],
+      "usage": "Coś za darmo albo ktoś ma wolny czas.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is the water free?",
+          "pl": "Czy woda jest za darmo?"
+        }
+      ],
+      "collocations": [
+        "for free",
+        "free entry",
+        "free water"
+      ],
+      "note": "„Za darmo” = „for free” albo samo „free”. Nie „for nothing” (to znaczy „na nic”).",
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.can-i-have",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 25,
+      "en": "Can I have ___, please?",
+      "pl": "Mogę prosić ___?",
+      "alternatives": [],
+      "usage": "Zamawiasz albo prosisz o coś — z liczbą sztuk.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I have two beers, please?",
+          "pl": "Mogę prosić dwa piwa?"
+        },
+        {
+          "en": "Can I have a large water, please?",
+          "pl": "Mogę prosić dużą wodę?"
+        },
+        {
+          "en": "Can I have three tickets, please?",
+          "pl": "Mogę prosić trzy bilety?"
+        }
+      ],
+      "note": "Grzecznie: „Can I have…, please?”. Samo „Give me…” brzmi niegrzecznie.",
+      "tags": [
+        "numbers",
+        "food",
+        "gr:can",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.my-number-is",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 26,
+      "en": "My number is ___.",
+      "pl": "Mój numer to ___.",
+      "alternatives": [],
+      "usage": "Podajesz swój numer telefonu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My number is 601 234 567.",
+          "pl": "Mój numer to 601 234 567."
+        },
+        {
+          "en": "My number is plus four eight, 601 234 567.",
+          "pl": "Mój numer to plus czterdzieści osiem, 601 234 567."
+        }
+      ],
+      "note": "Cyfry numeru czyta się pojedynczo: six-oh-one… Zero często mówi się jak „oh”.",
+      "tags": [
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.costs-about",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 27,
+      "en": "It costs about ___.",
+      "pl": "Kosztuje około ___.",
+      "alternatives": [],
+      "usage": "Podajesz przybliżoną cenę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It costs about fifty euros.",
+          "pl": "Kosztuje około 50 euro."
+        },
+        {
+          "en": "It costs about a hundred złoty.",
+          "pl": "Kosztuje około 100 złotych."
+        }
+      ],
+      "tags": [
+        "numbers",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.how-many-are-there",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 28,
+      "en": "How many ___ are there?",
+      "pl": "Ile jest ___?",
+      "alternatives": [],
+      "usage": "Pytasz o liczbę rzeczy albo ludzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How many stages are there?",
+          "pl": "Ile jest scen?"
+        },
+        {
+          "en": "How many people are there in your group?",
+          "pl": "Ile osób jest w twojej grupie?"
+        }
+      ],
+      "note": "„How many” + liczba mnoga + „are there”.",
+      "tags": [
+        "numbers",
+        "gr:there-is-are",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.there-are-of-us",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 29,
+      "en": "There are ___ of us.",
+      "pl": "Jest nas ___.",
+      "alternatives": [],
+      "usage": "Gdy rezerwujesz stolik albo mówisz, ilu was jest.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There are four of us.",
+          "pl": "Jest nas czterech."
+        },
+        {
+          "en": "There are six of us. Can we sit together?",
+          "pl": "Jest nas sześcioro. Możemy usiąść razem?"
+        }
+      ],
+      "note": "Polskie „jest nas czterech” → „There are four of us”. Nie „We are four”.",
+      "tags": [
+        "numbers",
+        "gr:there-is-are",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.festival-bar",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 30,
+      "en": "Ordering at a festival bar",
+      "pl": "Zamawianie przy barze na festiwalu",
+      "alternatives": [],
+      "usage": "Zamawiasz, płacisz i dowiadujesz się, że płaci się żetonami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, can I have two beers, please?",
+          "pl": "Cześć, mogę prosić dwa piwa?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure. That's fourteen euros.",
+          "pl": "Jasne. Czternaście euro.",
+          "speaker": "B"
+        },
+        {
+          "en": "Can I pay by card?",
+          "pl": "Mogę zapłacić kartą?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sorry, it's tokens only.",
+          "pl": "Niestety, tylko żetony.",
+          "speaker": "B"
+        },
+        {
+          "en": "Oh, OK. Where can I buy tokens?",
+          "pl": "Aha, OK. Gdzie mogę kupić żetony?",
+          "speaker": "A"
+        },
+        {
+          "en": "At the top-up point, next to the entrance.",
+          "pl": "W punkcie doładowań, obok wejścia.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "festival",
+        "numbers",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.numbers-money.the-bill",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.numbers-money",
+      "order": 31,
+      "en": "Paying the bill",
+      "pl": "Płacenie rachunku",
+      "alternatives": [],
+      "usage": "Prosisz o rachunek i płacicie osobno.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Can we have the bill, please?",
+          "pl": "Możemy prosić rachunek?",
+          "speaker": "A"
+        },
+        {
+          "en": "Of course. Together or separately?",
+          "pl": "Oczywiście. Razem czy osobno?",
+          "speaker": "B"
+        },
+        {
+          "en": "Separately, please. Can I pay by card?",
+          "pl": "Osobno, poproszę. Mogę kartą?",
+          "speaker": "A"
+        },
+        {
+          "en": "No problem. Just tap here.",
+          "pl": "Nie ma problemu. Proszę przyłożyć tutaj.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "food",
+        "numbers"
+      ],
+      "level": "A2"
+    }
+  ]
+}

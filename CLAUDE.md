@@ -33,8 +33,10 @@ Przed każdym commitem: `npm run validate && npm test && npm run build` — wszy
   „powiedz na głos i oceń się”.
 - **Routing: własny prosty router na `#hash`** — działa offline i na każdym hostingu bez konfiguracji;
   przycisk „wstecz” w telefonie cofa ekran zamiast zamykać aplikację.
-- **Hosting: Vercel** (repo jest prywatne, a GitHub Pages dla prywatnych repo jest płatne). Każdy push na
-  `main` = automatyczne wdrożenie produkcyjne. Instrukcja dla laika: `docs/DEPLOY.md`.
+- **Hosting: Cloudflare Pages** (darmowy). Repo jest prywatne: GitHub Pages wymaga płatnego planu, a darmowe
+  Vercel/Netlify blokują wdrożenia commitów, których autor nie jest właścicielem konta (commity robi Claude).
+  Każdy push na `main` = automatyczne wdrożenie. Instrukcja dla laika: `docs/DEPLOY.md`.
+  `public/_headers` ustawia cache (sw.js i index.html bez cache, assets na rok).
 
 ## Struktura folderów
 ```
@@ -164,7 +166,7 @@ src/
    - Czy każdy `word` ma `collocations` i przykład? Czy `pattern` ma `___` i 2–3 przykłady?
    - Duplikaty z innymi modułami?
 5. Uruchom `npm run validate` → popraw błędy/ostrzeżenia. Potem `npm test` i `npm run build`.
-6. Commit (`content: add stage Y module NN slug`) i push na `main` → Vercel wdroży sam w ~1 min.
+6. Commit (`content: add stage Y module NN slug`) i push na `main` → Cloudflare Pages wdroży sam w ~2 min.
 7. Napisz Dominowi 2–3 zdania: jaki moduł, ile elementów, kiedy pojawi się w lekcjach (nowe elementy
    wchodzą w kolejności etap → moduł → order; w fazie 3 wyjazd może dać priorytet modułom
    `travel`/`festival`).

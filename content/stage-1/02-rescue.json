@@ -1,0 +1,854 @@
+{
+  "module": {
+    "id": "s1.rescue",
+    "stage": 1,
+    "order": 2,
+    "title": "Zwroty ratunkowe",
+    "titleEn": "Rescue phrases",
+    "description": "Co powiedzieć, gdy brakuje ci słowa, czegoś nie usłyszałeś albo nie rozumiesz. Dzięki nim dogadasz się zawsze.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s1.rescue.didnt-catch-that",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 1,
+      "en": "Sorry, I didn't catch that.",
+      "pl": "Przepraszam, nie dosłyszałem.",
+      "alternatives": [
+        "Sorry, I didn't get that.",
+        "Sorry, I missed that."
+      ],
+      "usage": "Gdy nie usłyszałeś końcówki zdania albo imienia. Brzmi bardzo naturalnie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I didn't catch that. What was your name?",
+          "pl": "Przepraszam, nie dosłyszałem. Jak miałeś na imię?"
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.what-do-you-mean",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 2,
+      "en": "What do you mean?",
+      "pl": "Co masz na myśli?",
+      "alternatives": [
+        "What do you mean by that?",
+        "Sorry, what do you mean?"
+      ],
+      "usage": "Gdy rozumiesz słowa, ale nie wiesz, o co dokładnie chodzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You can't go in there. — What do you mean? I've got a ticket.",
+          "pl": "Nie możesz tam wejść. — Jak to? Mam bilet."
+        }
+      ],
+      "note": "Z „do”: What DO you mean? Nie „What you mean?”.",
+      "tags": [
+        "rescue",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.how-do-you-spell",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 3,
+      "en": "How do you spell that?",
+      "pl": "Jak to się pisze?",
+      "alternatives": [
+        "How do you spell it?",
+        "Can you spell that?"
+      ],
+      "usage": "Gdy chcesz zapisać imię, nazwę ulicy albo słowo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's on Dorpstraat. — Sorry, how do you spell that?",
+          "pl": "To na Dorpstraat. — Przepraszam, jak to się pisze?"
+        }
+      ],
+      "tags": [
+        "rescue",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.write-it-down",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 4,
+      "en": "Can you write it down, please?",
+      "pl": "Możesz mi to zapisać?",
+      "alternatives": [
+        "Could you write it down, please?",
+        "Can you write it down for me?",
+        "Could you write that down?"
+      ],
+      "usage": "Gdy adres, numer albo nazwa są za trudne do zapamiętania ze słuchu.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Can you write it down, please? I'll show it to the taxi driver.",
+          "pl": "Możesz mi to zapisać? Pokażę taksówkarzowi."
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.let-me-think",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 5,
+      "en": "Let me think…",
+      "pl": "Niech pomyślę…",
+      "alternatives": [
+        "Hmm, let me think.",
+        "Let me see…",
+        "Give me a second to think."
+      ],
+      "usage": "Kupujesz sobie czas, zamiast milczeć albo mówić „eee”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where's the best club in Szczecin? — Hmm, let me think…",
+          "pl": "Gdzie jest najlepszy klub w Szczecinie? — Hmm, niech pomyślę…"
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.just-a-second",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 6,
+      "en": "Just a second.",
+      "pl": "Sekundkę.",
+      "alternatives": [
+        "Just a sec.",
+        "One second.",
+        "Hang on a second.",
+        "Give me a second."
+      ],
+      "usage": "Gdy potrzebujesz chwili: szukasz biletu, sprawdzasz telefon, szukasz słowa.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Just a second, I'm looking for my ticket.",
+          "pl": "Sekundkę, szukam biletu."
+        }
+      ],
+      "tags": [
+        "rescue",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.not-sure",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 7,
+      "en": "I'm not sure.",
+      "pl": "Nie jestem pewien.",
+      "alternatives": [
+        "I'm not really sure.",
+        "Not sure."
+      ],
+      "usage": "Gdy nie znasz odpowiedzi albo się wahasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is this the right bus? — I'm not sure. Let's ask the driver.",
+          "pl": "To dobry autobus? — Nie jestem pewien. Zapytajmy kierowcę."
+        }
+      ],
+      "tags": [
+        "rescue",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.english-not-great",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 8,
+      "en": "My English isn't great, but I'm learning.",
+      "pl": "Mój angielski nie jest super, ale się uczę.",
+      "alternatives": [
+        "My English isn't very good, but I'm learning.",
+        "My English isn't perfect, but I'm learning."
+      ],
+      "usage": "Dobry początek rozmowy — ludzie od razu mówią wolniej i prościej.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, my English isn't great, but I'm learning. — Your English is fine!",
+          "pl": "Sorry, mój angielski nie jest super, ale się uczę. — Twój angielski jest w porządku!"
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.dont-know-the-word",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 9,
+      "en": "Sorry, I don't know the word.",
+      "pl": "Przepraszam, nie znam tego słowa.",
+      "alternatives": [
+        "Sorry, I don't know that word.",
+        "I don't know the word in English."
+      ],
+      "usage": "Gdy brakuje ci słowa — po tym od razu opisz rzecz innymi słowami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I don't know the word. It's a thing for opening bottles.",
+          "pl": "Przepraszam, nie znam słowa. To takie coś do otwierania butelek."
+        }
+      ],
+      "tags": [
+        "rescue",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.is-that-right",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 10,
+      "en": "Is that right?",
+      "pl": "Dobrze mówię? / Czy to dobrze?",
+      "alternatives": [
+        "Is that correct?",
+        "Did I say that right?"
+      ],
+      "usage": "Gdy nie jesteś pewien, czy dobrze coś powiedziałeś albo zrozumiałeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "So the bus leaves at ten — is that right?",
+          "pl": "Czyli autobus odjeżdża o dziesiątej — dobrze rozumiem?"
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.can-you-show-me",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 11,
+      "en": "Can you show me?",
+      "pl": "Możesz mi pokazać?",
+      "alternatives": [
+        "Could you show me?",
+        "Can you show me, please?",
+        "Could you show me, please?"
+      ],
+      "usage": "Gdy wytłumaczenie drogi albo ćwiczenia słowami nie wystarcza.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I don't know this exercise. Can you show me?",
+          "pl": "Nie znam tego ćwiczenia. Możesz mi pokazać?"
+        }
+      ],
+      "tags": [
+        "rescue",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.no-idea",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 12,
+      "en": "No idea.",
+      "pl": "Nie mam pojęcia.",
+      "alternatives": [
+        "I have no idea.",
+        "No clue.",
+        "I've got no idea."
+      ],
+      "usage": "Luźno: nie wiesz i tyle.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Who's playing after Charlotte de Witte? — No idea. Let's check the app.",
+          "pl": "Kto gra po Charlotte de Witte? — Nie mam pojęcia. Sprawdźmy w aplikacji."
+        }
+      ],
+      "tags": [
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.never-mind",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 13,
+      "en": "Never mind.",
+      "pl": "Nieważne. / Mniejsza z tym.",
+      "alternatives": [
+        "Don't worry about it.",
+        "Forget it."
+      ],
+      "usage": "Gdy rezygnujesz z tłumaczenia albo pytania — bez złych emocji.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What was that? — Never mind, it's not important.",
+          "pl": "Co mówiłeś? — Nieważne, to nic ważnego."
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.could-you-help-me",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 14,
+      "en": "Could you help me, please?",
+      "pl": "Możesz mi pomóc?",
+      "alternatives": [
+        "Can you help me, please?",
+        "Could you help me?",
+        "Can you help me?"
+      ],
+      "usage": "Grzeczna prośba o pomoc do obcej osoby: na ulicy, w sklepie, na lotnisku.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Excuse me, could you help me, please? I'm lost.",
+          "pl": "Przepraszam, możesz mi pomóc? Zgubiłem się."
+        }
+      ],
+      "tags": [
+        "rescue",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.whats-this-called",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 15,
+      "en": "What's this called in English?",
+      "pl": "Jak to się nazywa po angielsku?",
+      "alternatives": [
+        "What's this in English?",
+        "What do you call this in English?"
+      ],
+      "usage": "Pokazujesz palcem rzecz i pytasz o nazwę. Najszybszy sposób na nowe słówka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's this called in English? — It's a foam roller.",
+          "pl": "Jak to się nazywa po angielsku? — To roller do masażu."
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.thing",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 16,
+      "en": "thing",
+      "pl": "rzecz, coś",
+      "alternatives": [],
+      "usage": "Ratunek, gdy nie znasz nazwy: „the thing for + czasownik z -ing”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need the thing for opening bottles.",
+          "pl": "Potrzebuję tego czegoś do otwierania butelek."
+        }
+      ],
+      "collocations": [
+        "the thing is…",
+        "the thing for…",
+        "a lot of things"
+      ],
+      "pronunciation": "„th” to język między zębami, bez „t”: nie „fing” ani „ting”.",
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.stuff",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 17,
+      "en": "stuff",
+      "pl": "rzeczy, takie tam",
+      "alternatives": [],
+      "usage": "Luźne słowo na „rzeczy”, gdy nie chcesz ich wymieniać.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Can I leave my stuff here?",
+          "pl": "Mogę tu zostawić swoje rzeczy?"
+        }
+      ],
+      "collocations": [
+        "my stuff",
+        "and stuff",
+        "gym stuff"
+      ],
+      "note": "„Stuff” jest niepoliczalne: „a lot of stuff”, nigdy „stuffs”.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.spell",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 18,
+      "en": "spell",
+      "pl": "przeliterować; pisać (się)",
+      "alternatives": [],
+      "usage": "Gdy ktoś pyta o pisownię imienia albo nazwy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you spell your name, please?",
+          "pl": "Możesz przeliterować swoje imię?"
+        }
+      ],
+      "collocations": [
+        "spell your name",
+        "how do you spell…",
+        "spell it out"
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.repeat",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 19,
+      "en": "repeat",
+      "pl": "powtórzyć",
+      "alternatives": [],
+      "usage": "Prośba o powtórzenie konkretnego fragmentu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Could you repeat the last part?",
+          "pl": "Możesz powtórzyć ostatnią część?"
+        }
+      ],
+      "collocations": [
+        "repeat that",
+        "repeat after me",
+        "repeat the question"
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.explain",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 20,
+      "en": "explain",
+      "pl": "wyjaśnić",
+      "alternatives": [],
+      "usage": "Gdy prosisz o wyjaśnienie albo sam coś tłumaczysz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's hard to explain in English.",
+          "pl": "Trudno to wyjaśnić po angielsku."
+        }
+      ],
+      "collocations": [
+        "explain something to someone",
+        "can you explain…",
+        "hard to explain"
+      ],
+      "note": "„Explain me” to błąd! Mówimy „explain it to me” albo „Can you explain…?”.",
+      "tags": [
+        "polish-trap",
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.actually",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 21,
+      "en": "actually",
+      "pl": "właściwie, tak naprawdę",
+      "alternatives": [],
+      "usage": "Gdy prostujesz coś albo dodajesz zaskakującą informację.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Actually, I'm from Szczecin, not Warsaw.",
+          "pl": "Właściwie to jestem ze Szczecina, nie z Warszawy."
+        }
+      ],
+      "collocations": [
+        "actually, …",
+        "I actually…",
+        "not actually"
+      ],
+      "note": "Fałszywy przyjaciel! „Actually” ≠ „aktualnie”. „Aktualnie” to „currently” albo „at the moment”.",
+      "tags": [
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.basically",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 22,
+      "en": "basically",
+      "pl": "w zasadzie, ogólnie mówiąc",
+      "alternatives": [],
+      "usage": "Gdy streszczasz coś prostymi słowami — świetne, gdy brakuje ci szczegółów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's basically a huge party in a forest.",
+          "pl": "To w zasadzie wielka impreza w lesie."
+        }
+      ],
+      "collocations": [
+        "basically, …",
+        "it's basically…",
+        "basically the same"
+      ],
+      "pronunciation": "Czytaj „bejsikli” — środkowe „al” prawie znika.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.loud",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 23,
+      "en": "loud",
+      "pl": "głośny, głośno",
+      "alternatives": [],
+      "usage": "Na koncercie, w klubie, w barze — gdy nic nie słychać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's really loud here! Let's go outside.",
+          "pl": "Strasznie tu głośno! Wyjdźmy na zewnątrz."
+        }
+      ],
+      "collocations": [
+        "too loud",
+        "really loud",
+        "loud music"
+      ],
+      "pronunciation": "„ou” czytaj jak „ał”: „ławd”.",
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.kind-of",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 24,
+      "en": "It's a kind of ___.",
+      "pl": "To taki rodzaj ___.",
+      "alternatives": [],
+      "usage": "Opisujesz rzecz, której nazwy nie znasz albo której nie ma po angielsku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's a kind of soup.",
+          "pl": "To taki rodzaj zupy."
+        },
+        {
+          "en": "It's a kind of Polish dumpling.",
+          "pl": "To taki polski pieróg."
+        },
+        {
+          "en": "It's a kind of electronic music.",
+          "pl": "To taki rodzaj muzyki elektronicznej."
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.like-but",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 25,
+      "en": "It's like ___, but ___.",
+      "pl": "To jak ___, tylko ___.",
+      "alternatives": [],
+      "usage": "Porównujesz z czymś znanym — rozmówca od razu łapie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's like a bar, but smaller.",
+          "pl": "To jak bar, tylko mniejszy."
+        },
+        {
+          "en": "It's like techno, but slower.",
+          "pl": "To jak techno, tylko wolniejsze."
+        }
+      ],
+      "note": "Rama z dwiema lukami: najpierw coś znanego, potem różnica.",
+      "tags": [
+        "rescue"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.rescue.word-for",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 26,
+      "en": "What's the word for ___?",
+      "pl": "Jak się mówi na ___?",
+      "alternatives": [],
+      "usage": "Pytasz o słowo, opisując rzecz po angielsku albo podając polskie słowo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the word for the thing you open bottles with?",
+          "pl": "Jak się nazywa to, czym się otwiera butelki?"
+        },
+        {
+          "en": "What's the word for 'mandat' in English?",
+          "pl": "Jak jest „mandat” po angielsku?"
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.looking-for",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 27,
+      "en": "I'm looking for ___.",
+      "pl": "Szukam ___.",
+      "alternatives": [],
+      "usage": "Gdy czegoś albo kogoś szukasz — w sklepie, na festiwalu, w hotelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm looking for the toilets.",
+          "pl": "Szukam toalet."
+        },
+        {
+          "en": "I'm looking for my friends.",
+          "pl": "Szukam znajomych."
+        },
+        {
+          "en": "I'm looking for a cash machine.",
+          "pl": "Szukam bankomatu."
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.do-you-mean",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 28,
+      "en": "Do you mean ___?",
+      "pl": "Chodzi ci o ___?",
+      "alternatives": [],
+      "usage": "Upewniasz się, czy dobrze zrozumiałeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you mean the main stage?",
+          "pl": "Chodzi ci o główną scenę?"
+        },
+        {
+          "en": "Do you mean tomorrow?",
+          "pl": "Masz na myśli jutro?"
+        }
+      ],
+      "tags": [
+        "rescue",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.bottle-opener",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 29,
+      "en": "Asking for a bottle opener",
+      "pl": "Prośba o otwieracz",
+      "alternatives": [],
+      "usage": "Nie znasz słowa — opisujesz rzecz i dostajesz, czego chcesz.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Excuse me, do you have a… sorry, I don't know the word. It's a thing for opening bottles.",
+          "pl": "Przepraszam, masz… sorry, nie znam słowa. Takie coś do otwierania butelek.",
+          "speaker": "A"
+        },
+        {
+          "en": "A bottle opener?",
+          "pl": "Otwieracz?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yes! A bottle opener.",
+          "pl": "Tak! Otwieracz.",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure, here you go.",
+          "pl": "Jasne, proszę.",
+          "speaker": "B"
+        },
+        {
+          "en": "Cheers!",
+          "pl": "Dzięki!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.rescue.info-point",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.rescue",
+      "order": 30,
+      "en": "At the festival info point",
+      "pl": "W punkcie informacji na festiwalu",
+      "alternatives": [],
+      "usage": "Szukasz miejsca, opisujesz je i prosisz, żeby ktoś mówił wolniej.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, I'm looking for the… it's a kind of big tent with food.",
+          "pl": "Cześć, szukam… to taki duży namiot z jedzeniem.",
+          "speaker": "A"
+        },
+        {
+          "en": "Do you mean the food court?",
+          "pl": "Chodzi ci o strefę gastronomiczną?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yes, that's it!",
+          "pl": "Tak, właśnie!",
+          "speaker": "A"
+        },
+        {
+          "en": "It's next to the main stage, on the left.",
+          "pl": "Jest obok głównej sceny, po lewej.",
+          "speaker": "B"
+        },
+        {
+          "en": "Sorry, could you speak a bit slower?",
+          "pl": "Sorry, możesz mówić trochę wolniej?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure. Next to the main stage. On the left.",
+          "pl": "Jasne. Obok głównej sceny. Po lewej.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "rescue",
+        "festival"
+      ],
+      "level": "A2"
+    }
+  ]
+}

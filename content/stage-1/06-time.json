@@ -1,0 +1,926 @@
+{
+  "module": {
+    "id": "s1.time",
+    "stage": 1,
+    "order": 6,
+    "title": "Godziny i umawianie się",
+    "titleEn": "Time & making plans",
+    "description": "Która godzina, o której się spotkamy, spóźniam się, ile to trwa — wszystko do umawiania się ze znajomymi.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s1.time.what-time-is-it",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 1,
+      "en": "What time is it?",
+      "pl": "Która godzina?",
+      "alternatives": [
+        "What's the time?",
+        "Do you know what time it is?",
+        "Have you got the time?"
+      ],
+      "usage": "Pytasz o godzinę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time is it? — It's almost midnight.",
+          "pl": "Która godzina? — Prawie północ."
+        }
+      ],
+      "tags": [
+        "time",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.half-past-seven",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 2,
+      "en": "It's half past seven.",
+      "pl": "Jest wpół do ósmej. (7:30)",
+      "alternatives": [
+        "It's seven thirty."
+      ],
+      "usage": "Podajesz godzinę „i pół”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time is it? — It's half past seven.",
+          "pl": "Która godzina? — Wpół do ósmej."
+        }
+      ],
+      "note": "Uwaga: „half past seven” to 7:30 — czyli po polsku „wpół do ÓSMEJ”. Liczysz od pełnej godziny, która minęła.",
+      "tags": [
+        "time",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.finish-work",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 3,
+      "en": "What time do you finish work?",
+      "pl": "O której kończysz pracę?",
+      "alternatives": [
+        "When do you finish work?",
+        "What time do you get off work?"
+      ],
+      "usage": "Pytasz, kiedy ktoś będzie wolny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time do you finish work? — Usually at four.",
+          "pl": "O której kończysz pracę? — Zwykle o czwartej."
+        }
+      ],
+      "tags": [
+        "time",
+        "work",
+        "gr:present-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.free-tomorrow",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 4,
+      "en": "Are you free tomorrow?",
+      "pl": "Masz jutro czas?",
+      "alternatives": [
+        "Are you free tomorrow evening?",
+        "Are you around tomorrow?"
+      ],
+      "usage": "Zanim zaproponujesz spotkanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you free tomorrow? — Yeah, after six.",
+          "pl": "Masz jutro czas? — Tak, po szóstej."
+        }
+      ],
+      "note": "„Masz czas?” to nie „Do you have time?” — naturalniej: „Are you free?”.",
+      "tags": [
+        "time",
+        "polish-trap",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.does-seven-work",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 5,
+      "en": "Does seven work for you?",
+      "pl": "Pasuje ci siódma?",
+      "alternatives": [
+        "Is seven OK for you?",
+        "Is seven good for you?",
+        "How about seven?"
+      ],
+      "usage": "Proponujesz godzinę i pytasz, czy pasuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Does seven work for you? — Perfect.",
+          "pl": "Pasuje ci siódma? — Idealnie."
+        }
+      ],
+      "tags": [
+        "time",
+        "gr:questions-do"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.time.running-late",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 6,
+      "en": "Sorry, I'm running late.",
+      "pl": "Sorry, trochę się spóźnię.",
+      "alternatives": [
+        "Sorry, I'm a bit late.",
+        "Sorry, I'm going to be late.",
+        "Sorry, I'll be a bit late."
+      ],
+      "usage": "SMS albo telefon, gdy wiesz, że nie zdążysz na czas.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I'm running late. The tram is stuck.",
+          "pl": "Sorry, spóźnię się. Tramwaj utknął."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.time.there-in-ten",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 7,
+      "en": "I'll be there in ten minutes.",
+      "pl": "Będę za dziesięć minut.",
+      "alternatives": [
+        "I'm ten minutes away.",
+        "I'll be there in about ten minutes."
+      ],
+      "usage": "Mówisz, za ile dotrzesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where are you? — I'll be there in ten minutes.",
+          "pl": "Gdzie jesteś? — Będę za dziesięć minut."
+        }
+      ],
+      "note": "„Za dziesięć minut” = „IN ten minutes”. Nie „after ten minutes”.",
+      "tags": [
+        "time",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.see-you-then",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 8,
+      "en": "See you then!",
+      "pl": "To do zobaczenia!",
+      "alternatives": [
+        "See you there!",
+        "See you later, then!"
+      ],
+      "usage": "Kończysz umawianie się — wszystko ustalone.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Let's meet at eight at the entrance. — OK, see you then!",
+          "pl": "Spotkajmy się o ósmej przy wejściu. — OK, do zobaczenia!"
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.what-time-good",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 9,
+      "en": "What time is good for you?",
+      "pl": "Która godzina ci pasuje?",
+      "alternatives": [
+        "What time works for you?",
+        "When is good for you?",
+        "When suits you?"
+      ],
+      "usage": "Pytasz, kiedy drugiej osobie pasuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time is good for you? — Anytime after five.",
+          "pl": "Która godzina ci pasuje? — Każda po piątej."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.busy-on-friday",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 10,
+      "en": "I'm busy on Friday.",
+      "pl": "W piątek jestem zajęty.",
+      "alternatives": [
+        "I'm busy on Friday, sorry.",
+        "Sorry, I can't on Friday."
+      ],
+      "usage": "Grzecznie odmawiasz terminu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How about Friday? — Sorry, I'm busy on Friday. What about Saturday?",
+          "pl": "Może w piątek? — Sorry, w piątek jestem zajęty. A sobota?"
+        }
+      ],
+      "note": "Dni tygodnia z „on”: on Friday, on Saturday morning.",
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.a-bit-later",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 11,
+      "en": "Can we make it a bit later?",
+      "pl": "Możemy trochę później?",
+      "alternatives": [
+        "Can we make it later?",
+        "Could we make it a bit later?",
+        "Can we do a bit later?"
+      ],
+      "usage": "Gdy proponowana godzina jest dla ciebie za wczesna.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's meet at six. — Can we make it a bit later? I finish work at six.",
+          "pl": "Spotkajmy się o szóstej. — Możemy trochę później? Kończę pracę o szóstej."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.time.gates-open",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 12,
+      "en": "What time do the gates open?",
+      "pl": "O której otwierają bramy?",
+      "alternatives": [
+        "When do the gates open?",
+        "What time do the doors open?"
+      ],
+      "usage": "Pytanie na festiwalu albo koncercie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time do the gates open? — At noon.",
+          "pl": "O której otwierają bramy? — W południe."
+        }
+      ],
+      "tags": [
+        "time",
+        "festival",
+        "gr:present-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.how-long-does-it-take",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 13,
+      "en": "How long does it take?",
+      "pl": "Ile to trwa? / Ile się jedzie?",
+      "alternatives": [
+        "How long does it take to get there?",
+        "How long is it?"
+      ],
+      "usage": "Pytasz o czas dojazdu albo trwania czegoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How long does it take to get to the festival? — About forty minutes by bus.",
+          "pl": "Ile się jedzie na festiwal? — Około czterdziestu minut autobusem."
+        }
+      ],
+      "tags": [
+        "time",
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.have-to-go",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 14,
+      "en": "Sorry, I have to go.",
+      "pl": "Sorry, muszę lecieć.",
+      "alternatives": [
+        "Sorry, I've got to go.",
+        "Sorry, I need to go.",
+        "Sorry, I gotta go."
+      ],
+      "usage": "Grzecznie kończysz rozmowę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I have to go. My train is at nine. — No worries, see you!",
+          "pl": "Sorry, muszę lecieć. Mam pociąg o dziewiątej. — Spoko, na razie!"
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.is-now-good",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 15,
+      "en": "Is now a good time?",
+      "pl": "Pasuje ci teraz? (czy możesz rozmawiać)",
+      "alternatives": [
+        "Is this a good time?",
+        "Have you got a minute?"
+      ],
+      "usage": "Dzwonisz albo zagadujesz kogoś zajętego.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi, is now a good time? — Sure, go ahead.",
+          "pl": "Cześć, możesz teraz rozmawiać? — Jasne, mów."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.time.oclock",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 16,
+      "en": "o'clock",
+      "pl": "pełna godzina",
+      "alternatives": [],
+      "usage": "Tylko przy pełnych godzinach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The gates open at ten o'clock.",
+          "pl": "Bramy otwierają o dziesiątej."
+        }
+      ],
+      "collocations": [
+        "at five o'clock",
+        "eleven o'clock",
+        "about eight o'clock"
+      ],
+      "note": "„O'clock” tylko przy pełnych godzinach: at seven o'clock, ale at seven thirty.",
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.quarter",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 17,
+      "en": "quarter",
+      "pl": "kwadrans",
+      "alternatives": [],
+      "usage": "Godziny z kwadransem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's quarter to nine.",
+          "pl": "Jest za kwadrans dziewiąta."
+        }
+      ],
+      "collocations": [
+        "quarter past",
+        "quarter to",
+        "a quarter of an hour"
+      ],
+      "pronunciation": "Czytaj „kłoter” — na początku „kł”, nie „kw”.",
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.early",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 18,
+      "en": "early",
+      "pl": "wcześnie; wczesny",
+      "alternatives": [],
+      "usage": "O porze dnia albo przyjściu przed czasem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I get up really early for work.",
+          "pl": "Wstaję naprawdę wcześnie do pracy."
+        }
+      ],
+      "collocations": [
+        "early in the morning",
+        "too early",
+        "get up early"
+      ],
+      "pronunciation": "Czytaj „erli” — „ear” jak w „learn”.",
+      "tags": [
+        "time",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.late",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 19,
+      "en": "late",
+      "pl": "późno; spóźniony",
+      "alternatives": [],
+      "usage": "O porze albo spóźnieniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Don't be late!",
+          "pl": "Nie spóźnij się!"
+        }
+      ],
+      "collocations": [
+        "late at night",
+        "too late",
+        "be late"
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.midnight",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 20,
+      "en": "midnight",
+      "pl": "północ",
+      "alternatives": [],
+      "usage": "Godzina 24:00.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The bar closes at midnight.",
+          "pl": "Bar zamykają o północy."
+        }
+      ],
+      "collocations": [
+        "at midnight",
+        "after midnight",
+        "until midnight"
+      ],
+      "tags": [
+        "time",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.tonight",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 21,
+      "en": "tonight",
+      "pl": "dziś wieczorem; dziś w nocy",
+      "alternatives": [],
+      "usage": "Plany na dzisiejszy wieczór.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Who's playing tonight?",
+          "pl": "Kto dziś gra?"
+        }
+      ],
+      "collocations": [
+        "tonight at nine",
+        "what's on tonight",
+        "see you tonight"
+      ],
+      "tags": [
+        "time",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.hour",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 22,
+      "en": "hour",
+      "pl": "godzina (czas trwania)",
+      "alternatives": [],
+      "usage": "Gdy mówisz, jak długo coś trwa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The train leaves in an hour.",
+          "pl": "Pociąg odjeżdża za godzinę."
+        }
+      ],
+      "collocations": [
+        "half an hour",
+        "an hour ago",
+        "in an hour"
+      ],
+      "note": "„H” jest nieme, więc „AN hour”, a nie „a hour”.",
+      "pronunciation": "Czytaj „ałer” — bez „h” na początku.",
+      "tags": [
+        "time",
+        "gr:articles"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.sharp",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 23,
+      "en": "sharp",
+      "pl": "punktualnie (o godzinie)",
+      "alternatives": [],
+      "usage": "Podkreślasz, że chodzi o dokładną godzinę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Be there at eight sharp!",
+          "pl": "Bądź punkt ósma!"
+        }
+      ],
+      "collocations": [
+        "at eight sharp",
+        "nine o'clock sharp",
+        "six sharp"
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.time.timetable",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 24,
+      "en": "timetable",
+      "pl": "rozkład; harmonogram",
+      "alternatives": [],
+      "usage": "Rozkład jazdy albo harmonogram występów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you seen the timetable for Saturday?",
+          "pl": "Widziałeś rozpiskę na sobotę?"
+        }
+      ],
+      "collocations": [
+        "the train timetable",
+        "check the timetable",
+        "the festival timetable"
+      ],
+      "note": "UK: timetable, US: schedule.",
+      "tags": [
+        "time",
+        "festival",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.lets-meet",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 25,
+      "en": "Let's meet ___.",
+      "pl": "Spotkajmy się ___.",
+      "alternatives": [],
+      "usage": "Proponujesz miejsce albo godzinę spotkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's meet at the main entrance.",
+          "pl": "Spotkajmy się przy głównym wejściu."
+        },
+        {
+          "en": "Let's meet at eight in front of the hotel.",
+          "pl": "Spotkajmy się o ósmej przed hotelem."
+        }
+      ],
+      "tags": [
+        "time",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.what-time-start",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 26,
+      "en": "What time does ___ start?",
+      "pl": "O której zaczyna się ___?",
+      "alternatives": [],
+      "usage": "Pytasz o godzinę rozpoczęcia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time does the party start?",
+          "pl": "O której zaczyna się impreza?"
+        },
+        {
+          "en": "What time does your shift start?",
+          "pl": "O której zaczynasz zmianę?"
+        }
+      ],
+      "note": "Pytanie w Present Simple o rozkład/plan: What time DOES it start?",
+      "tags": [
+        "time",
+        "gr:present-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.telling-time",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 27,
+      "en": "It's ___.",
+      "pl": "Jest ___ (godzina).",
+      "alternatives": [],
+      "usage": "Podajesz godzinę po brytyjsku: „past” = po, „to” = za.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's ten past six.",
+          "pl": "Jest dziesięć po szóstej."
+        },
+        {
+          "en": "It's twenty to eleven.",
+          "pl": "Jest za dwadzieścia jedenasta."
+        },
+        {
+          "en": "It's quarter past three.",
+          "pl": "Jest kwadrans po trzeciej."
+        }
+      ],
+      "note": "Możesz też mówić po prostu cyframi: six ten, ten forty, three fifteen — to zawsze jest OK.",
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.get-up-at",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 28,
+      "en": "I usually get up at ___.",
+      "pl": "Zwykle wstaję o ___.",
+      "alternatives": [],
+      "usage": "Opowiadasz o swoim dniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually get up at six.",
+          "pl": "Zwykle wstaję o szóstej."
+        },
+        {
+          "en": "I usually get up at half past five.",
+          "pl": "Zwykle wstaję o wpół do szóstej."
+        }
+      ],
+      "note": "Codzienne nawyki = Present Simple: I get up, I go, I finish.",
+      "tags": [
+        "time",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.meeting-tonight",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 29,
+      "en": "I'm meeting ___ tonight.",
+      "pl": "Dziś wieczorem spotykam się z ___.",
+      "alternatives": [],
+      "usage": "Mówisz o ustalonym planie na dziś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm meeting Kuba tonight.",
+          "pl": "Dziś wieczorem spotykam się z Kubą."
+        },
+        {
+          "en": "I'm meeting some friends from work tonight.",
+          "pl": "Dziś wieczorem spotykam się ze znajomymi z pracy."
+        }
+      ],
+      "note": "Ustalony plan = Present Continuous: I'm meeting… (już się umówiłeś). Po „meet” nie ma „with”.",
+      "tags": [
+        "time",
+        "gr:present-continuous-future",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.time.takes-about",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 30,
+      "en": "It takes about ___.",
+      "pl": "To zajmuje około ___.",
+      "alternatives": [],
+      "usage": "Mówisz, ile trwa dojazd albo czynność.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It takes about twenty minutes.",
+          "pl": "To zajmuje około dwudziestu minut."
+        },
+        {
+          "en": "It takes about two hours by car.",
+          "pl": "Samochodem jedzie się około dwóch godzin."
+        }
+      ],
+      "tags": [
+        "time",
+        "travel",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.saturday-party",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 31,
+      "en": "Making plans for Saturday",
+      "pl": "Umawianie się na sobotę",
+      "alternatives": [],
+      "usage": "Zapraszasz kogoś, ustalasz godzinę i miejsce.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Are you free on Saturday?",
+          "pl": "Masz czas w sobotę?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, why?",
+          "pl": "Tak, a co?",
+          "speaker": "B"
+        },
+        {
+          "en": "There's a house party at Kuba's. Do you want to come?",
+          "pl": "Kuba robi imprezę w domu. Chcesz przyjść?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure! What time does it start?",
+          "pl": "Jasne! O której się zaczyna?",
+          "speaker": "B"
+        },
+        {
+          "en": "Around nine. Let's meet at the tram stop at half past eight.",
+          "pl": "Około dziewiątej. Spotkajmy się na przystanku o wpół do dziewiątej.",
+          "speaker": "A"
+        },
+        {
+          "en": "Perfect. See you then!",
+          "pl": "Idealnie. To do zobaczenia!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.time.running-late-call",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.time",
+      "order": 32,
+      "en": "Running late",
+      "pl": "Spóźniam się",
+      "alternatives": [],
+      "usage": "Szybki telefon, gdy się spóźniasz.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hey, sorry, I'm running late.",
+          "pl": "Hej, sorry, spóźnię się.",
+          "speaker": "A"
+        },
+        {
+          "en": "No worries. How long?",
+          "pl": "Spoko. Ile?",
+          "speaker": "B"
+        },
+        {
+          "en": "I'll be there in ten minutes.",
+          "pl": "Będę za dziesięć minut.",
+          "speaker": "A"
+        },
+        {
+          "en": "OK, I'm at the bar inside.",
+          "pl": "OK, jestem przy barze w środku.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "missions": [
+    {
+      "id": "mission.s1-hostel-night",
+      "stage": 1,
+      "title": "Pierwszy wieczór w hostelu",
+      "titleEn": "First night at a hostel",
+      "setting": "Przyjeżdżasz do hostelu w Antwerpii. W kuchni poznajesz Sam z Manchesteru. Zagadaj, przedstaw się i umówcie się na wieczór.",
+      "claudeScenario": "We're in a hostel kitchen in Antwerp. You're Sam from Manchester, a friendly traveller. I'm Domin from Poland and I'm here for a festival. Start by asking if I'm new here.",
+      "tags": [
+        "travel",
+        "smalltalk"
+      ],
+      "steps": [
+        {
+          "them": "Hey! Are you new here?",
+          "themPl": "Hej! Jesteś tu nowy?",
+          "task": "Potwierdź, przedstaw się i powiedz, skąd jesteś.",
+          "answer": "Yeah, I just arrived. I'm Domin, I'm from Poland.",
+          "alt": [
+            "Yes, I'm Domin. I'm from Poland."
+          ]
+        },
+        {
+          "them": "Nice to meet you, Domin. I'm Sam.",
+          "themPl": "Miło cię poznać, Domin. Jestem Sam.",
+          "task": "Powiedz, że tobie też miło, i zapytaj, skąd jest.",
+          "answer": "Nice to meet you too. Where are you from?"
+        },
+        {
+          "them": "Manchester. Are you here on holiday?",
+          "themPl": "Z Manchesteru. Jesteś tu na wakacjach?",
+          "task": "Powiedz, że jesteś tu ze znajomymi na festiwal.",
+          "answer": "Yeah, I'm here with some friends for the festival.",
+          "alt": [
+            "I'm here with some friends for the festival."
+          ]
+        },
+        {
+          "them": "Oh, cool! How long are you staying?",
+          "themPl": "O, super! Na jak długo zostajesz?",
+          "task": "Powiedz, że zostajesz na tydzień.",
+          "answer": "I'm staying for a week.",
+          "alt": [
+            "For a week.",
+            "I'm here for a week."
+          ]
+        },
+        {
+          "them": "What do you do back home?",
+          "themPl": "A czym się zajmujesz w domu?",
+          "task": "Powiedz, gdzie pracujesz i co robisz w wolnym czasie.",
+          "answer": "I work in a warehouse. In my free time, I go to the gym."
+        },
+        {
+          "them": "Some of us are going to a bar tonight. Do you want to come?",
+          "themPl": "Kilka osób idzie dziś do baru. Chcesz iść z nami?",
+          "task": "Zgódź się i zapytaj, o której.",
+          "answer": "Sure! What time?",
+          "alt": [
+            "Sounds great! What time?",
+            "Yeah, sure. What time?"
+          ]
+        },
+        {
+          "them": "Around nine. We're meeting in the lobby.",
+          "themPl": "Około dziewiątej. Spotykamy się w lobby.",
+          "task": "Nie dosłyszałeś — poproś grzecznie o powtórzenie.",
+          "answer": "Sorry, could you say that again?",
+          "alt": [
+            "Sorry, I didn't catch that.",
+            "Sorry, can you say that again?"
+          ]
+        },
+        {
+          "them": "Nine o'clock, in the lobby.",
+          "themPl": "Dziewiąta, w lobby.",
+          "task": "Potwierdź i pożegnaj się na razie.",
+          "answer": "Perfect. See you then!",
+          "alt": [
+            "Great, see you then!",
+            "OK, see you later!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission.s1-festival-day",
+      "stage": 1,
+      "title": "Dzień na festiwalu",
+      "titleEn": "A day at the festival",
+      "setting": "Jesteś na Tomorrowland. Zamawiasz napoje, dopytujesz o rzeczy, których nie rozumiesz, i zagadujesz kogoś z Holandii.",
+      "claudeScenario": "We're at a big electronic music festival in Belgium. First you're a bartender, then a friendly festival-goer from Amsterdam. I'm Domin from Poland, my English is about A2. Start as the bartender.",
+      "tags": [
+        "festival",
+        "numbers",
+        "rescue"
+      ],
+      "steps": [
+        {
+          "them": "Hi there! What can I get you?",
+          "themPl": "Cześć! Co podać?",
+          "task": "Zamów dwa piwa.",
+          "answer": "Can I have two beers, please?",
+          "alt": [
+            "Two beers, please."
+          ]
+        },
+        {
+          "them": "That's fourteen euros.",
+          "themPl": "Czternaście euro.",
+          "task": "Zapytaj, czy możesz zapłacić kartą.",
+          "answer": "Can I pay by card?",
+          "alt": [
+            "Can I pay with a card?"
+          ]
+        },
+        {
+          "them": "Sorry, tokens only. You can buy them at the top-up point.",
+          "themPl": "Niestety, tylko żetony. Kupisz je w punkcie doładowań.",
+          "task": "Nie wiesz, co to „top-up point” — zapytaj, co to znaczy.",
+          "answer": "Sorry, what does 'top-up point' mean?",
+          "alt": [
+            "What does top-up point mean?"
+          ]
+        },
+        {
+          "them": "It's where you buy tokens — the tent next to the entrance.",
+          "themPl": "Tam kupujesz żetony — namiot obok wejścia.",
+          "task": "Podziękuj.",
+          "answer": "Thanks a lot!",
+          "alt": [
+            "Thanks!",
+            "Cheers!"
+          ]
+        },
+        {
+          "them": "Hey, great set, right?",
+          "themPl": "Hej, świetny set, co?",
+          "task": "Zgódź się z entuzjazmem i zapytaj, skąd jest.",
+          "answer": "Yeah, awesome! Where are you from?",
+          "alt": [
+            "Awesome! Where are you from?"
+          ]
+        },
+        {
+          "them": "Amsterdam! First time at Tomorrowland?",
+          "themPl": "Z Amsterdamu! Pierwszy raz na Tomorrowland?",
+          "task": "Powiedz, że tak, i że jesteś tu ze znajomymi.",
+          "answer": "Yeah, it's my first time. I'm here with some friends.",
+          "alt": [
+            "Yes, first time. I'm here with some friends."
+          ]
+        },
+        {
+          "them": "Nice! Who are you going to see tonight?",
+          "themPl": "Super! Kogo dziś zobaczysz?",
+          "task": "Powiedz, że nie jesteś pewien — sprawdzisz w aplikacji.",
+          "answer": "I'm not sure. Let me check the app.",
+          "alt": [
+            "I'm not sure. I'll check the app."
+          ]
+        },
+        {
+          "them": "Do you know what time it is?",
+          "themPl": "Wiesz, która godzina?",
+          "task": "Powiedz, że jest wpół do dziewiątej (8:30).",
+          "answer": "It's half past eight.",
+          "alt": [
+            "It's eight thirty."
+          ]
+        },
+        {
+          "them": "Oh no, I'm late for my friends! See you around!",
+          "themPl": "O nie, spóźnię się do znajomych! Na razie!",
+          "task": "Pożegnaj się ciepło.",
+          "answer": "Take care! See you later!",
+          "alt": [
+            "See you later!",
+            "See you!"
+          ]
+        }
+      ]
+    }
+  ]
+}

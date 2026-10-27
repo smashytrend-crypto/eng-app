@@ -1,0 +1,885 @@
+{
+  "module": {
+    "id": "s1.about-you",
+    "stage": 1,
+    "order": 3,
+    "title": "Przedstawianie się",
+    "titleEn": "Introducing yourself",
+    "description": "Kim jesteś, skąd jesteś, gdzie mieszkasz i pracujesz, ile masz lat — plus pytania, żeby rozmowa szła w obie strony.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s1.about-you.where-are-you-from",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 1,
+      "en": "Where are you from?",
+      "pl": "Skąd jesteś?",
+      "alternatives": [
+        "Where are you from, then?",
+        "So where are you from?"
+      ],
+      "usage": "Pierwsze pytanie przy poznawaniu kogoś z innego kraju — na festiwalu, w hostelu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where are you from? — I'm from Poland. What about you?",
+          "pl": "Skąd jesteś? — Jestem z Polski. A ty?"
+        }
+      ],
+      "note": "Na końcu jest „from” — nie przenoś go na początek („From where are you?” brzmi dziwnie).",
+      "tags": [
+        "smalltalk",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.what-about-you",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 2,
+      "en": "What about you?",
+      "pl": "A ty? / A u ciebie?",
+      "alternatives": [
+        "How about you?",
+        "And you?"
+      ],
+      "usage": "Odbijasz pytanie — rozmowa idzie w obie strony.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm from Poland. What about you?",
+          "pl": "Jestem z Polski. A ty?"
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.where-do-you-live",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 3,
+      "en": "Where do you live?",
+      "pl": "Gdzie mieszkasz?",
+      "alternatives": [],
+      "usage": "Pytanie o miejsce zamieszkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where do you live? — In Szczecin, near the river.",
+          "pl": "Gdzie mieszkasz? — W Szczecinie, niedaleko rzeki."
+        }
+      ],
+      "note": "W pytaniu w Present Simple potrzebne jest „do”: Where DO you live?",
+      "tags": [
+        "gr:present-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.what-do-you-do",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 4,
+      "en": "What do you do?",
+      "pl": "Czym się zajmujesz?",
+      "alternatives": [
+        "What do you do for work?",
+        "What do you do for a living?"
+      ],
+      "usage": "Pytanie o pracę. Bardzo częste przy poznawaniu kogoś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "So, what do you do? — I work in a warehouse.",
+          "pl": "To czym się zajmujesz? — Pracuję w magazynie."
+        }
+      ],
+      "note": "To pytanie o zawód, nie o to, co robisz w tej chwili (to byłoby „What are you doing?”).",
+      "tags": [
+        "work",
+        "polish-trap",
+        "gr:present-simple",
+        "gr:questions-do",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.how-old-are-you",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 5,
+      "en": "How old are you?",
+      "pl": "Ile masz lat?",
+      "alternatives": [],
+      "usage": "Pytanie o wiek — w luźnej rozmowie raczej między rówieśnikami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How old are you? — I'm twenty-eight.",
+          "pl": "Ile masz lat? — Mam dwadzieścia osiem."
+        }
+      ],
+      "note": "Po angielsku wiek „się jest”, a nie „się ma”: How old ARE you?",
+      "tags": [
+        "polish-trap",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.im-twenty-five",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 6,
+      "en": "I'm twenty-five.",
+      "pl": "Mam 25 lat.",
+      "alternatives": [
+        "I'm twenty-five years old."
+      ],
+      "usage": "Podajesz swój wiek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm twenty-five. And you?",
+          "pl": "Mam dwadzieścia pięć lat. A ty?"
+        }
+      ],
+      "note": "Polska pułapka: NIE „I have 25 years”. Wiek podajemy z „be”: I'm 25.",
+      "tags": [
+        "polish-trap",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.here-on-holiday",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 7,
+      "en": "Are you here on holiday?",
+      "pl": "Jesteś tu na wakacjach?",
+      "alternatives": [
+        "Are you here on vacation?",
+        "Are you on holiday?"
+      ],
+      "usage": "Pytanie do kogoś poznanego w podróży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you here on holiday? — No, I'm here for work.",
+          "pl": "Jesteś tu na wakacjach? — Nie, jestem tu służbowo."
+        }
+      ],
+      "note": "UK: „on holiday”, US: „on vacation”.",
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.here-with-friends",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 8,
+      "en": "I'm here with some friends.",
+      "pl": "Jestem tu ze znajomymi.",
+      "alternatives": [
+        "I'm here with friends.",
+        "I'm here with my friends."
+      ],
+      "usage": "Mówisz, z kim przyjechałeś albo przyszedłeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you here alone? — No, I'm here with some friends.",
+          "pl": "Jesteś tu sam? — Nie, jestem ze znajomymi."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.this-is-my-friend",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 9,
+      "en": "This is my friend Kuba.",
+      "pl": "To mój kumpel Kuba.",
+      "alternatives": [
+        "This is my mate Kuba.",
+        "Meet my friend Kuba."
+      ],
+      "usage": "Przedstawiasz kogoś innym.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sam, this is my friend Kuba. Kuba, this is Sam.",
+          "pl": "Sam, to mój kumpel Kuba. Kuba, to jest Sam."
+        }
+      ],
+      "note": "Przedstawiając kogoś mówisz „This is…”, nie „He is…”.",
+      "tags": [
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.whats-your-name",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 10,
+      "en": "What's your name?",
+      "pl": "Jak masz na imię?",
+      "alternatives": [
+        "And your name is…?",
+        "And you are…?"
+      ],
+      "usage": "Pytanie o imię.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's your name? — I'm Lisa.",
+          "pl": "Jak masz na imię? — Lisa."
+        }
+      ],
+      "tags": [
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.name-again",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 11,
+      "en": "Sorry, what was your name again?",
+      "pl": "Przepraszam, jak miałeś na imię?",
+      "alternatives": [
+        "Sorry, what's your name again?",
+        "Sorry, I forgot your name."
+      ],
+      "usage": "Gdy zapomniałeś czyjeś imię. Wszyscy to robią — i wszyscy tak pytają.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, what was your name again? — It's Lisa. — Lisa, right. Sorry!",
+          "pl": "Sorry, jak miałaś na imię? — Lisa. — Lisa, jasne. Przepraszam!"
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.do-you-live-here",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 12,
+      "en": "Do you live here?",
+      "pl": "Mieszkasz tutaj?",
+      "alternatives": [
+        "Do you live around here?",
+        "Are you from around here?"
+      ],
+      "usage": "Pytanie do kogoś poznanego w obcym mieście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you live here? — Yeah, I've lived in Antwerp for five years.",
+          "pl": "Mieszkasz tutaj? — Tak, mieszkam w Antwerpii od pięciu lat."
+        }
+      ],
+      "tags": [
+        "gr:present-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.how-long-staying",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 13,
+      "en": "How long are you staying?",
+      "pl": "Na jak długo zostajesz?",
+      "alternatives": [
+        "How long are you here for?",
+        "How long are you staying here?"
+      ],
+      "usage": "Pytanie o długość pobytu — w hostelu, na festiwalu, w podróży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How long are you staying? — Just till Sunday.",
+          "pl": "Na jak długo zostajesz? — Tylko do niedzieli."
+        }
+      ],
+      "note": "Present Continuous dla ustalonych planów: are you staying = zostajesz (już wiadomo).",
+      "tags": [
+        "travel",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.staying-for-a-week",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 14,
+      "en": "I'm staying for a week.",
+      "pl": "Zostaję na tydzień.",
+      "alternatives": [
+        "I'm here for a week.",
+        "I'm staying for one week."
+      ],
+      "usage": "Mówisz, jak długo zostajesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm staying for a week, then I'm going to Amsterdam.",
+          "pl": "Zostaję na tydzień, potem jadę do Amsterdamu."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.learning-english",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 15,
+      "en": "I've been learning English for a few months.",
+      "pl": "Uczę się angielskiego od kilku miesięcy.",
+      "alternatives": [
+        "I've been learning English for a couple of months."
+      ],
+      "usage": "Gdy ktoś chwali twój angielski albo pyta, jak długo się uczysz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Your English is good! — Thanks! I've been learning English for a few months.",
+          "pl": "Dobrze mówisz po angielsku! — Dzięki! Uczę się od kilku miesięcy."
+        }
+      ],
+      "note": "Polskie „uczę się od…” to po angielsku „I've been learning… for…”. Nie „I learn English since…”.",
+      "tags": [
+        "polish-trap",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.about-you.job",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 16,
+      "en": "job",
+      "pl": "praca (etat, stanowisko)",
+      "alternatives": [],
+      "usage": "Gdy mówisz o swojej konkretnej pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I like my job, but it's hard work.",
+          "pl": "Lubię swoją pracę, ale to ciężka robota."
+        }
+      ],
+      "collocations": [
+        "a good job",
+        "my job",
+        "a full-time job"
+      ],
+      "note": "„Job” to konkretna praca (policzalne). „Work” to praca ogólnie: „I'm at work”, nie „at job”.",
+      "tags": [
+        "work",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.hometown",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 17,
+      "en": "hometown",
+      "pl": "rodzinne miasto",
+      "alternatives": [],
+      "usage": "Miasto, z którego pochodzisz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Szczecin is my hometown.",
+          "pl": "Szczecin to moje rodzinne miasto."
+        }
+      ],
+      "collocations": [
+        "my hometown",
+        "go back to my hometown",
+        "a small hometown"
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.border",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 18,
+      "en": "border",
+      "pl": "granica",
+      "alternatives": [],
+      "usage": "Przydatne, gdy tłumaczysz, gdzie leży Szczecin.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Szczecin is near the German border, about two hours from Berlin.",
+          "pl": "Szczecin leży blisko granicy z Niemcami, około dwóch godzin od Berlina."
+        }
+      ],
+      "collocations": [
+        "the German border",
+        "near the border",
+        "cross the border"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.city",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 19,
+      "en": "city",
+      "pl": "miasto (duże)",
+      "alternatives": [],
+      "usage": "Opisujesz swoje miasto.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's a port city in the north-west of Poland.",
+          "pl": "To miasto portowe na północnym zachodzie Polski."
+        }
+      ],
+      "collocations": [
+        "a big city",
+        "the city centre",
+        "a port city"
+      ],
+      "note": "„City” — duże miasto, „town” — mniejsze miasteczko.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.free-time",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 20,
+      "en": "free time",
+      "pl": "czas wolny",
+      "alternatives": [],
+      "usage": "Gdy mówisz o tym, co robisz po pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I don't have much free time this week.",
+          "pl": "W tym tygodniu nie mam dużo wolnego czasu."
+        }
+      ],
+      "collocations": [
+        "in my free time",
+        "a lot of free time",
+        "no free time"
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.favourite",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 21,
+      "en": "favourite",
+      "pl": "ulubiony",
+      "alternatives": [],
+      "usage": "Pytasz albo mówisz o ulubionych rzeczach — DJ-ach, jedzeniu, grach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Who's your favourite DJ?",
+          "pl": "Kto jest twoim ulubionym DJ-em?"
+        }
+      ],
+      "collocations": [
+        "my favourite DJ",
+        "favourite food",
+        "favourite game"
+      ],
+      "note": "UK: favourite, US: favorite — obie formy są poprawne.",
+      "pronunciation": "Czytaj „fejwryt” — środkowe „ou” prawie znika.",
+      "tags": [
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.originally",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 22,
+      "en": "originally",
+      "pl": "z pochodzenia, pierwotnie",
+      "alternatives": [],
+      "usage": "Gdy mieszkasz gdzie indziej, niż się urodziłeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm originally from a small town, but I live in Szczecin now.",
+          "pl": "Pochodzę z małego miasteczka, ale teraz mieszkam w Szczecinie."
+        }
+      ],
+      "collocations": [
+        "originally from…",
+        "I'm originally from…",
+        "originally Polish"
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s1.about-you.abroad",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 23,
+      "en": "abroad",
+      "pl": "za granicą, za granicę",
+      "alternatives": [],
+      "usage": "Praca, wyjazdy, życie poza Polską.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I want to work abroad one day.",
+          "pl": "Kiedyś chcę popracować za granicą."
+        }
+      ],
+      "collocations": [
+        "live abroad",
+        "work abroad",
+        "go abroad"
+      ],
+      "note": "Bez „to”: „go abroad”, nie „go to abroad”.",
+      "tags": [
+        "polish-trap",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.im-from",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 24,
+      "en": "I'm from ___.",
+      "pl": "Jestem z ___.",
+      "alternatives": [],
+      "usage": "Mówisz, skąd jesteś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm from Poland.",
+          "pl": "Jestem z Polski."
+        },
+        {
+          "en": "I'm from Szczecin.",
+          "pl": "Jestem ze Szczecina."
+        },
+        {
+          "en": "I'm from a small town near Szczecin.",
+          "pl": "Jestem z małego miasteczka pod Szczecinem."
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.i-live-in",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 25,
+      "en": "I live in ___.",
+      "pl": "Mieszkam w ___.",
+      "alternatives": [],
+      "usage": "Gdzie mieszkasz — miasto, dzielnica, mieszkanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I live in Szczecin.",
+          "pl": "Mieszkam w Szczecinie."
+        },
+        {
+          "en": "I live in a flat near the city centre.",
+          "pl": "Mieszkam w mieszkaniu blisko centrum."
+        }
+      ],
+      "note": "Present Simple, bo to stała sytuacja: I live (nie „I am living”).",
+      "tags": [
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.i-work-in",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 26,
+      "en": "I work in ___.",
+      "pl": "Pracuję w ___.",
+      "alternatives": [],
+      "usage": "Mówisz o branży albo miejscu pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I work in construction.",
+          "pl": "Pracuję na budowie."
+        },
+        {
+          "en": "I work in a warehouse.",
+          "pl": "Pracuję w magazynie."
+        },
+        {
+          "en": "I work in logistics.",
+          "pl": "Pracuję w logistyce."
+        }
+      ],
+      "note": "„In” + branża albo miejsce. Z nazwą zawodu: „I work as a…”.",
+      "tags": [
+        "work",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.i-work-as",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 27,
+      "en": "I work as ___.",
+      "pl": "Pracuję jako ___.",
+      "alternatives": [],
+      "usage": "Mówisz, jaki masz zawód.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I work as a driver.",
+          "pl": "Pracuję jako kierowca."
+        },
+        {
+          "en": "I work as an electrician.",
+          "pl": "Pracuję jako elektryk."
+        }
+      ],
+      "note": "Przed zawodem zawsze „a” albo „an”: I work as A driver, I'm AN electrician.",
+      "tags": [
+        "work",
+        "gr:articles",
+        "gr:present-simple",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.here-for",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 28,
+      "en": "I'm here for ___.",
+      "pl": "Jestem tu na / dla ___.",
+      "alternatives": [],
+      "usage": "Mówisz, po co albo na jak długo przyjechałeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm here for the festival.",
+          "pl": "Jestem tu na festiwal."
+        },
+        {
+          "en": "I'm here for work.",
+          "pl": "Jestem tu służbowo."
+        },
+        {
+          "en": "I'm here for a few days.",
+          "pl": "Jestem tu na kilka dni."
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.in-my-free-time",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 29,
+      "en": "In my free time, I ___.",
+      "pl": "W wolnym czasie ___.",
+      "alternatives": [],
+      "usage": "Opowiadasz o swoich nawykach i pasjach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "In my free time, I go to the gym.",
+          "pl": "W wolnym czasie chodzę na siłownię."
+        },
+        {
+          "en": "In my free time, I play games and listen to techno.",
+          "pl": "W wolnym czasie gram w gry i słucham techno."
+        }
+      ],
+      "note": "Nawyki = Present Simple: I go, I play, I listen (bez „am”).",
+      "tags": [
+        "gr:present-simple",
+        "gym",
+        "games",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.hostel-intro",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 30,
+      "en": "Meeting someone at a hostel",
+      "pl": "Poznajesz kogoś w hostelu",
+      "alternatives": [],
+      "usage": "Przedstawiasz się, mówisz skąd jesteś i po co przyjechałeś.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hi, I'm Domin. I'm from Poland.",
+          "pl": "Cześć, jestem Domin. Jestem z Polski.",
+          "speaker": "A"
+        },
+        {
+          "en": "Hey, I'm Sam. Nice to meet you!",
+          "pl": "Hej, jestem Sam. Miło cię poznać!",
+          "speaker": "B"
+        },
+        {
+          "en": "Nice to meet you too. Where are you from?",
+          "pl": "Mnie też. Skąd jesteś?",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm from Manchester. Are you here on holiday?",
+          "pl": "Z Manchesteru. Jesteś tu na wakacjach?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yeah, I'm here with some friends for the festival.",
+          "pl": "Tak, jestem ze znajomymi na festiwalu.",
+          "speaker": "A"
+        },
+        {
+          "en": "Awesome!",
+          "pl": "Super!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.about-you.what-do-you-do-dialog",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.about-you",
+      "order": 31,
+      "en": "So, what do you do?",
+      "pl": "Rozmowa o pracy",
+      "alternatives": [],
+      "usage": "Rozmowa o pracy — krótko i naturalnie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "So, what do you do, Domin?",
+          "pl": "To czym się zajmujesz, Domin?",
+          "speaker": "A"
+        },
+        {
+          "en": "I work in a warehouse. What about you?",
+          "pl": "Pracuję w magazynie. A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "I'm a nurse. Do you like your job?",
+          "pl": "Jestem pielęgniarką. Lubisz swoją pracę?",
+          "speaker": "A"
+        },
+        {
+          "en": "It's hard work, but yeah, I like it. And the gym after work helps!",
+          "pl": "To ciężka robota, ale tak, lubię. A siłownia po pracy pomaga!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "work",
+        "gym"
+      ],
+      "level": "A2"
+    }
+  ]
+}

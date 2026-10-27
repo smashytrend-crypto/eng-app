@@ -1,0 +1,881 @@
+{
+  "module": {
+    "id": "s1.dates-plans",
+    "stage": 1,
+    "order": 7,
+    "title": "Dni, daty i plany",
+    "titleEn": "Days, dates & plans",
+    "description": "Daty, dni tygodnia, urodziny i plany na weekend: going to i Present Continuous dla tego, co już ustalone.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s1.dates-plans.whats-the-date",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 1,
+      "en": "What's the date today?",
+      "pl": "Którego jest dzisiaj?",
+      "alternatives": [
+        "What's today's date?",
+        "What's the date?"
+      ],
+      "usage": "Pytasz o datę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the date today? — It's the third.",
+          "pl": "Którego jest dzisiaj? — Trzeciego."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.first-of-july",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 2,
+      "en": "It's the first of July.",
+      "pl": "Jest pierwszy lipca.",
+      "alternatives": [
+        "It's July the first.",
+        "It's July first."
+      ],
+      "usage": "Podajesz datę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "When does it start? — On the first of July.",
+          "pl": "Kiedy się zaczyna? — Pierwszego lipca."
+        }
+      ],
+      "note": "UK: the first of July, US: July first. Daty czytamy liczebnikami porządkowymi: first, second, third…",
+      "tags": [
+        "time",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.when-birthday",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 3,
+      "en": "When's your birthday?",
+      "pl": "Kiedy masz urodziny?",
+      "alternatives": [],
+      "usage": "Pytasz o urodziny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "When's your birthday? — In March. The twelfth.",
+          "pl": "Kiedy masz urodziny? — W marcu. Dwunastego."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.birthday-in-march",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 4,
+      "en": "My birthday is in March.",
+      "pl": "Urodziny mam w marcu.",
+      "alternatives": [
+        "My birthday's in March.",
+        "It's in March."
+      ],
+      "usage": "Mówisz, w jakim miesiącu masz urodziny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My birthday is in March, on the twelfth.",
+          "pl": "Urodziny mam w marcu, dwunastego."
+        }
+      ],
+      "note": "Miesiące z „in”, dni i daty z „on”: in March, on Monday, on the 12th of March.",
+      "tags": [
+        "time",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.going-to-berlin-friday",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 5,
+      "en": "I'm going to Berlin on Friday.",
+      "pl": "W piątek jadę do Berlina.",
+      "alternatives": [
+        "I'm going to Berlin this Friday.",
+        "On Friday I'm going to Berlin."
+      ],
+      "usage": "Mówisz o ustalonym wyjeździe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going to Berlin on Friday. There's a big party at Tresor.",
+          "pl": "W piątek jadę do Berlina. Jest duża impreza w Tresorze."
+        }
+      ],
+      "note": "Ustalony plan = Present Continuous: I'm going (bilety kupione, wszystko jasne).",
+      "tags": [
+        "gr:present-continuous-future",
+        "travel",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.learn-english-this-year",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 6,
+      "en": "I'm going to learn English this year.",
+      "pl": "W tym roku nauczę się angielskiego.",
+      "alternatives": [
+        "This year I'm going to learn English."
+      ],
+      "usage": "Mówisz o postanowieniu — to twój cel.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going to learn English this year. I want to talk to people at festivals.",
+          "pl": "W tym roku nauczę się angielskiego. Chcę rozmawiać z ludźmi na festiwalach."
+        }
+      ],
+      "note": "Zamiar = „going to” + czasownik. Polskie „nauczę się” to tu „I'm going to learn”, nie „I will learn”.",
+      "tags": [
+        "gr:going-to"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.what-day-is-it",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 7,
+      "en": "What day is it today?",
+      "pl": "Jaki dziś dzień?",
+      "alternatives": [
+        "What day is it?",
+        "What's the day today?"
+      ],
+      "usage": "Pytasz o dzień tygodnia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What day is it today? — It's Thursday. Almost the weekend!",
+          "pl": "Jaki dziś dzień? — Czwartek. Prawie weekend!"
+        }
+      ],
+      "tags": [
+        "time",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.ive-got-plans",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 8,
+      "en": "I've got plans.",
+      "pl": "Mam plany. (jestem umówiony)",
+      "alternatives": [
+        "I have plans.",
+        "I've already got plans.",
+        "I already have plans."
+      ],
+      "usage": "Grzecznie mówisz, że nie możesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you want to come tonight? — Sorry, I've got plans.",
+          "pl": "Chcesz przyjść dziś wieczorem? — Sorry, mam plany."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.maybe-next-time",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 9,
+      "en": "Maybe next time.",
+      "pl": "Może następnym razem.",
+      "alternatives": [
+        "Maybe another time.",
+        "Next time, maybe."
+      ],
+      "usage": "Odmawiasz, ale zostawiasz otwarte drzwi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I can't tonight. Maybe next time? — Sure!",
+          "pl": "Sorry, dziś nie mogę. Może następnym razem? — Jasne!"
+        }
+      ],
+      "tags": [
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.sounds-like-a-plan",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 10,
+      "en": "Sounds like a plan!",
+      "pl": "Brzmi jak plan! / Jesteśmy umówieni!",
+      "alternatives": [
+        "That sounds like a plan!",
+        "Sounds good!"
+      ],
+      "usage": "Akceptujesz propozycję — luźno i z entuzjazmem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Gym at six, then pizza? — Sounds like a plan!",
+          "pl": "Siłka o szóstej, potem pizza? — Jesteśmy umówieni!"
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s1.dates-plans.cant-wait",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 11,
+      "en": "I can't wait!",
+      "pl": "Nie mogę się doczekać!",
+      "alternatives": [
+        "I can't wait for it!",
+        "I'm so excited!"
+      ],
+      "usage": "Gdy czekasz na coś z ekscytacją — festiwal, wakacje, koncert.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Tomorrowland is in two weeks. I can't wait!",
+          "pl": "Tomorrowland za dwa tygodnie. Nie mogę się doczekać!"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.in-two-weeks",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 12,
+      "en": "It's in two weeks.",
+      "pl": "To za dwa tygodnie.",
+      "alternatives": [
+        "It's two weeks from now.",
+        "In two weeks."
+      ],
+      "usage": "Mówisz, za ile czasu coś się wydarzy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "When's the festival? — It's in two weeks.",
+          "pl": "Kiedy jest festiwal? — Za dwa tygodnie."
+        }
+      ],
+      "note": "„Za dwa tygodnie” = „IN two weeks”. Nie „after two weeks” ani „for two weeks”.",
+      "tags": [
+        "time",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.day-after-tomorrow",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 13,
+      "en": "The day after tomorrow.",
+      "pl": "Pojutrze.",
+      "alternatives": [
+        "Day after tomorrow."
+      ],
+      "usage": "Dzień po jutrze — po angielsku nie ma na to jednego słowa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "When are you leaving? — The day after tomorrow.",
+          "pl": "Kiedy wyjeżdżasz? — Pojutrze."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.nothing-special",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 14,
+      "en": "Nothing special.",
+      "pl": "Nic specjalnego.",
+      "alternatives": [
+        "Nothing much.",
+        "Nothing really."
+      ],
+      "usage": "Gdy ktoś pyta o plany, a ty nie masz żadnych.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What are you doing tonight? — Nothing special. Maybe Netflix.",
+          "pl": "Co robisz dziś wieczorem? — Nic specjalnego. Może Netflix."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.tomorrow",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 15,
+      "en": "tomorrow",
+      "pl": "jutro",
+      "alternatives": [],
+      "usage": "Plany na jutro.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm working tomorrow morning.",
+          "pl": "Jutro rano pracuję."
+        }
+      ],
+      "collocations": [
+        "see you tomorrow",
+        "tomorrow morning",
+        "tomorrow night"
+      ],
+      "tags": [
+        "time",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.next",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 16,
+      "en": "next",
+      "pl": "następny, przyszły",
+      "alternatives": [],
+      "usage": "Przyszły tydzień, miesiąc, lato.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Next summer I'm going to Tomorrowland.",
+          "pl": "Następnego lata jadę na Tomorrowland."
+        }
+      ],
+      "collocations": [
+        "next week",
+        "next Friday",
+        "next summer"
+      ],
+      "note": "„Next week” bez „the” i bez „in”: I'm busy next week (nie „in the next week”).",
+      "tags": [
+        "time",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.last",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 17,
+      "en": "last",
+      "pl": "ostatni, zeszły",
+      "alternatives": [],
+      "usage": "Zeszły tydzień, wczorajsza noc.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Last night was crazy!",
+          "pl": "Wczorajsza noc była szalona!"
+        }
+      ],
+      "collocations": [
+        "last week",
+        "last night",
+        "last summer"
+      ],
+      "note": "„Last night” = wczoraj wieczorem/w nocy. „Yesterday night” brzmi nienaturalnie.",
+      "tags": [
+        "time",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.holiday",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 18,
+      "en": "holiday",
+      "pl": "wakacje, urlop",
+      "alternatives": [],
+      "usage": "Wyjazdy i wolne od pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going on holiday in July.",
+          "pl": "W lipcu jadę na urlop."
+        }
+      ],
+      "collocations": [
+        "on holiday",
+        "summer holiday",
+        "go on holiday"
+      ],
+      "note": "UK: holiday, US: vacation. „Wakacje” to „holiday”, nie „vacations”.",
+      "tags": [
+        "time",
+        "travel",
+        "uk-us",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.plan",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 19,
+      "en": "plan",
+      "pl": "plan; planować",
+      "alternatives": [],
+      "usage": "Rozmowy o planach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are your plans for the summer?",
+          "pl": "Jakie masz plany na lato?"
+        }
+      ],
+      "collocations": [
+        "make plans",
+        "plans for the weekend",
+        "plan to do something"
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.month",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 20,
+      "en": "month",
+      "pl": "miesiąc",
+      "alternatives": [],
+      "usage": "Częstotliwość i czas.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I go to a techno party once a month.",
+          "pl": "Raz w miesiącu chodzę na imprezę techno."
+        }
+      ],
+      "collocations": [
+        "next month",
+        "once a month",
+        "in a month"
+      ],
+      "pronunciation": "Końcówka „nθ” — język między zębami: „manθ”, nie „mant”.",
+      "tags": [
+        "time",
+        "gr:present-simple",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.date",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 21,
+      "en": "date",
+      "pl": "data; randka",
+      "alternatives": [],
+      "usage": "Data wydarzenia — albo randka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the date of the festival?",
+          "pl": "Jaka jest data festiwalu?"
+        }
+      ],
+      "collocations": [
+        "what's the date",
+        "a first date",
+        "save the date"
+      ],
+      "note": "„Date” to też randka: „go on a date” = iść na randkę.",
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.ticket",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 22,
+      "en": "ticket",
+      "pl": "bilet",
+      "alternatives": [],
+      "usage": "Bilety na festiwal, koncert, pociąg.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've already got my ticket!",
+          "pl": "Mam już bilet!"
+        }
+      ],
+      "collocations": [
+        "buy a ticket",
+        "a weekend ticket",
+        "tickets are sold out"
+      ],
+      "tags": [
+        "festival",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.soon",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 23,
+      "en": "soon",
+      "pl": "wkrótce, niedługo",
+      "alternatives": [],
+      "usage": "Coś wydarzy się niedługo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "See you soon!",
+          "pl": "Do zobaczenia wkrótce!"
+        }
+      ],
+      "collocations": [
+        "see you soon",
+        "very soon",
+        "as soon as possible"
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.going-to-this-weekend",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 24,
+      "en": "I'm going to ___ this weekend.",
+      "pl": "W ten weekend zamierzam ___.",
+      "alternatives": [],
+      "usage": "Mówisz o swoich zamiarach na weekend.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going to visit my parents this weekend.",
+          "pl": "W ten weekend odwiedzę rodziców."
+        },
+        {
+          "en": "I'm going to sleep a lot this weekend.",
+          "pl": "W ten weekend zamierzam się wyspać."
+        },
+        {
+          "en": "I'm going to train legs this weekend.",
+          "pl": "W ten weekend robię trening nóg."
+        }
+      ],
+      "note": "Zamiar = am/is/are + going to + czasownik.",
+      "tags": [
+        "gr:going-to",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.are-you-going-to",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 25,
+      "en": "Are you going to ___?",
+      "pl": "Zamierzasz ___?",
+      "alternatives": [],
+      "usage": "Pytasz o czyjeś zamiary.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you going to buy a ticket?",
+          "pl": "Zamierzasz kupić bilet?"
+        },
+        {
+          "en": "Are you going to watch the match?",
+          "pl": "Będziesz oglądać mecz?"
+        }
+      ],
+      "tags": [
+        "gr:going-to"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.busy-on-saturday",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 26,
+      "en": "I'm ___ on Saturday.",
+      "pl": "W sobotę ___.",
+      "alternatives": [],
+      "usage": "Mówisz, co już masz zaplanowane na konkretny dzień.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm working on Saturday.",
+          "pl": "W sobotę pracuję."
+        },
+        {
+          "en": "I'm flying to Brussels on Saturday.",
+          "pl": "W sobotę lecę do Brukseli."
+        }
+      ],
+      "note": "Ustalone plany z datą = Present Continuous: I'm working, I'm flying.",
+      "tags": [
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.its-on",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 27,
+      "en": "It's on ___.",
+      "pl": "To jest w / dnia ___.",
+      "alternatives": [],
+      "usage": "Podajesz dzień albo datę wydarzenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's on Friday.",
+          "pl": "To w piątek."
+        },
+        {
+          "en": "It's on the twentieth of July.",
+          "pl": "To dwudziestego lipca."
+        }
+      ],
+      "note": "Dni i daty z „on”: on Friday, on the 20th of July.",
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.planning-to",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 28,
+      "en": "I'm planning to ___.",
+      "pl": "Planuję ___.",
+      "alternatives": [],
+      "usage": "Mówisz o planach na przyszłość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm planning to go to Belgium in July.",
+          "pl": "W lipcu planuję pojechać do Belgii."
+        },
+        {
+          "en": "I'm planning to save some money for the festival.",
+          "pl": "Planuję odłożyć trochę kasy na festiwal."
+        }
+      ],
+      "tags": [
+        "travel",
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.dates-plans.what-are-you-doing",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 29,
+      "en": "What are you doing ___?",
+      "pl": "Co robisz ___?",
+      "alternatives": [],
+      "usage": "Pytasz o czyjeś plany.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are you doing this weekend?",
+          "pl": "Co robisz w ten weekend?"
+        },
+        {
+          "en": "What are you doing tonight?",
+          "pl": "Co robisz dziś wieczorem?"
+        },
+        {
+          "en": "What are you doing on Sunday?",
+          "pl": "Co robisz w niedzielę?"
+        }
+      ],
+      "note": "Pytanie o plany = Present Continuous: What are you doing on Sunday?",
+      "tags": [
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.weekend-plans-dialog",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 30,
+      "en": "Weekend plans",
+      "pl": "Plany na weekend",
+      "alternatives": [],
+      "usage": "Rozmowa o planach — Present Continuous i going to w praktyce.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What are you doing this weekend?",
+          "pl": "Co robisz w ten weekend?",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm going to Berlin on Friday. There's a big techno party.",
+          "pl": "W piątek jadę do Berlina. Jest duża impreza techno.",
+          "speaker": "B"
+        },
+        {
+          "en": "Nice! Are you staying the night?",
+          "pl": "Super! Zostajesz na noc?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, I'm coming back on Sunday. What about you?",
+          "pl": "Tak, wracam w niedzielę. A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "Nothing special. I'm going to chill at home.",
+          "pl": "Nic specjalnego. Poleżę w domu.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "gr:present-continuous-future",
+        "gr:going-to",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.dates-plans.tomorrowland-dates",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.dates-plans",
+      "order": 31,
+      "en": "When is Tomorrowland?",
+      "pl": "Kiedy jest Tomorrowland?",
+      "alternatives": [],
+      "usage": "Rozmowa o datach i ekscytacja przed festiwalem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "When is Tomorrowland this year?",
+          "pl": "Kiedy jest w tym roku Tomorrowland?",
+          "speaker": "A"
+        },
+        {
+          "en": "It's in July — the last two weekends.",
+          "pl": "W lipcu — w dwa ostatnie weekendy.",
+          "speaker": "B"
+        },
+        {
+          "en": "Are you going?",
+          "pl": "Jedziesz?",
+          "speaker": "A"
+        },
+        {
+          "en": "Of course! I've already got my ticket. I can't wait!",
+          "pl": "Jasne! Mam już bilet. Nie mogę się doczekać!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "festival",
+        "time"
+      ],
+      "level": "A2"
+    }
+  ]
+}

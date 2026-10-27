@@ -1,0 +1,60 @@
+{
+  "stages": [
+    {
+      "id": 1,
+      "title": "Fundamenty rozmowy",
+      "titleEn": "Conversation basics",
+      "description": "Powitania, przedstawianie się, small talk, zwroty ratunkowe, liczby, godziny i daty — wszystko, żeby zacząć i utrzymać prostą rozmowę.",
+      "weeks": 4
+    },
+    {
+      "id": 2,
+      "title": "O mnie",
+      "titleEn": "About me",
+      "description": "Skąd jestem, praca i plany zawodowe, rodzina, mieszkanie, mój dzień i nawyki.",
+      "weeks": 4
+    },
+    {
+      "id": 3,
+      "title": "Moje pasje",
+      "titleEn": "My passions",
+      "description": "Siłownia, muzyka elektroniczna, festiwale, gry i czas wolny.",
+      "weeks": 4
+    },
+    {
+      "id": 4,
+      "title": "Podróże",
+      "titleEn": "Travel",
+      "description": "Lotnisko, hotel i hostel, transport, pytanie o drogę, restauracja i bar, zakupy, problemy i reklamacje, apteka i lekarz.",
+      "weeks": 7
+    },
+    {
+      "id": 5,
+      "title": "Opowiadanie",
+      "titleEn": "Telling stories",
+      "description": "Co się wydarzyło (Past Simple), doświadczenia (Have you ever…?), plany i marzenia.",
+      "weeks": 4
+    },
+    {
+      "id": 6,
+      "title": "Opinie i emocje",
+      "titleEn": "Opinions & feelings",
+      "description": "Zgadzanie się i niezgadzanie, reakcje, uczucia, porównania i polecanie.",
+      "weeks": 4
+    },
+    {
+      "id": 7,
+      "title": "Naturalny angielski",
+      "titleEn": "Natural English",
+      "description": "Najczęstsze phrasal verbs, wypełniacze, codzienne idiomy, imprezy i festiwale: poznawanie ludzi, umawianie się w tłumie, wymiana kontaktów.",
+      "weeks": 5
+    },
+    {
+      "id": 8,
+      "title": "Próba generalna",
+      "titleEn": "Dress rehearsal",
+      "description": "Symulacje całych sytuacji z wyjazdu i powtórka najtrudniejszych elementów.",
+      "weeks": 3
+    }
+  ]
+}

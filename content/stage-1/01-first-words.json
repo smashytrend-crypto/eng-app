@@ -1,0 +1,863 @@
+{
+  "module": {
+    "id": "s1.first-words",
+    "stage": 1,
+    "order": 1,
+    "title": "Pierwsza rozmowa",
+    "titleEn": "First words",
+    "description": "Powitania, pożegnania i pierwsze zwroty ratunkowe — wszystko, żeby zacząć rozmowę i nie zgubić się, gdy czegoś nie zrozumiesz.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s1.first-words.hows-it-going",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 1,
+      "en": "Hi! How's it going?",
+      "pl": "Cześć! Jak leci?",
+      "alternatives": [
+        "Hey! How's it going?",
+        "Hi, how are you?",
+        "Hey, how are you doing?"
+      ],
+      "usage": "Najczęstsze luźne powitanie — z kumplem, na siłowni, na festiwalu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hi! How's it going? — Good, thanks. You?",
+          "pl": "Cześć! Jak leci? — Dobrze, dzięki. A u ciebie?"
+        }
+      ],
+      "note": "To nie jest prawdziwe pytanie o życie. Wystarczy krótko: „Good, thanks. You?”.",
+      "tags": [
+        "greetings",
+        "smalltalk",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.good-thanks-you",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 2,
+      "en": "Good, thanks. You?",
+      "pl": "Dobrze, dzięki. A ty?",
+      "alternatives": [
+        "Good, thanks. And you?",
+        "Not bad, thanks. You?",
+        "Good, thanks. How about you?",
+        "I'm good, thanks. You?"
+      ],
+      "usage": "Standardowa odpowiedź na „How’s it going?” albo „How are you?”. Zawsze odbij pytanie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "How are you? — Good, thanks. You? — Yeah, not bad.",
+          "pl": "Jak się masz? — Dobrze, dzięki. A ty? — No, nieźle."
+        }
+      ],
+      "note": "Polacy często odpowiadają tylko „Fine”. Dodaj „thanks” i odbij pytanie — brzmi o wiele cieplej.",
+      "tags": [
+        "greetings",
+        "smalltalk",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.say-that-again",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 3,
+      "en": "Sorry, could you say that again?",
+      "pl": "Przepraszam, możesz powtórzyć?",
+      "alternatives": [
+        "Sorry, can you say that again?",
+        "Could you say that again, please?",
+        "Sorry, could you repeat that?"
+      ],
+      "usage": "Gdy czegoś nie usłyszałeś albo nie zrozumiałeś. Działa zawsze i wszędzie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, could you say that again? It's really loud here.",
+          "pl": "Przepraszam, możesz powtórzyć? Strasznie tu głośno."
+        }
+      ],
+      "note": "Nie mów samego „Repeat, please” — brzmi jak rozkaz. „Sorry” na początku robi całą robotę.",
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.nice-to-meet-you",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 4,
+      "en": "Nice to meet you.",
+      "pl": "Miło cię poznać.",
+      "alternatives": [
+        "Good to meet you.",
+        "Pleased to meet you.",
+        "Nice to meet you too."
+      ],
+      "usage": "Gdy ktoś się przedstawia albo ktoś cię komuś przedstawia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm Jake. — I'm Domin. Nice to meet you. — Nice to meet you too.",
+          "pl": "Jestem Jake. — Jestem Domin. Miło cię poznać. — Mnie też miło."
+        }
+      ],
+      "note": "Odpowiedź to „Nice to meet you too.” — z „too” na końcu.",
+      "tags": [
+        "greetings",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.im-domin",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 5,
+      "en": "I'm Domin.",
+      "pl": "Jestem Domin.",
+      "alternatives": [
+        "My name's Domin.",
+        "My name is Domin.",
+        "Hi, I'm Domin."
+      ],
+      "usage": "Najprostszy sposób, żeby się przedstawić. Podajesz rękę albo przybijasz piątkę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, I'm Domin. — Hey, I'm Sam.",
+          "pl": "Cześć, jestem Domin. — Hej, jestem Sam."
+        }
+      ],
+      "note": "„My name is…” jest poprawne, ale w luźnej rozmowie „I'm…” brzmi naturalniej.",
+      "tags": [
+        "greetings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.dont-understand",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 6,
+      "en": "Sorry, I don't understand.",
+      "pl": "Przepraszam, nie rozumiem.",
+      "alternatives": [
+        "Sorry, I don't get it.",
+        "I don't understand, sorry."
+      ],
+      "usage": "Gdy nie łapiesz, o co chodzi. Lepiej to powiedzieć niż kiwać głową.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I don't understand. What does 'queue' mean?",
+          "pl": "Przepraszam, nie rozumiem. Co znaczy „queue”?"
+        }
+      ],
+      "note": "Pamiętaj o „don't”. „I not understand” to typowy błąd Polaków.",
+      "tags": [
+        "rescue",
+        "polish-trap",
+        "gr:present-simple",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.speak-slower",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 7,
+      "en": "Could you speak a bit slower, please?",
+      "pl": "Możesz mówić trochę wolniej?",
+      "alternatives": [
+        "Could you speak more slowly, please?",
+        "Can you speak a bit slower, please?",
+        "Could you slow down a bit, please?"
+      ],
+      "usage": "Gdy ktoś mówi za szybko. Native speakerzy chętnie zwolnią, jeśli poprosisz.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Could you speak a bit slower, please? My English isn't great yet.",
+          "pl": "Możesz mówić trochę wolniej? Mój angielski jeszcze nie jest super."
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.see-you-later",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 8,
+      "en": "See you later!",
+      "pl": "Na razie! / Do zobaczenia!",
+      "alternatives": [
+        "See you!",
+        "See ya!",
+        "Catch you later!"
+      ],
+      "usage": "Luźne pożegnanie — nawet jeśli nie zobaczycie się tego samego dnia.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm off. See you later! — See you!",
+          "pl": "Lecę. Na razie! — Na razie!"
+        }
+      ],
+      "tags": [
+        "greetings",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.thanks-a-lot",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 9,
+      "en": "Thanks a lot!",
+      "pl": "Dzięki wielkie!",
+      "alternatives": [
+        "Thanks so much!",
+        "Thank you so much!",
+        "Thanks a million!"
+      ],
+      "usage": "Gdy ktoś ci pomógł albo coś dla ciebie zrobił.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Here's your water. — Thanks a lot!",
+          "pl": "Proszę, twoja woda. — Dzięki wielkie!"
+        }
+      ],
+      "tags": [
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.no-worries",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 10,
+      "en": "No worries.",
+      "pl": "Nie ma sprawy.",
+      "alternatives": [
+        "No problem.",
+        "You're welcome.",
+        "Don't worry about it."
+      ],
+      "usage": "Odpowiedź na „dzięki” albo „sorry”. Bardzo popularne w UK i Australii.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Sorry, I'm late! — No worries.",
+          "pl": "Sorry, spóźniłem się! — Nie ma sprawy."
+        }
+      ],
+      "tags": [
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.excuse-me",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 11,
+      "en": "Excuse me!",
+      "pl": "Przepraszam! (zaczepiając kogoś)",
+      "alternatives": [],
+      "usage": "Żeby kogoś zaczepić, o coś zapytać albo przejść przez tłum.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me! Is this the way to the main stage?",
+          "pl": "Przepraszam! Czy tędy do głównej sceny?"
+        }
+      ],
+      "note": "„Excuse me” — gdy kogoś zaczepiasz albo chcesz przejść. „Sorry” — gdy przepraszasz za coś (np. potrącenie).",
+      "tags": [
+        "polish-trap",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.whats-up",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 12,
+      "en": "Hey, what's up?",
+      "pl": "Hej, co tam?",
+      "alternatives": [
+        "What's up?",
+        "Hey, how's things?"
+      ],
+      "usage": "Bardzo luźne powitanie wśród znajomych.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hey, what's up? — Not much. You?",
+          "pl": "Hej, co tam? — Nic specjalnego. A u ciebie?"
+        }
+      ],
+      "note": "Na „What's up?” nie opowiadasz, co dokładnie robisz. Wystarczy „Not much. You?”.",
+      "tags": [
+        "greetings",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.not-much-you",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 13,
+      "en": "Not much. You?",
+      "pl": "Nic specjalnego. A u ciebie?",
+      "alternatives": [
+        "Nothing much. You?",
+        "Not a lot. You?",
+        "Not much. What about you?"
+      ],
+      "usage": "Typowa odpowiedź na „What’s up?”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What's up, man? — Not much. You?",
+          "pl": "Co tam, stary? — Nic specjalnego. A u ciebie?"
+        }
+      ],
+      "tags": [
+        "greetings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.take-care",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 14,
+      "en": "Take care!",
+      "pl": "Trzymaj się!",
+      "alternatives": [
+        "Take care of yourself!",
+        "Look after yourself!"
+      ],
+      "usage": "Ciepłe pożegnanie — z kumplem, z kimś poznanym w podróży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It was great to meet you. Take care! — You too!",
+          "pl": "Super było cię poznać. Trzymaj się! — Ty też!"
+        }
+      ],
+      "tags": [
+        "greetings",
+        "starter"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.im-off",
+      "type": "phrase",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 15,
+      "en": "I'm off!",
+      "pl": "Spadam! / Lecę!",
+      "alternatives": [
+        "I'm heading off.",
+        "I'm going now."
+      ],
+      "usage": "Luźno: wychodzisz, idziesz już. Np. z siłowni albo z imprezy.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Right, I'm off. See you tomorrow!",
+          "pl": "Dobra, lecę. Do jutra!"
+        }
+      ],
+      "tags": [
+        "greetings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s1.first-words.mate",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 16,
+      "en": "mate",
+      "pl": "kumpel, stary (UK)",
+      "alternatives": [],
+      "usage": "Luźny zwrot do kolegi albo nieznajomego faceta w UK.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Cheers, mate!",
+          "pl": "Dzięki, stary!"
+        }
+      ],
+      "collocations": [
+        "cheers, mate",
+        "my mate",
+        "a mate from work"
+      ],
+      "note": "W UK „mate” to po prostu „stary/ziom”. W USA częściej usłyszysz „man” albo „dude”.",
+      "tags": [
+        "uk-us",
+        "slang"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.cheers",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 17,
+      "en": "cheers",
+      "pl": "dzięki; na zdrowie",
+      "alternatives": [],
+      "usage": "W UK na co dzień zamiast „thanks”, a przy toaście — „na zdrowie”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Here's your drink. — Cheers!",
+          "pl": "Proszę, twój drink. — Dzięki!"
+        }
+      ],
+      "collocations": [
+        "cheers, mate",
+        "cheers for that",
+        "cheers! (przy toaście)"
+      ],
+      "tags": [
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.awesome",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 18,
+      "en": "awesome",
+      "pl": "super, rewelacja",
+      "alternatives": [],
+      "usage": "Luźna reakcja na dobrą wiadomość.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I got the tickets! — Awesome!",
+          "pl": "Mam bilety! — Super!"
+        }
+      ],
+      "collocations": [
+        "that's awesome",
+        "an awesome set",
+        "awesome, thanks!"
+      ],
+      "pronunciation": "Czytaj mniej więcej „Osem” — długie „o” na początku, akcent na pierwszej sylabie.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.guys",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 19,
+      "en": "guys",
+      "pl": "ludzie, wszyscy (luźno)",
+      "alternatives": [],
+      "usage": "Luźny zwrot do grupy osób — także do samych kobiet.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hi, guys! What's up?",
+          "pl": "Cześć wszystkim! Co tam?"
+        }
+      ],
+      "collocations": [
+        "hi, guys",
+        "you guys",
+        "thanks, guys"
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.mean",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 20,
+      "en": "mean",
+      "pl": "znaczyć; mieć na myśli",
+      "alternatives": [],
+      "usage": "Gdy pytasz o znaczenie albo wyjaśniasz, o co ci chodzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What do you mean?",
+          "pl": "Co masz na myśli?"
+        }
+      ],
+      "collocations": [
+        "what does it mean?",
+        "what do you mean?",
+        "I mean…"
+      ],
+      "tags": [
+        "rescue",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.again",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 21,
+      "en": "again",
+      "pl": "znowu, jeszcze raz",
+      "alternatives": [],
+      "usage": "Gdy coś się powtarza albo prosisz o powtórzenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Nice to see you again!",
+          "pl": "Miło cię znowu widzieć!"
+        }
+      ],
+      "collocations": [
+        "say it again",
+        "once again",
+        "see you again"
+      ],
+      "pronunciation": "Czytaj „agen” albo „agejn” — obie wersje są OK.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.word",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 22,
+      "en": "word",
+      "pl": "słowo",
+      "alternatives": [],
+      "usage": "Przydaje się, gdy szukasz słowa po angielsku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the word for 'kac' in English?",
+          "pl": "Jak jest „kac” po angielsku?"
+        }
+      ],
+      "collocations": [
+        "the word for…",
+        "a new word",
+        "in other words"
+      ],
+      "pronunciation": "„w” jak krótkie „ł”, a „or” czytaj jak „er”: „łerd”.",
+      "tags": [
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.lovely",
+      "type": "word",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 23,
+      "en": "lovely",
+      "pl": "miły, super (UK)",
+      "alternatives": [],
+      "usage": "Brytyjczycy mówią „lovely” o wszystkim, co miłe: ludziach, pogodzie, jedzeniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Lovely to meet you!",
+          "pl": "Bardzo miło cię poznać!"
+        }
+      ],
+      "collocations": [
+        "lovely to meet you",
+        "a lovely day",
+        "lovely, thanks"
+      ],
+      "tags": [
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.how-do-you-say",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 24,
+      "en": "How do you say ___ in English?",
+      "pl": "Jak się mówi ___ po angielsku?",
+      "alternatives": [],
+      "usage": "Ratunek, gdy brakuje słowa: wtrącasz polskie słowo i pytasz. Ludzie chętnie pomagają.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How do you say 'kac' in English?",
+          "pl": "Jak się mówi „kac” po angielsku?"
+        },
+        {
+          "en": "How do you say 'zakwasy' in English?",
+          "pl": "Jak się mówi „zakwasy” po angielsku?"
+        }
+      ],
+      "note": "W pytaniu potrzebne jest „do”: How DO you say…? Nie „How you say…?”.",
+      "tags": [
+        "rescue",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.what-does-mean",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 25,
+      "en": "What does ___ mean?",
+      "pl": "Co znaczy ___?",
+      "alternatives": [],
+      "usage": "Gdy słyszysz nowe słowo i chcesz wiedzieć, co znaczy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What does 'knackered' mean?",
+          "pl": "Co znaczy „knackered”?"
+        },
+        {
+          "en": "What does 'lit' mean?",
+          "pl": "Co znaczy „lit”?"
+        }
+      ],
+      "note": "Najczęstszy błąd Polaków w pytaniach: nie „What means…?”, tylko „What does… mean?”.",
+      "tags": [
+        "rescue",
+        "polish-trap",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.good-time-of-day",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 26,
+      "en": "Good ___!",
+      "pl": "Dobry ___! (dzień dobry, dobry wieczór)",
+      "alternatives": [],
+      "usage": "Grzeczne powitanie zależne od pory dnia — w sklepie, hotelu, w pracy.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Good morning!",
+          "pl": "Dzień dobry! (rano)"
+        },
+        {
+          "en": "Good evening!",
+          "pl": "Dobry wieczór!"
+        }
+      ],
+      "note": "„Good night” to tylko „dobranoc” na pożegnanie, nigdy powitanie wieczorem.",
+      "tags": [
+        "greetings",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.have-a-good",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 27,
+      "en": "Have a good ___!",
+      "pl": "Miłego / Udanego ___!",
+      "alternatives": [],
+      "usage": "Pożegnanie z życzeniami — kasjerowi, kumplowi, komuś z pracy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have a good weekend!",
+          "pl": "Miłego weekendu!"
+        },
+        {
+          "en": "Have a good workout!",
+          "pl": "Udanego treningu!"
+        },
+        {
+          "en": "Have a good day!",
+          "pl": "Miłego dnia!"
+        }
+      ],
+      "tags": [
+        "greetings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.see-you-when",
+      "type": "pattern",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 28,
+      "en": "See you ___!",
+      "pl": "Do zobaczenia ___!",
+      "alternatives": [],
+      "usage": "Pożegnanie, gdy wiesz, kiedy się znowu zobaczycie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "See you tomorrow!",
+          "pl": "Do jutra!"
+        },
+        {
+          "en": "See you on Saturday!",
+          "pl": "Do zobaczenia w sobotę!"
+        },
+        {
+          "en": "See you at the gym!",
+          "pl": "Do zobaczenia na siłowni!"
+        }
+      ],
+      "tags": [
+        "greetings"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.meeting-at-the-gym",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 29,
+      "en": "Meeting someone at the gym",
+      "pl": "Poznajesz kogoś na siłowni",
+      "alternatives": [],
+      "usage": "Pierwsza krótka rozmowa: powitanie, imię, miło cię poznać.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hi! How's it going?",
+          "pl": "Cześć! Jak leci?",
+          "speaker": "A"
+        },
+        {
+          "en": "Good, thanks. You?",
+          "pl": "Dobrze, dzięki. A u ciebie?",
+          "speaker": "B"
+        },
+        {
+          "en": "Not bad. I'm Domin, by the way.",
+          "pl": "Nieźle. Tak w ogóle, jestem Domin.",
+          "speaker": "A"
+        },
+        {
+          "en": "Nice to meet you, Domin. I'm Jake.",
+          "pl": "Miło cię poznać, Domin. Jestem Jake.",
+          "speaker": "B"
+        },
+        {
+          "en": "Nice to meet you too.",
+          "pl": "Mnie też miło.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "greetings",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s1.first-words.too-loud",
+      "type": "dialog",
+      "stage": 1,
+      "module": "s1.first-words",
+      "order": 30,
+      "en": "Sorry, it's too loud!",
+      "pl": "Za głośno — nie słyszę!",
+      "alternatives": [],
+      "usage": "Na festiwalu albo w klubie: nie usłyszałeś i prosisz o powtórzenie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hey, what's up? Great set, right?",
+          "pl": "Hej, co tam? Świetny set, co?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sorry, could you say that again? It's really loud!",
+          "pl": "Sorry, możesz powtórzyć? Strasznie głośno!",
+          "speaker": "B"
+        },
+        {
+          "en": "Great set, right?",
+          "pl": "Świetny set, co?",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh, yeah! Awesome!",
+          "pl": "A, tak! Rewelacja!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "rescue",
+        "festival",
+        "music"
+      ],
+      "level": "A2"
+    }
+  ]
+}
