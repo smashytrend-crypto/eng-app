@@ -2,6 +2,8 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { CheckCircle2, Mic } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { SpeakButton } from '../../components/SpeakButton'
+import { FreeMic } from '../../components/SpeechCheck'
+import { VoiceRecorder } from '../../components/VoiceRecorder'
 import { Button, Card, Muted } from '../../components/ui'
 import { speakingTasks } from '../../content'
 import { getDay, updateDay } from '../../db/repo'
@@ -55,6 +57,8 @@ export function SpeakingTaskCard() {
           Pokaż przykładową odpowiedź
         </button>
       )}
+      <VoiceRecorder />
+      <FreeMic label="Sprawdź, co rozumie komputer" />
       {day.speakingDone ? (
         <p className="flex items-center gap-2 font-semibold text-emerald-700 dark:text-emerald-300">
           <CheckCircle2 size={20} /> Zrobione dziś — brawo!

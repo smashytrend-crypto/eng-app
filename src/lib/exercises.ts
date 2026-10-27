@@ -50,7 +50,7 @@ export function recallPrompt(item: Item, exampleIndex = 0): RecallPrompt {
 const STOPWORDS = new Set([
   'the', 'and', 'you', 'your', 'are', 'for', 'with', 'that', 'this', 'have', 'has', 'was', 'were', 'what',
   'can', 'could', 'would', 'will', 'from', 'about', 'there', 'their', 'they', 'them', 'just', 'some', 'into',
-  'please', 'very', 'does', 'did', 'not',
+  'please', 'very', 'does', 'did', 'not', 'sorry', 'yeah', 'okay', 'thanks', 'excuse', 'hey', 'well', 'really',
 ])
 
 function escapeRegExp(s: string): string {
@@ -109,9 +109,11 @@ export function clozeData(item: Item, exampleIndex = 0): ClozeData | null {
   let bestLen = 0
   words.forEach((w, i) => {
     const core = w.replace(/[^\p{L}']/gu, '')
-    if (core.length >= 4 && !STOPWORDS.has(core.toLowerCase()) && !core.includes("'") && core.length > bestLen) {
+    // pierwsze słowo zdania jest za łatwe do odgadnięcia — lekko je karzemy
+    const score = core.length - (i === 0 ? 1.5 : 0)
+    if (core.length >= 4 && !STOPWORDS.has(core.toLowerCase()) && !core.includes("'") && score > bestLen) {
       bestIdx = i
-      bestLen = core.length
+      bestLen = score
     }
   })
   if (bestIdx < 0) return null

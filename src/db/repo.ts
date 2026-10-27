@@ -106,10 +106,10 @@ export async function recordAnswer(input: AnswerInput, db: AppDB = defaultDb): P
       const entries = [...session.entries]
       const repeats = { ...session.repeats }
       const pos = requeueIndex(entries.length, session.index, after.due - now.getTime())
-      if (pos !== null && (repeats[item.id] ?? 0) < MAX_REPEATS_IN_SESSION) {
+      // Dialogi są długie — nie powtarzamy ich w tej samej lekcji
+      if (pos !== null && item.type !== 'dialog' && (repeats[item.id] ?? 0) < MAX_REPEATS_IN_SESSION) {
         repeats[item.id] = (repeats[item.id] ?? 0) + 1
-        const mode = entry.mode === 'dialog' ? 'dialog' : 'recall'
-        entries.splice(pos, 0, { itemId: item.id, kind: 'again', mode, exampleIndex: entry.exampleIndex })
+        entries.splice(pos, 0, { itemId: item.id, kind: 'again', mode: 'recall', exampleIndex: entry.exampleIndex })
       }
       session = { ...session, entries, repeats, index: session.index + 1 }
       await db.session.put(session)

@@ -8,6 +8,7 @@ import { pluralN } from '../../lib/dates'
 import { useToday } from '../../state/hooks'
 import { startLesson } from '../../state/lesson'
 import { navigate } from '../../state/router'
+import { ClaudePracticeCard } from '../../components/ClaudePracticeCard'
 import { SpeakingTaskCard } from '../speaking/SpeakingTaskCard'
 
 export function LessonDone({ session, onRestart }: { session: SessionRow; onRestart: (s: SessionRow) => void }) {
@@ -40,6 +41,8 @@ export function LessonDone({ session, onRestart }: { session: SessionRow; onRest
       </div>
 
       <SpeakingTaskCard />
+
+      <ClaudePracticeCard />
 
       <Card className="space-y-3">
         <p className="font-semibold">Masz jeszcze chwilę?</p>

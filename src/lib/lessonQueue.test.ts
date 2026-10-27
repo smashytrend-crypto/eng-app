@@ -168,8 +168,9 @@ describe('exercises', () => {
 
   it('zwrot: luka w najdłuższym słowie treściowym', () => {
     const c = clozeData(makeItem({ id: 's1.test.c', en: 'Sorry, could you say that again?' }))!
-    expect(c.answer).toBe('Sorry')
-    expect(c.sentence).toBe('___, could you say that again?')
+    expect(c.answer).toBe('again')
+    expect(c.sentence).toBe('Sorry, could you say that ___?')
+    expect(clozeData(makeItem({ id: 's1.test.d', en: 'Could you speak a bit slower, please?' }))!.answer).toBe('slower')
   })
 
   it('rozsypanka zawiera te same słowa w innej kolejności', () => {

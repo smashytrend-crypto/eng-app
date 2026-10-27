@@ -41,7 +41,7 @@ export function NewItemCard({ item, onContinue }: { item: Item; onContinue: () =
       label={`Nowy element · ${TYPE_LABELS[item.type]}`}
       actions={
         <Button full size="xl" onClick={onContinue}>
-          <Sparkles size={22} /> Dalej: powiedz to sam
+          <Sparkles size={22} /> {item.type === 'dialog' ? 'Dalej: odegraj dialog' : 'Dalej: powiedz to sam'}
         </Button>
       }
     >
