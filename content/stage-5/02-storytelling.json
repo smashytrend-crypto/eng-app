@@ -1,0 +1,874 @@
+{
+  "module": {
+    "id": "s5.storytelling",
+    "stage": 5,
+    "order": 2,
+    "title": "Opowiadanie historii",
+    "titleEn": "Telling stories",
+    "description": "Jak opowiadać ciekawie: początek, zwroty akcji, „okazało się”, „krótko mówiąc”, najlepsza i najgorsza część.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s5.storytelling.wont-believe",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 1,
+      "en": "You won't believe what happened!",
+      "pl": "Nie uwierzysz, co się stało!",
+      "alternatives": [
+        "You'll never believe what happened!"
+      ],
+      "usage": "Idealny początek historii.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You won't believe what happened! I met Amelie Lens at the airport!",
+          "pl": "Nie uwierzysz, co się stało! Spotkałem Amelie Lens na lotnisku!"
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.guess-what",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 2,
+      "en": "Guess what!",
+      "pl": "Zgadnij co!",
+      "alternatives": [],
+      "usage": "Gdy masz newsa.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Guess what! I got the tickets!",
+          "pl": "Zgadnij co! Mam bilety!"
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.long-story-short",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 3,
+      "en": "Long story short, we missed the last train.",
+      "pl": "Krótko mówiąc, uciekł nam ostatni pociąg.",
+      "alternatives": [
+        "To cut a long story short, we missed the last train."
+      ],
+      "usage": "Skracasz długą historię.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Long story short, we missed the last train and slept at the station.",
+          "pl": "Krótko mówiąc, uciekł nam ostatni pociąg i spaliśmy na dworcu."
+        }
+      ],
+      "tags": [
+        "story",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.storytelling.out-of-nowhere",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 4,
+      "en": "And then, out of nowhere…",
+      "pl": "I nagle, znikąd…",
+      "alternatives": [
+        "And then suddenly…"
+      ],
+      "usage": "Budujesz napięcie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We were dancing, and then, out of nowhere, it started pouring.",
+          "pl": "Tańczyliśmy, i nagle, znikąd, zaczęło lać."
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.storytelling.where-was-i",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 5,
+      "en": "Anyway, where was I?",
+      "pl": "W każdym razie, na czym skończyłem?",
+      "alternatives": [],
+      "usage": "Wracasz do wątku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I got distracted. Anyway, where was I?",
+          "pl": "Sorry, rozproszyłem się. W każdym razie, na czym skończyłem?"
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.storytelling.so-funny",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 6,
+      "en": "It was so funny.",
+      "pl": "To było takie śmieszne.",
+      "alternatives": [
+        "It was really funny.",
+        "It was hilarious."
+      ],
+      "usage": "Komentarz do historii.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "He fell into the pool with his phone. It was so funny.",
+          "pl": "Wpadł do basenu z telefonem. To było takie śmieszne."
+        }
+      ],
+      "tags": [
+        "story",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.couldnt-believe-it",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 7,
+      "en": "I couldn't believe it.",
+      "pl": "Nie mogłem w to uwierzyć.",
+      "alternatives": [
+        "I couldn't believe my eyes."
+      ],
+      "usage": "Reakcja na zaskoczenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "He played my favourite track as the last one. I couldn't believe it.",
+          "pl": "Zagrał mój ulubiony numer jako ostatni. Nie mogłem w to uwierzyć."
+        }
+      ],
+      "tags": [
+        "story",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.turned-out",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 8,
+      "en": "It turned out that he was from Poland too.",
+      "pl": "Okazało się, że on też jest z Polski.",
+      "alternatives": [
+        "It turned out he was from Poland too.",
+        "Turns out he was Polish too."
+      ],
+      "usage": "Zaskakujący zwrot akcji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We spoke English for an hour. It turned out that he was from Poland too!",
+          "pl": "Gadaliśmy godzinę po angielsku. Okazało się, że on też jest z Polski!"
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.storytelling.at-first-nervous",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 9,
+      "en": "At first, I was nervous.",
+      "pl": "Na początku się stresowałem.",
+      "alternatives": [
+        "At first I was a bit nervous."
+      ],
+      "usage": "Opowiadasz o uczuciach na początku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "At first, I was nervous, but after ten minutes I felt fine.",
+          "pl": "Na początku się stresowałem, ale po dziesięciu minutach było OK."
+        }
+      ],
+      "tags": [
+        "story",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.in-the-end-fine",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 10,
+      "en": "In the end, everything was fine.",
+      "pl": "W końcu wszystko było dobrze.",
+      "alternatives": [
+        "In the end, it was all fine.",
+        "Everything was fine in the end."
+      ],
+      "usage": "Szczęśliwe zakończenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We lost our tent, but in the end, everything was fine.",
+          "pl": "Zgubiliśmy namiot, ale w końcu wszystko było dobrze."
+        }
+      ],
+      "note": "„In the end” = w końcu, ostatecznie. „At the end” = na końcu (czegoś): at the end of the set.",
+      "tags": [
+        "story",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.thats-when-realised",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 11,
+      "en": "That's when I realised my phone was gone.",
+      "pl": "Wtedy zdałem sobie sprawę, że nie mam telefonu.",
+      "alternatives": [],
+      "usage": "Kulminacja historii.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I put my hand in my pocket. That's when I realised my phone was gone.",
+          "pl": "Włożyłem rękę do kieszeni. Wtedy zdałem sobie sprawę, że nie mam telefonu."
+        }
+      ],
+      "tags": [
+        "story",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.storytelling.what-happened-next",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 12,
+      "en": "What happened next?",
+      "pl": "Co było dalej?",
+      "alternatives": [
+        "And then what happened?",
+        "What happened then?"
+      ],
+      "usage": "Zachęcasz kogoś do opowiadania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "And then the police came. — No way! What happened next?",
+          "pl": "A potem przyjechała policja. — Serio? Co było dalej?"
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.seriously-crazy",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 13,
+      "en": "Seriously, it was crazy.",
+      "pl": "Serio, to było szalone.",
+      "alternatives": [
+        "Honestly, it was crazy.",
+        "It was seriously crazy."
+      ],
+      "usage": "Podkreślasz emocje.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Thirty thousand people singing together. Seriously, it was crazy.",
+          "pl": "Trzydzieści tysięcy ludzi śpiewa razem. Serio, to było szalone."
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.long-story",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 14,
+      "en": "It's a long story.",
+      "pl": "To długa historia.",
+      "alternatives": [],
+      "usage": "Gdy nie chcesz albo nie masz czasu opowiadać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Why are you wearing one shoe? — It's a long story.",
+          "pl": "Czemu masz jeden but? — To długa historia."
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.never-forget-it",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 15,
+      "en": "I'll never forget it.",
+      "pl": "Nigdy tego nie zapomnę.",
+      "alternatives": [
+        "I'll never forget that."
+      ],
+      "usage": "Na koniec ważnej historii.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The sunrise set at the main stage — I'll never forget it.",
+          "pl": "Set o wschodzie słońca na mainstage — nigdy tego nie zapomnę."
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.suddenly",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 16,
+      "en": "suddenly",
+      "pl": "nagle",
+      "alternatives": [],
+      "usage": "Coś dzieje się niespodziewanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Suddenly, the music stopped.",
+          "pl": "Nagle muzyka ucichła."
+        }
+      ],
+      "collocations": [
+        "suddenly, …",
+        "all of a sudden",
+        "suddenly realised"
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.then",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 17,
+      "en": "then",
+      "pl": "potem, wtedy",
+      "alternatives": [],
+      "usage": "Następny krok historii.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We had dinner, then we went to the club.",
+          "pl": "Zjedliśmy kolację, potem poszliśmy do klubu."
+        }
+      ],
+      "collocations": [
+        "and then",
+        "just then",
+        "since then"
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.after-that",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 18,
+      "en": "after that",
+      "pl": "po tym, potem",
+      "alternatives": [],
+      "usage": "Łączysz wydarzenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "After that, we went back to the campsite.",
+          "pl": "Potem wróciliśmy na pole namiotowe."
+        }
+      ],
+      "collocations": [
+        "after that, we…",
+        "right after that",
+        "soon after that"
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.finally",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 19,
+      "en": "finally",
+      "pl": "w końcu, wreszcie",
+      "alternatives": [],
+      "usage": "Coś się stało po długim czekaniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We finally found our tent at three in the morning.",
+          "pl": "Wreszcie znaleźliśmy namiot o trzeciej w nocy."
+        }
+      ],
+      "collocations": [
+        "finally found",
+        "finally arrived",
+        "at last"
+      ],
+      "note": "„Finally” — wreszcie (po czekaniu). „In the end” — ostatecznie (podsumowanie).",
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.luckily",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 20,
+      "en": "luckily",
+      "pl": "na szczęście",
+      "alternatives": [],
+      "usage": "Dobry zwrot w historii.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Luckily, someone found my wallet.",
+          "pl": "Na szczęście ktoś znalazł mój portfel."
+        }
+      ],
+      "collocations": [
+        "luckily, …",
+        "luckily for me",
+        "luckily not"
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.unfortunately",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 21,
+      "en": "unfortunately",
+      "pl": "niestety",
+      "alternatives": [],
+      "usage": "Zły zwrot w historii.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Unfortunately, it rained all weekend.",
+          "pl": "Niestety, cały weekend padało."
+        }
+      ],
+      "collocations": [
+        "unfortunately, …",
+        "unfortunately not",
+        "very unfortunately"
+      ],
+      "pronunciation": "Akcent na „FOR”: „an-FOR-czy-net-li”.",
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.story",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 22,
+      "en": "story",
+      "pl": "historia, opowieść",
+      "alternatives": [],
+      "usage": "Coś, co opowiadasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Tell me the story about the lost tent!",
+          "pl": "Opowiedz mi historię o zgubionym namiocie!"
+        }
+      ],
+      "collocations": [
+        "a funny story",
+        "tell a story",
+        "true story"
+      ],
+      "note": "„Story” — opowieść. „History” — historia jako nauka o przeszłości.",
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.embarrassing",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 23,
+      "en": "embarrassing",
+      "pl": "krępujący, wstydliwy",
+      "alternatives": [],
+      "usage": "Gdy coś było głupio.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I called her by the wrong name. So embarrassing!",
+          "pl": "Nazwałem ją złym imieniem. Ale wstyd!"
+        }
+      ],
+      "collocations": [
+        "so embarrassing",
+        "an embarrassing moment",
+        "really embarrassing"
+      ],
+      "note": "„Embarrassing” — o sytuacji (krępujący). „Embarrassed” — o osobie (zawstydzony): I was so embarrassed.",
+      "tags": [
+        "story"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.storytelling.crazy",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 24,
+      "en": "crazy",
+      "pl": "szalony",
+      "alternatives": [],
+      "usage": "Coś niezwykłego albo dzikiego.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It was a crazy night.",
+          "pl": "To była szalona noc."
+        }
+      ],
+      "collocations": [
+        "a crazy night",
+        "go crazy",
+        "crazy people"
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.was-when-rain",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 25,
+      "en": "I was ___ when it started raining.",
+      "pl": "___, kiedy zaczęło padać.",
+      "alternatives": [],
+      "usage": "Tło akcji (Past Continuous) + nagłe wydarzenie (Past Simple).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I was dancing when it started raining.",
+          "pl": "Tańczyłem, kiedy zaczęło padać."
+        },
+        {
+          "en": "I was walking to the stage when it started raining.",
+          "pl": "Szedłem pod scenę, kiedy zaczęło padać."
+        }
+      ],
+      "note": "Was/were + -ing = co trwało. Past Simple = co się nagle wydarzyło.",
+      "tags": [
+        "story",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.storytelling.best-part-was",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 26,
+      "en": "The best part was ___.",
+      "pl": "Najlepsze było ___.",
+      "alternatives": [],
+      "usage": "Podsumowujesz wrażenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The best part was the fireworks.",
+          "pl": "Najlepsze były fajerwerki."
+        },
+        {
+          "en": "The best part was meeting new people.",
+          "pl": "Najlepsze było poznawanie nowych ludzi."
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.worst-part-was",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 27,
+      "en": "The worst part was ___.",
+      "pl": "Najgorsze było ___.",
+      "alternatives": [],
+      "usage": "Co ci się nie podobało.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The worst part was the queue.",
+          "pl": "Najgorsza była kolejka."
+        },
+        {
+          "en": "The worst part was the rain.",
+          "pl": "Najgorszy był deszcz."
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.ended-up",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 28,
+      "en": "We ended up ___.",
+      "pl": "Skończyło się na tym, że ___.",
+      "alternatives": [],
+      "usage": "Nieplanowany wynik.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We ended up sleeping at the station.",
+          "pl": "Skończyło się na tym, że spaliśmy na dworcu."
+        },
+        {
+          "en": "We ended up dancing until sunrise.",
+          "pl": "Skończyło się tańczeniem do wschodu słońca."
+        }
+      ],
+      "note": "Po „end up” czasownik z „-ing”.",
+      "tags": [
+        "story"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.storytelling.it-was-so",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 29,
+      "en": "It was so ___!",
+      "pl": "Było tak ___!",
+      "alternatives": [],
+      "usage": "Emocjonalny komentarz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It was so hot!",
+          "pl": "Było tak gorąco!"
+        },
+        {
+          "en": "It was so loud!",
+          "pl": "Było tak głośno!"
+        }
+      ],
+      "tags": [
+        "story",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.first-we",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 30,
+      "en": "First, we ___.",
+      "pl": "Najpierw ___.",
+      "alternatives": [],
+      "usage": "Początek opowieści krok po kroku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "First, we went to the campsite.",
+          "pl": "Najpierw poszliśmy na pole namiotowe."
+        },
+        {
+          "en": "First, we got some food.",
+          "pl": "Najpierw wzięliśmy coś do jedzenia."
+        }
+      ],
+      "tags": [
+        "story",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.missed-train-story",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 31,
+      "en": "The night we missed the train",
+      "pl": "Noc, kiedy uciekł nam pociąg",
+      "alternatives": [],
+      "usage": "Opowiadasz historię z festiwalu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You won't believe what happened on Saturday!",
+          "pl": "Nie uwierzysz, co się stało w sobotę!",
+          "speaker": "A"
+        },
+        {
+          "en": "What?",
+          "pl": "Co?",
+          "speaker": "B"
+        },
+        {
+          "en": "We were dancing until the very end, and then we ran to the station…",
+          "pl": "Tańczyliśmy do samego końca, a potem pobiegliśmy na dworzec…",
+          "speaker": "A"
+        },
+        {
+          "en": "And?",
+          "pl": "I?",
+          "speaker": "B"
+        },
+        {
+          "en": "Long story short, we missed the last train and slept at the station!",
+          "pl": "Krótko mówiąc, uciekł nam ostatni pociąg i spaliśmy na dworcu!",
+          "speaker": "A"
+        },
+        {
+          "en": "No way! That sounds terrible… but kind of funny.",
+          "pl": "Serio? Brzmi okropnie… ale trochę śmiesznie.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "story",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.storytelling.funny-story",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.storytelling",
+      "order": 32,
+      "en": "It turned out…",
+      "pl": "Okazało się, że…",
+      "alternatives": [],
+      "usage": "Zabawna historia z poznawaniem ludzi.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Guess what! I met a guy at the bar and we spoke English for an hour.",
+          "pl": "Zgadnij co! Poznałem gościa w barze i gadaliśmy godzinę po angielsku.",
+          "speaker": "A"
+        },
+        {
+          "en": "Nice! Where was he from?",
+          "pl": "Super! Skąd był?",
+          "speaker": "B"
+        },
+        {
+          "en": "It turned out that he was from Szczecin too!",
+          "pl": "Okazało się, że też jest ze Szczecina!",
+          "speaker": "A"
+        },
+        {
+          "en": "Haha, that's so funny!",
+          "pl": "Haha, ale śmieszne!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "story"
+      ],
+      "level": "A2"
+    }
+  ]
+}

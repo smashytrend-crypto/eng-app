@@ -1,0 +1,878 @@
+{
+  "module": {
+    "id": "s5.future",
+    "stage": 5,
+    "order": 4,
+    "title": "Plany na przyszłość",
+    "titleEn": "Future plans",
+    "description": "Will, going to, might i Present Continuous: decyzje, obietnice, przypuszczenia, niepewne plany i „jeśli będzie padać…”.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s5.future.probably-stay-home",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 1,
+      "en": "I'll probably stay at home.",
+      "pl": "Pewnie zostanę w domu.",
+      "alternatives": [
+        "I'll probably stay home.",
+        "Probably stay at home."
+      ],
+      "usage": "„Will” + „probably” — przypuszczenie o sobie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are you doing tonight? — I'll probably stay at home.",
+          "pl": "Co robisz wieczorem? — Pewnie zostanę w domu."
+        }
+      ],
+      "note": "„Probably” stoi po „will”: I'll probably go. W przeczeniu przed: I probably won't.",
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.might-go",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 2,
+      "en": "I'm not sure yet — I might go.",
+      "pl": "Jeszcze nie wiem — może pójdę.",
+      "alternatives": [
+        "I'm not sure. I might go.",
+        "I might go, not sure yet."
+      ],
+      "usage": "„Might” = może (niepewne).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you coming to the party? — I'm not sure yet — I might go.",
+          "pl": "Idziesz na imprezę? — Jeszcze nie wiem — może pójdę."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.future.leaving-on-friday",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 3,
+      "en": "We're leaving on Friday.",
+      "pl": "Wyjeżdżamy w piątek.",
+      "alternatives": [
+        "We leave on Friday."
+      ],
+      "usage": "Ustalony plan — Present Continuous.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're leaving on Friday at six in the morning.",
+          "pl": "Wyjeżdżamy w piątek o szóstej rano."
+        }
+      ],
+      "tags": [
+        "future",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.festival-starts-18th",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 4,
+      "en": "The festival starts on the 18th.",
+      "pl": "Festiwal zaczyna się 18.",
+      "alternatives": [],
+      "usage": "Rozkłady i harmonogramy — Present Simple, nawet o przyszłości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The festival starts on the 18th, but the campsite opens on the 17th.",
+          "pl": "Festiwal zaczyna się 18., ale pole namiotowe otwierają 17."
+        }
+      ],
+      "note": "Rozkład jazdy, program, harmonogram → Present Simple: the train leaves at 6.",
+      "tags": [
+        "future",
+        "gr:present-simple",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.after-festival",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 5,
+      "en": "What are you going to do after the festival?",
+      "pl": "Co zamierzasz robić po festiwalu?",
+      "alternatives": [],
+      "usage": "Pytanie o zamiary.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are you going to do after the festival? — Sleep for a week!",
+          "pl": "Co zamierzasz robić po festiwalu? — Spać przez tydzień!"
+        }
+      ],
+      "tags": [
+        "future",
+        "gr:going-to",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.going-to-rain",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 6,
+      "en": "It's going to rain tomorrow.",
+      "pl": "Jutro będzie padać.",
+      "alternatives": [
+        "It'll rain tomorrow."
+      ],
+      "usage": "Przewidywanie na podstawie tego, co widać (prognoza, chmury).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Take a raincoat. It's going to rain tomorrow.",
+          "pl": "Weź płaszcz przeciwdeszczowy. Jutro będzie padać."
+        }
+      ],
+      "tags": [
+        "future",
+        "gr:going-to",
+        "weather"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.ill-help-you",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 7,
+      "en": "Don't worry, I'll help you.",
+      "pl": "Spoko, pomogę ci.",
+      "alternatives": [
+        "No worries, I'll help you.",
+        "Don't worry, I'll help."
+      ],
+      "usage": "„Will” przy spontanicznej ofercie pomocy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I can't carry all this. — Don't worry, I'll help you.",
+          "pl": "Nie dam rady tego nieść. — Spoko, pomogę ci."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.wont-be-late",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 8,
+      "en": "I won't be late, I promise.",
+      "pl": "Nie spóźnię się, obiecuję.",
+      "alternatives": [],
+      "usage": "Obietnica z „won't”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Be there at eight! — I won't be late, I promise.",
+          "pl": "Bądź o ósmej! — Nie spóźnię się, obiecuję."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.maybe-next-year",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 9,
+      "en": "Maybe next year.",
+      "pl": "Może w przyszłym roku.",
+      "alternatives": [],
+      "usage": "Odkładasz plan.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you going to Ultra this year? — Maybe next year.",
+          "pl": "Jedziesz w tym roku na Ultrę? — Może w przyszłym roku."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.if-sunny-beach",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 10,
+      "en": "If it's sunny, we'll go to the beach.",
+      "pl": "Jeśli będzie słonecznie, pojedziemy na plażę.",
+      "alternatives": [
+        "If it's sunny, we're going to go to the beach."
+      ],
+      "usage": "Warunek w przyszłości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If it's sunny, we'll go to the beach. If not, we'll go to the cinema.",
+          "pl": "Jeśli będzie słońce, pojedziemy na plażę. Jak nie, to do kina."
+        }
+      ],
+      "note": "Po „if” NIE ma „will”: If it IS sunny (nie „if it will be”).",
+      "tags": [
+        "future",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.future.start-saving",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 11,
+      "en": "I'm going to start saving money.",
+      "pl": "Zacznę oszczędzać.",
+      "alternatives": [
+        "I'm going to start saving."
+      ],
+      "usage": "Postanowienie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going to start saving money for next year's festival.",
+          "pl": "Zacznę oszczędzać na przyszłoroczny festiwal."
+        }
+      ],
+      "tags": [
+        "future",
+        "gr:going-to"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.shall-i-bring",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 12,
+      "en": "Shall I bring anything?",
+      "pl": "Mam coś przynieść?",
+      "alternatives": [
+        "Should I bring anything?",
+        "Do you want me to bring anything?"
+      ],
+      "usage": "Gdy idziesz na imprezę albo grilla.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Shall I bring anything? — Just some drinks.",
+          "pl": "Mam coś przynieść? — Tylko coś do picia."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.future.depends-on-weather",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 13,
+      "en": "It depends on the weather.",
+      "pl": "To zależy od pogody.",
+      "alternatives": [
+        "It depends on the weather, really."
+      ],
+      "usage": "Gdy plan nie jest pewny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you going camping? — It depends on the weather.",
+          "pl": "Jedziesz pod namiot? — To zależy od pogody."
+        }
+      ],
+      "note": "Zależy OD = depends ON (nie „from”).",
+      "tags": [
+        "future",
+        "polish-trap",
+        "weather"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.see-how-it-goes",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 14,
+      "en": "Let's see how it goes.",
+      "pl": "Zobaczymy, jak będzie.",
+      "alternatives": [
+        "We'll see how it goes.",
+        "We'll see."
+      ],
+      "usage": "Elastyczne planowanie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Are you staying until the end? — Let's see how it goes.",
+          "pl": "Zostajesz do końca? — Zobaczymy, jak będzie."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.call-you-tomorrow",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 15,
+      "en": "I'll call you tomorrow.",
+      "pl": "Zadzwonię do ciebie jutro.",
+      "alternatives": [
+        "I'll give you a call tomorrow.",
+        "I'll ring you tomorrow."
+      ],
+      "usage": "Obietnica kontaktu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll call you tomorrow and we'll decide.",
+          "pl": "Zadzwonię jutro i zdecydujemy."
+        }
+      ],
+      "tags": [
+        "future",
+        "phone"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.probably",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 16,
+      "en": "probably",
+      "pl": "prawdopodobnie, pewnie",
+      "alternatives": [],
+      "usage": "Coś jest dość pewne.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll probably be late.",
+          "pl": "Pewnie się spóźnię."
+        }
+      ],
+      "collocations": [
+        "I'll probably…",
+        "probably not",
+        "most probably"
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.might",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 17,
+      "en": "might",
+      "pl": "może (niepewnie)",
+      "alternatives": [],
+      "usage": "Możliwość, nie pewność.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I might come later.",
+          "pl": "Może przyjdę później."
+        }
+      ],
+      "collocations": [
+        "I might…",
+        "might not",
+        "it might rain"
+      ],
+      "note": "Po „might” czasownik bez „to”: I might go (nie „might to go”).",
+      "tags": [
+        "future"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.future.hopefully",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 18,
+      "en": "hopefully",
+      "pl": "mam nadzieję, że…",
+      "alternatives": [],
+      "usage": "Wyrażasz nadzieję.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hopefully it won't rain.",
+          "pl": "Oby nie padało."
+        }
+      ],
+      "collocations": [
+        "hopefully not",
+        "hopefully tomorrow",
+        "hopefully we'll…"
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.future",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 19,
+      "en": "future",
+      "pl": "przyszłość; przyszły",
+      "alternatives": [],
+      "usage": "O tym, co będzie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "In the future, I want to live by the sea.",
+          "pl": "W przyszłości chcę mieszkać nad morzem."
+        }
+      ],
+      "collocations": [
+        "in the future",
+        "the near future",
+        "future plans"
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.later",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 20,
+      "en": "later",
+      "pl": "później",
+      "alternatives": [],
+      "usage": "Za jakiś czas.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll do it later.",
+          "pl": "Zrobię to później."
+        }
+      ],
+      "collocations": [
+        "later today",
+        "a bit later",
+        "talk later"
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.decide",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 21,
+      "en": "decide",
+      "pl": "zdecydować",
+      "alternatives": [],
+      "usage": "Podejmowanie decyzji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We haven't decided yet.",
+          "pl": "Jeszcze nie zdecydowaliśmy."
+        }
+      ],
+      "collocations": [
+        "decide to…",
+        "I haven't decided",
+        "decide later"
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.promise",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 22,
+      "en": "promise",
+      "pl": "obiecać; obietnica",
+      "alternatives": [],
+      "usage": "Zobowiązanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I promise I'll pay you back.",
+          "pl": "Obiecuję, że ci oddam."
+        }
+      ],
+      "collocations": [
+        "I promise",
+        "make a promise",
+        "keep a promise"
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.forecast",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 23,
+      "en": "forecast",
+      "pl": "prognoza",
+      "alternatives": [],
+      "usage": "Prognoza pogody.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you checked the forecast?",
+          "pl": "Sprawdzałeś prognozę?"
+        }
+      ],
+      "collocations": [
+        "the weather forecast",
+        "the forecast says…",
+        "check the forecast"
+      ],
+      "tags": [
+        "future",
+        "weather"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.future.definitely",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 24,
+      "en": "definitely",
+      "pl": "na pewno, zdecydowanie",
+      "alternatives": [],
+      "usage": "Pewność.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll definitely come next year.",
+          "pl": "Na pewno przyjadę w przyszłym roku."
+        }
+      ],
+      "collocations": [
+        "definitely not",
+        "I'll definitely…",
+        "definitely worth it"
+      ],
+      "pronunciation": "Czytaj „DE-fi-nyt-li”.",
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.think-ill",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 25,
+      "en": "I think I'll ___.",
+      "pl": "Chyba ___.",
+      "alternatives": [],
+      "usage": "Decyzja podjęta właśnie teraz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I think I'll stay in tonight.",
+          "pl": "Chyba zostanę dziś w domu."
+        },
+        {
+          "en": "I think I'll take the train.",
+          "pl": "Chyba pojadę pociągiem."
+        }
+      ],
+      "note": "„Will” = decyzja w momencie mówienia. „Going to” = wcześniejszy zamiar.",
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.i-might",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 26,
+      "en": "I might ___.",
+      "pl": "Może ___.",
+      "alternatives": [],
+      "usage": "Niepewny plan.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I might go to the gym later.",
+          "pl": "Może pójdę później na siłownię."
+        },
+        {
+          "en": "I might come, but I'm not sure.",
+          "pl": "Może przyjdę, ale nie jestem pewien."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.future.if-it-rains",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 27,
+      "en": "If it rains, we'll ___.",
+      "pl": "Jeśli będzie padać, ___.",
+      "alternatives": [],
+      "usage": "Plan B na deszcz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If it rains, we'll stay in the tent.",
+          "pl": "Jeśli będzie padać, zostaniemy w namiocie."
+        },
+        {
+          "en": "If it rains, we'll go to the cinema.",
+          "pl": "Jeśli będzie padać, pójdziemy do kina."
+        }
+      ],
+      "note": "If + teraźniejszy (rains), potem will.",
+      "tags": [
+        "future",
+        "weather"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.future.hoping-to",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 28,
+      "en": "I'm hoping to ___.",
+      "pl": "Mam nadzieję, że ___.",
+      "alternatives": [],
+      "usage": "Plan z nadzieją.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm hoping to get a new job.",
+          "pl": "Mam nadzieję dostać nową pracę."
+        },
+        {
+          "en": "I'm hoping to see you there.",
+          "pl": "Mam nadzieję, że cię tam zobaczę."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.future.are-you-this-weekend",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 29,
+      "en": "Are you ___ this weekend?",
+      "pl": "Czy w ten weekend ___?",
+      "alternatives": [],
+      "usage": "Pytasz o ustalone plany.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you working this weekend?",
+          "pl": "Pracujesz w ten weekend?"
+        },
+        {
+          "en": "Are you going out this weekend?",
+          "pl": "Wychodzisz gdzieś w ten weekend?"
+        }
+      ],
+      "tags": [
+        "future",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.ill-tomorrow-promise",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 30,
+      "en": "I'll ___ tomorrow, I promise.",
+      "pl": "Jutro ___, obiecuję.",
+      "alternatives": [],
+      "usage": "Obietnica.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'll call you tomorrow, I promise.",
+          "pl": "Jutro zadzwonię, obiecuję."
+        },
+        {
+          "en": "I'll pay you back tomorrow, I promise.",
+          "pl": "Jutro ci oddam, obiecuję."
+        }
+      ],
+      "tags": [
+        "future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.uncertain-plans",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 31,
+      "en": "Uncertain plans",
+      "pl": "Niepewne plany",
+      "alternatives": [],
+      "usage": "Will, might, going to i „to zależy”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you coming to the beach on Saturday?",
+          "pl": "Jedziesz w sobotę na plażę?",
+          "speaker": "A"
+        },
+        {
+          "en": "I might. It depends on the weather.",
+          "pl": "Może. Zależy od pogody.",
+          "speaker": "B"
+        },
+        {
+          "en": "The forecast says it's going to be sunny.",
+          "pl": "Prognoza mówi, że będzie słonecznie.",
+          "speaker": "A"
+        },
+        {
+          "en": "Then I'll definitely come! Shall I bring anything?",
+          "pl": "To na pewno przyjadę! Mam coś przynieść?",
+          "speaker": "B"
+        },
+        {
+          "en": "Just some drinks.",
+          "pl": "Tylko coś do picia.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "future",
+        "weather"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.future.helping-friend",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.future",
+      "order": 32,
+      "en": "Moving day",
+      "pl": "Przeprowadzka",
+      "alternatives": [],
+      "usage": "Spontaniczna oferta pomocy z „will”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm moving flats on Saturday. It's going to be a long day.",
+          "pl": "W sobotę się przeprowadzam. To będzie długi dzień.",
+          "speaker": "A"
+        },
+        {
+          "en": "Don't worry, I'll help you. What time?",
+          "pl": "Spoko, pomogę ci. O której?",
+          "speaker": "B"
+        },
+        {
+          "en": "Nine. Is that too early?",
+          "pl": "O dziewiątej. Za wcześnie?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, it's fine. I won't be late, I promise.",
+          "pl": "Nie, w porządku. Nie spóźnię się, obiecuję.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "future",
+        "gr:going-to"
+      ],
+      "level": "A2"
+    }
+  ]
+}

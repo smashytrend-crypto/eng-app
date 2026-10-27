@@ -457,6 +457,91 @@
         "phone",
         "festival"
       ]
+    },
+    {
+      "id": "task.s5-last-weekend",
+      "stage": 5,
+      "title": "Twój ostatni weekend",
+      "instruction": "Opowiedz o ostatnim weekendzie w 5 zdaniach: gdzie byłeś, z kim, co robiliście, o której wróciłeś i jak było.",
+      "starters": [
+        "Last weekend I went to…",
+        "I was with…",
+        "We…",
+        "I got home at…",
+        "It was…"
+      ],
+      "example": "Last weekend I went to a party at a friend's place. I was with Kuba and some people from work. We danced and played beer pong. I got home at four in the morning. It was great, but I slept until noon!",
+      "tags": [
+        "gr:past-simple"
+      ]
+    },
+    {
+      "id": "task.s5-festival-story",
+      "stage": 5,
+      "title": "Historia z festiwalu",
+      "instruction": "Opowiedz najlepszą (albo najśmieszniejszą) historię z festiwalu. Użyj: first, then, suddenly, in the end.",
+      "starters": [
+        "You won't believe what happened!",
+        "First, we…",
+        "Then…",
+        "Suddenly…",
+        "In the end…"
+      ],
+      "example": "You won't believe what happened at Tomorrowland! First, we lost our tent. Then it started raining. Suddenly, a guy from Holland said we could sleep in his big tent. In the end, we became good friends!",
+      "tags": [
+        "story",
+        "gr:past-simple"
+      ]
+    },
+    {
+      "id": "task.s5-experiences",
+      "stage": 5,
+      "title": "Twoje doświadczenia",
+      "instruction": "Powiedz 3 rzeczy, które już robiłeś, i 2, których nigdy nie robiłeś (Present Perfect).",
+      "starters": [
+        "I've been to…",
+        "I've seen … live.",
+        "I've never…",
+        "I've never tried…"
+      ],
+      "example": "I've been to Belgium four times. I've seen Charlotte de Witte live twice. I've already been to a festival in Germany. I've never been to the UK, and I've never tried surfing.",
+      "tags": [
+        "gr:present-perfect"
+      ]
+    },
+    {
+      "id": "task.s5-next-month",
+      "stage": 5,
+      "title": "Plany na najbliższy miesiąc",
+      "instruction": "Opowiedz o planach: co już ustalone (Present Continuous), co zamierzasz (going to), co może się stać (might).",
+      "starters": [
+        "Next week I'm…",
+        "I'm going to…",
+        "I might…",
+        "If it's sunny, I'll…"
+      ],
+      "example": "Next week I'm working nights. On Saturday I'm going to visit my parents. I might go to a club with Kuba, but I'm not sure yet. If it's sunny on Sunday, I'll go to the lake.",
+      "tags": [
+        "future",
+        "gr:going-to",
+        "gr:present-continuous-future"
+      ]
+    },
+    {
+      "id": "task.s5-dreams",
+      "stage": 5,
+      "title": "Twoje marzenia",
+      "instruction": "Opowiedz o swoich marzeniach i co byś zrobił, gdybyś miał milion euro.",
+      "starters": [
+        "My dream is to…",
+        "One day I'd love to…",
+        "If I had a million euros, I'd…",
+        "I wish I could…"
+      ],
+      "example": "My dream is to speak English fluently and travel the world. One day I'd love to go to Ibiza and Japan. If I had a million euros, I'd buy a house by the sea. I wish I could DJ!",
+      "tags": [
+        "dreams"
+      ]
     }
   ]
 }

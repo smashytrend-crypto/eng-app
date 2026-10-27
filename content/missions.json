@@ -694,6 +694,157 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mission.s5-festival-report",
+      "stage": 5,
+      "title": "Relacja z festiwalu",
+      "titleEn": "The festival report",
+      "setting": "Wracasz do pracy po Tomorrowland. Kolega z Anglii, Mike, chce znać każdy szczegół: co się działo, kogo widziałeś, co poszło nie tak.",
+      "claudeScenario": "It's Monday at work. You're Mike, my English colleague, and I just came back from Tomorrowland. Ask me lots of questions about what happened — use the past tense and ask follow-up questions.",
+      "tags": [
+        "story",
+        "festival"
+      ],
+      "steps": [
+        {
+          "them": "Welcome back! How was Tomorrowland?",
+          "themPl": "Witaj z powrotem! Jak było na Tomorrowland?",
+          "task": "Powiedz, że to był najlepszy festiwal, na jakim byłeś.",
+          "answer": "It was the best festival I've ever been to!",
+          "alt": [
+            "Amazing! It was the best festival ever!"
+          ]
+        },
+        {
+          "them": "Who did you see?",
+          "themPl": "Kogo widziałeś?",
+          "task": "Powiedz, że widziałeś Charlotte de Witte i Armina van Buurena.",
+          "answer": "I saw Charlotte de Witte and Armin van Buuren."
+        },
+        {
+          "them": "Nice! Did anything go wrong?",
+          "themPl": "Super! Coś poszło nie tak?",
+          "task": "Powiedz, że zgubiłeś znajomych w tłumie pierwszego dnia.",
+          "answer": "I lost my friends in the crowd on the first day."
+        },
+        {
+          "them": "Oh no! What happened next?",
+          "themPl": "O nie! Co było dalej?",
+          "task": "Powiedz, że w końcu spotkaliście się przy dużym drzewie.",
+          "answer": "In the end, we met at the big tree.",
+          "alt": [
+            "Finally we met at the big tree."
+          ]
+        },
+        {
+          "them": "Ha! Did you sleep at all?",
+          "themPl": "Ha! Spałeś w ogóle?",
+          "task": "Powiedz, że prawie wcale — wracaliście o piątej rano.",
+          "answer": "Not much. We got back at five in the morning.",
+          "alt": [
+            "Not really. We got home at five in the morning."
+          ]
+        },
+        {
+          "them": "Did you meet anyone interesting?",
+          "themPl": "Poznałeś kogoś ciekawego?",
+          "task": "Powiedz, że poznałeś fajnych ludzi z Holandii.",
+          "answer": "I met some really nice people from Holland.",
+          "alt": [
+            "Yes, I met some nice people from the Netherlands."
+          ]
+        },
+        {
+          "them": "What was the best part?",
+          "themPl": "Co było najlepsze?",
+          "task": "Powiedz, że najlepsze były fajerwerki ostatniej nocy.",
+          "answer": "The best part was the fireworks on the last night."
+        },
+        {
+          "them": "Sounds incredible. Are you going again next year?",
+          "themPl": "Brzmi niesamowicie. Jedziesz w przyszłym roku?",
+          "task": "Powiedz, że na pewno — już odkładasz pieniądze.",
+          "answer": "Definitely! I'm already saving up.",
+          "alt": [
+            "Definitely! I've already started saving."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission.s5-campfire",
+      "stage": 5,
+      "title": "Rozmowy przy ognisku",
+      "titleEn": "Campfire talk",
+      "setting": "Ostatni wieczór wyjazdu, ognisko z nowymi znajomymi. Rozmowa o doświadczeniach, planach i marzeniach.",
+      "claudeScenario": "We're sitting around a campfire on the last night of a trip. You're Ana from Portugal, curious and fun. Ask me about my experiences (Have you ever…?), my plans and my dreams.",
+      "tags": [
+        "dreams",
+        "gr:present-perfect"
+      ],
+      "steps": [
+        {
+          "them": "So, Domin, what's the craziest thing you've ever done?",
+          "themPl": "Domin, jaka jest najbardziej szalona rzecz, jaką zrobiłeś?",
+          "task": "Powiedz, że kiedyś pojechałeś autostopem do Berlina na imprezę.",
+          "answer": "I once hitchhiked to Berlin for a party.",
+          "alt": [
+            "Once I hitchhiked to Berlin for a party."
+          ]
+        },
+        {
+          "them": "No way! Have you ever been to Portugal?",
+          "themPl": "Serio? Byłeś kiedyś w Portugalii?",
+          "task": "Powiedz, że jeszcze nie, ale bardzo byś chciał.",
+          "answer": "Not yet, but I'd love to."
+        },
+        {
+          "them": "You should come! What are you doing next summer?",
+          "themPl": "Musisz przyjechać! Co robisz przyszłego lata?",
+          "task": "Powiedz, że zamierzasz jechać na Tomorrowland i może do Hiszpanii.",
+          "answer": "I'm going to go to Tomorrowland, and I might go to Spain.",
+          "alt": [
+            "I'm going to Tomorrowland, and maybe Spain."
+          ]
+        },
+        {
+          "them": "What's on your bucket list?",
+          "themPl": "Co masz na liście marzeń?",
+          "task": "Powiedz, że zawsze marzyłeś o Ibizie.",
+          "answer": "I've always dreamed of going to Ibiza.",
+          "alt": [
+            "Ibiza! I've always dreamed of going there."
+          ]
+        },
+        {
+          "them": "And if you had a million euros?",
+          "themPl": "A gdybyś miał milion euro?",
+          "task": "Powiedz, że kupiłbyś dom nad morzem.",
+          "answer": "I'd buy a house by the sea.",
+          "alt": [
+            "If I had a million euros, I'd buy a house by the sea."
+          ]
+        },
+        {
+          "them": "Nice! Is there anything you wish you could do?",
+          "themPl": "Fajnie! Jest coś, co chciałbyś umieć?",
+          "task": "Powiedz, że chciałbyś umieć grać jako DJ.",
+          "answer": "I wish I could DJ.",
+          "alt": [
+            "I wish I could DJ!"
+          ]
+        },
+        {
+          "them": "You should learn! It's never too late.",
+          "themPl": "Naucz się! Nigdy nie jest za późno.",
+          "task": "Odpowiedz, że pracujesz nad tym — krok po kroku.",
+          "answer": "I'm working on it. Step by step!",
+          "alt": [
+            "I'm working on it, step by step."
+          ]
+        }
+      ]
     }
   ]
 }

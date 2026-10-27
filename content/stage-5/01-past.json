@@ -1,0 +1,885 @@
+{
+  "module": {
+    "id": "s5.past",
+    "stage": 5,
+    "order": 1,
+    "title": "Co się wydarzyło",
+    "titleEn": "What happened",
+    "description": "Past Simple w praktyce: co robiłeś w weekend, gdzie byłeś, kogo poznałeś. Najczęstsze nieregularne czasowniki i pytania z „did”.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s5.past.what-did-you-do-weekend",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 1,
+      "en": "What did you do at the weekend?",
+      "pl": "Co robiłeś w weekend?",
+      "alternatives": [
+        "What did you do on the weekend?",
+        "What did you get up to at the weekend?"
+      ],
+      "usage": "Pytanie o przeszłość — z „did”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What did you do at the weekend? — I went to Berlin.",
+          "pl": "Co robiłeś w weekend? — Byłem w Berlinie."
+        }
+      ],
+      "note": "Pytanie w przeszłości: did + czasownik w formie podstawowej (do, go), nie „did you went”.",
+      "tags": [
+        "gr:past-simple",
+        "gr:questions-do",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.party-friends-place",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 2,
+      "en": "I went to a party at a friend's place.",
+      "pl": "Byłem na imprezie u kumpla.",
+      "alternatives": [
+        "I went to a party at my friend's place.",
+        "I went to a party at a friend's house."
+      ],
+      "usage": "Opowiadasz, co robiłeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I went to a party at a friend's place. It was great.",
+          "pl": "Byłem na imprezie u kumpla. Było super."
+        }
+      ],
+      "note": "„Byłem na imprezie” = „I went to a party” — po angielsku częściej „went” niż „was”.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.didnt-do-much",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 3,
+      "en": "I didn't do much.",
+      "pl": "Nic specjalnego nie robiłem.",
+      "alternatives": [
+        "I didn't do anything special.",
+        "Not much, really."
+      ],
+      "usage": "Spokojny weekend.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How was your weekend? — Quiet. I didn't do much.",
+          "pl": "Jak weekend? — Spokojnie. Nic specjalnego nie robiłem."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.stayed-in-film",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 4,
+      "en": "I stayed in and watched a film.",
+      "pl": "Zostałem w domu i obejrzałem film.",
+      "alternatives": [
+        "I stayed at home and watched a film.",
+        "I stayed in and watched a movie."
+      ],
+      "usage": "Regularne czasowniki z „-ed”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "On Saturday I stayed in and watched a film.",
+          "pl": "W sobotę zostałem w domu i obejrzałem film."
+        }
+      ],
+      "tags": [
+        "gr:past-simple",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.met-nice-people",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 5,
+      "en": "I met some really nice people.",
+      "pl": "Poznałem bardzo fajnych ludzi.",
+      "alternatives": [
+        "I met some really cool people.",
+        "I met some great people."
+      ],
+      "usage": "Po festiwalu albo wyjeździe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I met some really nice people from Spain at the campsite.",
+          "pl": "Na polu namiotowym poznałem bardzo fajnych ludzi z Hiszpanii."
+        }
+      ],
+      "tags": [
+        "gr:past-simple",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.got-home-at-five",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 6,
+      "en": "We got home at five in the morning.",
+      "pl": "Wróciliśmy do domu o piątej rano.",
+      "alternatives": [
+        "We got back home at five in the morning.",
+        "We got home at 5 a.m."
+      ],
+      "usage": "Po imprezie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We got home at five in the morning and slept all day.",
+          "pl": "Wróciliśmy o piątej rano i spaliśmy cały dzień."
+        }
+      ],
+      "note": "„Wrócić do domu” = „get home” (bez „to”).",
+      "tags": [
+        "gr:past-simple",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.best-night-ever",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 7,
+      "en": "It was the best night ever!",
+      "pl": "To była najlepsza noc w życiu!",
+      "alternatives": [
+        "That was the best night ever!",
+        "Best night ever!"
+      ],
+      "usage": "Entuzjastyczne podsumowanie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "How was the closing party? — It was the best night ever!",
+          "pl": "Jak impreza zamknięcia? — To była najlepsza noc w życiu!"
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.have-good-time",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 8,
+      "en": "Did you have a good time?",
+      "pl": "Dobrze się bawiłeś?",
+      "alternatives": [
+        "Did you have fun?",
+        "Did you enjoy it?"
+      ],
+      "usage": "Pytasz o wrażenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Did you have a good time? — Amazing, thanks!",
+          "pl": "Dobrze się bawiłeś? — Rewelacyjnie, dzięki!"
+        }
+      ],
+      "tags": [
+        "gr:past-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.where-did-you-go",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 9,
+      "en": "Where did you go?",
+      "pl": "Gdzie byłeś? / Dokąd poszedłeś?",
+      "alternatives": [],
+      "usage": "Dopytujesz o szczegóły.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I went on holiday last month. — Nice! Where did you go?",
+          "pl": "W zeszłym miesiącu byłem na urlopie. — Super! Gdzie byłeś?"
+        }
+      ],
+      "tags": [
+        "gr:past-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.slept-until-noon",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 10,
+      "en": "I slept until noon.",
+      "pl": "Spałem do południa.",
+      "alternatives": [
+        "I slept till noon.",
+        "I slept until midday."
+      ],
+      "usage": "Dzień po imprezie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I slept until noon and then went to the gym.",
+          "pl": "Spałem do południa, a potem poszedłem na siłownię."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.so-tired-yesterday",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 11,
+      "en": "I was so tired yesterday.",
+      "pl": "Byłem wczoraj strasznie zmęczony.",
+      "alternatives": [
+        "I was really tired yesterday."
+      ],
+      "usage": "Was / were — przeszłość od „be”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I was so tired yesterday that I fell asleep on the tram.",
+          "pl": "Byłem wczoraj tak zmęczony, że zasnąłem w tramwaju."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.there-for-three-days",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 12,
+      "en": "We were there for three days.",
+      "pl": "Byliśmy tam trzy dni.",
+      "alternatives": [],
+      "usage": "Długość pobytu w przeszłości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We were there for three days, and it rained every day.",
+          "pl": "Byliśmy tam trzy dni i codziennie padało."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.didnt-know-anyone",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 13,
+      "en": "I didn't know anyone there.",
+      "pl": "Nikogo tam nie znałem.",
+      "alternatives": [
+        "I didn't know anybody there."
+      ],
+      "usage": "Przeczenie w przeszłości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I didn't know anyone there, but everyone was really friendly.",
+          "pl": "Nikogo tam nie znałem, ale wszyscy byli bardzo mili."
+        }
+      ],
+      "note": "Didn't + forma podstawowa: didn't know (nie „didn't knew”).",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.what-happened",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 14,
+      "en": "What happened?",
+      "pl": "Co się stało?",
+      "alternatives": [],
+      "usage": "Gdy ktoś wygląda na zdenerwowanego.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You look upset. What happened? — I lost my ticket.",
+          "pl": "Wyglądasz na zdenerwowanego. Co się stało? — Zgubiłem bilet."
+        }
+      ],
+      "note": "Pytanie o podmiot — bez „did”: What happened? (nie „What did happen?”).",
+      "tags": [
+        "gr:past-simple",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.lost-my-voice",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 15,
+      "en": "I lost my voice.",
+      "pl": "Straciłem głos.",
+      "alternatives": [],
+      "usage": "Po krzyczeniu na koncercie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I lost my voice from singing all night.",
+          "pl": "Straciłem głos od śpiewania całą noc."
+        }
+      ],
+      "tags": [
+        "gr:past-simple",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.went",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 16,
+      "en": "went",
+      "pl": "poszedłem / pojechałem (od go)",
+      "alternatives": [],
+      "usage": "Nieregularna przeszłość od „go”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We went to Berlin by car.",
+          "pl": "Pojechaliśmy do Berlina samochodem."
+        }
+      ],
+      "collocations": [
+        "went out",
+        "went home",
+        "went to bed"
+      ],
+      "note": "go → went → gone.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.saw",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 17,
+      "en": "saw",
+      "pl": "widziałem (od see)",
+      "alternatives": [],
+      "usage": "Nieregularna przeszłość od „see”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I saw Martin Garrix live last year.",
+          "pl": "W zeszłym roku widziałem Martina Garrixa na żywo."
+        }
+      ],
+      "collocations": [
+        "saw a film",
+        "saw him live",
+        "saw it on Instagram"
+      ],
+      "note": "see → saw → seen.",
+      "pronunciation": "Czytaj „so:” — długie „o”.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.met",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 18,
+      "en": "met",
+      "pl": "poznałem, spotkałem (od meet)",
+      "alternatives": [],
+      "usage": "Nieregularna przeszłość od „meet”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We met at a festival in 2023.",
+          "pl": "Poznaliśmy się na festiwalu w 2023."
+        }
+      ],
+      "collocations": [
+        "met a friend",
+        "met at a festival",
+        "met for a drink"
+      ],
+      "note": "meet → met → met.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.had",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 19,
+      "en": "had",
+      "pl": "miałem; jadłem / piłem (od have)",
+      "alternatives": [],
+      "usage": "Przeszłość od „have”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We had a great time.",
+          "pl": "Świetnie się bawiliśmy."
+        }
+      ],
+      "collocations": [
+        "had a great time",
+        "had dinner",
+        "had a drink"
+      ],
+      "note": "„Have a good time” = dobrze się bawić. Przeszłość: had a good time.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.got",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 20,
+      "en": "got",
+      "pl": "dostałem; dotarłem; zrobiłem się (od get)",
+      "alternatives": [],
+      "usage": "Bardzo wielofunkcyjne „get” w przeszłości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We got lost on the way to the campsite.",
+          "pl": "Zgubiliśmy się w drodze na pole namiotowe."
+        }
+      ],
+      "collocations": [
+        "got home",
+        "got lost",
+        "got a ticket"
+      ],
+      "note": "get → got → got (UK) / gotten (US).",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.bought",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 21,
+      "en": "bought",
+      "pl": "kupiłem (od buy)",
+      "alternatives": [],
+      "usage": "Nieregularna przeszłość od „buy”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I bought the tickets online.",
+          "pl": "Kupiłem bilety online."
+        }
+      ],
+      "collocations": [
+        "bought a ticket",
+        "bought some food",
+        "bought it online"
+      ],
+      "note": "buy → bought → bought.",
+      "pronunciation": "Czytaj „bo:t” — bez „g” i bez „h”.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.took",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 22,
+      "en": "took",
+      "pl": "wziąłem; zajęło (od take)",
+      "alternatives": [],
+      "usage": "Nieregularna przeszłość od „take”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It took us three hours to get there.",
+          "pl": "Dojazd zajął nam trzy godziny."
+        }
+      ],
+      "collocations": [
+        "took a taxi",
+        "took photos",
+        "took ages"
+      ],
+      "note": "take → took → taken.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.came",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 23,
+      "en": "came",
+      "pl": "przyszedłem / przyjechałem (od come)",
+      "alternatives": [],
+      "usage": "Nieregularna przeszłość od „come”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My brother came with me.",
+          "pl": "Brat przyjechał ze mną."
+        }
+      ],
+      "collocations": [
+        "came back",
+        "came home",
+        "came with me"
+      ],
+      "note": "come → came → come.",
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.ago",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 24,
+      "en": "ago",
+      "pl": "temu",
+      "alternatives": [],
+      "usage": "Ile czasu minęło.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I arrived two days ago.",
+          "pl": "Przyjechałem dwa dni temu."
+        }
+      ],
+      "collocations": [
+        "two days ago",
+        "a long time ago",
+        "a week ago"
+      ],
+      "note": "„Ago” stoi PO czasie: two days ago (nie „ago two days”).",
+      "tags": [
+        "gr:past-simple",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.last-weekend-i",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 25,
+      "en": "Last weekend I ___.",
+      "pl": "W zeszły weekend ___.",
+      "alternatives": [],
+      "usage": "Opowiadasz o weekendzie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Last weekend I went to a club in Berlin.",
+          "pl": "W zeszły weekend byłem w klubie w Berlinie."
+        },
+        {
+          "en": "Last weekend I visited my parents.",
+          "pl": "W zeszły weekend odwiedziłem rodziców."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.yesterday-i",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 26,
+      "en": "Yesterday I ___.",
+      "pl": "Wczoraj ___.",
+      "alternatives": [],
+      "usage": "Co robiłeś wczoraj.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Yesterday I trained legs.",
+          "pl": "Wczoraj robiłem nogi."
+        },
+        {
+          "en": "Yesterday I worked twelve hours.",
+          "pl": "Wczoraj pracowałem dwanaście godzin."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.days-ago",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 27,
+      "en": "I ___ two days ago.",
+      "pl": "___ dwa dni temu.",
+      "alternatives": [],
+      "usage": "Kiedy coś się stało.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I arrived two days ago.",
+          "pl": "Przyjechałem dwa dni temu."
+        },
+        {
+          "en": "I bought the tickets two days ago.",
+          "pl": "Kupiłem bilety dwa dni temu."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.did-you",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 28,
+      "en": "Did you ___?",
+      "pl": "Czy ___? (w przeszłości)",
+      "alternatives": [],
+      "usage": "Pytania o przeszłość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Did you see the fireworks?",
+          "pl": "Widziałeś fajerwerki?"
+        },
+        {
+          "en": "Did you buy the tickets?",
+          "pl": "Kupiłeś bilety?"
+        }
+      ],
+      "note": "Did + forma podstawowa: Did you see? (nie „Did you saw?”).",
+      "tags": [
+        "gr:past-simple",
+        "gr:questions-do"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.i-didnt",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 29,
+      "en": "I didn't ___.",
+      "pl": "Nie ___ (w przeszłości).",
+      "alternatives": [],
+      "usage": "Przeczenia w przeszłości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I didn't sleep much.",
+          "pl": "Mało spałem."
+        },
+        {
+          "en": "I didn't have time.",
+          "pl": "Nie miałem czasu."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.when-i-was-a-kid",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 30,
+      "en": "When I was a kid, I ___.",
+      "pl": "Kiedy byłem dzieckiem, ___.",
+      "alternatives": [],
+      "usage": "Wspomnienia z dzieciństwa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "When I was a kid, I played football every day.",
+          "pl": "Kiedy byłem dzieckiem, codziennie grałem w piłkę."
+        },
+        {
+          "en": "When I was a kid, I wanted to be a DJ.",
+          "pl": "Kiedy byłem dzieckiem, chciałem być DJ-em."
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.monday-chat",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 31,
+      "en": "Monday chat",
+      "pl": "Rozmowa w poniedziałek",
+      "alternatives": [],
+      "usage": "Opowiadasz o weekendzie w Past Simple.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What did you do at the weekend?",
+          "pl": "Co robiłeś w weekend?",
+          "speaker": "A"
+        },
+        {
+          "en": "I went to a party at a friend's place. We got home at five in the morning!",
+          "pl": "Byłem na imprezie u kumpla. Wróciliśmy o piątej rano!",
+          "speaker": "B"
+        },
+        {
+          "en": "Ha! Did you have a good time?",
+          "pl": "Ha! Dobrze się bawiłeś?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, I met some really nice people. And you?",
+          "pl": "Tak, poznałem fajnych ludzi. A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "I didn't do much. I stayed in and watched a film.",
+          "pl": "Nic specjalnego. Zostałem w domu i obejrzałem film.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.past.how-was-festival",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.past",
+      "order": 32,
+      "en": "How was the festival?",
+      "pl": "Jak było na festiwalu?",
+      "alternatives": [],
+      "usage": "Ktoś pyta cię o wyjazd.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You look tired! How was the festival?",
+          "pl": "Wyglądasz na zmęczonego! Jak festiwal?",
+          "speaker": "A"
+        },
+        {
+          "en": "Amazing. We were there for three days.",
+          "pl": "Niesamowicie. Byliśmy tam trzy dni.",
+          "speaker": "B"
+        },
+        {
+          "en": "Who did you see?",
+          "pl": "Kogo widziałeś?",
+          "speaker": "A"
+        },
+        {
+          "en": "Charlotte de Witte, Fisher, Armin… I lost my voice from singing!",
+          "pl": "Charlotte de Witte, Fishera, Armina… Straciłem głos od śpiewania!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "gr:past-simple",
+        "festival"
+      ],
+      "level": "A2"
+    }
+  ]
+}

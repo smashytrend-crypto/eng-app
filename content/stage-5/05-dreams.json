@@ -1,0 +1,848 @@
+{
+  "module": {
+    "id": "s5.dreams",
+    "stage": 5,
+    "order": 5,
+    "title": "Marzenia",
+    "titleEn": "Dreams",
+    "description": "Marzenia, lista rzeczy do zrobienia w życiu i gdybanie: If I had…, I'd…, I wish I could…, one day…",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s5.dreams.make-it-happen",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 1,
+      "en": "Let's make it happen!",
+      "pl": "Zróbmy to!",
+      "alternatives": [
+        "Let's do it!"
+      ],
+      "usage": "Motywacja do spełniania marzeń.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "A road trip to Croatia next summer? Let's make it happen!",
+          "pl": "Wyjazd do Chorwacji przyszłego lata? Zróbmy to!"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.on-bucket-list",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 2,
+      "en": "It's on my bucket list.",
+      "pl": "To jest na mojej liście marzeń.",
+      "alternatives": [
+        "It's on my bucket list too."
+      ],
+      "usage": "Coś, co chcesz zrobić w życiu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Seeing the northern lights? It's on my bucket list.",
+          "pl": "Zorza polarna? Jest na mojej liście marzeń."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.won-lottery",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 3,
+      "en": "If I won the lottery, I'd travel the world.",
+      "pl": "Gdybym wygrał w lotto, objechałbym świat.",
+      "alternatives": [],
+      "usage": "Gdybanie o nierealnym — II tryb warunkowy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If I won the lottery, I'd travel the world. What about you?",
+          "pl": "Gdybym wygrał w lotto, objechałbym świat. A ty?"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.anything-possible",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 4,
+      "en": "Anything is possible.",
+      "pl": "Wszystko jest możliwe.",
+      "alternatives": [],
+      "usage": "Optymistycznie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You think I can play at a festival one day? — Anything is possible!",
+          "pl": "Myślisz, że kiedyś zagram na festiwalu? — Wszystko jest możliwe!"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.why-not",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 5,
+      "en": "Why not?",
+      "pl": "Czemu nie?",
+      "alternatives": [],
+      "usage": "Akceptujesz pomysł albo zachęcasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Should I learn to DJ? — Why not?",
+          "pl": "Nauczyć się grać jako DJ? — Czemu nie?"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.would-be-amazing",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 6,
+      "en": "That would be amazing.",
+      "pl": "To byłoby niesamowite.",
+      "alternatives": [
+        "That would be awesome."
+      ],
+      "usage": "Reakcja na marzenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Imagine playing on the main stage! — That would be amazing.",
+          "pl": "Wyobraź sobie grę na mainstage! — To byłoby niesamowite."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.dreamed-of-ibiza",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 7,
+      "en": "I've always dreamed of going to Ibiza.",
+      "pl": "Zawsze marzyłem o wyjeździe na Ibizę.",
+      "alternatives": [
+        "I've always dreamt of going to Ibiza."
+      ],
+      "usage": "Dawne marzenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've always dreamed of going to Ibiza. Maybe next summer!",
+          "pl": "Zawsze marzyłem o Ibizie. Może przyszłego lata!"
+        }
+      ],
+      "note": "Marzyć O = dream OF / ABOUT + -ing.",
+      "tags": [
+        "dreams",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.million-euros",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 8,
+      "en": "What would you do if you had a million euros?",
+      "pl": "Co byś zrobił, gdybyś miał milion euro?",
+      "alternatives": [],
+      "usage": "Świetne pytanie do rozmowy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What would you do if you had a million euros? — Quit my job, obviously!",
+          "pl": "Co byś zrobił z milionem euro? — Rzucił robotę, oczywiście!"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.house-by-sea",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 9,
+      "en": "I'd buy a house by the sea.",
+      "pl": "Kupiłbym dom nad morzem.",
+      "alternatives": [
+        "I'd buy a house near the sea."
+      ],
+      "usage": "Odpowiedź na gdybanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "With a million euros? I'd buy a house by the sea.",
+          "pl": "Z milionem euro? Kupiłbym dom nad morzem."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.step-by-step",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 10,
+      "en": "Step by step.",
+      "pl": "Krok po kroku.",
+      "alternatives": [],
+      "usage": "Cierpliwość w dążeniu do celu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How do you learn a language? — Step by step. Every day a little.",
+          "pl": "Jak się uczyć języka? — Krok po kroku. Codziennie trochę."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.never-too-late",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 11,
+      "en": "It's never too late.",
+      "pl": "Nigdy nie jest za późno.",
+      "alternatives": [],
+      "usage": "Motywacja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm thirty — is it too late to learn English? — It's never too late!",
+          "pl": "Mam trzydzieści lat — za późno na angielski? — Nigdy nie jest za późno!"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.working-on-it",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 12,
+      "en": "I'm working on it.",
+      "pl": "Pracuję nad tym.",
+      "alternatives": [],
+      "usage": "Mówisz, że realizujesz cel.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is your English fluent yet? — I'm working on it!",
+          "pl": "Mówisz już płynnie? — Pracuję nad tym!"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.dream-big",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 13,
+      "en": "Dream big!",
+      "pl": "Marz śmiało!",
+      "alternatives": [],
+      "usage": "Zachęta.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Dream big! You can do it.",
+          "pl": "Marz śmiało! Dasz radę."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.only-live-once",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 14,
+      "en": "You only live once!",
+      "pl": "Żyje się raz!",
+      "alternatives": [
+        "YOLO!"
+      ],
+      "usage": "Uzasadnienie szalonych decyzji.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Skydiving? Sure, you only live once!",
+          "pl": "Skok ze spadochronem? Jasne, żyje się raz!"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.maybe-few-years",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 15,
+      "en": "Maybe in a few years.",
+      "pl": "Może za kilka lat.",
+      "alternatives": [
+        "Maybe in a couple of years."
+      ],
+      "usage": "Odległy plan.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "When are you going to Australia? — Maybe in a few years.",
+          "pl": "Kiedy jedziesz do Australii? — Może za kilka lat."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.dream",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 16,
+      "en": "dream",
+      "pl": "marzenie; marzyć",
+      "alternatives": [],
+      "usage": "To, czego bardzo chcesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My dream is to live by the sea.",
+          "pl": "Moim marzeniem jest mieszkać nad morzem."
+        }
+      ],
+      "collocations": [
+        "my dream",
+        "a dream job",
+        "dream of…"
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.wish",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 17,
+      "en": "wish",
+      "pl": "życzyć sobie; żałować, że nie…",
+      "alternatives": [],
+      "usage": "Coś, czego chciałbyś, a nie masz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I wish I had more free time.",
+          "pl": "Chciałbym mieć więcej wolnego czasu."
+        }
+      ],
+      "collocations": [
+        "I wish…",
+        "make a wish",
+        "best wishes"
+      ],
+      "note": "I wish + przeszłość: I wish I HAD (choć chodzi o teraz).",
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.bucket-list",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 18,
+      "en": "bucket list",
+      "pl": "lista rzeczy do zrobienia w życiu",
+      "alternatives": [],
+      "usage": "Lista marzeń.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Tomorrowland was number one on my bucket list.",
+          "pl": "Tomorrowland było numerem jeden na mojej liście marzeń."
+        }
+      ],
+      "collocations": [
+        "my bucket list",
+        "on the bucket list",
+        "tick off my bucket list"
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.lottery",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 19,
+      "en": "lottery",
+      "pl": "loteria, lotto",
+      "alternatives": [],
+      "usage": "Gra losowa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I buy a lottery ticket every week.",
+          "pl": "Co tydzień kupuję los na loterię."
+        }
+      ],
+      "collocations": [
+        "win the lottery",
+        "a lottery ticket",
+        "play the lottery"
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.possible",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 20,
+      "en": "possible",
+      "pl": "możliwy",
+      "alternatives": [],
+      "usage": "Coś da się zrobić.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it possible to change my ticket?",
+          "pl": "Czy da się zmienić bilet?"
+        }
+      ],
+      "collocations": [
+        "anything is possible",
+        "as soon as possible",
+        "is it possible…?"
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.someday",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 21,
+      "en": "someday",
+      "pl": "kiedyś (w przyszłości)",
+      "alternatives": [],
+      "usage": "Nieokreślona przyszłość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Someday I'll go to Japan.",
+          "pl": "Kiedyś pojadę do Japonii."
+        }
+      ],
+      "collocations": [
+        "someday soon",
+        "maybe someday",
+        "someday I'll…"
+      ],
+      "note": "Też: „one day”. „Kiedyś” w przeszłości to „once” albo „in the past”.",
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.ambitious",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 22,
+      "en": "ambitious",
+      "pl": "ambitny",
+      "alternatives": [],
+      "usage": "Ktoś z dużymi celami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "That's an ambitious plan!",
+          "pl": "To ambitny plan!"
+        }
+      ],
+      "collocations": [
+        "really ambitious",
+        "an ambitious plan",
+        "ambitious goals"
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.achieve",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 23,
+      "en": "achieve",
+      "pl": "osiągnąć",
+      "alternatives": [],
+      "usage": "Spełnić cel.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I want to achieve my goal by summer.",
+          "pl": "Chcę osiągnąć swój cel do lata."
+        }
+      ],
+      "collocations": [
+        "achieve a goal",
+        "achieve my dream",
+        "achieve something"
+      ],
+      "pronunciation": "Czytaj „aczif”.",
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.freedom",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 24,
+      "en": "freedom",
+      "pl": "wolność",
+      "alternatives": [],
+      "usage": "Robić, co chcesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "For me, travelling means freedom.",
+          "pl": "Dla mnie podróże oznaczają wolność."
+        }
+      ],
+      "collocations": [
+        "freedom to travel",
+        "total freedom",
+        "a sense of freedom"
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.my-dream-is-to",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 25,
+      "en": "My dream is to ___.",
+      "pl": "Moim marzeniem jest ___.",
+      "alternatives": [],
+      "usage": "Mówisz o marzeniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My dream is to see the world.",
+          "pl": "Moim marzeniem jest zobaczyć świat."
+        },
+        {
+          "en": "My dream is to play at a big festival.",
+          "pl": "Moim marzeniem jest zagrać na dużym festiwalu."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.if-i-had-million",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 26,
+      "en": "If I had a million euros, I'd ___.",
+      "pl": "Gdybym miał milion euro, ___.",
+      "alternatives": [],
+      "usage": "Gdybanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If I had a million euros, I'd buy a house in Spain.",
+          "pl": "Gdybym miał milion euro, kupiłbym dom w Hiszpanii."
+        },
+        {
+          "en": "If I had a million euros, I'd quit my job and travel.",
+          "pl": "Gdybym miał milion euro, rzuciłbym pracę i podróżował."
+        }
+      ],
+      "note": "If + had (przeszłość), I'd (would) + czasownik.",
+      "tags": [
+        "dreams",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.wish-i-could",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 27,
+      "en": "I wish I could ___.",
+      "pl": "Chciałbym umieć / móc ___.",
+      "alternatives": [],
+      "usage": "Żal, że czegoś nie potrafisz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I wish I could speak English fluently.",
+          "pl": "Chciałbym umieć płynnie mówić po angielsku."
+        },
+        {
+          "en": "I wish I could DJ.",
+          "pl": "Chciałbym umieć grać jako DJ."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.one-day-love-to",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 28,
+      "en": "One day I'd love to ___.",
+      "pl": "Kiedyś bardzo chciałbym ___.",
+      "alternatives": [],
+      "usage": "Marzenie na przyszłość.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "One day I'd love to play at Tomorrowland.",
+          "pl": "Kiedyś chciałbym zagrać na Tomorrowland."
+        },
+        {
+          "en": "One day I'd love to live abroad.",
+          "pl": "Kiedyś chciałbym zamieszkać za granicą."
+        }
+      ],
+      "tags": [
+        "dreams",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.try-one-day",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 29,
+      "en": "I'd like to try ___ one day.",
+      "pl": "Kiedyś chciałbym spróbować ___.",
+      "alternatives": [],
+      "usage": "Nowe doświadczenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd like to try skydiving one day.",
+          "pl": "Kiedyś chciałbym spróbować skoku ze spadochronem."
+        },
+        {
+          "en": "I'd like to try surfing one day.",
+          "pl": "Kiedyś chciałbym spróbować surfingu."
+        }
+      ],
+      "tags": [
+        "dreams",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.would-be-amazing-to",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 30,
+      "en": "It would be amazing to ___.",
+      "pl": "Byłoby niesamowicie ___.",
+      "alternatives": [],
+      "usage": "Marzysz na głos.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It would be amazing to see the northern lights.",
+          "pl": "Byłoby niesamowicie zobaczyć zorzę polarną."
+        },
+        {
+          "en": "It would be amazing to play a set at a festival.",
+          "pl": "Byłoby niesamowicie zagrać set na festiwalu."
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.dreams.million-dialog",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 31,
+      "en": "A million euros",
+      "pl": "Milion euro",
+      "alternatives": [],
+      "usage": "Gdybanie przy piwie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What would you do if you had a million euros?",
+          "pl": "Co byś zrobił, gdybyś miał milion euro?",
+          "speaker": "A"
+        },
+        {
+          "en": "I'd buy a house by the sea and a really good DJ setup. You?",
+          "pl": "Kupiłbym dom nad morzem i porządny sprzęt DJ-ski. A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "I'd travel the world. Australia, Japan, Brazil…",
+          "pl": "Objechałbym świat. Australia, Japonia, Brazylia…",
+          "speaker": "A"
+        },
+        {
+          "en": "That would be amazing.",
+          "pl": "To byłoby niesamowite.",
+          "speaker": "B"
+        },
+        {
+          "en": "Yeah. Now I just need to win the lottery!",
+          "pl": "No. Teraz tylko muszę wygrać w lotto!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.dreams.bucket-list-dialog",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.dreams",
+      "order": 32,
+      "en": "Bucket list",
+      "pl": "Lista marzeń",
+      "alternatives": [],
+      "usage": "Rozmowa o tym, co chcesz zrobić w życiu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What's on your bucket list?",
+          "pl": "Co masz na liście marzeń?",
+          "speaker": "A"
+        },
+        {
+          "en": "Ibiza, definitely. I've always dreamed of going there.",
+          "pl": "Ibiza, na pewno. Zawsze o niej marzyłem.",
+          "speaker": "B"
+        },
+        {
+          "en": "So why not this year?",
+          "pl": "To czemu nie w tym roku?",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm saving up. Maybe next summer. You only live once!",
+          "pl": "Odkładam kasę. Może przyszłego lata. Żyje się raz!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "dreams"
+      ],
+      "level": "A2"
+    }
+  ]
+}

@@ -1,0 +1,871 @@
+{
+  "module": {
+    "id": "s5.experiences",
+    "stage": 5,
+    "order": 3,
+    "title": "Doświadczenia: Have you ever…?",
+    "titleEn": "Experiences",
+    "description": "Present Perfect: co już robiłeś, czego nigdy, ile razy, already / yet / just, „znam go od lat”.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s5.experiences.never-been-uk",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 1,
+      "en": "I've never been to the UK.",
+      "pl": "Nigdy nie byłem w Wielkiej Brytanii.",
+      "alternatives": [
+        "I've never been to Britain.",
+        "I haven't been to the UK."
+      ],
+      "usage": "Mówisz o swoim doświadczeniu (a raczej jego braku).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've never been to the UK, but I'd love to see London.",
+          "pl": "Nigdy nie byłem w Wielkiej Brytanii, ale chciałbym zobaczyć Londyn."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.been-there-twice",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 2,
+      "en": "I've been there twice.",
+      "pl": "Byłem tam dwa razy.",
+      "alternatives": [
+        "I've been there two times."
+      ],
+      "usage": "Ile razy gdzieś byłeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you been to Amsterdam? — Yeah, I've been there twice.",
+          "pl": "Byłeś w Amsterdamie? — Tak, byłem tam dwa razy."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.done-it-once",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 3,
+      "en": "I've done it once before.",
+      "pl": "Robiłem to już raz.",
+      "alternatives": [
+        "I've done it once."
+      ],
+      "usage": "Masz pewne doświadczenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever camped at a festival? — I've done it once before.",
+          "pl": "Spałeś kiedyś na polu namiotowym? — Raz już to robiłem."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.experiences.bungee-jump",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 4,
+      "en": "Have you ever done a bungee jump?",
+      "pl": "Skakałeś kiedyś na bungee?",
+      "alternatives": [
+        "Have you ever done bungee jumping?",
+        "Have you ever tried bungee jumping?"
+      ],
+      "usage": "Pytanie o szalone doświadczenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever done a bungee jump? — No way, I'm scared of heights!",
+          "pl": "Skakałeś kiedyś na bungee? — W życiu, mam lęk wysokości!"
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.experiences.not-yet-love-to",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 5,
+      "en": "Not yet, but I'd love to.",
+      "pl": "Jeszcze nie, ale bardzo bym chciał.",
+      "alternatives": [
+        "No, not yet, but I'd love to."
+      ],
+      "usage": "Odpowiedź na „Have you ever…?”, gdy marzysz o czymś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever been to Ibiza? — Not yet, but I'd love to.",
+          "pl": "Byłeś kiedyś na Ibizie? — Jeszcze nie, ale bardzo bym chciał."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.just-finished-work",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 6,
+      "en": "I've just finished work.",
+      "pl": "Właśnie skończyłem pracę.",
+      "alternatives": [
+        "I've just finished."
+      ],
+      "usage": "„Just” = przed chwilą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've just finished work. I'll be there in twenty minutes.",
+          "pl": "Właśnie skończyłem pracę. Będę za dwadzieścia minut."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "work"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.eaten-yet",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 7,
+      "en": "Have you eaten yet?",
+      "pl": "Jadłeś już?",
+      "alternatives": [
+        "Have you had anything to eat yet?"
+      ],
+      "usage": "„Yet” w pytaniach = już.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you eaten yet? — No, I'm starving.",
+          "pl": "Jadłeś już? — Nie, umieram z głodu."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.already-seen-it",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 8,
+      "en": "I've already seen it.",
+      "pl": "Już to widziałem.",
+      "alternatives": [],
+      "usage": "„Already” = już (wcześniej niż myślisz).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's watch this film! — I've already seen it, but OK.",
+          "pl": "Obejrzyjmy ten film! — Już go widziałem, ale OK."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.havent-been-yet",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 9,
+      "en": "I haven't been there yet.",
+      "pl": "Jeszcze tam nie byłem.",
+      "alternatives": [],
+      "usage": "„Yet” w przeczeniach = jeszcze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is the new club any good? — I don't know, I haven't been there yet.",
+          "pl": "Ten nowy klub jest dobry? — Nie wiem, jeszcze tam nie byłem."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.best-festival-ever",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 10,
+      "en": "It's the best festival I've ever been to.",
+      "pl": "To najlepszy festiwal, na jakim kiedykolwiek byłem.",
+      "alternatives": [],
+      "usage": "Najwyższa pochwała.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Honestly, it's the best festival I've ever been to.",
+          "pl": "Szczerze, to najlepszy festiwal, na jakim byłem."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.experiences.known-him-for-years",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 11,
+      "en": "I've known him for years.",
+      "pl": "Znam go od lat.",
+      "alternatives": [
+        "I've known him for ages."
+      ],
+      "usage": "Długa znajomość — Present Perfect.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Kuba? I've known him for years. We went to school together.",
+          "pl": "Kuba? Znam go od lat. Chodziliśmy razem do szkoły."
+        }
+      ],
+      "note": "„Znam go od lat” = „I've known him for years”, nie „I know him since years”.",
+      "tags": [
+        "gr:present-perfect",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.experiences.how-many-times-been",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 12,
+      "en": "How many times have you been?",
+      "pl": "Ile razy byłeś?",
+      "alternatives": [
+        "How many times have you been there?"
+      ],
+      "usage": "Dopytujesz o doświadczenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You love Tomorrowland! How many times have you been?",
+          "pl": "Kochasz Tomorrowland! Ile razy już byłeś?"
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.never-tried-it",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 13,
+      "en": "I've never tried it.",
+      "pl": "Nigdy tego nie próbowałem.",
+      "alternatives": [
+        "I haven't tried it."
+      ],
+      "usage": "O jedzeniu, sporcie, doświadczeniach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you had haggis? — No, I've never tried it.",
+          "pl": "Jadłeś haggis? — Nie, nigdy nie próbowałem."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.wanted-for-ages",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 14,
+      "en": "I've wanted to go there for ages.",
+      "pl": "Od dawna chcę tam pojechać.",
+      "alternatives": [
+        "I've wanted to go there for years."
+      ],
+      "usage": "Długie pragnienie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Japan? I've wanted to go there for ages.",
+          "pl": "Japonia? Od dawna chcę tam pojechać."
+        }
+      ],
+      "note": "Polskie „chcę od dawna” → „I've wanted… for ages”.",
+      "tags": [
+        "gr:present-perfect",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.experiences.craziest-thing",
+      "type": "phrase",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 15,
+      "en": "What's the craziest thing you've ever done?",
+      "pl": "Jaka jest najbardziej szalona rzecz, jaką zrobiłeś?",
+      "alternatives": [],
+      "usage": "Świetne pytanie przy ognisku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the craziest thing you've ever done? — I hitchhiked to Croatia.",
+          "pl": "Najbardziej szalona rzecz, jaką zrobiłeś? — Pojechałem autostopem do Chorwacji."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.experiences.ever",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 16,
+      "en": "ever",
+      "pl": "kiedykolwiek",
+      "alternatives": [],
+      "usage": "W pytaniach o doświadczenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever been to a rave?",
+          "pl": "Byłeś kiedyś na rave?"
+        }
+      ],
+      "collocations": [
+        "have you ever…",
+        "the best ever",
+        "more than ever"
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.yet",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 17,
+      "en": "yet",
+      "pl": "już (w pytaniach); jeszcze (w przeczeniach)",
+      "alternatives": [],
+      "usage": "Na końcu zdania w Present Perfect.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Has the show started yet?",
+          "pl": "Show już się zaczęło?"
+        }
+      ],
+      "collocations": [
+        "not yet",
+        "have you … yet?",
+        "haven't … yet"
+      ],
+      "note": "„Yet” zwykle stoi na końcu zdania.",
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.already",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 18,
+      "en": "already",
+      "pl": "już",
+      "alternatives": [],
+      "usage": "Coś stało się wcześniej, niż się spodziewano.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've already packed my bag.",
+          "pl": "Już się spakowałem."
+        }
+      ],
+      "collocations": [
+        "I've already…",
+        "already done",
+        "already gone"
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.just",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 19,
+      "en": "just",
+      "pl": "właśnie, przed chwilą",
+      "alternatives": [],
+      "usage": "Bardzo niedawno.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've just arrived at the hotel.",
+          "pl": "Właśnie dotarłem do hotelu."
+        }
+      ],
+      "collocations": [
+        "I've just…",
+        "just arrived",
+        "just now"
+      ],
+      "note": "„Just” ma też inne znaczenia: tylko (just one), po prostu (just do it).",
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.twice",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 20,
+      "en": "twice",
+      "pl": "dwa razy",
+      "alternatives": [],
+      "usage": "Częstotliwość albo doświadczenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've seen him live twice.",
+          "pl": "Widziałem go na żywo dwa razy."
+        }
+      ],
+      "collocations": [
+        "twice a week",
+        "I've been twice",
+        "twice as much"
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.been",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 21,
+      "en": "been",
+      "pl": "byłem (gdzieś i wróciłem)",
+      "alternatives": [],
+      "usage": "Forma od „be / go” w Present Perfect.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you been to Belgium?",
+          "pl": "Byłeś w Belgii?"
+        }
+      ],
+      "collocations": [
+        "been to",
+        "I've been there",
+        "never been"
+      ],
+      "note": "„Been to” = byłeś i wróciłeś. „Gone to” = pojechał i jeszcze tam jest.",
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.since",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 22,
+      "en": "since",
+      "pl": "od (konkretnego momentu)",
+      "alternatives": [],
+      "usage": "Początek okresu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've been learning English since October.",
+          "pl": "Uczę się angielskiego od października."
+        }
+      ],
+      "collocations": [
+        "since 2019",
+        "since yesterday",
+        "ever since"
+      ],
+      "note": "Since + moment (since Monday). For + długość (for three days).",
+      "tags": [
+        "gr:present-perfect",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.for-ages",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 23,
+      "en": "for ages",
+      "pl": "od wieków, od dawna",
+      "alternatives": [],
+      "usage": "Bardzo długo.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I haven't seen you for ages!",
+          "pl": "Nie widziałem cię od wieków!"
+        }
+      ],
+      "collocations": [
+        "for ages",
+        "haven't seen you for ages",
+        "waited for ages"
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.tried",
+      "type": "word",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 24,
+      "en": "tried",
+      "pl": "próbowałem (od try)",
+      "alternatives": [],
+      "usage": "O nowych doświadczeniach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you tried Belgian waffles?",
+          "pl": "Próbowałeś belgijskich gofrów?"
+        }
+      ],
+      "collocations": [
+        "tried it",
+        "never tried",
+        "tried something new"
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.ive-never",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 25,
+      "en": "I've never ___.",
+      "pl": "Nigdy nie ___.",
+      "alternatives": [],
+      "usage": "Czego nigdy nie robiłeś.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've never been to Ibiza.",
+          "pl": "Nigdy nie byłem na Ibizie."
+        },
+        {
+          "en": "I've never seen the sea in winter.",
+          "pl": "Nigdy nie widziałem morza zimą."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.have-you-ever",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 26,
+      "en": "Have you ever ___?",
+      "pl": "Czy kiedykolwiek ___?",
+      "alternatives": [],
+      "usage": "Pytanie o doświadczenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever slept in a tent?",
+          "pl": "Spałeś kiedyś w namiocie?"
+        },
+        {
+          "en": "Have you ever eaten snails?",
+          "pl": "Jadłeś kiedyś ślimaki?"
+        }
+      ],
+      "note": "Have you ever + trzecia forma czasownika (been, eaten, slept).",
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.been-times",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 27,
+      "en": "I've been to Tomorrowland ___ times.",
+      "pl": "Byłem na Tomorrowland ___ razy.",
+      "alternatives": [],
+      "usage": "Liczysz doświadczenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've been to Tomorrowland three times.",
+          "pl": "Byłem na Tomorrowland trzy razy."
+        },
+        {
+          "en": "I've been to Tomorrowland four times.",
+          "pl": "Byłem na Tomorrowland cztery razy."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "festival",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.ive-already",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 28,
+      "en": "I've already ___.",
+      "pl": "Już ___.",
+      "alternatives": [],
+      "usage": "Coś jest zrobione.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've already bought the tickets.",
+          "pl": "Już kupiłem bilety."
+        },
+        {
+          "en": "I've already packed.",
+          "pl": "Już się spakowałem."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.havent-yet",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 29,
+      "en": "I haven't ___ yet.",
+      "pl": "Jeszcze nie ___.",
+      "alternatives": [],
+      "usage": "Coś jeszcze nie jest zrobione.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I haven't packed yet.",
+          "pl": "Jeszcze się nie spakowałem."
+        },
+        {
+          "en": "I haven't booked the hotel yet.",
+          "pl": "Jeszcze nie zarezerwowałem hotelu."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.best-ive-ever-had",
+      "type": "pattern",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 30,
+      "en": "It's the best ___ I've ever had.",
+      "pl": "To najlepszy ___, jaki kiedykolwiek jadłem / miałem.",
+      "alternatives": [],
+      "usage": "Najwyższa pochwała.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's the best burger I've ever had.",
+          "pl": "To najlepszy burger, jakiego jadłem."
+        },
+        {
+          "en": "It's the best holiday I've ever had.",
+          "pl": "To najlepszy urlop w moim życiu."
+        }
+      ],
+      "tags": [
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s5.experiences.experiences-chat",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 31,
+      "en": "Have you ever…?",
+      "pl": "Czy kiedyś…?",
+      "alternatives": [],
+      "usage": "Rozmowa o doświadczeniach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever been to the UK?",
+          "pl": "Byłeś kiedyś w Wielkiej Brytanii?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, never. But I've been to Belgium four times.",
+          "pl": "Nie, nigdy. Ale w Belgii byłem cztery razy.",
+          "speaker": "B"
+        },
+        {
+          "en": "For Tomorrowland?",
+          "pl": "Na Tomorrowland?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah! It's the best festival I've ever been to. Have you ever been?",
+          "pl": "Tak! To najlepszy festiwal, na jakim byłem. Byłeś kiedyś?",
+          "speaker": "B"
+        },
+        {
+          "en": "Not yet, but I'd love to.",
+          "pl": "Jeszcze nie, ale bardzo bym chciał.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s5.experiences.packing-check",
+      "type": "dialog",
+      "stage": 5,
+      "module": "s5.experiences",
+      "order": 32,
+      "en": "Are you ready?",
+      "pl": "Gotowy do wyjazdu?",
+      "alternatives": [],
+      "usage": "Sprawdzacie, co już zrobione — already / yet.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you packed yet?",
+          "pl": "Spakowałeś się już?",
+          "speaker": "A"
+        },
+        {
+          "en": "I've already packed my bag, but I haven't found my power bank yet.",
+          "pl": "Torbę już spakowałem, ale jeszcze nie znalazłem powerbanku.",
+          "speaker": "B"
+        },
+        {
+          "en": "Have you checked in online?",
+          "pl": "Odprawiłeś się online?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, I've just done it.",
+          "pl": "Tak, właśnie to zrobiłem.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "gr:present-perfect",
+        "travel"
+      ],
+      "level": "A2"
+    }
+  ]
+}
