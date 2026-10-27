@@ -851,29 +851,6 @@
    ]
   },
   {
-   "id": "v.mom",
-   "en": "mom",
-   "pl": "mama (US)",
-   "pos": "n",
-   "level": "A1",
-   "rank": 559,
-   "example": [
-    {
-     "en": "My mom calls me every day.",
-     "pl": "Mama dzwoni do mnie codziennie."
-    }
-   ],
-   "collocations": [
-    "my mom",
-    "mom and dad"
-   ],
-   "note": "UK „mum”, US „mom”.",
-   "tags": [
-    "uk-us",
-    "family"
-   ]
-  },
-  {
    "id": "v.station",
    "en": "station",
    "pl": "stacja, dworzec",
@@ -1975,6 +1952,26 @@
     "broken leg",
     "stretch your legs"
    ]
+  },
+  {
+   "id": "v.beach",
+   "en": "beach",
+   "pl": "plaża",
+   "pos": "n",
+   "level": "A1",
+   "rank": 887,
+   "example": [
+    {
+     "en": "Let's go to the beach!",
+     "pl": "Chodźmy na plażę!"
+    }
+   ],
+   "collocations": [
+    "on the beach",
+    "beach bar",
+    "go to the beach"
+   ],
+   "pronunciation": "beach ≈ „bi:cz” — długie „i”, inaczej brzmi jak przekleństwo!"
   }
  ]
 }

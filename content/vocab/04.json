@@ -8,26 +8,6 @@
  },
  "items": [
   {
-   "id": "v.beach",
-   "en": "beach",
-   "pl": "plaża",
-   "pos": "n",
-   "level": "A1",
-   "rank": 887,
-   "example": [
-    {
-     "en": "Let's go to the beach!",
-     "pl": "Chodźmy na plażę!"
-    }
-   ],
-   "collocations": [
-    "on the beach",
-    "beach bar",
-    "go to the beach"
-   ],
-   "pronunciation": "beach ≈ „bi:cz” — długie „i”, inaczej brzmi jak przekleństwo!"
-  },
-  {
    "id": "v.bag",
    "en": "bag",
    "pl": "torba",
@@ -2012,6 +1992,204 @@
    ]
   },
   {
+   "id": "v.uncle",
+   "en": "uncle",
+   "pl": "wujek",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2202,
+   "example": [
+    {
+     "en": "My uncle lives in Germany.",
+     "pl": "Mój wujek mieszka w Niemczech."
+    }
+   ],
+   "collocations": [
+    "my uncle"
+   ]
+  },
+  {
+   "id": "v.grey",
+   "en": "grey",
+   "pl": "szary",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 2216,
+   "alternatives": [
+    "gray"
+   ],
+   "example": [
+    {
+     "en": "It's a grey day.",
+     "pl": "To szary dzień."
+    }
+   ],
+   "collocations": [
+    "grey sky"
+   ],
+   "tags": [
+    "uk-us"
+   ]
+  },
+  {
+   "id": "v.desk",
+   "en": "desk",
+   "pl": "biurko; recepcja",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2268,
+   "example": [
+    {
+     "en": "Ask at the front desk.",
+     "pl": "Zapytaj w recepcji."
+    }
+   ],
+   "collocations": [
+    "front desk",
+    "desk"
+   ]
+  },
+  {
+   "id": "v.pizza",
+   "en": "pizza",
+   "pl": "pizza",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2279,
+   "example": [
+    {
+     "en": "Let's order a pizza.",
+     "pl": "Zamówmy pizzę."
+    }
+   ],
+   "collocations": [
+    "order a pizza"
+   ]
+  },
+  {
+   "id": "v.gym",
+   "en": "gym",
+   "pl": "siłownia",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2314,
+   "example": [
+    {
+     "en": "I go to the gym after work.",
+     "pl": "Chodzę na siłownię po pracy."
+    }
+   ],
+   "collocations": [
+    "go to the gym"
+   ]
+  },
+  {
+   "id": "v.hungry",
+   "en": "hungry",
+   "pl": "głodny",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 2330,
+   "example": [
+    {
+     "en": "I'm so hungry!",
+     "pl": "Jestem strasznie głodny!"
+    }
+   ],
+   "collocations": [
+    "hungry"
+   ]
+  },
+  {
+   "id": "v.exam",
+   "en": "exam",
+   "pl": "egzamin",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2336,
+   "example": [
+    {
+     "en": "I passed the exam!",
+     "pl": "Zdałem egzamin!"
+    }
+   ],
+   "collocations": [
+    "pass an exam"
+   ]
+  },
+  {
+   "id": "v.mum",
+   "en": "mum",
+   "pl": "mama",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2346,
+   "example": [
+    {
+     "en": "My mum calls me every day.",
+     "pl": "Mama dzwoni do mnie codziennie."
+    }
+   ],
+   "collocations": [
+    "my mum"
+   ],
+   "tags": [
+    "family"
+   ]
+  },
+  {
+   "id": "v.jacket",
+   "en": "jacket",
+   "pl": "kurtka",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2375,
+   "example": [
+    {
+     "en": "Take a jacket — it's cold at night.",
+     "pl": "Weź kurtkę — w nocy jest zimno."
+    }
+   ],
+   "collocations": [
+    "leather jacket"
+   ]
+  },
+  {
+   "id": "v.tourist",
+   "en": "tourist",
+   "pl": "turysta",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2379,
+   "example": [
+    {
+     "en": "It's full of tourists.",
+     "pl": "Pełno tu turystów."
+    }
+   ],
+   "collocations": [
+    "tourist",
+    "tourist attraction"
+   ]
+  },
+  {
+   "id": "v.telephone",
+   "en": "telephone",
+   "pl": "telefon",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2384,
+   "example": [
+    {
+     "en": "Is there a telephone in the room?",
+     "pl": "Jest telefon w pokoju?"
+    }
+   ],
+   "collocations": [
+    "telephone"
+   ]
+  },
+  {
    "id": "v.clothes",
    "en": "clothes",
    "pl": "ubrania",
@@ -2030,6 +2208,295 @@
    ],
    "note": "Zawsze l. mnoga: clothes are.",
    "pronunciation": "clothes ≈ „klouðz” (prawie jak „klouz”)"
+  },
+  {
+   "id": "v.juice",
+   "en": "juice",
+   "pl": "sok",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2494,
+   "example": [
+    {
+     "en": "An orange juice, please.",
+     "pl": "Sok pomarańczowy, proszę."
+    }
+   ],
+   "collocations": [
+    "orange juice"
+   ]
+  },
+  {
+   "id": "v.potato",
+   "en": "potato",
+   "pl": "ziemniak",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2516,
+   "example": [
+    {
+     "en": "Steak and potatoes, please.",
+     "pl": "Stek z ziemniakami, proszę."
+    }
+   ],
+   "collocations": [
+    "potatoes"
+   ]
+  },
+  {
+   "id": "v.butter",
+   "en": "butter",
+   "pl": "masło",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2523,
+   "example": [
+    {
+     "en": "Bread and butter.",
+     "pl": "Chleb z masłem."
+    }
+   ],
+   "collocations": [
+    "butter"
+   ]
+  },
+  {
+   "id": "v.shopping",
+   "en": "shopping",
+   "pl": "zakupy",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2619,
+   "example": [
+    {
+     "en": "Let's go shopping.",
+     "pl": "Chodźmy na zakupy."
+    }
+   ],
+   "collocations": [
+    "go shopping",
+    "shopping centre"
+   ]
+  },
+  {
+   "id": "v.vegetable",
+   "en": "vegetable",
+   "pl": "warzywo",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2704,
+   "example": [
+    {
+     "en": "Eat more vegetables.",
+     "pl": "Jedz więcej warzyw."
+    }
+   ],
+   "collocations": [
+    "vegetables"
+   ],
+   "pronunciation": "vegetable ≈ „wedżtebl” (3 sylaby)"
+  },
+  {
+   "id": "v.tennis",
+   "en": "tennis",
+   "pl": "tenis",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2747,
+   "example": [
+    {
+     "en": "Do you play tennis?",
+     "pl": "Grasz w tenisa?"
+    }
+   ],
+   "collocations": [
+    "play tennis"
+   ]
+  },
+  {
+   "id": "v.goodbye",
+   "en": "goodbye",
+   "pl": "do widzenia",
+   "pos": "int",
+   "level": "A1",
+   "rank": 2873,
+   "example": [
+    {
+     "en": "Say goodbye!",
+     "pl": "Pożegnaj się!"
+    }
+   ],
+   "collocations": [
+    "say goodbye"
+   ]
+  },
+  {
+   "id": "v.menu",
+   "en": "menu",
+   "pl": "menu",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2874,
+   "example": [
+    {
+     "en": "Can I see the menu?",
+     "pl": "Mogę zobaczyć menu?"
+    }
+   ],
+   "collocations": [
+    "menu"
+   ]
+  },
+  {
+   "id": "v.purple",
+   "en": "purple",
+   "pl": "fioletowy",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 2887,
+   "example": [
+    {
+     "en": "The stage lights are purple.",
+     "pl": "Światła sceny są fioletowe."
+    }
+   ],
+   "collocations": [
+    "purple"
+   ]
+  },
+  {
+   "id": "v.laptop",
+   "en": "laptop",
+   "pl": "laptop",
+   "pos": "n",
+   "level": "A1",
+   "rank": 2916,
+   "example": [
+    {
+     "en": "I'll bring my laptop.",
+     "pl": "Wezmę laptopa."
+    }
+   ],
+   "collocations": [
+    "laptop"
+   ]
+  },
+  {
+   "id": "v.sandwich",
+   "en": "sandwich",
+   "pl": "kanapka",
+   "pos": "n",
+   "level": "A1",
+   "rank": 3020,
+   "example": [
+    {
+     "en": "A ham sandwich, please.",
+     "pl": "Kanapkę z szynką, poproszę."
+    }
+   ],
+   "collocations": [
+    "sandwich"
+   ]
+  },
+  {
+   "id": "v.autumn",
+   "en": "autumn",
+   "pl": "jesień",
+   "pos": "n",
+   "level": "A1",
+   "rank": 3127,
+   "alternatives": [
+    "fall"
+   ],
+   "example": [
+    {
+     "en": "I love autumn.",
+     "pl": "Kocham jesień."
+    }
+   ],
+   "collocations": [
+    "in autumn"
+   ],
+   "tags": [
+    "uk-us"
+   ]
+  },
+  {
+   "id": "v.grandfather",
+   "en": "grandfather",
+   "pl": "dziadek",
+   "pos": "n",
+   "level": "A1",
+   "rank": 3214,
+   "example": [
+    {
+     "en": "My grandfather is ninety.",
+     "pl": "Mój dziadek ma dziewięćdziesiąt lat."
+    }
+   ],
+   "collocations": [
+    "grandfather"
+   ],
+   "tags": [
+    "family"
+   ]
+  },
+  {
+   "id": "v.taxi",
+   "en": "taxi",
+   "pl": "taksówka",
+   "pos": "n",
+   "level": "A1",
+   "rank": 3285,
+   "alternatives": [
+    "cab"
+   ],
+   "example": [
+    {
+     "en": "Let's get a taxi.",
+     "pl": "Weźmy taksówkę."
+    }
+   ],
+   "collocations": [
+    "taxi"
+   ]
+  },
+  {
+   "id": "v.salad",
+   "en": "salad",
+   "pl": "sałatka",
+   "pos": "n",
+   "level": "A1",
+   "rank": 3384,
+   "example": [
+    {
+     "en": "A green salad, please.",
+     "pl": "Zieloną sałatkę, proszę."
+    }
+   ],
+   "collocations": [
+    "salad"
+   ]
+  },
+  {
+   "id": "v.aunt",
+   "en": "aunt",
+   "pl": "ciocia",
+   "pos": "n",
+   "level": "A1",
+   "rank": 3386,
+   "example": [
+    {
+     "en": "My aunt lives in Ireland.",
+     "pl": "Moja ciocia mieszka w Irlandii."
+    }
+   ],
+   "collocations": [
+    "aunt"
+   ],
+   "tags": [
+    "family"
+   ]
   },
   {
    "id": "v.trousers",

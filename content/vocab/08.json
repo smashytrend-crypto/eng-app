@@ -4,7 +4,7 @@
   "order": 8,
   "level": "A2",
   "title": "Słówka A2 · 4",
-  "description": "Słowa na co dzień: dom, praca, zakupy, czas wolny, uczucia. Część 4 z 4."
+  "description": "Słowa na co dzień: dom, praca, zakupy, czas wolny, uczucia. Część 4 z 5."
  },
  "items": [
   {
@@ -1048,87 +1048,755 @@
    ]
   },
   {
-   "id": "v.neighbour",
-   "en": "neighbour",
-   "pl": "sąsiad",
+   "id": "v.actress",
+   "en": "actress",
+   "pl": "aktorka",
    "pos": "n",
    "level": "A2",
-   "rank": 3511,
-   "alternatives": [
-    "neighbor"
-   ],
+   "rank": 2158,
    "example": [
     {
-     "en": "My neighbours are really loud.",
-     "pl": "Moi sąsiedzi są bardzo głośni."
+     "en": "She's a famous actress.",
+     "pl": "To znana aktorka."
     }
    ],
    "collocations": [
-    "next-door neighbour"
+    "actress"
+   ]
+  },
+  {
+   "id": "v.castle",
+   "en": "castle",
+   "pl": "zamek",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2164,
+   "example": [
+    {
+     "en": "We visited the castle in Szczecin.",
+     "pl": "Zwiedziliśmy zamek w Szczecinie."
+    }
+   ],
+   "collocations": [
+    "old castle",
+    "sandcastle"
+   ]
+  },
+  {
+   "id": "v.exit",
+   "en": "exit",
+   "pl": "wyjście",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2205,
+   "example": [
+    {
+     "en": "Where's the exit?",
+     "pl": "Gdzie jest wyjście?"
+    }
+   ],
+   "collocations": [
+    "emergency exit",
+    "exit"
+   ]
+  },
+  {
+   "id": "v.translate",
+   "en": "translate",
+   "pl": "tłumaczyć",
+   "pos": "v",
+   "level": "A2",
+   "rank": 2206,
+   "example": [
+    {
+     "en": "Can you translate this?",
+     "pl": "Możesz to przetłumaczyć?"
+    }
+   ],
+   "collocations": [
+    "translate into"
+   ]
+  },
+  {
+   "id": "v.shout",
+   "en": "shout",
+   "pl": "krzyczeć",
+   "pos": "v",
+   "level": "A2",
+   "rank": 2207,
+   "example": [
+    {
+     "en": "Don't shout!",
+     "pl": "Nie krzycz!"
+    }
+   ],
+   "collocations": [
+    "shout at",
+    "shout out"
+   ]
+  },
+  {
+   "id": "v.soccer",
+   "en": "soccer",
+   "pl": "piłka nożna (US)",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2223,
+   "example": [
+    {
+     "en": "Americans call football soccer.",
+     "pl": "Amerykanie nazywają piłkę nożną „soccer”."
+    }
+   ],
+   "collocations": [
+    "soccer"
    ],
    "tags": [
     "uk-us"
    ]
   },
   {
-   "id": "v.nickname",
-   "en": "nickname",
-   "pl": "ksywa, pseudonim",
+   "id": "v.dish",
+   "en": "dish",
+   "pl": "danie; naczynie",
    "pos": "n",
    "level": "A2",
-   "rank": 4000,
+   "rank": 2249,
    "example": [
     {
-     "en": "What's your nickname?",
-     "pl": "Jaką masz ksywę?"
+     "en": "What's your favourite dish?",
+     "pl": "Jakie jest twoje ulubione danie?"
     }
    ],
    "collocations": [
-    "give a nickname"
+    "main dish",
+    "do the dishes"
    ]
   },
   {
-   "id": "v.used-to",
-   "en": "used to",
-   "pl": "kiedyś (robiłem), miałem zwyczaj",
-   "pos": "phr",
-   "level": "A2",
-   "rank": 50002,
-   "example": [
-    {
-     "en": "I used to play football every day.",
-     "pl": "Kiedyś grałem w piłkę codziennie."
-    }
-   ],
-   "collocations": [
-    "used to live",
-    "used to be",
-    "didn't use to"
-   ],
-   "note": "„used to + czasownik” = coś, co robiłeś kiedyś, a już nie. „be used to + -ing” = być przyzwyczajonym."
-  },
-  {
-   "id": "v.maths",
-   "en": "maths",
-   "pl": "matematyka",
+   "id": "v.alarm",
+   "en": "alarm",
+   "pl": "alarm, budzik",
    "pos": "n",
    "level": "A2",
-   "rank": 50003,
-   "alternatives": [
-    "math"
-   ],
+   "rank": 2276,
    "example": [
     {
-     "en": "I was good at maths.",
-     "pl": "Byłem dobry z matmy."
+     "en": "Set an alarm for six.",
+     "pl": "Nastaw budzik na szóstą."
     }
    ],
    "collocations": [
-    "maths teacher"
+    "alarm clock",
+    "fire alarm"
+   ]
+  },
+  {
+   "id": "v.phrase",
+   "en": "phrase",
+   "pl": "zwrot, wyrażenie",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2303,
+   "example": [
+    {
+     "en": "Teach me a useful phrase.",
+     "pl": "Naucz mnie przydatnego zwrotu."
+    }
    ],
-   "note": "UK „maths”, US „math”.",
+   "collocations": [
+    "useful phrase"
+   ]
+  },
+  {
+   "id": "v.fry",
+   "en": "fry",
+   "pl": "smażyć",
+   "pos": "v",
+   "level": "A2",
+   "rank": 2317,
+   "example": [
+    {
+     "en": "Fry the eggs.",
+     "pl": "Usmaż jajka."
+    }
+   ],
+   "collocations": [
+    "fried",
+    "fry"
+   ]
+  },
+  {
+   "id": "v.vacation",
+   "en": "vacation",
+   "pl": "wakacje (US)",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2318,
+   "example": [
+    {
+     "en": "We're on vacation.",
+     "pl": "Jesteśmy na wakacjach."
+    }
+   ],
+   "collocations": [
+    "on vacation"
+   ],
+   "note": "US „vacation”, UK „holiday”.",
    "tags": [
     "uk-us"
+   ]
+  },
+  {
+   "id": "v.stomach",
+   "en": "stomach",
+   "pl": "brzuch, żołądek",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2356,
+   "example": [
+    {
+     "en": "I've got a stomach ache.",
+     "pl": "Boli mnie brzuch."
+    }
+   ],
+   "collocations": [
+    "stomach ache"
+   ],
+   "pronunciation": "stomach ≈ „stamek”"
+  },
+  {
+   "id": "v.ugly",
+   "en": "ugly",
+   "pl": "brzydki",
+   "pos": "adj",
+   "level": "A2",
+   "rank": 2383,
+   "example": [
+    {
+     "en": "That shirt is ugly.",
+     "pl": "Ta koszula jest brzydka."
+    }
+   ],
+   "collocations": [
+    "ugly"
+   ]
+  },
+  {
+   "id": "v.robot",
+   "en": "robot",
+   "pl": "robot",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2385,
+   "example": [
+    {
+     "en": "It's like talking to a robot.",
+     "pl": "To jak rozmowa z robotem."
+    }
+   ],
+   "collocations": [
+    "robot"
+   ]
+  },
+  {
+   "id": "v.helpful",
+   "en": "helpful",
+   "pl": "pomocny",
+   "pos": "adj",
+   "level": "A2",
+   "rank": 2395,
+   "example": [
+    {
+     "en": "You've been really helpful.",
+     "pl": "Bardzo mi pomogłeś."
+    }
+   ],
+   "collocations": [
+    "helpful"
+   ]
+  },
+  {
+   "id": "v.closer",
+   "en": "closer",
+   "pl": "bliżej",
+   "pos": "adv",
+   "level": "A2",
+   "rank": 2401,
+   "example": [
+    {
+     "en": "Let's get closer to the stage.",
+     "pl": "Podejdźmy bliżej sceny."
+    }
+   ],
+   "collocations": [
+    "get closer"
+   ]
+  },
+  {
+   "id": "v.entrance",
+   "en": "entrance",
+   "pl": "wejście",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2414,
+   "example": [
+    {
+     "en": "Meet me at the main entrance.",
+     "pl": "Spotkajmy się przy głównym wejściu."
+    }
+   ],
+   "collocations": [
+    "main entrance"
+   ]
+  },
+  {
+   "id": "v.airline",
+   "en": "airline",
+   "pl": "linia lotnicza",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2419,
+   "example": [
+    {
+     "en": "Which airline are you flying with?",
+     "pl": "Jakimi liniami lecisz?"
+    }
+   ],
+   "collocations": [
+    "budget airline"
+   ]
+  },
+  {
+   "id": "v.stamp",
+   "en": "stamp",
+   "pl": "znaczek; pieczątka",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2425,
+   "example": [
+    {
+     "en": "I need a stamp for this postcard.",
+     "pl": "Potrzebuję znaczka na tę pocztówkę."
+    }
+   ],
+   "collocations": [
+    "stamp"
+   ]
+  },
+  {
+   "id": "v.alright",
+   "en": "alright",
+   "pl": "w porządku; cześć (UK)",
+   "pos": "adj",
+   "level": "A2",
+   "rank": 2428,
+   "example": [
+    {
+     "en": "Alright, mate?",
+     "pl": "Siema, stary? Wszystko OK?"
+    }
+   ],
+   "collocations": [
+    "alright"
+   ],
+   "note": "W UK „Alright?” to też powitanie = Cześć, co tam?"
+  },
+  {
+   "id": "v.hockey",
+   "en": "hockey",
+   "pl": "hokej",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2435,
+   "example": [
+    {
+     "en": "Do you watch hockey?",
+     "pl": "Oglądasz hokej?"
+    }
+   ],
+   "collocations": [
+    "ice hockey"
+   ]
+  },
+  {
+   "id": "v.duck",
+   "en": "duck",
+   "pl": "kaczka; schylić się",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2443,
+   "example": [
+    {
+     "en": "There are ducks on the lake.",
+     "pl": "Na jeziorze są kaczki."
+    }
+   ],
+   "collocations": [
+    "duck"
+   ]
+  },
+  {
+   "id": "v.brush",
+   "en": "brush",
+   "pl": "szczotka; szczotkować",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2454,
+   "example": [
+    {
+     "en": "I forgot my toothbrush.",
+     "pl": "Zapomniałem szczoteczki do zębów."
+    }
+   ],
+   "collocations": [
+    "toothbrush",
+    "brush your teeth"
+   ]
+  },
+  {
+   "id": "v.scary",
+   "en": "scary",
+   "pl": "straszny",
+   "pos": "adj",
+   "level": "A2",
+   "rank": 2468,
+   "example": [
+    {
+     "en": "That film was scary.",
+     "pl": "Ten film był straszny."
+    }
+   ],
+   "collocations": [
+    "scary"
+   ]
+  },
+  {
+   "id": "v.grass",
+   "en": "grass",
+   "pl": "trawa",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2471,
+   "example": [
+    {
+     "en": "Let's sit on the grass.",
+     "pl": "Usiądźmy na trawie."
+    }
+   ],
+   "collocations": [
+    "on the grass"
+   ]
+  },
+  {
+   "id": "v.poster",
+   "en": "poster",
+   "pl": "plakat",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2513,
+   "example": [
+    {
+     "en": "I've got a poster on my wall.",
+     "pl": "Mam plakat na ścianie."
+    }
+   ],
+   "collocations": [
+    "poster"
+   ]
+  },
+  {
+   "id": "v.congratulations",
+   "en": "congratulations",
+   "pl": "gratulacje",
+   "pos": "int",
+   "level": "A2",
+   "rank": 2524,
+   "example": [
+    {
+     "en": "Congratulations!",
+     "pl": "Gratulacje!"
+    }
+   ],
+   "collocations": [
+    "congratulations on"
+   ]
+  },
+  {
+   "id": "v.bake",
+   "en": "bake",
+   "pl": "piec",
+   "pos": "v",
+   "level": "A2",
+   "rank": 2551,
+   "example": [
+    {
+     "en": "My mum bakes amazing cakes.",
+     "pl": "Moja mama piecze niesamowite ciasta."
+    }
+   ],
+   "collocations": [
+    "bake a cake"
+   ]
+  },
+  {
+   "id": "v.silly",
+   "en": "silly",
+   "pl": "głupiutki",
+   "pos": "adj",
+   "level": "A2",
+   "rank": 2573,
+   "example": [
+    {
+     "en": "Don't be silly!",
+     "pl": "Nie wygłupiaj się!"
+    }
+   ],
+   "collocations": [
+    "silly"
+   ]
+  },
+  {
+   "id": "v.snake",
+   "en": "snake",
+   "pl": "wąż",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2595,
+   "example": [
+    {
+     "en": "Is that a snake?",
+     "pl": "To wąż?"
+    }
+   ],
+   "collocations": [
+    "snake"
+   ]
+  },
+  {
+   "id": "v.cigarette",
+   "en": "cigarette",
+   "pl": "papieros",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2626,
+   "example": [
+    {
+     "en": "Can I have a cigarette?",
+     "pl": "Mogę papierosa?"
+    }
+   ],
+   "collocations": [
+    "cigarette"
+   ]
+  },
+  {
+   "id": "v.pig",
+   "en": "pig",
+   "pl": "świnia",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2637,
+   "example": [
+    {
+     "en": "Don't eat like a pig!",
+     "pl": "Nie jedz jak świnia!"
+    }
+   ],
+   "collocations": [
+    "pig"
+   ]
+  },
+  {
+   "id": "v.spider",
+   "en": "spider",
+   "pl": "pająk",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2647,
+   "example": [
+    {
+     "en": "There's a spider in the tent!",
+     "pl": "W namiocie jest pająk!"
+    }
+   ],
+   "collocations": [
+    "spider"
+   ]
+  },
+  {
+   "id": "v.honey",
+   "en": "honey",
+   "pl": "miód; kochanie",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2656,
+   "example": [
+    {
+     "en": "Tea with honey, please.",
+     "pl": "Herbata z miodem, proszę."
+    }
+   ],
+   "collocations": [
+    "honey"
+   ]
+  },
+  {
+   "id": "v.bean",
+   "en": "bean",
+   "pl": "fasola",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2661,
+   "example": [
+    {
+     "en": "Beans on toast is a British classic.",
+     "pl": "Fasolka na tościku to brytyjski klasyk."
+    }
+   ],
+   "collocations": [
+    "beans",
+    "coffee beans"
+   ]
+  },
+  {
+   "id": "v.hug",
+   "en": "hug",
+   "pl": "przytulić; uścisk",
+   "pos": "v",
+   "level": "A2",
+   "rank": 2681,
+   "example": [
+    {
+     "en": "Give me a hug!",
+     "pl": "Przytul mnie!"
+    }
+   ],
+   "collocations": [
+    "give a hug"
+   ]
+  },
+  {
+   "id": "v.asleep",
+   "en": "asleep",
+   "pl": "śpiący (we śnie)",
+   "pos": "adj",
+   "level": "A2",
+   "rank": 2688,
+   "example": [
+    {
+     "en": "He's asleep.",
+     "pl": "On śpi."
+    }
+   ],
+   "collocations": [
+    "fall asleep",
+    "fast asleep"
+   ]
+  },
+  {
+   "id": "v.daddy",
+   "en": "daddy",
+   "pl": "tatuś",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2691,
+   "example": [
+    {
+     "en": "Daddy, look!",
+     "pl": "Tato, patrz!"
+    }
+   ],
+   "collocations": [
+    "daddy"
+   ]
+  },
+  {
+   "id": "v.musician",
+   "en": "musician",
+   "pl": "muzyk",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2730,
+   "example": [
+    {
+     "en": "He's a musician.",
+     "pl": "Jest muzykiem."
+    }
+   ],
+   "collocations": [
+    "musician"
+   ]
+  },
+  {
+   "id": "v.teenager",
+   "en": "teenager",
+   "pl": "nastolatek",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2731,
+   "example": [
+    {
+     "en": "When I was a teenager, I loved rock.",
+     "pl": "Jako nastolatek kochałem rocka."
+    }
+   ],
+   "collocations": [
+    "teenager"
+   ]
+  },
+  {
+   "id": "v.throat",
+   "en": "throat",
+   "pl": "gardło",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2753,
+   "example": [
+    {
+     "en": "I've got a sore throat.",
+     "pl": "Boli mnie gardło."
+    }
+   ],
+   "collocations": [
+    "sore throat"
+   ]
+  },
+  {
+   "id": "v.mall",
+   "en": "mall",
+   "pl": "centrum handlowe",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2764,
+   "example": [
+    {
+     "en": "Let's go to the mall.",
+     "pl": "Chodźmy do centrum handlowego."
+    }
+   ],
+   "collocations": [
+    "shopping mall"
+   ],
+   "tags": [
+    "uk-us"
+   ]
+  },
+  {
+   "id": "v.calendar",
+   "en": "calendar",
+   "pl": "kalendarz",
+   "pos": "n",
+   "level": "A2",
+   "rank": 2780,
+   "example": [
+    {
+     "en": "Check your calendar.",
+     "pl": "Sprawdź kalendarz."
+    }
+   ],
+   "collocations": [
+    "calendar"
    ]
   }
  ]
