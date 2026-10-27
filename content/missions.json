@@ -339,6 +339,181 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mission.s3-gym-abroad",
+      "stage": 3,
+      "title": "Siłownia za granicą",
+      "titleEn": "A gym abroad",
+      "setting": "Jesteś na wakacjach w Antwerpii i idziesz na siłownię. Kupujesz wejście, szukasz szatni, dzielisz się sprzętem i prosisz o asekurację.",
+      "claudeScenario": "We're in a gym in Antwerp. First you're the receptionist, then a regular gym-goer called Jens. I'm Domin, a Polish guy on holiday who trains a lot. Start at the reception.",
+      "tags": [
+        "gym",
+        "travel"
+      ],
+      "steps": [
+        {
+          "them": "Hi! Can I help you?",
+          "themPl": "Cześć! W czym mogę pomóc?",
+          "task": "Zapytaj, ile kosztuje wejście na jeden dzień.",
+          "answer": "Hi, how much is a day pass?",
+          "alt": [
+            "How much is it for one day?"
+          ]
+        },
+        {
+          "them": "It's twelve euros. Have you got a towel?",
+          "themPl": "Dwanaście euro. Masz ręcznik?",
+          "task": "Powiedz, że tak, i zapytaj, gdzie jest szatnia.",
+          "answer": "Yes, I do. Where's the changing room?",
+          "alt": [
+            "Yeah. Where are the changing rooms?"
+          ]
+        },
+        {
+          "them": "Down the stairs on the left. Lockers need a coin.",
+          "themPl": "Schodami w dół, po lewej. Do szafek potrzebna moneta.",
+          "task": "Nie zrozumiałeś końcówki — poproś o powtórzenie.",
+          "answer": "Sorry, I didn't catch that. Could you say that again?",
+          "alt": [
+            "Sorry, could you say that again?"
+          ]
+        },
+        {
+          "them": "No problem — you need a coin for the lockers.",
+          "themPl": "Nie ma sprawy — do szafek potrzebna jest moneta.",
+          "task": "Podziękuj.",
+          "answer": "Thanks a lot!",
+          "alt": [
+            "Cheers!"
+          ]
+        },
+        {
+          "them": "(Na sali) Jens: Hey, I've got two more sets on this bench.",
+          "themPl": "Hej, zostały mi dwie serie na tej ławce.",
+          "task": "Zapytaj, czy możesz ćwiczyć na zmianę z nim.",
+          "answer": "Can I work in with you?",
+          "alt": [
+            "Mind if I work in?"
+          ]
+        },
+        {
+          "them": "Sure! What are you doing today?",
+          "themPl": "Jasne! Co dziś robisz?",
+          "task": "Powiedz, że dziś robisz klatkę i triceps.",
+          "answer": "I'm doing chest and triceps today."
+        },
+        {
+          "them": "Nice. How long have you been training?",
+          "themPl": "Fajnie. Od kiedy trenujesz?",
+          "task": "Powiedz, że od jakichś pięciu lat.",
+          "answer": "I've been training for about five years.",
+          "alt": [
+            "About five years."
+          ]
+        },
+        {
+          "them": "I'm going heavy now. Can you spot me?",
+          "themPl": "Teraz idę na ciężko. Możesz mnie asekurować?",
+          "task": "Zgódź się i zapytaj, ile powtórzeń.",
+          "answer": "Sure. How many reps?",
+          "alt": [
+            "Of course. How many reps?"
+          ]
+        },
+        {
+          "them": "Five. … Yes! Thanks, man!",
+          "themPl": "Pięć. … Tak! Dzięki, stary!",
+          "task": "Pochwal go za dobrą serię.",
+          "answer": "Good set!",
+          "alt": [
+            "Nice set, man!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission.s3-campsite",
+      "stage": 3,
+      "title": "Wieczór na polu namiotowym",
+      "titleEn": "An evening at the campsite",
+      "setting": "Pierwszy wieczór na polu namiotowym Tomorrowland. Obok rozbijają się Holendrzy — zagadujecie o muzykę, line-up i plany na jutro.",
+      "claudeScenario": "We're at the Tomorrowland campsite, first evening. You're Lotte from Rotterdam, camping next to me with friends. I'm Domin from Poland. Talk about music, the lineup and plans for tomorrow.",
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "steps": [
+        {
+          "them": "Hi! Do you need a hand with your tent?",
+          "themPl": "Cześć! Pomóc ci z namiotem?",
+          "task": "Podziękuj i powiedz, że tak — trudno go rozstawić.",
+          "answer": "Yes, please! It's hard to put up.",
+          "alt": [
+            "Thanks! Yes, please."
+          ]
+        },
+        {
+          "them": "No problem. I'm Lotte. First time here?",
+          "themPl": "Nie ma sprawy. Jestem Lotte. Pierwszy raz tutaj?",
+          "task": "Przedstaw się i powiedz, że to twój trzeci raz.",
+          "answer": "I'm Domin. No, this is my third time here.",
+          "alt": [
+            "I'm Domin. It's my third time."
+          ]
+        },
+        {
+          "them": "Nice! What kind of music are you into?",
+          "themPl": "Super! Jakiej muzyki słuchasz?",
+          "task": "Powiedz, że jarasz się techno, tym mroczniejszym.",
+          "answer": "I'm really into techno. The darker stuff.",
+          "alt": [
+            "I'm into techno, the darker stuff."
+          ]
+        },
+        {
+          "them": "Me too! Who are you most excited to see?",
+          "themPl": "Ja też! Na kogo najbardziej czekasz?",
+          "task": "Powiedz, że nie możesz się doczekać Charlotte de Witte.",
+          "answer": "I can't wait to see Charlotte de Witte."
+        },
+        {
+          "them": "She's playing tomorrow at eleven. Which stage, do you know?",
+          "themPl": "Gra jutro o jedenastej. Wiesz, na której scenie?",
+          "task": "Powiedz, że nie jesteś pewien, i że sprawdzisz w aplikacji.",
+          "answer": "I'm not sure. Let me check the app.",
+          "alt": [
+            "I'm not sure. I'll check the app."
+          ]
+        },
+        {
+          "them": "We usually meet at the big tree before the sets. Want to join us?",
+          "themPl": "Zwykle spotykamy się przy dużym drzewie przed setami. Chcesz dołączyć?",
+          "task": "Zgódź się entuzjastycznie i zapytaj, o której.",
+          "answer": "I'm up for it! What time?",
+          "alt": [
+            "Sounds great! What time?"
+          ]
+        },
+        {
+          "them": "Around ten. Do you have a power bank? My phone is dying.",
+          "themPl": "Około dziesiątej. Masz powerbank? Telefon mi pada.",
+          "task": "Powiedz, że masz i że może go pożyczyć.",
+          "answer": "Yeah, I have one. You can borrow it.",
+          "alt": [
+            "Sure, you can borrow mine."
+          ]
+        },
+        {
+          "them": "You're a legend! See you tomorrow then!",
+          "themPl": "Jesteś wielki! To do jutra!",
+          "task": "Pożegnaj się i powiedz, że do zobaczenia przy drzewie.",
+          "answer": "See you at the tree!",
+          "alt": [
+            "See you tomorrow at the tree!"
+          ]
+        }
+      ]
     }
   ]
 }

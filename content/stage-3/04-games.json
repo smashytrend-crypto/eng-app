@@ -1,0 +1,857 @@
+{
+  "module": {
+    "id": "s3.games",
+    "stage": 3,
+    "order": 4,
+    "title": "Gry",
+    "titleEn": "Games",
+    "description": "PC, konsole, mecze online, lagi, „GG, well played” i dodawanie się na Steamie — gadanie z innymi graczami.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s3.games.play-any-games",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 1,
+      "en": "Do you play any games?",
+      "pl": "Grasz w jakieś gry?",
+      "alternatives": [
+        "Do you play video games?",
+        "Are you into games?"
+      ],
+      "usage": "Pytanie, które otwiera rozmowę z innym graczem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you play any games? — Yeah, mostly shooters.",
+          "pl": "Grasz w jakieś gry? — Tak, głównie strzelanki."
+        }
+      ],
+      "tags": [
+        "games",
+        "gr:questions-do",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.mostly-pc",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 2,
+      "en": "I mostly play on PC.",
+      "pl": "Gram głównie na PC.",
+      "alternatives": [
+        "I mainly play on PC.",
+        "I play on PC mostly."
+      ],
+      "usage": "Na czym grasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I mostly play on PC, but I've got a PS5 too.",
+          "pl": "Gram głównie na PC, ale mam też PS5."
+        }
+      ],
+      "tags": [
+        "games",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.playing-at-moment",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 3,
+      "en": "What are you playing at the moment?",
+      "pl": "W co teraz grasz?",
+      "alternatives": [
+        "What are you playing right now?",
+        "What are you playing these days?"
+      ],
+      "usage": "Pytasz o aktualną grę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are you playing at the moment? — Elden Ring. It's so hard!",
+          "pl": "W co teraz grasz? — W Elden Ring. Strasznie trudny!"
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.play-online-tonight",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 4,
+      "en": "Do you want to play online tonight?",
+      "pl": "Chcesz pograć online dziś wieczorem?",
+      "alternatives": [
+        "Fancy playing online tonight?"
+      ],
+      "usage": "Zaproszenie do wspólnej gry.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you want to play online tonight? — Sure, after nine.",
+          "pl": "Chcesz pograć dziś wieczorem online? — Jasne, po dziewiątej."
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.add-me-steam",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 5,
+      "en": "Add me on Steam.",
+      "pl": "Dodaj mnie na Steamie.",
+      "alternatives": [
+        "Add me on Discord.",
+        "Add me on PlayStation."
+      ],
+      "usage": "Wymiana kontaktów między graczami.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Add me on Steam. My nickname is Domin_SZN.",
+          "pl": "Dodaj mnie na Steamie. Mój nick to Domin_SZN."
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.stuck-on-level",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 6,
+      "en": "I'm stuck on this level.",
+      "pl": "Utknąłem na tym poziomie.",
+      "alternatives": [
+        "I'm stuck on this boss.",
+        "I can't get past this level."
+      ],
+      "usage": "Gdy nie możesz czegoś przejść.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm stuck on this level. Any tips?",
+          "pl": "Utknąłem na tym poziomie. Masz jakieś rady?"
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.games.lost-because-of-lag",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 7,
+      "en": "We lost because of lag.",
+      "pl": "Przegraliśmy przez lagi.",
+      "alternatives": [
+        "We lost because of the lag."
+      ],
+      "usage": "Klasyczna wymówka gracza.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "We lost because of lag. My internet is terrible tonight.",
+          "pl": "Przegraliśmy przez lagi. Mój internet jest dziś fatalny."
+        }
+      ],
+      "tags": [
+        "games",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.gg-well-played",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 8,
+      "en": "GG, well played!",
+      "pl": "GG, dobrze zagrane!",
+      "alternatives": [
+        "Good game, well played!",
+        "GG, WP!"
+      ],
+      "usage": "Fair play po meczu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "GG, well played! — Thanks, you too!",
+          "pl": "GG, dobrze zagrane! — Dzięki, ty też!"
+        }
+      ],
+      "note": "GG = good game, WP = well played. Mówi się po każdym meczu, nawet przegranym.",
+      "tags": [
+        "games",
+        "slang"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.playing-for-years",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 9,
+      "en": "I've been playing it for years.",
+      "pl": "Gram w to od lat.",
+      "alternatives": [
+        "I've played it for years."
+      ],
+      "usage": "Mówisz, jak długo w coś grasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've been playing it for years. Still not bored!",
+          "pl": "Gram w to od lat. Wciąż mi się nie nudzi!"
+        }
+      ],
+      "note": "„Gram w to od lat” = „I've been playing it for years”, nie „I play it since years”.",
+      "tags": [
+        "games",
+        "gr:present-perfect",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.games.free-to-play",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 10,
+      "en": "It's free to play.",
+      "pl": "Jest darmowa (do grania).",
+      "alternatives": [
+        "It's free.",
+        "It's a free game."
+      ],
+      "usage": "O grach bez opłat.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Try it — it's free to play.",
+          "pl": "Spróbuj — jest darmowa."
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.not-very-good-at-it",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 11,
+      "en": "I'm not very good at it.",
+      "pl": "Nie jestem w tym zbyt dobry.",
+      "alternatives": [
+        "I'm not that good at it.",
+        "I'm not great at it."
+      ],
+      "usage": "Skromnie o swoich umiejętnościach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I play it a lot, but I'm not very good at it.",
+          "pl": "Dużo w to gram, ale nie jestem w tym zbyt dobry."
+        }
+      ],
+      "note": "Dobry W czymś = good AT something.",
+      "tags": [
+        "games",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.one-more-round",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 12,
+      "en": "Let's play one more round.",
+      "pl": "Zagrajmy jeszcze jedną rundę.",
+      "alternatives": [
+        "One more round?",
+        "Let's play one more game."
+      ],
+      "usage": "Zanim pójdziecie spać… jeszcze jedna.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Let's play one more round. Last one, I promise!",
+          "pl": "Zagrajmy jeszcze jedną rundę. Ostatnią, obiecuję!"
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.team-was-terrible",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 13,
+      "en": "My team was terrible.",
+      "pl": "Moja drużyna była fatalna.",
+      "alternatives": [
+        "My team was awful.",
+        "My teammates were terrible."
+      ],
+      "usage": "Narzekanie po przegranym meczu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How did it go? — We lost. My team was terrible.",
+          "pl": "Jak poszło? — Przegraliśmy. Moja drużyna była fatalna."
+        }
+      ],
+      "tags": [
+        "games",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.played-new-update",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 14,
+      "en": "Have you played the new update?",
+      "pl": "Grałeś po nowej aktualizacji?",
+      "alternatives": [
+        "Have you tried the new update?"
+      ],
+      "usage": "Pytasz o nowości w grze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you played the new update? — Yeah, the new map is cool.",
+          "pl": "Grałeś po nowej aktualizacji? — Tak, nowa mapa jest fajna."
+        }
+      ],
+      "tags": [
+        "games",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.games.play-to-relax",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 15,
+      "en": "I play to relax after work.",
+      "pl": "Gram, żeby odpocząć po pracy.",
+      "alternatives": [
+        "I play games to relax after work."
+      ],
+      "usage": "Dlaczego grasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I play to relax after work. It helps me switch off.",
+          "pl": "Gram, żeby odpocząć po pracy. Pomaga mi się wyłączyć."
+        }
+      ],
+      "tags": [
+        "games",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.level",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 16,
+      "en": "level",
+      "pl": "poziom",
+      "alternatives": [],
+      "usage": "W grze i nie tylko.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I finally reached level fifty!",
+          "pl": "W końcu doszedłem do poziomu pięćdziesiątego!"
+        }
+      ],
+      "collocations": [
+        "level up",
+        "the next level",
+        "a hard level"
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.team",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 17,
+      "en": "team",
+      "pl": "drużyna",
+      "alternatives": [],
+      "usage": "Grupa graczy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you want to join our team?",
+          "pl": "Chcesz dołączyć do naszej drużyny?"
+        }
+      ],
+      "collocations": [
+        "my team",
+        "team up",
+        "the other team"
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.match",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 18,
+      "en": "match",
+      "pl": "mecz, rozgrywka",
+      "alternatives": [],
+      "usage": "Jedna gra w trybie online.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We won three matches in a row.",
+          "pl": "Wygraliśmy trzy mecze z rzędu."
+        }
+      ],
+      "collocations": [
+        "a ranked match",
+        "win a match",
+        "one more match"
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.lag",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 19,
+      "en": "lag",
+      "pl": "lag, opóźnienie",
+      "alternatives": [],
+      "usage": "Problem z internetem w grze.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's lagging so badly tonight.",
+          "pl": "Dziś strasznie laguje."
+        }
+      ],
+      "collocations": [
+        "bad lag",
+        "a lag spike",
+        "it's lagging"
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.controller",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 20,
+      "en": "controller",
+      "pl": "pad, kontroler",
+      "alternatives": [],
+      "usage": "Do grania na konsoli.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My controller died in the middle of the match!",
+          "pl": "Pad mi padł w środku meczu!"
+        }
+      ],
+      "collocations": [
+        "a PS5 controller",
+        "charge the controller",
+        "use a controller"
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.console",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 21,
+      "en": "console",
+      "pl": "konsola",
+      "alternatives": [],
+      "usage": "PlayStation, Xbox, Switch.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you play on console or PC?",
+          "pl": "Grasz na konsoli czy na PC?"
+        }
+      ],
+      "collocations": [
+        "a new console",
+        "play on console",
+        "console or PC?"
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.ranked",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 22,
+      "en": "ranked",
+      "pl": "rankingowy (tryb gry)",
+      "alternatives": [],
+      "usage": "Tryb gry, w którym rośnie albo spada twój ranking.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I only play ranked at the weekend.",
+          "pl": "W rankedy gram tylko w weekendy."
+        }
+      ],
+      "collocations": [
+        "play ranked",
+        "ranked matches",
+        "my rank"
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.games.update",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 23,
+      "en": "update",
+      "pl": "aktualizacja",
+      "alternatives": [],
+      "usage": "Nowa wersja gry albo aplikacji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need to download the update first.",
+          "pl": "Najpierw muszę pobrać aktualizację."
+        }
+      ],
+      "collocations": [
+        "a new update",
+        "download the update",
+        "the latest update"
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.co-op",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 24,
+      "en": "co-op",
+      "pl": "tryb kooperacji (gra razem)",
+      "alternatives": [],
+      "usage": "Wspólne granie przeciwko grze, nie przeciwko sobie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's more fun in co-op mode.",
+          "pl": "W trybie co-op jest fajniej."
+        }
+      ],
+      "collocations": [
+        "co-op mode",
+        "play co-op",
+        "a co-op game"
+      ],
+      "pronunciation": "Czytaj „koł-op”.",
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.addicted-to",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 25,
+      "en": "I'm addicted to ___.",
+      "pl": "Jestem uzależniony od ___.",
+      "alternatives": [],
+      "usage": "Żartobliwie o tym, co bardzo lubisz.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm addicted to FIFA.",
+          "pl": "Jestem uzależniony od FIFY."
+        },
+        {
+          "en": "I'm addicted to this game.",
+          "pl": "Jestem uzależniony od tej gry."
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.have-you-played",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 26,
+      "en": "Have you played ___?",
+      "pl": "Grałeś w ___?",
+      "alternatives": [],
+      "usage": "Pytasz o konkretną grę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you played Elden Ring?",
+          "pl": "Grałeś w Elden Ring?"
+        },
+        {
+          "en": "Have you played the new Call of Duty?",
+          "pl": "Grałeś w nowe Call of Duty?"
+        }
+      ],
+      "tags": [
+        "games",
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.play-with-friends",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 27,
+      "en": "I usually play ___ with my friends.",
+      "pl": "Zwykle gram w ___ ze znajomymi.",
+      "alternatives": [],
+      "usage": "W co grasz w ekipie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually play CS with my friends.",
+          "pl": "Zwykle gram w CS-a ze znajomymi."
+        },
+        {
+          "en": "I usually play FIFA with my friends.",
+          "pl": "Zwykle gram w FIFĘ ze znajomymi."
+        }
+      ],
+      "note": "„Grać w grę” = „play a game” — bez „in”!",
+      "tags": [
+        "games",
+        "gr:present-simple",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.its-a-game",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 28,
+      "en": "It's a ___ game.",
+      "pl": "To gra ___.",
+      "alternatives": [],
+      "usage": "Opisujesz rodzaj gry.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's a survival game.",
+          "pl": "To gra survivalowa."
+        },
+        {
+          "en": "It's a racing game.",
+          "pl": "To gra wyścigowa."
+        },
+        {
+          "en": "It's a co-op game.",
+          "pl": "To gra kooperacyjna."
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.want-to-later",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 29,
+      "en": "Do you want to ___ later?",
+      "pl": "Chcesz później ___?",
+      "alternatives": [],
+      "usage": "Proponujesz wspólne granie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you want to play Fortnite later?",
+          "pl": "Chcesz później pograć w Fortnite?"
+        },
+        {
+          "en": "Do you want to join our squad later?",
+          "pl": "Chcesz później dołączyć do naszego składu?"
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.gaming-chat",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 30,
+      "en": "Gaming chat",
+      "pl": "Rozmowa o grach",
+      "alternatives": [],
+      "usage": "Odkrywasz, że ktoś gra w to samo co ty.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Do you play any games?",
+          "pl": "Grasz w jakieś gry?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, mostly on PC. I'm addicted to CS.",
+          "pl": "Tak, głównie na PC. Jestem uzależniony od CS-a.",
+          "speaker": "B"
+        },
+        {
+          "en": "No way, me too! What's your rank?",
+          "pl": "Serio? Ja też! Jaką masz rangę?",
+          "speaker": "A"
+        },
+        {
+          "en": "Not great, to be honest. Add me on Steam and we can play tonight.",
+          "pl": "Szczerze? Kiepską. Dodaj mnie na Steamie, pogramy wieczorem.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.games.after-match",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.games",
+      "order": 31,
+      "en": "After the match",
+      "pl": "Po meczu",
+      "alternatives": [],
+      "usage": "Fair play i „jeszcze jedna runda”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "GG, well played!",
+          "pl": "GG, dobrze zagrane!",
+          "speaker": "A"
+        },
+        {
+          "en": "Thanks! We almost lost because of lag.",
+          "pl": "Dzięki! Prawie przegraliśmy przez lagi.",
+          "speaker": "B"
+        },
+        {
+          "en": "One more round?",
+          "pl": "Jeszcze jedna runda?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure, but then I need to sleep. I'm working at six!",
+          "pl": "Jasne, ale potem muszę spać. Jutro pracuję od szóstej!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "games"
+      ],
+      "level": "A2"
+    }
+  ]
+}

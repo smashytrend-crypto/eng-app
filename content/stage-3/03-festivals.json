@@ -1,0 +1,894 @@
+{
+  "module": {
+    "id": "s3.festivals",
+    "stage": 3,
+    "order": 3,
+    "title": "Festiwale",
+    "titleEn": "Festivals",
+    "description": "Tomorrowland i inne festiwale: sceny, kolejki, opaski, pole namiotowe, zgubieni znajomi i „na kogo najbardziej czekasz?”.",
+    "tags": [
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s3.festivals.where-main-stage",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 1,
+      "en": "Where's the main stage?",
+      "pl": "Gdzie jest główna scena?",
+      "alternatives": [
+        "Which way is the main stage?",
+        "How do I get to the main stage?"
+      ],
+      "usage": "Orientacja na terenie festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, where's the main stage? — Straight on, past the bridge.",
+          "pl": "Przepraszam, gdzie jest główna scena? — Prosto, za mostem."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.most-excited",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 2,
+      "en": "Who are you most excited to see?",
+      "pl": "Na kogo najbardziej czekasz?",
+      "alternatives": [
+        "Who are you most excited about?",
+        "Who do you want to see the most?"
+      ],
+      "usage": "Świetne pytanie do kogoś na festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Who are you most excited to see? — Hardwell, for sure!",
+          "pl": "Na kogo najbardziej czekasz? — Na Hardwella, na pewno!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.festivals.closer-to-front",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 3,
+      "en": "Let's get closer to the front.",
+      "pl": "Podejdźmy bliżej sceny.",
+      "alternatives": [
+        "Let's go closer to the front.",
+        "Let's move closer to the front."
+      ],
+      "usage": "Proponujesz przejście do przodu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's get closer to the front before the show starts.",
+          "pl": "Podejdźmy bliżej sceny, zanim zacznie się show."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.queue-massive",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 4,
+      "en": "The queue is massive!",
+      "pl": "Kolejka jest gigantyczna!",
+      "alternatives": [
+        "The queue is huge!",
+        "The line is huge!"
+      ],
+      "usage": "Narzekasz na kolejkę — do baru, toalet, wejścia.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "The queue is massive! Let's come back later.",
+          "pl": "Kolejka jest gigantyczna! Wróćmy później."
+        }
+      ],
+      "note": "UK: queue, US: line.",
+      "tags": [
+        "festival",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.where-toilets",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 5,
+      "en": "Where are the toilets?",
+      "pl": "Gdzie są toalety?",
+      "alternatives": [
+        "Where's the toilet?",
+        "Where are the bathrooms?",
+        "Where are the loos?"
+      ],
+      "usage": "Absolutna podstawa na festiwalu i w podróży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where are the toilets? — Behind the food trucks.",
+          "pl": "Gdzie są toalety? — Za food truckami."
+        }
+      ],
+      "note": "UK: toilets / loo, US: bathroom / restroom.",
+      "tags": [
+        "festival",
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.wristband-not-working",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 6,
+      "en": "My wristband isn't working.",
+      "pl": "Moja opaska nie działa.",
+      "alternatives": [
+        "My wristband doesn't work."
+      ],
+      "usage": "Problem przy bramce albo przy płaceniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, my wristband isn't working. Can you check it?",
+          "pl": "Przepraszam, moja opaska nie działa. Może pan sprawdzić?"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.festivals.are-you-camping",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 7,
+      "en": "Are you camping?",
+      "pl": "Śpisz na polu namiotowym?",
+      "alternatives": [
+        "Are you staying at the campsite?",
+        "Are you camping here?"
+      ],
+      "usage": "Pytanie do ludzi na festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you camping? — Yeah, in DreamVille.",
+          "pl": "Śpisz na polu? — Tak, w DreamVille."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.tent-near-entrance",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 8,
+      "en": "Our tent is near the entrance.",
+      "pl": "Nasz namiot jest blisko wejścia.",
+      "alternatives": [],
+      "usage": "Opisujesz, gdzie śpicie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Our tent is near the entrance, next to the big flag.",
+          "pl": "Nasz namiot jest blisko wejścia, obok dużej flagi."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.fourth-time-here",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 9,
+      "en": "This is my fourth time here.",
+      "pl": "Jestem tu czwarty raz.",
+      "alternatives": [
+        "It's my fourth time here."
+      ],
+      "usage": "Mówisz, który raz jesteś na festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "First time? — No, this is my fourth time here!",
+          "pl": "Pierwszy raz? — Nie, jestem tu czwarty raz!"
+        }
+      ],
+      "note": "„Czwarty raz” = „my fourth time” — z liczebnikiem porządkowym.",
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.what-time-on",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 10,
+      "en": "What time are they on?",
+      "pl": "O której grają?",
+      "alternatives": [
+        "What time are they playing?",
+        "When are they on?"
+      ],
+      "usage": "Pytasz o godzinę występu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time are they on? — Half ten, on the main stage.",
+          "pl": "O której grają? — Wpół do jedenastej, na głównej scenie."
+        }
+      ],
+      "note": "„Be on” = występować, grać (o artyście albo programie).",
+      "tags": [
+        "festival",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.festivals.atmosphere-unreal",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 11,
+      "en": "The atmosphere is unreal.",
+      "pl": "Atmosfera jest nierealna.",
+      "alternatives": [
+        "The atmosphere is amazing.",
+        "The vibe is unreal."
+      ],
+      "usage": "Zachwyt nad klimatem festiwalu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I love this place. The atmosphere is unreal.",
+          "pl": "Kocham to miejsce. Atmosfera jest nierealna."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.lost-friends-crowd",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 12,
+      "en": "I lost my friends in the crowd.",
+      "pl": "Zgubiłem znajomych w tłumie.",
+      "alternatives": [],
+      "usage": "Klasyczna sytuacja na festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I lost my friends in the crowd and my phone is dead.",
+          "pl": "Zgubiłem znajomych w tłumie, a telefon mi padł."
+        }
+      ],
+      "tags": [
+        "festival",
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.free-water-point",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 13,
+      "en": "Is there a free water point?",
+      "pl": "Jest tu punkt z darmową wodą?",
+      "alternatives": [
+        "Is there free water here?",
+        "Where can I get free water?"
+      ],
+      "usage": "Upał, taniec — woda to podstawa.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a free water point? — Yes, next to every stage.",
+          "pl": "Jest tu punkt z darmową wodą? — Tak, przy każdej scenie."
+        }
+      ],
+      "tags": [
+        "festival",
+        "gr:there-is-are"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.grab-food-before",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 14,
+      "en": "Let's grab some food before the next set.",
+      "pl": "Weźmy coś do jedzenia przed następnym setem.",
+      "alternatives": [
+        "Let's get some food before the next set."
+      ],
+      "usage": "Planowanie przerw na festiwalu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Let's grab some food before the next set. I'm starving!",
+          "pl": "Weźmy coś do jedzenia przed następnym setem. Umieram z głodu!"
+        }
+      ],
+      "tags": [
+        "festival",
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.festivals.charge-phone",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 15,
+      "en": "I need to charge my phone.",
+      "pl": "Muszę naładować telefon.",
+      "alternatives": [
+        "My phone needs charging."
+      ],
+      "usage": "Bateria na festiwalu to problem numer jeden.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need to charge my phone. Is there a charging station?",
+          "pl": "Muszę naładować telefon. Jest tu stacja ładowania?"
+        }
+      ],
+      "tags": [
+        "festival",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.lineup",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 16,
+      "en": "lineup",
+      "pl": "line-up, skład artystów",
+      "alternatives": [],
+      "usage": "Lista wykonawców festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you seen the lineup? It's insane this year.",
+          "pl": "Widziałeś line-up? W tym roku jest szalony."
+        }
+      ],
+      "collocations": [
+        "the lineup",
+        "an amazing lineup",
+        "announce the lineup"
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.stage",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 17,
+      "en": "stage",
+      "pl": "scena",
+      "alternatives": [],
+      "usage": "Miejsce występu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Which stage is he playing on?",
+          "pl": "Na której scenie gra?"
+        }
+      ],
+      "collocations": [
+        "the main stage",
+        "on stage",
+        "the second stage"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.wristband",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 18,
+      "en": "wristband",
+      "pl": "opaska (festiwalowa)",
+      "alternatives": [],
+      "usage": "Twój bilet i portfel na festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Don't lose your wristband — it's your ticket.",
+          "pl": "Nie zgub opaski — to twój bilet."
+        }
+      ],
+      "collocations": [
+        "festival wristband",
+        "scan your wristband",
+        "top up your wristband"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.campsite",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 19,
+      "en": "campsite",
+      "pl": "pole namiotowe, kemping",
+      "alternatives": [],
+      "usage": "Miejsce, gdzie śpisz na festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The campsite opens on Thursday.",
+          "pl": "Pole namiotowe otwierają w czwartek."
+        }
+      ],
+      "collocations": [
+        "at the campsite",
+        "the campsite is full",
+        "a campsite near the lake"
+      ],
+      "tags": [
+        "festival",
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.crowd",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 20,
+      "en": "crowd",
+      "pl": "tłum, publiczność",
+      "alternatives": [],
+      "usage": "Ludzie pod sceną.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The crowd went crazy when the drop hit.",
+          "pl": "Publiczność oszalała, gdy wszedł drop."
+        }
+      ],
+      "collocations": [
+        "in the crowd",
+        "a huge crowd",
+        "the crowd goes wild"
+      ],
+      "pronunciation": "Czytaj „krałd”.",
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.merch",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 21,
+      "en": "merch",
+      "pl": "merch, gadżety (koszulki itp.)",
+      "alternatives": [],
+      "usage": "Festiwalowe pamiątki.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "The merch is expensive, but I always buy a T-shirt.",
+          "pl": "Merch jest drogi, ale zawsze kupuję koszulkę."
+        }
+      ],
+      "collocations": [
+        "festival merch",
+        "buy merch",
+        "the merch stand"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.sunscreen",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 22,
+      "en": "sunscreen",
+      "pl": "krem z filtrem",
+      "alternatives": [],
+      "usage": "Ochrona przed słońcem w lipcu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Put on some sunscreen — it's going to be hot today.",
+          "pl": "Posmaruj się kremem z filtrem — dziś będzie gorąco."
+        }
+      ],
+      "collocations": [
+        "put on sunscreen",
+        "SPF 50 sunscreen",
+        "forget sunscreen"
+      ],
+      "tags": [
+        "festival",
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.earplugs",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 23,
+      "en": "earplugs",
+      "pl": "zatyczki do uszu",
+      "alternatives": [],
+      "usage": "Ochrona słuchu przy głośnej muzyce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I always wear earplugs at festivals. I want to hear music when I'm old!",
+          "pl": "Na festiwalach zawsze noszę zatyczki. Chcę słyszeć muzykę na starość!"
+        }
+      ],
+      "collocations": [
+        "wear earplugs",
+        "a pair of earplugs",
+        "music earplugs"
+      ],
+      "tags": [
+        "festival",
+        "health"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.tent",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 24,
+      "en": "tent",
+      "pl": "namiot",
+      "alternatives": [],
+      "usage": "Spanie na festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It took us an hour to put up the tent.",
+          "pl": "Rozstawienie namiotu zajęło nam godzinę."
+        }
+      ],
+      "collocations": [
+        "put up the tent",
+        "our tent",
+        "a two-person tent"
+      ],
+      "note": "„Rozstawić namiot” = „put up a tent”, „złożyć” = „take down”.",
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.cant-wait-to-see",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 25,
+      "en": "I can't wait to see ___.",
+      "pl": "Nie mogę się doczekać ___.",
+      "alternatives": [],
+      "usage": "Ekscytacja przed występem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I can't wait to see Armin van Buuren.",
+          "pl": "Nie mogę się doczekać Armina van Buurena."
+        },
+        {
+          "en": "I can't wait to see the fireworks.",
+          "pl": "Nie mogę się doczekać fajerwerków."
+        }
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.queue-for",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 26,
+      "en": "Is this the queue for ___?",
+      "pl": "Czy to kolejka do ___?",
+      "alternatives": [],
+      "usage": "Upewniasz się, że stoisz w dobrej kolejce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is this the queue for the toilets?",
+          "pl": "Czy to kolejka do toalet?"
+        },
+        {
+          "en": "Is this the queue for the bar?",
+          "pl": "Czy to kolejka do baru?"
+        }
+      ],
+      "tags": [
+        "festival",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.which-stage",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 27,
+      "en": "Which stage is ___ playing on?",
+      "pl": "Na której scenie gra ___?",
+      "alternatives": [],
+      "usage": "Szukasz występu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Which stage is Hardwell playing on?",
+          "pl": "Na której scenie gra Hardwell?"
+        },
+        {
+          "en": "Which stage is Boris Brejcha playing on?",
+          "pl": "Na której scenie gra Boris Brejcha?"
+        }
+      ],
+      "note": "Przyimek „on” zostaje na końcu: Which stage is he playing ON?",
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.festivals.go-to-first",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 28,
+      "en": "We should go to ___ first.",
+      "pl": "Najpierw powinniśmy iść ___.",
+      "alternatives": [],
+      "usage": "Planujesz trasę po festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We should go to the main stage first.",
+          "pl": "Najpierw powinniśmy iść pod główną scenę."
+        },
+        {
+          "en": "We should go to the campsite first.",
+          "pl": "Najpierw powinniśmy iść na pole namiotowe."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.festival-this-year",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 29,
+      "en": "It's my ___ festival this year.",
+      "pl": "To mój ___ festiwal w tym roku.",
+      "alternatives": [],
+      "usage": "Liczebniki porządkowe w praktyce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's my third festival this year.",
+          "pl": "To mój trzeci festiwal w tym roku."
+        },
+        {
+          "en": "It's my first festival this year.",
+          "pl": "To mój pierwszy festiwal w tym roku."
+        }
+      ],
+      "tags": [
+        "festival",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.there-are-stages",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 30,
+      "en": "There are ___ stages.",
+      "pl": "Jest ___ scen.",
+      "alternatives": [],
+      "usage": "Opisujesz festiwal — there are + liczba.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There are sixteen stages.",
+          "pl": "Jest szesnaście scen."
+        },
+        {
+          "en": "There are more stages than last year.",
+          "pl": "Jest więcej scen niż w zeszłym roku."
+        }
+      ],
+      "tags": [
+        "festival",
+        "gr:there-is-are",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.lost-friends-dialog",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 31,
+      "en": "Lost in the crowd",
+      "pl": "Zgubiony w tłumie",
+      "alternatives": [],
+      "usage": "Prosisz o pomoc, gdy zgubiłeś znajomych.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I lost my friends in the crowd, and my phone is dying.",
+          "pl": "Zgubiłem znajomych w tłumie, a telefon mi pada.",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh no! Where did you see them last?",
+          "pl": "O nie! Gdzie ich ostatnio widziałeś?",
+          "speaker": "B"
+        },
+        {
+          "en": "Near the main stage.",
+          "pl": "Koło głównej sceny.",
+          "speaker": "A"
+        },
+        {
+          "en": "Let's go to your meeting point. Do you have one?",
+          "pl": "Chodźmy do waszego punktu spotkań. Macie taki?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yeah, the big tree next to the bar!",
+          "pl": "Tak, duże drzewo obok baru!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "festival",
+        "rescue"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.festivals.campsite-neighbours",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.festivals",
+      "order": 32,
+      "en": "Campsite neighbours",
+      "pl": "Sąsiedzi z pola namiotowego",
+      "alternatives": [],
+      "usage": "Zagadujesz ludzi z sąsiedniego namiotu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hey, neighbours! Where are you guys from?",
+          "pl": "Hej, sąsiedzi! Skąd jesteście?",
+          "speaker": "A"
+        },
+        {
+          "en": "Germany. And you?",
+          "pl": "Z Niemiec. A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "Poland. Is this your first time here?",
+          "pl": "Z Polski. Jesteście tu pierwszy raz?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, our fifth! Who are you most excited to see?",
+          "pl": "Nie, piąty! Na kogo najbardziej czekasz?",
+          "speaker": "B"
+        },
+        {
+          "en": "Charlotte de Witte, for sure.",
+          "pl": "Na Charlotte de Witte, na pewno.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "festival",
+        "smalltalk"
+      ],
+      "level": "A2"
+    }
+  ]
+}

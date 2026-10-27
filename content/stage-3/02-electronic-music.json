@@ -1,0 +1,891 @@
+{
+  "module": {
+    "id": "s3.electronic-music",
+    "stage": 3,
+    "order": 2,
+    "title": "Muzyka elektroniczna",
+    "titleEn": "Electronic music",
+    "description": "Techno, house, EDM, dubstep: gust muzyczny, DJ-e, drop, sety, „track ID?”. Rozmowy w klubie i na festiwalu.",
+    "tags": [
+      "general",
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s3.electronic-music.what-music-into",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 1,
+      "en": "What kind of music are you into?",
+      "pl": "Jakiej muzyki słuchasz?",
+      "alternatives": [
+        "What kind of music do you like?",
+        "What music are you into?",
+        "What kind of music do you listen to?"
+      ],
+      "usage": "Najlepsze pytanie na start rozmowy o muzyce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What kind of music are you into? — Mostly techno and house.",
+          "pl": "Jakiej muzyki słuchasz? — Głównie techno i house."
+        }
+      ],
+      "note": "„Be into something” = lubić, jarać się czymś. Bardzo naturalne w rozmowie.",
+      "tags": [
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.music-big-part",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 2,
+      "en": "Music is a big part of my life.",
+      "pl": "Muzyka to ważna część mojego życia.",
+      "alternatives": [
+        "Music is a huge part of my life."
+      ],
+      "usage": "Mówisz, ile znaczy dla ciebie muzyka.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Music is a big part of my life. I listen to it all day at work.",
+          "pl": "Muzyka to ważna część mojego życia. Słucham jej cały dzień w pracy."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.listening-at-moment",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 3,
+      "en": "Who are you listening to at the moment?",
+      "pl": "Kogo teraz słuchasz?",
+      "alternatives": [
+        "Who are you listening to right now?",
+        "What are you listening to at the moment?"
+      ],
+      "usage": "Pytasz o czyichś ulubionych artystów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Who are you listening to at the moment? — A lot of Fred again..",
+          "pl": "Kogo teraz słuchasz? — Dużo Freda again.."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.track-is-fire",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 4,
+      "en": "This track is fire!",
+      "pl": "Ten numer jest ogień!",
+      "alternatives": [
+        "This track is amazing!",
+        "This tune is fire!",
+        "This tune is amazing!"
+      ],
+      "usage": "Entuzjastycznie o kawałku.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Turn it up! This track is fire!",
+          "pl": "Podgłośnij! Ten numer to ogień!"
+        }
+      ],
+      "tags": [
+        "music",
+        "slang"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.name-of-track",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 5,
+      "en": "Do you know the name of this track?",
+      "pl": "Wiesz, jak się nazywa ten numer?",
+      "alternatives": [
+        "Do you know what this track is called?",
+        "What's this track?",
+        "What's this tune?"
+      ],
+      "usage": "W klubie albo na festiwalu, gdy coś ci wpadnie w ucho.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you know the name of this track? — No idea, let me Shazam it.",
+          "pl": "Wiesz, jak się nazywa ten numer? — Nie mam pojęcia, zaraz go shazamnę."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.drop-was-insane",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 6,
+      "en": "The drop was insane!",
+      "pl": "Drop był szalony!",
+      "alternatives": [
+        "That drop was insane!",
+        "The drop was crazy!"
+      ],
+      "usage": "Reakcja na kulminację numeru.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Did you hear that? The drop was insane!",
+          "pl": "Słyszałeś? Drop był szalony!"
+        }
+      ],
+      "tags": [
+        "music",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.seen-live-three-times",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 7,
+      "en": "I've seen him live three times.",
+      "pl": "Widziałem go na żywo trzy razy.",
+      "alternatives": [
+        "I've seen him play live three times."
+      ],
+      "usage": "Mówisz o doświadczeniu — Present Perfect.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've seen him live three times, and every set was different.",
+          "pl": "Widziałem go na żywo trzy razy i każdy set był inny."
+        }
+      ],
+      "tags": [
+        "music",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.prefer-darker",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 8,
+      "en": "I prefer the darker stuff.",
+      "pl": "Wolę mroczniejsze klimaty.",
+      "alternatives": [
+        "I prefer darker stuff.",
+        "I prefer darker music."
+      ],
+      "usage": "Opisujesz swój gust muzyczny.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I like house, but I prefer the darker stuff — hard techno.",
+          "pl": "Lubię house, ale wolę mroczniejsze klimaty — hard techno."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.not-fan-edm",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 9,
+      "en": "I'm not a big fan of EDM.",
+      "pl": "Nie jestem wielkim fanem EDM.",
+      "alternatives": [
+        "I'm not really into EDM.",
+        "I'm not a huge fan of EDM."
+      ],
+      "usage": "Grzecznie mówisz, że czegoś nie lubisz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm not a big fan of EDM, but the mainstage show was amazing.",
+          "pl": "Nie jestem wielkim fanem EDM, ale show na mainstage był niesamowity."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.bass-heavy",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 10,
+      "en": "The bass is so heavy!",
+      "pl": "Ale ciężki bas!",
+      "alternatives": [
+        "The bass is so deep!",
+        "The bass is crazy!"
+      ],
+      "usage": "Reakcja w klubie albo na dubstepie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "The bass is so heavy! I can feel it in my chest.",
+          "pl": "Ale ciężki bas! Czuję go w klatce."
+        }
+      ],
+      "pronunciation": "„bass” (bas) czytaj „bejs”.",
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.three-hour-set",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 11,
+      "en": "He's playing a three-hour set.",
+      "pl": "Gra trzygodzinny set.",
+      "alternatives": [
+        "He's doing a three-hour set."
+      ],
+      "usage": "Mówisz o występie DJ-a — ustalony plan.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "He's playing a three-hour set tonight, from midnight to three.",
+          "pl": "Dziś gra trzygodzinny set, od północy do trzeciej."
+        }
+      ],
+      "note": "„Three-hour set” — przymiotnik z liczbą bez „-s”: three-hour, nie „three-hours”.",
+      "tags": [
+        "music",
+        "gr:present-continuous-future",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.more-melodic",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 12,
+      "en": "It's more melodic.",
+      "pl": "Jest bardziej melodyjne.",
+      "alternatives": [],
+      "usage": "Porównujesz gatunki albo artystów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the difference? — It's more melodic and less aggressive.",
+          "pl": "Jaka to różnica? — Jest bardziej melodyjne i mniej agresywne."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.heard-new-album",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 13,
+      "en": "Have you heard his new album?",
+      "pl": "Słyszałeś jego nowy album?",
+      "alternatives": [
+        "Have you listened to his new album?"
+      ],
+      "usage": "Pytasz o nowości.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you heard his new album? — Not yet. Is it good?",
+          "pl": "Słyszałeś jego nowy album? — Jeszcze nie. Dobry?"
+        }
+      ],
+      "tags": [
+        "music",
+        "gr:present-perfect"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.love-to-learn-dj",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 14,
+      "en": "I'd love to learn to DJ.",
+      "pl": "Chciałbym nauczyć się grać jako DJ.",
+      "alternatives": [
+        "I'd love to learn how to DJ.",
+        "I'd like to learn to DJ."
+      ],
+      "usage": "Marzenie muzyczne.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd love to learn to DJ. I've already got the software.",
+          "pl": "Chciałbym nauczyć się grać jako DJ. Mam już nawet program."
+        }
+      ],
+      "tags": [
+        "music",
+        "gr:would-like"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.turn-it-up",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 15,
+      "en": "Turn it up!",
+      "pl": "Podgłośnij!",
+      "alternatives": [
+        "Turn it up a bit!",
+        "Louder!"
+      ],
+      "usage": "Gdy leci dobry numer.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "This is my favourite song! Turn it up!",
+          "pl": "To moja ulubiona piosenka! Podgłośnij!"
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.track",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 16,
+      "en": "track",
+      "pl": "numer, kawałek",
+      "alternatives": [],
+      "usage": "Utwór — szczególnie w muzyce elektronicznej.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "That's my favourite track from the set.",
+          "pl": "To mój ulubiony numer z tego setu."
+        }
+      ],
+      "collocations": [
+        "a new track",
+        "track ID",
+        "my favourite track"
+      ],
+      "note": "W muzyce elektronicznej mówi się raczej „track” albo „tune” niż „song”.",
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.drop",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 17,
+      "en": "drop",
+      "pl": "drop (kulminacja numeru)",
+      "alternatives": [],
+      "usage": "Moment, gdy wchodzi bas i beat.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Wait for the drop!",
+          "pl": "Poczekaj na drop!"
+        }
+      ],
+      "collocations": [
+        "the drop",
+        "wait for the drop",
+        "a massive drop"
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.beat",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 18,
+      "en": "beat",
+      "pl": "bit, rytm",
+      "alternatives": [],
+      "usage": "Rytm muzyki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I love this beat — it's so groovy.",
+          "pl": "Uwielbiam ten bit — jest taki bujający."
+        }
+      ],
+      "collocations": [
+        "a good beat",
+        "dance to the beat",
+        "a heavy beat"
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.dj-set",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 19,
+      "en": "DJ set",
+      "pl": "set DJ-a",
+      "alternatives": [],
+      "usage": "Występ DJ-a.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "His DJ set at Tomorrowland was legendary.",
+          "pl": "Jego set na Tomorrowland był legendarny."
+        }
+      ],
+      "collocations": [
+        "a two-hour DJ set",
+        "a sunrise set",
+        "a closing set"
+      ],
+      "tags": [
+        "music",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.genre",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 20,
+      "en": "genre",
+      "pl": "gatunek (muzyczny)",
+      "alternatives": [],
+      "usage": "Rodzaj muzyki.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's your favourite genre?",
+          "pl": "Jaki jest twój ulubiony gatunek?"
+        }
+      ],
+      "collocations": [
+        "music genre",
+        "my favourite genre",
+        "mix genres"
+      ],
+      "pronunciation": "Czytaj „żonra” — jak po francusku.",
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.underground",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 21,
+      "en": "underground",
+      "pl": "undergroundowy, alternatywny",
+      "alternatives": [],
+      "usage": "Muzyka i kluby poza mainstreamem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I prefer small underground clubs to big festivals.",
+          "pl": "Wolę małe undergroundowe kluby od wielkich festiwali."
+        }
+      ],
+      "collocations": [
+        "underground techno",
+        "the underground scene",
+        "an underground club"
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.b2b",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 22,
+      "en": "B2B",
+      "pl": "B2B (dwóch DJ-ów gra na zmianę)",
+      "alternatives": [],
+      "usage": "Back to back — wspólny set dwóch DJ-ów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "They're playing B2B at sunrise.",
+          "pl": "Grają B2B o wschodzie słońca."
+        }
+      ],
+      "collocations": [
+        "play B2B",
+        "a B2B set",
+        "back to back with…"
+      ],
+      "pronunciation": "Czytaj „bi-tu-bi”.",
+      "tags": [
+        "music",
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.rave",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 23,
+      "en": "rave",
+      "pl": "rave, impreza z muzyką elektroniczną",
+      "alternatives": [],
+      "usage": "Duża impreza taneczna.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "We went to a rave in an old factory.",
+          "pl": "Byliśmy na rave w starej fabryce."
+        }
+      ],
+      "collocations": [
+        "go to a rave",
+        "an all-night rave",
+        "a warehouse rave"
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.headphones",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 24,
+      "en": "headphones",
+      "pl": "słuchawki",
+      "alternatives": [],
+      "usage": "Słuchanie muzyki w drodze, na siłowni.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I can't train without my headphones.",
+          "pl": "Nie umiem trenować bez słuchawek."
+        }
+      ],
+      "collocations": [
+        "put on my headphones",
+        "noise-cancelling headphones",
+        "wireless headphones"
+      ],
+      "tags": [
+        "music",
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.really-into",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 25,
+      "en": "I'm really into ___.",
+      "pl": "Jaram się ___.",
+      "alternatives": [],
+      "usage": "Mówisz, co ci się podoba.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm really into techno.",
+          "pl": "Jaram się techno."
+        },
+        {
+          "en": "I'm really into melodic house.",
+          "pl": "Jaram się melodic house."
+        },
+        {
+          "en": "I'm really into dubstep.",
+          "pl": "Bardzo lubię dubstep."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.ever-seen-live",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 26,
+      "en": "Have you ever seen ___ live?",
+      "pl": "Widziałeś kiedyś ___ na żywo?",
+      "alternatives": [],
+      "usage": "Pytasz o koncerty i sety.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you ever seen Charlotte de Witte live?",
+          "pl": "Widziałeś kiedyś Charlotte de Witte na żywo?"
+        },
+        {
+          "en": "Have you ever seen Martin Garrix live?",
+          "pl": "Widziałeś kiedyś Martina Garrixa na żywo?"
+        }
+      ],
+      "tags": [
+        "music",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.electronic-music.favourite-dj-is",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 27,
+      "en": "My favourite DJ is ___.",
+      "pl": "Mój ulubiony DJ to ___.",
+      "alternatives": [],
+      "usage": "Mówisz o ulubionym artyście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My favourite DJ is Amelie Lens.",
+          "pl": "Moja ulubiona DJ-ka to Amelie Lens."
+        },
+        {
+          "en": "My favourite DJ is Fisher.",
+          "pl": "Mój ulubiony DJ to Fisher."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.playing-tonight",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 28,
+      "en": "___ is playing tonight.",
+      "pl": "Dziś gra ___.",
+      "alternatives": [],
+      "usage": "Mówisz, kto dziś występuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Adam Beyer is playing tonight.",
+          "pl": "Dziś gra Adam Beyer."
+        },
+        {
+          "en": "Skrillex is playing tonight.",
+          "pl": "Dziś gra Skrillex."
+        }
+      ],
+      "tags": [
+        "music",
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.sounds-like",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 29,
+      "en": "It sounds like ___.",
+      "pl": "Brzmi jak ___.",
+      "alternatives": [],
+      "usage": "Opisujesz muzykę przez porównanie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It sounds like old-school trance.",
+          "pl": "Brzmi jak stary trance."
+        },
+        {
+          "en": "It sounds like music from a video game.",
+          "pl": "Brzmi jak muzyka z gry."
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.listen-at-gym",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 30,
+      "en": "I usually listen to ___ at the gym.",
+      "pl": "Na siłowni zwykle słucham ___.",
+      "alternatives": [],
+      "usage": "Muzyka do treningu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually listen to hard techno at the gym.",
+          "pl": "Na siłowni zwykle słucham hard techno."
+        },
+        {
+          "en": "I usually listen to dubstep at the gym.",
+          "pl": "Na siłowni zwykle słucham dubstepu."
+        }
+      ],
+      "tags": [
+        "music",
+        "gym",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.music-taste",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 31,
+      "en": "Music taste",
+      "pl": "Gust muzyczny",
+      "alternatives": [],
+      "usage": "Rozmowa o ulubionej muzyce i DJ-ach.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What kind of music are you into?",
+          "pl": "Jakiej muzyki słuchasz?",
+          "speaker": "A"
+        },
+        {
+          "en": "Mostly techno. The darker stuff.",
+          "pl": "Głównie techno. Te mroczniejsze klimaty.",
+          "speaker": "B"
+        },
+        {
+          "en": "Nice! Who are you listening to at the moment?",
+          "pl": "Super! Kogo teraz słuchasz?",
+          "speaker": "A"
+        },
+        {
+          "en": "Amelie Lens and Charlotte de Witte. Have you seen them live?",
+          "pl": "Amelie Lens i Charlotte de Witte. Widziałeś je na żywo?",
+          "speaker": "B"
+        },
+        {
+          "en": "Not yet, but I'd love to.",
+          "pl": "Jeszcze nie, ale bardzo bym chciał.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.electronic-music.track-id",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.electronic-music",
+      "order": 32,
+      "en": "Track ID?",
+      "pl": "Co to za numer?",
+      "alternatives": [],
+      "usage": "W klubie: szukacie nazwy kawałka.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Do you know the name of this track?",
+          "pl": "Wiesz, jak się nazywa ten numer?",
+          "speaker": "A"
+        },
+        {
+          "en": "No idea, but the drop was insane!",
+          "pl": "Nie mam pojęcia, ale drop był szalony!",
+          "speaker": "B"
+        },
+        {
+          "en": "I'm going to Shazam it.",
+          "pl": "Zaraz go shazamnę.",
+          "speaker": "A"
+        },
+        {
+          "en": "Good idea. Send it to me!",
+          "pl": "Dobry pomysł. Wyślij mi!",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "level": "A2"
+    }
+  ]
+}

@@ -1,0 +1,896 @@
+{
+  "module": {
+    "id": "s3.gym",
+    "stage": 3,
+    "order": 1,
+    "title": "Siłownia",
+    "titleEn": "The gym",
+    "description": "Język siłowni: serie, powtórzenia, asekuracja, zakwasy, rekordy i plan treningowy. Przyda się w każdej siłowni na świecie.",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s3.gym.are-you-using-this",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 1,
+      "en": "Are you using this?",
+      "pl": "Korzystasz z tego?",
+      "alternatives": [
+        "Are you using this bench?",
+        "Is anyone using this?",
+        "Are you still using this?"
+      ],
+      "usage": "Podstawa savoir-vivre na siłowni — zanim weźmiesz ławkę albo hantle.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, are you using this? — No, go ahead.",
+          "pl": "Sorry, korzystasz z tego? — Nie, śmiało."
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.sets-left",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 2,
+      "en": "How many sets have you got left?",
+      "pl": "Ile serii ci zostało?",
+      "alternatives": [
+        "How many sets do you have left?",
+        "How many more sets?"
+      ],
+      "usage": "Pytasz, kiedy zwolni się sprzęt.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How many sets have you got left? — Just one.",
+          "pl": "Ile serii ci zostało? — Tylko jedna."
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.gym.work-in",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 3,
+      "en": "Can I work in with you?",
+      "pl": "Mogę ćwiczyć na zmianę z tobą?",
+      "alternatives": [
+        "Mind if I work in?",
+        "Can I work in?"
+      ],
+      "usage": "Siłowniany zwrot: robicie serie na zmianę na tym samym sprzęcie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I work in with you? — Sure, I'll change the weight.",
+          "pl": "Mogę ćwiczyć na zmianę z tobą? — Jasne, zmienię ciężar."
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.gym.spot-me",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 4,
+      "en": "Can you spot me?",
+      "pl": "Możesz mnie asekurować?",
+      "alternatives": [
+        "Could you spot me?",
+        "Can you give me a spot?"
+      ],
+      "usage": "Prosisz o asekurację przy ciężkiej serii.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, can you spot me? Just one set.",
+          "pl": "Przepraszam, możesz mnie asekurować? Tylko jedna seria."
+        }
+      ],
+      "note": "„Spot” w siłowni = asekurować. Dziękujesz krótko: „Thanks for the spot!”.",
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.leg-day",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 5,
+      "en": "It's leg day today.",
+      "pl": "Dziś dzień nóg.",
+      "alternatives": [
+        "Today is leg day."
+      ],
+      "usage": "Mówisz, co dziś trenujesz.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's leg day today. Pray for me!",
+          "pl": "Dziś dzień nóg. Módlcie się za mnie!"
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.sore-from-yesterday",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 6,
+      "en": "I'm so sore from yesterday.",
+      "pl": "Mam straszne zakwasy po wczoraj.",
+      "alternatives": [
+        "I'm really sore from yesterday.",
+        "I'm still sore from yesterday."
+      ],
+      "usage": "Pamiętasz „zakwasy” z Etapu 1? Tak mówi się po angielsku.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm so sore from yesterday. I can't walk down the stairs!",
+          "pl": "Mam straszne zakwasy po wczoraj. Nie mogę zejść po schodach!"
+        }
+      ],
+      "note": "„Zakwasy” = „be sore” albo „DOMS”. Nie mów „I have sour muscles”!",
+      "tags": [
+        "gym",
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.new-pb",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 7,
+      "en": "I hit a new PB today!",
+      "pl": "Pobiłem dziś rekord!",
+      "alternatives": [
+        "I got a new PB today!",
+        "I hit a new personal best today!"
+      ],
+      "usage": "Chwalisz się wynikiem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I hit a new PB today! A hundred and twenty on squats.",
+          "pl": "Pobiłem dziś rekord! Sto dwadzieścia w przysiadzie."
+        }
+      ],
+      "note": "PB = personal best (UK). W USA częściej PR = personal record.",
+      "tags": [
+        "gym",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.how-long-training",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 8,
+      "en": "How long have you been training?",
+      "pl": "Od jak dawna trenujesz?",
+      "alternatives": [
+        "How long have you been lifting?"
+      ],
+      "usage": "Pytanie, które otwiera rozmowę na siłowni.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How long have you been training? — About four years.",
+          "pl": "Od jak dawna trenujesz? — Od jakichś czterech lat."
+        }
+      ],
+      "tags": [
+        "gym",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.gym.cutting",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 9,
+      "en": "I'm cutting at the moment.",
+      "pl": "Jestem teraz na redukcji.",
+      "alternatives": [
+        "I'm on a cut at the moment.",
+        "I'm cutting right now."
+      ],
+      "usage": "Mówisz o swojej diecie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "No pizza for me — I'm cutting at the moment.",
+          "pl": "Dla mnie bez pizzy — jestem teraz na redukcji."
+        }
+      ],
+      "tags": [
+        "gym",
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.gym.whats-your-split",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 10,
+      "en": "What's your split?",
+      "pl": "Jaki masz podział treningowy?",
+      "alternatives": [
+        "What's your training split?"
+      ],
+      "usage": "Siłowniane pytanie o plan treningowy.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What's your split? — Push, pull, legs.",
+          "pl": "Jaki masz podział? — Push, pull, nogi."
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.gym.train-five-times",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 11,
+      "en": "I train five times a week.",
+      "pl": "Trenuję pięć razy w tygodniu.",
+      "alternatives": [
+        "I go to the gym five times a week.",
+        "I work out five times a week."
+      ],
+      "usage": "Ile trenujesz — Present Simple.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I train five times a week, usually after work.",
+          "pl": "Trenuję pięć razy w tygodniu, zwykle po pracy."
+        }
+      ],
+      "tags": [
+        "gym",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.hand-with-plates",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 12,
+      "en": "Do you need a hand with the plates?",
+      "pl": "Pomóc ci z talerzami?",
+      "alternatives": [
+        "Do you need help with the plates?",
+        "Need a hand with the plates?"
+      ],
+      "usage": "Oferujesz pomoc przy rozładowaniu sztangi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you need a hand with the plates? — Cheers, mate!",
+          "pl": "Pomóc ci z talerzami? — Dzięki, stary!"
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.gym.good-set",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 13,
+      "en": "Good set!",
+      "pl": "Dobra seria!",
+      "alternatives": [
+        "Nice set!",
+        "Great set!"
+      ],
+      "usage": "Krótka pochwała dla kogoś na siłowni.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Yes! Good set, man!",
+          "pl": "Tak! Dobra seria, stary!"
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.warm-up-first",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 14,
+      "en": "I need to warm up first.",
+      "pl": "Najpierw muszę się rozgrzać.",
+      "alternatives": [
+        "I have to warm up first."
+      ],
+      "usage": "Przed ciężkim treningiem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Wait, I need to warm up first. Five minutes on the bike.",
+          "pl": "Czekaj, najpierw muszę się rozgrzać. Pięć minut na rowerku."
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.changing-room",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 15,
+      "en": "Where's the changing room?",
+      "pl": "Gdzie jest szatnia?",
+      "alternatives": [
+        "Where are the changing rooms?",
+        "Where's the locker room?"
+      ],
+      "usage": "Pytanie na nowej siłowni — np. za granicą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, it's my first time here. Where's the changing room?",
+          "pl": "Cześć, jestem tu pierwszy raz. Gdzie jest szatnia?"
+        }
+      ],
+      "note": "UK: changing room, US: locker room.",
+      "tags": [
+        "gym",
+        "travel",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.set",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 16,
+      "en": "set",
+      "pl": "seria (na siłowni)",
+      "alternatives": [],
+      "usage": "Grupa powtórzeń bez przerwy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I do three sets of ten.",
+          "pl": "Robię trzy serie po dziesięć."
+        }
+      ],
+      "collocations": [
+        "three sets of ten",
+        "one more set",
+        "my last set"
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.rep",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 17,
+      "en": "rep",
+      "pl": "powtórzenie",
+      "alternatives": [],
+      "usage": "Skrót od „repetition”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Just two more reps!",
+          "pl": "Jeszcze tylko dwa powtórzenia!"
+        }
+      ],
+      "collocations": [
+        "ten reps",
+        "one more rep",
+        "reps to failure"
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.weights",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 18,
+      "en": "weights",
+      "pl": "ciężary",
+      "alternatives": [],
+      "usage": "Trening siłowy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I lift weights four times a week.",
+          "pl": "Ćwiczę na ciężarach cztery razy w tygodniu."
+        }
+      ],
+      "collocations": [
+        "lift weights",
+        "free weights",
+        "heavy weights"
+      ],
+      "tags": [
+        "gym",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.bench",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 19,
+      "en": "bench",
+      "pl": "ławka; wyciskanie na ławce",
+      "alternatives": [],
+      "usage": "Sprzęt i ćwiczenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is this bench free?",
+          "pl": "Ta ławka jest wolna?"
+        }
+      ],
+      "collocations": [
+        "bench press",
+        "a flat bench",
+        "an incline bench"
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.protein",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 20,
+      "en": "protein",
+      "pl": "białko",
+      "alternatives": [],
+      "usage": "Dieta pod trening.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I try to eat a lot of protein — chicken, eggs, skyr.",
+          "pl": "Staram się jeść dużo białka — kurczak, jajka, skyr."
+        }
+      ],
+      "collocations": [
+        "protein shake",
+        "high in protein",
+        "get enough protein"
+      ],
+      "pronunciation": "Czytaj „prołtin”.",
+      "tags": [
+        "gym",
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.sore",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 21,
+      "en": "sore",
+      "pl": "obolały (zakwasy)",
+      "alternatives": [],
+      "usage": "Mięśnie bolą po treningu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My legs are really sore after yesterday.",
+          "pl": "Nogi strasznie mnie bolą po wczoraj."
+        }
+      ],
+      "collocations": [
+        "sore muscles",
+        "really sore",
+        "a sore throat"
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.membership",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 22,
+      "en": "membership",
+      "pl": "karnet, członkostwo",
+      "alternatives": [],
+      "usage": "Opłata za siłownię.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How much is a monthly membership?",
+          "pl": "Ile kosztuje karnet miesięczny?"
+        }
+      ],
+      "collocations": [
+        "gym membership",
+        "a monthly membership",
+        "cancel my membership"
+      ],
+      "tags": [
+        "gym",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.stretch",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 23,
+      "en": "stretch",
+      "pl": "rozciągać się; rozciąganie",
+      "alternatives": [],
+      "usage": "Po treningu albo na rozgrzewkę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Don't forget to stretch after training.",
+          "pl": "Nie zapomnij się rozciągnąć po treningu."
+        }
+      ],
+      "collocations": [
+        "stretch after training",
+        "a good stretch",
+        "stretch your legs"
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.locker",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 24,
+      "en": "locker",
+      "pl": "szafka (zamykana)",
+      "alternatives": [],
+      "usage": "Na siłowni, basenie, festiwalu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where can I get a key for the locker?",
+          "pl": "Gdzie dostanę kluczyk do szafki?"
+        }
+      ],
+      "collocations": [
+        "a locker key",
+        "lock your locker",
+        "locker room"
+      ],
+      "tags": [
+        "gym",
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.doing-today",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 25,
+      "en": "I'm doing ___ today.",
+      "pl": "Dziś robię ___.",
+      "alternatives": [],
+      "usage": "Mówisz, jaki masz dziś trening.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm doing chest and triceps today.",
+          "pl": "Dziś robię klatkę i triceps."
+        },
+        {
+          "en": "I'm doing cardio today.",
+          "pl": "Dziś robię cardio."
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.max-on-bench",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 26,
+      "en": "My max on bench is ___.",
+      "pl": "Mój max na ławce to ___.",
+      "alternatives": [],
+      "usage": "Chwalisz się swoim rekordem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "My max on bench is a hundred kilos.",
+          "pl": "Mój max na ławce to sto kilo."
+        },
+        {
+          "en": "My max on bench is ninety-five kilos.",
+          "pl": "Mój max na ławce to dziewięćdziesiąt pięć kilo."
+        }
+      ],
+      "tags": [
+        "gym",
+        "numbers"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.how-much-do-you",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 27,
+      "en": "How much do you ___?",
+      "pl": "Ile ___?",
+      "alternatives": [],
+      "usage": "Klasyczne pytanie na siłowni: ile podnosisz?",
+      "register": "casual",
+      "example": [
+        {
+          "en": "How much do you bench?",
+          "pl": "Ile wyciskasz na ławce?"
+        },
+        {
+          "en": "How much do you squat?",
+          "pl": "Ile robisz w przysiadzie?"
+        }
+      ],
+      "tags": [
+        "gym",
+        "gr:questions-do",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.usually-train",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 28,
+      "en": "I usually train ___.",
+      "pl": "Zwykle trenuję ___.",
+      "alternatives": [],
+      "usage": "Kiedy trenujesz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I usually train after work.",
+          "pl": "Zwykle trenuję po pracy."
+        },
+        {
+          "en": "I usually train in the evening.",
+          "pl": "Zwykle trenuję wieczorem."
+        }
+      ],
+      "tags": [
+        "gym",
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.is-this-free",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 29,
+      "en": "Is this ___ free?",
+      "pl": "Czy ten / ta ___ jest wolny / wolna?",
+      "alternatives": [],
+      "usage": "Pytasz, czy możesz skorzystać ze sprzętu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is this machine free?",
+          "pl": "Ta maszyna jest wolna?"
+        },
+        {
+          "en": "Is this rack free?",
+          "pl": "Ten stojak jest wolny?"
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.trying-to",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 30,
+      "en": "I'm trying to ___.",
+      "pl": "Próbuję ___.",
+      "alternatives": [],
+      "usage": "Mówisz o swoim celu treningowym.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm trying to bulk up.",
+          "pl": "Próbuję zbudować masę."
+        },
+        {
+          "en": "I'm trying to lose some fat.",
+          "pl": "Próbuję zrzucić trochę tłuszczu."
+        },
+        {
+          "en": "I'm trying to get stronger.",
+          "pl": "Staram się być silniejszy."
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.gym.sharing-bench",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 31,
+      "en": "Sharing the bench",
+      "pl": "Ćwiczenie na zmianę",
+      "alternatives": [],
+      "usage": "Pytasz, czy ławka jest zajęta, i ćwiczycie na zmianę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hey, are you using this bench?",
+          "pl": "Hej, korzystasz z tej ławki?",
+          "speaker": "A"
+        },
+        {
+          "en": "Yeah, I've got two sets left.",
+          "pl": "Tak, zostały mi dwie serie.",
+          "speaker": "B"
+        },
+        {
+          "en": "Can I work in with you?",
+          "pl": "Mogę ćwiczyć na zmianę z tobą?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure, go ahead.",
+          "pl": "Jasne, śmiało.",
+          "speaker": "B"
+        },
+        {
+          "en": "Thanks, mate.",
+          "pl": "Dzięki, stary.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.gym.spot-me-dialog",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.gym",
+      "order": 32,
+      "en": "Can you spot me?",
+      "pl": "Asekuracja",
+      "alternatives": [],
+      "usage": "Prosisz o asekurację przy rekordowej serii.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Excuse me, can you spot me? Just one set.",
+          "pl": "Przepraszam, możesz mnie asekurować? Tylko jedna seria.",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure. How many reps?",
+          "pl": "Jasne. Ile powtórzeń?",
+          "speaker": "B"
+        },
+        {
+          "en": "Five. It's a new PB if I get it.",
+          "pl": "Pięć. Jak zrobię, to nowy rekord.",
+          "speaker": "A"
+        },
+        {
+          "en": "Let's go! … Yes! Good set!",
+          "pl": "Dawaj! … Tak! Dobra seria!",
+          "speaker": "B"
+        },
+        {
+          "en": "Thanks for the spot!",
+          "pl": "Dzięki za asekurację!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "gym"
+      ],
+      "level": "A2"
+    }
+  ]
+}

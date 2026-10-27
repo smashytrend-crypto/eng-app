@@ -1,0 +1,849 @@
+{
+  "module": {
+    "id": "s3.free-time",
+    "stage": 3,
+    "order": 5,
+    "title": "Weekend i czas wolny",
+    "titleEn": "Free time",
+    "description": "Zapraszanie, proponowanie, odmawianie i umawianie się: Do you fancy…?, How about…?, We could…, I'd rather…",
+    "tags": [
+      "general"
+    ]
+  },
+  "items": [
+    {
+      "id": "s3.free-time.fancy-going-out",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 1,
+      "en": "Do you fancy going out tonight?",
+      "pl": "Masz ochotę wyjść dziś wieczorem?",
+      "alternatives": [
+        "Do you want to go out tonight?",
+        "Fancy going out tonight?",
+        "Do you feel like going out tonight?"
+      ],
+      "usage": "Bardzo brytyjskie zaproszenie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Do you fancy going out tonight? — Yeah, why not!",
+          "pl": "Masz ochotę wyjść dziś wieczorem? — No, czemu nie!"
+        }
+      ],
+      "note": "Po „fancy” czasownik z „-ing”: fancy going, fancy watching.",
+      "tags": [
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.up-for-it",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 2,
+      "en": "I'm up for it!",
+      "pl": "Wchodzę w to!",
+      "alternatives": [
+        "I'm in!",
+        "Count me in!"
+      ],
+      "usage": "Entuzjastycznie się zgadzasz.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Karaoke tonight? — I'm up for it!",
+          "pl": "Karaoke dziś wieczorem? — Wchodzę w to!"
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.not-in-mood",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 3,
+      "en": "I'm not really in the mood.",
+      "pl": "Nie mam za bardzo nastroju.",
+      "alternatives": [
+        "I'm not in the mood.",
+        "I don't really feel like it."
+      ],
+      "usage": "Grzecznie odmawiasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I'm not really in the mood tonight. Maybe tomorrow?",
+          "pl": "Sorry, nie mam dziś za bardzo nastroju. Może jutro?"
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.stay-in-tonight",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 4,
+      "en": "I'm just going to stay in tonight.",
+      "pl": "Dziś wieczorem zostaję w domu.",
+      "alternatives": [
+        "I'm going to stay in tonight.",
+        "I'm staying in tonight."
+      ],
+      "usage": "Plan na spokojny wieczór.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm just going to stay in tonight and order a pizza.",
+          "pl": "Dziś zostaję w domu i zamawiam pizzę."
+        }
+      ],
+      "note": "„Stay in” = zostać w domu, „go out” = wyjść na miasto.",
+      "tags": [
+        "gr:going-to"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.check-let-you-know",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 5,
+      "en": "I'll check and let you know.",
+      "pl": "Sprawdzę i dam ci znać.",
+      "alternatives": [
+        "I'll let you know.",
+        "Let me check and I'll let you know."
+      ],
+      "usage": "Gdy nie możesz od razu potwierdzić planów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are you free on Saturday? — I'll check and let you know.",
+          "pl": "Masz czas w sobotę? — Sprawdzę i dam ci znać."
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.usually-at-weekend",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 6,
+      "en": "What do you usually do at the weekend?",
+      "pl": "Co zwykle robisz w weekendy?",
+      "alternatives": [
+        "What do you usually do on the weekend?",
+        "What do you normally do at weekends?"
+      ],
+      "usage": "Pytasz o czyjś styl życia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What do you usually do at the weekend? — Sleep, gym, party!",
+          "pl": "Co zwykle robisz w weekendy? — Śpię, siłka, impreza!"
+        }
+      ],
+      "tags": [
+        "gr:present-simple",
+        "gr:questions-do",
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.meeting-for-drink",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 7,
+      "en": "I'm meeting some friends for a drink.",
+      "pl": "Spotykam się ze znajomymi na drinka.",
+      "alternatives": [
+        "I'm meeting a few friends for a drink."
+      ],
+      "usage": "Ustalony plan — Present Continuous.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm meeting some friends for a drink. Do you want to come?",
+          "pl": "Spotykam się ze znajomymi na drinka. Chcesz iść z nami?"
+        }
+      ],
+      "tags": [
+        "gr:present-continuous-future"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.not-my-thing",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 8,
+      "en": "That's not really my thing.",
+      "pl": "To nie do końca moja bajka.",
+      "alternatives": [
+        "It's not really my thing.",
+        "That's not my thing."
+      ],
+      "usage": "Mówisz, że coś ci nie pasuje — bez obrażania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Opera? Sorry, that's not really my thing.",
+          "pl": "Opera? Sorry, to nie do końca moja bajka."
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.lazy-weekend",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 9,
+      "en": "I need a lazy weekend.",
+      "pl": "Potrzebuję leniwego weekendu.",
+      "alternatives": [
+        "I need a quiet weekend."
+      ],
+      "usage": "Po ciężkim tygodniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "After this week, I need a lazy weekend.",
+          "pl": "Po tym tygodniu potrzebuję leniwego weekendu."
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.shall-we-pizza",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 10,
+      "en": "Shall we get a pizza?",
+      "pl": "Może weźmiemy pizzę?",
+      "alternatives": [
+        "Should we get a pizza?",
+        "Let's get a pizza."
+      ],
+      "usage": "Proponujesz coś — „shall we” brzmi bardzo naturalnie w UK.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm starving. Shall we get a pizza?",
+          "pl": "Umieram z głodu. Może weźmiemy pizzę?"
+        }
+      ],
+      "tags": [
+        "food",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.great-night-out",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 11,
+      "en": "It was a great night out.",
+      "pl": "To był świetny wieczór na mieście.",
+      "alternatives": [
+        "That was a great night out.",
+        "What a great night out!"
+      ],
+      "usage": "Podsumowanie imprezy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Thanks, guys. It was a great night out!",
+          "pl": "Dzięki, ludzie. To był świetny wieczór!"
+        }
+      ],
+      "tags": [
+        "gr:past-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.change-your-mind",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 12,
+      "en": "Let me know if you change your mind.",
+      "pl": "Daj znać, jakbyś zmienił zdanie.",
+      "alternatives": [
+        "Text me if you change your mind."
+      ],
+      "usage": "Gdy ktoś odmówił, a ty zostawiasz otwarte drzwi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "No worries. Let me know if you change your mind.",
+          "pl": "Spoko. Daj znać, jakbyś zmienił zdanie."
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.free-on-sunday",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 13,
+      "en": "I'm free on Sunday.",
+      "pl": "W niedzielę mam czas.",
+      "alternatives": [],
+      "usage": "Proponujesz termin.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm working on Saturday, but I'm free on Sunday.",
+          "pl": "W sobotę pracuję, ale w niedzielę mam czas."
+        }
+      ],
+      "tags": [
+        "time"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.nothing-planned",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 14,
+      "en": "I've got nothing planned.",
+      "pl": "Nie mam nic zaplanowanego.",
+      "alternatives": [
+        "I haven't got anything planned.",
+        "I don't have anything planned."
+      ],
+      "usage": "Gdy jesteś wolny i otwarty na propozycje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What are you doing tomorrow? — I've got nothing planned.",
+          "pl": "Co robisz jutro? — Nie mam nic zaplanowanego."
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.sounds-fun",
+      "type": "phrase",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 15,
+      "en": "Sounds fun!",
+      "pl": "Brzmi fajnie!",
+      "alternatives": [
+        "That sounds fun!",
+        "Sounds like fun!"
+      ],
+      "usage": "Reakcja na propozycję.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Bowling on Friday? — Sounds fun!",
+          "pl": "Kręgle w piątek? — Brzmi fajnie!"
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.fancy",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 16,
+      "en": "fancy",
+      "pl": "mieć ochotę na (UK)",
+      "alternatives": [],
+      "usage": "Potoczne „chcieć czegoś”.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Do you fancy a coffee?",
+          "pl": "Masz ochotę na kawę?"
+        }
+      ],
+      "collocations": [
+        "fancy a drink?",
+        "do you fancy…?",
+        "I don't fancy it"
+      ],
+      "note": "„Fancy” jako czasownik to UK. Jako przymiotnik znaczy „elegancki, wypasiony”: a fancy restaurant.",
+      "tags": [
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.hang-out",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 17,
+      "en": "hang out",
+      "pl": "spędzać czas, kręcić się (ze znajomymi)",
+      "alternatives": [],
+      "usage": "Luźne spędzanie czasu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "We usually hang out at the skate park.",
+          "pl": "Zwykle przesiadujemy w skateparku."
+        }
+      ],
+      "collocations": [
+        "hang out with friends",
+        "hang out at the beach",
+        "a place to hang out"
+      ],
+      "tags": [
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.night-out",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 18,
+      "en": "night out",
+      "pl": "wyjście wieczorem na miasto",
+      "alternatives": [],
+      "usage": "Impreza, bary, kluby.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "We're planning a big night out for Kuba's birthday.",
+          "pl": "Planujemy dużą imprezę na urodziny Kuby."
+        }
+      ],
+      "collocations": [
+        "a night out",
+        "a big night out",
+        "go on a night out"
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.hobby",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 19,
+      "en": "hobby",
+      "pl": "hobby",
+      "alternatives": [],
+      "usage": "To, co robisz dla przyjemności.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Have you got any hobbies?",
+          "pl": "Masz jakieś hobby?"
+        }
+      ],
+      "collocations": [
+        "my hobbies",
+        "a new hobby",
+        "take up a hobby"
+      ],
+      "note": "W rozmowie częściej pyta się „What do you do for fun?” niż „What are your hobbies?”.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.relax",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 20,
+      "en": "relax",
+      "pl": "odpoczywać, relaksować się",
+      "alternatives": [],
+      "usage": "Odpoczynek.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I relax by playing games.",
+          "pl": "Odpoczywam, grając w gry."
+        }
+      ],
+      "collocations": [
+        "relax at home",
+        "time to relax",
+        "help me relax"
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.series",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 21,
+      "en": "series",
+      "pl": "serial",
+      "alternatives": [],
+      "usage": "Serial w telewizji albo na Netflixie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm watching a great series on Netflix.",
+          "pl": "Oglądam świetny serial na Netfliksie."
+        }
+      ],
+      "collocations": [
+        "a TV series",
+        "watch a series",
+        "binge a series"
+      ],
+      "note": "„Series” to ta sama forma w liczbie pojedynczej i mnogiej. „Serial” po angielsku to coś innego (np. płatki zbożowe = cereal!).",
+      "tags": [
+        "polish-trap"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.invite",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 22,
+      "en": "invite",
+      "pl": "zaprosić; zaproszenie (potocznie)",
+      "alternatives": [],
+      "usage": "Zaproszenie na imprezę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Thanks for the invite!",
+          "pl": "Dzięki za zaproszenie!"
+        }
+      ],
+      "collocations": [
+        "invite someone to…",
+        "thanks for the invite",
+        "invite friends over"
+      ],
+      "note": "„Zaprosić NA” = „invite TO”: invite me to the party.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.barbecue",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 23,
+      "en": "barbecue",
+      "pl": "grill (impreza i urządzenie)",
+      "alternatives": [],
+      "usage": "Letnie spotkania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're having a barbecue on Saturday. Come!",
+          "pl": "W sobotę robimy grilla. Przyjdź!"
+        }
+      ],
+      "collocations": [
+        "have a barbecue",
+        "a barbecue in the garden",
+        "a BBQ party"
+      ],
+      "note": "Skrót: BBQ. „Robić grilla” = „have a barbecue”.",
+      "tags": [
+        "food"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.cinema",
+      "type": "word",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 24,
+      "en": "cinema",
+      "pl": "kino",
+      "alternatives": [],
+      "usage": "Wyjście na film.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's go to the cinema on Friday.",
+          "pl": "Chodźmy w piątek do kina."
+        }
+      ],
+      "collocations": [
+        "go to the cinema",
+        "at the cinema",
+        "a cinema ticket"
+      ],
+      "note": "UK: the cinema, US: the movies / the movie theater.",
+      "tags": [
+        "uk-us"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.do-you-fancy",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 25,
+      "en": "Do you fancy ___?",
+      "pl": "Masz ochotę na ___?",
+      "alternatives": [],
+      "usage": "Proponujesz coś luźno.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Do you fancy a coffee?",
+          "pl": "Masz ochotę na kawę?"
+        },
+        {
+          "en": "Do you fancy going to the cinema?",
+          "pl": "Masz ochotę iść do kina?"
+        }
+      ],
+      "tags": [
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.how-about",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 26,
+      "en": "How about ___?",
+      "pl": "Może ___?",
+      "alternatives": [],
+      "usage": "Proponujesz opcję.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How about a film?",
+          "pl": "Może jakiś film?"
+        },
+        {
+          "en": "How about going bowling?",
+          "pl": "Może kręgle?"
+        },
+        {
+          "en": "How about Saturday?",
+          "pl": "Może sobota?"
+        }
+      ],
+      "note": "Po „How about” rzeczownik albo czasownik z „-ing”.",
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.lets-this-weekend",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 27,
+      "en": "Let's ___ this weekend.",
+      "pl": "___ w ten weekend!",
+      "alternatives": [],
+      "usage": "Proponujesz wspólny plan.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's do something this weekend.",
+          "pl": "Zróbmy coś w ten weekend."
+        },
+        {
+          "en": "Let's go to the lake this weekend.",
+          "pl": "Jedźmy w ten weekend nad jezioro."
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.we-could",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 28,
+      "en": "We could ___.",
+      "pl": "Moglibyśmy ___.",
+      "alternatives": [],
+      "usage": "Delikatna propozycja.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We could go for a walk by the river.",
+          "pl": "Moglibyśmy iść na spacer nad rzekę."
+        },
+        {
+          "en": "We could watch a film at mine.",
+          "pl": "Moglibyśmy obejrzeć film u mnie."
+        }
+      ],
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.spend-a-lot-of-time",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 29,
+      "en": "I spend a lot of time ___.",
+      "pl": "Spędzam dużo czasu na ___.",
+      "alternatives": [],
+      "usage": "Na czym schodzi ci czas wolny.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I spend a lot of time gaming.",
+          "pl": "Spędzam dużo czasu na graniu."
+        },
+        {
+          "en": "I spend a lot of time at the gym.",
+          "pl": "Spędzam dużo czasu na siłowni."
+        }
+      ],
+      "note": "„Spend time” + czasownik z „-ing”: I spend time gaming (nie „to game”).",
+      "tags": [
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.id-rather",
+      "type": "pattern",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 30,
+      "en": "I'd rather ___.",
+      "pl": "Wolałbym ___.",
+      "alternatives": [],
+      "usage": "Mówisz, co wolisz zamiast propozycji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'd rather stay in tonight.",
+          "pl": "Wolałbym dziś zostać w domu."
+        },
+        {
+          "en": "I'd rather go to a club than a bar.",
+          "pl": "Wolałbym iść do klubu niż do baru."
+        }
+      ],
+      "note": "Po „I'd rather” czasownik bez „to”: I'd rather stay (nie „to stay”).",
+      "tags": [],
+      "level": "B1"
+    },
+    {
+      "id": "s3.free-time.invitation-dialog",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 31,
+      "en": "Going out?",
+      "pl": "Wychodzimy?",
+      "alternatives": [],
+      "usage": "Zaproszenie, wahanie i kompromis.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Do you fancy going out tonight?",
+          "pl": "Masz ochotę wyjść dziś wieczorem?",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm not really in the mood. I'm knackered.",
+          "pl": "Nie mam za bardzo nastroju. Jestem padnięty.",
+          "speaker": "B"
+        },
+        {
+          "en": "Come on! Just one drink.",
+          "pl": "No weź! Tylko jeden drink.",
+          "speaker": "A"
+        },
+        {
+          "en": "OK, one drink. But I'd rather go somewhere quiet.",
+          "pl": "Dobra, jeden. Ale wolałbym gdzieś, gdzie jest spokojnie.",
+          "speaker": "B"
+        },
+        {
+          "en": "Sounds like a plan!",
+          "pl": "Jesteśmy umówieni!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [],
+      "level": "A2"
+    },
+    {
+      "id": "s3.free-time.weekend-ideas",
+      "type": "dialog",
+      "stage": 3,
+      "module": "s3.free-time",
+      "order": 32,
+      "en": "Weekend ideas",
+      "pl": "Pomysły na weekend",
+      "alternatives": [],
+      "usage": "Ustalacie wspólny plan na niedzielę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What do you usually do at the weekend?",
+          "pl": "Co zwykle robisz w weekendy?",
+          "speaker": "A"
+        },
+        {
+          "en": "Gym, games, sometimes a night out. You?",
+          "pl": "Siłka, gry, czasem wyjście na miasto. A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "I like being outside. We could go to the lake on Sunday.",
+          "pl": "Lubię być na zewnątrz. Moglibyśmy pojechać w niedzielę nad jezioro.",
+          "speaker": "A"
+        },
+        {
+          "en": "Sounds fun! I'm free on Sunday.",
+          "pl": "Brzmi fajnie! W niedzielę mam czas.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "gr:present-simple"
+      ],
+      "level": "A2"
+    }
+  ]
+}

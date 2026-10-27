@@ -224,6 +224,105 @@
         "gr:going-to",
         "gr:would-like"
       ]
+    },
+    {
+      "id": "task.s3-workout",
+      "stage": 3,
+      "title": "Twój trening",
+      "instruction": "Opowiedz o swoim treningu: ile razy w tygodniu, jaki masz podział, co dziś robisz i jaki masz rekord.",
+      "starters": [
+        "I train … times a week.",
+        "My split is…",
+        "Today I'm doing…",
+        "My max on bench is…"
+      ],
+      "example": "I train five times a week, usually after work. My split is push, pull, legs. Today I'm doing legs, so I'm a bit scared! My max on bench is a hundred kilos.",
+      "tags": [
+        "gym",
+        "gr:present-simple"
+      ]
+    },
+    {
+      "id": "task.s3-music-taste",
+      "stage": 3,
+      "title": "Twoja muzyka",
+      "instruction": "Opowiedz o swoim guście muzycznym: co lubisz, czego nie lubisz, kogo widziałeś na żywo i kogo chcesz zobaczyć.",
+      "starters": [
+        "I'm really into…",
+        "I'm not a big fan of…",
+        "I've seen … live.",
+        "I can't wait to see…"
+      ],
+      "example": "I'm really into techno, especially the darker stuff. I'm not a big fan of commercial EDM. I've seen Amelie Lens live twice. I can't wait to see Charlotte de Witte this summer.",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "task.s3-why-festivals",
+      "stage": 3,
+      "title": "Dlaczego festiwale?",
+      "instruction": "Wytłumacz komuś, kto nigdy nie był na festiwalu, dlaczego co roku jeździsz na Tomorrowland.",
+      "starters": [
+        "Every year I go to…",
+        "The atmosphere is…",
+        "There are…",
+        "You meet people from…"
+      ],
+      "example": "Every year I go to Tomorrowland in Belgium. The atmosphere is unreal. There are sixteen stages and amazing DJs. You meet people from all over the world, and everyone is happy.",
+      "tags": [
+        "festival",
+        "gr:there-is-are",
+        "gr:present-simple"
+      ]
+    },
+    {
+      "id": "task.s3-games",
+      "stage": 3,
+      "title": "Twoje gry",
+      "instruction": "Opowiedz, w co grasz, na czym, z kim i dlaczego to lubisz.",
+      "starters": [
+        "I mostly play on…",
+        "At the moment I'm playing…",
+        "I usually play … with…",
+        "I play to…"
+      ],
+      "example": "I mostly play on PC. At the moment I'm playing CS and Elden Ring. I usually play CS with my friends from work. I play to relax after a long day.",
+      "tags": [
+        "games",
+        "gr:present-simple"
+      ]
+    },
+    {
+      "id": "task.s3-invite",
+      "stage": 3,
+      "title": "Zaproś kumpla",
+      "instruction": "Zaproś kogoś na weekend: zaproponuj dwie opcje, zapytaj, co woli, i ustal godzinę.",
+      "starters": [
+        "Do you fancy…?",
+        "How about…?",
+        "We could…",
+        "Or would you rather…?"
+      ],
+      "example": "Do you fancy doing something this weekend? How about the cinema on Saturday? Or we could go to the lake on Sunday. What would you rather do? Let's say six o'clock?",
+      "tags": [
+        "smalltalk"
+      ]
+    },
+    {
+      "id": "task.s3-perfect-weekend",
+      "stage": 3,
+      "title": "Idealny weekend",
+      "instruction": "Opisz swój idealny weekend od piątku wieczorem do niedzieli.",
+      "starters": [
+        "On Friday night I…",
+        "On Saturday I usually…",
+        "On Sunday I need…"
+      ],
+      "example": "On Friday night I go out with my friends — maybe a club. On Saturday I sleep in, then I go to the gym. In the evening I play games. On Sunday I need a lazy day: Netflix and pizza.",
+      "tags": [
+        "gr:present-simple"
+      ]
     }
   ]
 }
