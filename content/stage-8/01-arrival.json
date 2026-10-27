@@ -1,0 +1,789 @@
+{
+  "module": {
+    "id": "s8.arrival",
+    "stage": 8,
+    "order": 1,
+    "title": "Symulacja: przylot i zameldowanie",
+    "titleEn": "Simulation: arrival & check-in",
+    "description": "Cały przyjazd od lotniska do pokoju: transport, rezerwacja, pomyłki, prośby i pytania o okolicę — na poziomie B1.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s8.arrival.booked-through-app",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 1,
+      "en": "I booked through an app — here's the confirmation.",
+      "pl": "Rezerwowałem przez aplikację — tu jest potwierdzenie.",
+      "alternatives": [
+        "I booked online — here's the confirmation."
+      ],
+      "usage": "Pokazujesz rezerwację w telefonie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I booked through an app — here's the confirmation. — Perfect, thank you.",
+          "pl": "Rezerwowałem przez aplikację — tu jest potwierdzenie. — Świetnie, dziękuję."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.cheaper-way",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 2,
+      "en": "Is there a cheaper way to get to the city?",
+      "pl": "Jest tańszy sposób, żeby dostać się do miasta?",
+      "alternatives": [
+        "Is there a cheaper way to get into town?"
+      ],
+      "usage": "Taksówka za droga — szukasz alternatywy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a cheaper way to get to the city? — Yes, the bus is only three euros.",
+          "pl": "Jest tańszy sposób, żeby dostać się do miasta? — Tak, autobus kosztuje tylko trzy euro."
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.just-arrived-starving",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 3,
+      "en": "We've just arrived and we're starving.",
+      "pl": "Właśnie przyjechaliśmy i umieramy z głodu.",
+      "alternatives": [],
+      "usage": "Pytasz o jedzenie po podróży.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We've just arrived and we're starving. Is anything still open?",
+          "pl": "Właśnie przyjechaliśmy i umieramy z głodu. Coś jest jeszcze otwarte?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.flight-delayed-late",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 4,
+      "en": "Our flight was delayed, so we're a bit late.",
+      "pl": "Nasz lot był opóźniony, więc jesteśmy trochę spóźnieni.",
+      "alternatives": [],
+      "usage": "Tłumaczysz spóźnienie w recepcji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, our flight was delayed, so we're a bit late. Is that OK?",
+          "pl": "Przepraszamy, nasz lot był opóźniony, więc jesteśmy trochę spóźnieni. Nic nie szkodzi?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.check-in-after-midnight",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 5,
+      "en": "Is it OK if we check in after midnight?",
+      "pl": "Czy możemy się zameldować po północy?",
+      "alternatives": [
+        "Can we check in after midnight?"
+      ],
+      "usage": "Późny przyjazd.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it OK if we check in after midnight? — Sure, the night desk is open.",
+          "pl": "Możemy się zameldować po północy? — Jasne, recepcja nocna jest otwarta."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.passport-or-id",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 6,
+      "en": "Do you need my passport, or is my ID card OK?",
+      "pl": "Potrzebny paszport, czy wystarczy dowód?",
+      "alternatives": [
+        "Do you need my passport or my ID card?"
+      ],
+      "usage": "Przy meldunku albo wypożyczeniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you need my passport, or is my ID card OK? — The ID card is fine.",
+          "pl": "Potrzebny paszport, czy wystarczy dowód? — Dowód wystarczy."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.best-way-around",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 7,
+      "en": "What's the best way to get around the city?",
+      "pl": "Jak najlepiej poruszać się po mieście?",
+      "alternatives": [],
+      "usage": "Pytasz o komunikację.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the best way to get around the city? — Rent a bike!",
+          "pl": "Jak najlepiej poruszać się po mieście? — Wypożycz rower!"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.tap-water-safe",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 8,
+      "en": "Is the tap water safe to drink?",
+      "pl": "Czy kranówkę można pić?",
+      "alternatives": [
+        "Can I drink the tap water?"
+      ],
+      "usage": "Ważne w nowym kraju.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is the tap water safe to drink? — Yes, it's totally fine here.",
+          "pl": "Czy kranówkę można pić? — Tak, tu jest całkowicie w porządku."
+        }
+      ],
+      "tags": [
+        "travel",
+        "health"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.somewhere-local",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 9,
+      "en": "Could you recommend somewhere local to eat?",
+      "pl": "Poleciłby pan jakieś lokalne miejsce na jedzenie?",
+      "alternatives": [
+        "Can you recommend somewhere local to eat?"
+      ],
+      "usage": "Chcesz zjeść jak miejscowi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Could you recommend somewhere local to eat? Not too touristy.",
+          "pl": "Poleciłby pan jakieś lokalne miejsce na jedzenie? Nie za bardzo turystyczne."
+        }
+      ],
+      "tags": [
+        "travel",
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.extend-stay",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 10,
+      "en": "We'd like to extend our stay by one night.",
+      "pl": "Chcielibyśmy przedłużyć pobyt o jedną noc.",
+      "alternatives": [],
+      "usage": "Zmiana planów.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We'd like to extend our stay by one night. Is that possible?",
+          "pl": "Chcielibyśmy przedłużyć pobyt o jedną noc. Da się?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:would-like"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.mistake-booking",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 11,
+      "en": "There seems to be a mistake with our booking.",
+      "pl": "Wygląda na to, że jest błąd w naszej rezerwacji.",
+      "alternatives": [],
+      "usage": "Grzecznie zgłaszasz problem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There seems to be a mistake with our booking. We booked three nights, not two.",
+          "pl": "Wygląda na to, że jest błąd w rezerwacji. Rezerwowaliśmy trzy noce, nie dwie."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.double-not-singles",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 12,
+      "en": "We booked a double room, not two singles.",
+      "pl": "Rezerwowaliśmy pokój dwuosobowy, nie dwie jedynki.",
+      "alternatives": [],
+      "usage": "Pomyłka w typie pokoju.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, we booked a double room, not two singles.",
+          "pl": "Przepraszam, rezerwowaliśmy pokój dwuosobowy, nie dwie jedynki."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.been-really-kind",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 13,
+      "en": "Thanks for your help — you've been really kind.",
+      "pl": "Dzięki za pomoc — był pan bardzo uprzejmy.",
+      "alternatives": [
+        "Thank you so much — you've been really helpful."
+      ],
+      "usage": "Ciepłe podziękowanie.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Thanks for your help — you've been really kind.",
+          "pl": "Dziękuję za pomoc — był pan naprawdę uprzejmy."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.write-address-taxi",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 14,
+      "en": "Could you write down the address for the taxi driver?",
+      "pl": "Może pan zapisać adres dla taksówkarza?",
+      "alternatives": [],
+      "usage": "Gdy nazwa ulicy jest trudna.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Could you write down the address for the taxi driver? I can't pronounce it.",
+          "pl": "Może pan zapisać adres dla taksówkarza? Nie umiem tego wymówić."
+        }
+      ],
+      "tags": [
+        "travel",
+        "rescue"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.confirmation",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 15,
+      "en": "confirmation",
+      "pl": "potwierdzenie (rezerwacji)",
+      "alternatives": [],
+      "usage": "E-mail lub numer potwierdzający.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've got the confirmation on my phone.",
+          "pl": "Mam potwierdzenie w telefonie."
+        }
+      ],
+      "collocations": [
+        "booking confirmation",
+        "a confirmation email",
+        "confirmation number"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.arrival",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 16,
+      "en": "arrival",
+      "pl": "przyjazd, przylot",
+      "alternatives": [],
+      "usage": "Moment dotarcia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's your arrival time?",
+          "pl": "O której przyjeżdżacie?"
+        }
+      ],
+      "collocations": [
+        "arrival time",
+        "on arrival",
+        "arrivals hall"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.deposit",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 17,
+      "en": "deposit",
+      "pl": "kaucja, depozyt",
+      "alternatives": [],
+      "usage": "Pieniądze zwracane później.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a twenty-euro deposit for the key.",
+          "pl": "Za klucz jest dwadzieścia euro kaucji."
+        }
+      ],
+      "collocations": [
+        "pay a deposit",
+        "a refundable deposit",
+        "get the deposit back"
+      ],
+      "tags": [
+        "travel",
+        "numbers",
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.upgrade",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 18,
+      "en": "upgrade",
+      "pl": "lepszy pokój / miejsce (za darmo lub dopłatą)",
+      "alternatives": [],
+      "usage": "Wyższy standard.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We got a free upgrade to a room with a balcony!",
+          "pl": "Dostaliśmy darmowy upgrade do pokoju z balkonem!"
+        }
+      ],
+      "collocations": [
+        "a free upgrade",
+        "upgrade the room",
+        "get an upgrade"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.currency",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 19,
+      "en": "currency",
+      "pl": "waluta",
+      "alternatives": [],
+      "usage": "Pieniądze danego kraju.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you accept other currencies, or only euros?",
+          "pl": "Przyjmujecie inne waluty, czy tylko euro?"
+        }
+      ],
+      "collocations": [
+        "local currency",
+        "foreign currency",
+        "change currency"
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.available",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 20,
+      "en": "available",
+      "pl": "dostępny, wolny",
+      "alternatives": [],
+      "usage": "Coś można zarezerwować.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Are there any rooms available for tonight?",
+          "pl": "Są wolne pokoje na dziś?"
+        }
+      ],
+      "collocations": [
+        "rooms available",
+        "is it available?",
+        "not available"
+      ],
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.accommodation",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 21,
+      "en": "accommodation",
+      "pl": "zakwaterowanie, nocleg",
+      "alternatives": [],
+      "usage": "Miejsce do spania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Accommodation near the festival is really expensive.",
+          "pl": "Noclegi blisko festiwalu są bardzo drogie."
+        }
+      ],
+      "collocations": [
+        "find accommodation",
+        "cheap accommodation",
+        "accommodation near…"
+      ],
+      "note": "W UK niepoliczalne: „accommodation” (bez -s).",
+      "tags": [
+        "travel",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.directions",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 22,
+      "en": "directions",
+      "pl": "wskazówki (jak dojść)",
+      "alternatives": [],
+      "usage": "Instrukcje dojazdu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can you give me directions to the hotel?",
+          "pl": "Może mi pan powiedzieć, jak dojść do hotelu?"
+        }
+      ],
+      "collocations": [
+        "ask for directions",
+        "give directions",
+        "follow the directions"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s8.arrival.possible-to",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 23,
+      "en": "Would it be possible to ___?",
+      "pl": "Czy byłoby możliwe ___?",
+      "alternatives": [],
+      "usage": "Bardzo grzeczna prośba.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Would it be possible to get a late check-out?",
+          "pl": "Czy byłoby możliwe późniejsze wymeldowanie?"
+        },
+        {
+          "en": "Would it be possible to change rooms?",
+          "pl": "Czy byłoby możliwe zmienić pokój?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.looking-for-somewhere",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 24,
+      "en": "We're looking for somewhere ___.",
+      "pl": "Szukamy czegoś ___.",
+      "alternatives": [],
+      "usage": "Opisujesz, czego szukasz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're looking for somewhere cheap to eat.",
+          "pl": "Szukamy czegoś taniego do jedzenia."
+        },
+        {
+          "en": "We're looking for somewhere quiet to stay.",
+          "pl": "Szukamy spokojnego noclegu."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.is-it-safe-to",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 25,
+      "en": "Is it safe to ___?",
+      "pl": "Czy bezpiecznie jest ___?",
+      "alternatives": [],
+      "usage": "Pytasz o bezpieczeństwo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it safe to walk here at night?",
+          "pl": "Czy bezpiecznie jest tu chodzić w nocy?"
+        },
+        {
+          "en": "Is it safe to leave my bag here?",
+          "pl": "Czy mogę bezpiecznie zostawić tu torbę?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.arriving-at",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 26,
+      "en": "We'll be arriving at ___.",
+      "pl": "Przyjedziemy o ___.",
+      "alternatives": [],
+      "usage": "Informujesz o godzinie przyjazdu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We'll be arriving at around midnight.",
+          "pl": "Przyjedziemy około północy."
+        },
+        {
+          "en": "We'll be arriving at half past eleven.",
+          "pl": "Przyjedziemy o wpół do dwunastej."
+        }
+      ],
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.seems-problem-with",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 27,
+      "en": "There seems to be a problem with ___.",
+      "pl": "Wygląda na to, że jest problem z ___.",
+      "alternatives": [],
+      "usage": "Delikatne zgłoszenie problemu.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "There seems to be a problem with the air conditioning.",
+          "pl": "Wygląda na to, że jest problem z klimatyzacją."
+        },
+        {
+          "en": "There seems to be a problem with my card.",
+          "pl": "Wygląda na to, że jest problem z moją kartą."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.arrival.arrival-info-desk",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 28,
+      "en": "Arrival at the airport",
+      "pl": "Przylot na lotnisko",
+      "alternatives": [],
+      "usage": "Pierwsze minuty w nowym kraju.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi! How can I help?",
+          "pl": "Dzień dobry! W czym mogę pomóc?",
+          "speaker": "A"
+        },
+        {
+          "en": "We've just arrived. What's the best way to get to the city centre?",
+          "pl": "Właśnie przylecieliśmy. Jak najlepiej dostać się do centrum?",
+          "speaker": "B"
+        },
+        {
+          "en": "You can take a taxi — about forty euros — or the train.",
+          "pl": "Taksówką — około czterdziestu euro — albo pociągiem.",
+          "speaker": "A"
+        },
+        {
+          "en": "Is there a cheaper way? We're on a budget.",
+          "pl": "Jest coś tańszego? Mamy ograniczony budżet.",
+          "speaker": "B"
+        },
+        {
+          "en": "The bus is three euros. It leaves every fifteen minutes from outside.",
+          "pl": "Autobus kosztuje trzy euro. Odjeżdża co piętnaście minut sprzed terminalu.",
+          "speaker": "A"
+        },
+        {
+          "en": "Perfect. Thanks for your help — you've been really kind.",
+          "pl": "Idealnie. Dzięki za pomoc — był pan bardzo uprzejmy.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s8.arrival.booking-mistake",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.arrival",
+      "order": 29,
+      "en": "A booking mistake",
+      "pl": "Błąd w rezerwacji",
+      "alternatives": [],
+      "usage": "Grzeczna, ale stanowcza rozmowa w recepcji.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Good evening. There seems to be a mistake with our booking.",
+          "pl": "Dobry wieczór. Wygląda na to, że jest błąd w naszej rezerwacji.",
+          "speaker": "A"
+        },
+        {
+          "en": "Let me check… You've got two single rooms.",
+          "pl": "Sprawdzę… Macie dwa pokoje jednoosobowe.",
+          "speaker": "B"
+        },
+        {
+          "en": "We booked a double room, not two singles. Here's the confirmation.",
+          "pl": "Rezerwowaliśmy pokój dwuosobowy, nie dwie jedynki. Tu jest potwierdzenie.",
+          "speaker": "A"
+        },
+        {
+          "en": "You're right, I'm sorry. Would a free upgrade be OK?",
+          "pl": "Ma pan rację, przepraszam. Czy darmowy upgrade będzie w porządku?",
+          "speaker": "B"
+        },
+        {
+          "en": "That would be great. Thank you!",
+          "pl": "To byłoby świetnie. Dziękujemy!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    }
+  ]
+}

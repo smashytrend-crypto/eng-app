@@ -1,0 +1,794 @@
+{
+  "module": {
+    "id": "s8.trouble",
+    "stage": 8,
+    "order": 4,
+    "title": "Symulacja: kłopoty w podróży",
+    "titleEn": "Simulation: trouble on the trip",
+    "description": "Gdy coś pójdzie nie tak: zgubiony bagaż, kradzież, zablokowana karta, przesiadka, nieuczciwa taksówka. Spokojnie, grzecznie i stanowczo — po angielsku.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s8.trouble.report-theft",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 1,
+      "en": "I need to report a theft.",
+      "pl": "Muszę zgłosić kradzież.",
+      "alternatives": [
+        "I'd like to report a theft."
+      ],
+      "usage": "Na policji albo w recepcji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hello, I need to report a theft. Someone took my bag at the beach.",
+          "pl": "Dzień dobry, muszę zgłosić kradzież. Ktoś zabrał mi torbę na plaży."
+        }
+      ],
+      "tags": [
+        "travel",
+        "rescue"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.took-by-mistake",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 2,
+      "en": "I think someone took my bag by mistake.",
+      "pl": "Chyba ktoś przez pomyłkę wziął moją torbę.",
+      "alternatives": [],
+      "usage": "Torby wyglądają tak samo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I think someone took my bag by mistake. This one isn't mine.",
+          "pl": "Chyba ktoś przez pomyłkę wziął moją torbę. Ta nie jest moja."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.luggage-didnt-arrive",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 3,
+      "en": "My luggage didn't arrive.",
+      "pl": "Mój bagaż nie doleciał.",
+      "alternatives": [
+        "My suitcase didn't arrive.",
+        "My bag didn't arrive."
+      ],
+      "usage": "Przy taśmie albo w biurze bagażowym.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My luggage didn't arrive. Where do I need to go?",
+          "pl": "Mój bagaż nie doleciał. Gdzie mam iść?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.copy-report",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 4,
+      "en": "Can I get a copy of the report for my insurance?",
+      "pl": "Mogę dostać kopię protokołu dla ubezpieczyciela?",
+      "alternatives": [],
+      "usage": "Bez dokumentu ubezpieczenie nie zapłaci.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I get a copy of the report for my insurance? — Of course, here you go.",
+          "pl": "Mogę dostać kopię protokołu dla ubezpieczyciela? — Oczywiście, proszę."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.card-blocked",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 5,
+      "en": "My card's been blocked.",
+      "pl": "Zablokowano mi kartę.",
+      "alternatives": [
+        "My card has been blocked."
+      ],
+      "usage": "Bank zablokował kartę za granicą.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "My card's been blocked. Can I pay by bank transfer?",
+          "pl": "Zablokowano mi kartę. Mogę zapłacić przelewem?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.missed-connection",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 6,
+      "en": "We've missed our connection.",
+      "pl": "Uciekła nam przesiadka.",
+      "alternatives": [
+        "We missed our connection."
+      ],
+      "usage": "Pierwszy lot się spóźnił.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Our first flight was late, and we've missed our connection.",
+          "pl": "Pierwszy lot się spóźnił i uciekła nam przesiadka."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.anything-you-can-do",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 7,
+      "en": "Is there anything you can do?",
+      "pl": "Może pan coś z tym zrobić?",
+      "alternatives": [],
+      "usage": "Prosisz o pomoc, gdy sytuacja jest trudna.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "The hotel is full? Is there anything you can do?",
+          "pl": "Hotel jest pełny? Może pan coś z tym zrobić?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.who-speak-to",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 8,
+      "en": "Who do I need to speak to?",
+      "pl": "Z kim muszę porozmawiać?",
+      "alternatives": [
+        "Who should I speak to?",
+        "Who do I need to talk to?"
+      ],
+      "usage": "Szukasz właściwej osoby.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Who do I need to speak to about my lost bag?",
+          "pl": "Z kim muszę porozmawiać w sprawie zgubionej torby?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:questions-do"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.in-writing",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 9,
+      "en": "Could you put that in writing?",
+      "pl": "Może pan to potwierdzić na piśmie?",
+      "alternatives": [],
+      "usage": "Chcesz mieć dowód.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Could you put that in writing? I need it for my insurance.",
+          "pl": "Może pan to potwierdzić na piśmie? Potrzebuję tego do ubezpieczenia."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.not-what-agreed",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 10,
+      "en": "That's not what we agreed.",
+      "pl": "Nie tak się umawialiśmy.",
+      "alternatives": [],
+      "usage": "Cena lub warunki się zmieniły.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Forty euros? That's not what we agreed. You said twenty-five.",
+          "pl": "Czterdzieści euro? Nie tak się umawialiśmy. Mówił pan dwadzieścia pięć."
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.urgent-help",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 11,
+      "en": "It's urgent — I need help right now.",
+      "pl": "To pilne — potrzebuję pomocy natychmiast.",
+      "alternatives": [],
+      "usage": "Sytuacja awaryjna.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Please, it's urgent — I need help right now. My friend can't breathe.",
+          "pl": "Proszę, to pilne — potrzebuję pomocy natychmiast. Kolega nie może oddychać."
+        }
+      ],
+      "tags": [
+        "rescue",
+        "health"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.stay-calm",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 12,
+      "en": "Let's stay calm and think.",
+      "pl": "Spokojnie, pomyślmy.",
+      "alternatives": [
+        "Let's keep calm and think."
+      ],
+      "usage": "Uspokajasz siebie i znajomych.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "OK, let's stay calm and think. When did you last see your phone?",
+          "pl": "Dobra, spokojnie, pomyślmy. Kiedy ostatnio widziałeś telefon?"
+        }
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.last-saw-it",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 13,
+      "en": "I last saw it at the bar.",
+      "pl": "Ostatni raz widziałem to przy barze.",
+      "alternatives": [],
+      "usage": "Pomaga odtworzyć, gdzie coś zginęło.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "When did you last have your wallet? — I last saw it at the bar.",
+          "pl": "Kiedy ostatnio miałeś portfel? — Ostatni raz widziałem go przy barze."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.emergency-number",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 14,
+      "en": "What's the emergency number here?",
+      "pl": "Jaki jest tu numer alarmowy?",
+      "alternatives": [],
+      "usage": "Warto wiedzieć od pierwszego dnia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the emergency number here? — It's 112, like in Poland.",
+          "pl": "Jaki jest tu numer alarmowy? — 112, tak jak w Polsce."
+        }
+      ],
+      "tags": [
+        "rescue",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.theft",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 15,
+      "en": "theft",
+      "pl": "kradzież",
+      "alternatives": [],
+      "usage": "Oficjalne słowo na policji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We reported the theft to the police.",
+          "pl": "Zgłosiliśmy kradzież na policję."
+        }
+      ],
+      "collocations": [
+        "report a theft",
+        "phone theft",
+        "theft from a car"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.compensation",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 16,
+      "en": "compensation",
+      "pl": "odszkodowanie, rekompensata",
+      "alternatives": [],
+      "usage": "Gdy linia lotnicza lub hotel zawali.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You can get compensation if your flight is delayed by more than three hours.",
+          "pl": "Możesz dostać odszkodowanie, jeśli lot spóźni się o ponad trzy godziny."
+        }
+      ],
+      "collocations": [
+        "claim compensation",
+        "get compensation",
+        "compensation for the delay"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.claim",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 17,
+      "en": "claim",
+      "pl": "roszczenie, zgłoszenie szkody",
+      "alternatives": [],
+      "usage": "Wniosek do ubezpieczyciela.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I need the police report to make a claim.",
+          "pl": "Potrzebuję protokołu policji, żeby zgłosić szkodę."
+        }
+      ],
+      "collocations": [
+        "make a claim",
+        "an insurance claim",
+        "claim form"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.replacement",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 18,
+      "en": "replacement",
+      "pl": "zamiennik, nowy egzemplarz (w miejsce starego)",
+      "alternatives": [],
+      "usage": "Coś zamiast zgubionego/zepsutego.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I get a replacement key?",
+          "pl": "Mogę dostać nowy klucz?"
+        }
+      ],
+      "collocations": [
+        "a replacement card",
+        "get a replacement",
+        "replacement key"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.urgent",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 19,
+      "en": "urgent",
+      "pl": "pilny",
+      "alternatives": [],
+      "usage": "Nie może czekać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry to bother you, but it's urgent.",
+          "pl": "Przepraszam, że przeszkadzam, ale to pilne."
+        }
+      ],
+      "collocations": [
+        "it's urgent",
+        "urgent help",
+        "an urgent call"
+      ],
+      "tags": [
+        "rescue"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.witness",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 20,
+      "en": "witness",
+      "pl": "świadek",
+      "alternatives": [],
+      "usage": "Ktoś, kto widział zdarzenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Were there any witnesses? — Yes, my friend saw everything.",
+          "pl": "Byli jacyś świadkowie? — Tak, kolega wszystko widział."
+        }
+      ],
+      "collocations": [
+        "a witness saw…",
+        "any witnesses",
+        "witness statement"
+      ],
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.pickpocket",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 21,
+      "en": "pickpocket",
+      "pl": "kieszonkowiec",
+      "alternatives": [],
+      "usage": "Uważaj w tłumie i metrze.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Watch out for pickpockets on the metro.",
+          "pl": "Uważaj na kieszonkowców w metrze."
+        }
+      ],
+      "collocations": [
+        "watch out for pickpockets",
+        "a pickpocket stole…",
+        "pickpockets in the crowd"
+      ],
+      "tags": [
+        "travel",
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.overcharge",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 22,
+      "en": "overcharge",
+      "pl": "policzyć za dużo",
+      "alternatives": [],
+      "usage": "Gdy ktoś bierze więcej, niż powinien.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I think the taxi driver overcharged us.",
+          "pl": "Chyba taksówkarz policzył nam za dużo."
+        }
+      ],
+      "collocations": [
+        "overcharge someone",
+        "get overcharged",
+        "overcharged by ten euros"
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.stole-my",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 23,
+      "en": "Someone stole my ___.",
+      "pl": "Ktoś ukradł mi ___.",
+      "alternatives": [],
+      "usage": "Zgłaszasz kradzież.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Someone stole my phone on the metro.",
+          "pl": "Ktoś ukradł mi telefon w metrze."
+        },
+        {
+          "en": "Someone stole my bike last night.",
+          "pl": "Ktoś ukradł mi wczoraj w nocy rower."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.was-told",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 24,
+      "en": "I was told that ___.",
+      "pl": "Powiedziano mi, że ___.",
+      "alternatives": [],
+      "usage": "Powołujesz się na to, co Ci obiecano.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I was told that breakfast was included.",
+          "pl": "Powiedziano mi, że śniadanie jest wliczone."
+        },
+        {
+          "en": "I was told that the room had a balcony.",
+          "pl": "Powiedziano mi, że pokój ma balkon."
+        }
+      ],
+      "note": "Po „I was told that…” czas się „cofa”: „breakfast was included”, choć chodzi o teraz.",
+      "tags": [
+        "travel",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.supposed-to",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 25,
+      "en": "We were supposed to ___.",
+      "pl": "Mieliśmy ___ (a nie wyszło).",
+      "alternatives": [],
+      "usage": "Mówisz, co miało się stać.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We were supposed to land at six.",
+          "pl": "Mieliśmy wylądować o szóstej."
+        },
+        {
+          "en": "We were supposed to get a sea view.",
+          "pl": "Mieliśmy mieć widok na morze."
+        }
+      ],
+      "note": "„be supposed to” = coś było ustalone/planowane. Bardzo częste w reklamacjach.",
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.how-long-take",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 26,
+      "en": "How long will it take to ___?",
+      "pl": "Ile potrwa ___?",
+      "alternatives": [],
+      "usage": "Pytasz o czas załatwienia sprawy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How long will it take to get my bag back?",
+          "pl": "Ile potrwa, zanim odzyskam torbę?"
+        },
+        {
+          "en": "How long will it take to fix it?",
+          "pl": "Ile potrwa naprawa?"
+        }
+      ],
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.any-way-to",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 27,
+      "en": "Is there any way to ___?",
+      "pl": "Czy da się jakoś ___?",
+      "alternatives": [],
+      "usage": "Szukasz rozwiązania.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there any way to get on an earlier flight?",
+          "pl": "Czy da się jakoś złapać wcześniejszy lot?"
+        },
+        {
+          "en": "Is there any way to get a refund?",
+          "pl": "Czy da się jakoś odzyskać pieniądze?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.trouble.baggage-desk",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 28,
+      "en": "At the baggage desk",
+      "pl": "W biurze bagażowym",
+      "alternatives": [],
+      "usage": "Biuro bagażowe na lotnisku.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Hi. My luggage didn't arrive. I was on the flight from Berlin.",
+          "pl": "Dzień dobry. Mój bagaż nie doleciał. Leciałem z Berlina.",
+          "speaker": "A"
+        },
+        {
+          "en": "I'm sorry. Can I see your boarding pass and baggage tag?",
+          "pl": "Przykro mi. Mogę zobaczyć kartę pokładową i kwit bagażowy?",
+          "speaker": "B"
+        },
+        {
+          "en": "Here you go. How long will it take to get it back?",
+          "pl": "Proszę. Ile potrwa, zanim go odzyskam?",
+          "speaker": "A"
+        },
+        {
+          "en": "Usually one or two days. We'll deliver it to your hotel.",
+          "pl": "Zwykle dzień lub dwa. Dostarczymy go do hotelu.",
+          "speaker": "B"
+        },
+        {
+          "en": "OK. And can I get a copy of the report for my insurance?",
+          "pl": "Dobrze. A mogę dostać kopię protokołu dla ubezpieczyciela?",
+          "speaker": "A"
+        },
+        {
+          "en": "Of course. Here's your reference number.",
+          "pl": "Oczywiście. Oto numer sprawy.",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s8.trouble.taxi-dispute",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.trouble",
+      "order": 29,
+      "en": "A taxi dispute",
+      "pl": "Spór z taksówkarzem",
+      "alternatives": [],
+      "usage": "Kierowca chce więcej, niż ustaliliście.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "That's forty-five euros, please.",
+          "pl": "Czterdzieści pięć euro, proszę.",
+          "speaker": "A"
+        },
+        {
+          "en": "Forty-five? That's not what we agreed. You said thirty.",
+          "pl": "Czterdzieści pięć? Nie tak się umawialiśmy. Mówił pan trzydzieści.",
+          "speaker": "B"
+        },
+        {
+          "en": "There was a lot of traffic.",
+          "pl": "Były duże korki.",
+          "speaker": "A"
+        },
+        {
+          "en": "Sorry, but the price was fixed. Could I get a receipt, please?",
+          "pl": "Przykro mi, ale cena była ustalona. Mogę prosić o paragon?",
+          "speaker": "B"
+        },
+        {
+          "en": "OK, OK. Thirty is fine.",
+          "pl": "Dobra, dobra. Trzydzieści wystarczy.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "A2"
+    }
+  ]
+}

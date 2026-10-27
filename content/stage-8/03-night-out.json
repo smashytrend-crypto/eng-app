@@ -1,0 +1,793 @@
+{
+  "module": {
+    "id": "s8.night-out",
+    "stage": 8,
+    "order": 3,
+    "title": "Symulacja: wieczór w mieście",
+    "titleEn": "Simulation: a night out",
+    "description": "Wieczór od wejścia do klubu po powrót do hotelu: bramkarz, zamawianie, błędy przy płatności, propozycje i bezpieczny powrót.",
+    "tags": [
+      "travel"
+    ]
+  },
+  "items": [
+    {
+      "id": "s8.night-out.dress-code",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 1,
+      "en": "Is there a dress code?",
+      "pl": "Obowiązuje jakiś dress code?",
+      "alternatives": [],
+      "usage": "Przed wyjściem do klubu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is there a dress code? — No sportswear, that's all.",
+          "pl": "Jest jakiś dress code? — Bez dresów, to wszystko."
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.on-guest-list",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 2,
+      "en": "We're on the guest list.",
+      "pl": "Jesteśmy na liście gości.",
+      "alternatives": [],
+      "usage": "Przy wejściu do klubu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, we're on the guest list. The name is Domin.",
+          "pl": "Cześć, jesteśmy na liście gości. Na nazwisko Domin."
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.how-much-get-in",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 3,
+      "en": "How much is it to get in?",
+      "pl": "Ile kosztuje wejście?",
+      "alternatives": [
+        "How much is entry?",
+        "How much does it cost to get in?"
+      ],
+      "usage": "Pytasz o bilet do klubu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How much is it to get in? — Fifteen before midnight, twenty after.",
+          "pl": "Ile kosztuje wejście? — Piętnaście przed północą, dwadzieścia po."
+        }
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.round-on-me",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 4,
+      "en": "This round's on me.",
+      "pl": "Ta kolejka na mnie.",
+      "alternatives": [
+        "This round is on me."
+      ],
+      "usage": "Stawiasz wszystkim.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Put your wallets away — this round's on me.",
+          "pl": "Schowajcie portfele — ta kolejka na mnie."
+        }
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.charged-twice",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 5,
+      "en": "I think you've charged me twice.",
+      "pl": "Chyba pobrał pan ode mnie dwa razy.",
+      "alternatives": [],
+      "usage": "Grzecznie zgłaszasz błąd przy płatności.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Sorry, I think you've charged me twice. Can you check?",
+          "pl": "Przepraszam, chyba pobrał pan ode mnie dwa razy. Może pan sprawdzić?"
+        }
+      ],
+      "tags": [
+        "numbers",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.wrong-change",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 6,
+      "en": "I think you gave me the wrong change.",
+      "pl": "Chyba źle mi pan wydał resztę.",
+      "alternatives": [],
+      "usage": "Reszta się nie zgadza.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, I think you gave me the wrong change. I gave you fifty.",
+          "pl": "Przepraszam, chyba źle mi pan wydał. Dałem pięćdziesiąt."
+        }
+      ],
+      "tags": [
+        "numbers",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.food-way-home",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 7,
+      "en": "Let's grab some food on the way home.",
+      "pl": "Weźmy coś do jedzenia po drodze do domu.",
+      "alternatives": [
+        "Let's get some food on the way home."
+      ],
+      "usage": "Nocny głód po imprezie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Let's grab some food on the way home. I'm starving.",
+          "pl": "Weźmy coś do jedzenia po drodze do domu. Umieram z głodu."
+        }
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.last-metro",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 8,
+      "en": "What time's the last metro?",
+      "pl": "O której jest ostatnie metro?",
+      "alternatives": [
+        "What time is the last metro?",
+        "When's the last metro?"
+      ],
+      "usage": "Planujesz powrót.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What time's the last metro? — Around one, I think.",
+          "pl": "O której jest ostatnie metro? — Chyba około pierwszej."
+        }
+      ],
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.bit-tipsy",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 9,
+      "en": "I'm a bit tipsy.",
+      "pl": "Jestem trochę wstawiony.",
+      "alternatives": [],
+      "usage": "Lekko po alkoholu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I'm a bit tipsy, so I'll stick to water for a while.",
+          "pl": "Jestem trochę wstawiony, więc na razie zostanę przy wodzie."
+        }
+      ],
+      "tags": [
+        "slang"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.stick-to-water",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 10,
+      "en": "I'll stick to water for a bit.",
+      "pl": "Na razie zostanę przy wodzie.",
+      "alternatives": [
+        "I'll stick to water for a while."
+      ],
+      "usage": "Robisz przerwę od alkoholu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Another beer? — No thanks, I'll stick to water for a bit.",
+          "pl": "Jeszcze piwo? — Nie, dzięki, na razie zostanę przy wodzie."
+        }
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.get-home-ok",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 11,
+      "en": "Did you get home OK?",
+      "pl": "Dotarłeś bezpiecznie do domu?",
+      "alternatives": [
+        "Did you get home safe?",
+        "Did you get back OK?"
+      ],
+      "usage": "SMS następnego dnia.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Hey, did you get home OK? — Yeah, thanks! Great night.",
+          "pl": "Hej, dotarłeś bezpiecznie? — Tak, dzięki! Super wieczór."
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.let-me-know-home",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 12,
+      "en": "Let me know when you get home.",
+      "pl": "Daj znać, jak dotrzesz do domu.",
+      "alternatives": [
+        "Text me when you get home.",
+        "Message me when you get home."
+      ],
+      "usage": "Troska o znajomego po imprezie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Bye! Let me know when you get home.",
+          "pl": "Pa! Daj znać, jak dotrzesz do domu."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.somewhere-quieter",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 13,
+      "en": "It's way too loud — let's go somewhere quieter.",
+      "pl": "Jest stanowczo za głośno — chodźmy gdzieś, gdzie ciszej.",
+      "alternatives": [],
+      "usage": "Chcesz pogadać, a muzyka zagłusza.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I can't hear you! It's way too loud — let's go somewhere quieter.",
+          "pl": "Nie słyszę cię! Jest za głośno — chodźmy gdzieś, gdzie ciszej."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.head-off",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 14,
+      "en": "Shall we head off?",
+      "pl": "Zbieramy się?",
+      "alternatives": [
+        "Shall we go?",
+        "Shall we make a move?"
+      ],
+      "usage": "Proponujesz wyjście.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's nearly three. Shall we head off?",
+          "pl": "Jest prawie trzecia. Zbieramy się?"
+        }
+      ],
+      "tags": [
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.bouncer",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 15,
+      "en": "bouncer",
+      "pl": "bramkarz, selekcjoner (w klubie)",
+      "alternatives": [],
+      "usage": "Ochrona przy drzwiach klubu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The bouncer asked for our ID.",
+          "pl": "Bramkarz poprosił o dowody."
+        }
+      ],
+      "collocations": [
+        "get past the bouncer",
+        "the bouncer let us in",
+        "a strict bouncer"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.cover-charge",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 16,
+      "en": "cover charge",
+      "pl": "opłata za wejście",
+      "alternatives": [],
+      "usage": "Bilet do klubu lub baru z muzyką.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a ten-euro cover charge after midnight.",
+          "pl": "Po północy wejście kosztuje dziesięć euro."
+        }
+      ],
+      "collocations": [
+        "pay the cover charge",
+        "no cover charge",
+        "a cover charge of…"
+      ],
+      "tags": [
+        "travel",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.shot",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 17,
+      "en": "shot",
+      "pl": "szot, kieliszek (wódki itp.)",
+      "alternatives": [],
+      "usage": "Mały mocny alkohol.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Let's do a shot to celebrate!",
+          "pl": "Wypijmy szota za to!"
+        }
+      ],
+      "collocations": [
+        "do a shot",
+        "a round of shots",
+        "a vodka shot"
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.tab",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 18,
+      "en": "tab",
+      "pl": "rachunek otwarty przy barze",
+      "alternatives": [],
+      "usage": "Płacisz na koniec za wszystko.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I start a tab? — Sure, I'll need your card.",
+          "pl": "Mogę otworzyć rachunek? — Jasne, potrzebuję karty."
+        }
+      ],
+      "collocations": [
+        "start a tab",
+        "open a tab",
+        "close my tab"
+      ],
+      "tags": [
+        "food",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.night-bus",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 19,
+      "en": "night bus",
+      "pl": "autobus nocny",
+      "alternatives": [],
+      "usage": "Powrót, gdy metro nie jeździ.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We can take the night bus — it stops right outside.",
+          "pl": "Możemy wziąć nocny autobus — staje tuż przed wejściem."
+        }
+      ],
+      "collocations": [
+        "take the night bus",
+        "the last night bus",
+        "night bus stop"
+      ],
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.rooftop-bar",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 20,
+      "en": "rooftop bar",
+      "pl": "bar na dachu",
+      "alternatives": [],
+      "usage": "Popularne wieczorne miejsce w dużych miastach.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a rooftop bar with an amazing view.",
+          "pl": "Jest bar na dachu z niesamowitym widokiem."
+        }
+      ],
+      "collocations": [
+        "go to a rooftop bar",
+        "a rooftop bar with a view",
+        "the best rooftop bar"
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.cloakroom",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 21,
+      "en": "cloakroom",
+      "pl": "szatnia",
+      "alternatives": [],
+      "usage": "Zostawiasz kurtkę w klubie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I left my jacket in the cloakroom.",
+          "pl": "Zostawiłem kurtkę w szatni."
+        }
+      ],
+      "collocations": [
+        "leave it in the cloakroom",
+        "cloakroom ticket",
+        "the queue for the cloakroom"
+      ],
+      "note": "UK: „cloakroom”, US: „coat check”.",
+      "tags": [
+        "travel",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.hangry",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 22,
+      "en": "hangry",
+      "pl": "zły z głodu",
+      "alternatives": [],
+      "usage": "Żartobliwie: głodny + zły.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Feed me before I get hangry!",
+          "pl": "Nakarm mnie, zanim zrobię się zły z głodu!"
+        }
+      ],
+      "collocations": [
+        "get hangry",
+        "a bit hangry",
+        "hangry and tired"
+      ],
+      "tags": [
+        "slang",
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.another-please",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 23,
+      "en": "Can I get another ___, please?",
+      "pl": "Mogę prosić jeszcze jedno ___?",
+      "alternatives": [],
+      "usage": "Zamawiasz kolejny raz to samo.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Can I get another beer, please?",
+          "pl": "Mogę prosić jeszcze jedno piwo?"
+        },
+        {
+          "en": "Can I get another round of shots, please?",
+          "pl": "Mogę prosić jeszcze jedną kolejkę szotów?"
+        }
+      ],
+      "tags": [
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.know-anywhere",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 24,
+      "en": "Do you know anywhere ___?",
+      "pl": "Znasz jakieś miejsce ___?",
+      "alternatives": [],
+      "usage": "Prosisz miejscowego o polecenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you know anywhere good for cocktails?",
+          "pl": "Znasz jakieś dobre miejsce na koktajle?"
+        },
+        {
+          "en": "Do you know anywhere that's open late?",
+          "pl": "Znasz jakieś miejsce otwarte do późna?"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.meeting-them-at",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 25,
+      "en": "We're meeting them at ___.",
+      "pl": "Spotykamy się z nimi ___.",
+      "alternatives": [],
+      "usage": "Ustalony plan na wieczór (Present Continuous).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're meeting them at the bar at nine.",
+          "pl": "Spotykamy się z nimi w barze o dziewiątej."
+        },
+        {
+          "en": "We're meeting them at the club later.",
+          "pl": "Spotykamy się z nimi później w klubie."
+        }
+      ],
+      "note": "Ustalone plany z ludźmi: „We're meeting…”, nie „We will meet…”.",
+      "tags": [
+        "gr:present-continuous-future",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.too-in-here",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 26,
+      "en": "It's too ___ in here.",
+      "pl": "Tu jest za ___.",
+      "alternatives": [],
+      "usage": "Narzekasz na miejsce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's too hot in here.",
+          "pl": "Tu jest za gorąco."
+        },
+        {
+          "en": "It's too crowded in here.",
+          "pl": "Tu jest za tłoczno."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.fancy-going",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 27,
+      "en": "Fancy going ___?",
+      "pl": "Masz ochotę pójść ___?",
+      "alternatives": [],
+      "usage": "Luźna propozycja (UK).",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Fancy going for a kebab?",
+          "pl": "Masz ochotę pójść na kebaba?"
+        },
+        {
+          "en": "Fancy going to that rooftop bar?",
+          "pl": "Masz ochotę pójść do tego baru na dachu?"
+        }
+      ],
+      "note": "„Fancy…?” to typowo brytyjskie. Amerykanin powie raczej „Do you want to go…?”.",
+      "tags": [
+        "smalltalk",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.night-out.club-door",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 28,
+      "en": "At the club door",
+      "pl": "Przy wejściu do klubu",
+      "alternatives": [],
+      "usage": "Rozmowa z bramkarzem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Evening, guys. Can I see some ID?",
+          "pl": "Dobry wieczór. Mogę zobaczyć dowody?",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure, here you go. How much is it to get in?",
+          "pl": "Jasne, proszę. Ile kosztuje wejście?",
+          "speaker": "B"
+        },
+        {
+          "en": "Twenty. Or are you on the guest list?",
+          "pl": "Dwadzieścia. Czy jesteście na liście gości?",
+          "speaker": "A"
+        },
+        {
+          "en": "No, we're not. Is there a dress code?",
+          "pl": "Nie. Jest jakiś dress code?",
+          "speaker": "B"
+        },
+        {
+          "en": "No sportswear. You're fine. Cloakroom's on the left.",
+          "pl": "Bez dresów. Jesteście OK. Szatnia po lewej.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "travel"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s8.night-out.bar-problem",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.night-out",
+      "order": 29,
+      "en": "A problem at the bar",
+      "pl": "Problem przy barze",
+      "alternatives": [],
+      "usage": "Płatność się nie zgadza.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, I think you've charged me twice.",
+          "pl": "Przepraszam, chyba pobrał pan ode mnie dwa razy.",
+          "speaker": "A"
+        },
+        {
+          "en": "Really? Let me check… Oh yes, sorry about that.",
+          "pl": "Naprawdę? Sprawdzę… O, faktycznie, przepraszam.",
+          "speaker": "B"
+        },
+        {
+          "en": "No worries. Can you cancel one of them?",
+          "pl": "Nic się nie stało. Może pan anulować jedną?",
+          "speaker": "A"
+        },
+        {
+          "en": "Done. And the next drink is on the house.",
+          "pl": "Zrobione. A następny drink na koszt firmy.",
+          "speaker": "B"
+        },
+        {
+          "en": "Wow, thanks! Can I get another beer, then?",
+          "pl": "Wow, dzięki! To mogę prosić jeszcze jedno piwo?",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "food",
+        "numbers"
+      ],
+      "level": "A2"
+    }
+  ]
+}

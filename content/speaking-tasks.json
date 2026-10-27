@@ -702,6 +702,89 @@
       "tags": [
         "crowd"
       ]
+    },
+    {
+      "id": "task.s8-arrival",
+      "stage": 8,
+      "title": "Pierwsza godzina na miejscu",
+      "instruction": "Opowiedz po kolei, co robisz po wylądowaniu: transport do miasta, meldunek, pytania w recepcji. Minimum 6 zdań.",
+      "starters": [
+        "We've just landed, so first…",
+        "Is there a cheaper way to…?",
+        "Hi, we've got a booking under…",
+        "Could you recommend…?"
+      ],
+      "example": "We've just landed, so first we're looking for the bus. A taxi is forty euros, so I ask: is there a cheaper way to get to the city? At the hotel I say: hi, we've got a booking under Domin. We booked a double room. Then I ask if the tap water is safe to drink and if they could recommend somewhere local to eat.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "task.s8-festival-plan",
+      "stage": 8,
+      "title": "Plan festiwalowego dnia",
+      "instruction": "Zaplanuj na głos cały dzień na festiwalu z kumplem: o której wchodzicie, kogo chcecie zobaczyć, co z kolizją w rozpisce, gdzie się spotykacie.",
+      "starters": [
+        "The gates open at…, so let's…",
+        "There's a clash at…",
+        "Let's split up and…",
+        "Let's meet back here at…"
+      ],
+      "example": "The gates open at twelve, so let's get there early and top up our wristbands. There's a clash at ten — I want to see both of them. Let's split up and meet after the set. If my phone dies, let's meet back here at eleven, by the food trucks.",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "task.s8-complaint",
+      "stage": 8,
+      "title": "Reklamacja bez stresu",
+      "instruction": "Coś poszło nie tak (pokój, bagaż albo taksówka). Opisz problem grzecznie, ale stanowczo, i poproś o konkretne rozwiązanie.",
+      "starters": [
+        "There seems to be a problem with…",
+        "I was told that…",
+        "We were supposed to…",
+        "Is there any way to…?",
+        "Could you put that in writing?"
+      ],
+      "example": "Excuse me, there seems to be a problem with our room. I was told that it had a balcony, but it doesn't. We were supposed to get a sea view. Is there any way to change rooms? If not, could you put that in writing? I need it for a complaint.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "task.s8-night-out",
+      "stage": 8,
+      "title": "Opowiedz o wieczorze",
+      "instruction": "Opowiedz koledze, jak minął Wam wieczór w mieście: klub, bramkarz, drinki, problem przy barze, powrót do hotelu. Czas przeszły!",
+      "starters": [
+        "First we went to…",
+        "The bouncer asked…",
+        "At the bar…",
+        "In the end we…"
+      ],
+      "example": "First we went to a rooftop bar with an amazing view. Then we tried a club, but the bouncer asked for our ID and the cover charge was twenty euros. At the bar the guy charged me twice, but he gave me a free drink to say sorry! In the end we took the night bus and got some food on the way home.",
+      "tags": [
+        "travel",
+        "story"
+      ]
+    },
+    {
+      "id": "task.s8-final",
+      "stage": 8,
+      "title": "Wielki finał: 2 minuty o sobie",
+      "instruction": "Ostatnie zadanie kursu! Mów 2 minuty bez przerwy: kim jesteś, skąd, co robisz, co kochasz, gdzie byłeś, co planujesz. Nagraj się i odsłuchaj — pomyśl, jak brzmiałeś na samym początku kursu.",
+      "starters": [
+        "I'm Domin, I'm from…",
+        "I work as…",
+        "I'm really into…",
+        "I've been to…",
+        "Next year I'm going to…"
+      ],
+      "example": "Hi, I'm Domin. I'm from Szczecin — it's a port city in Poland, about two hours from Berlin. I work in a warehouse; it's a very physical job, but I like it. I'm really into techno and house, I go to the gym four times a week and I play games in the evenings. I've been to Tomorrowland, and it was the best week of my life. Next year I'm going to travel more and maybe work abroad. And honestly — a year ago I couldn't say any of this in English!",
+      "tags": [
+        "smalltalk"
+      ]
     }
   ]
 }

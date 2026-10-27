@@ -1166,6 +1166,168 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mission.s8-arrival-sim",
+      "stage": 8,
+      "title": "Symulacja: przylot do Belgii",
+      "titleEn": "Simulation: arriving in Belgium",
+      "setting": "Próba generalna wyjazdu. Lądujesz w Brukseli, Twój bagaż nie doleciał, a w hotelu jest pomyłka w rezerwacji. Ogarniasz wszystko po angielsku.",
+      "claudeScenario": "Let's do a travel simulation. I land in Brussels. You play different people: first the baggage desk agent (my bag didn't arrive), then the hotel receptionist (there's a mistake with my booking). Speak naturally at B1 level, be helpful but make me explain things clearly.",
+      "tags": [
+        "travel"
+      ],
+      "steps": [
+        {
+          "them": "Hi, can I help you?",
+          "themPl": "Dzień dobry, w czym mogę pomóc?",
+          "task": "Powiedz, że twój bagaż nie doleciał — leciałeś z Warszawy.",
+          "answer": "Hi. My luggage didn't arrive. I was on the flight from Warsaw.",
+          "alt": [
+            "My bag didn't arrive. I flew from Warsaw."
+          ]
+        },
+        {
+          "them": "I'm sorry. Can I see your baggage tag?",
+          "themPl": "Przykro mi. Mogę zobaczyć kwit bagażowy?",
+          "task": "Podaj go i zapytaj, ile potrwa odzyskanie bagażu.",
+          "answer": "Here you go. How long will it take to get it back?",
+          "alt": [
+            "Here it is. How long will it take?"
+          ]
+        },
+        {
+          "them": "Usually one or two days. Where are you staying?",
+          "themPl": "Zwykle dzień lub dwa. Gdzie się pan zatrzymał?",
+          "task": "Powiedz nazwę hotelu i poproś o kopię protokołu dla ubezpieczyciela.",
+          "answer": "At the Hotel Central. Can I get a copy of the report for my insurance?",
+          "alt": [
+            "The Hotel Central. Can I get a copy of the report for my insurance?"
+          ]
+        },
+        {
+          "them": "[At the hotel] Good evening! Do you have a booking?",
+          "themPl": "[W hotelu] Dobry wieczór! Ma pan rezerwację?",
+          "task": "Powiedz, że tak, na nazwisko Domin, i pokaż potwierdzenie.",
+          "answer": "Yes, under Domin. Here's the confirmation.",
+          "alt": [
+            "Yes, the name is Domin. Here's the confirmation."
+          ]
+        },
+        {
+          "them": "Let me see… Two single rooms for two nights.",
+          "themPl": "Sprawdzę… Dwa pokoje jednoosobowe na dwie noce.",
+          "task": "Wyjaśnij, że to pomyłka — rezerwowaliście pokój dwuosobowy na trzy noce.",
+          "answer": "There seems to be a mistake. We booked a double room for three nights.",
+          "alt": [
+            "Sorry, we booked a double room, not two singles. And three nights."
+          ]
+        },
+        {
+          "them": "Oh, you're right. I'm sorry about that. Is a room on the top floor OK?",
+          "themPl": "O, ma pan rację. Przepraszam. Pokój na najwyższym piętrze będzie OK?",
+          "task": "Zgódź się i zapytaj, czy można pić kranówkę.",
+          "answer": "That's perfect. Is the tap water safe to drink?",
+          "alt": [
+            "Yes, perfect. Can I drink the tap water?"
+          ]
+        },
+        {
+          "them": "Yes, it's fine. Anything else?",
+          "themPl": "Tak, jest w porządku. Coś jeszcze?",
+          "task": "Poproś o polecenie lokalnego miejsca na jedzenie i podziękuj za pomoc.",
+          "answer": "Could you recommend somewhere local to eat? Thanks for your help — you've been really kind.",
+          "alt": [
+            "Can you recommend somewhere local to eat? Thanks a lot!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission.s8-final-conversation",
+      "stage": 8,
+      "title": "Finał: rozmowa do rana",
+      "titleEn": "Final: talking till sunrise",
+      "setting": "Ostatnia noc festiwalu. Siedzicie z Liamem z Irlandii przy namiocie i gadacie o wszystkim: pracy, Polsce, muzyce, planach. To Twój egzamin końcowy — swobodna rozmowa.",
+      "claudeScenario": "Final test! It's the last night of a festival and we're sitting outside our tents. You're Liam from Dublin. Have a long, natural conversation with me about work, home, music, travel and plans. Ask follow-up questions, react naturally, and don't make it easy — I'm at B1 level now.",
+      "tags": [
+        "festival",
+        "smalltalk"
+      ],
+      "steps": [
+        {
+          "them": "So, how long have you been into techno?",
+          "themPl": "To od jak dawna jarasz się techno?",
+          "task": "Powiedz, że od około pięciu lat — kumpel zabrał cię na imprezę w Berlinie.",
+          "answer": "About five years. A friend took me to a party in Berlin.",
+          "alt": [
+            "For about five years. My friend took me to a party in Berlin."
+          ]
+        },
+        {
+          "them": "Nice! What do you do back home?",
+          "themPl": "Fajnie! A co robisz u siebie?",
+          "task": "Powiedz, że pracujesz w magazynie — to fizyczna praca, ale lubisz swój zespół.",
+          "answer": "I work in a warehouse. It's a physical job, but I like my team.",
+          "alt": [
+            "I work in a warehouse. It's hard work, but my team is great."
+          ]
+        },
+        {
+          "them": "Fair play. What's Poland like? I've never been.",
+          "themPl": "Szacun. A jak jest w Polsce? Nigdy nie byłem.",
+          "task": "Powiedz, że lepiej, niż myśli — świetne jedzenie i kluby.",
+          "answer": "It's better than you think! Great food and amazing clubs.",
+          "alt": [
+            "It's better than you think. The food and the clubs are great."
+          ]
+        },
+        {
+          "them": "Sounds class. What made you learn English?",
+          "themPl": "Brzmi super. Co sprawiło, że zacząłeś się uczyć angielskiego?",
+          "task": "Powiedz, że chciałeś móc gadać z ludźmi na festiwalach — tak jak teraz.",
+          "answer": "I wanted to talk to people at festivals — like now!",
+          "alt": [
+            "I wanted to chat with people at festivals, like now."
+          ]
+        },
+        {
+          "them": "Well, it worked! Your English is really good.",
+          "themPl": "No i zadziałało! Masz naprawdę dobry angielski.",
+          "task": "Podziękuj i powiedz, że dzięki za cierpliwość.",
+          "answer": "Thanks! And thanks for being so patient with my English.",
+          "alt": [
+            "Thank you! Thanks for being so patient."
+          ]
+        },
+        {
+          "them": "No bother. When are you heading home?",
+          "themPl": "Spoko. Kiedy wracasz do domu?",
+          "task": "Powiedz, że lecisz w poniedziałek i że będziesz tęsknić za tym miejscem.",
+          "answer": "I'm flying home on Monday. I'm going to miss this place.",
+          "alt": [
+            "On Monday. I'll miss this place."
+          ]
+        },
+        {
+          "them": "Me too, man. We should keep in touch.",
+          "themPl": "Ja też, stary. Musimy być w kontakcie.",
+          "task": "Zgódź się i powiedz, że jak kiedyś będzie w Szczecinie, ma dać znać — oprowadzisz go.",
+          "answer": "Definitely. If you're ever in Szczecin, let me know. I'd be happy to show you around.",
+          "alt": [
+            "For sure! If you're ever in Szczecin, let me know — I'll show you around."
+          ]
+        },
+        {
+          "them": "Deal. Same time next year?",
+          "themPl": "Umowa. Za rok o tej samej porze?",
+          "task": "Potwierdź entuzjastycznie.",
+          "answer": "Same time next year!",
+          "alt": [
+            "Definitely! Same time next year."
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,798 @@
+{
+  "module": {
+    "id": "s8.new-friends",
+    "stage": 8,
+    "order": 5,
+    "title": "Symulacja: rozmowa z nowym znajomym",
+    "titleEn": "Simulation: talking to a new friend",
+    "description": "Dłuższa, swobodna rozmowa — pytania, które ją rozkręcają, opowiadanie o sobie i Polsce, zaproszenia i ciepłe pożegnanie. Wielki finał kursu.",
+    "tags": [
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s8.new-friends.come-visit-poland",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 1,
+      "en": "You should come and visit me in Poland.",
+      "pl": "Musisz mnie odwiedzić w Polsce.",
+      "alternatives": [
+        "You should come visit me in Poland.",
+        "Come and visit me in Poland!"
+      ],
+      "usage": "Zapraszasz nowego znajomego.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You should come and visit me in Poland. Szczecin has great techno parties.",
+          "pl": "Musisz mnie odwiedzić w Polsce. W Szczecinie są świetne imprezy techno."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.show-you-around",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 2,
+      "en": "I'd be happy to show you around.",
+      "pl": "Chętnie cię oprowadzę.",
+      "alternatives": [
+        "I'd love to show you around.",
+        "I can show you around."
+      ],
+      "usage": "Proponujesz, że pokażesz miasto.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If you come to Szczecin, I'd be happy to show you around.",
+          "pl": "Jak przyjedziesz do Szczecina, chętnie cię oprowadzę."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.fun-back-home",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 3,
+      "en": "What do you do for fun back home?",
+      "pl": "Co robisz w wolnym czasie u siebie?",
+      "alternatives": [],
+      "usage": "Pytasz o życie znajomego poza wyjazdem.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "So what do you do for fun back home? — Mostly surfing and going to gigs.",
+          "pl": "A co robisz w wolnym czasie u siebie? — Głównie surfuję i chodzę na koncerty."
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "gr:questions-do",
+        "gr:present-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.so-much-in-common",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 4,
+      "en": "We've got so much in common!",
+      "pl": "Mamy tyle wspólnego!",
+      "alternatives": [
+        "We have so much in common!"
+      ],
+      "usage": "Odkrywacie wspólne pasje.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You like techno, gaming and the gym? We've got so much in common!",
+          "pl": "Lubisz techno, gry i siłownię? Mamy tyle wspólnego!"
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.small-world",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 5,
+      "en": "It's a small world!",
+      "pl": "Jaki ten świat mały!",
+      "alternatives": [
+        "Small world!",
+        "What a small world!"
+      ],
+      "usage": "Zaskakujący wspólny znajomy lub miejsce.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You've been to Szczecin? It's a small world!",
+          "pl": "Byłeś w Szczecinie? Jaki ten świat mały!"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.flying-home-monday",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 6,
+      "en": "I'm flying home on Monday.",
+      "pl": "W poniedziałek lecę do domu.",
+      "alternatives": [],
+      "usage": "Mówisz o ustalonym planie powrotu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm flying home on Monday, so we've still got two days!",
+          "pl": "W poniedziałek lecę do domu, więc mamy jeszcze dwa dni!"
+        }
+      ],
+      "tags": [
+        "travel",
+        "gr:present-continuous-future"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.going-to-miss",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 7,
+      "en": "I'm going to miss this place.",
+      "pl": "Będę tęsknić za tym miejscem.",
+      "alternatives": [
+        "I'll miss this place."
+      ],
+      "usage": "Ostatni dzień wyjazdu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm going to miss this place. It's been the best week of my life.",
+          "pl": "Będę tęsknić za tym miejscem. To był najlepszy tydzień w moim życiu."
+        }
+      ],
+      "note": "„Tęsknić za” = „miss” bez „for”: „I miss you”, „I miss Poland”. Nie „I miss for you”.",
+      "tags": [
+        "feelings",
+        "gr:going-to",
+        "polish-trap"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.same-time-next-year",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 8,
+      "en": "Same time next year?",
+      "pl": "Za rok o tej samej porze?",
+      "alternatives": [],
+      "usage": "Umawiacie się na kolejną edycję.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Same time next year? — Definitely! Same place, same stage.",
+          "pl": "Za rok o tej samej porze? — Jasne! To samo miejsce, ta sama scena."
+        }
+      ],
+      "tags": [
+        "festival",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.tell-me-more",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 9,
+      "en": "Tell me more about it!",
+      "pl": "Opowiedz coś więcej!",
+      "alternatives": [
+        "Tell me more!"
+      ],
+      "usage": "Pokazujesz zainteresowanie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "You lived in Australia? Tell me more about it!",
+          "pl": "Mieszkałeś w Australii? Opowiedz coś więcej!"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "reactions"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.how-get-into",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 10,
+      "en": "How did you get into techno?",
+      "pl": "Jak to się stało, że wkręciłeś się w techno?",
+      "alternatives": [],
+      "usage": "Pytasz o początki pasji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How did you get into techno? — My brother took me to a rave when I was eighteen.",
+          "pl": "Jak wkręciłeś się w techno? — Brat zabrał mnie na rave, jak miałem osiemnaście lat."
+        }
+      ],
+      "note": "„get into something” = zacząć się czymś pasjonować.",
+      "tags": [
+        "music",
+        "gr:past-simple",
+        "phrasal-verbs"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.love-to-but",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 11,
+      "en": "I'd love to, but I can't this time.",
+      "pl": "Chętnie, ale tym razem nie mogę.",
+      "alternatives": [],
+      "usage": "Grzecznie odmawiasz zaproszenia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you want to come to Ibiza with us? — I'd love to, but I can't this time.",
+          "pl": "Chcesz jechać z nami na Ibizę? — Chętnie, ale tym razem nie mogę."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.patient-english",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 12,
+      "en": "Thanks for being so patient with my English.",
+      "pl": "Dzięki za cierpliwość do mojego angielskiego.",
+      "alternatives": [],
+      "usage": "Doceniasz, że ktoś mówił wolniej.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Thanks for being so patient with my English. — Are you joking? Your English is great!",
+          "pl": "Dzięki za cierpliwość do mojego angielskiego. — Żartujesz? Masz świetny angielski!"
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.been-amazing-hanging",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 13,
+      "en": "It's been amazing hanging out with you.",
+      "pl": "Super było spędzić z tobą czas.",
+      "alternatives": [
+        "It's been great hanging out with you."
+      ],
+      "usage": "Ciepłe pożegnanie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "It's been amazing hanging out with you. Let's do it again!",
+          "pl": "Super było spędzić z tobą czas. Powtórzmy to!"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.what-poland-like",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 14,
+      "en": "What's Poland like? — It's better than you think!",
+      "pl": "Jak jest w Polsce? — Lepiej, niż myślisz!",
+      "alternatives": [],
+      "usage": "Ktoś pyta o Twój kraj — odpowiadasz z uśmiechem.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "What's Poland like? — It's better than you think! Great food, cheap beer and amazing clubs.",
+          "pl": "Jak jest w Polsce? — Lepiej, niż myślisz! Świetne jedzenie, tanie piwo i niesamowite kluby."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.homesick",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 15,
+      "en": "homesick",
+      "pl": "stęskniony za domem",
+      "alternatives": [],
+      "usage": "Gdy brakuje Ci domu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Do you ever get homesick? — Only when I'm hungry!",
+          "pl": "Tęsknisz czasem za domem? — Tylko jak jestem głodny!"
+        }
+      ],
+      "collocations": [
+        "get homesick",
+        "feel homesick",
+        "a bit homesick"
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.laid-back",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 16,
+      "en": "laid-back",
+      "pl": "wyluzowany, na luzie",
+      "alternatives": [],
+      "usage": "O ludziach i miejscach.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "People here are really laid-back.",
+          "pl": "Ludzie tu są naprawdę wyluzowani."
+        }
+      ],
+      "collocations": [
+        "a laid-back vibe",
+        "really laid-back",
+        "laid-back people"
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.accent",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 17,
+      "en": "accent",
+      "pl": "akcent",
+      "alternatives": [],
+      "usage": "Sposób wymowy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I love your accent! Where are you from?",
+          "pl": "Uwielbiam twój akcent! Skąd jesteś?"
+        }
+      ],
+      "collocations": [
+        "a strong accent",
+        "a Polish accent",
+        "love your accent"
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.patient",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 18,
+      "en": "patient",
+      "pl": "cierpliwy",
+      "alternatives": [],
+      "usage": "Ktoś, kto spokojnie czeka i tłumaczy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "She was really patient and explained everything slowly.",
+          "pl": "Była bardzo cierpliwa i wszystko wolno wytłumaczyła."
+        }
+      ],
+      "collocations": [
+        "be patient",
+        "really patient",
+        "patient with someone"
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.hospitality",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 19,
+      "en": "hospitality",
+      "pl": "gościnność",
+      "alternatives": [],
+      "usage": "Gdy ktoś Cię świetnie ugościł.",
+      "register": "polite",
+      "example": [
+        {
+          "en": "Thanks for your hospitality — I felt at home.",
+          "pl": "Dzięki za gościnność — czułem się jak w domu."
+        }
+      ],
+      "collocations": [
+        "thanks for your hospitality",
+        "Polish hospitality",
+        "amazing hospitality"
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.get-along",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 20,
+      "en": "get along",
+      "pl": "dogadywać się",
+      "alternatives": [],
+      "usage": "O relacjach z ludźmi (US/UK; UK też „get on”).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We got along really well from the first day.",
+          "pl": "Od pierwszego dnia świetnie się dogadywaliśmy."
+        }
+      ],
+      "collocations": [
+        "get along well",
+        "get along with someone",
+        "got along really well"
+      ],
+      "note": "UK częściej „get on (well) with”, US „get along with”. Oba zrozumiałe wszędzie.",
+      "tags": [
+        "smalltalk",
+        "phrasal-verbs",
+        "uk-us"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.memories",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 21,
+      "en": "memories",
+      "pl": "wspomnienia",
+      "alternatives": [],
+      "usage": "Co zostaje po wyjeździe.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "So many good memories from this weekend!",
+          "pl": "Tyle dobrych wspomnień z tego weekendu!"
+        }
+      ],
+      "collocations": [
+        "good memories",
+        "make memories",
+        "memories for life"
+      ],
+      "tags": [
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.reunion",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 22,
+      "en": "reunion",
+      "pl": "ponowne spotkanie, zjazd",
+      "alternatives": [],
+      "usage": "Spotkanie po długiej przerwie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's have a reunion next summer in Belgium!",
+          "pl": "Zróbmy zjazd przyszłego lata w Belgii!"
+        }
+      ],
+      "collocations": [
+        "a festival reunion",
+        "have a reunion",
+        "a big reunion"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.how-long-been",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 23,
+      "en": "How long have you been ___?",
+      "pl": "Od jak dawna ___?",
+      "alternatives": [],
+      "usage": "Pytasz o coś, co trwa do teraz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "How long have you been travelling?",
+          "pl": "Od jak dawna podróżujesz?"
+        },
+        {
+          "en": "How long have you been living in Berlin?",
+          "pl": "Od jak dawna mieszkasz w Berlinie?"
+        }
+      ],
+      "note": "Po polsku czas teraźniejszy („od jak dawna mieszkasz”), po angielsku Present Perfect: „How long have you been…”.",
+      "tags": [
+        "smalltalk",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.best-thing-about",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 24,
+      "en": "What's the best thing about ___?",
+      "pl": "Co jest najlepsze w ___?",
+      "alternatives": [],
+      "usage": "Ciekawe pytanie, które rozkręca rozmowę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What's the best thing about living in Barcelona?",
+          "pl": "Co jest najlepsze w mieszkaniu w Barcelonie?"
+        },
+        {
+          "en": "What's the best thing about your job?",
+          "pl": "Co jest najlepsze w twojej pracy?"
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.if-ever-in",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 25,
+      "en": "If you're ever in ___, let me know!",
+      "pl": "Jak kiedyś będziesz w ___, daj znać!",
+      "alternatives": [],
+      "usage": "Otwarte zaproszenie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "If you're ever in Szczecin, let me know!",
+          "pl": "Jak kiedyś będziesz w Szczecinie, daj znać!"
+        },
+        {
+          "en": "If you're ever in Poland, let me know!",
+          "pl": "Jak kiedyś będziesz w Polsce, daj znać!"
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.what-made-you",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 26,
+      "en": "What made you ___?",
+      "pl": "Co sprawiło, że ___?",
+      "alternatives": [],
+      "usage": "Pytasz o powód decyzji.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "What made you move to Amsterdam?",
+          "pl": "Co sprawiło, że przeprowadziłeś się do Amsterdamu?"
+        },
+        {
+          "en": "What made you start DJing?",
+          "pl": "Co sprawiło, że zacząłeś grać jako DJ?"
+        }
+      ],
+      "note": "Po „What made you” bez „to”: „What made you move”, nie „What made you to move”.",
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.should-sometime",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 27,
+      "en": "We should ___ sometime.",
+      "pl": "Musimy kiedyś ___.",
+      "alternatives": [],
+      "usage": "Luźna propozycja na przyszłość.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "We should play online sometime.",
+          "pl": "Musimy kiedyś zagrać razem online."
+        },
+        {
+          "en": "We should go to a festival together sometime.",
+          "pl": "Musimy kiedyś pojechać razem na festiwal."
+        }
+      ],
+      "tags": [
+        "smalltalk"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.new-friends.getting-to-know",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 28,
+      "en": "Getting to know each other",
+      "pl": "Poznajemy się bliżej",
+      "alternatives": [],
+      "usage": "Dłuższa rozmowa z nowym znajomym.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "So, how long have you been travelling?",
+          "pl": "To od jak dawna podróżujesz?",
+          "speaker": "A"
+        },
+        {
+          "en": "About three weeks. I'm flying home on Monday. What about you?",
+          "pl": "Jakieś trzy tygodnie. W poniedziałek lecę do domu. A ty?",
+          "speaker": "B"
+        },
+        {
+          "en": "Just one week. I came for the festival. What do you do for fun back home?",
+          "pl": "Tylko tydzień. Przyjechałem na festiwal. A co robisz w wolnym czasie u siebie?",
+          "speaker": "A"
+        },
+        {
+          "en": "Gym, gaming, and a lot of techno.",
+          "pl": "Siłownia, gry i dużo techno.",
+          "speaker": "B"
+        },
+        {
+          "en": "No way! We've got so much in common!",
+          "pl": "Nie gadaj! Mamy tyle wspólnego!",
+          "speaker": "A"
+        },
+        {
+          "en": "Ha! How did you get into techno?",
+          "pl": "Ha! Jak wkręciłeś się w techno?",
+          "speaker": "B"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "music"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s8.new-friends.last-night",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.new-friends",
+      "order": 29,
+      "en": "The last night",
+      "pl": "Ostatni wieczór",
+      "alternatives": [],
+      "usage": "Pożegnanie na koniec wyjazdu.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "I can't believe it's over. I'm going to miss this place.",
+          "pl": "Nie wierzę, że to koniec. Będę tęsknić za tym miejscem.",
+          "speaker": "A"
+        },
+        {
+          "en": "Me too. It's been amazing hanging out with you.",
+          "pl": "Ja też. Super było spędzić z tobą czas.",
+          "speaker": "B"
+        },
+        {
+          "en": "Thanks for being so patient with my English.",
+          "pl": "Dzięki za cierpliwość do mojego angielskiego.",
+          "speaker": "A"
+        },
+        {
+          "en": "Are you joking? Your English is great! Same time next year?",
+          "pl": "Żartujesz? Masz świetny angielski! Za rok o tej samej porze?",
+          "speaker": "B"
+        },
+        {
+          "en": "Definitely. And if you're ever in Szczecin, let me know!",
+          "pl": "Jasne. A jak kiedyś będziesz w Szczecinie, daj znać!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "smalltalk",
+        "festival"
+      ],
+      "level": "A2"
+    }
+  ]
+}

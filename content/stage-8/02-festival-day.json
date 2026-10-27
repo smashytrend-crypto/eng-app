@@ -1,0 +1,793 @@
+{
+  "module": {
+    "id": "s8.festival-day",
+    "stage": 8,
+    "order": 2,
+    "title": "Symulacja: dzień na festiwalu",
+    "titleEn": "Simulation: a day at the festival",
+    "description": "Cały dzień na festiwalu: bramka, płatności, rozpiska i kolizje, rozdzielanie się, zmęczenie, pogoda — to, co naprawdę powiesz na Tomorrowland.",
+    "tags": [
+      "festival"
+    ]
+  },
+  "items": [
+    {
+      "id": "s8.festival-day.bring-this-in",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 1,
+      "en": "Am I allowed to bring this in?",
+      "pl": "Mogę to wnieść?",
+      "alternatives": [
+        "Can I bring this in?",
+        "Am I allowed to take this in?"
+      ],
+      "usage": "Pytasz ochronę na bramce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Am I allowed to bring this in? — Sorry, no glass bottles.",
+          "pl": "Mogę to wnieść? — Przykro mi, żadnych szklanych butelek."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.took-my-bottle",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 2,
+      "en": "They took my water bottle at security.",
+      "pl": "Zabrali mi butelkę z wodą na bramce.",
+      "alternatives": [],
+      "usage": "Opowiadasz, co się stało przy wejściu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "They took my water bottle at security, so I need to buy one.",
+          "pl": "Zabrali mi butelkę z wodą na bramce, więc muszę kupić nową."
+        }
+      ],
+      "tags": [
+        "festival",
+        "gr:past-simple"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.who-closing",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 3,
+      "en": "Who's closing the main stage tonight?",
+      "pl": "Kto dziś zamyka główną scenę?",
+      "alternatives": [],
+      "usage": "Pytasz o ostatniego artystę.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Who's closing the main stage tonight? — I think it's Amelie Lens.",
+          "pl": "Kto dziś zamyka główną scenę? — Chyba Amelie Lens."
+        }
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.there-is-clash",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 4,
+      "en": "There's a clash — I want to see both of them.",
+      "pl": "Grają w tym samym czasie — a chcę zobaczyć obu.",
+      "alternatives": [],
+      "usage": "Dwa sety nakładają się w rozpisce.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a clash — I want to see both of them. Let's do half and half.",
+          "pl": "Grają w tym samym czasie — chcę zobaczyć obu. Zróbmy pół na pół."
+        }
+      ],
+      "tags": [
+        "festival",
+        "music",
+        "gr:there-is-are"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.split-up-meet",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 5,
+      "en": "Let's split up and meet after the set.",
+      "pl": "Rozdzielmy się i spotkajmy po secie.",
+      "alternatives": [],
+      "usage": "Każdy idzie na innego DJ-a.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You go to the techno stage, I'll go to house. Let's split up and meet after the set.",
+          "pl": "Ty idź na techno, ja na house. Rozdzielmy się i spotkajmy po secie."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.top-up-wristband",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 6,
+      "en": "Where can I top up my wristband?",
+      "pl": "Gdzie mogę doładować opaskę?",
+      "alternatives": [
+        "Where can I top up my bracelet?"
+      ],
+      "usage": "Na festiwalach bezgotówkowych płacisz opaską.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Where can I top up my wristband? — There's a top-up point next to the bar.",
+          "pl": "Gdzie mogę doładować opaskę? — Punkt doładowań jest obok baru."
+        }
+      ],
+      "tags": [
+        "festival",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.card-or-cash",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 7,
+      "en": "Is it card only, or can I pay cash?",
+      "pl": "Tylko kartą, czy mogę zapłacić gotówką?",
+      "alternatives": [
+        "Is it card only or cash too?"
+      ],
+      "usage": "Pytasz o płatność.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it card only, or can I pay cash? — Card only, sorry.",
+          "pl": "Tylko kartą, czy mogę gotówką? — Tylko kartą, przepraszam."
+        }
+      ],
+      "tags": [
+        "festival",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.dancing-six-hours",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 8,
+      "en": "I've been dancing for six hours straight.",
+      "pl": "Tańczę od sześciu godzin bez przerwy.",
+      "alternatives": [],
+      "usage": "Mówisz, jak długo coś trwa (do teraz).",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've been dancing for six hours straight. I need a break!",
+          "pl": "Tańczę od sześciu godzin bez przerwy. Muszę odpocząć!"
+        }
+      ],
+      "note": "„I've been + -ing + for” = robię coś od jakiegoś czasu i dalej robię. Nie „I dance since six hours”.",
+      "tags": [
+        "festival",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.feet-killing",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 9,
+      "en": "My feet are killing me.",
+      "pl": "Nogi mi odpadają.",
+      "alternatives": [],
+      "usage": "Po całym dniu na nogach.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "My feet are killing me. Can we sit down for ten minutes?",
+          "pl": "Nogi mi odpadają. Możemy usiąść na dziesięć minut?"
+        }
+      ],
+      "tags": [
+        "festival",
+        "idiom"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.watch-my-bag",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 10,
+      "en": "Can you watch my bag for a sec?",
+      "pl": "Popilnujesz mi torby na chwilę?",
+      "alternatives": [
+        "Can you keep an eye on my bag for a sec?",
+        "Can you watch my bag for a second?"
+      ],
+      "usage": "Idziesz do toalety albo po picie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Can you watch my bag for a sec? I'm going to the toilet.",
+          "pl": "Popilnujesz mi torby na chwilę? Idę do toalety."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.first-aid-tent",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 11,
+      "en": "Where's the first aid tent?",
+      "pl": "Gdzie jest namiot pierwszej pomocy?",
+      "alternatives": [],
+      "usage": "Ktoś źle się czuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Excuse me, where's the first aid tent? My friend isn't feeling well.",
+          "pl": "Przepraszam, gdzie jest namiot pierwszej pomocy? Kolega źle się czuje."
+        }
+      ],
+      "tags": [
+        "festival",
+        "rescue",
+        "health"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.find-cover",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 12,
+      "en": "It's starting to rain — let's find some cover.",
+      "pl": "Zaczyna padać — schowajmy się gdzieś.",
+      "alternatives": [],
+      "usage": "Pogoda się psuje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "It's starting to rain — let's find some cover. The tent over there?",
+          "pl": "Zaczyna padać — schowajmy się gdzieś. Pod tamten namiot?"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.best-set-weekend",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 13,
+      "en": "That was the best set of the weekend!",
+      "pl": "To był najlepszy set całego weekendu!",
+      "alternatives": [],
+      "usage": "Emocje po występie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "That was the best set of the weekend! I've got goosebumps.",
+          "pl": "To był najlepszy set weekendu! Mam ciarki."
+        }
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.save-my-spot",
+      "type": "phrase",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 14,
+      "en": "Can you save my spot? I'll be right back.",
+      "pl": "Popilnujesz mi miejsca? Zaraz wracam.",
+      "alternatives": [
+        "Can you keep my spot? I'll be right back."
+      ],
+      "usage": "Pod sceną, gdy wychodzisz na chwilę.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Can you save my spot? I'll be right back with drinks.",
+          "pl": "Popilnujesz mi miejsca? Zaraz wracam z piciem."
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.headliner",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 15,
+      "en": "headliner",
+      "pl": "gwiazda wieczoru, główny wykonawca",
+      "alternatives": [],
+      "usage": "Największe nazwisko na plakacie.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The headliner is on at eleven.",
+          "pl": "Gwiazda wieczoru gra o jedenastej."
+        }
+      ],
+      "collocations": [
+        "this year's headliner",
+        "the Saturday headliner",
+        "see the headliner"
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.clash",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 16,
+      "en": "clash",
+      "pl": "kolizja w rozpisce (dwa sety naraz)",
+      "alternatives": [],
+      "usage": "Festiwalowe słowo na nakładające się występy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "There's a big clash on Saturday night.",
+          "pl": "W sobotę wieczorem jest duża kolizja w rozpisce."
+        }
+      ],
+      "collocations": [
+        "a big clash",
+        "a stage clash",
+        "clash with"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.afterparty",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 17,
+      "en": "afterparty",
+      "pl": "afterparty, impreza po imprezie",
+      "alternatives": [],
+      "usage": "Gdy festiwal się kończy, a Ty jeszcze nie.",
+      "register": "casual",
+      "example": [
+        {
+          "en": "Are you going to the afterparty? — If I'm still alive!",
+          "pl": "Idziesz na afterparty? — Jeśli jeszcze będę żył!"
+        }
+      ],
+      "collocations": [
+        "go to the afterparty",
+        "an official afterparty",
+        "afterparty tickets"
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.refill",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 18,
+      "en": "refill",
+      "pl": "dolewka, ponowne napełnienie",
+      "alternatives": [],
+      "usage": "Darmowa woda albo kubek wielorazowy.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "You can get a free refill at the water point.",
+          "pl": "Darmową dolewkę dostaniesz przy punkcie z wodą."
+        }
+      ],
+      "collocations": [
+        "a free refill",
+        "refill my bottle",
+        "refill station"
+      ],
+      "tags": [
+        "festival",
+        "food"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.cashless",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 19,
+      "en": "cashless",
+      "pl": "bezgotówkowy",
+      "alternatives": [],
+      "usage": "Płatność tylko kartą/opaską.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The whole festival is cashless.",
+          "pl": "Cały festiwal jest bezgotówkowy."
+        }
+      ],
+      "collocations": [
+        "cashless payment",
+        "a cashless festival",
+        "go cashless"
+      ],
+      "tags": [
+        "festival",
+        "numbers"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.exhausted",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 20,
+      "en": "exhausted",
+      "pl": "wykończony, padnięty",
+      "alternatives": [],
+      "usage": "Mocniejsze niż „tired”.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I'm exhausted, but it was worth it.",
+          "pl": "Jestem wykończony, ale było warto."
+        }
+      ],
+      "collocations": [
+        "completely exhausted",
+        "feel exhausted",
+        "absolutely exhausted"
+      ],
+      "note": "Nie „very exhausted” — mów „completely/absolutely exhausted”.",
+      "tags": [
+        "festival",
+        "feelings"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.overcrowded",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 21,
+      "en": "overcrowded",
+      "pl": "zatłoczony, przepełniony",
+      "alternatives": [],
+      "usage": "Za dużo ludzi.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "The main stage is overcrowded. Let's go somewhere else.",
+          "pl": "Pod główną sceną jest za tłoczno. Chodźmy gdzie indziej."
+        }
+      ],
+      "collocations": [
+        "totally overcrowded",
+        "an overcrowded tent",
+        "get overcrowded"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.poncho",
+      "type": "word",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 22,
+      "en": "poncho",
+      "pl": "peleryna przeciwdeszczowa",
+      "alternatives": [],
+      "usage": "Ratunek na festiwalu, gdy leje.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I always pack a poncho — it rains every year.",
+          "pl": "Zawsze pakuję pelerynę — co roku pada."
+        }
+      ],
+      "collocations": [
+        "a rain poncho",
+        "pack a poncho",
+        "put on a poncho"
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.who-playing-after",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 23,
+      "en": "Who's playing after ___?",
+      "pl": "Kto gra po ___?",
+      "alternatives": [],
+      "usage": "Planujesz następny set.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Who's playing after Boris Brejcha?",
+          "pl": "Kto gra po Borisie Brejsze?"
+        },
+        {
+          "en": "Who's playing after the break?",
+          "pl": "Kto gra po przerwie?"
+        }
+      ],
+      "tags": [
+        "festival",
+        "music"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.meet-back-here",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 24,
+      "en": "Let's meet back here at ___.",
+      "pl": "Spotkajmy się tu z powrotem o ___.",
+      "alternatives": [],
+      "usage": "Umawiasz się po rozdzieleniu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Let's meet back here at ten.",
+          "pl": "Spotkajmy się tu z powrotem o dziesiątej."
+        },
+        {
+          "en": "Let's meet back here at half past midnight.",
+          "pl": "Spotkajmy się tu z powrotem o wpół do pierwszej."
+        }
+      ],
+      "tags": [
+        "festival",
+        "time"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.been-all-day",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 25,
+      "en": "I've been ___ all day.",
+      "pl": "Cały dzień ___.",
+      "alternatives": [],
+      "usage": "Coś trwa od rana do teraz.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "I've been dancing all day.",
+          "pl": "Cały dzień tańczę."
+        },
+        {
+          "en": "I've been looking forward to this all day.",
+          "pl": "Cały dzień na to czekam."
+        },
+        {
+          "en": "I've been standing in the sun all day.",
+          "pl": "Cały dzień stoję na słońcu."
+        }
+      ],
+      "tags": [
+        "festival",
+        "gr:present-perfect"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.ok-to-bring",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 26,
+      "en": "Is it OK to bring ___ in?",
+      "pl": "Można wnieść ___?",
+      "alternatives": [],
+      "usage": "Pytasz o zasady wejścia.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Is it OK to bring food in?",
+          "pl": "Można wnieść jedzenie?"
+        },
+        {
+          "en": "Is it OK to bring an empty bottle in?",
+          "pl": "Można wnieść pustą butelkę?"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.going-to-after-this",
+      "type": "pattern",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 27,
+      "en": "We're going to ___ after this.",
+      "pl": "Po tym idziemy ___.",
+      "alternatives": [],
+      "usage": "Mówisz o planie na później.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "We're going to get some food after this.",
+          "pl": "Po tym idziemy coś zjeść."
+        },
+        {
+          "en": "We're going to check out the techno tent after this.",
+          "pl": "Po tym idziemy zobaczyć namiot techno."
+        }
+      ],
+      "tags": [
+        "festival",
+        "gr:going-to"
+      ],
+      "level": "B1"
+    },
+    {
+      "id": "s8.festival-day.at-the-gate",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 28,
+      "en": "At the festival gate",
+      "pl": "Na bramce festiwalu",
+      "alternatives": [],
+      "usage": "Kontrola przy wejściu.",
+      "register": "neutral",
+      "example": [
+        {
+          "en": "Hi, can I see your wristband? And open your bag, please.",
+          "pl": "Cześć, pokażesz opaskę? I otwórz torbę, proszę.",
+          "speaker": "A"
+        },
+        {
+          "en": "Sure. Am I allowed to bring this in? It's a power bank.",
+          "pl": "Jasne. Mogę to wnieść? To powerbank.",
+          "speaker": "B"
+        },
+        {
+          "en": "That's fine. But you can't bring the bottle in, sorry.",
+          "pl": "Może być. Ale butelki nie wniesiesz, przykro mi.",
+          "speaker": "A"
+        },
+        {
+          "en": "Oh, OK. Is there a free water point inside?",
+          "pl": "Aha, dobra. Jest w środku darmowy punkt z wodą?",
+          "speaker": "B"
+        },
+        {
+          "en": "Yes, you can get free refills next to the main stage. Have fun!",
+          "pl": "Tak, darmowe dolewki są obok głównej sceny. Baw się dobrze!",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    },
+    {
+      "id": "s8.festival-day.planning-the-night",
+      "type": "dialog",
+      "stage": 8,
+      "module": "s8.festival-day",
+      "order": 29,
+      "en": "Planning the night",
+      "pl": "Plan na wieczór",
+      "alternatives": [],
+      "usage": "Kolizja w rozpisce — co robicie?",
+      "register": "casual",
+      "example": [
+        {
+          "en": "OK, there's a clash at ten. I want to see both of them.",
+          "pl": "Dobra, o dziesiątej jest kolizja. Chcę zobaczyć obu.",
+          "speaker": "A"
+        },
+        {
+          "en": "Me too. Let's split up and meet after the set.",
+          "pl": "Ja też. Rozdzielmy się i spotkajmy po secie.",
+          "speaker": "B"
+        },
+        {
+          "en": "Where? The main stage is always overcrowded.",
+          "pl": "Gdzie? Pod główną sceną zawsze jest tłum.",
+          "speaker": "A"
+        },
+        {
+          "en": "Let's meet back here at eleven, by the food trucks.",
+          "pl": "Spotkajmy się tu o jedenastej, przy food truckach.",
+          "speaker": "B"
+        },
+        {
+          "en": "Deal. And if my phone dies, I'll wait here.",
+          "pl": "Umowa. A jak padnie mi telefon, czekam tutaj.",
+          "speaker": "A"
+        }
+      ],
+      "tags": [
+        "festival"
+      ],
+      "level": "A2"
+    }
+  ]
+}
