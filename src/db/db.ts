@@ -14,6 +14,8 @@ export interface Settings {
   /** Dzień rozpoczęcia nauki (YYYY-MM-DD) — do planu. */
   startDate: string
   newPerDay: number
+  /** Nowe słówka ze słownika dziennie (osobno od zwrotów z programu). */
+  vocabPerDay: number
   maxReviews: number
   accent: Accent
   /** voiceURI wybranego głosu angielskiego (puste = automatycznie najlepszy). */
@@ -42,6 +44,8 @@ export interface DayRow {
   newItems: number
   /** Dodatkowe nowe elementy dołożone tego dnia („Ucz się dalej”). */
   extraNew: number
+  /** Ile z `newItems` to nowe słówka ze słownika. */
+  vocabNew?: number
   speakingDone: boolean
   audioSeconds: number
 }

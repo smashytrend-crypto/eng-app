@@ -1,4 +1,4 @@
-import { contentItems, priorityModuleIds } from '../content'
+import { allContentItems, priorityModuleIds } from '../content'
 import type { Item } from '../content/schema'
 import { db, type SessionRow, type Settings } from '../db/db'
 import { getDay, getSettings, loadCards } from '../db/repo'
@@ -20,7 +20,7 @@ export function enabledModes(): Set<ExerciseMode> {
 
 export async function allItems(): Promise<Item[]> {
   const custom = (await db.customItems.toArray()).sort((a, b) => a.order - b.order)
-  return [...custom, ...contentItems]
+  return [...custom, ...allContentItems]
 }
 
 /** Moduły z pierwszeństwem: jeśli jest zaplanowany wyjazd w ciągu 120 dni. */
@@ -45,8 +45,9 @@ export async function planToday(now = new Date(), settings?: Settings): Promise<
     items,
     cards,
     newPerDay: s.newPerDay,
+    vocabPerDay: s.vocabPerDay,
     maxReviews: s.maxReviews,
-    doneToday: { reviews: day.reviews, newItems: day.newItems },
+    doneToday: { reviews: day.reviews, newItems: day.newItems, vocabNew: day.vocabNew ?? 0 },
     extraNew: day.extraNew,
     priorityModules: priority,
     modes: { enabled: enabledModes(), typing: s.typing },

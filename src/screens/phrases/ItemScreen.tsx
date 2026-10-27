@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { ItemBadges, ItemDetails } from '../../components/ItemDetails'
 import { SpeakButton } from '../../components/SpeakButton'
 import { Button, Card, Muted, Screen } from '../../components/ui'
-import { moduleById } from '../../content'
+import { moduleById, vocabSetById } from '../../content'
 import { db } from '../../db/db'
 import { toggleFavorite } from '../../db/repo'
 import { firstLettersHint } from '../../lib/exercises'
@@ -58,6 +58,9 @@ export function ItemScreen({ itemId }: { itemId: string }) {
             </p>
           )}
           {mod && <p className="text-zinc-600 dark:text-zinc-400">Moduł: {mod.title}</p>}
+          {vocabSetById.has(item.module) && (
+            <p className="text-zinc-600 dark:text-zinc-400">Słownik: {vocabSetById.get(item.module)!.title}</p>
+          )}
         </Card>
 
         {item.type !== 'dialog' && (

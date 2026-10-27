@@ -8,6 +8,7 @@ import { MissionScreen } from './screens/path/MissionScreen'
 import { PathScreen } from './screens/path/PathScreen'
 import { CustomItemForm } from './screens/phrases/CustomItemForm'
 import { ItemScreen } from './screens/phrases/ItemScreen'
+import { VocabSetScreen } from './screens/phrases/VocabScreens'
 import { ModuleScreen } from './screens/phrases/ModuleScreen'
 import { PhrasesScreen } from './screens/phrases/PhrasesScreen'
 import { ProgressScreen } from './screens/ProgressScreen'
@@ -51,6 +52,7 @@ function Routes({ path }: { path: string }) {
   if (path === '/progress') return <ProgressScreen />
   if (path === '/phrases') return <PhrasesScreen />
   if ((m = matchRoute('/phrases/module/:id', path))) return <ModuleScreen moduleId={m.id} />
+  if ((m = matchRoute('/vocab/:id', path))) return <VocabSetScreen key={m.id} setId={m.id} />
   if ((m = matchRoute('/item/:id', path))) return <ItemScreen key={m.id} itemId={m.id} />
   if (path === '/custom/new') return <CustomItemForm />
   if ((m = matchRoute('/custom/:id', path))) return <CustomItemForm key={m.id} itemId={m.id} />

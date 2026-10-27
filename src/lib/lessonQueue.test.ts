@@ -10,7 +10,7 @@ import {
   requeueIndex,
   type ModeOptions,
 } from './lessonQueue'
-import { newCard, Rating, reviewCard, State, type StoredCard } from './srs'
+import { isMastered, knownWordCard, knownWordDays, newCard, Rating, reviewCard, State, type StoredCard } from './srs'
 import { makeItem } from './testItems'
 
 const now = new Date('2026-11-02T18:00:00')
@@ -181,5 +181,36 @@ describe('exercises', () => {
 
   it('podpowiedź z pierwszych liter', () => {
     expect(firstLettersHint("I'm going to the gym.")).toBe("I'_ g____ t_ t__ g__.")
+  })
+})
+
+describe('słownik', () => {
+  const vocab = Array.from({ length: 10 }, (_, i) =>
+    makeItem({ id: `v.word${i}`, type: 'word', stage: 0, module: 'v.01', order: i + 1, collocations: ['a b', 'c d'] }),
+  )
+  it('słówka mają osobny limit i idą w kolejności słownika', () => {
+    const plan = buildLesson({
+      now, items: [...items(20), ...vocab], cards: new Map(), newPerDay: 4, vocabPerDay: 3, maxReviews: 60,
+      doneToday: { reviews: 0, newItems: 0 }, modes, rng: fixedRng,
+    })
+    expect(plan.newCount).toBe(7)
+    expect(plan.vocabCount).toBe(3)
+    expect(plan.entries.filter((e) => e.itemId.startsWith('v.')).map((e) => e.itemId)).toEqual(['v.word0', 'v.word1', 'v.word2'])
+  })
+  it('słówka zrobione dziś nie zjadają limitu zwrotów', () => {
+    const plan = buildLesson({
+      now, items: [...items(20), ...vocab], cards: new Map(), newPerDay: 4, vocabPerDay: 3, maxReviews: 60,
+      doneToday: { reviews: 0, newItems: 3, vocabNew: 3 }, modes, rng: fixedRng,
+    })
+    expect(plan.newCount).toBe(4)
+    expect(plan.vocabCount).toBe(0)
+  })
+  it('„już znam”: karta w powtórkach, opanowana, wraca za 21–90 dni', () => {
+    const d = knownWordDays('v.house')
+    expect(d).toBeGreaterThanOrEqual(21)
+    expect(d).toBeLessThanOrEqual(90)
+    const c = knownWordCard('v.house', now, d)
+    expect(isMastered(c)).toBe(true)
+    expect(c.due).toBe(now.getTime() + d * DAY)
   })
 })

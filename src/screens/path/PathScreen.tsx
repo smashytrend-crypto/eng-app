@@ -2,9 +2,9 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { CalendarHeart, Check, Flag, Plane, Plus, Sparkles, Sun, Trash2 } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { Badge, Button, Card, Muted, ProgressBar, Screen, SectionTitle, Segmented } from '../../components/ui'
-import { contentItems, itemsOfModule, modulesOfStage, priorityModuleIds, stages } from '../../content'
+import { contentItems, itemsOfModule, modulesOfStage, priorityModuleIds, stages, vocabItems } from '../../content'
 import { db, type Trip } from '../../db/db'
-import { diffDays, formatDatePl, isWeekend, pluralN } from '../../lib/dates'
+import { addDays, diffDays, formatDatePl, isWeekend, pluralN } from '../../lib/dates'
 import { computePlan, planMessage, stageSchedule, tripPlan } from '../../lib/plan'
 import { State } from '../../lib/srs'
 import { currentStage } from '../../lib/stats'
@@ -85,6 +85,8 @@ export function PathScreen() {
           Zmień tempo w ustawieniach
         </Button>
       </Card>
+
+      {vocabItems.length > 0 && <VocabCard known={vocabItems.filter((i) => data.known(i.id)).length} perDay={settings.vocabPerDay} today={today} />}
 
       <MissionLink today={today} />
 
@@ -233,5 +235,35 @@ function Trips({ trips, today, known }: { trips: Trip[]; today: string; known: (
         <Badge tone="emerald">Pierwszeństwo dla modułów wyjazdowych jest włączone</Badge>
       )}
     </div>
+  )
+}
+
+function VocabCard({ known, perDay, today }: { known: number; perDay: number; today: string }) {
+  const total = vocabItems.length
+  const left = total - known
+  const days = perDay > 0 ? Math.ceil((left / perDay) * (7 / 6)) : null
+  return (
+    <>
+      <SectionTitle>Słownik</SectionTitle>
+      <Card className="space-y-3">
+        <div className="flex items-end justify-between">
+          <p className="text-lg font-bold">
+            {known} / {total}
+          </p>
+          <Muted>najczęstszych słów</Muted>
+        </div>
+        <ProgressBar value={known / Math.max(1, total)} color="bg-sky-500" className="h-3" />
+        <Muted>
+          {left === 0
+            ? 'Cały słownik za Tobą!'
+            : days
+              ? `${perDay} nowych słówek dziennie → cały słownik ok. ${formatDatePl(addDays(today, days))}. Słownik jest osobno od planu wakacyjnego — możesz go ciągnąć dalej po wakacjach.`
+              : 'Nowe słówka są wyłączone (Ustawienia → Nowe słówka ze słownika).'}
+        </Muted>
+        <Button variant="secondary" size="md" full onClick={() => navigate('/phrases?tab=vocab')}>
+          Otwórz słownik
+        </Button>
+      </Card>
+    </>
   )
 }

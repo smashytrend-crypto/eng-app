@@ -2,7 +2,7 @@ import { Check, ChevronRight, Eye, Headphones, MessageSquare, Mic, Upload, X } f
 import { useMemo, useRef, useState, type ReactNode } from 'react'
 import { SpeakButton } from '../components/SpeakButton'
 import { Button, Card, Muted, ProgressBar, Segmented, Stepper } from '../components/ui'
-import { contentItems } from '../content'
+import { contentItems, vocabItems } from '../content'
 import type { Accent } from '../db/db'
 import { importBackup, parseBackup } from '../db/backup'
 import { saveCards, saveSettings } from '../db/repo'
@@ -150,9 +150,10 @@ function TargetStep({ value, onNext }: { value: string; onNext: () => void }) {
 
 function PaceStep({ value, targetDate, onNext }: { value: number; targetDate: string; onNext: () => void }) {
   const [n, setN] = useState(value)
+  const [v, setV] = useState(5)
   const days = Math.max(1, diffDays(dayKey(), targetDate))
   const total = contentItems.length
-  const minutes = Math.round(n * 1.1 + 6)
+  const minutes = Math.round(n * 1.1 + v * 0.6 + 6)
   const covered = Math.min(total, Math.round((n * days * 6) / 7))
   return (
     <div className="space-y-6">
@@ -160,6 +161,15 @@ function PaceStep({ value, targetDate, onNext }: { value: number; targetDate: st
       <Muted>Zwroty, słówka i wzorce. Do tego codzienne powtórki. 8 to dobry start — ok. 15 minut dziennie.</Muted>
       <div className="flex justify-center">
         <Stepper value={n} onChange={setN} min={3} max={25} />
+      </div>
+      <div className="space-y-2">
+        <p className="text-lg font-bold">A do tego nowych słówek ze słownika?</p>
+        <Muted>
+          Słownik to {vocabItems.length} najczęściej używanych słów — od najprostszych. Te, które znasz, odhaczysz w Rozmówkach → Słownik.
+        </Muted>
+        <div className="flex justify-center">
+          <Stepper value={v} onChange={setV} min={0} max={20} />
+        </div>
       </div>
       <Card className="space-y-1">
         <p>
@@ -169,7 +179,7 @@ function PaceStep({ value, targetDate, onNext }: { value: number; targetDate: st
           W tym tempie do celu poznasz ok. {covered} z {total} elementów programu.
         </p>
       </Card>
-      <Button full onClick={async () => { await saveSettings({ newPerDay: n }); onNext() }}>
+      <Button full onClick={async () => { await saveSettings({ newPerDay: n, vocabPerDay: v }); onNext() }}>
         Dalej
       </Button>
     </div>

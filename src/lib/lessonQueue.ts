@@ -1,4 +1,4 @@
-import type { Item } from '../content/schema'
+import { isVocab, type Item } from '../content/schema'
 import { dayEnd } from './dates'
 import { clozeData, sentenceFor, wordCount } from './exercises'
 import { isLearningState, State, type StoredCard } from './srs'
@@ -31,8 +31,11 @@ export interface LessonInput {
   items: Item[]
   cards: ReadonlyMap<string, StoredCard>
   newPerDay: number
+  /** Nowe słówka ze słownika dziennie (osobny limit, kolejność: poziom → częstotliwość). */
+  vocabPerDay?: number
   maxReviews: number
-  doneToday: { reviews: number; newItems: number }
+  /** newItems = wszystkie nowe dziś (także słówka); vocabNew = w tym słówka ze słownika. */
+  doneToday: { reviews: number; newItems: number; vocabNew?: number }
   /** Dodatkowe nowe elementy na dziś („Ucz się dalej”). */
   extraNew?: number
   /** Id modułów z pierwszeństwem (wyjazd: podróże / festiwale). */
@@ -47,6 +50,8 @@ export interface LessonPlan {
   dueTotal: number
   reviewCount: number
   newCount: number
+  /** Ile z nowych to słówka ze słownika. */
+  vocabCount: number
 }
 
 const TYPING_FACTOR: Record<TypingPreference, number> = { often: 2, sometimes: 1, rarely: 0.25 }
@@ -151,8 +156,14 @@ export function buildLesson(input: LessonInput): LessonPlan {
   const due = dueCards(input.cards, input.now, new Set(byId.keys()))
   const reviewBudget = Math.max(0, input.maxReviews - input.doneToday.reviews)
   const reviews = due.slice(0, reviewBudget)
-  const nNew = newBudget(input.newPerDay, input.maxReviews, due.length, input.doneToday.newItems, input.extraNew)
-  const news = orderNewItems(input.items, input.cards, input.priorityModules, nNew)
+  const doneVocab = input.doneToday.vocabNew ?? 0
+  const program = input.items.filter((i) => !isVocab(i))
+  const vocab = input.items.filter((i) => isVocab(i))
+  const nNew = newBudget(input.newPerDay, input.maxReviews, due.length, input.doneToday.newItems - doneVocab, input.extraNew)
+  const nVocab = newBudget(input.vocabPerDay ?? 0, input.maxReviews, due.length, doneVocab)
+  const programNews = orderNewItems(program, input.cards, input.priorityModules, nNew)
+  const vocabNews = vocab.filter((i) => !input.cards.has(i.id)).slice(0, nVocab)
+  const news = interleave(programNews, vocabNews)
 
   const reviewEntries: QueueEntry[] = reviews.map((c) => {
     const item = byId.get(c.itemId)!
@@ -171,6 +182,7 @@ export function buildLesson(input: LessonInput): LessonPlan {
     dueTotal: due.length,
     reviewCount: reviewEntries.length,
     newCount: newEntries.length,
+    vocabCount: vocabNews.length,
   }
 }
 

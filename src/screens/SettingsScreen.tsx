@@ -45,6 +45,9 @@ export function SettingsScreen() {
         <Row label="Nowe elementy dziennie" hint="Więcej = szybciej, ale dłuższe powtórki.">
           <Stepper value={settings.newPerDay} onChange={(v) => set({ newPerDay: v })} min={1} max={30} />
         </Row>
+        <Row label="Nowe słówka ze słownika dziennie" hint="Osobno od zwrotów: najczęstsze słowa po kolei. 0 = wyłączone.">
+          <Stepper value={settings.vocabPerDay} onChange={(v) => set({ vocabPerDay: v })} min={0} max={30} />
+        </Row>
         <Row label="Maks. powtórek dziennie" hint="Zaległości ponad limit przejdą na kolejne dni.">
           <Stepper value={settings.maxReviews} onChange={(v) => set({ maxReviews: v })} min={20} max={300} step={10} />
         </Row>

@@ -104,6 +104,11 @@ export function TodayScreen() {
               <Stat value={plan.newCount} label="nowe" />
               <Stat value={`~${estimateMinutes(plan.reviewCount, plan.newCount)}`} label="minut" />
             </div>
+            {plan.vocabCount > 0 && (
+              <Muted className="text-center">
+                W tym {pluralN(plan.vocabCount, 'nowe słówko', 'nowe słówka', 'nowych słówek')} ze słownika.
+              </Muted>
+            )}
             {plan.dueTotal > plan.reviewCount && (
               <Muted>
                 Zaległości rozłożę na kolejne dni ({plan.dueTotal - plan.reviewCount} poczeka). Bez stresu.

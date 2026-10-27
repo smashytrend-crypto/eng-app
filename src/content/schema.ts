@@ -3,6 +3,8 @@ import { z } from 'zod'
 export const ITEM_TYPES = ['phrase', 'word', 'pattern', 'dialog'] as const
 export const REGISTERS = ['casual', 'neutral', 'polite'] as const
 export const LEVELS = ['A2', 'B1', 'B2'] as const
+export const VOCAB_LEVELS = ['A1', 'A2', 'B1', 'B2'] as const
+export const PARTS_OF_SPEECH = ['n', 'v', 'adj', 'adv', 'prep', 'conj', 'pron', 'det', 'int', 'phr'] as const
 export const MODULE_TAGS = ['general', 'travel', 'festival'] as const
 
 const text = z.string().trim().min(1)
@@ -125,11 +127,52 @@ export const missionSchema = z
   })
   .strict()
 
+/** Słówko ze słownika (content/vocab) — zwięzły format, zamieniany w aplikacji na zwykły element `word`. */
+export const vocabItemSchema = z
+  .object({
+    id: z.string().regex(/^v\.[a-z0-9-]+$/, 'id: v.{słowo}'),
+    en: text,
+    pl: text,
+    pos: z.enum(PARTS_OF_SPEECH),
+    level: z.enum(VOCAB_LEVELS),
+    /** Miejsce na liście częstotliwości (mniejsze = częstsze). */
+    rank: z.number().int().min(1),
+    alternatives: z.array(text).optional(),
+    example: z.array(exampleLineSchema).min(1),
+    collocations: z.array(text).optional(),
+    note: text.optional(),
+    pronunciation: text.optional(),
+    tags: z.array(tag).optional(),
+  })
+  .strict()
+
+export const vocabSetSchema = z
+  .object({
+    id: z.string().regex(/^v\.\d{2}$/),
+    order: z.number().int().min(1),
+    level: z.enum(VOCAB_LEVELS),
+    title: text,
+    description: text,
+  })
+  .strict()
+
+export const vocabFileSchema = z
+  .object({
+    set: vocabSetSchema,
+    items: z.array(vocabItemSchema).min(1),
+  })
+  .strict()
+
 export const missionsFileSchema = z.object({ missions: z.array(missionSchema).min(1) }).strict()
 
 export type ItemType = (typeof ITEM_TYPES)[number]
 export type Register = (typeof REGISTERS)[number]
 export type Level = (typeof LEVELS)[number]
+export type VocabLevel = (typeof VOCAB_LEVELS)[number]
+export type PartOfSpeech = (typeof PARTS_OF_SPEECH)[number]
+export type VocabItem = z.infer<typeof vocabItemSchema>
+export type VocabSet = z.infer<typeof vocabSetSchema>
+export type VocabFile = z.infer<typeof vocabFileSchema>
 export type ModuleTag = (typeof MODULE_TAGS)[number]
 export type ExampleLine = z.infer<typeof exampleLineSchema>
 export type ContentItem = z.infer<typeof itemSchema>
@@ -141,10 +184,15 @@ export type Mission = z.infer<typeof missionSchema>
 export type MissionStep = z.infer<typeof missionStepSchema>
 
 /**
- * Element używany w aplikacji: elementy z treści (etapy 1–8) oraz własne zwroty użytkownika
- * (stage 0, module "custom", id zaczyna się od "u.").
+ * Element używany w aplikacji: elementy z treści (etapy 1–8), słówka ze słownika (stage 0, id „v.*”,
+ * module = zestaw „v.NN”) oraz własne zwroty użytkownika (stage 0, module "custom", id zaczyna się od "u.").
  */
-export interface Item extends Omit<ContentItem, 'stage'> {
+export interface Item extends Omit<ContentItem, 'stage' | 'level'> {
   stage: number
+  level: VocabLevel
   custom?: boolean
+}
+
+export function isVocab(item: Pick<Item, 'id'>): boolean {
+  return item.id.startsWith('v.')
 }

@@ -1,0 +1,815 @@
+{
+ "set": {
+  "id": "v.08",
+  "order": 8,
+  "level": "B2",
+  "title": "Słówka B2 · 1",
+  "description": "Bogatszy język: precyzyjne słowa, którymi brzmisz naturalnie i pewnie. Część 1 z 1."
+ },
+ "items": [
+  {
+   "id": "v.term",
+   "en": "term",
+   "pl": "termin, pojęcie; semestr",
+   "pos": "n",
+   "level": "B2",
+   "rank": 216,
+   "example": [
+    {
+     "en": "What does this term mean?",
+     "pl": "Co oznacza to pojęcie?"
+    }
+   ],
+   "collocations": [
+    "in terms of",
+    "long-term",
+    "technical term"
+   ]
+  },
+  {
+   "id": "v.require",
+   "en": "require",
+   "pl": "wymagać",
+   "pos": "v",
+   "level": "B2",
+   "rank": 322,
+   "example": [
+    {
+     "en": "A passport is required.",
+     "pl": "Wymagany jest paszport."
+    }
+   ],
+   "collocations": [
+    "be required",
+    "require help",
+    "required field"
+   ]
+  },
+  {
+   "id": "v.source",
+   "en": "source",
+   "pl": "źródło",
+   "pos": "n",
+   "level": "B2",
+   "rank": 344,
+   "example": [
+    {
+     "en": "What's your source?",
+     "pl": "Skąd to wiesz?"
+    }
+   ],
+   "collocations": [
+    "main source",
+    "source of",
+    "reliable source"
+   ]
+  },
+  {
+   "id": "v.policy",
+   "en": "policy",
+   "pl": "polityka (zasady)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 375,
+   "example": [
+    {
+     "en": "What's the cancellation policy?",
+     "pl": "Jakie są zasady anulowania?"
+    }
+   ],
+   "collocations": [
+    "cancellation policy",
+    "company policy",
+    "return policy"
+   ]
+  },
+  {
+   "id": "v.involve",
+   "en": "involve",
+   "pl": "obejmować, angażować",
+   "pos": "v",
+   "level": "B2",
+   "rank": 384,
+   "example": [
+    {
+     "en": "The job involves a lot of lifting.",
+     "pl": "Praca wymaga dużo dźwigania."
+    }
+   ],
+   "collocations": [
+    "be involved in",
+    "get involved",
+    "involve doing"
+   ]
+  },
+  {
+   "id": "v.property",
+   "en": "property",
+   "pl": "własność, nieruchomość",
+   "pos": "n",
+   "level": "B2",
+   "rank": 447,
+   "example": [
+    {
+     "en": "Property prices are crazy here.",
+     "pl": "Ceny nieruchomości są tu szalone."
+    }
+   ],
+   "collocations": [
+    "private property",
+    "lost property",
+    "property market"
+   ]
+  },
+  {
+   "id": "v.individual",
+   "en": "individual",
+   "pl": "indywidualny; osoba",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 468,
+   "example": [
+    {
+     "en": "Each room has an individual bathroom.",
+     "pl": "Każdy pokój ma osobną łazienkę."
+    }
+   ],
+   "collocations": [
+    "individual needs",
+    "individual tickets",
+    "each individual"
+   ]
+  },
+  {
+   "id": "v.military",
+   "en": "military",
+   "pl": "wojskowy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 490,
+   "example": [
+    {
+     "en": "My grandad was in the military.",
+     "pl": "Mój dziadek był w wojsku."
+    }
+   ],
+   "collocations": [
+    "military service",
+    "military base",
+    "the military"
+   ]
+  },
+  {
+   "id": "v.evidence",
+   "en": "evidence",
+   "pl": "dowód (dowody)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 550,
+   "example": [
+    {
+     "en": "Is there any evidence?",
+     "pl": "Są jakieś dowody?"
+    }
+   ],
+   "collocations": [
+    "evidence of",
+    "no evidence",
+    "hard evidence"
+   ]
+  },
+  {
+   "id": "v.chief",
+   "en": "chief",
+   "pl": "szef; główny",
+   "pos": "n",
+   "level": "B2",
+   "rank": 551,
+   "example": [
+    {
+     "en": "He's the chief of police.",
+     "pl": "To komendant policji."
+    }
+   ],
+   "collocations": [
+    "chief executive",
+    "chief of police",
+    "fire chief"
+   ]
+  },
+  {
+   "id": "v.nation",
+   "en": "nation",
+   "pl": "naród",
+   "pos": "n",
+   "level": "B2",
+   "rank": 562,
+   "example": [
+    {
+     "en": "The whole nation watched the match.",
+     "pl": "Cały naród oglądał mecz."
+    }
+   ],
+   "collocations": [
+    "the nation",
+    "United Nations",
+    "nation-wide"
+   ]
+  },
+  {
+   "id": "v.fund",
+   "en": "fund",
+   "pl": "fundusz; finansować",
+   "pos": "n",
+   "level": "B2",
+   "rank": 583,
+   "example": [
+    {
+     "en": "We're raising funds for a charity.",
+     "pl": "Zbieramy pieniądze na cele charytatywne."
+    }
+   ],
+   "collocations": [
+    "raise funds",
+    "funds for",
+    "pension fund"
+   ]
+  },
+  {
+   "id": "v.attempt",
+   "en": "attempt",
+   "pl": "próba; próbować",
+   "pos": "n",
+   "level": "B2",
+   "rank": 585,
+   "example": [
+    {
+     "en": "It was my first attempt.",
+     "pl": "To była moja pierwsza próba."
+    }
+   ],
+   "collocations": [
+    "first attempt",
+    "attempt to",
+    "make an attempt"
+   ]
+  },
+  {
+   "id": "v.concern",
+   "en": "concern",
+   "pl": "zmartwienie; dotyczyć",
+   "pos": "n",
+   "level": "B2",
+   "rank": 591,
+   "example": [
+    {
+     "en": "My main concern is the price.",
+     "pl": "Najbardziej martwi mnie cena."
+    }
+   ],
+   "collocations": [
+    "main concern",
+    "concerned about",
+    "no concern"
+   ]
+  },
+  {
+   "id": "v.approach",
+   "en": "approach",
+   "pl": "podejście; podchodzić",
+   "pos": "n",
+   "level": "B2",
+   "rank": 596,
+   "example": [
+    {
+     "en": "I like his approach to training.",
+     "pl": "Podoba mi się jego podejście do treningu."
+    }
+   ],
+   "collocations": [
+    "approach to",
+    "new approach",
+    "approach somebody"
+   ]
+  },
+  {
+   "id": "v.minister",
+   "en": "minister",
+   "pl": "minister",
+   "pos": "n",
+   "level": "B2",
+   "rank": 600,
+   "example": [
+    {
+     "en": "The prime minister was on TV.",
+     "pl": "Premier był w telewizji."
+    }
+   ],
+   "collocations": [
+    "prime minister",
+    "minister of",
+    "government minister"
+   ]
+  },
+  {
+   "id": "v.cell",
+   "en": "cell",
+   "pl": "komórka; cela",
+   "pos": "n",
+   "level": "B2",
+   "rank": 611,
+   "example": [
+    {
+     "en": "Give me your cell number.",
+     "pl": "Daj mi swój numer komórki."
+    }
+   ],
+   "collocations": [
+    "cell phone",
+    "prison cell",
+    "cell number"
+   ],
+   "note": "US „cell phone”, UK „mobile”.",
+   "tags": [
+    "uk-us"
+   ]
+  },
+  {
+   "id": "v.council",
+   "en": "council",
+   "pl": "rada (miasta)",
+   "pos": "n",
+   "level": "B2",
+   "rank": 622,
+   "example": [
+    {
+     "en": "The city council closed the park.",
+     "pl": "Rada miasta zamknęła park."
+    }
+   ],
+   "collocations": [
+    "city council",
+    "council tax",
+    "local council"
+   ]
+  },
+  {
+   "id": "v.response",
+   "en": "response",
+   "pl": "odpowiedź, reakcja",
+   "pos": "n",
+   "level": "B2",
+   "rank": 632,
+   "example": [
+    {
+     "en": "I didn't get a response.",
+     "pl": "Nie dostałem odpowiedzi."
+    }
+   ],
+   "collocations": [
+    "response to",
+    "quick response",
+    "in response"
+   ]
+  },
+  {
+   "id": "v.economic",
+   "en": "economic",
+   "pl": "ekonomiczny",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 636,
+   "example": [
+    {
+     "en": "The economic situation is difficult.",
+     "pl": "Sytuacja gospodarcza jest trudna."
+    }
+   ],
+   "collocations": [
+    "economic crisis",
+    "economic growth",
+    "economic situation"
+   ],
+   "note": "„economic” = gospodarczy, „economical” = oszczędny."
+  },
+  {
+   "id": "v.statement",
+   "en": "statement",
+   "pl": "oświadczenie; wyciąg",
+   "pos": "n",
+   "level": "B2",
+   "rank": 640,
+   "example": [
+    {
+     "en": "I need a bank statement.",
+     "pl": "Potrzebuję wyciągu z konta."
+    }
+   ],
+   "collocations": [
+    "bank statement",
+    "make a statement",
+    "official statement"
+   ]
+  },
+  {
+   "id": "v.represent",
+   "en": "represent",
+   "pl": "reprezentować",
+   "pos": "v",
+   "level": "B2",
+   "rank": 645,
+   "example": [
+    {
+     "en": "He represented Poland at the competition.",
+     "pl": "Reprezentował Polskę na zawodach."
+    }
+   ],
+   "collocations": [
+    "represent Poland",
+    "represent a company",
+    "represent"
+   ]
+  },
+  {
+   "id": "v.establish",
+   "en": "establish",
+   "pl": "założyć, ustalić",
+   "pos": "v",
+   "level": "B2",
+   "rank": 648,
+   "example": [
+    {
+     "en": "The festival was established in 2005.",
+     "pl": "Festiwal powstał w 2005 roku."
+    }
+   ],
+   "collocations": [
+    "establish a company",
+    "well-established",
+    "establish contact"
+   ]
+  },
+  {
+   "id": "v.operate",
+   "en": "operate",
+   "pl": "obsługiwać; operować",
+   "pos": "v",
+   "level": "B2",
+   "rank": 652,
+   "example": [
+    {
+     "en": "Can you operate this machine?",
+     "pl": "Umiesz obsługiwać tę maszynę?"
+    }
+   ],
+   "collocations": [
+    "operate a machine",
+    "operate on",
+    "operate as"
+   ]
+  },
+  {
+   "id": "v.seek",
+   "en": "seek",
+   "pl": "szukać (formalnie)",
+   "pos": "v",
+   "level": "B2",
+   "rank": 655,
+   "example": [
+    {
+     "en": "We're seeking new staff.",
+     "pl": "Szukamy nowych pracowników."
+    }
+   ],
+   "collocations": [
+    "seek help",
+    "seek advice",
+    "hide and seek"
+   ],
+   "note": "seek – sought – sought. W mowie częściej „look for”."
+  },
+  {
+   "id": "v.campaign",
+   "en": "campaign",
+   "pl": "kampania",
+   "pos": "n",
+   "level": "B2",
+   "rank": 661,
+   "example": [
+    {
+     "en": "They're running an ad campaign.",
+     "pl": "Prowadzą kampanię reklamową."
+    }
+   ],
+   "collocations": [
+    "ad campaign",
+    "election campaign",
+    "campaign for"
+   ]
+  },
+  {
+   "id": "v.financial",
+   "en": "financial",
+   "pl": "finansowy",
+   "pos": "adj",
+   "level": "B2",
+   "rank": 682,
+   "example": [
+    {
+     "en": "I've got some financial problems.",
+     "pl": "Mam problemy finansowe."
+    }
+   ],
+   "collocations": [
+    "financial problems",
+    "financial support",
+    "financial year"
+   ]
+  },
+  {
+   "id": "v.supply",
+   "en": "supply",
+   "pl": "dostawa; zaopatrywać",
+   "pos": "n",
+   "level": "B2",
+   "rank": 695,
+   "example": [
+    {
+     "en": "We need supplies for the camping.",
+     "pl": "Potrzebujemy zapasów na kemping."
+    }
+   ],
+   "collocations": [
+    "supplies",
+    "water supply",
+    "supply and demand"
+   ]
+  },
+  {
+   "id": "v.demand",
+   "en": "demand",
+   "pl": "popyt; żądać",
+   "pos": "n",
+   "level": "B2",
+   "rank": 721,
+   "example": [
+    {
+     "en": "Tickets are in high demand.",
+     "pl": "Na bilety jest duży popyt."
+    }
+   ],
+   "collocations": [
+    "in demand",
+    "high demand",
+    "on demand"
+   ]
+  },
+  {
+   "id": "v.association",
+   "en": "association",
+   "pl": "stowarzyszenie",
+   "pos": "n",
+   "level": "B2",
+   "rank": 737,
+   "example": [
+    {
+     "en": "He's a member of a fans' association.",
+     "pl": "Jest członkiem stowarzyszenia kibiców."
+    }
+   ],
+   "collocations": [
+    "in association with",
+    "football association",
+    "association of"
+   ]
+  },
+  {
+   "id": "v.lack",
+   "en": "lack",
+   "pl": "brak",
+   "pos": "n",
+   "level": "B2",
+   "rank": 757,
+   "example": [
+    {
+     "en": "I'm tired from lack of sleep.",
+     "pl": "Jestem zmęczony z niewyspania."
+    }
+   ],
+   "collocations": [
+    "lack of",
+    "lack of sleep",
+    "for lack of"
+   ]
+  },
+  {
+   "id": "v.launch",
+   "en": "launch",
+   "pl": "wypuścić, zaprezentować; start",
+   "pos": "v",
+   "level": "B2",
+   "rank": 758,
+   "example": [
+    {
+     "en": "They launched a new app.",
+     "pl": "Wypuścili nową aplikację."
+    }
+   ],
+   "collocations": [
+    "launch a product",
+    "launch date",
+    "launch an app"
+   ]
+  },
+  {
+   "id": "v.authority",
+   "en": "authority",
+   "pl": "władze, urząd",
+   "pos": "n",
+   "level": "B2",
+   "rank": 772,
+   "example": [
+    {
+     "en": "You need to report it to the authorities.",
+     "pl": "Musisz zgłosić to władzom."
+    }
+   ],
+   "collocations": [
+    "the authorities",
+    "local authority",
+    "authority to"
+   ]
+  },
+  {
+   "id": "v.growth",
+   "en": "growth",
+   "pl": "wzrost",
+   "pos": "n",
+   "level": "B2",
+   "rank": 773,
+   "example": [
+    {
+     "en": "There's been a lot of growth in the city.",
+     "pl": "Miasto bardzo się rozrosło."
+    }
+   ],
+   "collocations": [
+    "economic growth",
+    "muscle growth",
+    "growth of"
+   ]
+  },
+  {
+   "id": "v.grant",
+   "en": "grant",
+   "pl": "stypendium, dotacja",
+   "pos": "n",
+   "level": "B2",
+   "rank": 776,
+   "example": [
+    {
+     "en": "She got a grant to study abroad.",
+     "pl": "Dostała stypendium na studia za granicą."
+    }
+   ],
+   "collocations": [
+    "research grant",
+    "get a grant",
+    "take for granted"
+   ]
+  },
+  {
+   "id": "v.resource",
+   "en": "resource",
+   "pl": "zasób",
+   "pos": "n",
+   "level": "B2",
+   "rank": 778,
+   "example": [
+    {
+     "en": "There are great free resources for learning English.",
+     "pl": "Są świetne darmowe materiały do nauki angielskiego."
+    }
+   ],
+   "collocations": [
+    "online resources",
+    "natural resources",
+    "resource of"
+   ]
+  },
+  {
+   "id": "v.purchase",
+   "en": "purchase",
+   "pl": "zakup; kupić",
+   "pos": "n",
+   "level": "B2",
+   "rank": 781,
+   "example": [
+    {
+     "en": "Keep the receipt as proof of purchase.",
+     "pl": "Zachowaj paragon jako dowód zakupu."
+    }
+   ],
+   "collocations": [
+    "make a purchase",
+    "proof of purchase",
+    "purchase price"
+   ]
+  },
+  {
+   "id": "v.regard",
+   "en": "regard",
+   "pl": "dotyczyć; pozdrowienia",
+   "pos": "v",
+   "level": "B2",
+   "rank": 786,
+   "example": [
+    {
+     "en": "Give my regards to your parents.",
+     "pl": "Pozdrów ode mnie rodziców."
+    }
+   ],
+   "collocations": [
+    "regards",
+    "with regard to",
+    "regard as"
+   ]
+  },
+  {
+   "id": "v.structure",
+   "en": "structure",
+   "pl": "struktura",
+   "pos": "n",
+   "level": "B2",
+   "rank": 792,
+   "example": [
+    {
+     "en": "The structure of the stage was incredible.",
+     "pl": "Konstrukcja sceny była niesamowita."
+    }
+   ],
+   "collocations": [
+    "structure of",
+    "sentence structure",
+    "steel structure"
+   ]
+  },
+  {
+   "id": "v.function",
+   "en": "function",
+   "pl": "funkcja",
+   "pos": "n",
+   "level": "B2",
+   "rank": 794,
+   "example": [
+    {
+     "en": "What's the function of this button?",
+     "pl": "Do czego służy ten przycisk?"
+    }
+   ],
+   "collocations": [
+    "function of",
+    "main function",
+    "function well"
+   ]
+  },
+  {
+   "id": "v.potential",
+   "en": "potential",
+   "pl": "potencjał; potencjalny",
+   "pos": "n",
+   "level": "B2",
+   "rank": 796,
+   "example": [
+    {
+     "en": "This track has huge potential.",
+     "pl": "Ten kawałek ma ogromny potencjał."
+    }
+   ],
+   "collocations": [
+    "full potential",
+    "potential problem",
+    "great potential"
+   ]
+  },
+  {
+   "id": "v.relate",
+   "en": "relate",
+   "pl": "odnosić się; utożsamiać się",
+   "pos": "v",
+   "level": "B2",
+   "rank": 797,
+   "example": [
+    {
+     "en": "I can totally relate!",
+     "pl": "Totalnie to rozumiem, mam tak samo!"
+    }
+   ],
+   "collocations": [
+    "relate to",
+    "can relate",
+    "related to"
+   ]
+  }
+ ]
+}

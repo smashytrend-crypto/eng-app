@@ -123,6 +123,34 @@ export function markKnown(itemId: string, now: Date, tags: readonly string[]): S
   return reviewCard(newCard(itemId, now), Rating.Easy, now, tags)
 }
 
+/**
+ * Słówko oznaczone w słowniku jako „już znam”: od razu w powtórkach z długim odstępem
+ * (21–90 dni, rozłożone, żeby setki zaznaczonych słów nie wróciły jednego dnia).
+ */
+export function knownWordCard(itemId: string, now: Date, days: number): StoredCard {
+  return {
+    itemId,
+    due: now.getTime() + days * 86_400_000,
+    stability: days,
+    difficulty: 3,
+    elapsed_days: 0,
+    scheduled_days: days,
+    learning_steps: 0,
+    reps: 1,
+    lapses: 0,
+    state: State.Review,
+    last_review: now.getTime(),
+    introducedAt: now.getTime(),
+  }
+}
+
+/** Odstęp dla „już znam” zależny od id (stały, ale rozłożony między 21 a 90 dni). */
+export function knownWordDays(itemId: string): number {
+  let h = 0
+  for (let i = 0; i < itemId.length; i++) h = (h * 31 + itemId.charCodeAt(i)) >>> 0
+  return 21 + (h % 70)
+}
+
 export function isMastered(card: StoredCard | undefined): boolean {
   return !!card && card.state === State.Review && card.scheduled_days >= MASTERED_DAYS
 }

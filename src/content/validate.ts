@@ -4,6 +4,8 @@ import {
   moduleFileSchema,
   speakingTasksFileSchema,
   stagesFileSchema,
+  vocabFileSchema,
+  VOCAB_LEVELS,
   type ContentItem,
   type ModuleFile,
 } from './schema'
@@ -13,6 +15,8 @@ export interface ContentFiles {
   modules: Array<{ path: string; data: unknown }>
   tasks?: unknown
   missions?: unknown
+  /** Pliki słownika content/vocab/NN.json. */
+  vocab?: Array<{ path: string; data: unknown }>
 }
 
 export interface ModuleStats {
@@ -30,6 +34,8 @@ export interface ValidationReport {
   warnings: string[]
   modules: ModuleStats[]
   totalItems: number
+  /** Liczba słówek w słowniku. */
+  vocabItems: number
 }
 
 function zodIssues(path: string, error: { issues: Array<{ path: PropertyKey[]; message: string }> }, data: unknown): string[] {
@@ -157,7 +163,43 @@ export function validateContent(files: ContentFiles): ValidationReport {
     }
   }
 
-  return { errors, warnings, modules: stats, totalItems: itemIds.size }
+  // Słownik: zestawy po kolei, poziomy rosnąco, słowa unikalne także względem programu
+  let vocabCount = 0
+  let lastLevel = -1
+  const setOrders = new Set<number>()
+  for (const { path, data } of files.vocab ?? []) {
+    const parsed = vocabFileSchema.safeParse(data)
+    if (!parsed.success) {
+      errors.push(...zodIssues(path, parsed.error, data))
+      continue
+    }
+    const { set, items } = parsed.data
+    const m = path.match(/vocab\/(\d{2})\.json$/)
+    if (!m) errors.push(`${path}: nazwa pliku musi mieć postać content/vocab/NN.json`)
+    else if (Number(m[1]) !== set.order) errors.push(`${path}: numer w nazwie pliku ≠ set.order (${set.order})`)
+    if (set.id !== `v.${String(set.order).padStart(2, '0')}`) errors.push(`${path}: set.id musi być v.${String(set.order).padStart(2, '0')}`)
+    if (setOrders.has(set.order)) errors.push(`${path}: powtórzony set.order ${set.order}`)
+    setOrders.add(set.order)
+    const lvl = VOCAB_LEVELS.indexOf(set.level)
+    if (lvl < lastLevel) errors.push(`${path}: poziom ${set.level} po wyższym poziomie — zestawy muszą iść od A1 do B2`)
+    lastLevel = Math.max(lastLevel, lvl)
+    for (const item of items) {
+      const where = `${path}: ${item.id}`
+      vocabCount++
+      if (item.level !== set.level) errors.push(`${where}: poziom ${item.level} ≠ poziom zestawu ${set.level}`)
+      if (itemIds.has(item.id)) errors.push(`${where}: powtórzone id (także w ${itemIds.get(item.id)})`)
+      itemIds.set(item.id, path)
+      const key = normalize(item.en)
+      if (enSeen.has(key)) errors.push(`${where}: duplikat „${item.en}” (także ${enSeen.get(key)})`)
+      else enSeen.set(key, item.id)
+      const texts = [item.en, item.pl, ...(item.alternatives ?? []), ...item.example.flatMap((e) => [e.en, e.pl]), ...(item.collocations ?? [])]
+      if (texts.some((t) => /[‘’]/.test(t))) warnings.push(`${where}: krzywy apostrof — użyj prostego '`)
+      if (texts.some((t) => /\s{2,}/.test(t))) warnings.push(`${where}: podwójna spacja`)
+      if (item.note && item.note.length > 260) warnings.push(`${where}: za długa notatka (${item.note.length} znaków)`)
+    }
+  }
+
+  return { errors, warnings, modules: stats, totalItems: itemIds.size, vocabItems: vocabCount }
 }
 
 function checkText(item: ContentItem, where: string, errors: string[], warnings: string[]) {

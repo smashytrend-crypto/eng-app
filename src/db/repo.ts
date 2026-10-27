@@ -1,4 +1,4 @@
-import type { Item } from '../content/schema'
+import { isVocab, type Item } from '../content/schema'
 import { dayKey } from '../lib/dates'
 import type { QueueEntry } from '../lib/lessonQueue'
 import { requeueIndex, MAX_REPEATS_IN_SESSION } from '../lib/lessonQueue'
@@ -14,6 +14,7 @@ export function defaultSettings(now: Date = new Date()): Settings {
     targetDate: DEFAULT_TARGET_DATE,
     startDate: dayKey(now),
     newPerDay: 8,
+    vocabPerDay: 5,
     maxReviews: 60,
     accent: 'en-GB',
     voiceEn: '',
@@ -40,7 +41,7 @@ export async function saveSettings(patch: Partial<Settings>, db: AppDB = default
 }
 
 export function emptyDay(key: string): DayRow {
-  return { dayKey: key, seconds: 0, reviews: 0, newItems: 0, extraNew: 0, speakingDone: false, audioSeconds: 0 }
+  return { dayKey: key, seconds: 0, reviews: 0, newItems: 0, extraNew: 0, vocabNew: 0, speakingDone: false, audioSeconds: 0 }
 }
 
 export async function getDay(key: string, db: AppDB = defaultDb): Promise<DayRow> {
@@ -99,6 +100,7 @@ export async function recordAnswer(input: AnswerInput, db: AppDB = defaultDb): P
       seconds: day.seconds + Math.round(ms / 1000),
       reviews: day.reviews + (entry.kind === 'review' ? 1 : 0),
       newItems: day.newItems + (entry.kind === 'new' ? 1 : 0),
+      vocabNew: (day.vocabNew ?? 0) + (entry.kind === 'new' && isVocab(item) ? 1 : 0),
     })
 
     let session = input.session

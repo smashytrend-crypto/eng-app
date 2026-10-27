@@ -11,9 +11,10 @@ import { hardItemIds } from '../../lib/stats'
 import { State } from '../../lib/srs'
 import { useAllItems, useCards, useCustomItems, useFavorites } from '../../state/hooks'
 import { startHardPractice } from '../../state/lesson'
+import { VocabList } from './VocabScreens'
 import { navigate, queryParam, useRoute } from '../../state/router'
 
-type Tab = 'stages' | 'favorites' | 'hard' | 'mine'
+type Tab = 'stages' | 'vocab' | 'favorites' | 'hard' | 'mine'
 
 export function PhrasesScreen() {
   const route = useRoute()
@@ -61,6 +62,7 @@ export function PhrasesScreen() {
               onChange={setTab}
               options={[
                 { value: 'stages', label: 'Etapy' },
+                { value: 'vocab', label: 'Słownik' },
                 { value: 'favorites', label: 'Ulubione' },
                 { value: 'hard', label: 'Trudne' },
                 { value: 'mine', label: 'Moje' },
@@ -69,6 +71,7 @@ export function PhrasesScreen() {
           </div>
           <div className="mt-4">
             {tab === 'stages' && <StagesList />}
+            {tab === 'vocab' && <VocabList />}
             {tab === 'favorites' && <FavoritesList />}
             {tab === 'hard' && <HardList />}
             {tab === 'mine' && <MineList />}

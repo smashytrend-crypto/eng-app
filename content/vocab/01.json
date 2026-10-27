@@ -1,0 +1,1980 @@
+{
+ "set": {
+  "id": "v.01",
+  "order": 1,
+  "level": "A1",
+  "title": "Słówka A1 · 1",
+  "description": "Absolutne podstawy — słowa, bez których nie da się rozmawiać. Część 1 z 3."
+ },
+ "items": [
+  {
+   "id": "v.all",
+   "en": "all",
+   "pl": "wszyscy, wszystko, cały",
+   "pos": "det",
+   "level": "A1",
+   "rank": 1,
+   "example": [
+    {
+     "en": "All my friends love techno.",
+     "pl": "Wszyscy moi znajomi kochają techno."
+    }
+   ],
+   "collocations": [
+    "all day",
+    "all the time",
+    "all of us"
+   ]
+  },
+  {
+   "id": "v.get",
+   "en": "get",
+   "pl": "dostać, zdobyć; dotrzeć; stać się",
+   "pos": "v",
+   "level": "A1",
+   "rank": 2,
+   "example": [
+    {
+     "en": "I get home at six.",
+     "pl": "Wracam do domu o szóstej."
+    }
+   ],
+   "collocations": [
+    "get home",
+    "get a job",
+    "get tired"
+   ],
+   "note": "get – got – got. Jedno z najważniejszych słów: get up (wstać), get better (poprawić się), get lost (zgubić się)."
+  },
+  {
+   "id": "v.make",
+   "en": "make",
+   "pl": "robić (wytwarzać), zrobić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 3,
+   "example": [
+    {
+     "en": "I make breakfast every morning.",
+     "pl": "Codziennie rano robię śniadanie."
+    }
+   ],
+   "collocations": [
+    "make breakfast",
+    "make money",
+    "make a mistake"
+   ],
+   "note": "make – made – made. „make” = wytwarzać (make dinner), „do” = wykonywać czynność (do homework).",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.much",
+   "en": "much",
+   "pl": "dużo (z niepoliczalnymi)",
+   "pos": "det",
+   "level": "A1",
+   "rank": 4,
+   "example": [
+    {
+     "en": "I don't have much time today.",
+     "pl": "Nie mam dziś dużo czasu."
+    }
+   ],
+   "collocations": [
+    "so much",
+    "too much",
+    "how much"
+   ],
+   "note": "„much” z niepoliczalnymi (much money), „many” z policzalnymi (many friends). W zdaniach twierdzących częściej „a lot of”."
+  },
+  {
+   "id": "v.about",
+   "en": "about",
+   "pl": "o (temat); około",
+   "pos": "prep",
+   "level": "A1",
+   "rank": 5,
+   "example": [
+    {
+     "en": "We talked about music for hours.",
+     "pl": "Godzinami rozmawialiśmy o muzyce."
+    }
+   ],
+   "collocations": [
+    "talk about",
+    "think about",
+    "about ten minutes"
+   ]
+  },
+  {
+   "id": "v.up",
+   "en": "up",
+   "pl": "w górę, do góry",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 6,
+   "example": [
+    {
+     "en": "Turn the music up!",
+     "pl": "Podgłośnij muzykę!"
+    }
+   ],
+   "collocations": [
+    "get up",
+    "turn up",
+    "pick up"
+   ]
+  },
+  {
+   "id": "v.out",
+   "en": "out",
+   "pl": "na zewnątrz, poza",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 7,
+   "example": [
+    {
+     "en": "Let's go out tonight.",
+     "pl": "Wyjdźmy gdzieś dziś wieczorem."
+    }
+   ],
+   "collocations": [
+    "go out",
+    "find out",
+    "out of"
+   ]
+  },
+  {
+   "id": "v.time",
+   "en": "time",
+   "pl": "czas; raz",
+   "pos": "n",
+   "level": "A1",
+   "rank": 8,
+   "example": [
+    {
+     "en": "I don't have time for the gym today.",
+     "pl": "Nie mam dziś czasu na siłownię."
+    }
+   ],
+   "collocations": [
+    "have time",
+    "free time",
+    "every time"
+   ],
+   "note": "„time” to też „raz”: three times a week = trzy razy w tygodniu."
+  },
+  {
+   "id": "v.say",
+   "en": "say",
+   "pl": "powiedzieć, mówić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 9,
+   "example": [
+    {
+     "en": "What did he say?",
+     "pl": "Co on powiedział?"
+    }
+   ],
+   "collocations": [
+    "say hello",
+    "say sorry",
+    "say goodbye"
+   ],
+   "note": "say – said – said. „say something”, ale „tell somebody”."
+  },
+  {
+   "id": "v.go",
+   "en": "go",
+   "pl": "iść, jechać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 10,
+   "example": [
+    {
+     "en": "I go to the gym four times a week.",
+     "pl": "Chodzę na siłownię cztery razy w tygodniu."
+    }
+   ],
+   "collocations": [
+    "go home",
+    "go out",
+    "go to work"
+   ],
+   "note": "go – went – gone."
+  },
+  {
+   "id": "v.see",
+   "en": "see",
+   "pl": "widzieć, zobaczyć",
+   "pos": "v",
+   "level": "A1",
+   "rank": 11,
+   "example": [
+    {
+     "en": "Can you see the stage from here?",
+     "pl": "Widzisz stąd scenę?"
+    }
+   ],
+   "collocations": [
+    "see you later",
+    "see a film",
+    "let me see"
+   ],
+   "note": "see – saw – seen."
+  },
+  {
+   "id": "v.year",
+   "en": "year",
+   "pl": "rok",
+   "pos": "n",
+   "level": "A1",
+   "rank": 12,
+   "example": [
+    {
+     "en": "I've been to Tomorrowland two years in a row.",
+     "pl": "Byłem na Tomorrowland dwa lata z rzędu."
+    }
+   ],
+   "collocations": [
+    "last year",
+    "next year",
+    "every year"
+   ],
+   "note": "„I'm 25 years old” — wiek z „be”, nie „have”.",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.new",
+   "en": "new",
+   "pl": "nowy",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 13,
+   "example": [
+    {
+     "en": "I need new shoes for the gym.",
+     "pl": "Potrzebuję nowych butów na siłownię."
+    }
+   ],
+   "collocations": [
+    "brand new",
+    "new friends",
+    "something new"
+   ]
+  },
+  {
+   "id": "v.people",
+   "en": "people",
+   "pl": "ludzie",
+   "pos": "n",
+   "level": "A1",
+   "rank": 14,
+   "example": [
+    {
+     "en": "There are so many people here!",
+     "pl": "Jest tu tyle ludzi!"
+    }
+   ],
+   "collocations": [
+    "a lot of people",
+    "young people",
+    "people say"
+   ],
+   "note": "„people” to liczba mnoga: people are, nie people is.",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.know",
+   "en": "know",
+   "pl": "wiedzieć, znać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 15,
+   "example": [
+    {
+     "en": "I don't know his name.",
+     "pl": "Nie znam jego imienia."
+    }
+   ],
+   "collocations": [
+    "I know",
+    "you know",
+    "get to know"
+   ],
+   "note": "know – knew – known. „k” nieme: [nou].",
+   "pronunciation": "„k” nieme: know ≈ „nou”"
+  },
+  {
+   "id": "v.other",
+   "en": "other",
+   "pl": "inny, drugi",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 16,
+   "example": [
+    {
+     "en": "My other friends are coming later.",
+     "pl": "Moi pozostali znajomi przyjdą później."
+    }
+   ],
+   "collocations": [
+    "the other day",
+    "each other",
+    "other people"
+   ]
+  },
+  {
+   "id": "v.take",
+   "en": "take",
+   "pl": "wziąć, zabrać; zająć (czas)",
+   "pos": "v",
+   "level": "A1",
+   "rank": 17,
+   "example": [
+    {
+     "en": "It takes twenty minutes to get there.",
+     "pl": "Dojazd zajmuje dwadzieścia minut."
+    }
+   ],
+   "collocations": [
+    "take a photo",
+    "take a break",
+    "take the bus"
+   ],
+   "note": "take – took – taken."
+  },
+  {
+   "id": "v.think",
+   "en": "think",
+   "pl": "myśleć, sądzić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 18,
+   "example": [
+    {
+     "en": "I think it's a great idea.",
+     "pl": "Myślę, że to świetny pomysł."
+    }
+   ],
+   "collocations": [
+    "I think so",
+    "think about",
+    "think of"
+   ],
+   "note": "think – thought – thought.",
+   "pronunciation": "„th” jak seplenione „s”: think ≈ „fink”, NIE „tink”"
+  },
+  {
+   "id": "v.some",
+   "en": "some",
+   "pl": "trochę, kilka, jakieś",
+   "pos": "det",
+   "level": "A1",
+   "rank": 19,
+   "example": [
+    {
+     "en": "Let's get some food.",
+     "pl": "Weźmy coś do jedzenia."
+    }
+   ],
+   "collocations": [
+    "some people",
+    "some time",
+    "some water"
+   ]
+  },
+  {
+   "id": "v.now",
+   "en": "now",
+   "pl": "teraz",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 20,
+   "example": [
+    {
+     "en": "I'm busy now. Can I call you later?",
+     "pl": "Jestem teraz zajęty. Mogę oddzwonić później?"
+    }
+   ],
+   "collocations": [
+    "right now",
+    "just now",
+    "from now on"
+   ]
+  },
+  {
+   "id": "v.well",
+   "en": "well",
+   "pl": "dobrze; cóż",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 21,
+   "example": [
+    {
+     "en": "He speaks English really well.",
+     "pl": "On bardzo dobrze mówi po angielsku."
+    }
+   ],
+   "collocations": [
+    "very well",
+    "as well",
+    "well done"
+   ],
+   "note": "„good” to przymiotnik (a good DJ), „well” to przysłówek (he plays well).",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.want",
+   "en": "want",
+   "pl": "chcieć",
+   "pos": "v",
+   "level": "A1",
+   "rank": 22,
+   "example": [
+    {
+     "en": "I want to see the sunrise at the festival.",
+     "pl": "Chcę zobaczyć wschód słońca na festiwalu."
+    }
+   ],
+   "collocations": [
+    "want to",
+    "want something",
+    "if you want"
+   ]
+  },
+  {
+   "id": "v.work",
+   "en": "work",
+   "pl": "praca; pracować",
+   "pos": "n",
+   "level": "A1",
+   "rank": 23,
+   "example": [
+    {
+     "en": "I start work at six in the morning.",
+     "pl": "Zaczynam pracę o szóstej rano."
+    }
+   ],
+   "collocations": [
+    "go to work",
+    "after work",
+    "at work"
+   ],
+   "pronunciation": "work ≈ „łerk” — inne niż walk („łok”)"
+  },
+  {
+   "id": "v.look",
+   "en": "look",
+   "pl": "patrzeć; wyglądać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 24,
+   "example": [
+    {
+     "en": "Look at that crowd!",
+     "pl": "Spójrz na ten tłum!"
+    }
+   ],
+   "collocations": [
+    "look at",
+    "look for",
+    "look like"
+   ]
+  },
+  {
+   "id": "v.use",
+   "en": "use",
+   "pl": "używać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 25,
+   "example": [
+    {
+     "en": "Can I use your charger?",
+     "pl": "Mogę użyć twojej ładowarki?"
+    }
+   ],
+   "collocations": [
+    "use a phone",
+    "use the app",
+    "easy to use"
+   ]
+  },
+  {
+   "id": "v.only",
+   "en": "only",
+   "pl": "tylko, jedyny",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 26,
+   "example": [
+    {
+     "en": "It's only ten euros.",
+     "pl": "To tylko dziesięć euro."
+    }
+   ],
+   "collocations": [
+    "the only one",
+    "only once",
+    "not only"
+   ]
+  },
+  {
+   "id": "v.day",
+   "en": "day",
+   "pl": "dzień",
+   "pos": "n",
+   "level": "A1",
+   "rank": 27,
+   "example": [
+    {
+     "en": "Have a nice day!",
+     "pl": "Miłego dnia!"
+    }
+   ],
+   "collocations": [
+    "every day",
+    "all day",
+    "day off"
+   ]
+  },
+  {
+   "id": "v.after",
+   "en": "after",
+   "pl": "po (czasie)",
+   "pos": "prep",
+   "level": "A1",
+   "rank": 28,
+   "example": [
+    {
+     "en": "Let's eat after the gym.",
+     "pl": "Zjedzmy po siłowni."
+    }
+   ],
+   "collocations": [
+    "after work",
+    "after that",
+    "the day after tomorrow"
+   ]
+  },
+  {
+   "id": "v.need",
+   "en": "need",
+   "pl": "potrzebować",
+   "pos": "v",
+   "level": "A1",
+   "rank": 29,
+   "example": [
+    {
+     "en": "I need a break.",
+     "pl": "Potrzebuję przerwy."
+    }
+   ],
+   "collocations": [
+    "need to",
+    "need help",
+    "no need"
+   ]
+  },
+  {
+   "id": "v.over",
+   "en": "over",
+   "pl": "ponad; nad; skończony",
+   "pos": "prep",
+   "level": "A1",
+   "rank": 30,
+   "example": [
+    {
+     "en": "The party is over.",
+     "pl": "Impreza się skończyła."
+    }
+   ],
+   "collocations": [
+    "over there",
+    "all over",
+    "over the weekend"
+   ]
+  },
+  {
+   "id": "v.any",
+   "en": "any",
+   "pl": "jakiś, jakikolwiek (w pytaniach i przeczeniach)",
+   "pos": "det",
+   "level": "A1",
+   "rank": 31,
+   "example": [
+    {
+     "en": "Do you have any water?",
+     "pl": "Masz trochę wody?"
+    }
+   ],
+   "collocations": [
+    "any time",
+    "any more",
+    "any idea"
+   ],
+   "note": "„some” w zdaniach twierdzących, „any” w pytaniach i przeczeniach."
+  },
+  {
+   "id": "v.come",
+   "en": "come",
+   "pl": "przyjść, przyjechać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 32,
+   "example": [
+    {
+     "en": "Come with us!",
+     "pl": "Chodź z nami!"
+    }
+   ],
+   "collocations": [
+    "come back",
+    "come in",
+    "come on"
+   ],
+   "note": "come – came – come."
+  },
+  {
+   "id": "v.more",
+   "en": "more",
+   "pl": "więcej, bardziej",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 33,
+   "example": [
+    {
+     "en": "Can I have some more?",
+     "pl": "Mogę jeszcze trochę?"
+    }
+   ],
+   "collocations": [
+    "more and more",
+    "once more",
+    "more than"
+   ]
+  },
+  {
+   "id": "v.back",
+   "en": "back",
+   "pl": "z powrotem; plecy",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 34,
+   "example": [
+    {
+     "en": "I'll be back in five minutes.",
+     "pl": "Wrócę za pięć minut."
+    }
+   ],
+   "collocations": [
+    "come back",
+    "go back",
+    "call back"
+   ]
+  },
+  {
+   "id": "v.way",
+   "en": "way",
+   "pl": "droga; sposób",
+   "pos": "n",
+   "level": "A1",
+   "rank": 35,
+   "example": [
+    {
+     "en": "Is this the way to the main stage?",
+     "pl": "To droga do głównej sceny?"
+    }
+   ],
+   "collocations": [
+    "on the way",
+    "the best way",
+    "by the way"
+   ]
+  },
+  {
+   "id": "v.give",
+   "en": "give",
+   "pl": "dać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 36,
+   "example": [
+    {
+     "en": "Can you give me a hand?",
+     "pl": "Pomożesz mi?"
+    }
+   ],
+   "collocations": [
+    "give back",
+    "give up",
+    "give a hand"
+   ],
+   "note": "give – gave – given."
+  },
+  {
+   "id": "v.right",
+   "en": "right",
+   "pl": "prawy; dobry, słuszny",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 37,
+   "example": [
+    {
+     "en": "You're right.",
+     "pl": "Masz rację."
+    }
+   ],
+   "collocations": [
+    "on the right",
+    "right now",
+    "all right"
+   ]
+  },
+  {
+   "id": "v.man",
+   "en": "man",
+   "pl": "mężczyzna, facet",
+   "pos": "n",
+   "level": "A1",
+   "rank": 40,
+   "example": [
+    {
+     "en": "Who's that man by the bar?",
+     "pl": "Kim jest ten facet przy barze?"
+    }
+   ],
+   "collocations": [
+    "young man",
+    "old man",
+    "the man next to me"
+   ],
+   "note": "l. mnoga: men."
+  },
+  {
+   "id": "v.really",
+   "en": "really",
+   "pl": "naprawdę, bardzo",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 41,
+   "example": [
+    {
+     "en": "I'm really tired.",
+     "pl": "Jestem naprawdę zmęczony."
+    }
+   ],
+   "collocations": [
+    "really good",
+    "not really",
+    "really?"
+   ]
+  },
+  {
+   "id": "v.great",
+   "en": "great",
+   "pl": "świetny, wspaniały",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 42,
+   "example": [
+    {
+     "en": "That was a great set!",
+     "pl": "To był świetny set!"
+    }
+   ],
+   "collocations": [
+    "great idea",
+    "a great time",
+    "sounds great"
+   ]
+  },
+  {
+   "id": "v.find",
+   "en": "find",
+   "pl": "znaleźć",
+   "pos": "v",
+   "level": "A1",
+   "rank": 43,
+   "example": [
+    {
+     "en": "I can't find my phone.",
+     "pl": "Nie mogę znaleźć telefonu."
+    }
+   ],
+   "collocations": [
+    "find out",
+    "find a job",
+    "hard to find"
+   ],
+   "note": "find – found – found."
+  },
+  {
+   "id": "v.call",
+   "en": "call",
+   "pl": "dzwonić; nazywać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 44,
+   "example": [
+    {
+     "en": "I'll call you tomorrow.",
+     "pl": "Zadzwonię do ciebie jutro."
+    }
+   ],
+   "collocations": [
+    "call back",
+    "phone call",
+    "be called"
+   ]
+  },
+  {
+   "id": "v.play",
+   "en": "play",
+   "pl": "grać, bawić się",
+   "pos": "v",
+   "level": "A1",
+   "rank": 45,
+   "example": [
+    {
+     "en": "I play games in the evenings.",
+     "pl": "Wieczorami gram w gry."
+    }
+   ],
+   "collocations": [
+    "play games",
+    "play football",
+    "play music"
+   ]
+  },
+  {
+   "id": "v.show",
+   "en": "show",
+   "pl": "pokazać; pokaz, program",
+   "pos": "v",
+   "level": "A1",
+   "rank": 46,
+   "example": [
+    {
+     "en": "Can you show me on the map?",
+     "pl": "Możesz mi pokazać na mapie?"
+    }
+   ],
+   "collocations": [
+    "show me",
+    "TV show",
+    "show around"
+   ]
+  },
+  {
+   "id": "v.before",
+   "en": "before",
+   "pl": "przed (czasem)",
+   "pos": "prep",
+   "level": "A1",
+   "rank": 47,
+   "example": [
+    {
+     "en": "Let's eat before the show.",
+     "pl": "Zjedzmy przed występem."
+    }
+   ],
+   "collocations": [
+    "before work",
+    "the day before",
+    "never before"
+   ]
+  },
+  {
+   "id": "v.off",
+   "en": "off",
+   "pl": "wyłączony; z, od",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 48,
+   "example": [
+    {
+     "en": "Turn off the lights, please.",
+     "pl": "Zgaś światło, proszę."
+    }
+   ],
+   "collocations": [
+    "turn off",
+    "day off",
+    "take off"
+   ]
+  },
+  {
+   "id": "v.still",
+   "en": "still",
+   "pl": "wciąż, nadal",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 50,
+   "example": [
+    {
+     "en": "Are you still at work?",
+     "pl": "Wciąż jesteś w pracy?"
+    }
+   ],
+   "collocations": [
+    "still here",
+    "still waiting",
+    "still the same"
+   ]
+  },
+  {
+   "id": "v.tell",
+   "en": "tell",
+   "pl": "powiedzieć (komuś), opowiedzieć",
+   "pos": "v",
+   "level": "A1",
+   "rank": 51,
+   "example": [
+    {
+     "en": "Tell me about your trip.",
+     "pl": "Opowiedz mi o swojej wycieczce."
+    }
+   ],
+   "collocations": [
+    "tell me",
+    "tell a story",
+    "tell the truth"
+   ],
+   "note": "tell – told – told. „tell somebody”, ale „say something”.",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.love",
+   "en": "love",
+   "pl": "kochać, uwielbiać; miłość",
+   "pos": "v",
+   "level": "A1",
+   "rank": 52,
+   "example": [
+    {
+     "en": "I love this track!",
+     "pl": "Uwielbiam ten kawałek!"
+    }
+   ],
+   "collocations": [
+    "love it",
+    "in love",
+    "love doing"
+   ]
+  },
+  {
+   "id": "v.many",
+   "en": "many",
+   "pl": "wiele, dużo (policzalnych)",
+   "pos": "det",
+   "level": "A1",
+   "rank": 53,
+   "example": [
+    {
+     "en": "How many people are coming?",
+     "pl": "Ile osób przychodzi?"
+    }
+   ],
+   "collocations": [
+    "how many",
+    "so many",
+    "too many"
+   ]
+  },
+  {
+   "id": "v.long",
+   "en": "long",
+   "pl": "długi; długo",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 54,
+   "example": [
+    {
+     "en": "It was a long day at work.",
+     "pl": "To był długi dzień w pracy."
+    }
+   ],
+   "collocations": [
+    "a long time",
+    "how long",
+    "long weekend"
+   ]
+  },
+  {
+   "id": "v.world",
+   "en": "world",
+   "pl": "świat",
+   "pos": "n",
+   "level": "A1",
+   "rank": 55,
+   "example": [
+    {
+     "en": "It's the best festival in the world.",
+     "pl": "To najlepszy festiwal na świecie."
+    }
+   ],
+   "collocations": [
+    "around the world",
+    "in the world",
+    "world famous"
+   ]
+  },
+  {
+   "id": "v.start",
+   "en": "start",
+   "pl": "zaczynać; początek",
+   "pos": "v",
+   "level": "A1",
+   "rank": 56,
+   "example": [
+    {
+     "en": "What time does the set start?",
+     "pl": "O której zaczyna się set?"
+    }
+   ],
+   "collocations": [
+    "start work",
+    "start again",
+    "from the start"
+   ]
+  },
+  {
+   "id": "v.down",
+   "en": "down",
+   "pl": "w dół, na dół",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 58,
+   "example": [
+    {
+     "en": "Sit down, please.",
+     "pl": "Usiądź, proszę."
+    }
+   ],
+   "collocations": [
+    "sit down",
+    "turn down",
+    "calm down"
+   ]
+  },
+  {
+   "id": "v.help",
+   "en": "help",
+   "pl": "pomoc; pomagać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 62,
+   "example": [
+    {
+     "en": "Can you help me?",
+     "pl": "Możesz mi pomóc?"
+    }
+   ],
+   "collocations": [
+    "help me",
+    "need help",
+    "thanks for your help"
+   ]
+  },
+  {
+   "id": "v.try",
+   "en": "try",
+   "pl": "próbować, spróbować",
+   "pos": "v",
+   "level": "A1",
+   "rank": 63,
+   "example": [
+    {
+     "en": "Try this — it's really good!",
+     "pl": "Spróbuj tego — jest naprawdę dobre!"
+    }
+   ],
+   "collocations": [
+    "try again",
+    "try on",
+    "give it a try"
+   ]
+  },
+  {
+   "id": "v.home",
+   "en": "home",
+   "pl": "dom (jako miejsce zamieszkania)",
+   "pos": "n",
+   "level": "A1",
+   "rank": 64,
+   "example": [
+    {
+     "en": "I'm going home.",
+     "pl": "Idę do domu."
+    }
+   ],
+   "collocations": [
+    "go home",
+    "at home",
+    "feel at home"
+   ],
+   "note": "„go home” bez „to”: NIE „go to home”.",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.feel",
+   "en": "feel",
+   "pl": "czuć (się)",
+   "pos": "v",
+   "level": "A1",
+   "rank": 67,
+   "example": [
+    {
+     "en": "I feel great today.",
+     "pl": "Czuję się dziś świetnie."
+    }
+   ],
+   "collocations": [
+    "feel good",
+    "feel like",
+    "feel tired"
+   ],
+   "note": "feel – felt – felt. „I feel like…” = mam ochotę na…"
+  },
+  {
+   "id": "v.old",
+   "en": "old",
+   "pl": "stary",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 68,
+   "example": [
+    {
+     "en": "How old are you?",
+     "pl": "Ile masz lat?"
+    }
+   ],
+   "collocations": [
+    "old friend",
+    "years old",
+    "old town"
+   ]
+  },
+  {
+   "id": "v.place",
+   "en": "place",
+   "pl": "miejsce",
+   "pos": "n",
+   "level": "A1",
+   "rank": 70,
+   "example": [
+    {
+     "en": "This is a great place for dinner.",
+     "pl": "To świetne miejsce na kolację."
+    }
+   ],
+   "collocations": [
+    "my place",
+    "take place",
+    "in the first place"
+   ],
+   "note": "„my place” = moje mieszkanie: Come to my place!"
+  },
+  {
+   "id": "v.something",
+   "en": "something",
+   "pl": "coś",
+   "pos": "pron",
+   "level": "A1",
+   "rank": 71,
+   "example": [
+    {
+     "en": "Let's eat something.",
+     "pl": "Zjedzmy coś."
+    }
+   ],
+   "collocations": [
+    "something else",
+    "something to drink",
+    "or something"
+   ]
+  },
+  {
+   "id": "v.end",
+   "en": "end",
+   "pl": "koniec; kończyć się",
+   "pos": "n",
+   "level": "A1",
+   "rank": 72,
+   "example": [
+    {
+     "en": "See you at the end of the set.",
+     "pl": "Do zobaczenia pod koniec seta."
+    }
+   ],
+   "collocations": [
+    "at the end",
+    "in the end",
+    "end up"
+   ]
+  },
+  {
+   "id": "v.school",
+   "en": "school",
+   "pl": "szkoła",
+   "pos": "n",
+   "level": "A1",
+   "rank": 74,
+   "example": [
+    {
+     "en": "I hated English at school.",
+     "pl": "W szkole nienawidziłem angielskiego."
+    }
+   ],
+   "collocations": [
+    "at school",
+    "high school",
+    "after school"
+   ]
+  },
+  {
+   "id": "v.big",
+   "en": "big",
+   "pl": "duży",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 77,
+   "example": [
+    {
+     "en": "It's a really big festival.",
+     "pl": "To naprawdę duży festiwal."
+    }
+   ],
+   "collocations": [
+    "big deal",
+    "big city",
+    "big fan"
+   ]
+  },
+  {
+   "id": "v.house",
+   "en": "house",
+   "pl": "dom (budynek)",
+   "pos": "n",
+   "level": "A1",
+   "rank": 78,
+   "example": [
+    {
+     "en": "They live in a big house by the sea.",
+     "pl": "Mieszkają w dużym domu nad morzem."
+    }
+   ],
+   "collocations": [
+    "at my house",
+    "house party",
+    "house music"
+   ]
+  },
+  {
+   "id": "v.woman",
+   "en": "woman",
+   "pl": "kobieta",
+   "pos": "n",
+   "level": "A1",
+   "rank": 79,
+   "example": [
+    {
+     "en": "The woman at the desk was very helpful.",
+     "pl": "Pani w recepcji bardzo pomogła."
+    }
+   ],
+   "collocations": [
+    "young woman",
+    "a woman's voice",
+    "women's toilets"
+   ],
+   "note": "l. mnoga: women [łimin].",
+   "pronunciation": "women ≈ „łimin”"
+  },
+  {
+   "id": "v.live",
+   "en": "live",
+   "pl": "mieszkać; żyć",
+   "pos": "v",
+   "level": "A1",
+   "rank": 80,
+   "example": [
+    {
+     "en": "I live in Szczecin.",
+     "pl": "Mieszkam w Szczecinie."
+    }
+   ],
+   "collocations": [
+    "live in",
+    "live with",
+    "live alone"
+   ],
+   "note": "Jako przymiotnik (na żywo) wymawiane „lajw”: live music."
+  },
+  {
+   "id": "v.name",
+   "en": "name",
+   "pl": "imię, nazwa",
+   "pos": "n",
+   "level": "A1",
+   "rank": 82,
+   "example": [
+    {
+     "en": "What's your name?",
+     "pl": "Jak masz na imię?"
+    }
+   ],
+   "collocations": [
+    "first name",
+    "surname",
+    "name of the track"
+   ]
+  },
+  {
+   "id": "v.thank",
+   "en": "thank",
+   "pl": "dziękować",
+   "pos": "v",
+   "level": "A1",
+   "rank": 84,
+   "example": [
+    {
+     "en": "Thank you so much!",
+     "pl": "Bardzo dziękuję!"
+    }
+   ],
+   "collocations": [
+    "thank you",
+    "thanks a lot",
+    "thank God"
+   ]
+  },
+  {
+   "id": "v.little",
+   "en": "little",
+   "pl": "mały; mało",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 85,
+   "example": [
+    {
+     "en": "Can I have a little more?",
+     "pl": "Mogę jeszcze trochę?"
+    }
+   ],
+   "collocations": [
+    "a little",
+    "a little bit",
+    "little brother"
+   ],
+   "note": "„a little” = trochę (pozytywnie), „little” = mało (negatywnie)."
+  },
+  {
+   "id": "v.leave",
+   "en": "leave",
+   "pl": "wyjść, wyjechać; zostawić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 86,
+   "example": [
+    {
+     "en": "What time do you leave work?",
+     "pl": "O której wychodzisz z pracy?"
+    }
+   ],
+   "collocations": [
+    "leave home",
+    "leave a message",
+    "leave me alone"
+   ],
+   "note": "leave – left – left."
+  },
+  {
+   "id": "v.another",
+   "en": "another",
+   "pl": "inny, jeszcze jeden",
+   "pos": "det",
+   "level": "A1",
+   "rank": 87,
+   "example": [
+    {
+     "en": "Another beer?",
+     "pl": "Jeszcze jedno piwo?"
+    }
+   ],
+   "collocations": [
+    "another one",
+    "one another",
+    "another time"
+   ]
+  },
+  {
+   "id": "v.win",
+   "en": "win",
+   "pl": "wygrać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 89,
+   "example": [
+    {
+     "en": "We won the match!",
+     "pl": "Wygraliśmy mecz!"
+    }
+   ],
+   "collocations": [
+    "win a game",
+    "win money",
+    "win-win"
+   ],
+   "note": "win – won – won."
+  },
+  {
+   "id": "v.family",
+   "en": "family",
+   "pl": "rodzina",
+   "pos": "n",
+   "level": "A1",
+   "rank": 90,
+   "example": [
+    {
+     "en": "I'm going to visit my family this weekend.",
+     "pl": "W ten weekend odwiedzam rodzinę."
+    }
+   ],
+   "collocations": [
+    "my family",
+    "family name",
+    "family dinner"
+   ]
+  },
+  {
+   "id": "v.talk",
+   "en": "talk",
+   "pl": "rozmawiać, mówić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 91,
+   "example": [
+    {
+     "en": "Can we talk later?",
+     "pl": "Możemy pogadać później?"
+    }
+   ],
+   "collocations": [
+    "talk to",
+    "talk about",
+    "small talk"
+   ]
+  },
+  {
+   "id": "v.ask",
+   "en": "ask",
+   "pl": "pytać, prosić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 92,
+   "example": [
+    {
+     "en": "Can I ask you something?",
+     "pl": "Mogę cię o coś zapytać?"
+    }
+   ],
+   "collocations": [
+    "ask a question",
+    "ask for help",
+    "ask somebody out"
+   ]
+  },
+  {
+   "id": "v.run",
+   "en": "run",
+   "pl": "biegać; prowadzić (firmę)",
+   "pos": "v",
+   "level": "A1",
+   "rank": 93,
+   "example": [
+    {
+     "en": "I run five kilometres on Sundays.",
+     "pl": "W niedziele biegam pięć kilometrów."
+    }
+   ],
+   "collocations": [
+    "go for a run",
+    "run out of",
+    "run a business"
+   ],
+   "note": "run – ran – run."
+  },
+  {
+   "id": "v.under",
+   "en": "under",
+   "pl": "pod",
+   "pos": "prep",
+   "level": "A1",
+   "rank": 94,
+   "example": [
+    {
+     "en": "My bag is under the table.",
+     "pl": "Moja torba jest pod stołem."
+    }
+   ],
+   "collocations": [
+    "under the bed",
+    "under 18",
+    "under pressure"
+   ]
+  },
+  {
+   "id": "v.put",
+   "en": "put",
+   "pl": "kłaść, położyć, wstawić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 95,
+   "example": [
+    {
+     "en": "Put your phone away.",
+     "pl": "Schowaj telefon."
+    }
+   ],
+   "collocations": [
+    "put on",
+    "put away",
+    "put down"
+   ],
+   "note": "put – put – put."
+  },
+  {
+   "id": "v.week",
+   "en": "week",
+   "pl": "tydzień",
+   "pos": "n",
+   "level": "A1",
+   "rank": 96,
+   "example": [
+    {
+     "en": "See you next week!",
+     "pl": "Do zobaczenia w przyszłym tygodniu!"
+    }
+   ],
+   "collocations": [
+    "next week",
+    "last week",
+    "twice a week"
+   ]
+  },
+  {
+   "id": "v.friend",
+   "en": "friend",
+   "pl": "przyjaciel, kolega, znajomy",
+   "pos": "n",
+   "level": "A1",
+   "rank": 99,
+   "example": [
+    {
+     "en": "This is my friend Kuba.",
+     "pl": "To mój kolega Kuba."
+    }
+   ],
+   "collocations": [
+    "best friend",
+    "make friends",
+    "old friend"
+   ]
+  },
+  {
+   "id": "v.child",
+   "en": "child",
+   "pl": "dziecko",
+   "pos": "n",
+   "level": "A1",
+   "rank": 101,
+   "example": [
+    {
+     "en": "They have two children.",
+     "pl": "Mają dwoje dzieci."
+    }
+   ],
+   "collocations": [
+    "have a child",
+    "as a child",
+    "only child"
+   ],
+   "note": "l. mnoga: children."
+  },
+  {
+   "id": "v.without",
+   "en": "without",
+   "pl": "bez",
+   "pos": "prep",
+   "level": "A1",
+   "rank": 104,
+   "example": [
+    {
+     "en": "I can't live without music.",
+     "pl": "Nie mogę żyć bez muzyki."
+    }
+   ],
+   "collocations": [
+    "without you",
+    "without sugar",
+    "without asking"
+   ]
+  },
+  {
+   "id": "v.please",
+   "en": "please",
+   "pl": "proszę (prosząc)",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 107,
+   "example": [
+    {
+     "en": "Two beers, please.",
+     "pl": "Dwa piwa, proszę."
+    }
+   ],
+   "collocations": [
+    "yes, please",
+    "please help",
+    "please wait"
+   ],
+   "note": "„please” tylko przy prośbie. Podając coś mówisz „Here you are”.",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.sure",
+   "en": "sure",
+   "pl": "pewny; jasne",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 108,
+   "example": [
+    {
+     "en": "Are you sure?",
+     "pl": "Jesteś pewien?"
+    }
+   ],
+   "collocations": [
+    "I'm sure",
+    "make sure",
+    "for sure"
+   ]
+  },
+  {
+   "id": "v.let",
+   "en": "let",
+   "pl": "pozwolić; niech",
+   "pos": "v",
+   "level": "A1",
+   "rank": 111,
+   "example": [
+    {
+     "en": "Let me help you.",
+     "pl": "Pozwól, że ci pomogę."
+    }
+   ],
+   "collocations": [
+    "let me",
+    "let's go",
+    "let somebody know"
+   ],
+   "note": "let – let – let. „Let's…” = zróbmy coś."
+  },
+  {
+   "id": "v.pay",
+   "en": "pay",
+   "pl": "płacić",
+   "pos": "v",
+   "level": "A1",
+   "rank": 113,
+   "example": [
+    {
+     "en": "Can I pay by card?",
+     "pl": "Mogę zapłacić kartą?"
+    }
+   ],
+   "collocations": [
+    "pay by card",
+    "pay for",
+    "pay back"
+   ],
+   "note": "pay – paid – paid."
+  },
+  {
+   "id": "v.lose",
+   "en": "lose",
+   "pl": "zgubić; przegrać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 114,
+   "example": [
+    {
+     "en": "I always lose my keys.",
+     "pl": "Ciągle gubię klucze."
+    }
+   ],
+   "collocations": [
+    "lose a game",
+    "lose weight",
+    "lose touch"
+   ],
+   "note": "lose – lost – lost. Nie mylić z „loose” (luźny)."
+  },
+  {
+   "id": "v.open",
+   "en": "open",
+   "pl": "otwarty; otwierać",
+   "pos": "adj",
+   "level": "A1",
+   "rank": 115,
+   "example": [
+    {
+     "en": "Is the shop still open?",
+     "pl": "Sklep jest jeszcze otwarty?"
+    }
+   ],
+   "collocations": [
+    "open late",
+    "open the door",
+    "open-air"
+   ]
+  },
+  {
+   "id": "v.money",
+   "en": "money",
+   "pl": "pieniądze",
+   "pos": "n",
+   "level": "A1",
+   "rank": 116,
+   "example": [
+    {
+     "en": "I'm saving money for the festival.",
+     "pl": "Oszczędzam pieniądze na festiwal."
+    }
+   ],
+   "collocations": [
+    "save money",
+    "make money",
+    "spend money"
+   ],
+   "note": "„money” jest niepoliczalne: money is, nie money are.",
+   "tags": [
+    "polish-trap"
+   ]
+  },
+  {
+   "id": "v.country",
+   "en": "country",
+   "pl": "kraj; wieś",
+   "pos": "n",
+   "level": "A1",
+   "rank": 117,
+   "example": [
+    {
+     "en": "What country are you from?",
+     "pl": "Z jakiego jesteś kraju?"
+    }
+   ],
+   "collocations": [
+    "my country",
+    "in the country",
+    "country music"
+   ]
+  },
+  {
+   "id": "v.night",
+   "en": "night",
+   "pl": "noc",
+   "pos": "n",
+   "level": "A1",
+   "rank": 118,
+   "example": [
+    {
+     "en": "We danced all night.",
+     "pl": "Tańczyliśmy całą noc."
+    }
+   ],
+   "collocations": [
+    "last night",
+    "at night",
+    "good night"
+   ]
+  },
+  {
+   "id": "v.hand",
+   "en": "hand",
+   "pl": "ręka (dłoń)",
+   "pos": "n",
+   "level": "A1",
+   "rank": 121,
+   "example": [
+    {
+     "en": "Can you give me a hand?",
+     "pl": "Pomożesz mi?"
+    }
+   ],
+   "collocations": [
+    "give a hand",
+    "hold hands",
+    "on the other hand"
+   ]
+  },
+  {
+   "id": "v.read",
+   "en": "read",
+   "pl": "czytać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 122,
+   "example": [
+    {
+     "en": "I don't read much, but I listen to podcasts.",
+     "pl": "Nie czytam dużo, ale słucham podcastów."
+    }
+   ],
+   "collocations": [
+    "read a book",
+    "read the news",
+    "read out"
+   ],
+   "note": "read – read – read (wymowa: [ri:d] – [red] – [red])."
+  },
+  {
+   "id": "v.far",
+   "en": "far",
+   "pl": "daleko",
+   "pos": "adv",
+   "level": "A1",
+   "rank": 125,
+   "example": [
+    {
+     "en": "Is it far from here?",
+     "pl": "Czy to daleko stąd?"
+    }
+   ],
+   "collocations": [
+    "far away",
+    "how far",
+    "so far"
+   ]
+  },
+  {
+   "id": "v.someone",
+   "en": "someone",
+   "pl": "ktoś",
+   "pos": "pron",
+   "level": "A1",
+   "rank": 126,
+   "alternatives": [
+    "somebody"
+   ],
+   "example": [
+    {
+     "en": "Someone took my seat.",
+     "pl": "Ktoś zajął moje miejsce."
+    }
+   ],
+   "collocations": [
+    "someone else",
+    "meet someone",
+    "talk to someone"
+   ]
+  },
+  {
+   "id": "v.book",
+   "en": "book",
+   "pl": "książka; rezerwować",
+   "pos": "n",
+   "level": "A1",
+   "rank": 127,
+   "example": [
+    {
+     "en": "I booked the tickets online.",
+     "pl": "Zarezerwowałem bilety przez internet."
+    }
+   ],
+   "collocations": [
+    "book a table",
+    "book a room",
+    "a good book"
+   ]
+  },
+  {
+   "id": "v.bring",
+   "en": "bring",
+   "pl": "przynieść, przywieźć",
+   "pos": "v",
+   "level": "A1",
+   "rank": 128,
+   "example": [
+    {
+     "en": "Bring your passport.",
+     "pl": "Weź ze sobą paszport."
+    }
+   ],
+   "collocations": [
+    "bring back",
+    "bring a friend",
+    "bring something"
+   ],
+   "note": "bring – brought – brought."
+  },
+  {
+   "id": "v.write",
+   "en": "write",
+   "pl": "pisać",
+   "pos": "v",
+   "level": "A1",
+   "rank": 129,
+   "example": [
+    {
+     "en": "Can you write it down?",
+     "pl": "Możesz to zapisać?"
+    }
+   ],
+   "collocations": [
+    "write down",
+    "write a message",
+    "write back"
+   ],
+   "note": "write – wrote – written."
+  },
+  {
+   "id": "v.turn",
+   "en": "turn",
+   "pl": "skręcić; obracać; kolej",
+   "pos": "v",
+   "level": "A1",
+   "rank": 136,
+   "example": [
+    {
+     "en": "Turn left at the bar.",
+     "pl": "Przy barze skręć w lewo."
+    }
+   ],
+   "collocations": [
+    "turn left",
+    "turn on",
+    "your turn"
+   ]
+  }
+ ]
+}

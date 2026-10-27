@@ -12,7 +12,7 @@ const TABS = [
 export function BottomNav({ route }: { route: string }) {
   const active = (p: string) => {
     if (p === '/') return route === '/'
-    if (p === '/phrases') return ['/phrases', '/item', '/custom'].some((x) => route.startsWith(x))
+    if (p === '/phrases') return ['/phrases', '/item', '/custom', '/vocab'].some((x) => route.startsWith(x))
     return route.startsWith(p)
   }
   return (

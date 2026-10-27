@@ -6,6 +6,7 @@ import { db, type DayRow } from '../db/db'
 import { addDays, computeStreak, diffDays, formatDatePl, pluralN, weekKey } from '../lib/dates'
 import { TYPE_LABELS } from '../lib/labels'
 import { countItems } from '../lib/stats'
+import { isVocab } from '../content/schema'
 import { MASTERED_DAYS } from '../lib/srs'
 import { useAllItems, useCards, useToday } from '../state/hooks'
 
@@ -45,7 +46,8 @@ export function ProgressScreen() {
     if (!all || !cards || !days) return null
     const byDay = new Map(days.map((d) => [d.dayKey, d]))
     const active = days.filter((d) => d.seconds > 0 || d.reviews + d.newItems > 0).map((d) => d.dayKey)
-    const counts = countItems(all.items, cards)
+    const counts = countItems(all.items.filter((i) => !isVocab(i)), cards)
+    const vocab = countItems(all.items.filter((i) => isVocab(i)), cards)
     const totalSec = days.reduce((s, d) => s + d.seconds, 0)
     const audioSec = days.reduce((s, d) => s + d.audioSeconds, 0)
     const week = Array.from({ length: 7 }, (_, i) => byDay.get(addDays(today, -i)))
@@ -60,6 +62,7 @@ export function ProgressScreen() {
     return {
       byDay,
       counts,
+      vocab,
       streak: computeStreak(active, today),
       activeDays: active.length,
       totalSec,
@@ -138,6 +141,25 @@ export function ProgressScreen() {
           <span>liczby: opanowane / poznane / wszystkie</span>
         </div>
       </Card>
+
+      {data.vocab.total > 0 && (
+        <>
+          <SectionTitle>Słownik</SectionTitle>
+          <Card className="space-y-2">
+            <div className="flex items-end justify-between">
+              <p className="text-lg font-bold">
+                {data.vocab.introduced} poznanych · {data.vocab.mastered} opanowanych
+              </p>
+              <Muted>z {data.vocab.total}</Muted>
+            </div>
+            <div className="relative h-2 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800">
+              <div className="absolute inset-y-0 left-0 rounded-full bg-sky-300 dark:bg-sky-800" style={{ width: `${(data.vocab.introduced / data.vocab.total) * 100}%` }} />
+              <div className="absolute inset-y-0 left-0 rounded-full bg-emerald-500" style={{ width: `${(data.vocab.mastered / data.vocab.total) * 100}%` }} />
+            </div>
+            <Muted>Najczęściej używane słowa angielskie. Zaznaczone jako „już znam” liczą się od razu jako opanowane.</Muted>
+          </Card>
+        </>
+      )}
 
       <SectionTitle>Karty dziennie (14 dni)</SectionTitle>
       <Card>

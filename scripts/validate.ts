@@ -17,6 +17,7 @@ for (const m of report.modules) {
       `zwroty ${m.phrase}, słówka ${m.word}, wzorce ${m.pattern}, dialogi ${m.dialog}`,
   )
 }
+console.log(`Słownik: ${report.vocabItems} słówek`)
 console.log(`Razem elementów: ${report.totalItems}`)
 
 if (report.warnings.length) {

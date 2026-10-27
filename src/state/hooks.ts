@@ -1,6 +1,6 @@
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { contentItems } from '../content'
+import { allContentItems } from '../content'
 import type { Item } from '../content/schema'
 import { db, type DayRow, type Settings } from '../db/db'
 import { defaultSettings, emptyDay } from '../db/repo'
@@ -39,13 +39,13 @@ export function useCustomItems(): Item[] | undefined {
   return useLiveQuery(() => db.customItems.toArray(), [])
 }
 
-/** Wszystkie elementy: własne zwroty + treści programu. */
+/** Wszystkie elementy: własne zwroty + treści programu + słownik. */
 export function useAllItems(): { items: Item[]; byId: Map<string, Item> } | undefined {
   const custom = useCustomItems()
   return useMemo(() => {
     if (!custom) return undefined
     const sortedCustom = [...custom].sort((a, b) => a.order - b.order)
-    const items = [...sortedCustom, ...contentItems]
+    const items = [...sortedCustom, ...allContentItems]
     return { items, byId: new Map(items.map((i) => [i.id, i])) }
   }, [custom])
 }

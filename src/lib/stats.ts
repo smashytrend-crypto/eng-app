@@ -66,9 +66,10 @@ export function introducedSince(cards: ReadonlyMap<string, StoredCard>, sinceMs:
 
 /** Aktualny etap = etap pierwszego jeszcze niepoznanego elementu programu. */
 export function currentStage(items: Item[], cards: ReadonlyMap<string, StoredCard>): number {
-  const next = items.find((i) => !i.custom && !cards.has(i.id))
+  const program = items.filter((i) => !i.custom && i.stage > 0)
+  const next = program.find((i) => !cards.has(i.id))
   if (next) return next.stage
-  return Math.max(1, ...items.filter((i) => !i.custom).map((i) => i.stage))
+  return Math.max(1, ...program.map((i) => i.stage))
 }
 
 /** Prosty, deterministyczny hash tekstu (do wyboru „zadania dnia”). */

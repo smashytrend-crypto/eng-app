@@ -18,11 +18,25 @@ export function loadContentFiles(root: string): ContentFiles {
       }
     }
   }
+  const vocab: ContentFiles['modules'] = []
+  const vocabDir = join(contentDir, 'vocab')
+  if (existsSync(vocabDir)) {
+    for (const file of readdirSync(vocabDir).filter((f) => f.endsWith('.json')).sort()) {
+      const full = join(vocabDir, file)
+      const path = relative(root, full).split('\\').join('/')
+      try {
+        vocab.push({ path, data: read(full) })
+      } catch (e) {
+        vocab.push({ path, data: { __parseError: String(e) } })
+      }
+    }
+  }
   const optional = (name: string) => (existsSync(join(contentDir, name)) ? read(join(contentDir, name)) : undefined)
   return {
     stages: read(join(contentDir, 'stages.json')),
     modules,
     tasks: optional('speaking-tasks.json'),
     missions: optional('missions.json'),
+    vocab,
   }
 }
