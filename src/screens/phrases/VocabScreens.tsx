@@ -1,12 +1,13 @@
-import { Check, CheckCheck, ChevronRight, ListChecks } from 'lucide-react'
-import { useState } from 'react'
-import { ItemRow, StatusLegend } from '../../components/ItemRow'
+import { Check, CheckCheck, ChevronRight, Circle, Search, Undo2 } from 'lucide-react'
+import { useMemo, useState } from 'react'
+import { SpeakButton } from '../../components/SpeakButton'
 import { Button, Card, Muted, ProgressBar, Screen } from '../../components/ui'
 import { itemsOfModule, vocabItems, vocabSetById, vocabSets } from '../../content'
-import type { VocabLevel } from '../../content/schema'
-import { saveCards } from '../../db/repo'
-import { knownWordCard, knownWordDays, State, type StoredCard } from '../../lib/srs'
-import { useCards, useFavorites } from '../../state/hooks'
+import type { Item, VocabLevel } from '../../content/schema'
+import { isMarkedKnown, markItemsKnown, unmarkKnown } from '../../db/repo'
+import { fold } from '../../lib/search'
+import { isMastered, State, type StoredCard } from '../../lib/srs'
+import { useCards } from '../../state/hooks'
 import { navigate } from '../../state/router'
 
 const LEVEL_INFO: Record<VocabLevel, string> = {
@@ -16,26 +17,75 @@ const LEVEL_INFO: Record<VocabLevel, string> = {
   B2: 'B2 · bogatszy język',
 }
 
-const seen = (card: StoredCard | undefined) => !!card && card.state !== State.New
+/** „Umiem” = słowo odhaczone albo opanowane w powtórkach (następna powtórka za 21+ dni). */
+const known = (card: StoredCard | undefined) => isMastered(card)
+const learning = (card: StoredCard | undefined) => !!card && card.state !== State.New && !isMastered(card)
+
+/** Haczyk „Umiem” przy słowie: dotknij, żeby odhaczyć; odhaczone ręcznie można cofnąć. */
+function KnownToggle({ item, card }: { item: Item; card: StoredCard | undefined }) {
+  const isKnown = known(card)
+  const canUndo = isKnown && isMarkedKnown(card)
+  const onClick = () => {
+    if (!isKnown) void markItemsKnown([item.id])
+    else if (canUndo) void unmarkKnown(item.id)
+  }
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={isKnown && !canUndo}
+      aria-label={isKnown ? (canUndo ? `Cofnij „umiem”: ${item.en}` : `Opanowane: ${item.en}`) : `Umiem: ${item.en}`}
+      className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 transition active:scale-95 ${
+        isKnown
+          ? 'border-emerald-600 bg-emerald-600 text-white'
+          : 'border-zinc-300 text-zinc-300 hover:border-emerald-500 hover:text-emerald-500 dark:border-zinc-600 dark:text-zinc-600'
+      }`}
+    >
+      <Check size={22} strokeWidth={3} />
+    </button>
+  )
+}
+
+function VocabRow({ item, card }: { item: Item; card: StoredCard | undefined }) {
+  return (
+    <div className="flex items-center gap-3 border-b border-zinc-100 py-2.5 last:border-0 dark:border-zinc-800">
+      <SpeakButton text={item.en} slow={false} size="sm" />
+      <button type="button" className="min-w-0 flex-1 text-left" onClick={() => navigate(`/item/${encodeURIComponent(item.id)}`)}>
+        <p className="font-semibold leading-snug">{item.en}</p>
+        <p className="text-sm text-zinc-500 dark:text-zinc-400">
+          {item.pl}
+          {learning(card) && <span className="ml-1 text-amber-600 dark:text-amber-400">· uczę się</span>}
+        </p>
+      </button>
+      <KnownToggle item={item} card={card} />
+    </div>
+  )
+}
 
 /** Zakładka „Słownik” w Rozmówkach: zestawy słów od najprostszych i najczęstszych. */
 export function VocabList() {
   const cards = useCards()
   if (!cards) return null
   if (!vocabSets.length) return <Muted>Słownik jest w przygotowaniu.</Muted>
-  const known = vocabItems.filter((i) => seen(cards.get(i.id))).length
+  const knownCount = vocabItems.filter((i) => known(cards.get(i.id))).length
+  const learningCount = vocabItems.filter((i) => learning(cards.get(i.id))).length
   const levels = [...new Set(vocabSets.map((s) => s.level))]
   return (
     <div className="space-y-4">
-      <Card className="space-y-2">
-        <p className="font-bold">
-          {known} / {vocabItems.length} słów poznanych
-        </p>
-        <ProgressBar value={known / vocabItems.length} className="h-2" />
+      <Card className="space-y-3">
+        <div className="flex items-end justify-between">
+          <p className="text-lg font-bold">Umiem: {knownCount}</p>
+          <Muted>z {vocabItems.length} słów</Muted>
+        </div>
+        <ProgressBar value={knownCount / vocabItems.length} color="bg-emerald-500" className="h-2" />
+        {learningCount > 0 && <Muted>W trakcie nauki: {learningCount}</Muted>}
         <Muted>
-          Najczęściej używane słowa angielskie, od najprostszych. Nowe wchodzą do lekcji same (ile dziennie — w Ustawieniach). Te, które już znasz,
-          odhacz w zestawie — nie będziesz tracić na nie czasu.
+          Przy każdym słowie jest haczyk <Check size={14} className="inline" strokeWidth={3} /> — dotknij, jeśli już je umiesz. Trafi do Twoich słów i
+          nie będzie zajmować czasu w lekcjach.
         </Muted>
+        <Button full variant="secondary" onClick={() => navigate('/vocab/known')}>
+          <CheckCheck size={20} /> Słowa, które umiem ({knownCount})
+        </Button>
       </Card>
       {levels.map((level) => (
         <div key={level} className="space-y-2">
@@ -45,15 +95,15 @@ export function VocabList() {
               .filter((s) => s.level === level)
               .map((s) => {
                 const items = itemsOfModule(s.id)
-                const k = items.filter((i) => seen(cards.get(i.id))).length
+                const k = items.filter((i) => known(cards.get(i.id))).length
                 return (
                   <button key={s.id} type="button" onClick={() => navigate(`/vocab/${s.id}`)} className="flex w-full items-center gap-3 py-3 text-left">
                     <span className="min-w-0 flex-1">
                       <span className="block font-semibold">{s.title}</span>
                       <span className="block truncate text-sm text-zinc-500">
-                        {k}/{items.length} · {items.slice(0, 6).map((i) => i.en).join(', ')}…
+                        umiem {k}/{items.length} · {items.slice(0, 6).map((i) => i.en).join(', ')}…
                       </span>
-                      <ProgressBar value={k / items.length} className="mt-2 h-1" />
+                      <ProgressBar value={k / items.length} color="bg-emerald-500" className="mt-2 h-1" />
                     </span>
                     {k === items.length ? <Check size={18} className="text-emerald-600" /> : <ChevronRight size={18} className="text-zinc-400" />}
                   </button>
@@ -66,100 +116,101 @@ export function VocabList() {
   )
 }
 
-/** Zestaw słownika: lista słów + szybkie odhaczanie tych, które już znasz. */
+/** Zestaw słownika: lista słów z haczykiem „Umiem”. */
 export function VocabSetScreen({ setId }: { setId: string }) {
   const cards = useCards()
-  const favorites = useFavorites()
-  const [picking, setPicking] = useState(false)
-  const [picked, setPicked] = useState<Set<string>>(new Set())
-  const [saving, setSaving] = useState(false)
+  const [confirmAll, setConfirmAll] = useState(false)
   const set = vocabSetById.get(setId)
   if (!set) return <Screen title="Nie ma takiego zestawu" back="/phrases?tab=vocab">{null}</Screen>
   const items = itemsOfModule(setId)
-  if (!cards || !favorites) return <Screen title={set.title} back="/phrases?tab=vocab">{null}</Screen>
-  const fresh = items.filter((i) => !seen(cards.get(i.id)))
-
-  const toggle = (id: string) =>
-    setPicked((p) => {
-      const n = new Set(p)
-      if (n.has(id)) n.delete(id)
-      else n.add(id)
-      return n
-    })
-
-  const save = async () => {
-    setSaving(true)
-    const now = new Date()
-    await saveCards([...picked].map((id) => knownWordCard(id, now, knownWordDays(id))))
-    setPicked(new Set())
-    setPicking(false)
-    setSaving(false)
-  }
+  if (!cards) return <Screen title={set.title} back="/phrases?tab=vocab">{null}</Screen>
+  const notKnown = items.filter((i) => !known(cards.get(i.id)))
+  const k = items.length - notKnown.length
 
   return (
     <Screen title={set.title} back="/phrases?tab=vocab">
       <Muted>{LEVEL_INFO[set.level]}</Muted>
       <p className="mt-2 text-zinc-700 dark:text-zinc-300">{set.description}</p>
-
-      {picking ? (
-        <div className="mt-4 space-y-3">
-          <Muted>Dotknij słów, które znasz (wiesz, co znaczą i umiesz je powiedzieć). Wrócą do sprawdzenia za kilka tygodni.</Muted>
-          <div className="flex gap-2">
-            <Button variant="secondary" className="flex-1" onClick={() => setPicked(new Set(fresh.map((i) => i.id)))}>
-              <CheckCheck size={18} /> Wszystkie
-            </Button>
-            <Button variant="ghost" className="flex-1" onClick={() => setPicked(new Set())}>
-              Wyczyść
-            </Button>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {items.map((i) => {
-              const done = seen(cards.get(i.id))
-              const on = picked.has(i.id)
-              return (
-                <button
-                  key={i.id}
-                  type="button"
-                  disabled={done}
-                  onClick={() => toggle(i.id)}
-                  className={`rounded-2xl border-2 px-3 py-2 text-left transition ${
-                    done
-                      ? 'border-transparent bg-emerald-50 text-emerald-800 opacity-60 dark:bg-emerald-950 dark:text-emerald-200'
-                      : on
-                        ? 'border-violet-600 bg-violet-600 text-white'
-                        : 'border-zinc-200 bg-white dark:border-zinc-700 dark:bg-zinc-900'
-                  }`}
-                >
-                  <span className="block font-semibold">{i.en}</span>
-                  <span className={`block text-xs ${on ? 'text-violet-100' : 'text-zinc-500'}`}>{i.pl}</span>
-                </button>
-              )
-            })}
-          </div>
-          <div className="sticky bottom-24 z-10 flex gap-2 rounded-2xl bg-white/95 p-2 shadow-lg ring-1 ring-zinc-200 backdrop-blur dark:bg-zinc-900/95 dark:ring-zinc-700">
-            <Button variant="ghost" className="flex-1" onClick={() => { setPicking(false); setPicked(new Set()) }}>
-              Anuluj
-            </Button>
-            <Button className="flex-[2]" disabled={!picked.size || saving} onClick={save}>
-              <Check size={20} /> Znam te ({picked.size})
-            </Button>
-          </div>
+      <Card className="mt-4 space-y-2">
+        <div className="flex items-end justify-between">
+          <p className="font-bold">Umiem: {k}</p>
+          <Muted>z {items.length}</Muted>
         </div>
-      ) : (
-        <div className="mt-4 space-y-4">
-          {fresh.length > 0 && (
-            <Button full variant="secondary" onClick={() => setPicking(true)}>
-              <ListChecks size={20} /> Odhacz słowa, które już znasz
+        <ProgressBar value={k / items.length} color="bg-emerald-500" className="h-2" />
+        <Muted>
+          Dotknij haczyka <Check size={14} className="inline" strokeWidth={3} /> przy słowach, które już umiesz. Pomyłka? Dotknij jeszcze raz, żeby cofnąć.
+        </Muted>
+        {notKnown.length > 0 &&
+          (confirmAll ? (
+            <div className="flex gap-2">
+              <Button variant="ghost" className="flex-1" onClick={() => setConfirmAll(false)}>
+                Anuluj
+              </Button>
+              <Button
+                className="flex-[2]"
+                onClick={async () => {
+                  await markItemsKnown(notKnown.map((i) => i.id))
+                  setConfirmAll(false)
+                }}
+              >
+                <CheckCheck size={20} /> Tak, umiem wszystkie
+              </Button>
+            </div>
+          ) : (
+            <Button variant="secondary" full onClick={() => setConfirmAll(true)}>
+              <CheckCheck size={20} /> Umiem wszystkie z tego zestawu ({notKnown.length})
             </Button>
-          )}
-          <StatusLegend />
-          <Card className="py-1">
-            {items.map((i) => (
-              <ItemRow key={i.id} item={i} card={cards.get(i.id)} favorite={favorites.has(i.id)} />
-            ))}
-          </Card>
+          ))}
+      </Card>
+      <Card className="mt-4 py-1">
+        {items.map((i) => (
+          <VocabRow key={i.id} item={i} card={cards.get(i.id)} />
+        ))}
+      </Card>
+    </Screen>
+  )
+}
+
+/** „Słowa, które umiem” — odhaczone i opanowane, z wyszukiwarką. */
+export function VocabKnownScreen() {
+  const cards = useCards()
+  const [query, setQuery] = useState('')
+  const list = useMemo(() => (cards ? vocabItems.filter((i) => known(cards.get(i.id))) : []), [cards])
+  const q = fold(query.trim())
+  const shown = q ? list.filter((i) => fold(i.en).includes(q) || fold(i.pl).includes(q)) : list
+  return (
+    <Screen title="Słowa, które umiem" back="/phrases?tab=vocab">
+      <p className="text-lg font-bold">{list.length} słów</p>
+      <Muted>Wrócą do szybkiego sprawdzenia za kilka tygodni — żeby na pewno zostały w głowie.</Muted>
+      {list.length > 8 && (
+        <div className="relative mt-3">
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-zinc-400" size={20} />
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Szukaj…"
+            className="w-full rounded-2xl border-2 border-zinc-200 bg-white py-3 pl-12 pr-4 outline-none focus:border-violet-500 dark:border-zinc-700 dark:bg-zinc-900"
+          />
         </div>
       )}
+      {cards &&
+        (list.length ? (
+          <Card className="mt-4 py-1">
+            {shown.map((i) => (
+              <VocabRow key={i.id} item={i} card={cards.get(i.id)} />
+            ))}
+          </Card>
+        ) : (
+          <Card className="mt-4 space-y-2">
+            <p className="flex items-center gap-2 font-semibold">
+              <Circle size={18} /> Jeszcze pusto
+            </p>
+            <Muted>Wejdź w zestaw w Słowniku i dotknij haczyka przy słowach, które znasz.</Muted>
+            <Button variant="ghost" onClick={() => navigate('/phrases?tab=vocab')}>
+              <Undo2 size={18} /> Wróć do Słownika
+            </Button>
+          </Card>
+        ))}
     </Screen>
   )
 }

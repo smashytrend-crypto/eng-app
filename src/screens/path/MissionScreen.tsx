@@ -2,14 +2,12 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { ChevronRight, Eye, Sparkles, Trophy, X } from 'lucide-react'
 import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import { ClaudePracticeCard } from '../../components/ClaudePracticeCard'
-import { HeardResult, MicCheckButton, useMicAvailable } from '../../components/SpeechCheck'
 import { SpeakButton } from '../../components/SpeakButton'
 import { Button, Card, Muted, ProgressBar } from '../../components/ui'
 import { missions } from '../../content'
 import type { Item, Mission } from '../../content/schema'
 import { db } from '../../db/db'
 import { addStudySeconds } from '../../db/repo'
-import type { CheckResult } from '../../lib/answerCheck'
 import { addDays, dayStart, weekKey } from '../../lib/dates'
 import { recallPrompt } from '../../lib/exercises'
 import { currentStage, introducedSince } from '../../lib/stats'
@@ -117,11 +115,9 @@ function Wrapper({ children }: { children: ReactNode }) {
 
 function Scene({ mission, onDone }: { mission: Mission; onDone: () => void }) {
   const speech = useSpeech()
-  const mic = useMicAvailable()
   const [idx, setIdx] = useState(0)
   const [revealed, setRevealed] = useState(false)
   const [showPl, setShowPl] = useState(false)
-  const [heard, setHeard] = useState<{ heard: string; result: CheckResult } | null>(null)
   const step = mission.steps[idx]
 
   useEffect(() => {
@@ -131,7 +127,6 @@ function Scene({ mission, onDone }: { mission: Mission; onDone: () => void }) {
   const next = () => {
     setRevealed(false)
     setShowPl(false)
-    setHeard(null)
     if (idx + 1 >= mission.steps.length) onDone()
     else setIdx(idx + 1)
   }
@@ -165,7 +160,6 @@ function Scene({ mission, onDone }: { mission: Mission; onDone: () => void }) {
           <p className="text-xs font-bold uppercase text-fuchsia-600">Twoja kolej</p>
           <p className="text-xl font-bold">{step.task}</p>
         </div>
-        {heard && <HeardResult {...heard} />}
         {revealed && (
           <div className="animate-pop flex items-start justify-between gap-2 rounded-2xl border-2 border-violet-200 bg-white p-4 dark:border-violet-900 dark:bg-zinc-900">
             <div>
@@ -184,17 +178,7 @@ function Scene({ mission, onDone }: { mission: Mission; onDone: () => void }) {
           </Button>
         ) : (
           <>
-            {mic && (
-              <MicCheckButton
-                answers={[step.answer, ...(step.alt ?? [])]}
-                onResult={(r) => {
-                  if (!r) return
-                  setHeard(r)
-                  reveal()
-                }}
-              />
-            )}
-            <Button full variant={mic ? 'secondary' : 'primary'} size={mic ? 'lg' : 'xl'} onClick={reveal}>
+            <Button full size="xl" onClick={reveal}>
               <Eye size={20} /> Powiedziałem — pokaż przykład
             </Button>
           </>

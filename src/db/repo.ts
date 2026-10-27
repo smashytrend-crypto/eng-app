@@ -2,7 +2,7 @@ import { isVocab, type Item } from '../content/schema'
 import { dayKey } from '../lib/dates'
 import type { QueueEntry } from '../lib/lessonQueue'
 import { requeueIndex, MAX_REPEATS_IN_SESSION } from '../lib/lessonQueue'
-import { newCard, reviewCard, type Grade, type StoredCard } from '../lib/srs'
+import { knownWordCard, knownWordDays, newCard, reviewCard, State, type Grade, type StoredCard } from '../lib/srs'
 import { db as defaultDb, type AppDB, type DayRow, type SessionRow, type Settings } from './db'
 
 export const DEFAULT_TARGET_DATE = '2027-07-01'
@@ -129,6 +129,34 @@ export async function skipEntry(session: SessionRow, db: AppDB = defaultDb): Pro
 
 export async function addStudySeconds(seconds: number, now = new Date(), db: AppDB = defaultDb): Promise<void> {
   await updateDay(dayKey(now), (d) => ({ ...d, seconds: d.seconds + Math.round(seconds) }), db)
+}
+
+/** Czy karta powstała z „Umiem” (a nie z nauki) — tylko takie można odznaczyć bez utraty postępu. */
+export function isMarkedKnown(card: StoredCard | undefined): boolean {
+  return !!card && card.state === State.Review && card.reps === 1 && card.lapses === 0 && card.difficulty === 3
+}
+
+/** „Umiem”: element od razu w powtórkach z długim odstępem (rozłożonym, żeby nie wróciły naraz). */
+export async function markItemsKnown(itemIds: string[], now = new Date(), db: AppDB = defaultDb): Promise<void> {
+  await db.cards.bulkPut(itemIds.map((id) => knownWordCard(id, now, knownWordDays(id))))
+}
+
+/** Cofnięcie „Umiem” — element wraca do nowych. */
+export async function unmarkKnown(itemId: string, db: AppDB = defaultDb): Promise<void> {
+  await db.cards.delete(itemId)
+}
+
+/** „Już to znam” w trakcie lekcji: oznacza element jako znany i przechodzi dalej (liczy się do dzisiejszych nowych). */
+export async function knownInLesson(item: Item, session: SessionRow, now = new Date(), db: AppDB = defaultDb): Promise<SessionRow> {
+  const key = dayKey(now)
+  return db.transaction('rw', [db.cards, db.days, db.session], async () => {
+    await db.cards.put(knownWordCard(item.id, now, knownWordDays(item.id)))
+    const day = await getDay(key, db)
+    await db.days.put({ ...day, newItems: day.newItems + 1, vocabNew: (day.vocabNew ?? 0) + (isVocab(item) ? 1 : 0) })
+    const next = { ...session, index: session.index + 1 }
+    await db.session.put(next)
+    return next
+  })
 }
 
 /** Ręczne oznaczenie elementów jako znanych (test startowy). */

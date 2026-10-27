@@ -66,7 +66,7 @@ src/
     exercises.ts              dane do ćwiczeń: przypominanie, luka, rozsypanka, zdanie do dyktanda
     stats.ts, search.ts, tasks.ts, audioPlaylist.ts, claudePrompt.ts
   state/                    router (#hash), motyw, hooki (ustawienia, karty, mowa), start lekcji, PWA
-  speech/                   TTS (wybór najlepszego głosu EN/PL), rozpoznawanie mowy
+  speech/                   TTS (wybór najlepszego głosu EN/PL). Bez rozpoznawania mowy — Domin mówi na głos i ocenia się sam (jego decyzja)
   screens/                  Today, lesson/* (8 rodzajów ćwiczeń), Onboarding, Settings, path/* (Ścieżka,
                             misje), phrases/* (rozmówki, moduł, element, własne zwroty), audio/, Progress
   components/               wspólne komponenty UI (Button, Card, BottomNav, ...)
@@ -154,7 +154,7 @@ funkcyjnych i bez tego, co już jest w programie), ułożonych **poziom (A1→B2
   `src/content/index.ts`. Ten sam `en` nie może być w słowniku i w programie (walidator).
 - Lekcja: osobny limit `vocabPerDay` (domyślnie 5) obok `newPerDay`; licznik dnia `vocabNew`.
   Plan wakacyjny liczy tylko program (etapy) — słownik jest „na dłużej”.
-- Rozmówki → Słownik → zestaw → „Odhacz słowa, które już znasz” = karta w powtórkach z odstępem 21–90 dni
+- Haczyk „Umiem” przy każdym słowie (zestaw, ekran słowa, lista „Słowa, które umiem”) i „Już to umiem — pomiń” przy nowym elemencie w lekcji = karta w powtórkach z odstępem 21–90 dni
   (`knownWordCard`), żeby setki znanych słów nie wróciły jednego dnia.
 - Zestawy są przeliczane przy każdym generowaniu (słowo może przejść do innego zestawu) — postęp jest
   przypięty do `id`, więc to bezpieczne. Dodając słowa, trzymaj format i odpal `npm run validate`.
@@ -203,7 +203,7 @@ Poprawianie tekstu (`en`, `pl`, przykładów) jest OK.
 ## Fazy
 - [x] Faza 1 — MVP: lekcja (FSRS, karty PL → EN, wpisywanie, odsłuch), onboarding, ustawienia,
       eksport/import, treści Etapu 1, PWA, wdrożenie.
-- [x] Faza 2 — mówienie i ćwiczenia: luki, rozsypanki, dyktando, rozpoznawanie mowy, shadowing,
+- [x] Faza 2 — mówienie i ćwiczenia: luki, rozsypanki, dyktando, shadowing (rozpoznawanie mowy usunięte na prośbę Domina),
       zadanie mówione, „Ćwicz rozmowę z Claude”.
 - [x] Faza 3 — prowadzenie: Ścieżka do wakacji (plan, wyjazdy), rozmówki, własne zwroty, trudne,
       tryb audio, postępy.

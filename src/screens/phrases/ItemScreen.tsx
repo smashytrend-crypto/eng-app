@@ -1,14 +1,14 @@
-import { Pencil, Star, Trash2 } from 'lucide-react'
+import { Check, Pencil, Star, Trash2, Undo2 } from 'lucide-react'
 import { useState } from 'react'
 import { ItemBadges, ItemDetails } from '../../components/ItemDetails'
 import { SpeakButton } from '../../components/SpeakButton'
 import { Button, Card, Muted, Screen } from '../../components/ui'
 import { moduleById, vocabSetById } from '../../content'
 import { db } from '../../db/db'
-import { toggleFavorite } from '../../db/repo'
+import { isMarkedKnown, markItemsKnown, toggleFavorite, unmarkKnown } from '../../db/repo'
 import { firstLettersHint } from '../../lib/exercises'
 import { cardStatus, STATUS_LABELS } from '../../lib/stats'
-import { formatInterval } from '../../lib/srs'
+import { formatInterval, isMastered } from '../../lib/srs'
 import { useAllItems, useCards, useFavorites } from '../../state/hooks'
 import { goBack, navigate } from '../../state/router'
 
@@ -62,6 +62,20 @@ export function ItemScreen({ itemId }: { itemId: string }) {
             <p className="text-zinc-600 dark:text-zinc-400">Słownik: {vocabSetById.get(item.module)!.title}</p>
           )}
         </Card>
+
+        {item.type !== 'dialog' && !item.custom && (
+          isMastered(card) ? (
+            isMarkedKnown(card) && (
+              <Button variant="ghost" full onClick={() => unmarkKnown(item.id)}>
+                <Undo2 size={18} /> Cofnij „Umiem” — wróci do nauki
+              </Button>
+            )
+          ) : (
+            <Button variant="secondary" full onClick={() => markItemsKnown([item.id])}>
+              <Check size={20} /> Umiem to — nie ucz mnie
+            </Button>
+          )
+        )}
 
         {item.type !== 'dialog' && (
           <div>

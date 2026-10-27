@@ -14,7 +14,7 @@ import { TypeCard } from './TypeCard'
 export function ExerciseCard(props: CardProps) {
   const { entry, item } = props
   const [presented, setPresented] = useState(entry.kind !== 'new')
-  if (!presented) return <NewItemCard item={item} onContinue={() => setPresented(true)} />
+  if (!presented) return <NewItemCard item={item} onContinue={() => setPresented(true)} onKnown={props.onKnown} busy={props.busy} />
   if (item.type === 'dialog') return <DialogCard {...props} />
   if (entry.kind === 'new') return <RecallCard {...props} label="Szybkie przypomnienie" />
   switch (entry.mode) {

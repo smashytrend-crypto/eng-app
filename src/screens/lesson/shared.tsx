@@ -12,6 +12,8 @@ export interface CardProps {
   card: StoredCard | undefined
   onRate: (g: Grade) => void
   busy?: boolean
+  /** „Już to znam” przy nowym elemencie. */
+  onKnown?: () => void
 }
 
 /** Układ karty ćwiczenia: treść u góry, przyciski na dole (pod kciukiem). */

@@ -1,4 +1,4 @@
-import { Play, Sparkles } from 'lucide-react'
+import { Check, Play, Sparkles } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { DialogLines, ItemDetails } from '../../components/ItemDetails'
 import { SpeakButton } from '../../components/SpeakButton'
@@ -17,7 +17,7 @@ export async function playDialog(item: Item, speech: Speech, signal?: { cancelle
 }
 
 /** Prezentacja nowego elementu (EN → PL, odsłuch, przykład). Potem od razu szybkie przypomnienie. */
-export function NewItemCard({ item, onContinue }: { item: Item; onContinue: () => void }) {
+export function NewItemCard({ item, onContinue, onKnown, busy }: { item: Item; onContinue: () => void; onKnown?: () => void; busy?: boolean }) {
   const settings = useSettings()
   const speech = useSpeech()
   const played = useRef(false)
@@ -40,9 +40,16 @@ export function NewItemCard({ item, onContinue }: { item: Item; onContinue: () =
     <ExerciseShell
       label={`Nowy element · ${TYPE_LABELS[item.type]}`}
       actions={
-        <Button full size="xl" onClick={onContinue}>
-          <Sparkles size={22} /> {item.type === 'dialog' ? 'Dalej: odegraj dialog' : 'Dalej: powiedz to sam'}
-        </Button>
+        <>
+          <Button full size="xl" onClick={onContinue}>
+            <Sparkles size={22} /> {item.type === 'dialog' ? 'Dalej: odegraj dialog' : 'Dalej: powiedz to sam'}
+          </Button>
+          {onKnown && item.type !== 'dialog' && (
+            <Button full variant="secondary" onClick={onKnown} disabled={busy}>
+              <Check size={20} /> Już to umiem — pomiń
+            </Button>
+          )}
+        </>
       }
     >
       <div className="space-y-2">

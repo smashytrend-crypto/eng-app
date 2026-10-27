@@ -2,7 +2,7 @@ import { X } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { ProgressBar, Spinner } from '../../components/ui'
 import { db, type SessionRow } from '../../db/db'
-import { recordAnswer, skipEntry } from '../../db/repo'
+import { knownInLesson, recordAnswer, skipEntry } from '../../db/repo'
 import { dayKey } from '../../lib/dates'
 import type { QueueEntry } from '../../lib/lessonQueue'
 import type { Grade } from '../../lib/srs'
@@ -52,6 +52,19 @@ export function LessonScreen() {
     [session, all, busy],
   )
 
+  const onKnown = useCallback(async () => {
+    if (!session || !all || busy) return
+    const e = session.entries[session.index]
+    const it = e && all.byId.get(e.itemId)
+    if (!it) return
+    setBusy(true)
+    try {
+      setSession(await knownInLesson(it, session))
+    } finally {
+      setBusy(false)
+    }
+  }, [session, all, busy])
+
   const entry = session && !finished ? session.entries[session.index] : undefined
   const item = entry && all ? all.byId.get(entry.itemId) : undefined
 
@@ -86,6 +99,7 @@ export function LessonScreen() {
         item={item}
         card={cards.get(item.id)}
         onRate={(g) => onRate(entry, g)}
+        onKnown={entry.kind === 'new' ? onKnown : undefined}
         busy={busy}
       />
     </div>

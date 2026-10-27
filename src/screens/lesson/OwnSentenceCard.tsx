@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { DialogLines } from '../../components/ItemDetails'
 import { RatingButtons } from '../../components/RatingButtons'
 import { SpeakButton } from '../../components/SpeakButton'
-import { FreeMic } from '../../components/SpeechCheck'
 import { Button, Muted } from '../../components/ui'
 import { MODE_LABELS } from '../../lib/labels'
 import { ExerciseShell, type CardProps } from './shared'
@@ -32,7 +31,6 @@ export function OwnSentenceCard({ item, card, onRate, busy }: CardProps) {
         <p className="text-lg text-zinc-600 dark:text-zinc-300">{item.pl}</p>
       </div>
       <Muted>Ułóż własne zdanie z tym wzorcem — o sobie, swoim dniu, siłowni, muzyce. Powiedz je na głos.</Muted>
-      <FreeMic label="Powiedz swoje zdanie (mikrofon)" />
       {shown && (
         <div className="space-y-2">
           {item.type === 'dialog' ? (

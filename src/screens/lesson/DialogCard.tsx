@@ -2,10 +2,8 @@ import { ChevronRight, Eye } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { DialogLines } from '../../components/ItemDetails'
 import { RatingButtons } from '../../components/RatingButtons'
-import { HeardResult, MicCheckButton, useMicAvailable } from '../../components/SpeechCheck'
 import { SpeakButton } from '../../components/SpeakButton'
 import { Button, Muted, Segmented } from '../../components/ui'
-import type { CheckResult } from '../../lib/answerCheck'
 import { MODE_LABELS } from '../../lib/labels'
 import { ttsSupported } from '../../speech/tts'
 import { useSpeech } from '../../state/hooks'
@@ -16,13 +14,11 @@ type Role = 'A' | 'B'
 /** Odgrywanie mini-dialogu: lektor czyta drugą rolę, Ty mówisz swoje kwestie (z polskiej podpowiedzi). */
 export function DialogCard({ item, card, onRate, busy }: CardProps) {
   const speech = useSpeech()
-  const mic = useMicAvailable()
   const lines = item.example
   const [role, setRole] = useState<Role>((card?.reps ?? 0) % 2 === 0 ? 'B' : 'A')
   const [started, setStarted] = useState(false)
   const [idx, setIdx] = useState(0)
   const [revealed, setRevealed] = useState(false)
-  const [heard, setHeard] = useState<{ heard: string; result: CheckResult } | null>(null)
   const done = idx >= lines.length
   const line = lines[idx]
   const mine = line?.speaker === role
@@ -42,7 +38,6 @@ export function DialogCard({ item, card, onRate, busy }: CardProps) {
   const next = () => {
     setIdx((i) => i + 1)
     setRevealed(false)
-    setHeard(null)
   }
   const reveal = () => {
     setRevealed(true)
@@ -109,17 +104,7 @@ export function DialogCard({ item, card, onRate, busy }: CardProps) {
             </Button>
           ) : (
             <>
-              {mic && (
-                <MicCheckButton
-                  answers={[line.en, ...(line.alt ?? [])]}
-                  onResult={(r) => {
-                    if (!r) return
-                    setHeard(r)
-                    reveal()
-                  }}
-                />
-              )}
-              <Button full variant={mic ? 'secondary' : 'primary'} size={mic ? 'lg' : 'xl'} onClick={reveal}>
+              <Button full size="xl" onClick={reveal}>
                 <Eye size={20} /> Pokaż moją kwestię
               </Button>
             </>
@@ -150,7 +135,6 @@ export function DialogCard({ item, card, onRate, busy }: CardProps) {
           <Bubble speaker={line.speaker!} mine={false} en={line.en} pl={line.pl} speaking />
         )}
       </div>
-      {heard && <HeardResult {...heard} />}
     </ExerciseShell>
   )
 }

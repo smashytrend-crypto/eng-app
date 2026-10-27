@@ -7,7 +7,6 @@ import { saveSettings } from '../db/repo'
 import { dayKey, diffDays, formatDatePl, pluralN } from '../lib/dates'
 import { saveFile } from '../lib/download'
 import type { TypingPreference } from '../lib/lessonQueue'
-import { recognitionSupported } from '../speech/recognition'
 import { loadVoices, ttsSupported, voicesFor } from '../speech/tts'
 import { useSettings, useSpeech } from '../state/hooks'
 import { usePwa } from '../state/pwa'
@@ -69,12 +68,6 @@ export function SettingsScreen() {
           />
         </div>
         <Toggle checked={settings.autoPlay} onChange={(v) => set({ autoPlay: v })} label="Automatyczny odsłuch" hint="Lektor czyta odpowiedź po odsłonięciu." />
-        <Toggle
-          checked={settings.recognition && recognitionSupported}
-          onChange={(v) => set({ recognition: v })}
-          label="Rozpoznawanie mowy"
-          hint={recognitionSupported ? 'Mikrofon porównuje to, co mówisz, z poprawną wersją (wymaga internetu).' : 'Ta przeglądarka nie obsługuje — oceniasz się sam.'}
-        />
       </Card>
 
       <SectionTitle>Lektor</SectionTitle>

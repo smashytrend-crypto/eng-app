@@ -1,23 +1,18 @@
 import { Repeat } from 'lucide-react'
 import { useState } from 'react'
 import { RatingButtons } from '../../components/RatingButtons'
-import { HeardResult, MicCheckButton, useMicAvailable } from '../../components/SpeechCheck'
 import { Button, Muted } from '../../components/ui'
-import type { CheckResult } from '../../lib/answerCheck'
 import { sentenceFor } from '../../lib/exercises'
 import { MODE_LABELS } from '../../lib/labels'
 import { useSpeech } from '../../state/hooks'
 import { ExerciseShell, PromptPl, type CardProps } from './shared'
-import { suggestedGrade } from './TypeCard'
 
 /** Shadowing: odsłuch 0,8× i 1×, powtarzasz za lektorem. */
 export function ShadowCard({ item, entry, card, onRate, busy }: CardProps) {
   const speech = useSpeech()
-  const mic = useMicAvailable()
   const s = sentenceFor(item, entry.exampleIndex)
   const [rounds, setRounds] = useState(0)
   const [playing, setPlaying] = useState<number | null>(null)
-  const [heard, setHeard] = useState<{ heard: string; result: CheckResult } | null>(null)
 
   const play = async (factor: number) => {
     setPlaying(factor)
@@ -34,7 +29,7 @@ export function ShadowCard({ item, entry, card, onRate, busy }: CardProps) {
         <>
           {rounds >= 2 && <p className="text-center text-sm font-semibold text-zinc-500">Jak ci szło?</p>}
           {rounds >= 2 ? (
-            <RatingButtons item={item} card={card} onRate={onRate} disabled={busy} suggested={heard ? suggestedGrade(heard.result) : undefined} />
+            <RatingButtons item={item} card={card} onRate={onRate} disabled={busy} />
           ) : (
             <Muted className="text-center">Posłuchaj najpierw wolniej, potem w normalnym tempie.</Muted>
           )}
@@ -57,8 +52,6 @@ export function ShadowCard({ item, entry, card, onRate, busy }: CardProps) {
           Powtarzaj na głos razem z lektorem albo zaraz po nim — 2–3 razy. Naśladuj melodię i tempo, nie tylko słowa.
         </p>
       </div>
-      {mic && rounds >= 1 && <MicCheckButton answers={[s.en, ...s.alt]} onResult={setHeard} label="Sprawdź wymowę (mikrofon)" size="md" />}
-      {heard && <HeardResult {...heard} />}
     </ExerciseShell>
   )
 }
